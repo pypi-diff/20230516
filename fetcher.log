@@ -597,3 +597,46 @@
 [2023-05-16 00:29:32] INFO root fetch - main [MainThread]: End processing [data-diff]: success
 [2023-05-16 00:29:32] INFO root fetch - main [MainThread]: End processing [chromadb]: success
 [2023-05-16 00:29:32] INFO root fetch - main [MainThread]: Store serial: [18114202]
+[2023-05-16 00:34:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114202]
+[2023-05-16 00:34:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-16 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hifi
+[2023-05-16 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2023-05-16 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vcorelib
+[2023-05-16 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 5gasp-cli
+[2023-05-16 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idem-aws
+[2023-05-16 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: madhatter
+[2023-05-16 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2023-05-16 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eulith-web3
+[2023-05-16 00:34:41] WARNING root fetch - processPackages [5gasp-cli]: Skipping, unable to determine old version
+[2023-05-16 00:34:41] INFO root fetch - main [MainThread]: End processing [5gasp-cli] error
+[2023-05-16 00:34:41] INFO root fetch - processPackages [modal-client]: New version: [0.49.2182] Old Version: [0.49.2177]
+[2023-05-16 00:34:41] INFO root fetch - processPackages [hifi]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-05-16 00:34:41] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 00:34:41] WARNING root fetch - processPackages [madhatter]: Skipping, unable to determine old version
+[2023-05-16 00:34:41] INFO root fetch - processPackages [eulith-web3]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 00:34:41] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-16 00:34:41] INFO root fetch - main [MainThread]: End processing [madhatter] error
+[2023-05-16 00:34:41] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2177-py3-none-any.whl.zip tmp/modal_client-0.49.2182-py3-none-any.whl.zip --markdown 20230516/m/modal-client/0.49.2177-0.49.2182/diff.md --exclude *.pyd
+[2023-05-16 00:34:41] INFO root fetch - processPackages [vcorelib]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-16 00:34:41] INFO root fetch - processPackages [idem-aws]: New version: [2.0.0] Old Version: [1.7.5]
+[2023-05-16 00:34:41] INFO root fetch - processPackages [hifi]: Downloading https://files.pythonhosted.org/packages/cb/83/0d848208194bfaa656987395130e331d6ed0b81e02853098a414212ffff0/hifi-3.0.0-py3.9.egg
+[2023-05-16 00:34:41] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-16 00:34:41] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230516/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 00:34:41] INFO root fetch - processPackages [idem-aws]: Downloading https://files.pythonhosted.org/packages/40/ac/9aaadd256fcf8d3c2d1810fc53b078974a49ed8edeb066f0943de3687cd0/idem-aws-1.7.5.tar.gz
+[2023-05-16 00:34:41] INFO root fetch - processPackages [hifi]: executing diffoscope
+[2023-05-16 00:34:41] INFO root fetch - processPackages [hifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hifi-2.0.0-py3.9.egg tmp/hifi-3.0.0-py3.9.egg --markdown 20230516/h/hifi/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-16 00:34:41] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/d1/4b/ababde6159c9524c4bdae3b8379ca9434ad7df946b3c4209bbd8034bb0db/vcorelib-1.6.5.tar.gz
+[2023-05-16 00:34:42] INFO root fetch - processPackages [eulith-web3]: executing diffoscope
+[2023-05-16 00:34:42] INFO root fetch - processPackages [eulith-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulith_web3-0.0.8.tar.gz tmp/eulith_web3-0.0.9.tar.gz --markdown 20230516/e/eulith-web3/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 00:34:42] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-05-16 00:34:42] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-1.6.4.tar.gz tmp/vcorelib-1.6.5.tar.gz --markdown 20230516/v/vcorelib/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-16 00:34:42] INFO root fetch - processPackages [idem-aws]: Downloading https://files.pythonhosted.org/packages/83/a4/1de76b8b4155b84dcf0ecbda9357ba8671abd95f8eaa61a9ed3b5d23026c/idem-aws-2.0.0.tar.gz
+[2023-05-16 00:34:42] INFO root fetch - processPackages [idem-aws]: executing diffoscope
+[2023-05-16 00:34:42] INFO root fetch - processPackages [idem-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-aws-1.7.5.tar.gz tmp/idem-aws-2.0.0.tar.gz --markdown 20230516/i/idem-aws/1.7.5-2.0.0/diff.md --exclude *.pyd
+[2023-05-16 00:34:43] INFO root fetch - main [MainThread]: End processing [hifi]: success
+[2023-05-16 00:34:43] INFO root fetch - main [MainThread]: End processing [eulith-web3]: success
+[2023-05-16 00:34:43] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-16 00:34:43] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-05-16 00:34:45] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-16 00:34:47] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
+[2023-05-16 00:34:47] INFO root fetch - main [MainThread]: Store serial: [18114238]
