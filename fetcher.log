@@ -1081,3 +1081,85 @@
 [2023-05-16 01:26:59] INFO root fetch - main [MainThread]: End processing [sageworks]: success
 [2023-05-16 01:26:59] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
 [2023-05-16 01:26:59] INFO root fetch - main [MainThread]: Store serial: [18114486]
+[2023-05-16 01:32:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114486]
+[2023-05-16 01:32:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aihandler
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasai
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classparse
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-aiven
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-cloudflare
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geolibs
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clear-skies-akeyless-custom-producer
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mplhep
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibeam
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: navigator-api
+[2023-05-16 01:32:08] INFO root fetch - processPackages [classparse]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pandasai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [geolibs]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ibeam]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [clear-skies-akeyless-custom-producer]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.2.0a1684191600] Old Version: [5.2.0a1684190677]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.2.0a1684191618] Old Version: [6.2.0a1684187488]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [mplhep]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-05-16 01:32:08] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230516/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/f4/af/e8043ef5498d953359a2fd5b7ba75d37c9464ccd4eb4c72910bb3cf72eb1/pulumi_aiven-6.2.0a1684187488.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/7a/6b/fe3e815130c1936a7803dea2f136da483e7d861347a5b09c040a826473ab/pandasai-0.2.8.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ibeam]: Downloading https://files.pythonhosted.org/packages/91/a1/e19ea6f9a0dab14bc1486ae50df038b929b11fb14cdafba6f9968c1cb8a6/ibeam-0.4.3.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [clear-skies-akeyless-custom-producer]: Downloading https://files.pythonhosted.org/packages/f6/19/eea28dba8b9b054a71d222b0b8b35ca29798fade4a5beaf6ce49987a49a3/clear-skies-akeyless-custom-producer-0.9.0.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/85/3f/f39dc143ce509a971812814874018a3a0160d80537852a8ee137cece9403/geolibs-0.0.6.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [mplhep]: Downloading https://files.pythonhosted.org/packages/3e/23/96f4d67432c03f398c31ba59fd42fddda4c686a75e62bbb632f2600d90f4/mplhep-0.3.8.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/0c/f5/37c63d6abb34c09713161d1a92fb32220827339e77ec2feb860a0e88956f/pulumi_cloudflare-5.2.0a1684191600.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [classparse]: Downloading https://files.pythonhosted.org/packages/8f/37/4e2385400996184706e46020545f93253f30adf97d5f60abd4bb200a09d9/classparse-0.1.1.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ibeam]: Downloading https://files.pythonhosted.org/packages/01/e0/5ed21d2a8aff97bb589e2405ea0e84fb23c401a70854d647ef3ee7e08497/ibeam-0.4.4.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/c6/6c/24a43fc52a0a1932185f92c1abd67aa331ee1a719a6df450bd493bb0342d/geolibs-0.0.7.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/e5/02/67f3faac4aa0bea7cdff2f30c5bba49feca44b289efd9c11043acc7deaa9/pulumi_aiven-6.2.0a1684191618.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.6.tar.gz tmp/geolibs-0.0.7.tar.gz --markdown 20230516/g/geolibs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ibeam]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [ibeam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibeam-0.4.3.tar.gz tmp/ibeam-0.4.4.tar.gz --markdown 20230516/i/ibeam/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-16 01:32:08] INFO root fetch - processPackages [mplhep]: Downloading https://files.pythonhosted.org/packages/79/7d/14def2d0871d2c96df5d1427dad4024d57c8ca1c5ed0e3e57724ae2f430c/mplhep-0.3.9.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/1f/53/1ac70595b26514aafd7eaa6cb84f5c5e4ed5fb3ad887a42cbc9e7d9d901d/pandasai-0.2.9.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [clear-skies-akeyless-custom-producer]: Downloading https://files.pythonhosted.org/packages/98/10/0d4ab7b34336d83272ebdc4d1a27bc8bae55aabae40ce044d0942d8175b9/clear-skies-akeyless-custom-producer-0.9.1.tar.gz
+[2023-05-16 01:32:08] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230516/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.2.8.tar.gz tmp/pandasai-0.2.9.tar.gz --markdown 20230516/p/pandasai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 01:32:08] INFO root fetch - processPackages [mplhep]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [mplhep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mplhep-0.3.8.tar.gz tmp/mplhep-0.3.9.tar.gz --markdown 20230516/m/mplhep/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-16 01:32:08] INFO root fetch - processPackages [clear-skies-akeyless-custom-producer]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [clear-skies-akeyless-custom-producer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-akeyless-custom-producer-0.9.0.tar.gz tmp/clear-skies-akeyless-custom-producer-0.9.1.tar.gz --markdown 20230516/c/clear-skies-akeyless-custom-producer/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.2.0a1684190677.tar.gz tmp/pulumi_cloudflare-5.2.0a1684191600.tar.gz --markdown 20230516/p/pulumi-cloudflare/5.2.0a1684190677-5.2.0a1684191600/diff.md --exclude *.pyd
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-05-16 01:32:08] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.2.0a1684187488.tar.gz tmp/pulumi_aiven-6.2.0a1684191618.tar.gz --markdown 20230516/p/pulumi-aiven/6.2.0a1684187488-6.2.0a1684191618/diff.md --exclude *.pyd
+[2023-05-16 01:32:09] INFO root fetch - processPackages [classparse]: Downloading https://files.pythonhosted.org/packages/be/04/23a65ca434d0384dfd63408d0b22fd937cf35a26823fc22cc86321a6c5f3/classparse-0.1.2.tar.gz
+[2023-05-16 01:32:09] INFO root fetch - processPackages [classparse]: executing diffoscope
+[2023-05-16 01:32:09] INFO root fetch - processPackages [classparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classparse-0.1.1.tar.gz tmp/classparse-0.1.2.tar.gz --markdown 20230516/c/classparse/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 01:32:10] INFO root fetch - processPackages [geolibs]: Start processing: fstd2nc
+[2023-05-16 01:32:10] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-05-16 01:32:10] INFO root fetch - processPackages [fstd2nc]: New version: [0.20230515.0] Old Version: [0.20230328.0]
+[2023-05-16 01:32:10] INFO root fetch - processPackages [fstd2nc]: Downloading https://files.pythonhosted.org/packages/f4/38/cc454bd079b5d10dd311adaae8201847d944d8fda612226b218e24f182ff/fstd2nc-0.20230328.0.tar.gz
+[2023-05-16 01:32:10] INFO root fetch - processPackages [pandasai]: Start processing: spgci
+[2023-05-16 01:32:10] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-05-16 01:32:10] INFO root fetch - main [MainThread]: End processing [clear-skies-akeyless-custom-producer]: success
+[2023-05-16 01:32:10] INFO root fetch - main [MainThread]: End processing [ibeam]: success
+[2023-05-16 01:32:10] INFO root fetch - processPackages [spgci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 01:32:10] INFO root fetch - processPackages [fstd2nc]: Downloading https://files.pythonhosted.org/packages/c9/ac/d8c7e09a59fc483ecac25dc5795bdc3768853b7ac17e8988af22cc5a7827/fstd2nc-0.20230515.0.tar.gz
+[2023-05-16 01:32:10] INFO root fetch - processPackages [fstd2nc]: executing diffoscope
+[2023-05-16 01:32:10] INFO root fetch - processPackages [fstd2nc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fstd2nc-0.20230328.0.tar.gz tmp/fstd2nc-0.20230515.0.tar.gz --markdown 20230516/f/fstd2nc/0.20230328.0-0.20230515.0/diff.md --exclude *.pyd
+[2023-05-16 01:32:10] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-05-16 01:32:10] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-05-16 01:32:10] INFO root fetch - main [MainThread]: End processing [classparse]: success
+[2023-05-16 01:32:11] INFO root fetch - processPackages [spgci]: Downloading https://files.pythonhosted.org/packages/94/45/63c272c3047fc87580751c2c1a49b2da6ca31f87cc36d2bc52d285a37e6e/spgci-0.0.8.tar.gz
+[2023-05-16 01:32:11] INFO root fetch - main [MainThread]: End processing [mplhep]: success
+[2023-05-16 01:32:11] INFO root fetch - processPackages [spgci]: Downloading https://files.pythonhosted.org/packages/23/ee/39b2ba24bbc6531d21d8a2b5f11bb25fc3a49c25079a5859d7b25ba914d0/spgci-0.0.9.tar.gz
+[2023-05-16 01:32:11] INFO root fetch - processPackages [spgci]: executing diffoscope
+[2023-05-16 01:32:11] INFO root fetch - processPackages [spgci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spgci-0.0.8.tar.gz tmp/spgci-0.0.9.tar.gz --markdown 20230516/s/spgci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 01:32:11] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-05-16 01:32:12] INFO root fetch - main [MainThread]: End processing [fstd2nc]: success
+[2023-05-16 01:32:12] INFO root fetch - main [MainThread]: End processing [spgci]: success
+[2023-05-16 01:32:14] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-05-16 01:32:14] INFO root fetch - main [MainThread]: Store serial: [18114519]
