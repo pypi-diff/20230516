@@ -1330,3 +1330,35 @@
 [2023-05-16 01:53:07] INFO root fetch - main [MainThread]: End processing [trame-client]: success
 [2023-05-16 01:53:25] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-05-16 01:53:25] INFO root fetch - main [MainThread]: Store serial: [18114622]
+[2023-05-16 01:58:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114622]
+[2023-05-16 01:58:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-16 01:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpineer
+[2023-05-16 01:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: criptoMark
+[2023-05-16 01:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s2aff
+[2023-05-16 01:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fpsql
+[2023-05-16 01:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-linode
+[2023-05-16 01:58:35] INFO root fetch - processPackages [alpineer]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 01:58:35] INFO root fetch - processPackages [criptoMark]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 01:58:35] WARNING root fetch - processPackages [fpsql]: Skipping, unable to determine old version
+[2023-05-16 01:58:35] INFO root fetch - processPackages [s2aff]: New version: [0.31] Old Version: [0.30]
+[2023-05-16 01:58:35] INFO root fetch - main [MainThread]: End processing [fpsql] error
+[2023-05-16 01:58:35] INFO root fetch - processPackages [pulumi-linode]: New version: [4.1.0a1684193559] Old Version: [4.1.0a1683784871]
+[2023-05-16 01:58:36] INFO root fetch - processPackages [criptoMark]: Downloading https://files.pythonhosted.org/packages/8e/bb/3bd4b1e4765d6207b8f4fa9f009cf7c5b43e2f9bb021ac5a1bcb5f7c01ed/criptoMark-0.0.2.tar.gz
+[2023-05-16 01:58:36] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/ad/19/38cbf50ea8e34dc2624279002e603fb1d2c50396c79d6f7afb2342737669/s2aff-0.31.tar.gz
+[2023-05-16 01:58:36] INFO root fetch - processPackages [alpineer]: Downloading https://files.pythonhosted.org/packages/f1/2f/1f0b4bfe6c24b6790719a7d49753698b7881b386fa98298fa435d4c3820c/alpineer-0.1.7.tar.gz
+[2023-05-16 01:58:36] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-16 01:58:36] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.30.tar.gz tmp/s2aff-0.31.tar.gz --markdown 20230516/s/s2aff/0.30-0.31/diff.md --exclude *.pyd
+[2023-05-16 01:58:36] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/b8/cb/087a961a7397bc36247faf177d0000f1e6aefdafd75a9a0632cfa2ad0c3a/pulumi_linode-4.1.0a1684193559.tar.gz
+[2023-05-16 01:58:36] INFO root fetch - processPackages [alpineer]: Downloading https://files.pythonhosted.org/packages/3e/b4/25a97acdf270f35020bfe2f930da05dc81dce40350ad780db9b77eaf0772/alpineer-0.1.8.tar.gz
+[2023-05-16 01:58:36] INFO root fetch - processPackages [criptoMark]: Downloading https://files.pythonhosted.org/packages/b7/ce/eb68439e690fdeb4f412baf10c7161e100c0d15aaa91f6789029aca8588f/criptoMark-0.0.3.tar.gz
+[2023-05-16 01:58:36] INFO root fetch - processPackages [alpineer]: executing diffoscope
+[2023-05-16 01:58:36] INFO root fetch - processPackages [alpineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpineer-0.1.7.tar.gz tmp/alpineer-0.1.8.tar.gz --markdown 20230516/a/alpineer/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 01:58:36] INFO root fetch - processPackages [criptoMark]: executing diffoscope
+[2023-05-16 01:58:36] INFO root fetch - processPackages [criptoMark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criptoMark-0.0.2.tar.gz tmp/criptoMark-0.0.3.tar.gz --markdown 20230516/c/criptoMark/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 01:58:36] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2023-05-16 01:58:36] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.1.0a1683784871.tar.gz tmp/pulumi_linode-4.1.0a1684193559.tar.gz --markdown 20230516/p/pulumi-linode/4.1.0a1683784871-4.1.0a1684193559/diff.md --exclude *.pyd
+[2023-05-16 01:58:37] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-16 01:58:37] INFO root fetch - main [MainThread]: End processing [criptoMark]: success
+[2023-05-16 01:58:37] INFO root fetch - main [MainThread]: End processing [alpineer]: success
+[2023-05-16 01:58:38] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2023-05-16 01:58:38] INFO root fetch - main [MainThread]: Store serial: [18114638]
