@@ -509,3 +509,42 @@
 [2023-05-16 00:19:08] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2023-05-16 00:19:08] INFO root fetch - main [MainThread]: End processing [invoke]: success
 [2023-05-16 00:19:08] INFO root fetch - main [MainThread]: Store serial: [18114138]
+[2023-05-16 00:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114138]
+[2023-05-16 00:24:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-elk
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecida
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfcontrolpy
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsj-multi-database-lib
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-rediscloud
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tom-nonlocalizedevents
+[2023-05-16 00:24:17] INFO root fetch - processPackages [nsj-multi-database-lib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 00:24:17] INFO root fetch - processPackages [pulumi-rediscloud]: New version: [1.2.5] Old Version: [1.2.2]
+[2023-05-16 00:24:17] INFO root fetch - processPackages [astro-elk]: New version: [0.2] Old Version: [0.1]
+[2023-05-16 00:24:17] INFO root fetch - processPackages [rfcontrolpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-16 00:24:17] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20230516/e/ecida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 00:24:17] INFO root fetch - processPackages [tom-nonlocalizedevents]: New version: [0.7.6] Old Version: [0.7.4]
+[2023-05-16 00:24:17] INFO root fetch - processPackages [astro-elk]: executing diffoscope
+[2023-05-16 00:24:17] INFO root fetch - processPackages [astro-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-elk-0.1.tar.gz tmp/astro-elk-0.2.tar.gz --markdown 20230516/a/astro-elk/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-16 00:24:17] INFO root fetch - processPackages [nsj-multi-database-lib]: Downloading https://files.pythonhosted.org/packages/be/e9/d68ca17b3cd1c2062002c17549043f59101242e93c2f6213fae58ccfe627/nsj_multi_database_lib-0.2.8.tar.gz
+[2023-05-16 00:24:17] INFO root fetch - processPackages [pulumi-rediscloud]: Downloading https://files.pythonhosted.org/packages/92/5f/346510deca703ebf29fe7d6f274df89b5a030f343eb9a7a1953189dccc45/pulumi_rediscloud-1.2.5.tar.gz
+[2023-05-16 00:24:17] INFO root fetch - processPackages [tom-nonlocalizedevents]: Downloading https://files.pythonhosted.org/packages/39/1b/932287aa905ef38883404512c3a61ab73540b8a7543d863e08304a7e243f/tom_nonlocalizedevents-0.7.4-py3-none-any.whl
+[2023-05-16 00:24:17] INFO root fetch - processPackages [pulumi-rediscloud]: executing diffoscope
+[2023-05-16 00:24:17] INFO root fetch - processPackages [pulumi-rediscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rediscloud-1.2.2.tar.gz tmp/pulumi_rediscloud-1.2.5.tar.gz --markdown 20230516/p/pulumi-rediscloud/1.2.2-1.2.5/diff.md --exclude *.pyd
+[2023-05-16 00:24:17] INFO root fetch - processPackages [rfcontrolpy]: Downloading https://files.pythonhosted.org/packages/ee/cb/da2bb8b2a06615582d251a835fbaa5fa005ea307c4dde7adeb137f29b985/rfcontrolpy-0.0.4.tar.gz
+[2023-05-16 00:24:17] INFO root fetch - processPackages [nsj-multi-database-lib]: Downloading https://files.pythonhosted.org/packages/9d/55/40ffe916ae17d95525340d8f6290bc6b6218007c3b13d6063a5caa8a8be9/nsj_multi_database_lib-0.2.9.tar.gz
+[2023-05-16 00:24:17] INFO root fetch - processPackages [tom-nonlocalizedevents]: Downloading https://files.pythonhosted.org/packages/0d/00/655c686972e15e44ae77a56d8c704af201c35888780490033e420e1334cf/tom_nonlocalizedevents-0.7.6.tar.gz
+[2023-05-16 00:24:17] INFO root fetch - processPackages [nsj-multi-database-lib]: executing diffoscope
+[2023-05-16 00:24:17] INFO root fetch - processPackages [nsj-multi-database-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_multi_database_lib-0.2.8.tar.gz tmp/nsj_multi_database_lib-0.2.9.tar.gz --markdown 20230516/n/nsj-multi-database-lib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 00:24:17] INFO root fetch - processPackages [rfcontrolpy]: executing diffoscope
+[2023-05-16 00:24:17] INFO root fetch - processPackages [rfcontrolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfcontrolpy-0.0.3.tar.gz tmp/rfcontrolpy-0.0.4.tar.gz --markdown 20230516/r/rfcontrolpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 00:24:17] INFO root fetch - processPackages [tom-nonlocalizedevents]: executing diffoscope
+[2023-05-16 00:24:17] INFO root fetch - processPackages [tom-nonlocalizedevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tom_nonlocalizedevents-0.7.4-py3-none-any.whl.zip tmp/tom_nonlocalizedevents-0.7.6.tar.gz --markdown 20230516/t/tom-nonlocalizedevents/0.7.4-0.7.6/diff.md --exclude *.pyd
+[2023-05-16 00:24:18] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-16 00:24:18] INFO root fetch - main [MainThread]: End processing [pulumi-rediscloud]: success
+[2023-05-16 00:24:19] INFO root fetch - main [MainThread]: End processing [nsj-multi-database-lib]: success
+[2023-05-16 00:24:19] INFO root fetch - main [MainThread]: End processing [astro-elk]: success
+[2023-05-16 00:24:19] INFO root fetch - main [MainThread]: End processing [rfcontrolpy]: success
+[2023-05-16 00:24:19] INFO root fetch - main [MainThread]: End processing [tom-nonlocalizedevents]: success
+[2023-05-16 00:24:19] INFO root fetch - main [MainThread]: Store serial: [18114162]
