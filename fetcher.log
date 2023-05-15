@@ -870,3 +870,71 @@
 [2023-05-16 01:00:49] INFO root fetch - main [MainThread]: End processing [hifi]: success
 [2023-05-16 01:00:50] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
 [2023-05-16 01:00:50] INFO root fetch - main [MainThread]: Store serial: [18114358]
+[2023-05-16 01:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114358]
+[2023-05-16 01:05:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ossr-utils
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-doe2
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: translators
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: srsgui
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hifi
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asana-preview
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpy-addon-build
+[2023-05-16 01:05:58] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [ossr-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [srsgui]: New version: [0.2.9] Old Version: [0.2.17]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [bpy-addon-build]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [translators]: New version: [5.7.5] Old Version: [5.7.4]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [asana-preview]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [hifi]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230515] Old Version: [0.7.0b20230514]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230515] Old Version: [0.7.0b20230514]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230515] Old Version: [1.5.0.dev20230512]
+[2023-05-16 01:05:58] INFO root fetch - processPackages [srsgui]: Downloading https://files.pythonhosted.org/packages/79/ff/0bb5804b68b297bfbbc70eaa336c47442679f8833681eb2bdafc70f3faa9/srsgui-0.2.17.tar.gz
+[2023-05-16 01:05:58] INFO root fetch - processPackages [hifi]: Downloading https://files.pythonhosted.org/packages/c2/a6/552465fba3af610d161c7a3fbc909a3acede7e58d6cd83b09ee1a6269992/hifi-5.0.0-py3.9.egg
+[2023-05-16 01:05:58] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/b5/fd/c459718b7436f314b0fac7dcb2832a5434e4b7bf473c62e8cc5387969e46/asana-preview-1.0.4.tar.gz
+[2023-05-16 01:05:58] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/68/a9/476effa96e411f1ad682175f0f5ad01cc9a3b23760b823c47c919d7ba87e/honeybee-doe2-0.0.3.tar.gz
+[2023-05-16 01:05:58] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ae/f6/6bb3ea5b00dea10b45764d29cdf3b4126655c09b3d684db994037bae03f4/tmnt-cu101-0.7.0b20230515.tar.gz
+[2023-05-16 01:05:58] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/26/b5/da7877aeaa5b06a285f5bfdaa2fd7dfde3b4be0eefbd13633dc4f1262614/tmnt-0.7.0b20230515.tar.gz
+[2023-05-16 01:05:58] INFO root fetch - processPackages [translators]: Downloading https://files.pythonhosted.org/packages/7e/3a/70ab8870ad90ff15919c920ea69cdf0f7b63d305371a03dc21c581d6c3fc/translators-5.7.5.tar.gz
+[2023-05-16 01:05:58] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/51/28/95a3c7e47724e9faaa45a056d5da4d548afebb0bc7a7f2ef355038260b3a/bpy_addon_build-0.1.3.tar.gz
+[2023-05-16 01:05:59] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/e2/49/ed170348bd977ced89be95ac3760032d93c8daf4e44c4779f52941b96d70/flwr_nightly-1.5.0.dev20230512.tar.gz
+[2023-05-16 01:05:59] INFO root fetch - processPackages [ossr-utils]: Downloading https://files.pythonhosted.org/packages/9c/09/37f2807c6f062d22b1d64a0836745ba48935fa777229837b0a98b321413c/ossr_utils-0.1.3.tar.gz
+[2023-05-16 01:05:59] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230514.tar.gz tmp/tmnt-0.7.0b20230515.tar.gz --markdown 20230516/t/tmnt/0.7.0b20230514-0.7.0b20230515/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230514.tar.gz tmp/tmnt-cu101-0.7.0b20230515.tar.gz --markdown 20230516/t/tmnt-cu101/0.7.0b20230514-0.7.0b20230515/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [translators]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [translators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translators-5.7.4.tar.gz tmp/translators-5.7.5.tar.gz --markdown 20230516/t/translators/5.7.4-5.7.5/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/9a/f9/5875b9e664334508c71df6d04d7e39f1c8e14e85fed92161bf724d1b49fc/honeybee-doe2-0.0.4.tar.gz
+[2023-05-16 01:05:59] INFO root fetch - processPackages [hifi]: Downloading https://files.pythonhosted.org/packages/58/2a/a8dc4d31a141078c5cab49b83cb683253db1820553c3338c380c19c1da19/hifi-6.0.0-py3.9.egg
+[2023-05-16 01:05:59] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/30/73/4fe3f7abbac56d24054803196334950e6588e67d0ffe529527005d312603/asana-preview-1.0.5.tar.gz
+[2023-05-16 01:05:59] INFO root fetch - processPackages [ossr-utils]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [ossr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ossr_utils-0.1.2.tar.gz tmp/ossr_utils-0.1.3.tar.gz --markdown 20230516/o/ossr-utils/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/a6/ac/54ce78dedf3bf654e66990da7219b825651966d3cafa6b8adb074e0f3b2e/bpy_addon_build-0.1.4.tar.gz
+[2023-05-16 01:05:59] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.0.3.tar.gz tmp/honeybee-doe2-0.0.4.tar.gz --markdown 20230516/h/honeybee-doe2/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [asana-preview]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [asana-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana-preview-1.0.4.tar.gz tmp/asana-preview-1.0.5.tar.gz --markdown 20230516/a/asana-preview/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/b1/43/b761552f5bebce3a092dce8fb60c47804250f168ad544ced81df5648e839/flwr_nightly-1.5.0.dev20230515.tar.gz
+[2023-05-16 01:05:59] INFO root fetch - processPackages [srsgui]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [srsgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srsgui-0.2.17.tar.gz tmp/srsgui-0.2.9.tar.gz --markdown 20230516/s/srsgui/0.2.17-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [hifi]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [hifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hifi-5.0.0-py3.9.egg tmp/hifi-6.0.0-py3.9.egg --markdown 20230516/h/hifi/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [bpy-addon-build]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [bpy-addon-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_addon_build-0.1.3.tar.gz tmp/bpy_addon_build-0.1.4.tar.gz --markdown 20230516/b/bpy-addon-build/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-16 01:05:59] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-16 01:05:59] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230512.tar.gz tmp/flwr_nightly-1.5.0.dev20230515.tar.gz --markdown 20230516/f/flwr-nightly/1.5.0.dev20230512-1.5.0.dev20230515/diff.md --exclude *.pyd
+[2023-05-16 01:06:00] INFO root fetch - main [MainThread]: End processing [ossr-utils]: success
+[2023-05-16 01:06:00] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-16 01:06:00] INFO root fetch - main [MainThread]: End processing [bpy-addon-build]: success
+[2023-05-16 01:06:01] INFO root fetch - main [MainThread]: End processing [hifi]: success
+[2023-05-16 01:06:01] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-05-16 01:06:01] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-16 01:06:01] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-16 01:06:02] INFO root fetch - main [MainThread]: End processing [translators]: success
+[2023-05-16 01:06:02] INFO root fetch - main [MainThread]: End processing [srsgui]: success
+[2023-05-16 01:06:08] INFO root fetch - main [MainThread]: End processing [asana-preview]: success
+[2023-05-16 01:06:08] INFO root fetch - main [MainThread]: Store serial: [18114387]
