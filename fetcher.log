@@ -822,3 +822,28 @@
 [2023-05-16 00:50:28] INFO root fetch - main [MainThread]: End processing [ontogpt]: success
 [2023-05-16 00:50:28] INFO root fetch - main [MainThread]: End processing [vision6D]: success
 [2023-05-16 00:50:28] INFO root fetch - main [MainThread]: Store serial: [18114326]
+[2023-05-16 00:55:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114326]
+[2023-05-16 00:55:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-16 00:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: med-data-science-helper-utility
+[2023-05-16 00:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bpy-addon-build
+[2023-05-16 00:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vision6D
+[2023-05-16 00:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cratepy
+[2023-05-16 00:55:37] INFO root fetch - processPackages [vision6D]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 00:55:37] INFO root fetch - processPackages [bpy-addon-build]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 00:55:37] INFO root fetch - processPackages [med-data-science-helper-utility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 00:55:37] WARNING root fetch - processPackages [cratepy]: Skipping, unable to determine old version
+[2023-05-16 00:55:37] INFO root fetch - main [MainThread]: End processing [cratepy] error
+[2023-05-16 00:55:37] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/a1/7d/25b8b3ea6c5e63fbaed3961f0cdb086b43f66c5789be5cc340564e6800a7/bpy_addon_build-0.1.2.tar.gz
+[2023-05-16 00:55:37] INFO root fetch - processPackages [vision6D]: Downloading https://files.pythonhosted.org/packages/c3/dc/f52a0370037940460caa69e51e78bb700d09adaddea71fe7c2e99e25595a/vision6D-0.0.6.tar.gz
+[2023-05-16 00:55:37] INFO root fetch - processPackages [med-data-science-helper-utility]: Downloading https://files.pythonhosted.org/packages/63/36/4e5ac5784070ec71b50a16e3246e5438940f5334cb29583c8923771b1a08/med-data-science-helper-utility-0.0.8.tar.gz
+[2023-05-16 00:55:37] INFO root fetch - processPackages [bpy-addon-build]: executing diffoscope
+[2023-05-16 00:55:37] INFO root fetch - processPackages [bpy-addon-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_addon_build-0.1.1.tar.gz tmp/bpy_addon_build-0.1.2.tar.gz --markdown 20230516/b/bpy-addon-build/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 00:55:37] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-05-16 00:55:37] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.0.5.tar.gz tmp/vision6D-0.0.6.tar.gz --markdown 20230516/v/vision6D/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 00:55:37] INFO root fetch - processPackages [med-data-science-helper-utility]: Downloading https://files.pythonhosted.org/packages/a1/c0/270289712120cc5ead1c47cc4c74abdcee333f2f422dbf917074dfe89eae/med-data-science-helper-utility-0.0.9.tar.gz
+[2023-05-16 00:55:37] INFO root fetch - processPackages [med-data-science-helper-utility]: executing diffoscope
+[2023-05-16 00:55:37] INFO root fetch - processPackages [med-data-science-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/med-data-science-helper-utility-0.0.8.tar.gz tmp/med-data-science-helper-utility-0.0.9.tar.gz --markdown 20230516/m/med-data-science-helper-utility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 00:55:38] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-05-16 00:55:38] INFO root fetch - main [MainThread]: End processing [bpy-addon-build]: success
+[2023-05-16 00:55:39] INFO root fetch - main [MainThread]: End processing [med-data-science-helper-utility]: success
+[2023-05-16 00:55:39] INFO root fetch - main [MainThread]: Store serial: [18114341]
