@@ -950,3 +950,34 @@
 [2023-05-16 01:11:19] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.2.0a1684176873.tar.gz tmp/pulumi_cloudflare-5.2.0a1684190677.tar.gz --markdown 20230516/p/pulumi-cloudflare/5.2.0a1684176873-5.2.0a1684190677/diff.md --exclude *.pyd
 [2023-05-16 01:11:21] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2023-05-16 01:11:21] INFO root fetch - main [MainThread]: Store serial: [18114415]
+[2023-05-16 01:16:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114415]
+[2023-05-16 01:16:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-16 01:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-16 01:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hoppr-security-commons
+[2023-05-16 01:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywebgo
+[2023-05-16 01:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-16 01:16:29] INFO root fetch - processPackages [pywebgo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 01:16:29] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 01:16:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.319] Old Version: [0.3.318]
+[2023-05-16 01:16:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.319] Old Version: [0.3.318]
+[2023-05-16 01:16:29] INFO root fetch - processPackages [pywebgo]: Downloading https://files.pythonhosted.org/packages/c8/3f/fb8767dee5353824cd058ab2fab5e0acb6926e16d5d273421d57bf20489d/pywebgo-0.0.3.tar.gz
+[2023-05-16 01:16:29] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/73/a4/8b39dee10fcc7f5b6cf68593087145653b22ef60b8f70d63c5484f34b750/hoppr_security_commons-0.0.8.tar.gz
+[2023-05-16 01:16:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c2/73/a3271273d36214664cc918b96655fd6744e2153b357969a9c7666eb19fe9/pepperize.cdk-ses-smtp-credentials-0.3.318.tar.gz
+[2023-05-16 01:16:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c2/73/a3271273d36214664cc918b96655fd6744e2153b357969a9c7666eb19fe9/pepperize.cdk-ses-smtp-credentials-0.3.318.tar.gz
+[2023-05-16 01:16:30] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/28/98/819d5ffab5f26c075fb2191a2d5583cd18aa8069a8fc43484d65978fe18d/hoppr_security_commons-0.0.9.tar.gz
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pywebgo]: Downloading https://files.pythonhosted.org/packages/85/c8/5a79953ad4f05b4fc3da8dac9d1c81ecbf88d2d46c0c377987e0bd2c10be/pywebgo-0.0.4.tar.gz
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c7/80/b4dd7834ef9aab740b390f82ce1783078505df1b6386495f98da6f11db78/pepperize.cdk-ses-smtp-credentials-0.3.319.tar.gz
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c7/80/b4dd7834ef9aab740b390f82ce1783078505df1b6386495f98da6f11db78/pepperize.cdk-ses-smtp-credentials-0.3.319.tar.gz
+[2023-05-16 01:16:30] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2023-05-16 01:16:30] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.8.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20230516/h/hoppr-security-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pywebgo]: executing diffoscope
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pywebgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywebgo-0.0.3.tar.gz tmp/pywebgo-0.0.4.tar.gz --markdown 20230516/p/pywebgo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.318.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.319.tar.gz --markdown 20230516/p/pepperize.cdk-ses-smtp-credentials/0.3.318-0.3.319/diff.md --exclude *.pyd
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-16 01:16:30] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.318.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.319.tar.gz --markdown 20230516/p/pepperize.cdk-ses-smtp-credentials/0.3.318-0.3.319/diff.md --exclude *.pyd
+[2023-05-16 01:16:31] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2023-05-16 01:16:31] INFO root fetch - main [MainThread]: End processing [pywebgo]: success
+[2023-05-16 01:16:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-16 01:16:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-16 01:16:31] INFO root fetch - main [MainThread]: Store serial: [18114427]
