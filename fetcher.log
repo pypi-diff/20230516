@@ -938,3 +938,15 @@
 [2023-05-16 01:06:02] INFO root fetch - main [MainThread]: End processing [srsgui]: success
 [2023-05-16 01:06:08] INFO root fetch - main [MainThread]: End processing [asana-preview]: success
 [2023-05-16 01:06:08] INFO root fetch - main [MainThread]: Store serial: [18114387]
+[2023-05-16 01:11:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114387]
+[2023-05-16 01:11:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-16 01:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-cloudflare
+[2023-05-16 01:11:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerc-geometry
+[2023-05-16 01:11:18] WARNING root fetch - processPackages [cerc-geometry]: Skipping, unable to determine old version
+[2023-05-16 01:11:18] INFO root fetch - main [MainThread]: End processing [cerc-geometry] error
+[2023-05-16 01:11:18] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.2.0a1684190677] Old Version: [5.2.0a1684176873]
+[2023-05-16 01:11:18] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/78/a5/beee38b210474fa4822347bc8e5404e60a2bb9d51b77129002e37e4b0a97/pulumi_cloudflare-5.2.0a1684190677.tar.gz
+[2023-05-16 01:11:19] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-05-16 01:11:19] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.2.0a1684176873.tar.gz tmp/pulumi_cloudflare-5.2.0a1684190677.tar.gz --markdown 20230516/p/pulumi-cloudflare/5.2.0a1684176873-5.2.0a1684190677/diff.md --exclude *.pyd
+[2023-05-16 01:11:21] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-05-16 01:11:21] INFO root fetch - main [MainThread]: Store serial: [18114415]
