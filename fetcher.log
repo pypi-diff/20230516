@@ -1,0 +1,85 @@
+[2023-05-16 00:03:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18113870]
+[2023-05-16 00:03:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-16 00:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imodelsx
+[2023-05-16 00:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sloth-framework
+[2023-05-16 00:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mockupgen
+[2023-05-16 00:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: watchtower-pipeline
+[2023-05-16 00:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: damo
+[2023-05-16 00:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypet2bids
+[2023-05-16 00:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mb-cli
+[2023-05-16 00:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrostrat-app-frame
+[2023-05-16 00:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MoskaEngine
+[2023-05-16 00:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-roborock
+[2023-05-16 00:03:13] INFO root fetch - processPackages [sloth-framework]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 00:03:13] INFO root fetch - processPackages [imodelsx]: New version: [0.9] Old Version: [0.8]
+[2023-05-16 00:03:13] WARNING root fetch - processPackages [mb-cli]: Skipping, unable to determine old version
+[2023-05-16 00:03:13] INFO root fetch - processPackages [mb-cli]: Start processing: capitalpayments
+[2023-05-16 00:03:13] INFO root fetch - main [MainThread]: End processing [mb-cli] error
+[2023-05-16 00:03:13] INFO root fetch - processPackages [pypet2bids]: New version: [1.2.2] Old Version: [1.1.2]
+[2023-05-16 00:03:13] INFO root fetch - processPackages [mockupgen]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-16 00:03:13] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-16 00:03:13] INFO root fetch - processPackages [watchtower-pipeline]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-16 00:03:13] INFO root fetch - processPackages [macrostrat-app-frame]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 00:03:13] INFO root fetch - processPackages [damo]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-16 00:03:13] INFO root fetch - processPackages [capitalpayments]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 00:03:13] WARNING root fetch - processPackages [MoskaEngine]: Skipping, unable to determine old version
+[2023-05-16 00:03:13] INFO root fetch - processPackages [MoskaEngine]: Start processing: anesthetic
+[2023-05-16 00:03:13] INFO root fetch - main [MainThread]: End processing [MoskaEngine] error
+[2023-05-16 00:03:13] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230516/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-16 00:03:13] INFO root fetch - processPackages [capitalpayments]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [capitalpayments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capitalpayments-0.1.1.tar.gz tmp/capitalpayments-0.1.2.tar.gz --markdown 20230516/c/capitalpayments/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 00:03:13] INFO root fetch - processPackages [pypet2bids]: Downloading https://files.pythonhosted.org/packages/d7/7b/a8b53215403097f0a8da7e059fd178bb12201a211ea380715be10feafa5e/pypet2bids-1.1.2.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [mockupgen]: Downloading https://files.pythonhosted.org/packages/04/f8/fca26518303bda7cc4c2442cd227fabe6dbb5ea53f0ad4443a1acd3e5f26/mockupgen-1.5.0.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/6c/fe/0ba391c92b617e8110f64ff3e16739377f9b90d212dfb9810f89c0f70009/damo-1.8.0.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [anesthetic]: New version: [2.0.0b9] Old Version: [2.0.0b7]
+[2023-05-16 00:03:13] INFO root fetch - processPackages [watchtower-pipeline]: Downloading https://files.pythonhosted.org/packages/45/0a/3e469942a6e7bb5cfe697bde36d5257e73db3aa9f8bbd3ef9bbefbe56d5a/watchtower-pipeline-0.1.6.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [macrostrat-app-frame]: Downloading https://files.pythonhosted.org/packages/e9/f6/a0ac47104538ca0aa8d4b782bb5a48133cf7a91107182916b3dbf8865dd1/macrostrat_app_frame-1.0.0.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [sloth-framework]: Downloading https://files.pythonhosted.org/packages/c5/21/a3f4b11b255d9dd0622d60dda9ae2f370efa4fbd853dc59e5b33d279e178/sloth-framework-0.1.5.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [pypet2bids]: Downloading https://files.pythonhosted.org/packages/4a/e2/a645c52a55accdc7df77298a8bb56731dd12d9b4404440c640599e8e971b/pypet2bids-1.2.2.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [imodelsx]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [imodelsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imodelsx-0.8.tar.gz tmp/imodelsx-0.9.tar.gz --markdown 20230516/i/imodelsx/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-16 00:03:13] INFO root fetch - processPackages [mockupgen]: Downloading https://files.pythonhosted.org/packages/dd/88/1330ef486778633284228721f84a2e3727f3a5b994f815dcb0f2092de365/mockupgen-1.5.1.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/2a/a7/aaf8741c8fd497777d28066fe65799321f6cae32635620024bd422172aba/damo-1.8.1.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/bb/ee/510009a21351f1f3cc40d53f647047eef65a83196f66a74bdcab71213051/anesthetic-2.0.0b7.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [sloth-framework]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [sloth-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sloth-framework-0.1.4.tar.gz tmp/sloth-framework-0.1.5.tar.gz --markdown 20230516/s/sloth-framework/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 00:03:13] INFO root fetch - processPackages [pypet2bids]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [pypet2bids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypet2bids-1.1.2.tar.gz tmp/pypet2bids-1.2.2.tar.gz --markdown 20230516/p/pypet2bids/1.1.2-1.2.2/diff.md --exclude *.pyd
+[2023-05-16 00:03:13] INFO root fetch - processPackages [watchtower-pipeline]: Downloading https://files.pythonhosted.org/packages/9f/f3/c54b8c14b87ca18b6f57f79f039e185066159bb9e0d2626046ef6ad46ace/watchtower-pipeline-0.1.7.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [macrostrat-app-frame]: Downloading https://files.pythonhosted.org/packages/37/2e/fdfe07c8cea1892f2e44fa6cd5c0b31d51e390e922aab4dd03b271d8e908/macrostrat_app_frame-1.0.1.tar.gz
+[2023-05-16 00:03:13] INFO root fetch - processPackages [mockupgen]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [mockupgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mockupgen-1.5.0.tar.gz tmp/mockupgen-1.5.1.tar.gz --markdown 20230516/m/mockupgen/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-16 00:03:13] INFO root fetch - processPackages [damo]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-1.8.0.tar.gz tmp/damo-1.8.1.tar.gz --markdown 20230516/d/damo/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-16 00:03:13] INFO root fetch - processPackages [macrostrat-app-frame]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [macrostrat-app-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrostrat_app_frame-1.0.0.tar.gz tmp/macrostrat_app_frame-1.0.1.tar.gz --markdown 20230516/m/macrostrat-app-frame/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 00:03:13] INFO root fetch - processPackages [watchtower-pipeline]: executing diffoscope
+[2023-05-16 00:03:13] INFO root fetch - processPackages [watchtower-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower-pipeline-0.1.6.tar.gz tmp/watchtower-pipeline-0.1.7.tar.gz --markdown 20230516/w/watchtower-pipeline/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 00:03:14] INFO root fetch - processPackages [anesthetic]: Downloading https://files.pythonhosted.org/packages/69/67/acd5153fe2efa969ee04ccb4079ccc1c108090ffab6b45ac362cbe2bf3b2/anesthetic-2.0.0b9.tar.gz
+[2023-05-16 00:03:14] INFO root fetch - processPackages [anesthetic]: executing diffoscope
+[2023-05-16 00:03:14] INFO root fetch - processPackages [anesthetic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anesthetic-2.0.0b7.tar.gz tmp/anesthetic-2.0.0b9.tar.gz --markdown 20230516/a/anesthetic/2.0.0b7-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-16 00:03:14] INFO root fetch - processPackages [python-roborock]: Start processing: CoLT5-attention
+[2023-05-16 00:03:14] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-16 00:03:14] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-05-16 00:03:14] INFO root fetch - processPackages [capitalpayments]: Start processing: flafl
+[2023-05-16 00:03:14] INFO root fetch - main [MainThread]: End processing [capitalpayments]: success
+[2023-05-16 00:03:15] INFO root fetch - main [MainThread]: End processing [imodelsx]: success
+[2023-05-16 00:03:15] INFO root fetch - processPackages [flafl]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-16 00:03:15] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/d5/8f/97552874f14e743cab45b4eebbb2198131d71d25ad660a7ce73b393c68e7/CoLT5-attention-0.8.0.tar.gz
+[2023-05-16 00:03:15] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-16 00:03:15] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.7.2.tar.gz tmp/CoLT5-attention-0.8.0.tar.gz --markdown 20230516/C/CoLT5-attention/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-16 00:03:15] INFO root fetch - main [MainThread]: End processing [macrostrat-app-frame]: success
+[2023-05-16 00:03:15] INFO root fetch - processPackages [flafl]: Downloading https://files.pythonhosted.org/packages/60/6e/aa4d780484054c60832543f409743b8f6f960a43655c22a96c45012c786a/flafl-0.0.4.tar.gz
+[2023-05-16 00:03:15] INFO root fetch - main [MainThread]: End processing [mockupgen]: success
+[2023-05-16 00:03:15] INFO root fetch - processPackages [flafl]: Downloading https://files.pythonhosted.org/packages/7c/80/939ba86435102c2709861103cf387c035baa79d0f43ca01b9e383b38d6e7/flafl-0.0.6.tar.gz
+[2023-05-16 00:03:15] INFO root fetch - processPackages [flafl]: executing diffoscope
+[2023-05-16 00:03:15] INFO root fetch - processPackages [flafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flafl-0.0.4.tar.gz tmp/flafl-0.0.6.tar.gz --markdown 20230516/f/flafl/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 00:03:16] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2023-05-16 00:03:16] INFO root fetch - main [MainThread]: End processing [pypet2bids]: success
+[2023-05-16 00:03:16] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-16 00:03:16] INFO root fetch - main [MainThread]: End processing [flafl]: success
+[2023-05-16 00:03:17] INFO root fetch - main [MainThread]: End processing [anesthetic]: success
+[2023-05-16 00:03:17] INFO root fetch - main [MainThread]: End processing [sloth-framework]: success
+[2023-05-16 00:03:21] INFO root fetch - main [MainThread]: End processing [watchtower-pipeline]: success
+[2023-05-16 00:03:21] INFO root fetch - main [MainThread]: Store serial: [18113916]
