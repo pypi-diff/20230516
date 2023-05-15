@@ -1216,3 +1216,43 @@
 [2023-05-16 01:37:26] INFO root fetch - main [MainThread]: End processing [cloudsnorkel.cdk-github-runners]: success
 [2023-05-16 01:37:28] INFO root fetch - main [MainThread]: End processing [baseplate]: success
 [2023-05-16 01:37:28] INFO root fetch - main [MainThread]: Store serial: [18114549]
+[2023-05-16 01:42:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114549]
+[2023-05-16 01:42:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promval
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quakemigrate
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpy-addon-build
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tglc
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvc-data
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultralytics
+[2023-05-16 01:42:37] INFO root fetch - processPackages [promval]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 01:42:37] INFO root fetch - processPackages [quakemigrate]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 01:42:37] INFO root fetch - processPackages [bpy-addon-build]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-16 01:42:37] INFO root fetch - processPackages [tglc]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-16 01:42:37] INFO root fetch - processPackages [dvc-data]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-16 01:42:37] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230516/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-05-16 01:42:37] INFO root fetch - processPackages [quakemigrate]: Downloading https://files.pythonhosted.org/packages/cb/8e/0c1167a3d0b898a716add46a4ac1f294259f6150760b95f032b2e12538d3/quakemigrate-1.0.1.tar.gz
+[2023-05-16 01:42:37] INFO root fetch - processPackages [promval]: Downloading https://files.pythonhosted.org/packages/58/08/a1bc634c571b516b352edeb3562b22e955207093d6778dd78e9160cefc4e/promval-0.0.3.tar.gz
+[2023-05-16 01:42:37] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/8b/97/f787f2d87260cd07ab7388d4c3002d55cab7a4fa7446dba6a2e884751b19/bpy_addon_build-0.1.7.tar.gz
+[2023-05-16 01:42:37] INFO root fetch - processPackages [tglc]: Downloading https://files.pythonhosted.org/packages/43/a8/5e46ba95a72f635801d450be3ccc063bbe9fe2058f7e3e894a01f1ef68e6/tglc-0.5.7.tar.gz
+[2023-05-16 01:42:37] INFO root fetch - processPackages [bpy-addon-build]: executing diffoscope
+[2023-05-16 01:42:37] INFO root fetch - processPackages [bpy-addon-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_addon_build-0.1.6.tar.gz tmp/bpy_addon_build-0.1.7.tar.gz --markdown 20230516/b/bpy-addon-build/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 01:42:37] INFO root fetch - processPackages [promval]: Downloading https://files.pythonhosted.org/packages/55/40/f79b0c6b517eb9ed83732f6b94f86a2cf81b8a87a14ad68d007b8d6ca402/promval-0.0.4-py3-none-any.whl
+[2023-05-16 01:42:37] INFO root fetch - processPackages [quakemigrate]: Downloading https://files.pythonhosted.org/packages/9f/d2/4eaf2180044d3039477793b3f48a525334a9e9250334f0f10e6f4876def9/quakemigrate-1.0.2.tar.gz
+[2023-05-16 01:42:38] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-05-16 01:42:38] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-0.8.0.tar.gz tmp/dvc-data-0.9.0.tar.gz --markdown 20230516/d/dvc-data/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 01:42:38] INFO root fetch - processPackages [tglc]: Downloading https://files.pythonhosted.org/packages/60/0e/97c6a98c16526d93dcfdd840e78cfaeff39d68751ac44e874d7a81d7b043/tglc-0.5.8.tar.gz
+[2023-05-16 01:42:38] INFO root fetch - processPackages [quakemigrate]: executing diffoscope
+[2023-05-16 01:42:38] INFO root fetch - processPackages [quakemigrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quakemigrate-1.0.1.tar.gz tmp/quakemigrate-1.0.2.tar.gz --markdown 20230516/q/quakemigrate/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 01:42:38] INFO root fetch - processPackages [tglc]: executing diffoscope
+[2023-05-16 01:42:38] INFO root fetch - processPackages [tglc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tglc-0.5.7.tar.gz tmp/tglc-0.5.8.tar.gz --markdown 20230516/t/tglc/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-16 01:42:38] INFO root fetch - processPackages [promval]: executing diffoscope
+[2023-05-16 01:42:38] INFO root fetch - processPackages [promval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promval-0.0.3.tar.gz tmp/promval-0.0.4-py3-none-any.whl.zip --markdown 20230516/p/promval/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 01:42:38] INFO root fetch - main [MainThread]: End processing [bpy-addon-build]: success
+[2023-05-16 01:42:39] INFO root fetch - main [MainThread]: End processing [promval]: success
+[2023-05-16 01:42:39] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-05-16 01:42:39] INFO root fetch - main [MainThread]: End processing [tglc]: success
+[2023-05-16 01:42:39] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-16 01:42:40] INFO root fetch - main [MainThread]: End processing [quakemigrate]: success
+[2023-05-16 01:42:40] INFO root fetch - main [MainThread]: Store serial: [18114578]
