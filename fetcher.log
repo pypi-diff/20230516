@@ -548,3 +548,52 @@
 [2023-05-16 00:24:19] INFO root fetch - main [MainThread]: End processing [rfcontrolpy]: success
 [2023-05-16 00:24:19] INFO root fetch - main [MainThread]: End processing [tom-nonlocalizedevents]: success
 [2023-05-16 00:24:19] INFO root fetch - main [MainThread]: Store serial: [18114162]
+[2023-05-16 00:29:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114162]
+[2023-05-16 00:29:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-16 00:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-diff
+[2023-05-16 00:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywry
+[2023-05-16 00:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hifi
+[2023-05-16 00:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-16 00:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oking
+[2023-05-16 00:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-sql-parsing
+[2023-05-16 00:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chromadb
+[2023-05-16 00:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: 5gasp-cli
+[2023-05-16 00:29:30] INFO root fetch - processPackages [data-diff]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-16 00:29:30] INFO root fetch - processPackages [hifi]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-05-16 00:29:30] INFO root fetch - processPackages [chromadb]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-16 00:29:30] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.386.23135] Old Version: [9.377.23123]
+[2023-05-16 00:29:30] INFO root fetch - processPackages [pywry]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-16 00:29:30] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-05-16 00:29:30] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 00:29:30] WARNING root fetch - processPackages [5gasp-cli]: Skipping, unable to determine old version
+[2023-05-16 00:29:30] INFO root fetch - main [MainThread]: End processing [5gasp-cli] error
+[2023-05-16 00:29:30] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-05-16 00:29:30] INFO root fetch - processPackages [hifi]: Downloading https://files.pythonhosted.org/packages/57/fb/9dd652afa034e24bd57c7b8fa5a860e40bb3ad82426d4b17b961c8e450e1/hifi-1.0.0-py3.9.egg
+[2023-05-16 00:29:30] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/84/17/9dd21e93f88add0901d8f70772e9e6dd67d589ce630f5ecf8e63575d3b43/mo_sql_parsing-9.377.23123-py2.py3-none-any.whl
+[2023-05-16 00:29:30] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-16 00:29:30] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 00:29:30] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-05-16 00:29:30] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-16 00:29:30] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/a0/7f/975827ac11ddaae01d5da22e4ac5d8eeedcb1054cb797857cde23daf41bd/chromadb-0.3.7.tar.gz
+[2023-05-16 00:29:30] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/48/75/004bb0de302b36c3e2a8b6eb6ff9669c10b0c8f0892724869b04a408a2e4/pywry-0.5.8.tar.gz
+[2023-05-16 00:29:31] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/e9/72/dbf543d582bbc3c547747a49b543732408ae0ea5e8f548936802feb651d9/data_diff-0.7.7.tar.gz
+[2023-05-16 00:29:31] INFO root fetch - processPackages [pywry]: executing diffoscope
+[2023-05-16 00:29:31] INFO root fetch - processPackages [pywry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywry-0.5.7.tar.gz tmp/pywry-0.5.8.tar.gz --markdown 20230516/p/pywry/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-16 00:29:31] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/0a/97/d01fb1216766c3878d8960616e5deb6a4136482a977af3e941c8824ff89d/mo_sql_parsing-9.386.23135-py2.py3-none-any.whl
+[2023-05-16 00:29:31] INFO root fetch - processPackages [hifi]: Downloading https://files.pythonhosted.org/packages/6a/ef/b565310fc4173c887d19dd418bece57f4b6cf530c36ba99cef1c9d11baea/hifi-2.0.0-py3.9.egg
+[2023-05-16 00:29:31] INFO root fetch - processPackages [data-diff]: executing diffoscope
+[2023-05-16 00:29:31] INFO root fetch - processPackages [data-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_diff-0.7.6.tar.gz tmp/data_diff-0.7.7.tar.gz --markdown 20230516/d/data-diff/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-16 00:29:31] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2023-05-16 00:29:31] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.377.23123-py2.py3-none-any.whl.zip tmp/mo_sql_parsing-9.386.23135-py2.py3-none-any.whl.zip --markdown 20230516/m/mo-sql-parsing/9.377.23123-9.386.23135/diff.md --exclude *.pyd
+[2023-05-16 00:29:31] INFO root fetch - processPackages [hifi]: executing diffoscope
+[2023-05-16 00:29:31] INFO root fetch - processPackages [hifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hifi-1.0.0-py3.9.egg tmp/hifi-2.0.0-py3.9.egg --markdown 20230516/h/hifi/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-16 00:29:31] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/f7/18/d8e27cccc90edd5a15525a33800c89c70a96662187510b6ec833428d7c64/chromadb-0.3.8.tar.gz
+[2023-05-16 00:29:31] INFO root fetch - processPackages [chromadb]: executing diffoscope
+[2023-05-16 00:29:31] INFO root fetch - processPackages [chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-0.3.7.tar.gz tmp/chromadb-0.3.8.tar.gz --markdown 20230516/c/chromadb/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-16 00:29:32] INFO root fetch - main [MainThread]: End processing [hifi]: success
+[2023-05-16 00:29:32] INFO root fetch - main [MainThread]: End processing [pywry]: success
+[2023-05-16 00:29:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-16 00:29:32] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2023-05-16 00:29:32] INFO root fetch - main [MainThread]: End processing [data-diff]: success
+[2023-05-16 00:29:32] INFO root fetch - main [MainThread]: End processing [chromadb]: success
+[2023-05-16 00:29:32] INFO root fetch - main [MainThread]: Store serial: [18114202]
