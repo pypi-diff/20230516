@@ -710,3 +710,83 @@
 [2023-05-16 00:39:59] INFO root fetch - main [MainThread]: End processing [sylk]: success
 [2023-05-16 00:40:02] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-16 00:40:02] INFO root fetch - main [MainThread]: Store serial: [18114275]
+[2023-05-16 00:45:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114275]
+[2023-05-16 00:45:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleepens
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-skill-fallback-llm
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-eric-fp
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dev-gpt
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anastasia-logging
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domolibrary
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xgi
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parsl
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyQuantimClient
+[2023-05-16 00:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hercules-jit
+[2023-05-16 00:45:11] INFO root fetch - processPackages [hercules-jit]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [certora-cli-alpha-eric-fp]: New version: [20230515.22.41.681647] Old Version: [20230510.18.53.311439]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [neon-skill-fallback-llm]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-16 00:45:11] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230516/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-16 00:45:11] INFO root fetch - processPackages [anastasia-logging]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [sleepens]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [parsl]: New version: [2023.5.8] Old Version: [2023.5.15]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [xgi]: New version: [0.6] Old Version: [0.5.8]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-16 00:45:11] INFO root fetch - processPackages [PyQuantimClient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230516/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 00:45:11] INFO root fetch - processPackages [hercules-jit]: Downloading https://files.pythonhosted.org/packages/91/e5/5b8bcb5c4072aab35f8b619af287f3832a67f34a6b808c374f79666df4f0/hercules_jit-0.2.0-py3-none-any.whl
+[2023-05-16 00:45:11] WARNING root fetch - processPackages [hercules-jit]: Skipping package: exceeds size limit 63653246>=10485760
+[2023-05-16 00:45:11] INFO root fetch - processPackages [hercules-jit]: Start processing: alacorder
+[2023-05-16 00:45:11] INFO root fetch - main [MainThread]: End processing [hercules-jit] error
+[2023-05-16 00:45:11] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/27/f3/2d0d875e58a0901caec5affa44d1bf9ed485cacafdffd4988199591c1ca3/parsl-2023.5.15.tar.gz
+[2023-05-16 00:45:11] INFO root fetch - processPackages [anastasia-logging]: Downloading https://files.pythonhosted.org/packages/fa/11/3d75b6b2046a95c514e5748ac7f0ed8baa6ff25c80429107a88e39cd1e35/anastasia_logging-1.1.1.tar.gz
+[2023-05-16 00:45:11] INFO root fetch - processPackages [certora-cli-alpha-eric-fp]: Downloading https://files.pythonhosted.org/packages/42/fd/e532ece4a1bc5b4fe9c5e73ba4174b0e5b856414e05b2d075c0ba1e50a05/certora-cli-alpha-eric-fp-20230510.18.53.311439.tar.gz
+[2023-05-16 00:45:11] INFO root fetch - processPackages [PyQuantimClient]: Downloading https://files.pythonhosted.org/packages/84/61/69e33c48bf2891c86a9875218bb5ff8a11eabc6cba2fc5642b050ba3eaa8/PyQuantimClient-1.0.8.tar.gz
+[2023-05-16 00:45:11] INFO root fetch - processPackages [alacorder]: New version: [80.5.4] Old Version: [80.5.3]
+[2023-05-16 00:45:11] INFO root fetch - processPackages [sleepens]: Downloading https://files.pythonhosted.org/packages/93/62/3e6e76fc00ae1f505f3a4c5256343b049d209d82ff3a957676d57cfccb1e/sleepens-1.0.2.tar.gz
+[2023-05-16 00:45:12] INFO root fetch - processPackages [xgi]: Downloading https://files.pythonhosted.org/packages/3e/00/431c58becab945042d0d052e24e5b93365fd299d657e3d2c8f277af64466/xgi-0.6.tar.gz
+[2023-05-16 00:45:12] INFO root fetch - processPackages [neon-skill-fallback-llm]: Downloading https://files.pythonhosted.org/packages/c7/2a/e4870c30807162033ca5350ce86cd49d7d329a367b3004af4c983e4212ce/neon_skill_fallback_llm-0.0.1a4-py3-none-any.whl
+[2023-05-16 00:45:12] WARNING root fetch - processPackages [certora-cli-alpha-eric-fp]: Skipping package: exceeds size limit 39221821>=10485760
+[2023-05-16 00:45:12] INFO root fetch - processPackages [certora-cli-alpha-eric-fp]: Start processing: sleepens
+[2023-05-16 00:45:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-fp] error
+[2023-05-16 00:45:12] INFO root fetch - processPackages [sleepens]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-16 00:45:12] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/5c/63/ad2148a06029fb979455d7a2209a3e0191969b44ca9d30196dd17f11b3f2/alacorder-80.5.4.tar.gz
+[2023-05-16 00:45:12] INFO root fetch - processPackages [xgi]: executing diffoscope
+[2023-05-16 00:45:12] INFO root fetch - processPackages [xgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgi-0.5.8.tar.gz tmp/xgi-0.6.tar.gz --markdown 20230516/x/xgi/0.5.8-0.6/diff.md --exclude *.pyd
+[2023-05-16 00:45:12] INFO root fetch - processPackages [neon-skill-fallback-llm]: executing diffoscope
+[2023-05-16 00:45:12] INFO root fetch - processPackages [neon-skill-fallback-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_fallback_llm-0.0.1a3-py3-none-any.whl.zip tmp/neon_skill_fallback_llm-0.0.1a4-py3-none-any.whl.zip --markdown 20230516/n/neon-skill-fallback-llm/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-05-16 00:45:12] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-16 00:45:12] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.5.3.tar.gz tmp/alacorder-80.5.4.tar.gz --markdown 20230516/a/alacorder/80.5.3-80.5.4/diff.md --exclude *.pyd
+[2023-05-16 00:45:12] INFO root fetch - processPackages [PyQuantimClient]: Downloading https://files.pythonhosted.org/packages/12/4e/e55b5d82937e1306704467806d3a4daa4b5c4b6f73b5ade2c9e6fdcc08f5/PyQuantimClient-1.0.9.tar.gz
+[2023-05-16 00:45:12] INFO root fetch - processPackages [sleepens]: Downloading https://files.pythonhosted.org/packages/b0/3f/7f4017f8ee4bb5d8356e130356db3a36100b2de46658da62c726833c7f6a/sleepens-1.0.3.tar.gz
+[2023-05-16 00:45:12] INFO root fetch - processPackages [sleepens]: Downloading https://files.pythonhosted.org/packages/b0/3f/7f4017f8ee4bb5d8356e130356db3a36100b2de46658da62c726833c7f6a/sleepens-1.0.3.tar.gz
+[2023-05-16 00:45:12] INFO root fetch - processPackages [anastasia-logging]: Downloading https://files.pythonhosted.org/packages/11/79/06b6b96ecc14a9b420804e486a9631031fc43354e66045fb3830d8bc857c/anastasia_logging-1.2.0.tar.gz
+[2023-05-16 00:45:12] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/4d/9e/cd09cfd1048ae5b90d606eb634587248820b8d470107c3f0dbc358fb75c2/parsl-2023.5.8.tar.gz
+[2023-05-16 00:45:12] INFO root fetch - processPackages [PyQuantimClient]: executing diffoscope
+[2023-05-16 00:45:12] INFO root fetch - processPackages [PyQuantimClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQuantimClient-1.0.8.tar.gz tmp/PyQuantimClient-1.0.9.tar.gz --markdown 20230516/P/PyQuantimClient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 00:45:12] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-05-16 00:45:12] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.5.15.tar.gz tmp/parsl-2023.5.8.tar.gz --markdown 20230516/p/parsl/2023.5.15-2023.5.8/diff.md --exclude *.pyd
+[2023-05-16 00:45:12] INFO root fetch - processPackages [anastasia-logging]: executing diffoscope
+[2023-05-16 00:45:12] INFO root fetch - processPackages [anastasia-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anastasia_logging-1.1.1.tar.gz tmp/anastasia_logging-1.2.0.tar.gz --markdown 20230516/a/anastasia-logging/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-16 00:45:12] INFO root fetch - processPackages [sleepens]: executing diffoscope
+[2023-05-16 00:45:12] INFO root fetch - processPackages [sleepens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepens-1.0.2.tar.gz tmp/sleepens-1.0.3.tar.gz --markdown 20230516/s/sleepens/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-16 00:45:12] INFO root fetch - processPackages [sleepens]: executing diffoscope
+[2023-05-16 00:45:12] INFO root fetch - processPackages [sleepens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepens-1.0.2.tar.gz tmp/sleepens-1.0.3.tar.gz --markdown 20230516/s/sleepens/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-16 00:45:13] INFO root fetch - processPackages [dev-gpt]: Start processing: beets-filetote
+[2023-05-16 00:45:13] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-16 00:45:13] INFO root fetch - processPackages [beets-filetote]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-16 00:45:13] INFO root fetch - processPackages [beets-filetote]: executing diffoscope
+[2023-05-16 00:45:13] INFO root fetch - processPackages [beets-filetote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets_filetote-0.3.3.tar.gz tmp/beets_filetote-0.4.0.tar.gz --markdown 20230516/b/beets-filetote/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 00:45:13] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-llm]: success
+[2023-05-16 00:45:14] INFO root fetch - main [MainThread]: End processing [PyQuantimClient]: success
+[2023-05-16 00:45:14] INFO root fetch - main [MainThread]: End processing [anastasia-logging]: success
+[2023-05-16 00:45:14] INFO root fetch - main [MainThread]: End processing [sleepens]: success
+[2023-05-16 00:45:14] INFO root fetch - main [MainThread]: End processing [sleepens]: success
+[2023-05-16 00:45:14] INFO root fetch - main [MainThread]: End processing [beets-filetote]: success
+[2023-05-16 00:45:14] INFO root fetch - main [MainThread]: End processing [xgi]: success
+[2023-05-16 00:45:15] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-16 00:45:16] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-16 00:45:16] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-05-16 00:45:16] INFO root fetch - main [MainThread]: Store serial: [18114310]
