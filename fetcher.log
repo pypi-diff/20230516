@@ -1256,3 +1256,37 @@
 [2023-05-16 01:42:39] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-05-16 01:42:40] INFO root fetch - main [MainThread]: End processing [quakemigrate]: success
 [2023-05-16 01:42:40] INFO root fetch - main [MainThread]: Store serial: [18114578]
+[2023-05-16 01:47:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114578]
+[2023-05-16 01:47:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-16 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openlineage-airflow-tdl
+[2023-05-16 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s2aff
+[2023-05-16 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classparse
+[2023-05-16 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cerc-geo
+[2023-05-16 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvariant
+[2023-05-16 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mercury-toolkit
+[2023-05-16 01:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SportStatIQ-DataCollectors
+[2023-05-16 01:47:49] WARNING root fetch - processPackages [openlineage-airflow-tdl]: Skipping, unable to determine old version
+[2023-05-16 01:47:49] INFO root fetch - main [MainThread]: End processing [openlineage-airflow-tdl] error
+[2023-05-16 01:47:49] INFO root fetch - processPackages [classparse]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 01:47:49] WARNING root fetch - processPackages [cerc-geo]: Skipping, unable to determine old version
+[2023-05-16 01:47:49] INFO root fetch - processPackages [s2aff]: New version: [0.30] Old Version: [0.29]
+[2023-05-16 01:47:49] INFO root fetch - main [MainThread]: End processing [cerc-geo] error
+[2023-05-16 01:47:49] INFO root fetch - processPackages [mercury-toolkit]: New version: [0.9.84.6] Old Version: [0.9.84.5]
+[2023-05-16 01:47:49] WARNING root fetch - processPackages [pyvariant]: Skipping, unable to determine old version
+[2023-05-16 01:47:49] INFO root fetch - main [MainThread]: End processing [pyvariant] error
+[2023-05-16 01:47:49] WARNING root fetch - processPackages [SportStatIQ-DataCollectors]: Skipping, unable to determine old version
+[2023-05-16 01:47:49] INFO root fetch - main [MainThread]: End processing [SportStatIQ-DataCollectors] error
+[2023-05-16 01:47:49] INFO root fetch - processPackages [classparse]: Downloading https://files.pythonhosted.org/packages/a6/58/24f41ac4a7b6e543cc64a2e38591a9cf6988585e7c8afd19e396a7a82fb4/classparse-0.1.3.tar.gz
+[2023-05-16 01:47:49] INFO root fetch - processPackages [mercury-toolkit]: Downloading https://files.pythonhosted.org/packages/cc/92/dd1c33ffe6b9e2f1b6af2fc85ee27649c06bbf1d8ef4d32c1bb663eb771f/mercury_toolkit-0.9.84.5-py3-none-any.whl
+[2023-05-16 01:47:49] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/47/bc/14a727c21227819067d4e9183f99638706ad1e209d819185e2a628160785/s2aff-0.30.tar.gz
+[2023-05-16 01:47:49] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-16 01:47:49] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.29.tar.gz tmp/s2aff-0.30.tar.gz --markdown 20230516/s/s2aff/0.29-0.30/diff.md --exclude *.pyd
+[2023-05-16 01:47:49] INFO root fetch - processPackages [classparse]: executing diffoscope
+[2023-05-16 01:47:49] INFO root fetch - processPackages [classparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classparse-0.1.2.tar.gz tmp/classparse-0.1.3.tar.gz --markdown 20230516/c/classparse/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 01:47:49] INFO root fetch - processPackages [mercury-toolkit]: Downloading https://files.pythonhosted.org/packages/83/f0/bb14fcc99e15d60a6cbf7feba4793f5d32ae903d20e63b102c412842c461/mercury_toolkit-0.9.84.6-py3-none-any.whl
+[2023-05-16 01:47:49] INFO root fetch - processPackages [mercury-toolkit]: executing diffoscope
+[2023-05-16 01:47:49] INFO root fetch - processPackages [mercury-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury_toolkit-0.9.84.5-py3-none-any.whl.zip tmp/mercury_toolkit-0.9.84.6-py3-none-any.whl.zip --markdown 20230516/m/mercury-toolkit/0.9.84.5-0.9.84.6/diff.md --exclude *.pyd
+[2023-05-16 01:47:50] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-16 01:47:50] INFO root fetch - main [MainThread]: End processing [classparse]: success
+[2023-05-16 01:47:51] INFO root fetch - main [MainThread]: End processing [mercury-toolkit]: success
+[2023-05-16 01:47:51] INFO root fetch - main [MainThread]: Store serial: [18114603]
