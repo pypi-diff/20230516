@@ -790,3 +790,35 @@
 [2023-05-16 00:45:16] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-05-16 00:45:16] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2023-05-16 00:45:16] INFO root fetch - main [MainThread]: Store serial: [18114310]
+[2023-05-16 00:50:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114310]
+[2023-05-16 00:50:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatcmd
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision6D
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astro-elk
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oking
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ontogpt
+[2023-05-16 00:50:26] INFO root fetch - processPackages [vision6D]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 00:50:26] INFO root fetch - processPackages [chatcmd]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-05-16 00:50:26] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-05-16 00:50:26] INFO root fetch - processPackages [astro-elk]: New version: [0.4] Old Version: [0.3]
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ontogpt]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-16 00:50:26] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-05-16 00:50:26] INFO root fetch - processPackages [chatcmd]: executing diffoscope
+[2023-05-16 00:50:26] INFO root fetch - processPackages [chatcmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcmd-1.0.13.tar.gz tmp/chatcmd-1.0.14.tar.gz --markdown 20230516/c/chatcmd/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-05-16 00:50:26] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-05-16 00:50:26] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-16 00:50:26] INFO root fetch - processPackages [vision6D]: Downloading https://files.pythonhosted.org/packages/85/8f/53241582c9f244702f738696428c51fe3c5cf765b5fe0879f0fadcb55ee5/vision6D-0.0.5.tar.gz
+[2023-05-16 00:50:26] INFO root fetch - processPackages [astro-elk]: Downloading https://files.pythonhosted.org/packages/cc/61/32471d6cb96d507212b670e166e71324aeecc747282cde5cd49bd0cb880b/astro-elk-0.3.tar.gz
+[2023-05-16 00:50:26] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-05-16 00:50:26] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.0.4.tar.gz tmp/vision6D-0.0.5.tar.gz --markdown 20230516/v/vision6D/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ontogpt]: Downloading https://files.pythonhosted.org/packages/88/8f/166774648fbcf3601d1e6293ff29b106c47e2e38033c2997619e8454586c/ontogpt-0.2.6.tar.gz
+[2023-05-16 00:50:26] INFO root fetch - processPackages [astro-elk]: Downloading https://files.pythonhosted.org/packages/d0/73/d17430b9c6140fecce661bceb218d4b3b09444575f6e09b4881c0792b001/astro-elk-0.4.tar.gz
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ontogpt]: executing diffoscope
+[2023-05-16 00:50:26] INFO root fetch - processPackages [ontogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontogpt-0.2.5.tar.gz tmp/ontogpt-0.2.6.tar.gz --markdown 20230516/o/ontogpt/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-16 00:50:26] INFO root fetch - processPackages [astro-elk]: executing diffoscope
+[2023-05-16 00:50:26] INFO root fetch - processPackages [astro-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-elk-0.3.tar.gz tmp/astro-elk-0.4.tar.gz --markdown 20230516/a/astro-elk/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-16 00:50:27] INFO root fetch - main [MainThread]: End processing [chatcmd]: success
+[2023-05-16 00:50:27] INFO root fetch - main [MainThread]: End processing [astro-elk]: success
+[2023-05-16 00:50:28] INFO root fetch - main [MainThread]: End processing [ontogpt]: success
+[2023-05-16 00:50:28] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-05-16 00:50:28] INFO root fetch - main [MainThread]: Store serial: [18114326]
