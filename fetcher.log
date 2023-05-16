@@ -6381,3 +6381,67 @@
 [2023-05-16 03:33:55] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2023-05-16 03:34:09] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-05-16 03:34:09] INFO root fetch - main [MainThread]: Store serial: [18117203]
+[2023-05-16 03:39:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117203]
+[2023-05-16 03:39:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: callingcardstools
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hbshare
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ejtraderCT
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-numpy
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotslacker-testcli
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchility
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IMDbTraktSyncer
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pytorch
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [callingcardstools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ejtraderCT]: New version: [1.1.1rc0] Old Version: [1.1.1b0]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [IMDbTraktSyncer]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [torchility]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230516/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230516/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ejtraderCT]: executing diffoscope
+[2023-05-16 03:39:18] INFO root fetch - processPackages [ejtraderCT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ejtraderCT-1.1.1b0.tar.gz tmp/ejtraderCT-1.1.1rc0.tar.gz --markdown 20230516/e/ejtraderCT/1.1.1b0-1.1.1rc0/diff.md --exclude *.pyd
+[2023-05-16 03:39:18] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-05-16 03:39:18] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.6.8.tar.gz tmp/torchility-0.6.9.tar.gz --markdown 20230516/t/torchility/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-16 03:39:18] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230516/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:39:19] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-05-16 03:39:19] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230516/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-16 03:39:19] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/57/71/45cf11c2c66e7969006d17b79832678705ed38a0df644acf7ca1110f208b/robotslacker-testcli-0.0.8.tar.gz
+[2023-05-16 03:39:19] INFO root fetch - processPackages [IMDbTraktSyncer]: Downloading https://files.pythonhosted.org/packages/68/29/c30e98d3cba16b33018fbf7e1a7ba66c143b6bb912481137d36fd6202da5/IMDbTraktSyncer-1.1.4.tar.gz
+[2023-05-16 03:39:19] INFO root fetch - processPackages [callingcardstools]: Downloading https://files.pythonhosted.org/packages/79/93/11f4b6b4e95d005879aad88afb24a64b704712c35f3133f8640f2e48c520/callingcardstools-0.1.5.tar.gz
+[2023-05-16 03:39:19] INFO root fetch - processPackages [IMDbTraktSyncer]: executing diffoscope
+[2023-05-16 03:39:19] INFO root fetch - processPackages [IMDbTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDbTraktSyncer-1.1.3.tar.gz tmp/IMDbTraktSyncer-1.1.4.tar.gz --markdown 20230516/I/IMDbTraktSyncer/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-16 03:39:19] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-16 03:39:19] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230516/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:39:19] INFO root fetch - processPackages [callingcardstools]: executing diffoscope
+[2023-05-16 03:39:19] INFO root fetch - processPackages [callingcardstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callingcardstools-0.1.4.tar.gz tmp/callingcardstools-0.1.5.tar.gz --markdown 20230516/c/callingcardstools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 03:39:20] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/49/c7/4e9f25562dae606566643edd46e0c7fdfcb015dd742780c7eeb381d4ae43/robotslacker-testcli-0.0.9.tar.gz
+[2023-05-16 03:39:20] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: chia-blockchain
+[2023-05-16 03:39:20] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-16 03:39:20] INFO root fetch - main [MainThread]: End processing [ejtraderCT]: success
+[2023-05-16 03:39:20] INFO root fetch - processPackages [chia-blockchain]: New version: [2.0.0b1] Old Version: [1.8.1rc3]
+[2023-05-16 03:39:20] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-05-16 03:39:20] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-16 03:39:20] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/86/6b/9a64520c075be0d4686800a0212918ee994233aa0df9a46e0801737e9f9c/chia-blockchain-1.8.1rc3.tar.gz
+[2023-05-16 03:39:20] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-16 03:39:21] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer]: success
+[2023-05-16 03:39:21] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-05-16 03:39:21] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230516/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 03:39:21] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/d1/c2/1fcb2bec77900e0480d4f8f6611c989bdb4189071c4efd55832737a03a70/chia-blockchain-2.0.0b1.tar.gz
+[2023-05-16 03:39:22] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-05-16 03:39:22] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.1rc3.tar.gz tmp/chia-blockchain-2.0.0b1.tar.gz --markdown 20230516/c/chia-blockchain/1.8.1rc3-2.0.0b1/diff.md --exclude *.pyd
+[2023-05-16 03:39:22] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-16 03:39:24] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-05-16 03:39:24] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-05-16 03:39:24] INFO root fetch - main [MainThread]: End processing [callingcardstools]: success
+[2023-05-16 03:39:36] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-05-16 03:39:36] INFO root fetch - main [MainThread]: Store serial: [18117234]
