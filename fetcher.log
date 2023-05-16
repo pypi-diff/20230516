@@ -10670,3 +10670,85 @@
 [2023-05-16 09:14:59] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-16 09:15:27] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-05-16 09:15:27] INFO root fetch - main [MainThread]: Store serial: [18119613]
+[2023-05-16 09:20:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119613]
+[2023-05-16 09:20:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prophecy-build-tool-test
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scMet
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exasol-script-languages-container-ci
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyTraffic
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rsutil
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aleph-alpha-client
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SMUTHI
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ProTstab2
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geomulticorr
+[2023-05-16 09:20:37] INFO root fetch - processPackages [rsutil]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [PyTraffic]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [exasol-script-languages-container-ci]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [prophecy-build-tool-test]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [aleph-alpha-client]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [geomulticorr]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ProTstab2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [scMet]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [SMUTHI]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-16 09:20:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 09:20:37] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/5b/54/b2a29f3dac806ddfd1a3dfd78e2eeb72e7d338b004c7c196c0bbccd606cc/aleph-alpha-client-3.1.0.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [exasol-script-languages-container-ci]: Downloading https://files.pythonhosted.org/packages/3a/32/4e17628e646e4e51fa2c194d94fc1face5539ac62b2b7774938ae3c8da03/exasol-script-languages-container-ci-1.0.0.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [geomulticorr]: Downloading https://files.pythonhosted.org/packages/e1/14/67283f11cf75417007d28ab37ae98fd5ea8b4c0c9b7991bdf194fafefc3b/geomulticorr-0.1.7.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [rsutil]: Downloading https://files.pythonhosted.org/packages/fa/c1/5745c5009b064c21cbe435dcc5da971df091417c4b81b20e64bf73b183a7/rsutil-0.1.0.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ProTstab2]: Downloading https://files.pythonhosted.org/packages/c0/e4/fe24369285811ec1ddceb24db544006405b54cc0bcb04a9a964a5d166390/ProTstab2-1.0.0.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [SMUTHI]: Downloading https://files.pythonhosted.org/packages/0e/09/a1b4f40720209e233b58fc7843be4cc8e049ce858cb0a1e4797aaf72ef6f/SMUTHI-2.1.1.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [PyTraffic]: Downloading https://files.pythonhosted.org/packages/3a/ba/3dd8dbdaceb4f84ae862e65ff5bb024e2702b11dcf30f5c533c8b9cd022e/PyTraffic-1.0.7.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [prophecy-build-tool-test]: Downloading https://files.pythonhosted.org/packages/a3/cd/7e5905c755a1874a80f0b1e796defd1a7759f3b83fd804f494c3cff5ada6/prophecy-build-tool-test-1.0.8.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [scMet]: Downloading https://files.pythonhosted.org/packages/b1/69/1eaa2e20b51ad05d32a28d150797fb62e28a25a2a76f6e7f2d0970f14372/scMet-1.0.2.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [PyTraffic]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [PyTraffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTraffic-1.0.6.tar.gz tmp/PyTraffic-1.0.7.tar.gz --markdown 20230516/P/PyTraffic/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-16 09:20:37] INFO root fetch - processPackages [prophecy-build-tool-test]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [prophecy-build-tool-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-test-1.0.7.tar.gz tmp/prophecy-build-tool-test-1.0.8.tar.gz --markdown 20230516/p/prophecy-build-tool-test/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 09:20:37] INFO root fetch - processPackages [scMet]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [scMet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scMet-1.0.1.tar.gz tmp/scMet-1.0.2.tar.gz --markdown 20230516/s/scMet/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 09:20:37] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/23/46/b0eb6fe2bdd67893641f7c9413eb5f0c1f81b7b4c37ba61b81932c9caf84/aleph-alpha-client-3.1.1.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [SMUTHI]: Downloading https://files.pythonhosted.org/packages/d4/2a/1ce2c8655897de2cebc49e1a4529ff3544145f1b61fdce9503e928fc37d4/SMUTHI-2.1.2-cp39-cp39-win_amd64.whl
+[2023-05-16 09:20:37] INFO root fetch - processPackages [rsutil]: Downloading https://files.pythonhosted.org/packages/f5/3e/4bd6389a9d44f7723aa76b913c70bd31f9baac027f120f4e74e01c7b0408/rsutil-0.2.0-cp39-cp39-macosx_11_0_arm64.whl
+[2023-05-16 09:20:37] INFO root fetch - processPackages [geomulticorr]: Downloading https://files.pythonhosted.org/packages/0c/98/8b7a6ee24df763358004f480630e36a0291fdc3f9bddcb0dcd7f31975d55/geomulticorr-0.1.8.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [exasol-script-languages-container-ci]: Downloading https://files.pythonhosted.org/packages/9b/f3/5acafca540eb586783961c1b210d4495ec21a9deae2f06dd9535e8aac7be/exasol_script_languages_container_ci-1.1.0.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ProTstab2]: Downloading https://files.pythonhosted.org/packages/3d/bb/7e97e45654782caba6e978333eca62981441c23380d6c12071626dea5b66/ProTstab2-1.0.1.tar.gz
+[2023-05-16 09:20:37] INFO root fetch - processPackages [aleph-alpha-client]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [SMUTHI]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [aleph-alpha-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-alpha-client-3.1.0.tar.gz tmp/aleph-alpha-client-3.1.1.tar.gz --markdown 20230516/a/aleph-alpha-client/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-16 09:20:37] INFO root fetch - processPackages [SMUTHI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMUTHI-2.1.1.tar.gz tmp/SMUTHI-2.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230516/S/SMUTHI/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-16 09:20:37] INFO root fetch - processPackages [exasol-script-languages-container-ci]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [exasol-script-languages-container-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol-script-languages-container-ci-1.0.0.tar.gz tmp/exasol_script_languages_container_ci-1.1.0.tar.gz --markdown 20230516/e/exasol-script-languages-container-ci/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-16 09:20:37] INFO root fetch - processPackages [rsutil]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [rsutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsutil-0.1.0.tar.gz tmp/rsutil-0.2.0-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230516/r/rsutil/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ProTstab2]: executing diffoscope
+[2023-05-16 09:20:37] INFO root fetch - processPackages [ProTstab2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProTstab2-1.0.0.tar.gz tmp/ProTstab2-1.0.1.tar.gz --markdown 20230516/P/ProTstab2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 09:20:38] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-16 09:20:38] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.1.7.tar.gz tmp/geomulticorr-0.1.8.tar.gz --markdown 20230516/g/geomulticorr/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 09:20:39] INFO root fetch - processPackages [prophecy-build-tool-test]: Start processing: async-adbc
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool-test]: success
+[2023-05-16 09:20:39] INFO root fetch - processPackages [async-adbc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 09:20:39] INFO root fetch - processPackages [PyTraffic]: Start processing: plutous-trade
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [PyTraffic]: success
+[2023-05-16 09:20:39] WARNING root fetch - processPackages [plutous-trade]: Skipping, unable to determine old version
+[2023-05-16 09:20:39] INFO root fetch - processPackages [plutous-trade]: Start processing: certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [plutous-trade] error
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [rsutil]: success
+[2023-05-16 09:20:39] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: New version: [20230516.7.20.614735] Old Version: [20230513.12.25.91709]
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [exasol-script-languages-container-ci]: success
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [scMet]: success
+[2023-05-16 09:20:39] INFO root fetch - processPackages [async-adbc]: Downloading https://files.pythonhosted.org/packages/7a/17/2b642ee9e6224373d2a2200e0459ad0988aff251a3c0be64fead3305fdc4/async_adbc-1.0.2.tar.gz
+[2023-05-16 09:20:39] INFO root fetch - processPackages [async-adbc]: executing diffoscope
+[2023-05-16 09:20:39] INFO root fetch - processPackages [async-adbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_adbc-1.0.1.tar.gz tmp/async_adbc-1.0.2.tar.gz --markdown 20230516/a/async-adbc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 09:20:39] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Downloading https://files.pythonhosted.org/packages/97/35/296c706052e3a1374b1e875085be9848d72aa6ea9d48d5b42345d2556f8e/certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize-20230513.12.25.91709.tar.gz
+[2023-05-16 09:20:39] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Skipping package: exceeds size limit 39424489>=10485760
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize] error
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [ProTstab2]: success
+[2023-05-16 09:20:39] INFO root fetch - main [MainThread]: End processing [aleph-alpha-client]: success
+[2023-05-16 09:20:40] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
+[2023-05-16 09:20:40] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-16 09:20:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-16 09:20:41] INFO root fetch - main [MainThread]: End processing [SMUTHI]: success
+[2023-05-16 09:20:41] INFO root fetch - main [MainThread]: Store serial: [18119650]
