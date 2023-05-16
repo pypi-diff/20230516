@@ -19923,3 +19923,98 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 16:50:42] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
 [2023-05-16 16:50:46] INFO root fetch - main [MainThread]: End processing [tmlt-core]: success
 [2023-05-16 16:50:46] INFO root fetch - main [MainThread]: Store serial: [18125025]
+[2023-05-16 16:55:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18125025]
+[2023-05-16 16:55:55] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dis-tp
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pollination-streamlit-io
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhdtoolkit
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-client
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geolibs
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2023-05-16 16:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2023-05-16 16:55:55] INFO root fetch - processPackages [pyhdtoolkit]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [dis-tp]: New version: [0.1.2] Old Version: [0.0.1]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [geolibs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [pollination-streamlit-io]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 16:55:55] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 16:55:55] INFO root fetch - processPackages [pyhdtoolkit]: Downloading https://files.pythonhosted.org/packages/9b/b1/7f214141886d4681855b80610e42b313d3b0eba21cfaa1f19d61e51e45da/pyhdtoolkit-1.1.1.tar.gz
+[2023-05-16 16:55:55] INFO root fetch - processPackages [dis-tp]: Downloading https://files.pythonhosted.org/packages/dd/5d/94e697651fa4bdd2d448b5024d959f1aee97ae7da39ea39a315464b1e2fb/dis_tp-0.0.1.tar.gz
+[2023-05-16 16:55:55] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/17/15/4c33d16aa9b1c63a7b6d57fc304bcba87a36e17745b5767550a4159d02e4/pollination-streamlit-io-0.9.2.tar.gz
+[2023-05-16 16:55:55] INFO root fetch - processPackages [geolibs]: Downloading https://files.pythonhosted.org/packages/a0/85/4c693147e4e3db31fd0e219334cdc985b0c0b65f4d40b5e1f5fda7fc9944/geolibs-0.0.8.tar.gz
+[2023-05-16 16:55:55] INFO root fetch - processPackages [dis-tp]: Downloading https://files.pythonhosted.org/packages/46/f7/8e6d2b4c1f3949b20143a350caceb42532a85dcad48954c65f6108b46e6b/dis_tp-0.1.2.tar.gz
+[2023-05-16 16:55:55] INFO root fetch - processPackages [geolibs]: executing diffoscope
+[2023-05-16 16:55:55] INFO root fetch - processPackages [geolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geolibs-0.0.7.tar.gz tmp/geolibs-0.0.8.tar.gz --markdown 20230516/g/geolibs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 16:55:55] INFO root fetch - processPackages [pyhdtoolkit]: Downloading https://files.pythonhosted.org/packages/75/2c/7807752725778002b48cde055905fba14fa802182081a7a76f0432e2ce0d/pyhdtoolkit-1.2.0.tar.gz
+[2023-05-16 16:55:56] INFO root fetch - processPackages [pyhdtoolkit]: executing diffoscope
+[2023-05-16 16:55:56] INFO root fetch - processPackages [pyhdtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdtoolkit-1.1.1.tar.gz tmp/pyhdtoolkit-1.2.0.tar.gz --markdown 20230516/p/pyhdtoolkit/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-16 16:55:56] INFO root fetch - processPackages [pollination-streamlit-io]: Downloading https://files.pythonhosted.org/packages/8f/88/39612cd1265361dd994ecd8d02ba175364afe8e50600f0d896b70d07b54c/pollination-streamlit-io-0.9.3.tar.gz
+[2023-05-16 16:55:56] INFO root fetch - processPackages [dis-tp]: executing diffoscope
+[2023-05-16 16:55:56] INFO root fetch - processPackages [dis-tp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dis_tp-0.0.1.tar.gz tmp/dis_tp-0.1.2.tar.gz --markdown 20230516/d/dis-tp/0.0.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 16:55:56] INFO root fetch - processPackages [pollination-streamlit-io]: executing diffoscope
+[2023-05-16 16:55:56] INFO root fetch - processPackages [pollination-streamlit-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-streamlit-io-0.9.2.tar.gz tmp/pollination-streamlit-io-0.9.3.tar.gz --markdown 20230516/p/pollination-streamlit-io/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-utils
+[2023-05-16 16:55:57] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-client]: Start processing: oxbow
+[2023-05-16 16:55:57] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 16:55:57] WARNING root fetch - processPackages [oxbow]: Skipping, unable to determine old version
+[2023-05-16 16:55:57] INFO root fetch - processPackages [oxbow]: Start processing: qdrant-haystack
+[2023-05-16 16:55:57] INFO root fetch - main [MainThread]: End processing [oxbow] error
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-models]: Start processing: ansible-navigator
+[2023-05-16 16:55:57] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-16 16:55:57] INFO root fetch - processPackages [qdrant-haystack]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: nucliadb-contributor-assets
+[2023-05-16 16:55:57] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post784] Old Version: [1.0.0.post783]
+[2023-05-16 16:55:57] INFO root fetch - processPackages [ansible-navigator]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-05-16 16:55:57] INFO root fetch - processPackages [geolibs]: Start processing: ssos
+[2023-05-16 16:55:57] INFO root fetch - main [MainThread]: End processing [geolibs]: success
+[2023-05-16 16:55:57] INFO root fetch - processPackages [ssos]: New version: [1.3.3] Old Version: [1.3.1]
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-protos]: Start processing: tutorialleigos
+[2023-05-16 16:55:57] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-16 16:55:57] INFO root fetch - processPackages [ssos]: executing diffoscope
+[2023-05-16 16:55:57] INFO root fetch - processPackages [ssos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssos-1.3.1.tar.gz tmp/ssos-1.3.3-py3-none-any.whl.zip --markdown 20230516/s/ssos/1.3.1-1.3.3/diff.md --exclude *.pyd
+[2023-05-16 16:55:57] WARNING root fetch - processPackages [tutorialleigos]: Skipping, unable to determine old version
+[2023-05-16 16:55:57] INFO root fetch - main [MainThread]: End processing [tutorialleigos] error
+[2023-05-16 16:55:57] INFO root fetch - processPackages [ansible-navigator]: Downloading https://files.pythonhosted.org/packages/cd/f8/1ff54e1883b2e1a56b650c1a12ce6347f11d4726431835a46d3119a2504f/ansible-navigator-3.2.0.tar.gz
+[2023-05-16 16:55:57] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/f6/1a/2a59c3e42b018502a3df1ff55a604a3de446bb12126f14d980cbd8030670/nucliadb_contributor_assets-1.0.0.post784-py3-none-any.whl
+[2023-05-16 16:55:58] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/6d/42/8a5288e005bb0bb74b9855f979f399b0be3a71ebd9c4c22cf14b223b02df/qdrant_haystack-1.0.2.tar.gz
+[2023-05-16 16:55:58] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-16 16:55:58] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post783-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post784-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-contributor-assets/1.0.0.post783-1.0.0.post784/diff.md --exclude *.pyd
+[2023-05-16 16:55:58] INFO root fetch - processPackages [qdrant-haystack]: executing diffoscope
+[2023-05-16 16:55:58] INFO root fetch - processPackages [qdrant-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_haystack-1.0.0.tar.gz tmp/qdrant_haystack-1.0.2.tar.gz --markdown 20230516/q/qdrant-haystack/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 16:55:58] INFO root fetch - processPackages [ansible-navigator]: Downloading https://files.pythonhosted.org/packages/e8/8a/e32a6b6ba80fcd782d1b19cb933c8149aff3a860a65201b08a4d2a24cc3e/ansible-navigator-3.3.0.tar.gz
+[2023-05-16 16:55:58] INFO root fetch - main [MainThread]: End processing [pyhdtoolkit]: success
+[2023-05-16 16:55:58] INFO root fetch - processPackages [ansible-navigator]: executing diffoscope
+[2023-05-16 16:55:58] INFO root fetch - processPackages [ansible-navigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-navigator-3.2.0.tar.gz tmp/ansible-navigator-3.3.0.tar.gz --markdown 20230516/a/ansible-navigator/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-05-16 16:55:58] INFO root fetch - main [MainThread]: End processing [dis-tp]: success
+[2023-05-16 16:55:59] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-16 16:55:59] INFO root fetch - main [MainThread]: End processing [ssos]: success
+[2023-05-16 16:55:59] INFO root fetch - main [MainThread]: End processing [qdrant-haystack]: success
+[2023-05-16 16:55:59] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-16 16:56:01] INFO root fetch - main [MainThread]: End processing [pollination-streamlit-io]: success
+[2023-05-16 16:56:02] INFO root fetch - main [MainThread]: End processing [ansible-navigator]: success
+[2023-05-16 16:56:10] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-16 16:56:10] INFO root fetch - main [MainThread]: Store serial: [18125083]
