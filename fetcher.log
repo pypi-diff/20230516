@@ -8766,3 +8766,93 @@
 [2023-05-16 07:10:06] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-05-16 07:10:06] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-05-16 07:10:06] INFO root fetch - main [MainThread]: Store serial: [18118544]
+[2023-05-16 07:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118544]
+[2023-05-16 07:15:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-model-maker-nightly
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EdgeGPT
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amebo
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kodexa
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowmachine
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowclient
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowetl
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Vlt-Comm
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lzy-resources
+[2023-05-16 07:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: traversaal
+[2023-05-16 07:15:16] INFO root fetch - processPackages [EdgeGPT]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [amebo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [Vlt-Comm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [traversaal]: New version: [0.6970] Old Version: [0.6960]
+[2023-05-16 07:15:16] WARNING root fetch - processPackages [lzy-resources]: Skipping, unable to determine old version
+[2023-05-16 07:15:16] INFO root fetch - processPackages [lzy-resources]: Start processing: pdpp-bhi
+[2023-05-16 07:15:16] INFO root fetch - main [MainThread]: End processing [lzy-resources] error
+[2023-05-16 07:15:16] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305160508] Old Version: [0.4.3.dev202305150508]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230516/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-16 07:15:16] INFO root fetch - processPackages [pdpp-bhi]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230516/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-16 07:15:16] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/28/e6/d951fd5b2171bd56bf69e84358410970be46b8753970b2aa9d0402394fd0/amebo-0.1.1.tar.gz
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-16 07:15:16] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230516/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-16 07:15:16] INFO root fetch - processPackages [Vlt-Comm]: Downloading https://files.pythonhosted.org/packages/7f/86/160d3f84a987c888b4fb17aab086b402dc0e6b7bae14bb902db1798e4192/Vlt-Comm-0.1.8.tar.gz
+[2023-05-16 07:15:16] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/82/42/e212623c6695f1f5c34c0cdd826fb3c6d968e478e90ac31700f27c947cae/EdgeGPT-0.4.1.tar.gz
+[2023-05-16 07:15:16] INFO root fetch - processPackages [pdpp-bhi]: Downloading https://files.pythonhosted.org/packages/6b/9e/81cf5847c94de0181a855f7b000ab0cdb81b9a1a064545a6627488f85883/pdpp-bhi-0.0.6.tar.gz
+[2023-05-16 07:15:17] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-16 07:15:17] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230516/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-16 07:15:17] INFO root fetch - processPackages [traversaal]: Downloading https://files.pythonhosted.org/packages/99/0f/4d50a9f5230f3c60a666d54b06ecfb9387cae460b8d1ab7916be6c950c93/traversaal-0.6970-py3-none-any.whl
+[2023-05-16 07:15:17] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-05-16 07:15:17] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.4.0.tar.gz tmp/EdgeGPT-0.4.1.tar.gz --markdown 20230516/E/EdgeGPT/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-16 07:15:17] INFO root fetch - processPackages [amebo]: Downloading https://files.pythonhosted.org/packages/1f/71/c6602f7ae23b9e30f1eaeccd59ceea2491f68ac87ddfc61c14426f0eb99f/amebo-0.1.2.tar.gz
+[2023-05-16 07:15:17] INFO root fetch - processPackages [Vlt-Comm]: Downloading https://files.pythonhosted.org/packages/af/5c/e3409cd70d5bf848e78582dd0583bfb66af784561a0bcbfec5b8d0f9310d/Vlt-Comm-0.1.9.tar.gz
+[2023-05-16 07:15:17] INFO root fetch - processPackages [traversaal]: executing diffoscope
+[2023-05-16 07:15:17] INFO root fetch - processPackages [traversaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traversaal-0.6960-py3-none-any.whl.zip tmp/traversaal-0.6970-py3-none-any.whl.zip --markdown 20230516/t/traversaal/0.6960-0.6970/diff.md --exclude *.pyd
+[2023-05-16 07:15:17] INFO root fetch - processPackages [Vlt-Comm]: executing diffoscope
+[2023-05-16 07:15:17] INFO root fetch - processPackages [Vlt-Comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vlt-Comm-0.1.8.tar.gz tmp/Vlt-Comm-0.1.9.tar.gz --markdown 20230516/V/Vlt-Comm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 07:15:17] INFO root fetch - processPackages [pdpp-bhi]: Downloading https://files.pythonhosted.org/packages/e7/50/e05fda4634f223102c7096a6607203eefef3780eb497ae67067f20f9f8a1/pdpp-bhi-0.0.8.tar.gz
+[2023-05-16 07:15:17] INFO root fetch - processPackages [amebo]: executing diffoscope
+[2023-05-16 07:15:17] INFO root fetch - processPackages [amebo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amebo-0.1.1.tar.gz tmp/amebo-0.1.2.tar.gz --markdown 20230516/a/amebo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 07:15:17] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/5d/66/7179f5b7066edfab7b49681cbfb9e72ddc5f61c62980d89c8b8978fae3c0/tflite-model-maker-nightly-0.4.3.dev202305160508.tar.gz
+[2023-05-16 07:15:17] INFO root fetch - processPackages [pdpp-bhi]: executing diffoscope
+[2023-05-16 07:15:17] INFO root fetch - processPackages [pdpp-bhi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdpp-bhi-0.0.6.tar.gz tmp/pdpp-bhi-0.0.8.tar.gz --markdown 20230516/p/pdpp-bhi/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 07:15:17] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-16 07:15:17] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305150508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305160508.tar.gz --markdown 20230516/t/tflite-model-maker-nightly/0.4.3.dev202305150508-0.4.3.dev202305160508/diff.md --exclude *.pyd
+[2023-05-16 07:15:18] INFO root fetch - processPackages [traversaal]: Start processing: kotan
+[2023-05-16 07:15:18] INFO root fetch - main [MainThread]: End processing [traversaal]: success
+[2023-05-16 07:15:18] WARNING root fetch - processPackages [kotan]: Skipping, unable to determine old version
+[2023-05-16 07:15:18] INFO root fetch - processPackages [kotan]: Start processing: fastqueue-lib
+[2023-05-16 07:15:18] INFO root fetch - main [MainThread]: End processing [kotan] error
+[2023-05-16 07:15:18] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 07:15:18] INFO root fetch - processPackages [flowclient]: Start processing: monkey.crawler
+[2023-05-16 07:15:18] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-16 07:15:18] INFO root fetch - processPackages [monkey.crawler]: New version: [2.0.0.dev4] Old Version: [2.0.0.dev3]
+[2023-05-16 07:15:18] INFO root fetch - processPackages [flowetl]: Start processing: blackprint-rc
+[2023-05-16 07:15:18] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-16 07:15:18] INFO root fetch - processPackages [amebo]: Start processing: stigg-api-client
+[2023-05-16 07:15:18] INFO root fetch - main [MainThread]: End processing [amebo]: success
+[2023-05-16 07:15:18] WARNING root fetch - processPackages [blackprint-rc]: Skipping, unable to determine old version
+[2023-05-16 07:15:18] INFO root fetch - main [MainThread]: End processing [blackprint-rc] error
+[2023-05-16 07:15:19] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-05-16 07:15:19] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.431.0]
+[2023-05-16 07:15:19] INFO root fetch - processPackages [monkey.crawler]: Downloading https://files.pythonhosted.org/packages/e3/3e/7131d9702cff643be979e7dbc54ed4b6c56bfbc4675709e757a2c5d10298/monkey.crawler-2.0.0.dev3.tar.gz
+[2023-05-16 07:15:19] INFO root fetch - main [MainThread]: End processing [pdpp-bhi]: success
+[2023-05-16 07:15:19] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/a1/8c/9ac678e580e3556728c41e04666855542433cb938838584efcaec974c644/stigg_api_client-0.431.0.tar.gz
+[2023-05-16 07:15:19] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-05-16 07:15:19] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.6.tar.gz tmp/fastqueue-lib-0.0.7.tar.gz --markdown 20230516/f/fastqueue-lib/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 07:15:19] INFO root fetch - main [MainThread]: End processing [Vlt-Comm]: success
+[2023-05-16 07:15:19] INFO root fetch - processPackages [monkey.crawler]: Downloading https://files.pythonhosted.org/packages/d0/63/8f778a06f3575d7a94bfd4a1ae691912abf0492594508981ca1222c96370/monkey.crawler-2.0.0.dev4.tar.gz
+[2023-05-16 07:15:19] INFO root fetch - processPackages [monkey.crawler]: executing diffoscope
+[2023-05-16 07:15:19] INFO root fetch - processPackages [monkey.crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monkey.crawler-2.0.0.dev3.tar.gz tmp/monkey.crawler-2.0.0.dev4.tar.gz --markdown 20230516/m/monkey.crawler/2.0.0.dev3-2.0.0.dev4/diff.md --exclude *.pyd
+[2023-05-16 07:15:19] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-05-16 07:15:19] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-16 07:15:19] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.431.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230516/s/stigg-api-client/0.431.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-16 07:15:19] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-16 07:15:20] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-16 07:15:20] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-05-16 07:15:20] INFO root fetch - main [MainThread]: End processing [monkey.crawler]: success
+[2023-05-16 07:15:20] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-16 07:15:21] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-16 07:15:21] INFO root fetch - main [MainThread]: Store serial: [18118596]
