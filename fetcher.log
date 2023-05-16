@@ -18299,3 +18299,179 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 15:45:36] INFO root fetch - main [MainThread]: End processing [fastapi]: success
 [2023-05-16 15:46:07] INFO root fetch - main [MainThread]: End processing [collective.ckeditor]: success
 [2023-05-16 15:46:07] INFO root fetch - main [MainThread]: Store serial: [18124163]
+[2023-05-16 15:51:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124163]
+[2023-05-16 15:51:17] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crossroads-schematization
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yadism
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxsp
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vivarium-core
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pip-remote-aaaaa
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyterlab-judge
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-loader-xyz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pard
+[2023-05-16 15:51:17] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-16 15:51:17] INFO root fetch - processPackages [pard]: New version: [0.4.0.1] Old Version: [0.4.0.0]
+[2023-05-16 15:51:17] INFO root fetch - processPackages [coiled]: New version: [0.6.4.dev9] Old Version: [0.6.4.dev8]
+[2023-05-16 15:51:17] INFO root fetch - processPackages [crossroads-schematization]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 15:51:17] INFO root fetch - processPackages [yadism]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-16 15:51:17] WARNING root fetch - processPackages [pip-remote-aaaaa]: Skipping, unable to determine old version
+[2023-05-16 15:51:17] INFO root fetch - processPackages [pip-remote-aaaaa]: Start processing: ansys-optislang-core
+[2023-05-16 15:51:17] INFO root fetch - main [MainThread]: End processing [pip-remote-aaaaa] error
+[2023-05-16 15:51:17] WARNING root fetch - processPackages [data-loader-xyz]: Skipping, unable to determine old version
+[2023-05-16 15:51:17] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-16 15:51:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-16 15:51:17] INFO root fetch - processPackages [data-loader-xyz]: Start processing: oarepo-runtime
+[2023-05-16 15:51:17] INFO root fetch - processPackages [jupyterlab-judge]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-16 15:51:17] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230516/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-16 15:51:17] INFO root fetch - processPackages [vivarium-core]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-16 15:51:17] INFO root fetch - main [MainThread]: End processing [data-loader-xyz] error
+[2023-05-16 15:51:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.4.dev8.tar.gz tmp/coiled-0.6.4.dev9.tar.gz --markdown 20230516/c/coiled/0.6.4.dev8-0.6.4.dev9/diff.md --exclude *.pyd
+[2023-05-16 15:51:17] INFO root fetch - processPackages [dxsp]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-16 15:51:17] INFO root fetch - processPackages [pard]: Downloading https://files.pythonhosted.org/packages/c0/e0/c5cc65e2087c6d0baa38988ee162e4c527dbf13c078316354a8c6bc7922c/pard-0.4.0.0.tar.gz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ansys-optislang-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-16 15:51:17] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-16 15:51:17] INFO root fetch - processPackages [vivarium-core]: Downloading https://files.pythonhosted.org/packages/ed/82/e3f5bd9a5a24bce1e857b31c67371759d2a66dcbb82455e604e07a97e131/vivarium-core-1.5.5.tar.gz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/ff/2e/6b1f58188ce5f5c5f6581d59ca77efb129c1973f392748eff23a306109df/crossroads-schematization-0.0.9.tar.gz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ansys-optislang-core]: Downloading https://files.pythonhosted.org/packages/a3/ca/823de34aa01d9b450b57532c195c961f9d6cf14d1395e9d8f5575acd7e74/ansys-optislang-core-0.2.0.tar.gz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [jupyterlab-judge]: executing diffoscope
+[2023-05-16 15:51:17] INFO root fetch - processPackages [jupyterlab-judge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_judge-0.9.1.tar.gz tmp/jupyterlab_judge-0.9.2.tar.gz --markdown 20230516/j/jupyterlab-judge/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 15:51:17] INFO root fetch - processPackages [pard]: Downloading https://files.pythonhosted.org/packages/a2/6d/161a75bab49cc1f2c90c665021a4b890bad53b9c08ab7e025422cabe9c6e/pard-0.4.0.1.tar.gz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [crossroads-schematization]: executing diffoscope
+[2023-05-16 15:51:17] INFO root fetch - processPackages [crossroads-schematization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossroads-schematization-0.0.8.tar.gz tmp/crossroads-schematization-0.0.9.tar.gz --markdown 20230516/c/crossroads-schematization/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 15:51:17] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-16 15:51:17] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.8.tar.gz tmp/dxsp-2.2.9.tar.gz --markdown 20230516/d/dxsp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-16 15:51:17] INFO root fetch - processPackages [vivarium-core]: Downloading https://files.pythonhosted.org/packages/d1/c1/b3fbad59605d20c8d07de929fe5fb37f4b3640cd15aa0348625b42d26958/vivarium-core-1.5.6.tar.gz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [yadism]: Downloading https://files.pythonhosted.org/packages/c8/e8/0c63b9ea29346cfd28999a92db2783676be1686b6ac2284d58e2c7c1024e/yadism-0.9.1.tar.gz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-05-16 15:51:17] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.2.8.tar.gz tmp/oarepo-runtime-1.2.9.tar.gz --markdown 20230516/o/oarepo-runtime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-16 15:51:17] INFO root fetch - processPackages [ansys-optislang-core]: Downloading https://files.pythonhosted.org/packages/d3/d4/0dfa0686e705a4bb9a32bc6e133edca1dca30394539fd587a1645c7b2ab3/ansys_optislang_core-0.2.1.tar.gz
+[2023-05-16 15:51:17] INFO root fetch - processPackages [pard]: executing diffoscope
+[2023-05-16 15:51:17] INFO root fetch - processPackages [pard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pard-0.4.0.0.tar.gz tmp/pard-0.4.0.1.tar.gz --markdown 20230516/p/pard/0.4.0.0-0.4.0.1/diff.md --exclude *.pyd
+[2023-05-16 15:51:17] INFO root fetch - processPackages [vivarium-core]: executing diffoscope
+[2023-05-16 15:51:17] INFO root fetch - processPackages [vivarium-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vivarium-core-1.5.5.tar.gz tmp/vivarium-core-1.5.6.tar.gz --markdown 20230516/v/vivarium-core/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-05-16 15:51:18] INFO root fetch - processPackages [yadism]: Downloading https://files.pythonhosted.org/packages/6f/5d/11f058e6141916ab225c821b39c0e9af9b3628b6a4e780352ad82ff66db4/yadism-0.9.2.tar.gz
+[2023-05-16 15:51:18] INFO root fetch - processPackages [ansys-optislang-core]: executing diffoscope
+[2023-05-16 15:51:18] INFO root fetch - processPackages [ansys-optislang-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-optislang-core-0.2.0.tar.gz tmp/ansys_optislang_core-0.2.1.tar.gz --markdown 20230516/a/ansys-optislang-core/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-16 15:51:18] INFO root fetch - processPackages [yadism]: executing diffoscope
+[2023-05-16 15:51:18] INFO root fetch - processPackages [yadism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yadism-0.9.1.tar.gz tmp/yadism-0.9.2.tar.gz --markdown 20230516/y/yadism/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 15:51:19] INFO root fetch - processPackages [coiled]: Start processing: bus-wizard
+[2023-05-16 15:51:19] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-16 15:51:19] INFO root fetch - processPackages [bus-wizard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 15:51:19] INFO root fetch - processPackages [bus-wizard]: executing diffoscope
+[2023-05-16 15:51:19] INFO root fetch - processPackages [bus-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_wizard-0.0.1.tar.gz tmp/bus_wizard-0.0.2.tar.gz --markdown 20230516/b/bus-wizard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 15:51:19] INFO root fetch - processPackages [crossroads-schematization]: Start processing: dis-tp
+[2023-05-16 15:51:19] INFO root fetch - main [MainThread]: End processing [crossroads-schematization]: success
+[2023-05-16 15:51:19] WARNING root fetch - processPackages [dis-tp]: Skipping, unable to determine old version
+[2023-05-16 15:51:19] INFO root fetch - processPackages [dis-tp]: Start processing: craft-ai-sdk
+[2023-05-16 15:51:19] INFO root fetch - main [MainThread]: End processing [dis-tp] error
+[2023-05-16 15:51:19] INFO root fetch - processPackages [dxsp]: Start processing: resomapper
+[2023-05-16 15:51:19] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-16 15:51:19] INFO root fetch - processPackages [pard]: Start processing: tamarind
+[2023-05-16 15:51:19] INFO root fetch - main [MainThread]: End processing [pard]: success
+[2023-05-16 15:51:19] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-16 15:51:19] WARNING root fetch - processPackages [resomapper]: Skipping, unable to determine old version
+[2023-05-16 15:51:19] INFO root fetch - processPackages [resomapper]: Start processing: milankalkenings
+[2023-05-16 15:51:19] INFO root fetch - main [MainThread]: End processing [resomapper] error
+[2023-05-16 15:51:19] INFO root fetch - processPackages [milankalkenings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 15:51:19] INFO root fetch - processPackages [tamarind]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-16 15:51:19] INFO root fetch - processPackages [milankalkenings]: executing diffoscope
+[2023-05-16 15:51:19] INFO root fetch - processPackages [milankalkenings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milankalkenings-0.1.8.tar.gz tmp/milankalkenings-0.1.9.tar.gz --markdown 20230516/m/milankalkenings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 15:51:19] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-05-16 15:51:19] INFO root fetch - processPackages [tamarind]: Downloading https://files.pythonhosted.org/packages/68/59/29e50a4d81e3f64adc8c0da09bef5cb6087d00b8c1db6dff02b84e14ee26/tamarind-0.2.0.tar.gz
+[2023-05-16 15:51:20] INFO root fetch - processPackages [oarepo-runtime]: Start processing: questdb-connect
+[2023-05-16 15:51:20] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-05-16 15:51:20] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-05-16 15:51:20] INFO root fetch - processPackages [vivarium-core]: Start processing: nriapp
+[2023-05-16 15:51:20] INFO root fetch - main [MainThread]: End processing [vivarium-core]: success
+[2023-05-16 15:51:20] INFO root fetch - processPackages [nriapp]: New version: [1.1.17] Old Version: [1.1.15]
+[2023-05-16 15:51:20] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-05-16 15:51:20] INFO root fetch - processPackages [nriapp]: executing diffoscope
+[2023-05-16 15:51:20] INFO root fetch - processPackages [nriapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nriapp-1.1.15.tar.gz tmp/nriapp-1.1.17.tar.gz --markdown 20230516/n/nriapp/1.1.15-1.1.17/diff.md --exclude *.pyd
+[2023-05-16 15:51:20] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/9a/9e/aabd2a92b1b790d647454d814fc80107d6fdaa986b0b061fd1ec3333b4fe/questdb-connect-0.0.50.tar.gz
+[2023-05-16 15:51:20] INFO root fetch - processPackages [tamarind]: Downloading https://files.pythonhosted.org/packages/64/4f/8b2c3c7b6d6288651550742eac285d11c9e81d14311a71ab0bd7f82605e4/tamarind-0.2.1.tar.gz
+[2023-05-16 15:51:20] INFO root fetch - processPackages [bus-wizard]: Start processing: tutor-jupyter
+[2023-05-16 15:51:20] INFO root fetch - main [MainThread]: End processing [bus-wizard]: success
+[2023-05-16 15:51:20] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-16 15:51:20] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.49.tar.gz tmp/questdb-connect-0.0.50.tar.gz --markdown 20230516/q/questdb-connect/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-05-16 15:51:20] INFO root fetch - processPackages [tamarind]: executing diffoscope
+[2023-05-16 15:51:20] INFO root fetch - processPackages [tamarind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamarind-0.2.0.tar.gz tmp/tamarind-0.2.1.tar.gz --markdown 20230516/t/tamarind/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-16 15:51:20] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-05-16 15:51:20] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230516/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 15:51:20] INFO root fetch - processPackages [tutor-jupyter]: New version: [15.0.0] Old Version: [0.1.0]
+[2023-05-16 15:51:20] INFO root fetch - processPackages [tutor-jupyter]: Downloading https://files.pythonhosted.org/packages/f4/de/41145ee2dba572785b893953fcd7dbc48c538580aba37194cb0185fa7398/tutor-jupyter-0.1.0.tar.gz
+[2023-05-16 15:51:20] INFO root fetch - processPackages [tutor-jupyter]: Downloading https://files.pythonhosted.org/packages/a3/1a/db0194cd7facf3a4eb21b0b96bc30811f497799d922a77379e48731ab765/tutor-jupyter-15.0.0.tar.gz
+[2023-05-16 15:51:21] INFO root fetch - processPackages [tutor-jupyter]: executing diffoscope
+[2023-05-16 15:51:21] INFO root fetch - processPackages [tutor-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-jupyter-0.1.0.tar.gz tmp/tutor-jupyter-15.0.0.tar.gz --markdown 20230516/t/tutor-jupyter/0.1.0-15.0.0/diff.md --exclude *.pyd
+[2023-05-16 15:51:21] INFO root fetch - processPackages [milankalkenings]: Start processing: SalatikSer
+[2023-05-16 15:51:21] INFO root fetch - main [MainThread]: End processing [milankalkenings]: success
+[2023-05-16 15:51:21] INFO root fetch - processPackages [SalatikSer]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-16 15:51:21] INFO root fetch - processPackages [yadism]: Start processing: certora-cli-alpha-gereon-cert-2195-separate-query-from-result
+[2023-05-16 15:51:21] INFO root fetch - main [MainThread]: End processing [yadism]: success
+[2023-05-16 15:51:21] INFO root fetch - processPackages [tamarind]: Start processing: opn-sonarqube-api
+[2023-05-16 15:51:21] INFO root fetch - main [MainThread]: End processing [tamarind]: success
+[2023-05-16 15:51:21] INFO root fetch - processPackages [opn-sonarqube-api]: New version: [2.3.2.2950747] Old Version: [2.1.0.486996]
+[2023-05-16 15:51:21] INFO root fetch - processPackages [SalatikSer]: Downloading https://files.pythonhosted.org/packages/26/d4/46f85d3c4330f588aacb19f0b6af8c85940b3475176ee7a81f4d9b7008e4/SalatikSer-1.2.0.tar.gz
+[2023-05-16 15:51:21] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2195-separate-query-from-result]: Skipping, unable to determine old version
+[2023-05-16 15:51:21] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2195-separate-query-from-result]: Start processing: openeo
+[2023-05-16 15:51:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2195-separate-query-from-result] error
+[2023-05-16 15:51:21] INFO root fetch - processPackages [openeo]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-16 15:51:22] INFO root fetch - processPackages [SalatikSer]: executing diffoscope
+[2023-05-16 15:51:22] INFO root fetch - processPackages [SalatikSer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SalatikSer-1.1.0-py3-none-any.whl.zip tmp/SalatikSer-1.2.0.tar.gz --markdown 20230516/S/SalatikSer/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-16 15:51:22] INFO root fetch - processPackages [openeo]: executing diffoscope
+[2023-05-16 15:51:22] INFO root fetch - processPackages [openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo-0.9.1-py3-none-any.whl.zip tmp/openeo-0.9.2-py3-none-any.whl.zip --markdown 20230516/o/openeo/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 15:51:22] INFO root fetch - processPackages [opn-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/b4/06/429495f38fe07ba05ce7821f1b9048734a7eef66d8e37c39aeaf236f1686/opn_sonarqube_api-2.3.2.2950747.tar.gz
+[2023-05-16 15:51:22] INFO root fetch - processPackages [craft-ai-sdk]: Start processing: baker2
+[2023-05-16 15:51:22] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-05-16 15:51:22] INFO root fetch - processPackages [opn-sonarqube-api]: executing diffoscope
+[2023-05-16 15:51:22] INFO root fetch - processPackages [opn-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opn_sonarqube_api-2.1.0.486996.tar.gz tmp/opn_sonarqube_api-2.3.2.2950747.tar.gz --markdown 20230516/o/opn-sonarqube-api/2.1.0.486996-2.3.2.2950747/diff.md --exclude *.pyd
+[2023-05-16 15:51:22] WARNING root fetch - processPackages [baker2]: Skipping, unable to determine old version
+[2023-05-16 15:51:22] INFO root fetch - processPackages [baker2]: Start processing: fingerprint-pro-server-api-sdk
+[2023-05-16 15:51:22] INFO root fetch - main [MainThread]: End processing [baker2] error
+[2023-05-16 15:51:22] INFO root fetch - processPackages [jupyterlab-judge]: Start processing: veetility
+[2023-05-16 15:51:22] INFO root fetch - main [MainThread]: End processing [jupyterlab-judge]: success
+[2023-05-16 15:51:22] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-16 15:51:22] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 15:51:22] INFO root fetch - processPackages [questdb-connect]: Start processing: ccxt
+[2023-05-16 15:51:22] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-16 15:51:22] INFO root fetch - processPackages [ccxt]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-16 15:51:22] INFO root fetch - processPackages [nriapp]: Start processing: vule-magics
+[2023-05-16 15:51:22] INFO root fetch - main [MainThread]: End processing [nriapp]: success
+[2023-05-16 15:51:22] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: Downloading https://files.pythonhosted.org/packages/bd/3d/6de498860a8034c29e340586584e3e2847e7f2ce507e79ea4d20d0a4e0a0/fingerprint-pro-server-api-sdk-2.1.0.tar.gz
+[2023-05-16 15:51:22] INFO root fetch - processPackages [vule-magics]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-16 15:51:22] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/dc/cf/4772d523e1caa972a6184c0058fe3637ebc539109c8d11d8e5cdfee00baf/veetility-0.1.8.tar.gz
+[2023-05-16 15:51:22] INFO root fetch - processPackages [tutor-jupyter]: Start processing: openclsim
+[2023-05-16 15:51:22] INFO root fetch - main [MainThread]: End processing [tutor-jupyter]: success
+[2023-05-16 15:51:22] INFO root fetch - processPackages [openclsim]: New version: [1.5.8] Old Version: [1.5.5]
+[2023-05-16 15:51:22] INFO root fetch - processPackages [vule-magics]: executing diffoscope
+[2023-05-16 15:51:22] INFO root fetch - processPackages [vule-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vule_magics-1.1.0.tar.gz tmp/vule_magics-1.1.1.tar.gz --markdown 20230516/v/vule-magics/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-16 15:51:22] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: Downloading https://files.pythonhosted.org/packages/1e/79/eb8f01bb76048b82eef02973fa4ce57af4344a3b3c0a4dbd61b108be29d9/fingerprint-pro-server-api-sdk-2.2.0.tar.gz
+[2023-05-16 15:51:22] INFO root fetch - processPackages [openclsim]: Downloading https://files.pythonhosted.org/packages/56/07/94c93548d40e9d9c0e23a47ea607141262be4cebd78713502b1b2a94f8d9/openclsim-1.5.5-py3-none-any.whl
+[2023-05-16 15:51:22] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-05-16 15:51:22] INFO root fetch - processPackages [ansys-optislang-core]: Start processing: taskbase
+[2023-05-16 15:51:22] INFO root fetch - main [MainThread]: End processing [ansys-optislang-core]: success
+[2023-05-16 15:51:23] INFO root fetch - processPackages [taskbase]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-16 15:51:23] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: executing diffoscope
+[2023-05-16 15:51:23] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fingerprint-pro-server-api-sdk-2.1.0.tar.gz tmp/fingerprint-pro-server-api-sdk-2.2.0.tar.gz --markdown 20230516/f/fingerprint-pro-server-api-sdk/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-16 15:51:23] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-16 15:51:23] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.98.tar.gz tmp/ccxt-3.0.99.tar.gz --markdown 20230516/c/ccxt/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:51:23] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-16 15:51:23] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230516/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 15:51:23] INFO root fetch - processPackages [openclsim]: Downloading https://files.pythonhosted.org/packages/b2/e1/378615c1c95e8491d065beae354116807bc1832e3541a06ba652d862dfd6/openclsim-1.5.8.tar.gz
+[2023-05-16 15:51:23] INFO root fetch - processPackages [taskbase]: Downloading https://files.pythonhosted.org/packages/c0/ce/1b4d9ad7abe59b987d7545724c697d61b1caeb9afae48db55c215f0f9d39/taskbase-0.1.4.tar.gz
+[2023-05-16 15:51:23] INFO root fetch - main [MainThread]: End processing [SalatikSer]: success
+[2023-05-16 15:51:23] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-16 15:51:23] INFO root fetch - processPackages [taskbase]: executing diffoscope
+[2023-05-16 15:51:23] INFO root fetch - processPackages [taskbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskbase-0.1.3.tar.gz tmp/taskbase-0.1.4.tar.gz --markdown 20230516/t/taskbase/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-16 15:51:23] INFO root fetch - processPackages [openclsim]: executing diffoscope
+[2023-05-16 15:51:23] INFO root fetch - processPackages [openclsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openclsim-1.5.5-py3-none-any.whl.zip tmp/openclsim-1.5.8.tar.gz --markdown 20230516/o/openclsim/1.5.5-1.5.8/diff.md --exclude *.pyd
+[2023-05-16 15:51:23] INFO root fetch - main [MainThread]: End processing [opn-sonarqube-api]: success
+[2023-05-16 15:51:24] INFO root fetch - main [MainThread]: End processing [openeo]: success
+[2023-05-16 15:51:24] INFO root fetch - main [MainThread]: End processing [taskbase]: success
+[2023-05-16 15:51:24] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-16 15:51:24] INFO root fetch - main [MainThread]: End processing [fingerprint-pro-server-api-sdk]: success
+[2023-05-16 15:51:24] INFO root fetch - main [MainThread]: End processing [vule-magics]: success
+[2023-05-16 15:51:25] INFO root fetch - main [MainThread]: End processing [openclsim]: success
+[2023-05-16 15:51:35] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-16 15:51:35] INFO root fetch - main [MainThread]: Store serial: [18124265]
