@@ -21200,3 +21200,120 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 17:58:00] INFO root fetch - main [MainThread]: End processing [bgnlp]: success
 [2023-05-16 17:58:01] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-05-16 17:58:01] INFO root fetch - main [MainThread]: Store serial: [18125847]
+[2023-05-16 18:03:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18125847]
+[2023-05-16 18:03:10] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reloadium
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-teste-21479813
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethhelper
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorflow-probability
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flaxsr
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wirepas-mesh-messaging
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opencivicdata
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lhf
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recon-cli
+[2023-05-16 18:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyqtcolor
+[2023-05-16 18:03:11] WARNING root fetch - processPackages [test-teste-21479813]: Skipping, unable to determine old version
+[2023-05-16 18:03:11] INFO root fetch - processPackages [test-teste-21479813]: Start processing: odoo-addon-resource-booking
+[2023-05-16 18:03:11] INFO root fetch - main [MainThread]: End processing [test-teste-21479813] error
+[2023-05-16 18:03:11] INFO root fetch - processPackages [ethhelper]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-05-16 18:03:11] INFO root fetch - processPackages [odoo-addon-resource-booking]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-16 18:03:11] WARNING root fetch - processPackages [recon-cli]: Skipping, unable to determine old version
+[2023-05-16 18:03:11] INFO root fetch - processPackages [recon-cli]: Start processing: krptn
+[2023-05-16 18:03:11] INFO root fetch - main [MainThread]: End processing [recon-cli] error
+[2023-05-16 18:03:11] INFO root fetch - processPackages [reloadium]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-16 18:03:11] INFO root fetch - processPackages [flaxsr]: New version: [0.0.3] Old Version: [0.0.2b0]
+[2023-05-16 18:03:11] WARNING root fetch - processPackages [pyqtcolor]: Skipping, unable to determine old version
+[2023-05-16 18:03:11] INFO root fetch - processPackages [pyqtcolor]: Start processing: alcli
+[2023-05-16 18:03:11] INFO root fetch - main [MainThread]: End processing [pyqtcolor] error
+[2023-05-16 18:03:11] INFO root fetch - processPackages [wirepas-mesh-messaging]: New version: [1.2.3] Old Version: [1.2.2a2]
+[2023-05-16 18:03:11] INFO root fetch - processPackages [lhf]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-16 18:03:11] INFO root fetch - processPackages [tensorflow-probability]: New version: [0.9.0] Old Version: [0.8.0rc0]
+[2023-05-16 18:03:11] INFO root fetch - processPackages [opencivicdata]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-05-16 18:03:11] INFO root fetch - processPackages [krptn]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-16 18:03:11] INFO root fetch - processPackages [ethhelper]: executing diffoscope
+[2023-05-16 18:03:11] INFO root fetch - processPackages [ethhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethhelper-0.3.6.tar.gz tmp/ethhelper-0.4.0.tar.gz --markdown 20230516/e/ethhelper/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 18:03:11] INFO root fetch - processPackages [odoo-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/30/0d/3b6e4d578dcdcdf7515f6adce3017983fb1d35557db0075136ba6e79bfb9/odoo_addon_resource_booking-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [alcli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 18:03:11] INFO root fetch - processPackages [reloadium]: Downloading https://files.pythonhosted.org/packages/c3/8b/f8dd5623addf6aa1283fe7bb846081459f5b413bb957208332a0773ba5a6/reloadium-1.1.0-py3-none-any.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [lhf]: Downloading https://files.pythonhosted.org/packages/57/b4/bb20717b6f4bb9a7b96821586069bfb5162178f6d45535b4952727a0cc90/lhf-1.3.1-py3-none-manylinux_2_28_x86_64.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [flaxsr]: Downloading https://files.pythonhosted.org/packages/e0/f2/c54ebae7c521bf98603a20a0d9ed16d5184bd09142f731f4a7975138646d/flaxsr-0.0.2b0-py3-none-any.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [tensorflow-probability]: Downloading https://files.pythonhosted.org/packages/b2/63/f54ce32063abaa682d779e44b49eb63fcf63c2422f978842fdeda794337d/tensorflow_probability-0.8.0rc0-py2.py3-none-any.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [opencivicdata]: Downloading https://files.pythonhosted.org/packages/05/8c/d326a9d1630d6bd254026b29588410426e6029179363c23eb9ff2b97104f/opencivicdata-3.2.0.tar.gz
+[2023-05-16 18:03:11] INFO root fetch - processPackages [wirepas-mesh-messaging]: Downloading https://files.pythonhosted.org/packages/7b/a9/77adffbd7ee5defedeb359f0b01fd596041eb6bd93075d30b684598a45d7/wirepas_mesh_messaging-1.2.2a2.tar.gz
+[2023-05-16 18:03:11] INFO root fetch - processPackages [opencivicdata]: Downloading https://files.pythonhosted.org/packages/ca/fc/7b80768b69e364c930ea7cfb035c69aef531aac8102efd9a6f9d22ba2d03/opencivicdata-3.3.0.tar.gz
+[2023-05-16 18:03:11] INFO root fetch - processPackages [odoo-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/7d/11/c1f089272ad04f92cd9f5474e194f6c5a1393648aa4eb67112e61985a566/odoo_addon_resource_booking-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [krptn]: Downloading https://files.pythonhosted.org/packages/23/89/60fc7df3ac494e02e96a39fb1d768744e36cfd0ee83551800437d6cae3bc/krptn-0.6.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [alcli]: executing diffoscope
+[2023-05-16 18:03:11] INFO root fetch - processPackages [alcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcli-1.0.8.tar.gz tmp/alcli-1.0.9.tar.gz --markdown 20230516/a/alcli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 18:03:11] INFO root fetch - processPackages [reloadium]: Downloading https://files.pythonhosted.org/packages/82/84/93d73f54b8dca56e42cd5174c3aeff08229dafa758e82b3fa451582a4745/reloadium-1.1.1-py3-none-any.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [flaxsr]: Downloading https://files.pythonhosted.org/packages/bd/38/0a0d91d9531fc7684e225c2ca00b22a18843293e70d445e04826cd75f0c0/flaxsr-0.0.3-py3-none-any.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [wirepas-mesh-messaging]: Downloading https://files.pythonhosted.org/packages/31/be/f398e72808a0f78247677d7b922f44df6452142accb9ae9b0faa266f9d24/wirepas_mesh_messaging-1.2.3.tar.gz
+[2023-05-16 18:03:11] INFO root fetch - processPackages [lhf]: Downloading https://files.pythonhosted.org/packages/85/d1/4496118eca6ce441372923a8227bcaf50744df629bebcd022cbe4391eae0/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl
+[2023-05-16 18:03:11] INFO root fetch - processPackages [odoo-addon-resource-booking]: executing diffoscope
+[2023-05-16 18:03:11] INFO root fetch - processPackages [odoo-addon-resource-booking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_resource_booking-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_resource_booking-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-resource-booking/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-16 18:03:11] INFO root fetch - processPackages [opencivicdata]: executing diffoscope
+[2023-05-16 18:03:11] INFO root fetch - processPackages [opencivicdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencivicdata-3.2.0.tar.gz tmp/opencivicdata-3.3.0.tar.gz --markdown 20230516/o/opencivicdata/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-05-16 18:03:11] INFO root fetch - processPackages [flaxsr]: executing diffoscope
+[2023-05-16 18:03:11] INFO root fetch - processPackages [flaxsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaxsr-0.0.2b0-py3-none-any.whl.zip tmp/flaxsr-0.0.3-py3-none-any.whl.zip --markdown 20230516/f/flaxsr/0.0.2b0-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 18:03:12] INFO root fetch - processPackages [wirepas-mesh-messaging]: executing diffoscope
+[2023-05-16 18:03:12] INFO root fetch - processPackages [wirepas-mesh-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wirepas_mesh_messaging-1.2.2a2.tar.gz tmp/wirepas_mesh_messaging-1.2.3.tar.gz --markdown 20230516/w/wirepas-mesh-messaging/1.2.2a2-1.2.3/diff.md --exclude *.pyd
+[2023-05-16 18:03:12] INFO root fetch - processPackages [lhf]: executing diffoscope
+[2023-05-16 18:03:12] INFO root fetch - processPackages [lhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhf-1.3.1-py3-none-manylinux_2_28_x86_64.whl.zip tmp/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230516/l/lhf/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-16 18:03:12] INFO root fetch - processPackages [reloadium]: executing diffoscope
+[2023-05-16 18:03:12] INFO root fetch - processPackages [reloadium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reloadium-1.1.0-py3-none-any.whl.zip tmp/reloadium-1.1.1-py3-none-any.whl.zip --markdown 20230516/r/reloadium/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-16 18:03:12] INFO root fetch - processPackages [tensorflow-probability]: Downloading https://files.pythonhosted.org/packages/9b/ed/f587d64127bbb85e539f06a2aace1240b7b5c6b4267bea94f232230551a5/tensorflow_probability-0.9.0-py2.py3-none-any.whl
+[2023-05-16 18:03:12] INFO root fetch - processPackages [krptn]: executing diffoscope
+[2023-05-16 18:03:12] INFO root fetch - processPackages [krptn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krptn-0.6.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/krptn-0.6.1-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230516/k/krptn/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-16 18:03:12] INFO root fetch - processPackages [ethhelper]: Start processing: tfy-mlflow-client
+[2023-05-16 18:03:12] INFO root fetch - main [MainThread]: End processing [ethhelper]: success
+[2023-05-16 18:03:12] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 18:03:12] INFO root fetch - processPackages [tensorflow-probability]: executing diffoscope
+[2023-05-16 18:03:12] INFO root fetch - processPackages [tensorflow-probability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_probability-0.8.0rc0-py2.py3-none-any.whl.zip tmp/tensorflow_probability-0.9.0-py2.py3-none-any.whl.zip --markdown 20230516/t/tensorflow-probability/0.8.0rc0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 18:03:12] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2023-05-16 18:03:12] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20230516/t/tfy-mlflow-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 18:03:13] INFO root fetch - processPackages [alcli]: Start processing: onnx2kerastl
+[2023-05-16 18:03:13] INFO root fetch - main [MainThread]: End processing [alcli]: success
+[2023-05-16 18:03:13] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.88] Old Version: [0.0.87]
+[2023-05-16 18:03:13] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-05-16 18:03:13] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.87.tar.gz tmp/onnx2kerastl-0.0.88.tar.gz --markdown 20230516/o/onnx2kerastl/0.0.87-0.0.88/diff.md --exclude *.pyd
+[2023-05-16 18:03:13] INFO root fetch - processPackages [flaxsr]: Start processing: vl-convert-python
+[2023-05-16 18:03:13] INFO root fetch - main [MainThread]: End processing [flaxsr]: success
+[2023-05-16 18:03:13] INFO root fetch - processPackages [vl-convert-python]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-16 18:03:13] INFO root fetch - processPackages [odoo-addon-resource-booking]: Start processing: fiscalsim-us
+[2023-05-16 18:03:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-resource-booking]: success
+[2023-05-16 18:03:13] INFO root fetch - processPackages [vl-convert-python]: Downloading https://files.pythonhosted.org/packages/64/cc/eecb15b1a2cc6fd37fb5a3af89faa3bb0f6c5c588dda5887002df1c67241/vl_convert_python-0.8.1.tar.gz
+[2023-05-16 18:03:13] WARNING root fetch - processPackages [fiscalsim-us]: Skipping, unable to determine old version
+[2023-05-16 18:03:13] INFO root fetch - processPackages [fiscalsim-us]: Start processing: Econ-Windows
+[2023-05-16 18:03:13] INFO root fetch - main [MainThread]: End processing [fiscalsim-us] error
+[2023-05-16 18:03:14] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 18:03:14] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/4b/33/ac6e9abcf95d55be288df45c1f0442afb3a6e9ded497935c268b9b093b97/Econ_Windows-0.0.1.tar.gz
+[2023-05-16 18:03:14] INFO root fetch - processPackages [vl-convert-python]: Downloading https://files.pythonhosted.org/packages/2c/5e/b6ef3a0bd418911bc9813078e2373acb839085abe1ef6df34b9c045df500/vl_convert_python-0.9.0.tar.gz
+[2023-05-16 18:03:14] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/3b/1c/d4b40c3e40ce3bca9c927bbae6dd2213c787b3feab48d2c9ae2c8d494bfb/Econ_Windows-0.0.2.tar.gz
+[2023-05-16 18:03:14] INFO root fetch - processPackages [onnx2kerastl]: Start processing: mitzu
+[2023-05-16 18:03:14] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-05-16 18:03:14] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-16 18:03:14] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.1.tar.gz tmp/Econ_Windows-0.0.2.tar.gz --markdown 20230516/E/Econ-Windows/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 18:03:14] INFO root fetch - processPackages [mitzu]: New version: [0.6.0rc9] Old Version: [0.6.0rc8]
+[2023-05-16 18:03:14] INFO root fetch - processPackages [wirepas-mesh-messaging]: Start processing: mkdocs-flavorwheel-plugin
+[2023-05-16 18:03:14] INFO root fetch - main [MainThread]: End processing [wirepas-mesh-messaging]: success
+[2023-05-16 18:03:14] WARNING root fetch - processPackages [mkdocs-flavorwheel-plugin]: Skipping, unable to determine old version
+[2023-05-16 18:03:14] INFO root fetch - processPackages [mkdocs-flavorwheel-plugin]: Start processing: b2-utils
+[2023-05-16 18:03:14] INFO root fetch - main [MainThread]: End processing [mkdocs-flavorwheel-plugin] error
+[2023-05-16 18:03:14] INFO root fetch - processPackages [vl-convert-python]: executing diffoscope
+[2023-05-16 18:03:14] INFO root fetch - processPackages [vl-convert-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vl_convert_python-0.8.1.tar.gz tmp/vl_convert_python-0.9.0.tar.gz --markdown 20230516/v/vl-convert-python/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 18:03:14] INFO root fetch - processPackages [b2-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 18:03:14] INFO root fetch - processPackages [b2-utils]: executing diffoscope
+[2023-05-16 18:03:14] INFO root fetch - processPackages [b2-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2-utils-0.1.8.tar.gz tmp/b2-utils-0.1.9.tar.gz --markdown 20230516/b/b2-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 18:03:14] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-05-16 18:03:14] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.0rc8.tar.gz tmp/mitzu-0.6.0rc9.tar.gz --markdown 20230516/m/mitzu/0.6.0rc8-0.6.0rc9/diff.md --exclude *.pyd
+[2023-05-16 18:03:15] INFO root fetch - main [MainThread]: End processing [reloadium]: success
+[2023-05-16 18:03:16] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-16 18:03:16] INFO root fetch - main [MainThread]: End processing [opencivicdata]: success
+[2023-05-16 18:03:16] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2023-05-16 18:03:16] INFO root fetch - main [MainThread]: End processing [b2-utils]: success
+[2023-05-16 18:03:19] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-05-16 18:03:31] INFO root fetch - main [MainThread]: End processing [tensorflow-probability]: success
+[2023-05-16 18:03:33] INFO root fetch - main [MainThread]: End processing [lhf]: success
+[2023-05-16 18:03:58] INFO root fetch - main [MainThread]: End processing [krptn]: success
+[2023-05-16 18:04:18] INFO root fetch - main [MainThread]: End processing [vl-convert-python]: success
+[2023-05-16 18:04:18] INFO root fetch - main [MainThread]: Store serial: [18125966]
