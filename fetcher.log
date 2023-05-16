@@ -7767,3 +7767,46 @@
 [2023-05-16 05:43:11] INFO root fetch - main [MainThread]: End processing [ifileoperation]: success
 [2023-05-16 05:43:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
 [2023-05-16 05:43:13] INFO root fetch - main [MainThread]: Store serial: [18117918]
+[2023-05-16 05:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117918]
+[2023-05-16 05:48:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-16 05:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyExpUtils-andnp
+[2023-05-16 05:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emdfile
+[2023-05-16 05:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2023-05-16 05:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frontengine
+[2023-05-16 05:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frontengine-dev
+[2023-05-16 05:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: makeWordQrpics
+[2023-05-16 05:48:22] INFO root fetch - processPackages [PyExpUtils-andnp]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-05-16 05:48:22] INFO root fetch - processPackages [makeWordQrpics]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-16 05:48:22] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 05:48:22] INFO root fetch - processPackages [emdfile]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 05:48:22] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 05:48:22] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev3710] Old Version: [0.7.2.dev3666]
+[2023-05-16 05:48:22] INFO root fetch - processPackages [PyExpUtils-andnp]: Downloading https://files.pythonhosted.org/packages/3a/36/d30fa21c1abd5e47abcd8b25154a075786e4c562705bf2f105e476540120/PyExpUtils-andnp-4.0.1.tar.gz
+[2023-05-16 05:48:22] INFO root fetch - processPackages [makeWordQrpics]: Downloading https://files.pythonhosted.org/packages/d0/f5/f825252826cd21728bf21bc42b82e45db57a3259884e41e6b3a2a314259d/makeWordQrpics-0.3.1.tar.gz
+[2023-05-16 05:48:22] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-05-16 05:48:22] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-05-16 05:48:22] INFO root fetch - processPackages [emdfile]: Downloading https://files.pythonhosted.org/packages/4c/b2/935c893538b5e5229f77e1165cfc9c1a94b69899d83097c0bae42f231935/emdfile-0.0.8.tar.gz
+[2023-05-16 05:48:22] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/54/3f/0decf612ed5de8a8220b8d6814af62586e09eed75472175551750eac3bed/duckdb-0.7.2.dev3666.tar.gz
+[2023-05-16 05:48:22] INFO root fetch - processPackages [emdfile]: executing diffoscope
+[2023-05-16 05:48:22] INFO root fetch - processPackages [emdfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emdfile-0.0.7.tar.gz tmp/emdfile-0.0.8.tar.gz --markdown 20230516/e/emdfile/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 05:48:22] INFO root fetch - processPackages [PyExpUtils-andnp]: Downloading https://files.pythonhosted.org/packages/35/64/093ef60e93263b9e9921fea222990ea55bddd2bd1e9b1e5791fa497e6a87/PyExpUtils-andnp-5.0.0.tar.gz
+[2023-05-16 05:48:22] INFO root fetch - processPackages [makeWordQrpics]: Downloading https://files.pythonhosted.org/packages/db/b8/2b07f196d6238df75caacc11da0f74dedd7994d275f373d4969f20a57c90/makeWordQrpics-0.3.2.tar.gz
+[2023-05-16 05:48:22] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-05-16 05:48:23] INFO root fetch - processPackages [PyExpUtils-andnp]: executing diffoscope
+[2023-05-16 05:48:23] INFO root fetch - processPackages [PyExpUtils-andnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyExpUtils-andnp-4.0.1.tar.gz tmp/PyExpUtils-andnp-5.0.0.tar.gz --markdown 20230516/P/PyExpUtils-andnp/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-05-16 05:48:23] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-05-16 05:48:23] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-05-16 05:48:23] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230516/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 05:48:23] INFO root fetch - processPackages [makeWordQrpics]: executing diffoscope
+[2023-05-16 05:48:23] INFO root fetch - processPackages [makeWordQrpics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makeWordQrpics-0.3.1.tar.gz tmp/makeWordQrpics-0.3.2.tar.gz --markdown 20230516/m/makeWordQrpics/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-16 05:48:23] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-05-16 05:48:23] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230516/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 05:48:23] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/f0/10/087fd012c1a8bc3efd327d1655afacf8188e654f840d7c8eb6e7addc2cf1/duckdb-0.7.2.dev3710-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-05-16 05:48:23] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14614194>=10485760
+[2023-05-16 05:48:23] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-05-16 05:48:24] INFO root fetch - main [MainThread]: End processing [emdfile]: success
+[2023-05-16 05:48:24] INFO root fetch - main [MainThread]: End processing [makeWordQrpics]: success
+[2023-05-16 05:48:24] INFO root fetch - main [MainThread]: End processing [PyExpUtils-andnp]: success
+[2023-05-16 05:48:24] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-05-16 05:48:24] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-05-16 05:48:24] INFO root fetch - main [MainThread]: Store serial: [18117936]
