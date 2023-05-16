@@ -6660,3 +6660,45 @@
 [2023-05-16 04:00:29] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-confluencebuilder]: success
 [2023-05-16 04:00:30] INFO root fetch - main [MainThread]: End processing [simplyfire]: success
 [2023-05-16 04:00:30] INFO root fetch - main [MainThread]: Store serial: [18117354]
+[2023-05-16 04:05:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117354]
+[2023-05-16 04:05:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-16 04:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drfexts
+[2023-05-16 04:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipHack-demo
+[2023-05-16 04:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oakutils
+[2023-05-16 04:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: realnet
+[2023-05-16 04:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: access-nri-intake
+[2023-05-16 04:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-file-filter-plugin
+[2023-05-16 04:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplechain
+[2023-05-16 04:05:39] WARNING root fetch - processPackages [pipHack-demo]: Skipping, unable to determine old version
+[2023-05-16 04:05:39] INFO root fetch - main [MainThread]: End processing [pipHack-demo] error
+[2023-05-16 04:05:39] INFO root fetch - processPackages [oakutils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 04:05:39] INFO root fetch - processPackages [mkdocs-file-filter-plugin]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 04:05:39] WARNING root fetch - processPackages [access-nri-intake]: Skipping, unable to determine old version
+[2023-05-16 04:05:39] INFO root fetch - main [MainThread]: End processing [access-nri-intake] error
+[2023-05-16 04:05:39] INFO root fetch - processPackages [simplechain]: New version: [0.0.5.7] Old Version: [0.0.5.6]
+[2023-05-16 04:05:39] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 04:05:39] INFO root fetch - processPackages [drfexts]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-16 04:05:39] INFO root fetch - processPackages [oakutils]: executing diffoscope
+[2023-05-16 04:05:39] INFO root fetch - processPackages [oakutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakutils-0.0.2.tar.gz tmp/oakutils-0.0.3.tar.gz --markdown 20230516/o/oakutils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 04:05:39] INFO root fetch - processPackages [mkdocs-file-filter-plugin]: Downloading https://files.pythonhosted.org/packages/3c/ae/37e6cb61fc7fb4637020f3fec3dd87ba13d1a6f4d6b1b1b386faa855d905/mkdocs_file_filter_plugin-0.0.6.tar.gz
+[2023-05-16 04:05:39] INFO root fetch - processPackages [simplechain]: Downloading https://files.pythonhosted.org/packages/b3/71/584f36ac4e8287f8d45299289ef49ed5275a8bbe2a4f4758f73ab10bee96/simplechain-0.0.5.6.tar.gz
+[2023-05-16 04:05:39] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/14/7a/ce955eb858773e2e56fbb853c0cb11ab4d94c2a8d998a6e3f80bb9a3b262/realnet-0.0.98.tar.gz
+[2023-05-16 04:05:39] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/d7/63/d55e9683562439a0a6076fb6d2f3b8ac9f388fe47b67f829ac829d5be64e/drfexts-1.1.4.tar.gz
+[2023-05-16 04:05:39] INFO root fetch - processPackages [simplechain]: Downloading https://files.pythonhosted.org/packages/85/29/044d422d4059165174482879d760cbc173eb8ee2f144384f2a72e3d33aff/simplechain-0.0.5.7.tar.gz
+[2023-05-16 04:05:39] INFO root fetch - processPackages [mkdocs-file-filter-plugin]: Downloading https://files.pythonhosted.org/packages/a1/3a/0a2a77cb52a32b635c1490f5dabcbcccd7658fe589af09954bc86fa60189/mkdocs_file_filter_plugin-0.0.7.tar.gz
+[2023-05-16 04:05:39] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/6e/e6/3f5cf4a5d0bb205d6622431b0c73af4ce775492a4956368ee18864e39e09/drfexts-1.1.5.tar.gz
+[2023-05-16 04:05:40] INFO root fetch - processPackages [realnet]: Downloading https://files.pythonhosted.org/packages/85/35/57762e774329e2be122468375db18a174af9449878942ce858b59c0aaeae/realnet-0.0.99.tar.gz
+[2023-05-16 04:05:40] INFO root fetch - processPackages [mkdocs-file-filter-plugin]: executing diffoscope
+[2023-05-16 04:05:40] INFO root fetch - processPackages [mkdocs-file-filter-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_file_filter_plugin-0.0.6.tar.gz tmp/mkdocs_file_filter_plugin-0.0.7.tar.gz --markdown 20230516/m/mkdocs-file-filter-plugin/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 04:05:40] INFO root fetch - processPackages [simplechain]: executing diffoscope
+[2023-05-16 04:05:40] INFO root fetch - processPackages [simplechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplechain-0.0.5.6.tar.gz tmp/simplechain-0.0.5.7.tar.gz --markdown 20230516/s/simplechain/0.0.5.6-0.0.5.7/diff.md --exclude *.pyd
+[2023-05-16 04:05:40] INFO root fetch - processPackages [drfexts]: executing diffoscope
+[2023-05-16 04:05:40] INFO root fetch - processPackages [drfexts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfexts-1.1.4.tar.gz tmp/drfexts-1.1.5.tar.gz --markdown 20230516/d/drfexts/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-16 04:05:40] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-05-16 04:05:40] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230516/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 04:05:40] INFO root fetch - main [MainThread]: End processing [oakutils]: success
+[2023-05-16 04:05:41] INFO root fetch - main [MainThread]: End processing [mkdocs-file-filter-plugin]: success
+[2023-05-16 04:05:41] INFO root fetch - main [MainThread]: End processing [drfexts]: success
+[2023-05-16 04:05:41] INFO root fetch - main [MainThread]: End processing [simplechain]: success
+[2023-05-16 04:05:42] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-05-16 04:05:42] INFO root fetch - main [MainThread]: Store serial: [18117380]
