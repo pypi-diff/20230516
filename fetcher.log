@@ -19539,3 +19539,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 16:29:35] INFO root fetch - main [MainThread]: End processing [muvinai]: success
 [2023-05-16 16:29:39] INFO root fetch - main [MainThread]: End processing [jacobi-motion]: success
 [2023-05-16 16:29:39] INFO root fetch - main [MainThread]: Store serial: [18124805]
+[2023-05-16 16:34:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124805]
+[2023-05-16 16:34:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dotmotif
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flojoy
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TDhelper
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sharetop
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shipyard-templates
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: urdfenvs
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mattSorts
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssos
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phc-ingestion
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-reconciliation-widget
+[2023-05-16 16:34:51] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7c/50/dddee5ed9f37b0a223816dbcded72773737dfa9dda1c606fdb575b27a1f8/phc-ingestion-0.3.8.tar.gz
+[2023-05-16 16:34:51] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-05-16 16:34:51] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230516/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-05-16 16:34:51] INFO root fetch - processPackages [dotmotif]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [sharetop]: New version: [1.3.4] Old Version: [1.2.4]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [ssos]: New version: [1.3.3] Old Version: [1.3.1]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [shipyard-templates]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 16:34:51] WARNING root fetch - processPackages [mattSorts]: Skipping, unable to determine old version
+[2023-05-16 16:34:51] INFO root fetch - processPackages [urdfenvs]: New version: [0.7.5] Old Version: [0.7.3]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: New version: [15.0.1.2.5] Old Version: [15.0.1.2.4]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [mattSorts]: Start processing: Products.MeetingCPASLalouviere
+[2023-05-16 16:34:51] INFO root fetch - main [MainThread]: End processing [mattSorts] error
+[2023-05-16 16:34:51] WARNING root fetch - processPackages [phc-ingestion]: Skipping package: exceeds size limit 55817200>=10485760
+[2023-05-16 16:34:51] INFO root fetch - processPackages [phc-ingestion]: Start processing: reytool
+[2023-05-16 16:34:51] INFO root fetch - main [MainThread]: End processing [phc-ingestion] error
+[2023-05-16 16:34:51] INFO root fetch - processPackages [TDhelper]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [dotmotif]: Downloading https://files.pythonhosted.org/packages/b4/1e/6f0672e249545ebcade5c0d9625e7bade8a7ddefc176c779c389172e93ef/dotmotif-0.9.1.tar.gz
+[2023-05-16 16:34:51] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: New version: [4.2.0a4] Old Version: [4.2.0a3]
+[2023-05-16 16:34:51] INFO root fetch - processPackages [urdfenvs]: Downloading https://files.pythonhosted.org/packages/d4/1b/e10bf619486e007c496912dae54a346c22942cb33fc71dc3e311d8497b36/urdfenvs-0.7.3.tar.gz
+[2023-05-16 16:34:52] INFO root fetch - processPackages [ssos]: Downloading https://files.pythonhosted.org/packages/ba/f5/31e941e7c9792292162af7e011c20342ec1ef05715250f2eeb0e6d03c9eb/ssos-1.3.1.tar.gz
+[2023-05-16 16:34:52] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/9d/06/5134e24e369925faad31aab80f134123a9016f098161c3b4b3e362da8acc/sharetop-1.2.4.tar.gz
+[2023-05-16 16:34:52] WARNING root fetch - processPackages [urdfenvs]: Skipping package: exceeds size limit 21180910>=10485760
+[2023-05-16 16:34:52] INFO root fetch - processPackages [urdfenvs]: Start processing: iron-toolbox
+[2023-05-16 16:34:52] INFO root fetch - main [MainThread]: End processing [urdfenvs] error
+[2023-05-16 16:34:52] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/41/67/6e903340f22aa6e9e28ccfaa753af03fb97488edb884e429c30d4ec992b2/shipyard_templates-0.1.1.tar.gz
+[2023-05-16 16:34:52] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 16:34:52] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230516/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 16:34:52] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/29/53/e1e009bfaf54c8b70a42ed31286d891c60eacb58b53fb40b1a04a0be6c1d/odoo_addon_account_reconciliation_widget-15.0.1.2.5-py3-none-any.whl
+[2023-05-16 16:34:52] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.4.8.tar.gz tmp/TDhelper-2.4.9.tar.gz --markdown 20230516/T/TDhelper/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-16 16:34:52] INFO root fetch - processPackages [dotmotif]: Downloading https://files.pythonhosted.org/packages/84/a9/5fa771abf550278d57cda9dbf4934fd3444d5f3c80400d4a9d7ee8a08c6f/dotmotif-0.9.2.tar.gz
+[2023-05-16 16:34:52] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/ac/49/44ba39163bd77a92647afaccd045c09be87556169bf62c11794ecb9fb501/sharetop-1.3.4.tar.gz
+[2023-05-16 16:34:52] INFO root fetch - processPackages [shipyard-templates]: Downloading https://files.pythonhosted.org/packages/32/05/b7380485ce673339dce08ba8bfe2c7594935bbbd9240c782d7b7f8f7cbd3/shipyard_templates-0.1.2.tar.gz
+[2023-05-16 16:34:52] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.4-py3-none-any.whl.zip tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.5-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-account-reconciliation-widget/15.0.1.2.4-15.0.1.2.5/diff.md --exclude *.pyd
+[2023-05-16 16:34:52] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Downloading https://files.pythonhosted.org/packages/d0/7f/2a7d269d5c31581f080279a5906cd9a4bbe63196d17e149cf72ae7d550cc/Products.MeetingCPASLalouviere-4.2.0a4.tar.gz
+[2023-05-16 16:34:52] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230516/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-16 16:34:52] INFO root fetch - processPackages [ssos]: Downloading https://files.pythonhosted.org/packages/6e/ab/c8392440f7f4f7ede7503d05a431cb808a3a162eda4b23a04c715f5f0f4b/ssos-1.3.3-py3-none-any.whl
+[2023-05-16 16:34:52] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-1.2.4.tar.gz tmp/sharetop-1.3.4.tar.gz --markdown 20230516/s/sharetop/1.2.4-1.3.4/diff.md --exclude *.pyd
+[2023-05-16 16:34:52] INFO root fetch - processPackages [dotmotif]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [dotmotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotmotif-0.9.1.tar.gz tmp/dotmotif-0.9.2.tar.gz --markdown 20230516/d/dotmotif/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 16:34:52] INFO root fetch - processPackages [shipyard-templates]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [shipyard-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_templates-0.1.1.tar.gz tmp/shipyard_templates-0.1.2.tar.gz --markdown 20230516/s/shipyard-templates/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 16:34:52] INFO root fetch - processPackages [ssos]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [ssos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssos-1.3.1.tar.gz tmp/ssos-1.3.3-py3-none-any.whl.zip --markdown 20230516/s/ssos/1.3.1-1.3.3/diff.md --exclude *.pyd
+[2023-05-16 16:34:52] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: executing diffoscope
+[2023-05-16 16:34:52] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingCPASLalouviere-4.2.0a3.tar.gz tmp/Products.MeetingCPASLalouviere-4.2.0a4.tar.gz --markdown 20230516/P/Products.MeetingCPASLalouviere/4.2.0a3-4.2.0a4/diff.md --exclude *.pyd
+[2023-05-16 16:34:53] INFO root fetch - processPackages [flojoy]: Start processing: envoy.code.check
+[2023-05-16 16:34:53] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-05-16 16:34:53] INFO root fetch - processPackages [envoy.code.check]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-16 16:34:53] INFO root fetch - processPackages [envoy.code.check]: Downloading https://files.pythonhosted.org/packages/83/4b/e5c0e7fc955dcf3bd0f1776ca6733da484eb919e82033c923a4b03a3c5d6/envoy.code.check-0.4.1.tar.gz
+[2023-05-16 16:34:53] INFO root fetch - processPackages [iron-toolbox]: Start processing: geomapi
+[2023-05-16 16:34:53] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-05-16 16:34:53] INFO root fetch - processPackages [geomapi]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-16 16:34:53] INFO root fetch - processPackages [envoy.code.check]: Downloading https://files.pythonhosted.org/packages/c5/50/0aaab23d58837f6f82caf7142a2e353c55e566ad32bac7eab4772d00d631/envoy.code.check-0.5.0.tar.gz
+[2023-05-16 16:34:54] INFO root fetch - processPackages [geomapi]: Downloading https://files.pythonhosted.org/packages/be/3f/c43377a54d29984bfc4c36dbb17d96b7840ad2242b981acbbb5acd70326f/geomapi-0.3.0.tar.gz
+[2023-05-16 16:34:54] INFO root fetch - processPackages [envoy.code.check]: executing diffoscope
+[2023-05-16 16:34:54] INFO root fetch - processPackages [envoy.code.check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoy.code.check-0.4.1.tar.gz tmp/envoy.code.check-0.5.0.tar.gz --markdown 20230516/e/envoy.code.check/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-16 16:34:54] INFO root fetch - processPackages [ssos]: Start processing: csp-wizard
+[2023-05-16 16:34:54] INFO root fetch - main [MainThread]: End processing [ssos]: success
+[2023-05-16 16:34:54] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-05-16 16:34:54] INFO root fetch - main [MainThread]: End processing [shipyard-templates]: success
+[2023-05-16 16:34:54] INFO root fetch - processPackages [geomapi]: Downloading https://files.pythonhosted.org/packages/68/d9/2b2b6aeecdda82643bcb2d76b637fcdb789eabfbbf729789a65269bf6d39/geomapi-0.3.1.tar.gz
+[2023-05-16 16:34:54] WARNING root fetch - processPackages [csp-wizard]: Skipping, unable to determine old version
+[2023-05-16 16:34:54] INFO root fetch - main [MainThread]: End processing [csp-wizard] error
+[2023-05-16 16:34:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconciliation-widget]: success
+[2023-05-16 16:34:54] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-05-16 16:34:54] INFO root fetch - processPackages [geomapi]: executing diffoscope
+[2023-05-16 16:34:54] INFO root fetch - processPackages [geomapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomapi-0.3.0.tar.gz tmp/geomapi-0.3.1.tar.gz --markdown 20230516/g/geomapi/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-16 16:34:55] INFO root fetch - main [MainThread]: End processing [dotmotif]: success
+[2023-05-16 16:34:55] INFO root fetch - main [MainThread]: End processing [Products.MeetingCPASLalouviere]: success
+[2023-05-16 16:34:55] INFO root fetch - main [MainThread]: End processing [envoy.code.check]: success
+[2023-05-16 16:34:56] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-05-16 16:34:57] INFO root fetch - main [MainThread]: End processing [geomapi]: success
+[2023-05-16 16:34:57] INFO root fetch - main [MainThread]: Store serial: [18124865]
