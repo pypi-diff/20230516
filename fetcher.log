@@ -10596,3 +10596,77 @@
 [2023-05-16 09:09:32] INFO root fetch - main [MainThread]: End processing [lazi]: success
 [2023-05-16 09:09:33] INFO root fetch - main [MainThread]: End processing [rtdip-sdk]: success
 [2023-05-16 09:09:33] INFO root fetch - main [MainThread]: Store serial: [18119578]
+[2023-05-16 09:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119578]
+[2023-05-16 09:14:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-docker
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-antd-components
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-models-nightly
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-review
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-helper-vbot3
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-oci
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tksheet
+[2023-05-16 09:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfq-nightly
+[2023-05-16 09:14:41] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1684218897] Old Version: [4.3.0a1684184527]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [test-helper-vbot3]: New version: [1.2] Old Version: [1.1]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [gpt-review]: New version: [0.9.1rc780.post1] Old Version: [0.9.1rc776.post1]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [tksheet]: New version: [6.1.3] Old Version: [6.1.2]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230515] Old Version: [0.7.3.dev20230514]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-16 09:14:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-16 09:14:41] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 09:14:41] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-16 09:14:41] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230516/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-16 09:14:41] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/5f/76/12f7c28765f5aa5f685d660ef412d52a54e6a8795acf5abf13c4aff1ddbf/tksheet-6.1.2.tar.gz
+[2023-05-16 09:14:41] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/c2/de/1f1e18389f923dc91b70a4e3499aff21a0e25cdf6f8e38d41b52d513d7ba/pulumi_oci-0.9.0.tar.gz
+[2023-05-16 09:14:41] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/44/3d/cc221d17c116793b8169743bd8faab1728bf03cb1c8a725566e68fcc67c8/gpt_review-0.9.1rc780.post1.tar.gz
+[2023-05-16 09:14:41] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/70/c4/2e7c9d62b73597779f9abc73eefdbec6c8f381964b873645fdb13f85a36b/streamlit_antd_components-0.0.6-py3-none-any.whl
+[2023-05-16 09:14:42] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/66/b8/65475698fcdcff3a7b10c85cfd9697ce6ba869bdce9692a69f0b4d377021/tfq_nightly-0.7.3.dev20230514-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-16 09:14:42] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-16 09:14:42] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230516/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-16 09:14:42] INFO root fetch - processPackages [test-helper-vbot3]: Downloading https://files.pythonhosted.org/packages/22/8d/73e04bab6c40280fc965fd08d2ef9a4cee8ef333dea14c1eb36bf3b03f4f/test_helper_vbot3-1.2.tar.gz
+[2023-05-16 09:14:42] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/09/53/f501990b79b24b6a07a7b645a00ef517ea1b89b1c10fa514fa0c57f99b9d/pulumi_docker-4.3.0a1684218897.tar.gz
+[2023-05-16 09:14:42] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-05-16 09:14:42] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.0.5-py3-none-any.whl.zip tmp/streamlit_antd_components-0.0.6-py3-none-any.whl.zip --markdown 20230516/s/streamlit-antd-components/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 09:14:42] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819849>=10485760
+[2023-05-16 09:14:42] INFO root fetch - processPackages [tfq-nightly]: Start processing: geomulticorr
+[2023-05-16 09:14:42] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-16 09:14:42] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-16 09:14:42] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.1rc776.post1.tar.gz tmp/gpt_review-0.9.1rc780.post1.tar.gz --markdown 20230516/g/gpt-review/0.9.1rc776.post1-0.9.1rc780.post1/diff.md --exclude *.pyd
+[2023-05-16 09:14:42] INFO root fetch - processPackages [geomulticorr]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-16 09:14:42] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/db/a8/7a58f2ba37f65462c191da98f899a50f12c99f7f8f1193ff6eb59d866bba/tksheet-6.1.3.tar.gz
+[2023-05-16 09:14:42] INFO root fetch - processPackages [test-helper-vbot3]: executing diffoscope
+[2023-05-16 09:14:42] INFO root fetch - processPackages [test-helper-vbot3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_helper_vbot3-1.1.tar.gz tmp/test_helper_vbot3-1.2.tar.gz --markdown 20230516/t/test-helper-vbot3/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-16 09:14:42] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-05-16 09:14:42] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1684184527.tar.gz tmp/pulumi_docker-4.3.0a1684218897.tar.gz --markdown 20230516/p/pulumi-docker/4.3.0a1684184527-4.3.0a1684218897/diff.md --exclude *.pyd
+[2023-05-16 09:14:42] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2023-05-16 09:14:42] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-6.1.2.tar.gz tmp/tksheet-6.1.3.tar.gz --markdown 20230516/t/tksheet/6.1.2-6.1.3/diff.md --exclude *.pyd
+[2023-05-16 09:14:42] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-16 09:14:42] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.1.5.tar.gz tmp/geomulticorr-0.1.6.tar.gz --markdown 20230516/g/geomulticorr/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-16 09:14:42] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/86/ea/282f83d0758757c8cabe17bc90aa9af50c1f1b9aa736f9ad87ee2c19659e/pulumi_oci-0.9.1a1677791364.tar.gz
+[2023-05-16 09:14:42] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-05-16 09:14:42] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230516/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-05-16 09:14:43] INFO root fetch - processPackages [test-helper-vbot3]: Start processing: nonebot-plugin-sd-webui
+[2023-05-16 09:14:43] INFO root fetch - main [MainThread]: End processing [test-helper-vbot3]: success
+[2023-05-16 09:14:43] INFO root fetch - processPackages [streamlit-antd-components]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-16 09:14:43] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-05-16 09:14:43] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-16 09:14:43] WARNING root fetch - processPackages [nonebot-plugin-sd-webui]: Skipping, unable to determine old version
+[2023-05-16 09:14:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sd-webui] error
+[2023-05-16 09:14:43] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-16 09:14:43] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230516/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-16 09:14:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-16 09:14:44] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-16 09:14:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-16 09:14:45] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-05-16 09:14:45] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2023-05-16 09:14:46] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-16 09:14:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-16 09:14:59] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-16 09:15:27] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-05-16 09:15:27] INFO root fetch - main [MainThread]: Store serial: [18119613]
