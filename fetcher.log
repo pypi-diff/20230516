@@ -8666,3 +8666,33 @@
 [2023-05-16 06:56:44] INFO root fetch - main [MainThread]: End processing [ms-entropy]: success
 [2023-05-16 06:56:45] INFO root fetch - main [MainThread]: End processing [yellowdog-sdk]: success
 [2023-05-16 06:56:45] INFO root fetch - main [MainThread]: Store serial: [18118463]
+[2023-05-16 07:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118463]
+[2023-05-16 07:01:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-16 07:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pip-RCE
+[2023-05-16 07:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythoncoloringv1
+[2023-05-16 07:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kotan
+[2023-05-16 07:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-sdk
+[2023-05-16 07:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-runtime-nightly
+[2023-05-16 07:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sap-ai-core-datarobot
+[2023-05-16 07:01:54] INFO root fetch - processPackages [pip-RCE]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 07:01:54] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230514] Old Version: [2.14.0.dev20230513]
+[2023-05-16 07:01:54] WARNING root fetch - processPackages [sap-ai-core-datarobot]: Skipping, unable to determine old version
+[2023-05-16 07:01:54] INFO root fetch - main [MainThread]: End processing [sap-ai-core-datarobot] error
+[2023-05-16 07:01:54] WARNING root fetch - processPackages [pythoncoloringv1]: Skipping, unable to determine old version
+[2023-05-16 07:01:54] INFO root fetch - main [MainThread]: End processing [pythoncoloringv1] error
+[2023-05-16 07:01:54] WARNING root fetch - processPackages [kotan]: Skipping, unable to determine old version
+[2023-05-16 07:01:54] INFO root fetch - main [MainThread]: End processing [kotan] error
+[2023-05-16 07:01:54] INFO root fetch - processPackages [cognite-sdk]: New version: [6.1.9] Old Version: [6.1.8]
+[2023-05-16 07:01:54] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/b9/0c/527725073c1cdb0fe031c139b016059181b098b461e0a7bb05d9d5b55467/tflite_runtime_nightly-2.14.0.dev20230514-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-16 07:01:55] INFO root fetch - processPackages [pip-RCE]: Downloading https://files.pythonhosted.org/packages/b7/43/4f75dccc26c312f90b0abaca997b5cd284a42a12e0021e3bad58031ac279/pip-RCE-0.0.3.tar.gz
+[2023-05-16 07:01:55] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/a9/13/4af1d9880ee1ad5d18dd1d1d23ade339aa76169c1a8dafc16f5df750dca2/cognite_sdk-6.1.9.tar.gz
+[2023-05-16 07:01:55] INFO root fetch - processPackages [pip-RCE]: executing diffoscope
+[2023-05-16 07:01:55] INFO root fetch - processPackages [pip-RCE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-RCE-0.0.2.tar.gz tmp/pip-RCE-0.0.3.tar.gz --markdown 20230516/p/pip-RCE/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 07:01:55] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-05-16 07:01:55] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.1.8.tar.gz tmp/cognite_sdk-6.1.9.tar.gz --markdown 20230516/c/cognite-sdk/6.1.8-6.1.9/diff.md --exclude *.pyd
+[2023-05-16 07:01:55] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-05-16 07:01:55] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230513-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230514-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230516/t/tflite-runtime-nightly/2.14.0.dev20230513-2.14.0.dev20230514/diff.md --exclude *.pyd
+[2023-05-16 07:01:56] INFO root fetch - main [MainThread]: End processing [pip-RCE]: success
+[2023-05-16 07:01:56] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-05-16 07:01:57] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-05-16 07:01:57] INFO root fetch - main [MainThread]: Store serial: [18118499]
