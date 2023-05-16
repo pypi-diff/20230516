@@ -6787,3 +6787,43 @@
 [2023-05-16 04:16:13] INFO root fetch - main [MainThread]: End processing [fyCursor]: success
 [2023-05-16 04:16:14] INFO root fetch - main [MainThread]: End processing [python-backpack]: success
 [2023-05-16 04:16:14] INFO root fetch - main [MainThread]: Store serial: [18117430]
+[2023-05-16 04:21:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117430]
+[2023-05-16 04:21:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-16 04:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimus-prime-transformers
+[2023-05-16 04:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: featurewiz
+[2023-05-16 04:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-l4d2-server
+[2023-05-16 04:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repilot-client
+[2023-05-16 04:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-file-filter-plugin
+[2023-05-16 04:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isoCycle
+[2023-05-16 04:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trops
+[2023-05-16 04:21:23] WARNING root fetch - processPackages [repilot-client]: Skipping, unable to determine old version
+[2023-05-16 04:21:23] INFO root fetch - main [MainThread]: End processing [repilot-client] error
+[2023-05-16 04:21:23] INFO root fetch - processPackages [optimus-prime-transformers]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 04:21:23] INFO root fetch - processPackages [mkdocs-file-filter-plugin]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 04:21:23] INFO root fetch - processPackages [featurewiz]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-16 04:21:23] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.3.3] Old Version: [0.5.3.2]
+[2023-05-16 04:21:23] INFO root fetch - processPackages [trops]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-16 04:21:23] WARNING root fetch - processPackages [isoCycle]: Skipping, unable to determine old version
+[2023-05-16 04:21:23] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-16 04:21:23] INFO root fetch - processPackages [mkdocs-file-filter-plugin]: executing diffoscope
+[2023-05-16 04:21:23] INFO root fetch - processPackages [mkdocs-file-filter-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_file_filter_plugin-0.0.6.tar.gz tmp/mkdocs_file_filter_plugin-0.0.7.tar.gz --markdown 20230516/m/mkdocs-file-filter-plugin/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 04:21:23] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/22/77/b2402a4c3cc9ed74e7f8696fa1af0d05d2e73b93991cab598576cdd43f02/optimus-prime-transformers-1.0.9.tar.gz
+[2023-05-16 04:21:23] INFO root fetch - processPackages [featurewiz]: Downloading https://files.pythonhosted.org/packages/98/ae/6fc0f9c094ec32ceabe3d18707d54672721d6c3cfdc29eff94f6169d1ad2/featurewiz-0.3.0.tar.gz
+[2023-05-16 04:21:23] INFO root fetch - processPackages [trops]: Downloading https://files.pythonhosted.org/packages/3b/b5/1eeeb44e79dab4f5e49d301d525c38c197324ec0b6096f712be90831552f/trops-0.2.8.tar.gz
+[2023-05-16 04:21:23] INFO root fetch - processPackages [optimus-prime-transformers]: executing diffoscope
+[2023-05-16 04:21:23] INFO root fetch - processPackages [optimus-prime-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimus-prime-transformers-1.0.8.tar.gz tmp/optimus-prime-transformers-1.0.9.tar.gz --markdown 20230516/o/optimus-prime-transformers/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 04:21:23] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/86/61/efa5b251688bacd8b03637317060a71da31035335a0d7e091dea6664e74e/nonebot_plugin_l4d2_server-0.5.3.3.tar.gz
+[2023-05-16 04:21:23] INFO root fetch - processPackages [featurewiz]: Downloading https://files.pythonhosted.org/packages/6a/52/071020f1713cbd6a656e4940aadaf6eaf3ff1b68410df19dc92b9ed040b0/featurewiz-0.3.1.tar.gz
+[2023-05-16 04:21:23] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-05-16 04:21:23] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.3.2.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.3.3.tar.gz --markdown 20230516/n/nonebot-plugin-l4d2-server/0.5.3.2-0.5.3.3/diff.md --exclude *.pyd
+[2023-05-16 04:21:24] INFO root fetch - processPackages [trops]: Downloading https://files.pythonhosted.org/packages/3b/1c/175bae5b316d0e558b1c06b2e62f8ecbdeb9f4080c154101714442d8d611/trops-0.2.9.tar.gz
+[2023-05-16 04:21:24] INFO root fetch - processPackages [featurewiz]: executing diffoscope
+[2023-05-16 04:21:24] INFO root fetch - processPackages [featurewiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurewiz-0.3.0.tar.gz tmp/featurewiz-0.3.1.tar.gz --markdown 20230516/f/featurewiz/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-16 04:21:24] INFO root fetch - processPackages [trops]: executing diffoscope
+[2023-05-16 04:21:24] INFO root fetch - processPackages [trops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trops-0.2.8.tar.gz tmp/trops-0.2.9.tar.gz --markdown 20230516/t/trops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 04:21:24] INFO root fetch - main [MainThread]: End processing [mkdocs-file-filter-plugin]: success
+[2023-05-16 04:21:25] INFO root fetch - main [MainThread]: End processing [optimus-prime-transformers]: success
+[2023-05-16 04:21:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-05-16 04:21:25] INFO root fetch - main [MainThread]: End processing [trops]: success
+[2023-05-16 04:21:25] INFO root fetch - main [MainThread]: End processing [featurewiz]: success
+[2023-05-16 04:21:25] INFO root fetch - main [MainThread]: Store serial: [18117451]
