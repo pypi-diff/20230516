@@ -8932,3 +8932,73 @@
 [2023-05-16 07:25:44] INFO root fetch - processPackages [tensorflow-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text-2.9.0rc0-cp39-cp39-win_amd64.whl.zip tmp/tensorflow_text-2.9.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230516/t/tensorflow-text/2.9.0rc0-2.9.0rc1/diff.md --exclude *.pyd
 [2023-05-16 07:26:09] INFO root fetch - main [MainThread]: End processing [tensorflow-text]: success
 [2023-05-16 07:26:09] INFO root fetch - main [MainThread]: Store serial: [18118641]
+[2023-05-16 07:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118641]
+[2023-05-16 07:31:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sds011lib
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dmbiolib
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kotan
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-oracle
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oci-cli
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylts
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-account-vat-period-end-statement
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: barseqcount
+[2023-05-16 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aqimon
+[2023-05-16 07:31:21] INFO root fetch - processPackages [kotan]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [odoo8-addon-account-vat-period-end-statement]: New version: [8.0.3.0.1.99.dev3] Old Version: [8.0.3.0.1.99.dev2]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [pylts]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [dmbiolib]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [fastapi-oracle]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [sds011lib]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-16 07:31:21] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230516/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-16 07:31:21] INFO root fetch - processPackages [barseqcount]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [aqimon]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-16 07:31:21] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/b0/0c/8ea27e267ea3bcfcb4a9ea9bc992897d98f334bebed36c1262e765707c2c/kotan-0.1.1.tar.gz
+[2023-05-16 07:31:21] INFO root fetch - processPackages [odoo8-addon-account-vat-period-end-statement]: Downloading https://files.pythonhosted.org/packages/32/f9/c06620b8d8376e8fd83d145b583b3d9a2c8605390b1d3c9b9004259d920b/odoo8_addon_account_vat_period_end_statement-8.0.3.0.1.99.dev2-py2-none-any.whl
+[2023-05-16 07:31:22] INFO root fetch - processPackages [pylts]: Downloading https://files.pythonhosted.org/packages/3e/d8/f55062ff3fd2c1d0401b2205c2d7c94c3a23479c13303305543c922e5ec1/pylts-0.0.8.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [fastapi-oracle]: Downloading https://files.pythonhosted.org/packages/bb/6a/1ea8178445e1f02a24cc132e36b6a5324b65d774c223fe947149fcad6255/fastapi_oracle-0.9.0-py3-none-any.whl
+[2023-05-16 07:31:22] INFO root fetch - processPackages [dmbiolib]: Downloading https://files.pythonhosted.org/packages/14/89/3cbe870a1e7b84da0e9e9fb6df46673a05c64dcab987d182c1eae414c93f/dmbiolib-0.3.9.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [barseqcount]: Downloading https://files.pythonhosted.org/packages/7f/11/f857cac4ce54671f3046884dbca89ebc0441c9de584566af0ea7a7586085/barseqcount-0.1.4.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [oci-cli]: Downloading https://files.pythonhosted.org/packages/28/26/9545f447fdb6b4a5f9a826926f2e62e7e1ab1ce79158df9f197679f1b25d/oci-cli-3.9.0.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/5a/11/68c71aff3033a5db45bec8c8da8660f93b42203d3b839f34c817c19916d6/kotan-0.1.2.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [sds011lib]: Downloading https://files.pythonhosted.org/packages/8c/57/f7787cd5dac3fdfb3ccf34c7ad7859721b243afc53a000c56e97ee6e984b/sds011lib-0.4.0.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [aqimon]: Downloading https://files.pythonhosted.org/packages/e7/d2/2a267fe70ce43ed5b03fc43b1da7945c295f615476f3fe627789723557ea/aqimon-0.5.1.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [pylts]: Downloading https://files.pythonhosted.org/packages/cb/d0/941c8fc5582bca98a73b15c6bfcf04079d8af55fd43c567274d274fe795a/pylts-0.0.9.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [odoo8-addon-account-vat-period-end-statement]: Downloading https://files.pythonhosted.org/packages/75/d6/062665ea864aab4eee3a60091644b486cdb685e20a95ff39c5be886b9b32/odoo8_addon_account_vat_period_end_statement-8.0.3.0.1.99.dev3-py2-none-any.whl
+[2023-05-16 07:31:22] INFO root fetch - processPackages [kotan]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [kotan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kotan-0.1.1.tar.gz tmp/kotan-0.1.2.tar.gz --markdown 20230516/k/kotan/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 07:31:22] INFO root fetch - processPackages [barseqcount]: Downloading https://files.pythonhosted.org/packages/db/8e/75017a80106f5496f07a6428a8d01fbbcad0cb41d022ec75470acb600259/barseqcount-0.1.5.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [fastapi-oracle]: Downloading https://files.pythonhosted.org/packages/46/4e/b028b5cb0776c3d3bc6039a60cd96c65e5aac07b0a2568242557d5e8b7fc/fastapi_oracle-0.9.1-py3-none-any.whl
+[2023-05-16 07:31:22] INFO root fetch - processPackages [pylts]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [pylts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylts-0.0.8.tar.gz tmp/pylts-0.0.9.tar.gz --markdown 20230516/p/pylts/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 07:31:22] INFO root fetch - processPackages [sds011lib]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [sds011lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sds011lib-0.3.2.tar.gz tmp/sds011lib-0.4.0.tar.gz --markdown 20230516/s/sds011lib/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 07:31:22] INFO root fetch - processPackages [dmbiolib]: Downloading https://files.pythonhosted.org/packages/c0/43/1e817c0e2bd96ca7347384e89c8a8bd866953183ecc24b8ce22730114159/dmbiolib-0.4.0.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [aqimon]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [aqimon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqimon-0.5.0.tar.gz tmp/aqimon-0.5.1.tar.gz --markdown 20230516/a/aqimon/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-16 07:31:22] INFO root fetch - processPackages [odoo8-addon-account-vat-period-end-statement]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [odoo8-addon-account-vat-period-end-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_vat_period_end_statement-8.0.3.0.1.99.dev2-py2-none-any.whl.zip tmp/odoo8_addon_account_vat_period_end_statement-8.0.3.0.1.99.dev3-py2-none-any.whl.zip --markdown 20230516/o/odoo8-addon-account-vat-period-end-statement/8.0.3.0.1.99.dev2-8.0.3.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-05-16 07:31:22] INFO root fetch - processPackages [fastapi-oracle]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [fastapi-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_oracle-0.9.0-py3-none-any.whl.zip tmp/fastapi_oracle-0.9.1-py3-none-any.whl.zip --markdown 20230516/f/fastapi-oracle/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 07:31:22] INFO root fetch - processPackages [barseqcount]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [barseqcount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barseqcount-0.1.4.tar.gz tmp/barseqcount-0.1.5.tar.gz --markdown 20230516/b/barseqcount/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 07:31:22] INFO root fetch - processPackages [dmbiolib]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [dmbiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmbiolib-0.3.9.tar.gz tmp/dmbiolib-0.4.0.tar.gz --markdown 20230516/d/dmbiolib/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 07:31:22] INFO root fetch - processPackages [oci-cli]: Downloading https://files.pythonhosted.org/packages/c1/02/2a386b82d70ada3a13133f3015b40f55f9b5b6d7b77baf7dc6f9d32e39ef/oci-cli-3.9.1.tar.gz
+[2023-05-16 07:31:22] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2023-05-16 07:31:22] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20230516/o/oci-cli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-16 07:31:23] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-16 07:31:23] INFO root fetch - main [MainThread]: End processing [kotan]: success
+[2023-05-16 07:31:23] INFO root fetch - main [MainThread]: End processing [pylts]: success
+[2023-05-16 07:31:23] INFO root fetch - main [MainThread]: End processing [sds011lib]: success
+[2023-05-16 07:31:24] INFO root fetch - main [MainThread]: End processing [fastapi-oracle]: success
+[2023-05-16 07:31:24] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-vat-period-end-statement]: success
+[2023-05-16 07:31:24] INFO root fetch - main [MainThread]: End processing [dmbiolib]: success
+[2023-05-16 07:31:24] INFO root fetch - main [MainThread]: End processing [barseqcount]: success
+[2023-05-16 07:31:25] INFO root fetch - main [MainThread]: End processing [aqimon]: success
+[2023-05-16 07:34:23] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2023-05-16 07:34:23] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2023-05-16 07:34:23] INFO root fetch - main [MainThread]: Store serial: [18118669]
