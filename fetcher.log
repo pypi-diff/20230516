@@ -11888,3 +11888,80 @@
 [2023-05-16 10:15:42] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
 [2023-05-16 10:15:55] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2023-05-16 10:15:55] INFO root fetch - main [MainThread]: Store serial: [18120292]
+[2023-05-16 10:20:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120292]
+[2023-05-16 10:21:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 10:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightspace
+[2023-05-16 10:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kolyaklimkLab3
+[2023-05-16 10:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata-front
+[2023-05-16 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysui
+[2023-05-16 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: filesystem-dict
+[2023-05-16 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: styles
+[2023-05-16 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beamer-slider
+[2023-05-16 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panml
+[2023-05-16 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kolyaklimkLab3
+[2023-05-16 10:21:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dipex
+[2023-05-16 10:21:04] INFO root fetch - processPackages [udata-front]: New version: [3.2.3.dev9974] Old Version: [3.2.3.dev10688]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [kolyaklimkLab3]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [filesystem-dict]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [styles]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [panml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [kolyaklimkLab3]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [beamer-slider]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [kolyaklimkLab3]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [kolyaklimkLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolyaklimkLab3-0.8.0.tar.gz tmp/kolyaklimkLab3-0.9.0.tar.gz --markdown 20230516/k/kolyaklimkLab3/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 10:21:04] WARNING root fetch - processPackages [lightspace]: Skipping, unable to determine old version
+[2023-05-16 10:21:04] INFO root fetch - processPackages [lightspace]: Start processing: eventiq
+[2023-05-16 10:21:04] INFO root fetch - main [MainThread]: End processing [lightspace] error
+[2023-05-16 10:21:04] INFO root fetch - processPackages [eventiq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 10:21:04] INFO root fetch - processPackages [kolyaklimkLab3]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [kolyaklimkLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolyaklimkLab3-0.8.0.tar.gz tmp/kolyaklimkLab3-0.9.0.tar.gz --markdown 20230516/k/kolyaklimkLab3/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 10:21:04] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230516/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-16 10:21:04] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/05/cb/a43bca407e4dd80e24498ca169fa32affd6cb0ac4bc5a492a98dc831be7b/udata_front-3.2.3.dev10688-py2.py3-none-any.whl
+[2023-05-16 10:21:04] INFO root fetch - processPackages [filesystem-dict]: Downloading https://files.pythonhosted.org/packages/02/a1/0bd3d330c74c1b14d768b410144b4c904158682b171a4a869bf15e389e1b/filesystem-dict-0.1.1.tar.gz
+[2023-05-16 10:21:04] INFO root fetch - processPackages [styles]: Downloading https://files.pythonhosted.org/packages/e0/93/39f483f86fb601f0c327d09c1e2f98b3a83b06114147658d5454fec5bca0/styles-0.1.8.tar.gz
+[2023-05-16 10:21:04] INFO root fetch - processPackages [beamer-slider]: Downloading https://files.pythonhosted.org/packages/d9/59/f1d14eb325bf3f6806b470fd808c364522b711906ba00ad8fc0ed716c75f/beamer-slider-0.1.8.tar.gz
+[2023-05-16 10:21:04] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-0.0.2.tar.gz tmp/panml-0.0.3.tar.gz --markdown 20230516/p/panml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 10:21:04] INFO root fetch - processPackages [styles]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/styles-0.1.7.tar.gz tmp/styles-0.1.8.tar.gz --markdown 20230516/s/styles/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 10:21:04] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/90/a3/cb1bacaf8d97248e075185987fd4455791309421ee2873607737275ef34e/eventiq-0.1.8.tar.gz
+[2023-05-16 10:21:04] INFO root fetch - processPackages [filesystem-dict]: Downloading https://files.pythonhosted.org/packages/dc/22/79c4d72e607f1e2d5a64f0c9732be7435a838f02e4e8026824c945089b1a/filesystem-dict-0.1.2.tar.gz
+[2023-05-16 10:21:04] INFO root fetch - processPackages [beamer-slider]: Downloading https://files.pythonhosted.org/packages/93/ae/5cacf262cb7248d6b7f0bf540e58f1cc53b607cdac5b59bfe74501a4bed4/beamer-slider-0.1.9.tar.gz
+[2023-05-16 10:21:04] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230516/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 10:21:04] INFO root fetch - processPackages [filesystem-dict]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [filesystem-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesystem-dict-0.1.1.tar.gz tmp/filesystem-dict-0.1.2.tar.gz --markdown 20230516/f/filesystem-dict/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 10:21:04] INFO root fetch - processPackages [eventiq]: Downloading https://files.pythonhosted.org/packages/d9/70/b75adec1b4c90b8e8555825ef7ddb7424e1c7503f0fd8961247e4f1b66d9/eventiq-0.1.9.tar.gz
+[2023-05-16 10:21:04] INFO root fetch - processPackages [beamer-slider]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [beamer-slider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beamer-slider-0.1.8.tar.gz tmp/beamer-slider-0.1.9.tar.gz --markdown 20230516/b/beamer-slider/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 10:21:04] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-05-16 10:21:04] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.8.tar.gz tmp/eventiq-0.1.9.tar.gz --markdown 20230516/e/eventiq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 10:21:05] INFO root fetch - processPackages [kolyaklimkLab3]: Start processing: ambient-toolbox
+[2023-05-16 10:21:05] INFO root fetch - main [MainThread]: End processing [kolyaklimkLab3]: success
+[2023-05-16 10:21:05] INFO root fetch - processPackages [kolyaklimkLab3]: Start processing: bohrium-openapi-python-sdk
+[2023-05-16 10:21:05] INFO root fetch - main [MainThread]: End processing [kolyaklimkLab3]: success
+[2023-05-16 10:21:05] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-05-16 10:21:05] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.3.dev10688-py2.py3-none-any.whl.zip tmp/udata_front-3.2.3.dev9974-py2.py3-none-any.whl.zip --markdown 20230516/u/udata-front/3.2.3.dev10688-3.2.3.dev9974/diff.md --exclude *.pyd
+[2023-05-16 10:21:05] INFO root fetch - processPackages [ambient-toolbox]: New version: [8.3.5] Old Version: [8.3.4]
+[2023-05-16 10:21:05] INFO root fetch - processPackages [bohrium-openapi-python-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 10:21:05] INFO root fetch - processPackages [bohrium-openapi-python-sdk]: Downloading https://files.pythonhosted.org/packages/f4/31/2fcbc26db495a4a012ac51e95286ec753904838588a4517f77d1a8366801/bohrium_openapi_python_sdk-0.0.1.tar.gz
+[2023-05-16 10:21:05] INFO root fetch - main [MainThread]: End processing [styles]: success
+[2023-05-16 10:21:05] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-05-16 10:21:05] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/f7/83/0d16b4f207fa7d26584ab9b660c09a8d6de8590436442a0cad70862eadfe/ambient-toolbox-8.3.5.tar.gz
+[2023-05-16 10:21:05] INFO root fetch - main [MainThread]: End processing [filesystem-dict]: success
+[2023-05-16 10:21:06] INFO root fetch - processPackages [bohrium-openapi-python-sdk]: Downloading https://files.pythonhosted.org/packages/3b/87/528b97f5f58f73796dcfdbd8c4051edaf8d0cc3f2cae8eeb839167f1aeaa/bohrium_openapi_python_sdk-0.0.2.tar.gz
+[2023-05-16 10:21:06] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-05-16 10:21:06] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-toolbox-8.3.4.tar.gz tmp/ambient-toolbox-8.3.5.tar.gz --markdown 20230516/a/ambient-toolbox/8.3.4-8.3.5/diff.md --exclude *.pyd
+[2023-05-16 10:21:06] INFO root fetch - processPackages [bohrium-openapi-python-sdk]: executing diffoscope
+[2023-05-16 10:21:06] INFO root fetch - processPackages [bohrium-openapi-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium_openapi_python_sdk-0.0.1.tar.gz tmp/bohrium_openapi_python_sdk-0.0.2.tar.gz --markdown 20230516/b/bohrium-openapi-python-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 10:21:06] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-05-16 10:21:06] INFO root fetch - main [MainThread]: End processing [beamer-slider]: success
+[2023-05-16 10:21:06] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-05-16 10:21:07] INFO root fetch - main [MainThread]: End processing [bohrium-openapi-python-sdk]: success
+[2023-05-16 10:21:07] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-05-16 10:21:08] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-16 10:21:39] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-05-16 10:21:39] INFO root fetch - main [MainThread]: Store serial: [18120329]
