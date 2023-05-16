@@ -15395,3 +15395,121 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 13:19:12] INFO root fetch - main [MainThread]: End processing [mly]: success
 [2023-05-16 13:19:26] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-05-16 13:19:26] INFO root fetch - main [MainThread]: Store serial: [18122345]
+[2023-05-16 13:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18122345]
+[2023-05-16 13:24:40] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: es-translator
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apicurio-registry-python-sdk
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2enetworks
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-private-bucket
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specmatic
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-datalake-utils
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tb-nightly
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uplogic
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-website-event-require-login
+[2023-05-16 13:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-16 13:24:40] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 13:24:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 13:24:40] WARNING root fetch - processPackages [specmatic]: Skipping, unable to determine old version
+[2023-05-16 13:24:40] INFO root fetch - processPackages [specmatic]: Start processing: tensordict-nightly
+[2023-05-16 13:24:40] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-05-16 13:24:40] ERROR root fetch - processPackages [apicurio-registry-python-sdk]: Unable to get metadata: No such project 'apicurio-registry-python-sdk'
+[2023-05-16 13:24:40] INFO root fetch - processPackages [apicurio-registry-python-sdk]: Start processing: PyFADO
+[2023-05-16 13:24:40] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk] error
+[2023-05-16 13:24:40] INFO root fetch - processPackages [es-translator]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-05-16 13:24:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-16 13:24:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 13:24:40] INFO root fetch - processPackages [uplogic]: New version: [1.9] Old Version: [1.8.4]
+[2023-05-16 13:24:40] WARNING root fetch - processPackages [odoo-addon-website-event-require-login]: Skipping, unable to determine old version
+[2023-05-16 13:24:40] INFO root fetch - processPackages [azure-datalake-utils]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-16 13:24:40] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Start processing: xpdfpghljk
+[2023-05-16 13:24:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-event-require-login] error
+[2023-05-16 13:24:40] WARNING root fetch - processPackages [apicurio-registry-python-sdk-preview]: Skipping, unable to determine old version
+[2023-05-16 13:24:40] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Start processing: torchtnt-nightly
+[2023-05-16 13:24:40] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview] error
+[2023-05-16 13:24:40] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-16 13:24:40] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-16 13:24:40] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/28/f1/a99b5b8b79806eba23afad91053f9824ee53cf743932ffe649bf210b5b6f/e2enetworks-0.0.9.tar.gz
+[2023-05-16 13:24:40] WARNING root fetch - processPackages [PyFADO]: Skipping, unable to determine old version
+[2023-05-16 13:24:40] INFO root fetch - processPackages [PyFADO]: Start processing: divbrowse
+[2023-05-16 13:24:40] INFO root fetch - main [MainThread]: End processing [PyFADO] error
+[2023-05-16 13:24:40] WARNING root fetch - processPackages [xpdfpghljk]: Skipping, unable to determine old version
+[2023-05-16 13:24:40] INFO root fetch - processPackages [xpdfpghljk]: Start processing: autumn8
+[2023-05-16 13:24:40] INFO root fetch - main [MainThread]: End processing [xpdfpghljk] error
+[2023-05-16 13:24:40] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-16 13:24:40] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-16 13:24:40] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230516/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-16 13:24:40] INFO root fetch - processPackages [autumn8]: New version: [1.0.5rc5] Old Version: [1.0.5rc4]
+[2023-05-16 13:24:40] INFO root fetch - processPackages [azure-datalake-utils]: Downloading https://files.pythonhosted.org/packages/47/41/20641b0e243e2e79f646b0bd5dc616ecbd49df7552025279c9909417226e/azure_datalake_utils-0.5.5.tar.gz
+[2023-05-16 13:24:40] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-16 13:24:40] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.8.tar.gz tmp/e2enetworks-0.0.9.tar.gz --markdown 20230516/e/e2enetworks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 13:24:40] INFO root fetch - processPackages [uplogic]: Downloading https://files.pythonhosted.org/packages/66/73/ab9953303c40060eed1a853e3c8f12a2be2d79a37426b425776a6d030757/uplogic-1.8.4.tar.gz
+[2023-05-16 13:24:40] INFO root fetch - processPackages [divbrowse]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-16 13:24:40] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-16 13:24:40] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230516/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-16 13:24:40] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/4f/34/38786c48a8c53f10ae0967a35ff205775e4fd60b28e746cfe1bf460a25ff/es_translator-1.5.0.tar.gz
+[2023-05-16 13:24:40] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-16 13:24:40] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.5rc4.tar.gz tmp/autumn8-1.0.5rc5.tar.gz --markdown 20230516/a/autumn8/1.0.5rc4-1.0.5rc5/diff.md --exclude *.pyd
+[2023-05-16 13:24:40] INFO root fetch - processPackages [es-translator]: executing diffoscope
+[2023-05-16 13:24:40] INFO root fetch - processPackages [es-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_translator-1.4.2.tar.gz tmp/es_translator-1.5.0.tar.gz --markdown 20230516/e/es-translator/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-05-16 13:24:40] INFO root fetch - processPackages [divbrowse]: Downloading https://files.pythonhosted.org/packages/fa/1c/28c65eb9cc876162dd29908abae3e4c446def932b2a339ffb7a21aa91097/divbrowse-1.0.1.tar.gz
+[2023-05-16 13:24:40] INFO root fetch - processPackages [azure-datalake-utils]: Downloading https://files.pythonhosted.org/packages/43/1b/944f48bfd5a2e245f222c4b851a7357cac16f0538438ab2f6c2960570db8/azure_datalake_utils-0.5.6.tar.gz
+[2023-05-16 13:24:40] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-16 13:24:40] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230516/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-16 13:24:40] INFO root fetch - processPackages [uplogic]: Downloading https://files.pythonhosted.org/packages/fa/e3/0de759ad1a310074ffeb40ff85b903f91e2812d289c943960c4dc224c2d2/uplogic-1.9.tar.gz
+[2023-05-16 13:24:41] INFO root fetch - processPackages [azure-datalake-utils]: executing diffoscope
+[2023-05-16 13:24:41] INFO root fetch - processPackages [azure-datalake-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_datalake_utils-0.5.5.tar.gz tmp/azure_datalake_utils-0.5.6.tar.gz --markdown 20230516/a/azure-datalake-utils/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-16 13:24:41] INFO root fetch - processPackages [uplogic]: executing diffoscope
+[2023-05-16 13:24:41] INFO root fetch - processPackages [uplogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uplogic-1.8.4.tar.gz tmp/uplogic-1.9.tar.gz --markdown 20230516/u/uplogic/1.8.4-1.9/diff.md --exclude *.pyd
+[2023-05-16 13:24:41] INFO root fetch - processPackages [divbrowse]: Downloading https://files.pythonhosted.org/packages/92/d4/a6ecb55ef5b5e608387a7517c40296fdbb792e4780539d755ebd7b8fdcdb/divbrowse-1.1.0.tar.gz
+[2023-05-16 13:24:41] INFO root fetch - processPackages [divbrowse]: executing diffoscope
+[2023-05-16 13:24:41] INFO root fetch - processPackages [divbrowse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divbrowse-1.0.1.tar.gz tmp/divbrowse-1.1.0.tar.gz --markdown 20230516/d/divbrowse/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-16 13:24:41] INFO root fetch - processPackages [e2enetworks]: Start processing: edc-adverse-event
+[2023-05-16 13:24:41] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-16 13:24:41] INFO root fetch - processPackages [edc-adverse-event]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-16 13:24:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: pypanda-core
+[2023-05-16 13:24:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-16 13:24:42] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/aa/cc/60c44545ab1f1682384ca1da00d121b07fcba05a12b0d6021ae317e693d9/edc_adverse_event-0.3.8-py3-none-any.whl
+[2023-05-16 13:24:42] WARNING root fetch - processPackages [pypanda-core]: Skipping, unable to determine old version
+[2023-05-16 13:24:42] INFO root fetch - processPackages [pypanda-core]: Start processing: spetlr
+[2023-05-16 13:24:42] INFO root fetch - main [MainThread]: End processing [pypanda-core] error
+[2023-05-16 13:24:42] INFO root fetch - processPackages [spetlr]: New version: [1.1.84] Old Version: [1.1.79]
+[2023-05-16 13:24:42] INFO root fetch - processPackages [autumn8]: Start processing: dekugay
+[2023-05-16 13:24:42] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-16 13:24:42] INFO root fetch - processPackages [es-translator]: Start processing: KMMTR
+[2023-05-16 13:24:42] INFO root fetch - main [MainThread]: End processing [es-translator]: success
+[2023-05-16 13:24:42] INFO root fetch - processPackages [KMMTR]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 13:24:42] WARNING root fetch - processPackages [dekugay]: Skipping, unable to determine old version
+[2023-05-16 13:24:42] INFO root fetch - processPackages [dekugay]: Start processing: dkist
+[2023-05-16 13:24:42] INFO root fetch - main [MainThread]: End processing [dekugay] error
+[2023-05-16 13:24:42] INFO root fetch - processPackages [azure-datalake-utils]: Start processing: color-palette-extract
+[2023-05-16 13:24:42] INFO root fetch - main [MainThread]: End processing [azure-datalake-utils]: success
+[2023-05-16 13:24:42] INFO root fetch - processPackages [color-palette-extract]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-16 13:24:42] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/04/f0/b9f2b8c39c677c51359e09b0e2a6ec34dde4a98ad9ed7c6bb6f8cea26097/edc_adverse_event-0.3.9-py3-none-any.whl
+[2023-05-16 13:24:42] INFO root fetch - processPackages [dkist]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-05-16 13:24:42] INFO root fetch - processPackages [KMMTR]: Downloading https://files.pythonhosted.org/packages/6c/56/4434416fbde8c48034aa2e1e9f92444f28164d916f21e1c1d6ec29f8da38/KMMTR-0.0.7.tar.gz
+[2023-05-16 13:24:42] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/9d/66/caa7c9c1d9d10ac8d62acd85450d26b5a560e75390160f63b63713be65ea/spetlr-1.1.84.tar.gz
+[2023-05-16 13:24:42] INFO root fetch - processPackages [edc-adverse-event]: executing diffoscope
+[2023-05-16 13:24:42] INFO root fetch - processPackages [edc-adverse-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip --markdown 20230516/e/edc-adverse-event/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-16 13:24:42] INFO root fetch - processPackages [color-palette-extract]: Downloading https://files.pythonhosted.org/packages/9b/1b/7688093e9f93f0f321807aa11cc77d18830f4af619fb2cc3c3dea1187988/color_palette_extract-0.1.0.tar.gz
+[2023-05-16 13:24:42] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/a6/3e/abef3a824a906bd915094170d3244d872371aa824b8f096da7517c9f87bf/dkist-1.0.0b8.tar.gz
+[2023-05-16 13:24:42] INFO root fetch - processPackages [KMMTR]: executing diffoscope
+[2023-05-16 13:24:42] INFO root fetch - processPackages [KMMTR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KMMTR-0.0.6.tar.gz tmp/KMMTR-0.0.7.tar.gz --markdown 20230516/K/KMMTR/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 13:24:42] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2023-05-16 13:24:42] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-1.1.79.tar.gz tmp/spetlr-1.1.84.tar.gz --markdown 20230516/s/spetlr/1.1.79-1.1.84/diff.md --exclude *.pyd
+[2023-05-16 13:24:42] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-16 13:24:43] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-16 13:24:43] INFO root fetch - processPackages [color-palette-extract]: Downloading https://files.pythonhosted.org/packages/c1/50/1b1a17a6bc55de01d95cb784cd316e572c738abe516b50a17d43563e8ab8/color_palette_extract-0.2.0.tar.gz
+[2023-05-16 13:24:43] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/23/9d/e4ab50b6e34caa093cf1d311f12a1c41dc8cbaefabf74f5641df2f9fa65a/dkist-1.0.0b9.tar.gz
+[2023-05-16 13:24:43] INFO root fetch - processPackages [color-palette-extract]: executing diffoscope
+[2023-05-16 13:24:43] INFO root fetch - processPackages [color-palette-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/color_palette_extract-0.1.0.tar.gz tmp/color_palette_extract-0.2.0.tar.gz --markdown 20230516/c/color-palette-extract/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 13:24:43] INFO root fetch - processPackages [dkist]: executing diffoscope
+[2023-05-16 13:24:43] INFO root fetch - processPackages [dkist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-1.0.0b8.tar.gz tmp/dkist-1.0.0b9.tar.gz --markdown 20230516/d/dkist/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-05-16 13:24:44] INFO root fetch - main [MainThread]: End processing [KMMTR]: success
+[2023-05-16 13:24:44] INFO root fetch - main [MainThread]: End processing [color-palette-extract]: success
+[2023-05-16 13:24:44] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
+[2023-05-16 13:24:44] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-16 13:24:45] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2023-05-16 13:24:47] INFO root fetch - main [MainThread]: End processing [dkist]: success
+[2023-05-16 13:24:49] INFO root fetch - main [MainThread]: End processing [uplogic]: success
+[2023-05-16 13:25:03] INFO root fetch - main [MainThread]: End processing [divbrowse]: success
+[2023-05-16 13:25:03] INFO root fetch - main [MainThread]: Store serial: [18122428]
