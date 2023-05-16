@@ -14837,3 +14837,93 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 12:52:42] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2023-05-16 12:52:44] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-16 12:52:44] INFO root fetch - main [MainThread]: Store serial: [18121953]
+[2023-05-16 12:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121953]
+[2023-05-16 12:57:53] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeUtils
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funding-service-design-utils
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: extr-ds
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: questdb-connect
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-tzcld
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kvakk-git-tools
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loggerV
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kvakk-git-tools
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miquido-spawn-gitlab-job
+[2023-05-16 12:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vehicle-lang
+[2023-05-16 12:57:53] INFO root fetch - processPackages [kvakk-git-tools]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-16 12:57:53] WARNING root fetch - processPackages [miquido-spawn-gitlab-job]: Skipping, unable to determine old version
+[2023-05-16 12:57:53] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: Start processing: matflow-new
+[2023-05-16 12:57:53] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-05-16 12:57:53] INFO root fetch - main [MainThread]: End processing [miquido-spawn-gitlab-job] error
+[2023-05-16 12:57:53] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 12:57:53] WARNING root fetch - processPackages [loggerV]: Skipping, unable to determine old version
+[2023-05-16 12:57:53] INFO root fetch - processPackages [loggerV]: Start processing: Bigsansar
+[2023-05-16 12:57:53] INFO root fetch - main [MainThread]: End processing [loggerV] error
+[2023-05-16 12:57:53] INFO root fetch - processPackages [kvakk-git-tools]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-16 12:57:53] INFO root fetch - processPackages [Bigsansar]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-16 12:57:53] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-16 12:57:53] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230516/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:57:53] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-05-16 12:57:53] INFO root fetch - processPackages [djangoldp-tzcld]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 12:57:53] INFO root fetch - processPackages [vehicle-lang]: New version: [0.3.0] Old Version: [0.2.0a4]
+[2023-05-16 12:57:53] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-16 12:57:53] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-16 12:57:54] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.4.3.tar.gz tmp/Bigsansar-1.4.4.tar.gz --markdown 20230516/B/Bigsansar/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-16 12:57:54] INFO root fetch - processPackages [kvakk-git-tools]: Downloading https://files.pythonhosted.org/packages/5c/9b/4200d6c2d64589d992b3f4d10c46c750a65a0e611c9167c510cfb1a9377c/kvakk_git_tools-2.0.0.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [kvakk-git-tools]: Downloading https://files.pythonhosted.org/packages/5c/9b/4200d6c2d64589d992b3f4d10c46c750a65a0e611c9167c510cfb1a9377c/kvakk_git_tools-2.0.0.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/d3/6e/e9d36131e0075e9bdf8e3cd2f7e86a0192b465eda3a477743c2e2f8db2b7/questdb-connect-0.0.48.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [vehicle-lang]: Downloading https://files.pythonhosted.org/packages/11/16/ed3e5ba631a674186ee9a57350795d5f648b7198d55402e5eb3f497b359c/vehicle_lang-0.2.0a4-cp39-cp39-win_amd64.whl
+[2023-05-16 12:57:54] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/d4/94/a5cabe694a190e1f82bb420069791a5f1cfcfcac8e93a95c46b7668d73be/funding-service-design-utils-2.0.1.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.47.tar.gz tmp/questdb-connect-0.0.48.tar.gz --markdown 20230516/q/questdb-connect/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-05-16 12:57:54] WARNING root fetch - processPackages [vehicle-lang]: Skipping package: exceeds size limit 12387695>=10485760
+[2023-05-16 12:57:54] INFO root fetch - processPackages [vehicle-lang]: Start processing: jcmutils
+[2023-05-16 12:57:54] INFO root fetch - main [MainThread]: End processing [vehicle-lang] error
+[2023-05-16 12:57:54] INFO root fetch - processPackages [djangoldp-tzcld]: Downloading https://files.pythonhosted.org/packages/5e/bf/765d4a1d3b4755ec985902cfd73fb982d6e0e548553f9b59d81204a43f5e/djangoldp_tzcld-1.0.8.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.0.tar.gz tmp/funding-service-design-utils-2.0.1.tar.gz --markdown 20230516/f/funding-service-design-utils/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-16 12:57:54] INFO root fetch - processPackages [jcmutils]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-16 12:57:54] INFO root fetch - processPackages [kvakk-git-tools]: Downloading https://files.pythonhosted.org/packages/dc/44/1775122113bbd60c950910e9ea699ff22ca2850d8b548fe7af92fdd4e9e2/kvakk_git_tools-2.1.0.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [kvakk-git-tools]: Downloading https://files.pythonhosted.org/packages/dc/44/1775122113bbd60c950910e9ea699ff22ca2850d8b548fe7af92fdd4e9e2/kvakk_git_tools-2.1.0.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.4.2.tar.gz tmp/jcmutils-1.4.3.tar.gz --markdown 20230516/j/jcmutils/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-16 12:57:54] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-05-16 12:57:54] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230516/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-16 12:57:54] INFO root fetch - processPackages [djangoldp-tzcld]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [djangoldp-tzcld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_tzcld-1.0.7.tar.gz tmp/djangoldp_tzcld-1.0.8.tar.gz --markdown 20230516/d/djangoldp-tzcld/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 12:57:54] INFO root fetch - processPackages [kvakk-git-tools]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [kvakk-git-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kvakk_git_tools-2.0.0.tar.gz tmp/kvakk_git_tools-2.1.0.tar.gz --markdown 20230516/k/kvakk-git-tools/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-16 12:57:54] INFO root fetch - processPackages [kvakk-git-tools]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [kvakk-git-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kvakk_git_tools-2.0.0.tar.gz tmp/kvakk_git_tools-2.1.0.tar.gz --markdown 20230516/k/kvakk-git-tools/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-16 12:57:54] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-05-16 12:57:54] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230516/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-05-16 12:57:55] INFO root fetch - processPackages [extr-ds]: Start processing: restscript
+[2023-05-16 12:57:55] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-16 12:57:55] WARNING root fetch - processPackages [restscript]: Skipping, unable to determine old version
+[2023-05-16 12:57:55] INFO root fetch - processPackages [restscript]: Start processing: dhi-platform
+[2023-05-16 12:57:55] INFO root fetch - main [MainThread]: End processing [restscript] error
+[2023-05-16 12:57:55] INFO root fetch - processPackages [dhi-platform]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 12:57:55] INFO root fetch - processPackages [jcmutils]: Start processing: jprint
+[2023-05-16 12:57:55] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-16 12:57:55] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-16 12:57:55] INFO root fetch - processPackages [jprint]: New version: [1.6] Old Version: [1.5]
+[2023-05-16 12:57:55] INFO root fetch - processPackages [dhi-platform]: Downloading https://files.pythonhosted.org/packages/c3/cd/bbbbfe5e9a181e0216bc8c95a6d602ee4db62fdf37e7abc1cc4fd05bcb52/dhi-platform-1.0.7.tar.gz
+[2023-05-16 12:57:55] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-05-16 12:57:55] INFO root fetch - main [MainThread]: End processing [kvakk-git-tools]: success
+[2023-05-16 12:57:56] INFO root fetch - processPackages [jprint]: Downloading https://files.pythonhosted.org/packages/7e/35/308de4b899ae09cd4b7ebb1c29b49ab8050678670b547318e7baffa7ad50/jprint-1.5.tar.gz
+[2023-05-16 12:57:56] INFO root fetch - processPackages [dhi-platform]: Downloading https://files.pythonhosted.org/packages/c2/12/024389e8cee04abd043a3bef7e128a9bb2be5a219e5c5c7bd0d7646e6ff6/dhi-platform-1.0.8.tar.gz
+[2023-05-16 12:57:56] INFO root fetch - processPackages [dhi-platform]: executing diffoscope
+[2023-05-16 12:57:56] INFO root fetch - processPackages [dhi-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhi-platform-1.0.7.tar.gz tmp/dhi-platform-1.0.8.tar.gz --markdown 20230516/d/dhi-platform/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 12:57:56] INFO root fetch - main [MainThread]: End processing [kvakk-git-tools]: success
+[2023-05-16 12:57:56] INFO root fetch - processPackages [jprint]: Downloading https://files.pythonhosted.org/packages/c3/59/b877f8f8ed6437ec7992a3187fb0dd449a71e1aafefcbe9bad8dd458ea27/jprint-1.6.tar.gz
+[2023-05-16 12:57:56] INFO root fetch - main [MainThread]: End processing [djangoldp-tzcld]: success
+[2023-05-16 12:57:56] INFO root fetch - processPackages [jprint]: executing diffoscope
+[2023-05-16 12:57:56] INFO root fetch - processPackages [jprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jprint-1.5.tar.gz tmp/jprint-1.6.tar.gz --markdown 20230516/j/jprint/1.5-1.6/diff.md --exclude *.pyd
+[2023-05-16 12:57:56] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-05-16 12:57:57] INFO root fetch - main [MainThread]: End processing [jprint]: success
+[2023-05-16 12:57:57] INFO root fetch - main [MainThread]: End processing [dhi-platform]: success
+[2023-05-16 12:57:58] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-16 12:58:01] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-16 12:58:01] INFO root fetch - main [MainThread]: Store serial: [18122020]
