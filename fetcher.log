@@ -18085,3 +18085,109 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 15:34:33] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-16 15:34:34] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-16 15:34:34] INFO root fetch - main [MainThread]: Store serial: [18124051]
+[2023-05-16 15:39:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124051]
+[2023-05-16 15:39:44] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ghostbusterV4
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cartagen4py
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: econfiguration
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odd-models
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xsarslc
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eradiate
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datashader
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: silero-api-server
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flojoy
+[2023-05-16 15:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yousofali
+[2023-05-16 15:39:44] INFO root fetch - processPackages [cartagen4py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 15:39:44] INFO root fetch - processPackages [odd-models]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-16 15:39:45] INFO root fetch - processPackages [ghostbusterV4]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 15:39:45] INFO root fetch - processPackages [eradiate]: New version: [0.23.2rc1] Old Version: [0.23.2rc0]
+[2023-05-16 15:39:45] INFO root fetch - processPackages [econfiguration]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-16 15:39:45] WARNING root fetch - processPackages [yousofali]: Skipping, unable to determine old version
+[2023-05-16 15:39:45] INFO root fetch - processPackages [yousofali]: Start processing: vtmmpy
+[2023-05-16 15:39:45] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-05-16 15:39:45] INFO root fetch - main [MainThread]: End processing [yousofali] error
+[2023-05-16 15:39:45] INFO root fetch - processPackages [silero-api-server]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 15:39:45] INFO root fetch - processPackages [xsarslc]: New version: [2023.5.16] Old Version: [2023.4.5]
+[2023-05-16 15:39:45] INFO root fetch - processPackages [datashader]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 15:39:45] INFO root fetch - processPackages [vtmmpy]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-16 15:39:45] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/14/d8/3b4d6579ed642e37728f101a84fd51b225eb7532ac3e9dc9dfe46321de5e/cartagen4py-0.1.8.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [odd-models]: Downloading https://files.pythonhosted.org/packages/c6/a9/ea844b2380e839191844f968e2cd60c397259d1bf1a77e20ea65ee20a643/odd-models-2.0.8.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [vtmmpy]: executing diffoscope
+[2023-05-16 15:39:45] INFO root fetch - processPackages [vtmmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtmmpy-1.0.6.tar.gz tmp/vtmmpy-1.0.7.tar.gz --markdown 20230516/v/vtmmpy/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-16 15:39:45] INFO root fetch - processPackages [datashader]: Downloading https://files.pythonhosted.org/packages/e3/23/df2ba203e2685c0795ec4eaf601f5f3bc7f186a16cfe2f3b63dcde56a1e6/datashader-0.8.0.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [silero-api-server]: Downloading https://files.pythonhosted.org/packages/60/08/a9899cd0d5e7b3d49af8f8bc165a015c3b9ed136221712bcb62bbf2f447d/silero_api_server-0.1.4.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [ghostbusterV4]: Downloading https://files.pythonhosted.org/packages/17/a8/35e338113fd94aa141812dd6e64d957b90d363fb0bb0713652f39f2e5f45/ghostbusterV4-1.0.7.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [econfiguration]: Downloading https://files.pythonhosted.org/packages/7e/81/6f3eebb4ab8e51ae4e91ab4b9a7c8ef018047e5636bb9cd66656e2b2df32/econfiguration-0.5.2.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [eradiate]: Downloading https://files.pythonhosted.org/packages/74/12/00fa766aab9b2c4ce67f7d18b76cab077cedc8c08e56ebe077ca49618e2a/eradiate-0.23.2rc0.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/44/34/07fa9e252fc9d0aeba6a086c40b58d6aed7060b27fbabe4cb2aa520e9ee9/xsarslc-2023.4.5.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [odd-models]: Downloading https://files.pythonhosted.org/packages/f2/c3/f537f567b455ac50cfc1496bce73f6fa04b8533fd53509157d65d6867ef1/odd-models-2.0.9.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/9d/6e/4dcddc662b3416010ada7231167661388162f5439f6745719197f1802573/cartagen4py-0.1.9.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [odd-models]: executing diffoscope
+[2023-05-16 15:39:45] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-05-16 15:39:45] INFO root fetch - processPackages [odd-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-models-2.0.8.tar.gz tmp/odd-models-2.0.9.tar.gz --markdown 20230516/o/odd-models/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-16 15:39:45] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-05-16 15:39:45] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.1.8.tar.gz tmp/cartagen4py-0.1.9.tar.gz --markdown 20230516/c/cartagen4py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 15:39:45] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230516/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-05-16 15:39:45] INFO root fetch - processPackages [econfiguration]: Downloading https://files.pythonhosted.org/packages/4c/17/5a09033acd3a6cfefda07e004c51aab1c9a968f58125fee0e97e7428cae8/econfiguration-0.5.3.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [ghostbusterV4]: Downloading https://files.pythonhosted.org/packages/90/f6/863d7f9ed426c1e4b563866486b9044d9f77f467b05cb6e73678b5bf87bc/ghostbusterV4-1.0.8.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [silero-api-server]: Downloading https://files.pythonhosted.org/packages/c2/ea/e418646bb0eaeec0c62144885a4fb805d37159b0423738395cb1597305b5/silero_api_server-0.1.5.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [ghostbusterV4]: executing diffoscope
+[2023-05-16 15:39:45] INFO root fetch - processPackages [ghostbusterV4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghostbusterV4-1.0.7.tar.gz tmp/ghostbusterV4-1.0.8.tar.gz --markdown 20230516/g/ghostbusterV4/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 15:39:45] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/86/dd/9d67e866d4e3525039257c77c975deca2f98fa3fb47e017b5dc9835223c1/xsarslc-2023.5.16.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [econfiguration]: executing diffoscope
+[2023-05-16 15:39:45] INFO root fetch - processPackages [econfiguration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econfiguration-0.5.2.tar.gz tmp/econfiguration-0.5.3.tar.gz --markdown 20230516/e/econfiguration/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-16 15:39:45] INFO root fetch - processPackages [silero-api-server]: executing diffoscope
+[2023-05-16 15:39:45] INFO root fetch - processPackages [silero-api-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero_api_server-0.1.4.tar.gz tmp/silero_api_server-0.1.5.tar.gz --markdown 20230516/s/silero-api-server/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 15:39:45] INFO root fetch - processPackages [eradiate]: Downloading https://files.pythonhosted.org/packages/2f/7f/9ea28ae27d9bbaf4c4f46eb284b20124cc7f2624e9497ec46b416feae40d/eradiate-0.23.2rc1.tar.gz
+[2023-05-16 15:39:45] INFO root fetch - processPackages [xsarslc]: executing diffoscope
+[2023-05-16 15:39:45] INFO root fetch - processPackages [xsarslc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsarslc-2023.4.5.tar.gz tmp/xsarslc-2023.5.16.tar.gz --markdown 20230516/x/xsarslc/2023.4.5-2023.5.16/diff.md --exclude *.pyd
+[2023-05-16 15:39:46] INFO root fetch - processPackages [eradiate]: executing diffoscope
+[2023-05-16 15:39:46] INFO root fetch - processPackages [eradiate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eradiate-0.23.2rc0.tar.gz tmp/eradiate-0.23.2rc1.tar.gz --markdown 20230516/e/eradiate/0.23.2rc0-0.23.2rc1/diff.md --exclude *.pyd
+[2023-05-16 15:39:46] WARNING root fetch - processPackages [datashader]: Skipping package: exceeds size limit 30172251>=10485760
+[2023-05-16 15:39:46] INFO root fetch - processPackages [datashader]: Start processing: crossroads-schematization
+[2023-05-16 15:39:46] INFO root fetch - main [MainThread]: End processing [datashader] error
+[2023-05-16 15:39:46] INFO root fetch - processPackages [crossroads-schematization]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 15:39:46] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/b1/13/a656465abbc17429adc3b48b081e0e12d5521e7ff88234c5b9130e18844f/crossroads-schematization-0.0.7.tar.gz
+[2023-05-16 15:39:46] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/c1/48/ba4ef64c1a5270b2bc3b7a7561cd976d653d959aeb8f157fdd40d63df34f/crossroads-schematization-0.0.8.tar.gz
+[2023-05-16 15:39:46] INFO root fetch - processPackages [vtmmpy]: Start processing: opsmatcal
+[2023-05-16 15:39:46] INFO root fetch - main [MainThread]: End processing [vtmmpy]: success
+[2023-05-16 15:39:46] WARNING root fetch - processPackages [opsmatcal]: Skipping, unable to determine old version
+[2023-05-16 15:39:46] INFO root fetch - processPackages [opsmatcal]: Start processing: gptw
+[2023-05-16 15:39:46] INFO root fetch - main [MainThread]: End processing [opsmatcal] error
+[2023-05-16 15:39:46] INFO root fetch - processPackages [gptw]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-16 15:39:46] INFO root fetch - processPackages [crossroads-schematization]: executing diffoscope
+[2023-05-16 15:39:46] INFO root fetch - processPackages [crossroads-schematization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossroads-schematization-0.0.7.tar.gz tmp/crossroads-schematization-0.0.8.tar.gz --markdown 20230516/c/crossroads-schematization/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 15:39:46] INFO root fetch - processPackages [gptw]: executing diffoscope
+[2023-05-16 15:39:46] INFO root fetch - processPackages [gptw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptw-0.1.2.tar.gz tmp/gptw-0.2.0.tar.gz --markdown 20230516/g/gptw/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 15:39:46] INFO root fetch - processPackages [odd-models]: Start processing: bus-wizard
+[2023-05-16 15:39:46] INFO root fetch - main [MainThread]: End processing [odd-models]: success
+[2023-05-16 15:39:46] INFO root fetch - processPackages [bus-wizard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 15:39:47] INFO root fetch - processPackages [bus-wizard]: Downloading https://files.pythonhosted.org/packages/2a/08/8fd57ec302b9c612ac2b97615f5e5635eb93442f44c89ddeb8a558cd0bd9/bus_wizard-0.0.1.tar.gz
+[2023-05-16 15:39:47] INFO root fetch - processPackages [cartagen4py]: Start processing: pure-ocean-breeze
+[2023-05-16 15:39:47] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-05-16 15:39:47] INFO root fetch - processPackages [silero-api-server]: Start processing: srtlst
+[2023-05-16 15:39:47] INFO root fetch - main [MainThread]: End processing [silero-api-server]: success
+[2023-05-16 15:39:47] INFO root fetch - main [MainThread]: End processing [econfiguration]: success
+[2023-05-16 15:39:47] INFO root fetch - processPackages [bus-wizard]: Downloading https://files.pythonhosted.org/packages/60/92/6c1ff5a4e38ce4635a78c7e8fe565ee02e67df53da81f533393dc668c221/bus_wizard-0.0.2.tar.gz
+[2023-05-16 15:39:47] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-05-16 15:39:47] INFO root fetch - processPackages [srtlst]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 15:39:47] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-05-16 15:39:47] INFO root fetch - processPackages [bus-wizard]: executing diffoscope
+[2023-05-16 15:39:47] INFO root fetch - processPackages [bus-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_wizard-0.0.1.tar.gz tmp/bus_wizard-0.0.2.tar.gz --markdown 20230516/b/bus-wizard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 15:39:47] INFO root fetch - processPackages [srtlst]: Downloading https://files.pythonhosted.org/packages/35/99/39df78a4163925dad1a718202516f8b45437d51513bb5a91838e09582d14/srtlst-0.1.2.tar.gz
+[2023-05-16 15:39:47] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/ec/fe/acab433d5e9ede2394e1480101325b7e6f88f4603f95db8549fafad144da/pure_ocean_breeze-3.9.4.tar.gz
+[2023-05-16 15:39:47] INFO root fetch - main [MainThread]: End processing [ghostbusterV4]: success
+[2023-05-16 15:39:47] INFO root fetch - processPackages [srtlst]: Downloading https://files.pythonhosted.org/packages/e0/5e/d4cb313813250a410d447da51e936003416b8d71533b86cdd69ab338c5de/srtlst-0.1.3.tar.gz
+[2023-05-16 15:39:48] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/f8/b5/bd06ee2c65d33ebb97740509835a8058bb07d4452f49566629f7f0e639b1/pure_ocean_breeze-3.9.5.tar.gz
+[2023-05-16 15:39:48] INFO root fetch - processPackages [srtlst]: executing diffoscope
+[2023-05-16 15:39:48] INFO root fetch - processPackages [srtlst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srtlst-0.1.2.tar.gz tmp/srtlst-0.1.3.tar.gz --markdown 20230516/s/srtlst/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 15:39:48] INFO root fetch - main [MainThread]: End processing [gptw]: success
+[2023-05-16 15:39:48] INFO root fetch - main [MainThread]: End processing [crossroads-schematization]: success
+[2023-05-16 15:39:48] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-05-16 15:39:48] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-3.9.4.tar.gz tmp/pure_ocean_breeze-3.9.5.tar.gz --markdown 20230516/p/pure-ocean-breeze/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-05-16 15:39:48] INFO root fetch - main [MainThread]: End processing [bus-wizard]: success
+[2023-05-16 15:39:49] INFO root fetch - main [MainThread]: End processing [srtlst]: success
+[2023-05-16 15:39:49] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-05-16 15:39:50] INFO root fetch - main [MainThread]: End processing [xsarslc]: success
+[2023-05-16 15:39:51] INFO root fetch - main [MainThread]: End processing [eradiate]: success
+[2023-05-16 15:39:51] INFO root fetch - main [MainThread]: Store serial: [18124106]
