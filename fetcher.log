@@ -13572,3 +13572,124 @@
 [2023-05-16 11:46:05] ERROR root fetch - processPackages [plone.app.mosaic]: Timeout during execution of pkgdiff
 [2023-05-16 11:46:05] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic] error
 [2023-05-16 11:46:05] INFO root fetch - main [MainThread]: Store serial: [18121237]
+[2023-05-16 11:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121237]
+[2023-05-16 11:51:15] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RobertCommonBasic
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yellowdog-python-examples
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soakdb3
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cohospider
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: t4flib
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-ogsm-plugin
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TailraiderAlliance
+[2023-05-16 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bastion-api
+[2023-05-16 11:51:15] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.39] Old Version: [0.1.38]
+[2023-05-16 11:51:15] WARNING root fetch - processPackages [bastion-api]: Skipping, unable to determine old version
+[2023-05-16 11:51:15] INFO root fetch - processPackages [bastion-api]: Start processing: dismake
+[2023-05-16 11:51:15] INFO root fetch - main [MainThread]: End processing [bastion-api] error
+[2023-05-16 11:51:15] WARNING root fetch - processPackages [cohospider]: Skipping, unable to determine old version
+[2023-05-16 11:51:15] INFO root fetch - processPackages [cohospider]: Start processing: mautrix
+[2023-05-16 11:51:15] INFO root fetch - main [MainThread]: End processing [cohospider] error
+[2023-05-16 11:51:15] INFO root fetch - processPackages [soakdb3]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-16 11:51:15] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [5.0.7] Old Version: [5.0.6]
+[2023-05-16 11:51:15] INFO root fetch - processPackages [t4flib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 11:51:15] INFO root fetch - processPackages [TailraiderAlliance]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 11:51:15] INFO root fetch - processPackages [pytest-ogsm-plugin]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-05-16 11:51:15] WARNING root fetch - processPackages [dismake]: Skipping, unable to determine old version
+[2023-05-16 11:51:15] INFO root fetch - processPackages [dismake]: Start processing: fiat-cli
+[2023-05-16 11:51:15] INFO root fetch - main [MainThread]: End processing [dismake] error
+[2023-05-16 11:51:15] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-16 11:51:15] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-16 11:51:15] INFO root fetch - processPackages [mautrix]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 11:51:15] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/f2/f9/1377362a3ddcb8d7c1c6401feafa9550181eb5f1ba8408d9fa56c416319e/yellowdog-python-examples-5.0.6.tar.gz
+[2023-05-16 11:51:15] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/89/7d/100cd7ffe0b58f557009b9f056fca1a500dc7597900b6aadbbd7f38fba41/RobertCommonBasic-0.1.38.tar.gz
+[2023-05-16 11:51:15] WARNING root fetch - processPackages [fiat-cli]: Skipping, unable to determine old version
+[2023-05-16 11:51:15] INFO root fetch - processPackages [fiat-cli]: Start processing: dev-gpt
+[2023-05-16 11:51:15] INFO root fetch - main [MainThread]: End processing [fiat-cli] error
+[2023-05-16 11:51:15] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/7e/e3/d508348a00288c29d614f951884a49ed320a01b06072803ba21c9a277e6c/t4flib-0.1.7-py2.py3-none-any.whl
+[2023-05-16 11:51:15] INFO root fetch - processPackages [pytest-ogsm-plugin]: Downloading https://files.pythonhosted.org/packages/01/ef/dceb3bbab99d0acfe57dc889bce8018f22dc2a6d2890a55ac6f34d5d44ea/pytest_ogsm_plugin-3.5.1.tar.gz
+[2023-05-16 11:51:15] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-16 11:51:15] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-16 11:51:15] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230516/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-16 11:51:15] INFO root fetch - processPackages [mautrix]: Downloading https://files.pythonhosted.org/packages/98/f0/24955e5c1561a687061d561661a0cd4e285ee7525d45939c0b81e70aa105/mautrix-0.9.8.tar.gz
+[2023-05-16 11:51:15] INFO root fetch - processPackages [TailraiderAlliance]: Downloading https://files.pythonhosted.org/packages/6d/00/256fcd4ec94128155a6778a51d60e5fbc7e79e09a67cd3a0aef8032d44e3/TailraiderAlliance-0.0.3.tar.gz
+[2023-05-16 11:51:16] INFO root fetch - processPackages [soakdb3]: Downloading https://files.pythonhosted.org/packages/f6/9a/4665f572ad2757019571c89c486f6b0e99ddbd9bf44af4f218aebe43872b/soakdb3-1.5.0.tar.gz
+[2023-05-16 11:51:16] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230516/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-16 11:51:16] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/19/83/ff0033f025671521abfd10ea4f8071467e1680fb0380e681b58c02a94dc3/yellowdog-python-examples-5.0.7.tar.gz
+[2023-05-16 11:51:16] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230516/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-16 11:51:16] INFO root fetch - processPackages [TailraiderAlliance]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [TailraiderAlliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TailraiderAlliance-0.0.2.tar.gz tmp/TailraiderAlliance-0.0.3.tar.gz --markdown 20230516/T/TailraiderAlliance/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 11:51:16] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/d5/29/bbaff5327c45a53bb59d66efdf619f6243d548bfccdb4a9ca94b3552d0a6/RobertCommonBasic-0.1.39.tar.gz
+[2023-05-16 11:51:16] INFO root fetch - processPackages [pytest-ogsm-plugin]: Downloading https://files.pythonhosted.org/packages/97/91/81f2821b4973c7907b66ac5fe10651e984b2781a36bd2561777b7cdb0be8/pytest_ogsm_plugin-3.5.2.tar.gz
+[2023-05-16 11:51:16] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/c8/d6/376422c861a5f1dd51887a5d154e9172b132f17d7a9f90ba771b436e31ec/t4flib-0.1.8-py2.py3-none-any.whl
+[2023-05-16 11:51:16] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-5.0.6.tar.gz tmp/yellowdog-python-examples-5.0.7.tar.gz --markdown 20230516/y/yellowdog-python-examples/5.0.6-5.0.7/diff.md --exclude *.pyd
+[2023-05-16 11:51:16] INFO root fetch - processPackages [mautrix]: Downloading https://files.pythonhosted.org/packages/9b/36/edc5d20a2ef50ac0286c5fcbd7a7ffc4e4c78a60172a12ecab5b558cd57b/mautrix-0.9.9.tar.gz
+[2023-05-16 11:51:16] INFO root fetch - processPackages [pytest-ogsm-plugin]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [pytest-ogsm-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_ogsm_plugin-3.5.1.tar.gz tmp/pytest_ogsm_plugin-3.5.2.tar.gz --markdown 20230516/p/pytest-ogsm-plugin/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-05-16 11:51:16] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.38.tar.gz tmp/RobertCommonBasic-0.1.39.tar.gz --markdown 20230516/R/RobertCommonBasic/0.1.38-0.1.39/diff.md --exclude *.pyd
+[2023-05-16 11:51:16] INFO root fetch - processPackages [mautrix]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [mautrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mautrix-0.9.8.tar.gz tmp/mautrix-0.9.9.tar.gz --markdown 20230516/m/mautrix/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 11:51:16] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.1.7-py2.py3-none-any.whl.zip tmp/t4flib-0.1.8-py2.py3-none-any.whl.zip --markdown 20230516/t/t4flib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 11:51:16] INFO root fetch - processPackages [soakdb3]: executing diffoscope
+[2023-05-16 11:51:16] INFO root fetch - processPackages [soakdb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soakdb3-1.4.0.tar.gz tmp/soakdb3-1.5.0.tar.gz --markdown 20230516/s/soakdb3/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-16 11:51:17] INFO root fetch - processPackages [TailraiderAlliance]: Start processing: apache-superset-db
+[2023-05-16 11:51:17] INFO root fetch - main [MainThread]: End processing [TailraiderAlliance]: success
+[2023-05-16 11:51:17] INFO root fetch - processPackages [pytest-ogsm-plugin]: Start processing: fiat-copilot
+[2023-05-16 11:51:17] INFO root fetch - main [MainThread]: End processing [pytest-ogsm-plugin]: success
+[2023-05-16 11:51:17] INFO root fetch - processPackages [apache-superset-db]: New version: [1.5.1.2] Old Version: [1.5.1.1]
+[2023-05-16 11:51:17] INFO root fetch - processPackages [t4flib]: Start processing: grizli
+[2023-05-16 11:51:17] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-05-16 11:51:17] WARNING root fetch - processPackages [fiat-copilot]: Skipping, unable to determine old version
+[2023-05-16 11:51:17] INFO root fetch - processPackages [fiat-copilot]: Start processing: musiccli
+[2023-05-16 11:51:17] INFO root fetch - main [MainThread]: End processing [fiat-copilot] error
+[2023-05-16 11:51:17] INFO root fetch - processPackages [grizli]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-16 11:51:17] WARNING root fetch - processPackages [musiccli]: Skipping, unable to determine old version
+[2023-05-16 11:51:17] INFO root fetch - processPackages [musiccli]: Start processing: idem-gcp
+[2023-05-16 11:51:17] INFO root fetch - main [MainThread]: End processing [musiccli] error
+[2023-05-16 11:51:17] INFO root fetch - processPackages [apache-superset-db]: Downloading https://files.pythonhosted.org/packages/a9/37/052892a1d8f213f370849a5d001317d2fcc151fc7fcc47e56c8509314c53/apache-superset-db-1.5.1.1.tar.gz
+[2023-05-16 11:51:18] INFO root fetch - processPackages [idem-gcp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 11:51:18] INFO root fetch - processPackages [RobertCommonBasic]: Start processing: RobertCommonDriver
+[2023-05-16 11:51:18] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-05-16 11:51:18] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/84/df/83a334a427624911a9ea0ca02069df1000b94b8d99278675fcb1a4751c73/grizli-1.8.8.tar.gz
+[2023-05-16 11:51:18] WARNING root fetch - processPackages [apache-superset-db]: Skipping package: exceeds size limit 29240713>=10485760
+[2023-05-16 11:51:18] INFO root fetch - processPackages [apache-superset-db]: Start processing: ixmp
+[2023-05-16 11:51:18] INFO root fetch - main [MainThread]: End processing [apache-superset-db] error
+[2023-05-16 11:51:18] INFO root fetch - processPackages [yellowdog-python-examples]: Start processing: clean-notebook
+[2023-05-16 11:51:18] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-05-16 11:51:18] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-05-16 11:51:18] INFO root fetch - processPackages [ixmp]: New version: [3.7.0rc1] Old Version: [3.7.0]
+[2023-05-16 11:51:18] INFO root fetch - processPackages [clean-notebook]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 11:51:18] INFO root fetch - processPackages [idem-gcp]: Downloading https://files.pythonhosted.org/packages/12/23/6cb8ee4fdfe5a4c27bc28f2d8658308883b7415e05456539a00d0844cbb4/idem_gcp-0.8.0.tar.gz
+[2023-05-16 11:51:18] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-16 11:51:18] INFO root fetch - processPackages [ixmp]: Downloading https://files.pythonhosted.org/packages/05/78/e24f4323336b0e9988d0c934c27b28b21c46c9718779c9f9ac6000951838/ixmp-3.7.0.tar.gz
+[2023-05-16 11:51:18] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/59/56/071254dfb5eb47d704bb0a67f50304044fef21b455fe1f5cecf44f1b027f/RobertCommonDriver-0.1.39.tar.gz
+[2023-05-16 11:51:18] INFO root fetch - processPackages [clean-notebook]: Downloading https://files.pythonhosted.org/packages/93/5e/340496a532e807335f480fa94daeb1efdeb99c41ea5280cd91c304396ba0/clean-notebook-0.1.8.tar.gz
+[2023-05-16 11:51:18] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/e1/f3/8d12e9615ea7469aa712ec22dea7bf95267fbba4b840d64b994e41f92b1d/grizli-1.8.9.tar.gz
+[2023-05-16 11:51:18] WARNING root fetch - processPackages [ixmp]: Skipping package: exceeds size limit 20068105>=10485760
+[2023-05-16 11:51:18] INFO root fetch - main [MainThread]: End processing [ixmp] error
+[2023-05-16 11:51:18] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/50/7b/1f798f0ee241bcc8c5b1ef7213742b41b82245e69dbf627b363c11545670/RobertCommonDriver-0.1.40.tar.gz
+[2023-05-16 11:51:18] INFO root fetch - processPackages [idem-gcp]: Downloading https://files.pythonhosted.org/packages/eb/15/ed9036d87031ececcf8c8d07783f31e76ac239648325b7d147abf78b5446/idem_gcp-0.9.0.tar.gz
+[2023-05-16 11:51:18] INFO root fetch - processPackages [clean-notebook]: Downloading https://files.pythonhosted.org/packages/77/36/b2b016acbd5247bfaaa91f671ae9a7ee47480d8921c06afeec6119e9ba2c/clean-notebook-0.1.9.tar.gz
+[2023-05-16 11:51:18] INFO root fetch - main [MainThread]: End processing [mautrix]: success
+[2023-05-16 11:51:18] INFO root fetch - processPackages [clean-notebook]: executing diffoscope
+[2023-05-16 11:51:18] INFO root fetch - processPackages [clean-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean-notebook-0.1.8.tar.gz tmp/clean-notebook-0.1.9.tar.gz --markdown 20230516/c/clean-notebook/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 11:51:18] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-05-16 11:51:18] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.39.tar.gz tmp/RobertCommonDriver-0.1.40.tar.gz --markdown 20230516/R/RobertCommonDriver/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-05-16 11:51:18] INFO root fetch - processPackages [idem-gcp]: executing diffoscope
+[2023-05-16 11:51:18] INFO root fetch - processPackages [idem-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem_gcp-0.8.0.tar.gz tmp/idem_gcp-0.9.0.tar.gz --markdown 20230516/i/idem-gcp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 11:51:19] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2023-05-16 11:51:19] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.8.8.tar.gz tmp/grizli-1.8.9.tar.gz --markdown 20230516/g/grizli/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-16 11:51:19] INFO root fetch - main [MainThread]: End processing [clean-notebook]: success
+[2023-05-16 11:51:20] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-16 11:51:20] INFO root fetch - main [MainThread]: End processing [idem-gcp]: success
+[2023-05-16 11:51:21] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-16 11:51:23] INFO root fetch - main [MainThread]: End processing [soakdb3]: success
+[2023-05-16 11:51:23] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2023-05-16 11:51:59] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-05-16 11:51:59] INFO root fetch - main [MainThread]: Store serial: [18121327]
