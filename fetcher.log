@@ -8456,3 +8456,105 @@
 [2023-05-16 06:41:04] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
 [2023-05-16 06:41:04] INFO root fetch - main [MainThread]: End processing [oci] error
 [2023-05-16 06:41:04] INFO root fetch - main [MainThread]: Store serial: [18118369]
+[2023-05-16 06:46:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118369]
+[2023-05-16 06:46:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-fieldservice-stock
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-macos
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: navabilitysdk
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tyke-agent
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fieldservice-stock
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-fieldservice-stock-account-analytic
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: defog
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-dotenv-vault
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-fieldservice-stock
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovito
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-account-analytic]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock]: New version: [14.0.1.2.2.dev3] Old Version: [14.0.1.2.2.dev2]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [tyke-agent]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [python-dotenv-vault]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [navabilitysdk]: New version: [0.6.0.post1] Old Version: [0.5.1]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ovito]: New version: [3.9.0.dev33] Old Version: [3.8.4]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230515] Old Version: [2.14.0.dev20230514]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: Downloading https://files.pythonhosted.org/packages/57/e8/5b688a6bcf49521b5d4eb0a494a8c1a4970f797bad0e740e3dc0e8a7cdef/odoo_addon_fieldservice_stock-16.0.1.2.0-py3-none-any.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: Downloading https://files.pythonhosted.org/packages/57/e8/5b688a6bcf49521b5d4eb0a494a8c1a4970f797bad0e740e3dc0e8a7cdef/odoo_addon_fieldservice_stock-16.0.1.2.0-py3-none-any.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-account-analytic]: Downloading https://files.pythonhosted.org/packages/01/82/c772e50e037c8963a0ddf226981fb28f26a79b0f91511b8f2146b0e48c97/odoo14_addon_fieldservice_stock_account_analytic-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/c8/1a/3f089ba6afb78fe525c5211e973bc6c73adf6e69c3cc5da9e80d82919a8f/ovito-3.8.4-cp39-cp39-win_amd64.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-05-16 06:46:13] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/87/47/c455e3e9ec0dfb46fd25eb6f4a789f9837b19d218e6dadf0562b3247a9e5/tf_nightly_macos-2.14.0.dev20230514-cp39-cp39-macosx_12_0_arm64.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [python-dotenv-vault]: Downloading https://files.pythonhosted.org/packages/9b/58/54d73654ce1531a84cef3f6dfcdf05d0a726e82507a23029b47177f12721/python-dotenv-vault-0.5.2.tar.gz
+[2023-05-16 06:46:13] INFO root fetch - processPackages [tyke-agent]: Downloading https://files.pythonhosted.org/packages/d1/02/1b59ae02e8871a96f3e27c8bb0ea1c0e3adfb8d2e1d6bfcfd9322db0f8b5/tyke-agent-0.1.6.tar.gz
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock]: Downloading https://files.pythonhosted.org/packages/ef/2c/d9a4bc7759829ebbca7a8b7cfe1f5204238d8ae83ce29b304beb42f48906/odoo14_addon_fieldservice_stock-14.0.1.2.2.dev2-py3-none-any.whl
+[2023-05-16 06:46:13] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 190534275>=10485760
+[2023-05-16 06:46:13] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: params-aws
+[2023-05-16 06:46:13] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-05-16 06:46:13] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 75688763>=10485760
+[2023-05-16 06:46:13] INFO root fetch - processPackages [ovito]: Start processing: access-nri-intake
+[2023-05-16 06:46:13] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2023-05-16 06:46:13] WARNING root fetch - processPackages [params-aws]: Skipping, unable to determine old version
+[2023-05-16 06:46:13] INFO root fetch - processPackages [params-aws]: Start processing: gantry
+[2023-05-16 06:46:13] INFO root fetch - main [MainThread]: End processing [params-aws] error
+[2023-05-16 06:46:13] INFO root fetch - processPackages [access-nri-intake]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [navabilitysdk]: Downloading https://files.pythonhosted.org/packages/73/c7/9a881f27be8e10e1c332cead85b09c4a9506c2b7614bc672063ce4d5a815/navabilitysdk-0.6.0.post1.tar.gz
+[2023-05-16 06:46:13] INFO root fetch - processPackages [gantry]: New version: [0.6.3] Old Version: [0.6.2a0]
+[2023-05-16 06:46:13] INFO root fetch - processPackages [access-nri-intake]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [access-nri-intake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/access_nri_intake-0.0.1.tar.gz tmp/access_nri_intake-0.0.2.tar.gz --markdown 20230516/a/access-nri-intake/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: Downloading https://files.pythonhosted.org/packages/8e/35/6ecc66ab1fe85285d97974e0d2810c8acab886af4f20919fa8c63c2244ee/odoo_addon_fieldservice_stock-16.0.1.2.0.1-py3-none-any.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: Downloading https://files.pythonhosted.org/packages/8e/35/6ecc66ab1fe85285d97974e0d2810c8acab886af4f20919fa8c63c2244ee/odoo_addon_fieldservice_stock-16.0.1.2.0.1-py3-none-any.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock]: Downloading https://files.pythonhosted.org/packages/aa/1a/719fd94f2a4d4119ae4aa2661407eb4b7e73cc56287843edd48ff968d882/odoo14_addon_fieldservice_stock-14.0.1.2.2.dev3-py3-none-any.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-account-analytic]: Downloading https://files.pythonhosted.org/packages/69/57/12da29b1cc1db9850678593a568b8f74ca50e18fe05df453bb79a830de44/odoo14_addon_fieldservice_stock_account_analytic-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_stock-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_stock-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-fieldservice-stock/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-05-16 06:46:13] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230516/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 06:46:13] INFO root fetch - processPackages [python-dotenv-vault]: Downloading https://files.pythonhosted.org/packages/7c/67/17aa3c416af4e5d262c9477c19621586fb9008cc2f090a2f9d7cf1d3da7c/python-dotenv-vault-0.6.0.tar.gz
+[2023-05-16 06:46:13] INFO root fetch - processPackages [navabilitysdk]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [navabilitysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navabilitysdk-0.5.1.tar.gz tmp/navabilitysdk-0.6.0.post1.tar.gz --markdown 20230516/n/navabilitysdk/0.5.1-0.6.0.post1/diff.md --exclude *.pyd
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_stock-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_stock-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-fieldservice-stock/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-05-16 06:46:13] INFO root fetch - processPackages [tyke-agent]: Downloading https://files.pythonhosted.org/packages/2f/1f/ff9750f49abd50843d771cb4e496884a182a0f83c161e7235c8eb2c35a17/tyke-agent-0.1.7.tar.gz
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-account-analytic]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_stock_account_analytic-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_stock_account_analytic-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-fieldservice-stock-account-analytic/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-05-16 06:46:13] INFO root fetch - processPackages [python-dotenv-vault]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [python-dotenv-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dotenv-vault-0.5.2.tar.gz tmp/python-dotenv-vault-0.6.0.tar.gz --markdown 20230516/p/python-dotenv-vault/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-05-16 06:46:13] INFO root fetch - processPackages [tyke-agent]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [tyke-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyke-agent-0.1.6.tar.gz tmp/tyke-agent-0.1.7.tar.gz --markdown 20230516/t/tyke-agent/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock]: executing diffoscope
+[2023-05-16 06:46:13] INFO root fetch - processPackages [odoo14-addon-fieldservice-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_stock-14.0.1.2.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_stock-14.0.1.2.2.dev3-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-fieldservice-stock/14.0.1.2.2.dev2-14.0.1.2.2.dev3/diff.md --exclude *.pyd
+[2023-05-16 06:46:14] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/95/ec/8e6d4e29d541577337f59a588bbd83fe5f456bb90f06fa0d91c2c9d83beb/gantry-0.6.3.tar.gz
+[2023-05-16 06:46:14] INFO root fetch - processPackages [gantry]: executing diffoscope
+[2023-05-16 06:46:14] INFO root fetch - processPackages [gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-0.6.2a0.tar.gz tmp/gantry-0.6.3.tar.gz --markdown 20230516/g/gantry/0.6.2a0-0.6.3/diff.md --exclude *.pyd
+[2023-05-16 06:46:15] INFO root fetch - processPackages [access-nri-intake]: Start processing: huggingprocessor
+[2023-05-16 06:46:15] INFO root fetch - main [MainThread]: End processing [access-nri-intake]: success
+[2023-05-16 06:46:15] WARNING root fetch - processPackages [huggingprocessor]: Skipping, unable to determine old version
+[2023-05-16 06:46:15] INFO root fetch - processPackages [huggingprocessor]: Start processing: ejtraderCT
+[2023-05-16 06:46:15] INFO root fetch - main [MainThread]: End processing [huggingprocessor] error
+[2023-05-16 06:46:15] INFO root fetch - processPackages [ejtraderCT]: New version: [1.1.1rc0] Old Version: [1.1.1b0]
+[2023-05-16 06:46:15] INFO root fetch - processPackages [defog]: Start processing: pip-RCE
+[2023-05-16 06:46:15] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-05-16 06:46:15] INFO root fetch - processPackages [pip-RCE]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 06:46:15] INFO root fetch - processPackages [ejtraderCT]: executing diffoscope
+[2023-05-16 06:46:15] INFO root fetch - processPackages [ejtraderCT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ejtraderCT-1.1.1b0.tar.gz tmp/ejtraderCT-1.1.1rc0.tar.gz --markdown 20230516/e/ejtraderCT/1.1.1b0-1.1.1rc0/diff.md --exclude *.pyd
+[2023-05-16 06:46:15] INFO root fetch - processPackages [odoo-addon-fieldservice-stock]: Start processing: drill-bits
+[2023-05-16 06:46:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-stock]: success
+[2023-05-16 06:46:15] INFO root fetch - processPackages [pip-RCE]: executing diffoscope
+[2023-05-16 06:46:15] INFO root fetch - processPackages [pip-RCE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-RCE-0.0.1.tar.gz tmp/pip-RCE-0.0.2.tar.gz --markdown 20230516/p/pip-RCE/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 06:46:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-stock-account-analytic]: success
+[2023-05-16 06:46:15] INFO root fetch - processPackages [drill-bits]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 06:46:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-stock]: success
+[2023-05-16 06:46:15] INFO root fetch - processPackages [drill-bits]: Downloading https://files.pythonhosted.org/packages/d8/6f/42ae3ec6bce4b5bfdc127485d05f51d160db9cec2ebff1711e93fe3ab120/drill_bits-0.0.4.tar.gz
+[2023-05-16 06:46:15] INFO root fetch - main [MainThread]: End processing [python-dotenv-vault]: success
+[2023-05-16 06:46:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-stock]: success
+[2023-05-16 06:46:16] INFO root fetch - processPackages [drill-bits]: Downloading https://files.pythonhosted.org/packages/37/0e/8b80fc9d949bd41f76f81b742c13b8fc153e39ceab4354c733d8e28d9f96/drill_bits-0.0.5.tar.gz
+[2023-05-16 06:46:16] INFO root fetch - main [MainThread]: End processing [tyke-agent]: success
+[2023-05-16 06:46:16] INFO root fetch - main [MainThread]: End processing [navabilitysdk]: success
+[2023-05-16 06:46:16] INFO root fetch - main [MainThread]: End processing [gantry]: success
+[2023-05-16 06:46:16] INFO root fetch - processPackages [drill-bits]: executing diffoscope
+[2023-05-16 06:46:16] INFO root fetch - processPackages [drill-bits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drill_bits-0.0.4.tar.gz tmp/drill_bits-0.0.5.tar.gz --markdown 20230516/d/drill-bits/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 06:46:16] INFO root fetch - main [MainThread]: End processing [ejtraderCT]: success
+[2023-05-16 06:46:17] INFO root fetch - main [MainThread]: End processing [pip-RCE]: success
+[2023-05-16 06:46:18] INFO root fetch - main [MainThread]: End processing [drill-bits]: success
+[2023-05-16 06:46:18] INFO root fetch - main [MainThread]: Store serial: [18118415]
