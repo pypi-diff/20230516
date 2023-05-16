@@ -10477,3 +10477,106 @@
 [2023-05-16 08:59:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-16 08:59:06] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-16 08:59:06] INFO root fetch - main [MainThread]: Store serial: [18119521]
+[2023-05-16 09:04:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119521]
+[2023-05-16 09:04:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-splunk
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geomulticorr
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-adbc
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualang-tools
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dune-harmonizer
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlpyd
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sketch
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prophecy-build-tool-test
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: visual-compare
+[2023-05-16 09:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygod
+[2023-05-16 09:04:15] INFO root fetch - processPackages [async-adbc]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [geomulticorr]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [sqlpyd]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [qualang-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [pygod]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [prophecy-build-tool-test]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [sketch]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1684217628] Old Version: [1.3.0a1683957975]
+[2023-05-16 09:04:15] WARNING root fetch - processPackages [visual-compare]: Skipping, unable to determine old version
+[2023-05-16 09:04:15] INFO root fetch - processPackages [visual-compare]: Start processing: pyrsm
+[2023-05-16 09:04:15] INFO root fetch - main [MainThread]: End processing [visual-compare] error
+[2023-05-16 09:04:15] INFO root fetch - processPackages [pyrsm]: New version: [0.8.1.2] Old Version: [0.8.1.1]
+[2023-05-16 09:04:15] INFO root fetch - processPackages [async-adbc]: Downloading https://files.pythonhosted.org/packages/2d/85/a44c2eab0e8fe531f5267ea4dbb0c5bdf2e6443a34226213503280ee349e/async_adbc-1.0.0.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [sqlpyd]: Downloading https://files.pythonhosted.org/packages/3c/01/598558da38d3f104f379caad5db36708ada6db033d770c9b49e2a71774d2/sqlpyd-0.1.8.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [prophecy-build-tool-test]: Downloading https://files.pythonhosted.org/packages/43/13/002031874c3fac0a8d6bd658e119b09e14dad24180dc67aed90134b06988/prophecy-build-tool-test-1.0.6.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [qualang-tools]: Downloading https://files.pythonhosted.org/packages/ef/85/8d494d0e2ea0ffc591fc6c1be844fbc93c4c91aed7f51e1334ddfde69386/qualang-tools-0.8.0.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [pygod]: Downloading https://files.pythonhosted.org/packages/ed/2b/234fa65db971810a11cb4a2a5252b124ed07bae5fe47b20a34ce6038b6c1/pygod-0.3.1.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [geomulticorr]: Downloading https://files.pythonhosted.org/packages/5f/55/fee5732e4cc7fc619df7f21edb54a1107c770d56a7fefd77035cbbefa655/geomulticorr-0.1.6.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/bb/07/82d13cbac771f3800d257297630b338e0c55cd60664f9c6866377f9ec0db/pyrsm-0.8.1.1.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [sqlpyd]: executing diffoscope
+[2023-05-16 09:04:15] INFO root fetch - processPackages [sqlpyd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpyd-0.1.7.tar.gz tmp/sqlpyd-0.1.8.tar.gz --markdown 20230516/s/sqlpyd/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 09:04:15] INFO root fetch - processPackages [async-adbc]: Downloading https://files.pythonhosted.org/packages/5f/48/39c5fd3952c0d16f587e4e8b61f008019d36025fa9f2f5ff5deb500e795b/async_adbc-1.0.1.tar.gz
+[2023-05-16 09:04:15] INFO root fetch - processPackages [sketch]: Downloading https://files.pythonhosted.org/packages/88/c8/6e71587c03b74554566a46a1bfb042e68c48eed5e0e7d618b964ccec79c5/sketch-0.4.1.tar.gz
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/74/65/9a5cecd127e056aa6e1295f742243c6d3c33330aee7105de1997e07c2934/pulumi_splunk-1.3.0a1684217628.tar.gz
+[2023-05-16 09:04:16] INFO root fetch - processPackages [prophecy-build-tool-test]: Downloading https://files.pythonhosted.org/packages/1c/e9/0595fa7f6cd5b7100c6d5f052bd71e075fc1bee446c8513ffe1af79fe4ba/prophecy-build-tool-test-1.0.7.tar.gz
+[2023-05-16 09:04:16] ERROR root fetch - processPackages [sqlpyd]: Diffoscope failed: Error: error creating container storage: the container name "festive_tharp" is already in use by "fad25de514e61f0eff9a211d596674fe6a4951c2cfa3014a683ae128324a95e5". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-16 09:04:16] INFO root fetch - processPackages [sqlpyd]: Start processing: streamlit-antd-components
+[2023-05-16 09:04:16] INFO root fetch - main [MainThread]: End processing [sqlpyd] error
+[2023-05-16 09:04:16] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-05-16 09:04:16] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pygod]: Downloading https://files.pythonhosted.org/packages/60/d3/da2add8bce793df50b28b795967565b2b53ce0e2c6db50785be8e3546c47/pygod-0.4.0.tar.gz
+[2023-05-16 09:04:16] INFO root fetch - processPackages [async-adbc]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [async-adbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_adbc-1.0.0.tar.gz tmp/async_adbc-1.0.1.tar.gz --markdown 20230516/a/async-adbc/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/25/cf/d250a56efeb939380d0bf048251696f63d6755a160084b91c0e617c568f6/pyrsm-0.8.1.2.tar.gz
+[2023-05-16 09:04:16] INFO root fetch - processPackages [sketch]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [sketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sketch-0.4.0.tar.gz tmp/sketch-0.4.1.tar.gz --markdown 20230516/s/sketch/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1683957975.tar.gz tmp/pulumi_splunk-1.3.0a1684217628.tar.gz --markdown 20230516/p/pulumi-splunk/1.3.0a1683957975-1.3.0a1684217628/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [prophecy-build-tool-test]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [prophecy-build-tool-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-test-1.0.6.tar.gz tmp/prophecy-build-tool-test-1.0.7.tar.gz --markdown 20230516/p/prophecy-build-tool-test/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230516/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [qualang-tools]: Downloading https://files.pythonhosted.org/packages/24/78/6133ba41e03538685cdd1e8771bc5a06d0e30e481118850873d5a16f45eb/qualang-tools-0.9.0.tar.gz
+[2023-05-16 09:04:16] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/5a/07/5fda5735d5ae4186d1648b6ee87247d2822775a911181437bc63a068eb8c/streamlit_antd_components-0.0.4-py3-none-any.whl
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pygod]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pygod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygod-0.3.1.tar.gz tmp/pygod-0.4.0.tar.gz --markdown 20230516/p/pygod/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.8.1.1.tar.gz tmp/pyrsm-0.8.1.2.tar.gz --markdown 20230516/p/pyrsm/0.8.1.1-0.8.1.2/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.1.5.tar.gz tmp/geomulticorr-0.1.6.tar.gz --markdown 20230516/g/geomulticorr/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [qualang-tools]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [qualang-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualang-tools-0.8.0.tar.gz tmp/qualang-tools-0.9.0.tar.gz --markdown 20230516/q/qualang-tools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 09:04:16] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/42/b2/8233a4c6314521283cb9e7356c1b224ebc2ccf64d6c87ed2100bcb0daeda/streamlit_antd_components-0.0.5-py3-none-any.whl
+[2023-05-16 09:04:16] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-05-16 09:04:16] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.0.4-py3-none-any.whl.zip tmp/streamlit_antd_components-0.0.5-py3-none-any.whl.zip --markdown 20230516/s/streamlit-antd-components/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 09:04:17] INFO root fetch - processPackages [sketch]: Start processing: treibstoff
+[2023-05-16 09:04:17] INFO root fetch - main [MainThread]: End processing [sketch]: success
+[2023-05-16 09:04:17] INFO root fetch - processPackages [treibstoff]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-16 09:04:17] INFO root fetch - processPackages [dune-harmonizer]: Start processing: seqio-nightly
+[2023-05-16 09:04:17] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-05-16 09:04:17] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-16 09:04:17] INFO root fetch - processPackages [prophecy-build-tool-test]: Start processing: stsf
+[2023-05-16 09:04:17] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool-test]: success
+[2023-05-16 09:04:17] INFO root fetch - processPackages [treibstoff]: Downloading https://files.pythonhosted.org/packages/e9/a7/186056332e957b958bd0be539eda2d739eee6918cb837478216c86ccb81f/treibstoff-0.1.0-py3-none-any.whl
+[2023-05-16 09:04:17] WARNING root fetch - processPackages [stsf]: Skipping, unable to determine old version
+[2023-05-16 09:04:17] INFO root fetch - processPackages [stsf]: Start processing: scMet
+[2023-05-16 09:04:17] INFO root fetch - main [MainThread]: End processing [stsf] error
+[2023-05-16 09:04:17] INFO root fetch - processPackages [scMet]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 09:04:18] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-16 09:04:18] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230516/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-16 09:04:18] INFO root fetch - processPackages [scMet]: Downloading https://files.pythonhosted.org/packages/ed/06/d5cdced055ca23f75a3d3efd068755afe5a99967ddfd413c854fe4419336/scMet-1.0.0.tar.gz
+[2023-05-16 09:04:18] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
+[2023-05-16 09:04:18] INFO root fetch - processPackages [treibstoff]: Downloading https://files.pythonhosted.org/packages/95/35/0e2a8a8895acb73c846c8f16e76c611247a308d32877f43a39b3aea54f67/treibstoff-0.2.0.tar.gz
+[2023-05-16 09:04:18] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-05-16 09:04:18] INFO root fetch - processPackages [scMet]: Downloading https://files.pythonhosted.org/packages/ae/2a/e3dcb24f9390a2a0742582a1edcb1cb66852ebf9c8fac4b1a33b52cd1c8a/scMet-1.0.1.tar.gz
+[2023-05-16 09:04:18] INFO root fetch - processPackages [treibstoff]: executing diffoscope
+[2023-05-16 09:04:18] INFO root fetch - processPackages [treibstoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treibstoff-0.1.0-py3-none-any.whl.zip tmp/treibstoff-0.2.0.tar.gz --markdown 20230516/t/treibstoff/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 09:04:18] INFO root fetch - processPackages [scMet]: executing diffoscope
+[2023-05-16 09:04:18] INFO root fetch - processPackages [scMet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scMet-1.0.0.tar.gz tmp/scMet-1.0.1.tar.gz --markdown 20230516/s/scMet/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 09:04:18] INFO root fetch - main [MainThread]: End processing [qualang-tools]: success
+[2023-05-16 09:04:18] INFO root fetch - main [MainThread]: End processing [pygod]: success
+[2023-05-16 09:04:19] INFO root fetch - main [MainThread]: End processing [scMet]: success
+[2023-05-16 09:04:19] INFO root fetch - main [MainThread]: End processing [treibstoff]: success
+[2023-05-16 09:04:19] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-16 09:04:20] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-05-16 09:04:21] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-05-16 09:04:21] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-16 09:04:21] INFO root fetch - main [MainThread]: Store serial: [18119571]
