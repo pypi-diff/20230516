@@ -13461,3 +13461,114 @@
 [2023-05-16 11:37:34] INFO root fetch - main [MainThread]: End processing [EOxServer]: success
 [2023-05-16 11:37:54] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-16 11:37:54] INFO root fetch - main [MainThread]: Store serial: [18121143]
+[2023-05-16 11:42:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121143]
+[2023-05-16 11:43:04] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aihandler
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiorobonect
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ellipsis
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoqo-iqm
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: batch-inference
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fasttextsearch
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: harlogger
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytket
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auth0_fastapi
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plone.app.mosaic
+[2023-05-16 11:43:04] INFO root fetch - processPackages [aiorobonect]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-16 11:43:04] INFO root fetch - processPackages [plone.app.mosaic]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-05-16 11:43:04] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-16 11:43:04] WARNING root fetch - processPackages [fasttextsearch]: Skipping, unable to determine old version
+[2023-05-16 11:43:04] INFO root fetch - processPackages [fasttextsearch]: Start processing: scrapere
+[2023-05-16 11:43:04] INFO root fetch - main [MainThread]: End processing [fasttextsearch] error
+[2023-05-16 11:43:04] INFO root fetch - processPackages [scrapere]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-16 11:43:04] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-05-16 11:43:04] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230516/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-16 11:43:04] INFO root fetch - processPackages [harlogger]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-16 11:43:04] WARNING root fetch - processPackages [qoqo-iqm]: Skipping, unable to determine old version
+[2023-05-16 11:43:04] WARNING root fetch - processPackages [auth0_fastapi]: Skipping, unable to determine old version
+[2023-05-16 11:43:04] INFO root fetch - processPackages [batch-inference]: New version: [1.0rc1] Old Version: [1.0]
+[2023-05-16 11:43:04] INFO root fetch - processPackages [qoqo-iqm]: Start processing: pymca
+[2023-05-16 11:43:04] INFO root fetch - processPackages [auth0_fastapi]: Start processing: nvfuser-cu121
+[2023-05-16 11:43:04] INFO root fetch - main [MainThread]: End processing [qoqo-iqm] error
+[2023-05-16 11:43:04] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-05-16 11:43:04] INFO root fetch - main [MainThread]: End processing [auth0_fastapi] error
+[2023-05-16 11:43:04] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.1.5.tar.gz tmp/aiorobonect-0.1.6.tar.gz --markdown 20230516/a/aiorobonect/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ellipsis]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-16 11:43:04] INFO root fetch - processPackages [pytket]: New version: [1.9.1rc0] Old Version: [1.9.1]
+[2023-05-16 11:43:04] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-16 11:43:04] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.5.tar.gz tmp/scrapere-0.1.6.tar.gz --markdown 20230516/s/scrapere/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-16 11:43:04] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/ac/69/4b9efdaf009ca262fc9a3bae5e677a28604d5a7d800374e1e92b2b944d1a/plone.app.mosaic-3.0.2.tar.gz
+[2023-05-16 11:43:04] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-16 11:43:04] INFO root fetch - processPackages [pymca]: New version: [5.8.2] Old Version: [5.8.1]
+[2023-05-16 11:43:04] INFO root fetch - processPackages [batch-inference]: Downloading https://files.pythonhosted.org/packages/c3/c1/92e0956d4c4c21b871e63c1451a173ad6fcb48300abc0993a5b46ef1745b/batch_inference-1.0-py3-none-any.whl
+[2023-05-16 11:43:04] INFO root fetch - processPackages [harlogger]: Downloading https://files.pythonhosted.org/packages/b6/3f/4f7757a6fcb25d49d033812cc1094b43ee5b9bee2f1335f94cdbfd7a40b8/harlogger-2.1.2.tar.gz
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ellipsis]: Downloading https://files.pythonhosted.org/packages/a2/22/bb4da3d801a1b7d0092b0ea94f3c3fee54c3a69263ee8cfc2894c5b54281/ellipsis-3.1.8.tar.gz
+[2023-05-16 11:43:04] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/0b/0f/8db0fcfa7fde7115dd5863cd5b1f5533be347fbad99aaa158e2c9fa0a3a5/pytket-1.9.1-cp39-cp39-win_amd64.whl
+[2023-05-16 11:43:04] INFO root fetch - processPackages [pymca]: Downloading https://files.pythonhosted.org/packages/38/62/8f866a20ea8c0ed6062ea3d1b0ec87e6c91a0fe75385658748df1758473c/pymca-5.8.1-py2.py3-none-any.whl
+[2023-05-16 11:43:04] INFO root fetch - processPackages [harlogger]: Downloading https://files.pythonhosted.org/packages/0a/c2/7caea0b3d8ae19e300237e559a7307d36ced05a72e4a041d31781bab483b/harlogger-2.1.3.tar.gz
+[2023-05-16 11:43:04] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/0a/e0/8d0b97045072b67c5894241489aec9d7ed6c2faec23fd012f24471911fda/plone.app.mosaic-3.1.0.tar.gz
+[2023-05-16 11:43:04] INFO root fetch - processPackages [ellipsis]: Downloading https://files.pythonhosted.org/packages/c8/9a/b783c46d8c7eba6c0acf3b9459c85984a1458ebf682cf37522bd573c7363/ellipsis-3.1.9.tar.gz
+[2023-05-16 11:43:04] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-05-16 11:43:04] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230516/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-16 11:43:04] INFO root fetch - processPackages [batch-inference]: Downloading https://files.pythonhosted.org/packages/7f/ed/6a5406d56c0f85299c6113642f0e8d24e441e0c1b2f50e51481d139deb86/batch_inference-1.0rc1-py3-none-any.whl
+[2023-05-16 11:43:04] INFO root fetch - processPackages [pymca]: Downloading https://files.pythonhosted.org/packages/91/9e/46d78149b10e90c31d2f347bce88e468e0dd34b5900f0505ece9b8b986c8/pymca-5.8.2-py2.py3-none-any.whl
+[2023-05-16 11:43:04] INFO root fetch - processPackages [harlogger]: executing diffoscope
+[2023-05-16 11:43:04] INFO root fetch - processPackages [harlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlogger-2.1.2.tar.gz tmp/harlogger-2.1.3.tar.gz --markdown 20230516/h/harlogger/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-16 11:43:05] INFO root fetch - processPackages [ellipsis]: executing diffoscope
+[2023-05-16 11:43:05] INFO root fetch - processPackages [ellipsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellipsis-3.1.8.tar.gz tmp/ellipsis-3.1.9.tar.gz --markdown 20230516/e/ellipsis/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-16 11:43:05] INFO root fetch - processPackages [batch-inference]: executing diffoscope
+[2023-05-16 11:43:05] INFO root fetch - processPackages [batch-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batch_inference-1.0-py3-none-any.whl.zip tmp/batch_inference-1.0rc1-py3-none-any.whl.zip --markdown 20230516/b/batch-inference/1.0-1.0rc1/diff.md --exclude *.pyd
+[2023-05-16 11:43:05] INFO root fetch - processPackages [pymca]: executing diffoscope
+[2023-05-16 11:43:05] INFO root fetch - processPackages [pymca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymca-5.8.1-py2.py3-none-any.whl.zip tmp/pymca-5.8.2-py2.py3-none-any.whl.zip --markdown 20230516/p/pymca/5.8.1-5.8.2/diff.md --exclude *.pyd
+[2023-05-16 11:43:05] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10528667>=10485760
+[2023-05-16 11:43:05] INFO root fetch - processPackages [pytket]: Start processing: mmlab-lightning
+[2023-05-16 11:43:05] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2023-05-16 11:43:05] INFO root fetch - processPackages [plone.app.mosaic]: executing diffoscope
+[2023-05-16 11:43:05] INFO root fetch - processPackages [plone.app.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.mosaic-3.0.2.tar.gz tmp/plone.app.mosaic-3.1.0.tar.gz --markdown 20230516/p/plone.app.mosaic/3.0.2-3.1.0/diff.md --exclude *.pyd
+[2023-05-16 11:43:05] INFO root fetch - processPackages [mmlab-lightning]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-16 11:43:05] INFO root fetch - processPackages [mmlab-lightning]: Downloading https://files.pythonhosted.org/packages/0f/61/4a078440bd9521b3bfcd867469f0d6a0713ff05f02c53fa607782251e6cd/mmlab_lightning-1.0.4.tar.gz
+[2023-05-16 11:43:05] INFO root fetch - processPackages [aihandler]: Start processing: nvfuser-cu118
+[2023-05-16 11:43:05] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-05-16 11:43:05] INFO root fetch - processPackages [aiorobonect]: Start processing: AISAPLibrary
+[2023-05-16 11:43:05] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-05-16 11:43:05] INFO root fetch - processPackages [AISAPLibrary]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-16 11:43:05] INFO root fetch - processPackages [mmlab-lightning]: Downloading https://files.pythonhosted.org/packages/b2/e7/23b1cfe8b7fe4cfeb3760d28e489a2ccae9a4340e7c5fb6f744bec0e1c92/mmlab_lightning-1.0.5.tar.gz
+[2023-05-16 11:43:05] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-16 11:43:05] INFO root fetch - processPackages [AISAPLibrary]: executing diffoscope
+[2023-05-16 11:43:05] INFO root fetch - processPackages [AISAPLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AISAPLibrary-1.0.5.tar.gz tmp/AISAPLibrary-1.0.6.tar.gz --markdown 20230516/A/AISAPLibrary/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-16 11:43:05] INFO root fetch - processPackages [scrapere]: Start processing: plone.app.mosaic
+[2023-05-16 11:43:05] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-16 11:43:05] INFO root fetch - processPackages [mmlab-lightning]: executing diffoscope
+[2023-05-16 11:43:05] INFO root fetch - processPackages [mmlab-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmlab_lightning-1.0.4.tar.gz tmp/mmlab_lightning-1.0.5.tar.gz --markdown 20230516/m/mmlab-lightning/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-16 11:43:05] INFO root fetch - processPackages [plone.app.mosaic]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-16 11:43:06] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/89/57/eeaf9b652d1d9d0fd2aed03504a9e4ba04020550e28eeedff12315a5438c/plone.app.mosaic-3.1.1.tar.gz
+[2023-05-16 11:43:06] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-05-16 11:43:06] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230516/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-16 11:43:06] INFO root fetch - processPackages [pymca]: Start processing: IQM-Vis
+[2023-05-16 11:43:06] INFO root fetch - main [MainThread]: End processing [pymca]: success
+[2023-05-16 11:43:06] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.71] Old Version: [0.2.5.66]
+[2023-05-16 11:43:06] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/24/67/358a230abc2e3d9d7894226c2982fdac975fa98cdeba6a51e8a04a8e2008/IQM-Vis-0.2.5.71.tar.gz
+[2023-05-16 11:43:06] WARNING root fetch - processPackages [IQM-Vis]: Skipping package: exceeds size limit 15495863>=10485760
+[2023-05-16 11:43:06] INFO root fetch - processPackages [IQM-Vis]: Start processing: nvfuser-cu117
+[2023-05-16 11:43:06] INFO root fetch - main [MainThread]: End processing [IQM-Vis] error
+[2023-05-16 11:43:06] INFO root fetch - processPackages [batch-inference]: Start processing: finbourne-access-sdk
+[2023-05-16 11:43:06] INFO root fetch - main [MainThread]: End processing [batch-inference]: success
+[2023-05-16 11:43:06] INFO root fetch - processPackages [plone.app.mosaic]: executing diffoscope
+[2023-05-16 11:43:06] INFO root fetch - processPackages [plone.app.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.mosaic-3.1.0.tar.gz tmp/plone.app.mosaic-3.1.1.tar.gz --markdown 20230516/p/plone.app.mosaic/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-16 11:43:06] INFO root fetch - main [MainThread]: End processing [ellipsis]: success
+[2023-05-16 11:43:06] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-16 11:43:06] INFO root fetch - main [MainThread]: End processing [harlogger]: success
+[2023-05-16 11:43:07] INFO root fetch - main [MainThread]: End processing [mmlab-lightning]: success
+[2023-05-16 11:43:07] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-05-16 11:43:07] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230516/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-16 11:43:07] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-16 11:43:07] INFO root fetch - main [MainThread]: End processing [AISAPLibrary]: success
+[2023-05-16 11:43:07] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-16 11:43:07] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230516/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-16 11:43:07] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-05-16 11:43:08] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-05-16 11:43:09] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-16 11:43:09] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-05-16 11:44:06] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic]: success
+[2023-05-16 11:46:05] ERROR root fetch - processPackages [plone.app.mosaic]: Timeout during execution of pkgdiff
+[2023-05-16 11:46:05] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic] error
+[2023-05-16 11:46:05] INFO root fetch - main [MainThread]: Store serial: [18121237]
