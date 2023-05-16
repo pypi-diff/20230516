@@ -14745,3 +14745,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 12:47:17] INFO root fetch - main [MainThread]: End processing [gnosis-neon-safe-eth-py]: success
 [2023-05-16 12:47:26] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-16 12:47:26] INFO root fetch - main [MainThread]: Store serial: [18121895]
+[2023-05-16 12:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121895]
+[2023-05-16 12:52:36] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-github
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotsos
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streq
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ho-protocols
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loggerV
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huhangkai
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyelib
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: miquido-spawn-gitlab-job
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mms-nirs
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: file-managers
+[2023-05-16 12:52:36] WARNING root fetch - processPackages [file-managers]: Skipping, unable to determine old version
+[2023-05-16 12:52:36] INFO root fetch - processPackages [file-managers]: Start processing: extr-ds
+[2023-05-16 12:52:36] INFO root fetch - main [MainThread]: End processing [file-managers] error
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ho-protocols]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-16 12:52:36] INFO root fetch - processPackages [tap-github]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-16 12:52:36] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-05-16 12:52:36] WARNING root fetch - processPackages [streq]: Skipping, unable to determine old version
+[2023-05-16 12:52:36] INFO root fetch - processPackages [streq]: Start processing: nubia-cli
+[2023-05-16 12:52:36] WARNING root fetch - processPackages [miquido-spawn-gitlab-job]: Skipping, unable to determine old version
+[2023-05-16 12:52:36] INFO root fetch - main [MainThread]: End processing [streq] error
+[2023-05-16 12:52:36] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: Start processing: cymple
+[2023-05-16 12:52:36] INFO root fetch - main [MainThread]: End processing [miquido-spawn-gitlab-job] error
+[2023-05-16 12:52:36] INFO root fetch - processPackages [mms-nirs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-16 12:52:36] WARNING root fetch - processPackages [pyelib]: Skipping, unable to determine old version
+[2023-05-16 12:52:36] INFO root fetch - processPackages [pyelib]: Start processing: e2enetworks
+[2023-05-16 12:52:36] INFO root fetch - main [MainThread]: End processing [pyelib] error
+[2023-05-16 12:52:36] WARNING root fetch - processPackages [loggerV]: Skipping, unable to determine old version
+[2023-05-16 12:52:36] INFO root fetch - processPackages [loggerV]: Start processing: foundry-dev-tools
+[2023-05-16 12:52:36] INFO root fetch - main [MainThread]: End processing [loggerV] error
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ho-protocols]: executing diffoscope
+[2023-05-16 12:52:36] INFO root fetch - processPackages [huhangkai]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-16 12:52:36] INFO root fetch - processPackages [ho-protocols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ho-protocols-0.2.6.tar.gz tmp/ho-protocols-0.2.7.tar.gz --markdown 20230516/h/ho-protocols/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-16 12:52:36] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 12:52:36] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 12:52:36] INFO root fetch - processPackages [nubia-cli]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-16 12:52:36] INFO root fetch - processPackages [cymple]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-16 12:52:36] INFO root fetch - processPackages [foundry-dev-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 12:52:36] INFO root fetch - processPackages [mms-nirs]: Downloading https://files.pythonhosted.org/packages/a4/5e/48f203eaf64a5d98106afa1b61df5572f16176ff712dfda9d940eba8595a/mms_nirs-0.1.3.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [nubia-cli]: Downloading https://files.pythonhosted.org/packages/2b/4b/6bea4760eb24e5253a753acc85d94b221d05b03c2980000d4b5451ef5a3f/nubia-cli-0.2.3.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [cymple]: Downloading https://files.pythonhosted.org/packages/76/24/94269c7da6f54dbfd80da30f530a6c1ecafc048f74e84e44096048117620/cymple-0.7.1.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/f0/38/729cf4e19f7a4adce7d374e69db221fb872904def90def7c75bbeab73049/e2enetworks-0.0.8.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [tap-github]: Downloading https://files.pythonhosted.org/packages/73/10/c7960ed7651c99a97f5394887730914279464671d22d8fa5dd544d872de9/tap-github-2.0.4.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/e0/dd/5c056b81e14111d820f5ed97adacce20885ffd5c1553999b2a5947b9eb7e/huhangkai-1.1.3.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/c9/8e/e6156dcfc9977a6a6cbe1d6420f7e2bd29f8d7c4a6f29c5f04ce644e4795/foundry-dev-tools-1.0.8.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-16 12:52:36] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230516/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-05-16 12:52:36] INFO root fetch - processPackages [tap-github]: executing diffoscope
+[2023-05-16 12:52:36] INFO root fetch - processPackages [tap-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-github-2.0.3.tar.gz tmp/tap-github-2.0.4.tar.gz --markdown 20230516/t/tap-github/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-16 12:52:36] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-05-16 12:52:36] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.1.2.tar.gz tmp/huhangkai-1.1.3.tar.gz --markdown 20230516/h/huhangkai/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-16 12:52:36] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-16 12:52:36] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230516/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:52:36] INFO root fetch - processPackages [mms-nirs]: Downloading https://files.pythonhosted.org/packages/5c/02/9562fbd8d3a4676ca1c5b04eff0e88c6a845756df2ffcec1598b2c0ae5bf/mms_nirs-0.1.4.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-16 12:52:36] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.7.tar.gz tmp/e2enetworks-0.0.8.tar.gz --markdown 20230516/e/e2enetworks/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 12:52:36] INFO root fetch - processPackages [nubia-cli]: Downloading https://files.pythonhosted.org/packages/b4/3e/8a3d6bde0e8ff92013145369d9087f1b081481ba8431a77cfb196eafa7cf/nubia_cli-0.2.4.tar.gz
+[2023-05-16 12:52:36] INFO root fetch - processPackages [cymple]: Downloading https://files.pythonhosted.org/packages/c9/ff/b92681b29ee907d1120b2955816cf83f0e76705142528d3625476433a9d4/cymple-0.8.0.tar.gz
+[2023-05-16 12:52:37] INFO root fetch - processPackages [mms-nirs]: executing diffoscope
+[2023-05-16 12:52:37] INFO root fetch - processPackages [mms-nirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_nirs-0.1.3.tar.gz tmp/mms_nirs-0.1.4.tar.gz --markdown 20230516/m/mms-nirs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-16 12:52:37] INFO root fetch - processPackages [nubia-cli]: executing diffoscope
+[2023-05-16 12:52:37] INFO root fetch - processPackages [nubia-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nubia-cli-0.2.3.tar.gz tmp/nubia_cli-0.2.4.tar.gz --markdown 20230516/n/nubia-cli/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-16 12:52:37] INFO root fetch - processPackages [cymple]: executing diffoscope
+[2023-05-16 12:52:37] INFO root fetch - processPackages [cymple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cymple-0.7.1.tar.gz tmp/cymple-0.8.0.tar.gz --markdown 20230516/c/cymple/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-16 12:52:37] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/ea/12/386e1fae0abdb75baae2b8441b6470178841a7c54318b5bb4f1697149dd1/foundry-dev-tools-1.0.9.tar.gz
+[2023-05-16 12:52:37] INFO root fetch - processPackages [foundry-dev-tools]: executing diffoscope
+[2023-05-16 12:52:37] INFO root fetch - processPackages [foundry-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundry-dev-tools-1.0.8.tar.gz tmp/foundry-dev-tools-1.0.9.tar.gz --markdown 20230516/f/foundry-dev-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:52:38] INFO root fetch - processPackages [extr-ds]: Start processing: pl-crossvalidate
+[2023-05-16 12:52:38] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-16 12:52:38] INFO root fetch - processPackages [e2enetworks]: Start processing: extr-ds
+[2023-05-16 12:52:38] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-16 12:52:38] INFO root fetch - processPackages [ho-protocols]: Start processing: MeUtils
+[2023-05-16 12:52:38] INFO root fetch - main [MainThread]: End processing [ho-protocols]: success
+[2023-05-16 12:52:38] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 12:52:38] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-16 12:52:38] INFO root fetch - main [MainThread]: End processing [tap-github]: success
+[2023-05-16 12:52:38] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-16 12:52:38] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230516/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:52:38] WARNING root fetch - processPackages [pl-crossvalidate]: Skipping, unable to determine old version
+[2023-05-16 12:52:38] INFO root fetch - main [MainThread]: End processing [pl-crossvalidate] error
+[2023-05-16 12:52:38] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-16 12:52:38] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230516/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-16 12:52:38] INFO root fetch - main [MainThread]: End processing [cymple]: success
+[2023-05-16 12:52:38] INFO root fetch - main [MainThread]: End processing [mms-nirs]: success
+[2023-05-16 12:52:38] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-05-16 12:52:39] INFO root fetch - main [MainThread]: End processing [nubia-cli]: success
+[2023-05-16 12:52:39] INFO root fetch - main [MainThread]: End processing [foundry-dev-tools]: success
+[2023-05-16 12:52:39] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-16 12:52:42] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-16 12:52:44] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-16 12:52:44] INFO root fetch - main [MainThread]: Store serial: [18121953]
