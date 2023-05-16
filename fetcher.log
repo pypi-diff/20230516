@@ -12216,3 +12216,54 @@
 [2023-05-16 10:32:17] INFO root fetch - main [MainThread]: End processing [skyndo]: success
 [2023-05-16 10:32:28] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-05-16 10:32:28] INFO root fetch - main [MainThread]: Store serial: [18120466]
+[2023-05-16 10:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120466]
+[2023-05-16 10:37:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: file-managers
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aloso
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmbiolib
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upd
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skyndo
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EdiHeadyTrack
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pseudo-labeller
+[2023-05-16 10:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-api-call
+[2023-05-16 10:37:39] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 10:37:39] INFO root fetch - processPackages [dmbiolib]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-16 10:37:39] INFO root fetch - processPackages [skyndo]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-16 10:37:39] WARNING root fetch - processPackages [upd]: Skipping, unable to determine old version
+[2023-05-16 10:37:39] INFO root fetch - main [MainThread]: End processing [upd] error
+[2023-05-16 10:37:39] INFO root fetch - processPackages [pseudo-labeller]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 10:37:39] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230516.8.33.421555] Old Version: [20230515.9.46.287339]
+[2023-05-16 10:37:39] WARNING root fetch - processPackages [file-managers]: Skipping, unable to determine old version
+[2023-05-16 10:37:39] INFO root fetch - main [MainThread]: End processing [file-managers] error
+[2023-05-16 10:37:39] INFO root fetch - processPackages [openai-api-call]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-16 10:37:39] INFO root fetch - processPackages [EdiHeadyTrack]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 10:37:39] INFO root fetch - processPackages [pseudo-labeller]: executing diffoscope
+[2023-05-16 10:37:39] INFO root fetch - processPackages [pseudo-labeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudo_labeller-0.0.8.tar.gz tmp/pseudo_labeller-0.0.9.tar.gz --markdown 20230516/p/pseudo-labeller/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:37:39] INFO root fetch - processPackages [dmbiolib]: Downloading https://files.pythonhosted.org/packages/94/c1/341eed37805e7165902cd454e4fc2a23e8e3974de98cedabbb55036ecbe1/dmbiolib-0.4.1.tar.gz
+[2023-05-16 10:37:39] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/80/34/e2bbc41fcc63ce0fe53f72b393e57d65e3e17682fc3e5dcb3601e76cb5aa/skyndo-0.7.8.tar.gz
+[2023-05-16 10:37:39] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-05-16 10:37:39] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/65/4f/e45bf2a429dc7bca8d3414e068979d660d788f5e4cc409378da3156ee26e/certora-cli-alpha-roy-CERT-1955-assertHits-20230515.9.46.287339.tar.gz
+[2023-05-16 10:37:39] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/22/f2/bba4086a08a2bfb6f2686ded38d4a862ee6bc55a895be1aed2deb41a5653/openai_api_call-0.3.9.tar.gz
+[2023-05-16 10:37:39] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 39432646>=10485760
+[2023-05-16 10:37:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-16 10:37:39] INFO root fetch - processPackages [EdiHeadyTrack]: Downloading https://files.pythonhosted.org/packages/6f/b5/17a2c4067d84af6c9aaa9431b06e407524fe92d7b5ba344b754bbcf9f333/EdiHeadyTrack-0.0.2.tar.gz
+[2023-05-16 10:37:39] INFO root fetch - processPackages [dmbiolib]: Downloading https://files.pythonhosted.org/packages/60/41/af8c620c79bf45e4fdf9f21d7bdad1e447d9891d6df76d55fd09b8828fce/dmbiolib-0.4.2.tar.gz
+[2023-05-16 10:37:39] WARNING root fetch - processPackages [EdiHeadyTrack]: Skipping package: exceeds size limit 58650409>=10485760
+[2023-05-16 10:37:39] INFO root fetch - main [MainThread]: End processing [EdiHeadyTrack] error
+[2023-05-16 10:37:39] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-05-16 10:37:39] INFO root fetch - processPackages [openai-api-call]: Downloading https://files.pythonhosted.org/packages/d6/83/c51c29f674972d90ebfe7702dd82e9acfa16c284c87b9d3912c49497b83e/openai_api_call-0.4.0.tar.gz
+[2023-05-16 10:37:39] INFO root fetch - processPackages [dmbiolib]: executing diffoscope
+[2023-05-16 10:37:39] INFO root fetch - processPackages [dmbiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmbiolib-0.4.1.tar.gz tmp/dmbiolib-0.4.2.tar.gz --markdown 20230516/d/dmbiolib/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-16 10:37:39] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-05-16 10:37:39] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230516/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:37:39] INFO root fetch - processPackages [openai-api-call]: executing diffoscope
+[2023-05-16 10:37:39] INFO root fetch - processPackages [openai-api-call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_call-0.3.9.tar.gz tmp/openai_api_call-0.4.0.tar.gz --markdown 20230516/o/openai-api-call/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 10:37:39] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-16 10:37:39] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.7.7.tar.gz tmp/skyndo-0.7.8.tar.gz --markdown 20230516/s/skyndo/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-16 10:37:40] INFO root fetch - main [MainThread]: End processing [pseudo-labeller]: success
+[2023-05-16 10:37:40] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-05-16 10:37:40] INFO root fetch - main [MainThread]: End processing [dmbiolib]: success
+[2023-05-16 10:37:41] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
+[2023-05-16 10:37:41] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-16 10:37:41] INFO root fetch - main [MainThread]: Store serial: [18120497]
