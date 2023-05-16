@@ -12616,3 +12616,125 @@
 [2023-05-16 10:53:47] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
 [2023-05-16 10:54:14] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
 [2023-05-16 10:54:14] INFO root fetch - main [MainThread]: Store serial: [18120652]
+[2023-05-16 10:59:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120652]
+[2023-05-16 10:59:26] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml2p
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xorbits
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funding-service-design-utils
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-cloud-spanner
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awsmate
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-procurement-auto-create-group
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aloso
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-stock-request
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: udomratibaapi
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ml2p]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-16 10:59:26] INFO root fetch - processPackages [xorbits]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-16 10:59:26] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-procurement-auto-create-group]: New version: [14.0.1.2.1.dev1] Old Version: [14.0.1.2.0]
+[2023-05-16 10:59:26] INFO root fetch - processPackages [google-cloud-spanner]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-16 10:59:26] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-16 10:59:26] INFO root fetch - processPackages [awsmate]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-16 10:59:26] WARNING root fetch - processPackages [udomratibaapi]: Skipping, unable to determine old version
+[2023-05-16 10:59:26] INFO root fetch - processPackages [udomratibaapi]: Start processing: odoo14-addon-stock-request-purchase
+[2023-05-16 10:59:26] INFO root fetch - main [MainThread]: End processing [udomratibaapi] error
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.5.3.dev2] Old Version: [14.0.1.5.3.dev1]
+[2023-05-16 10:59:26] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-05-16 10:59:26] WARNING root fetch - processPackages [odoo14-addon-stock-request-purchase]: Skipping, unable to determine old version
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-request-purchase]: Start processing: odoo14-addon-stock-warehouse-calendar
+[2023-05-16 10:59:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request-purchase] error
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-calendar]: New version: [14.0.1.0.2.dev7] Old Version: [14.0.1.0.2.dev6]
+[2023-05-16 10:59:26] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-05-16 10:59:26] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230516/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:59:26] INFO root fetch - processPackages [xorbits]: Downloading https://files.pythonhosted.org/packages/1a/17/aa97042c63b982d18a15dad9121077333aa15011f01458b8d06b802e9c49/xorbits-0.3.0.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-16 10:59:26] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230516/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-procurement-auto-create-group]: Downloading https://files.pythonhosted.org/packages/c9/ba/937e6ce5a0c459d83a483da8d0567c31576b5b6ec53ef247cf402420896d/odoo14_addon_procurement_auto_create_group-14.0.1.2.0-py3-none-any.whl
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ml2p]: Downloading https://files.pythonhosted.org/packages/6d/ab/cbbe0b6e986d205a40e8eb9115953f72d784457fd177ff9b868d9ca7e041/ml2p-0.3.4.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/c0/2d/9383b183858aaf9f33a19f695d5db62abbd3750f41e5461f5d4dd68d2da2/google-cloud-spanner-3.8.0.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [awsmate]: Downloading https://files.pythonhosted.org/packages/aa/71/57034a6c6eaeba92278b6c88c91b342e352eecf1a700560fe7343e3a4cee/awsmate-0.3.1.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/ce/e5/d400492b4829ced216d7c7a39a2a4394da916554a3c8dfb880d5c85e2995/odoo14_addon_stock_request-14.0.1.5.3.dev1-py3-none-any.whl
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-calendar]: Downloading https://files.pythonhosted.org/packages/0b/7f/961425bb8ec5d3d42f7a789969a08016ffaf1c4715686a53ebb46f8f4f46/odoo14_addon_stock_warehouse_calendar-14.0.1.0.2.dev6-py3-none-any.whl
+[2023-05-16 10:59:26] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/ef/ea/8a13f2a825fef3b284233e915d6c77bffa81c9ada4885a952bfef3c4b711/funding-service-design-utils-1.0.9.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ml2p]: Downloading https://files.pythonhosted.org/packages/89/65/df5dbe6d8fa1561a5885a30a084c4499fd44701ba2778c66f7141aae23d1/ml2p-0.3.5.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-procurement-auto-create-group]: Downloading https://files.pythonhosted.org/packages/40/64/8586ad87db5c94c68ea3e3b2d3680e547156d5a9546b94dbb7302b6684fd/odoo14_addon_procurement_auto_create_group-14.0.1.2.1.dev1-py3-none-any.whl
+[2023-05-16 10:59:26] INFO root fetch - processPackages [xorbits]: Downloading https://files.pythonhosted.org/packages/d8/d0/ec845569201b54d3e20bf00b2b86d77095e00d740535503532a9d934136c/xorbits-0.3.1.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/c2/e7/9b54471a7258152198746fe1325a90c5592ae2d66122b3a9b361c8246045/odoo14_addon_stock_request-14.0.1.5.3.dev2-py3-none-any.whl
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ml2p]: executing diffoscope
+[2023-05-16 10:59:26] INFO root fetch - processPackages [ml2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml2p-0.3.4.tar.gz tmp/ml2p-0.3.5.tar.gz --markdown 20230516/m/ml2p/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-16 10:59:26] INFO root fetch - processPackages [awsmate]: Downloading https://files.pythonhosted.org/packages/1b/36/3d75c9d55e27f3dfc08cfa38ad3c9cb436e1437e1498b5bbac89a167263d/awsmate-0.4.0.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-procurement-auto-create-group]: executing diffoscope
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-procurement-auto-create-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_procurement_auto_create_group-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_procurement_auto_create_group-14.0.1.2.1.dev1-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-procurement-auto-create-group/14.0.1.2.0-14.0.1.2.1.dev1/diff.md --exclude *.pyd
+[2023-05-16 10:59:26] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/6c/53/c939f64c299730c9c4c6c1931344967872d3c0dfe2d6920b5cd4e121137b/funding-service-design-utils-2.0.0.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/7f/af/852f011a0e2347701621b19205ec8b0037c7a76ce4c0705f0ee8e7788671/google-cloud-spanner-3.9.0.tar.gz
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-calendar]: Downloading https://files.pythonhosted.org/packages/30/f3/3de46512925b6701a8c766236d0b4f781cbb5c7746ea585f60439f3fb712/odoo14_addon_stock_warehouse_calendar-14.0.1.0.2.dev7-py3-none-any.whl
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2023-05-16 10:59:26] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.5.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.5.3.dev2-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-stock-request/14.0.1.5.3.dev1-14.0.1.5.3.dev2/diff.md --exclude *.pyd
+[2023-05-16 10:59:26] INFO root fetch - processPackages [xorbits]: executing diffoscope
+[2023-05-16 10:59:26] INFO root fetch - processPackages [xorbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xorbits-0.3.0.tar.gz tmp/xorbits-0.3.1.tar.gz --markdown 20230516/x/xorbits/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-16 10:59:27] INFO root fetch - processPackages [awsmate]: executing diffoscope
+[2023-05-16 10:59:27] INFO root fetch - processPackages [awsmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsmate-0.3.1.tar.gz tmp/awsmate-0.4.0.tar.gz --markdown 20230516/a/awsmate/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 10:59:27] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-calendar]: executing diffoscope
+[2023-05-16 10:59:27] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_warehouse_calendar-14.0.1.0.2.dev6-py3-none-any.whl.zip tmp/odoo14_addon_stock_warehouse_calendar-14.0.1.0.2.dev7-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-stock-warehouse-calendar/14.0.1.0.2.dev6-14.0.1.0.2.dev7/diff.md --exclude *.pyd
+[2023-05-16 10:59:27] INFO root fetch - processPackages [google-cloud-spanner]: executing diffoscope
+[2023-05-16 10:59:27] INFO root fetch - processPackages [google-cloud-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-spanner-3.8.0.tar.gz tmp/google-cloud-spanner-3.9.0.tar.gz --markdown 20230516/g/google-cloud-spanner/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-16 10:59:27] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-05-16 10:59:27] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-1.0.9.tar.gz tmp/funding-service-design-utils-2.0.0.tar.gz --markdown 20230516/f/funding-service-design-utils/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-16 10:59:28] INFO root fetch - processPackages [aloso]: Start processing: odoo14-addon-stock-orderpoint-move-link
+[2023-05-16 10:59:28] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-orderpoint-move-link]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.2]
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-orderpoint-move-link]: Downloading https://files.pythonhosted.org/packages/59/9f/262f03479e34a8f15b9d24ca9f7a930676c49bf85ef96466f0adacd145a8/odoo14_addon_stock_orderpoint_move_link-14.0.1.0.2-py3-none-any.whl
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-orderpoint-move-link]: Downloading https://files.pythonhosted.org/packages/a8/33/709ba7273bb8f5862798e8a0873335adbd6a0969d4213c78d6808a1fde00/odoo14_addon_stock_orderpoint_move_link-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-orderpoint-move-link]: executing diffoscope
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-orderpoint-move-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_orderpoint_move_link-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_stock_orderpoint_move_link-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-stock-orderpoint-move-link/14.0.1.0.2-14.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-procurement-auto-create-group]: Start processing: odoo14-addon-stock-request-mrp
+[2023-05-16 10:59:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-procurement-auto-create-group]: success
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-request-mrp]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1.dev6]
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-warehouse-calendar]: Start processing: odoo14-addon-stock-request-partner
+[2023-05-16 10:59:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-warehouse-calendar]: success
+[2023-05-16 10:59:28] WARNING root fetch - processPackages [odoo14-addon-stock-request-partner]: Skipping, unable to determine old version
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-request-partner]: Start processing: certora-cli-alpha-gereon-cert-2123-use-reset-assertions
+[2023-05-16 10:59:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request-partner] error
+[2023-05-16 10:59:28] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2123-use-reset-assertions]: Skipping, unable to determine old version
+[2023-05-16 10:59:28] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2123-use-reset-assertions]: Start processing: Wake-T
+[2023-05-16 10:59:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2123-use-reset-assertions] error
+[2023-05-16 10:59:28] INFO root fetch - processPackages [funding-service-design-utils]: Start processing: color-palette-extract
+[2023-05-16 10:59:28] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-05-16 10:59:28] WARNING root fetch - processPackages [color-palette-extract]: Skipping, unable to determine old version
+[2023-05-16 10:59:28] INFO root fetch - processPackages [color-palette-extract]: Start processing: openeo-pg-parser-networkx
+[2023-05-16 10:59:28] INFO root fetch - main [MainThread]: End processing [color-palette-extract] error
+[2023-05-16 10:59:28] INFO root fetch - processPackages [openeo-pg-parser-networkx]: New version: [2023.4.1] Old Version: [2023.3.1]
+[2023-05-16 10:59:28] INFO root fetch - processPackages [odoo14-addon-stock-request-mrp]: Downloading https://files.pythonhosted.org/packages/1a/44/f8c786c7a0ebdd886270aa234501e5eda443d6d44a84865c6d4f5a282210/odoo14_addon_stock_request_mrp-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-16 10:59:28] INFO root fetch - processPackages [Wake-T]: New version: [0.6.2] Old Version: [0.6.0]
+[2023-05-16 10:59:29] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/06/bd/220c219f6b333d1c0800220fbc8f40670fcc43fac8287adc37b7b4459091/openeo_pg_parser_networkx-2023.3.1.tar.gz
+[2023-05-16 10:59:29] INFO root fetch - processPackages [Wake-T]: Downloading https://files.pythonhosted.org/packages/84/1a/59a42ce11ae24236ad8070e8aedef4466d736fa01643cc5ef3ce22243cf1/Wake-T-0.6.0.tar.gz
+[2023-05-16 10:59:29] INFO root fetch - processPackages [odoo14-addon-stock-request-mrp]: Downloading https://files.pythonhosted.org/packages/63/7b/b9519175eb431ef778b8f47d94c606a9b0322e48047db8e0a8122b2222f4/odoo14_addon_stock_request_mrp-14.0.1.0.2-py3-none-any.whl
+[2023-05-16 10:59:29] INFO root fetch - processPackages [odoo14-addon-stock-request-mrp]: executing diffoscope
+[2023-05-16 10:59:29] INFO root fetch - processPackages [odoo14-addon-stock-request-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request_mrp-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_stock_request_mrp-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-stock-request-mrp/14.0.1.0.1.dev6-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-16 10:59:29] INFO root fetch - processPackages [Wake-T]: Downloading https://files.pythonhosted.org/packages/61/81/6a3c0b44b8e6df1899054f7ebef49b3d8354a2f7f7651d2080b962c59f1c/Wake-T-0.6.2.tar.gz
+[2023-05-16 10:59:29] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/3a/53/b3f2a90fae1d4de3541225fbf5e59ef241df6ae4e79a0557e3e9e073c1d7/openeo_pg_parser_networkx-2023.4.1.tar.gz
+[2023-05-16 10:59:29] INFO root fetch - processPackages [openeo-pg-parser-networkx]: executing diffoscope
+[2023-05-16 10:59:29] INFO root fetch - processPackages [openeo-pg-parser-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_pg_parser_networkx-2023.3.1.tar.gz tmp/openeo_pg_parser_networkx-2023.4.1.tar.gz --markdown 20230516/o/openeo-pg-parser-networkx/2023.3.1-2023.4.1/diff.md --exclude *.pyd
+[2023-05-16 10:59:29] INFO root fetch - processPackages [Wake-T]: executing diffoscope
+[2023-05-16 10:59:29] INFO root fetch - processPackages [Wake-T]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Wake-T-0.6.0.tar.gz tmp/Wake-T-0.6.2.tar.gz --markdown 20230516/W/Wake-T/0.6.0-0.6.2/diff.md --exclude *.pyd
+[2023-05-16 10:59:30] INFO root fetch - processPackages [ml2p]: Start processing: mrsal
+[2023-05-16 10:59:30] INFO root fetch - main [MainThread]: End processing [ml2p]: success
+[2023-05-16 10:59:30] INFO root fetch - processPackages [mrsal]: New version: [0.4.2a0] Old Version: [0.4.1a0]
+[2023-05-16 10:59:30] INFO root fetch - processPackages [odoo14-addon-stock-orderpoint-move-link]: Start processing: TACTUS-live
+[2023-05-16 10:59:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-orderpoint-move-link]: success
+[2023-05-16 10:59:30] WARNING root fetch - processPackages [TACTUS-live]: Skipping, unable to determine old version
+[2023-05-16 10:59:30] INFO root fetch - main [MainThread]: End processing [TACTUS-live] error
+[2023-05-16 10:59:30] INFO root fetch - processPackages [mrsal]: Downloading https://files.pythonhosted.org/packages/6d/fa/4ea0de7d6548df72bb4796c0d988a1feae7f35a0a53c05fbb796f1188fc3/mrsal-0.4.1a0.tar.gz
+[2023-05-16 10:59:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2023-05-16 10:59:30] INFO root fetch - processPackages [mrsal]: Downloading https://files.pythonhosted.org/packages/d3/db/5de278dd4ab067026e8748966ddfb58c291f6990f5d1c2ce8f84e20ed2ec/mrsal-0.4.2a0.tar.gz
+[2023-05-16 10:59:30] INFO root fetch - main [MainThread]: End processing [awsmate]: success
+[2023-05-16 10:59:30] INFO root fetch - processPackages [mrsal]: executing diffoscope
+[2023-05-16 10:59:30] INFO root fetch - processPackages [mrsal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrsal-0.4.1a0.tar.gz tmp/mrsal-0.4.2a0.tar.gz --markdown 20230516/m/mrsal/0.4.1a0-0.4.2a0/diff.md --exclude *.pyd
+[2023-05-16 10:59:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request-mrp]: success
+[2023-05-16 10:59:31] INFO root fetch - main [MainThread]: End processing [openeo-pg-parser-networkx]: success
+[2023-05-16 10:59:31] INFO root fetch - main [MainThread]: End processing [Wake-T]: success
+[2023-05-16 10:59:31] INFO root fetch - main [MainThread]: End processing [mrsal]: success
+[2023-05-16 10:59:31] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
+[2023-05-16 10:59:44] INFO root fetch - main [MainThread]: End processing [xorbits]: success
+[2023-05-16 11:00:12] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-16 11:00:12] INFO root fetch - main [MainThread]: Store serial: [18120743]
