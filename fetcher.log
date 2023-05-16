@@ -14997,3 +14997,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 13:03:15] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-05-16 13:03:15] INFO root fetch - main [MainThread]: End processing [starlette]: success
 [2023-05-16 13:03:15] INFO root fetch - main [MainThread]: Store serial: [18122051]
+[2023-05-16 13:08:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18122051]
+[2023-05-16 13:08:23] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bindvar
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-contributor-assets
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: creek
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssb-klass-python
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splashlab
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edge-ml
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmind
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AL-Khatma-lib
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fasttextsearch
+[2023-05-16 13:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: restscript
+[2023-05-16 13:08:23] INFO root fetch - processPackages [fasttextsearch]: New version: [0.3] Old Version: [0.2]
+[2023-05-16 13:08:23] INFO root fetch - processPackages [edge-ml]: New version: [0.3] Old Version: [0.2.2]
+[2023-05-16 13:08:24] WARNING root fetch - processPackages [restscript]: Skipping, unable to determine old version
+[2023-05-16 13:08:24] INFO root fetch - processPackages [restscript]: Start processing: vl-datasets
+[2023-05-16 13:08:24] INFO root fetch - main [MainThread]: End processing [restscript] error
+[2023-05-16 13:08:24] WARNING root fetch - processPackages [bindvar]: Skipping, unable to determine old version
+[2023-05-16 13:08:24] INFO root fetch - processPackages [bindvar]: Start processing: hfinger
+[2023-05-16 13:08:24] INFO root fetch - processPackages [ssb-klass-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 13:08:24] INFO root fetch - main [MainThread]: End processing [bindvar] error
+[2023-05-16 13:08:24] INFO root fetch - processPackages [splashlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 13:08:24] INFO root fetch - processPackages [creek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 13:08:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post783] Old Version: [1.0.0.post782]
+[2023-05-16 13:08:24] INFO root fetch - processPackages [AL-Khatma-lib]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-05-16 13:08:24] INFO root fetch - processPackages [cmind]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-16 13:08:24] INFO root fetch - processPackages [vl-datasets]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 13:08:24] INFO root fetch - processPackages [edge-ml]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [edge-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge-ml-0.2.2.tar.gz tmp/edge-ml-0.3.tar.gz --markdown 20230516/e/edge-ml/0.2.2-0.3/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/3e/6d/667aee84020b9f52bb571fbb58f85145527f52f9165f6f7dc01737ae875c/fasttextsearch-0.3.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [hfinger]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-16 13:08:24] INFO root fetch - processPackages [ssb-klass-python]: Downloading https://files.pythonhosted.org/packages/c5/74/6e38590b44813b0c9f0948fc15119e51e2e1db3dec71d24012f60b7042c6/ssb_klass_python-0.0.2.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [splashlab]: Downloading https://files.pythonhosted.org/packages/f4/61/daec8b865651d30336f3f746e1a3498d0da73cda961bcd9f0183cff84477/splashlab-0.0.8.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [fasttextsearch]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [fasttextsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttextsearch-0.2.tar.gz tmp/fasttextsearch-0.3.tar.gz --markdown 20230516/f/fasttextsearch/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [cmind]: Downloading https://files.pythonhosted.org/packages/32/6a/eb34ad0c0822ea246f43ca35c20fdb6ba6f21cc5cd8815f50c1a003589f3/cmind-1.1.5.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [AL-Khatma-lib]: Downloading https://files.pythonhosted.org/packages/a7/63/a507ed0acbaf15d7144b2d8b1acf92b50424ff1b9a218e3517c589336942/AL_Khatma_lib-1.1.1.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [hfinger]: Downloading https://files.pythonhosted.org/packages/a1/80/3bf132ea7f45f41c4d07dc618d7175a189e2edbfb2f5520e3be2fc37fc86/hfinger-0.2.1.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/be/97/84d19d7922b9da8f22e31c32e3c47b1e1210ef92264eeb2cf281d318aa53/nucliadb_contributor_assets-1.0.0.post783-py3-none-any.whl
+[2023-05-16 13:08:24] INFO root fetch - processPackages [creek]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [creek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creek-0.1.8.tar.gz tmp/creek-0.1.9.tar.gz --markdown 20230516/c/creek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [vl-datasets]: Downloading https://files.pythonhosted.org/packages/22/f7/6ccbfe7d457b6b8bf6769fb301307c2dc8e2134f901f3a65324975f1e205/vl_datasets-0.0.6-py3.9-none-any.whl
+[2023-05-16 13:08:24] INFO root fetch - processPackages [splashlab]: Downloading https://files.pythonhosted.org/packages/77/ec/2608c5bae18854b26dbad44a6158ed55a0202163e276a74afb95381acac9/splashlab-0.0.9.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [AL-Khatma-lib]: Downloading https://files.pythonhosted.org/packages/aa/0e/da1d9399009ba98d0941a0cda6d6fe0c122e5ba48cbc4c4f9b6ddc6ad440/AL_Khatma_lib-2.0.0.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post782-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post783-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-contributor-assets/1.0.0.post782-1.0.0.post783/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [cmind]: Downloading https://files.pythonhosted.org/packages/a0/3a/6a6287ddf827186c82eea0406e32d7328773cbe72c34b96b13a5fb62c920/cmind-1.1.6.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [ssb-klass-python]: Downloading https://files.pythonhosted.org/packages/00/c6/a50f108098b0172c4a46a5d2d0f88fd92c7140bb4a54eda07e0f23622146/ssb_klass_python-0.0.3.tar.gz
+[2023-05-16 13:08:24] INFO root fetch - processPackages [hfinger]: Downloading https://files.pythonhosted.org/packages/0a/22/2b08a689424b734bb63bfa432c7cdf691b176f2f5f87323eeed359358bbd/hfinger-0.2.2-py3-none-any.whl
+[2023-05-16 13:08:24] INFO root fetch - processPackages [splashlab]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [splashlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splashlab-0.0.8.tar.gz tmp/splashlab-0.0.9.tar.gz --markdown 20230516/s/splashlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [vl-datasets]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [vl-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vl_datasets-0.0.5-py3.9-none-any.whl.zip tmp/vl_datasets-0.0.6-py3.9-none-any.whl.zip --markdown 20230516/v/vl-datasets/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [cmind]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [cmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmind-1.1.5.tar.gz tmp/cmind-1.1.6.tar.gz --markdown 20230516/c/cmind/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [ssb-klass-python]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [ssb-klass-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_klass_python-0.0.2.tar.gz tmp/ssb_klass_python-0.0.3.tar.gz --markdown 20230516/s/ssb-klass-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [AL-Khatma-lib]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [AL-Khatma-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AL_Khatma_lib-1.1.1.tar.gz tmp/AL_Khatma_lib-2.0.0.tar.gz --markdown 20230516/A/AL-Khatma-lib/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-16 13:08:24] INFO root fetch - processPackages [hfinger]: executing diffoscope
+[2023-05-16 13:08:24] INFO root fetch - processPackages [hfinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hfinger-0.2.1.tar.gz tmp/hfinger-0.2.2-py3-none-any.whl.zip --markdown 20230516/h/hfinger/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-16 13:08:25] INFO root fetch - processPackages [edge-ml]: Start processing: geopyv
+[2023-05-16 13:08:25] INFO root fetch - main [MainThread]: End processing [edge-ml]: success
+[2023-05-16 13:08:25] INFO root fetch - processPackages [geopyv]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-16 13:08:25] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/dc/52/a6503423ed8609b08ecf55fbf28a3d16a841f02e6337910b8143d556afc4/geopyv-0.0.2.tar.gz
+[2023-05-16 13:08:25] INFO root fetch - processPackages [creek]: Start processing: CardGameBase
+[2023-05-16 13:08:25] INFO root fetch - main [MainThread]: End processing [creek]: success
+[2023-05-16 13:08:26] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/e8/8a/49b350e34b79b00840ab129a710b3fd3233964989b5b812ce8cddf7ccd71/geopyv-0.0.4.tar.gz
+[2023-05-16 13:08:26] WARNING root fetch - processPackages [CardGameBase]: Skipping, unable to determine old version
+[2023-05-16 13:08:26] INFO root fetch - processPackages [CardGameBase]: Start processing: certora-cli-alpha-uri-broaden-server
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [CardGameBase] error
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: New version: [20230516.8.44.57245] Old Version: [20230516.10.42.493463]
+[2023-05-16 13:08:26] INFO root fetch - processPackages [splashlab]: Start processing: certora-cli-alpha-master
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [splashlab]: success
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230515.9.25.343999] Old Version: [20230515.8.28.196716]
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/57/3c8e4f696ecc29a6da16dae52cb9b9d1391b25ce946105a3f96ced6e88c4/certora-cli-alpha-master-20230515.8.28.196716.tar.gz
+[2023-05-16 13:08:26] INFO root fetch - processPackages [hfinger]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [hfinger]: success
+[2023-05-16 13:08:26] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39430676>=10485760
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: brain-loop-search
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230516.4.26.467828] Old Version: [20230515.9.25.738539]
+[2023-05-16 13:08:26] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-05-16 13:08:26] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.2.tar.gz tmp/geopyv-0.0.4.tar.gz --markdown 20230516/g/geopyv/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: Downloading https://files.pythonhosted.org/packages/2f/1e/6ab038070de64743819909ee157306dc7f565258236ae3ca66376bfcfc1f/certora-cli-alpha-uri-broaden_server-20230516.10.42.493463.tar.gz
+[2023-05-16 13:08:26] INFO root fetch - processPackages [brain-loop-search]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 13:08:26] INFO root fetch - processPackages [cmind]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [cmind]: success
+[2023-05-16 13:08:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 13:08:26] INFO root fetch - processPackages [vl-datasets]: Start processing: pddl-plus-parser
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [vl-datasets]: success
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/e7/ca/34e7a81789087246ea2786a37c95933e46e47c3b6a48ed2a6c506d0ad781/certora-cli-alpha-jtoman-infinite-loop-fix-20230515.9.25.738539.tar.gz
+[2023-05-16 13:08:26] WARNING root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: Skipping package: exceeds size limit 38976677>=10485760
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: Start processing: azurify
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-broaden-server] error
+[2023-05-16 13:08:26] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39433284>=10485760
+[2023-05-16 13:08:26] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: jcmutils
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [ssb-klass-python]: success
+[2023-05-16 13:08:26] INFO root fetch - processPackages [jcmutils]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-16 13:08:26] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-05-16 13:08:26] INFO root fetch - processPackages [azurify]: New version: [0.6] Old Version: [0.5]
+[2023-05-16 13:08:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-16 13:08:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230516/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 13:08:26] INFO root fetch - processPackages [brain-loop-search]: Downloading https://files.pythonhosted.org/packages/92/b0/7305018a4e7ff723636d38e1b49bc182b8f41f162ca6ae3e22f8c8cdee19/brain-loop-search-0.1.5.tar.gz
+[2023-05-16 13:08:26] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/a2/97/d61369f07fc264a3bb4550810c880800ce915eaa0a68a18af9387ee1ec84/jcmutils-1.4.4.tar.gz
+[2023-05-16 13:08:26] INFO root fetch - processPackages [azurify]: Downloading https://files.pythonhosted.org/packages/27/01/15ed101582a6e90def573a19280bbaa6a386e8333bc1215677fb6ec70648/azurify-0.5.tar.gz
+[2023-05-16 13:08:26] INFO root fetch - main [MainThread]: End processing [fasttextsearch]: success
+[2023-05-16 13:08:26] INFO root fetch - processPackages [brain-loop-search]: executing diffoscope
+[2023-05-16 13:08:26] INFO root fetch - processPackages [brain-loop-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brain-loop-search-0.1.4.tar.gz tmp/brain-loop-search-0.1.5.tar.gz --markdown 20230516/b/brain-loop-search/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 13:08:26] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2023-05-16 13:08:26] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.3.8.tar.gz tmp/pddl-plus-parser-3.3.9.tar.gz --markdown 20230516/p/pddl-plus-parser/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-05-16 13:08:26] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-16 13:08:26] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.4.3.tar.gz tmp/jcmutils-1.4.4.tar.gz --markdown 20230516/j/jcmutils/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-16 13:08:26] INFO root fetch - processPackages [azurify]: Downloading https://files.pythonhosted.org/packages/33/fe/8fd8f8906a33c139f2602c76e2ed523c0f8796827a35faf5bfbd19ca3649/azurify-0.6.tar.gz
+[2023-05-16 13:08:27] INFO root fetch - processPackages [azurify]: executing diffoscope
+[2023-05-16 13:08:27] INFO root fetch - processPackages [azurify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azurify-0.5.tar.gz tmp/azurify-0.6.tar.gz --markdown 20230516/a/azurify/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-16 13:08:27] INFO root fetch - main [MainThread]: End processing [AL-Khatma-lib]: success
+[2023-05-16 13:08:27] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-16 13:08:27] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-16 13:08:28] INFO root fetch - main [MainThread]: End processing [brain-loop-search]: success
+[2023-05-16 13:08:28] INFO root fetch - main [MainThread]: End processing [azurify]: success
+[2023-05-16 13:08:28] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2023-05-16 13:08:29] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-05-16 13:08:37] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-16 13:08:37] INFO root fetch - main [MainThread]: Store serial: [18122154]
