@@ -6702,3 +6702,53 @@
 [2023-05-16 04:05:41] INFO root fetch - main [MainThread]: End processing [simplechain]: success
 [2023-05-16 04:05:42] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-05-16 04:05:42] INFO root fetch - main [MainThread]: Store serial: [18117380]
+[2023-05-16 04:10:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117380]
+[2023-05-16 04:10:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-16 04:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtb-toolbox
+[2023-05-16 04:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-doe2
+[2023-05-16 04:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimus-prime-transformers
+[2023-05-16 04:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dingtalk
+[2023-05-16 04:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedml
+[2023-05-16 04:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedinesia
+[2023-05-16 04:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlforecast
+[2023-05-16 04:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: repilot-client
+[2023-05-16 04:10:51] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-05-16 04:10:51] INFO root fetch - processPackages [optimus-prime-transformers]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 04:10:51] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 04:10:51] INFO root fetch - processPackages [mlforecast]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-16 04:10:51] INFO root fetch - processPackages [rtb-toolbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 04:10:51] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.13] Old Version: [2.0.12]
+[2023-05-16 04:10:51] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-05-16 04:10:51] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230516/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-05-16 04:10:51] INFO root fetch - processPackages [fedinesia]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-16 04:10:51] WARNING root fetch - processPackages [repilot-client]: Skipping, unable to determine old version
+[2023-05-16 04:10:51] INFO root fetch - main [MainThread]: End processing [repilot-client] error
+[2023-05-16 04:10:51] INFO root fetch - processPackages [rtb-toolbox]: Downloading https://files.pythonhosted.org/packages/7e/30/b3eac0dc0343c9b8655c05f4b0df6c91df0b69dc1b54b6899ff3295aaffa/rtb_toolbox-0.1.1.tar.gz
+[2023-05-16 04:10:51] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/d2/3c/1782d6b1862aa63886a5afbf4440924cdaa9223d663522968a9a2fbb244e/optimus-prime-transformers-1.0.8.tar.gz
+[2023-05-16 04:10:51] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/c6/2b/ad68e2c051bc392a238a38aa17da82a8cdf0288b97c818a6dcd41f9e9a26/mlforecast-0.7.0.tar.gz
+[2023-05-16 04:10:51] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/f0/53/dbfb24a60acc64a389d7938e0f2db8ae8ea31f474eeb06bbe04063035524/honeybee-doe2-0.0.5.tar.gz
+[2023-05-16 04:10:51] INFO root fetch - processPackages [fedinesia]: Downloading https://files.pythonhosted.org/packages/23/fc/5368749fa4330282a1152f56e3fb6eba1789c1bc2870eada0f1ac853297e/fedinesia-2.5.0.tar.gz
+[2023-05-16 04:10:51] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-05-16 04:10:51] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.0.4.tar.gz tmp/honeybee-doe2-0.0.5.tar.gz --markdown 20230516/h/honeybee-doe2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 04:10:51] INFO root fetch - processPackages [optimus-prime-transformers]: executing diffoscope
+[2023-05-16 04:10:51] INFO root fetch - processPackages [optimus-prime-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimus-prime-transformers-1.0.7.tar.gz tmp/optimus-prime-transformers-1.0.8.tar.gz --markdown 20230516/o/optimus-prime-transformers/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 04:10:51] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/c3/9e/5a6f30a2ec2bda53af298906a0ff88516938291f965a6f9950e040ca3eb2/alibabacloud_dingtalk-2.0.13.tar.gz
+[2023-05-16 04:10:51] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-05-16 04:10:51] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.12.tar.gz tmp/alibabacloud_dingtalk-2.0.13.tar.gz --markdown 20230516/a/alibabacloud-dingtalk/2.0.12-2.0.13/diff.md --exclude *.pyd
+[2023-05-16 04:10:51] INFO root fetch - processPackages [fedinesia]: Downloading https://files.pythonhosted.org/packages/3a/34/2dcf98616c4d1085de65be287c99430949fd578fac326c7eb49f0b1da764/fedinesia-2.5.1.tar.gz
+[2023-05-16 04:10:51] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/ca/78/0d5d2bd0dad3eb258b67b9593a87ea7eda4e781dffa4a1d4dc00844a44b4/mlforecast-0.7.1.tar.gz
+[2023-05-16 04:10:51] INFO root fetch - processPackages [rtb-toolbox]: Downloading https://files.pythonhosted.org/packages/10/6f/88633df783d46c7b73ecca44065c5f845887961252d0c862ebaf50898b1e/rtb_toolbox-0.1.2.tar.gz
+[2023-05-16 04:10:52] INFO root fetch - processPackages [rtb-toolbox]: executing diffoscope
+[2023-05-16 04:10:52] INFO root fetch - processPackages [rtb-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtb_toolbox-0.1.1.tar.gz tmp/rtb_toolbox-0.1.2.tar.gz --markdown 20230516/r/rtb-toolbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 04:10:52] INFO root fetch - processPackages [mlforecast]: executing diffoscope
+[2023-05-16 04:10:52] INFO root fetch - processPackages [mlforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforecast-0.7.0.tar.gz tmp/mlforecast-0.7.1.tar.gz --markdown 20230516/m/mlforecast/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-16 04:10:52] INFO root fetch - processPackages [fedinesia]: executing diffoscope
+[2023-05-16 04:10:52] INFO root fetch - processPackages [fedinesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedinesia-2.5.0.tar.gz tmp/fedinesia-2.5.1.tar.gz --markdown 20230516/f/fedinesia/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-16 04:10:53] INFO root fetch - main [MainThread]: End processing [optimus-prime-transformers]: success
+[2023-05-16 04:10:53] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-05-16 04:10:53] INFO root fetch - main [MainThread]: End processing [rtb-toolbox]: success
+[2023-05-16 04:10:53] INFO root fetch - main [MainThread]: End processing [fedinesia]: success
+[2023-05-16 04:10:53] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
+[2023-05-16 04:10:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-05-16 04:11:03] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-05-16 04:11:03] INFO root fetch - main [MainThread]: Store serial: [18117411]
