@@ -3738,3 +3738,29 @@
 [2023-05-16 03:10:34] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
 [2023-05-16 03:10:36] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-05-16 03:10:36] INFO root fetch - main [MainThread]: Store serial: [18115957]
+[2023-05-16 03:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18115957]
+[2023-05-16 03:15:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-16 03:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rembg
+[2023-05-16 03:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-05-16 03:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-05-16 03:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2023-05-16 03:15:45] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-16 03:15:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-16 03:15:45] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.97] Old Version: [1.2.96]
+[2023-05-16 03:15:45] INFO root fetch - processPackages [rembg]: New version: [2.0.37] Old Version: [2.0.36]
+[2023-05-16 03:15:45] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-05-16 03:15:45] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230516/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:15:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-16 03:15:45] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230516/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-16 03:15:45] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/5f/56/a797bac268ffa228de22466cb475e198ad42dc77c7c6548294dd93233c3f/cdk-sops-secrets-1.2.97.tar.gz
+[2023-05-16 03:15:45] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/7c/9e/4d72ff5bff074352a70d8a5267c906edcb6d4be166e0fc3f6984ec20a545/rembg-2.0.36.tar.gz
+[2023-05-16 03:15:45] INFO root fetch - processPackages [rembg]: Downloading https://files.pythonhosted.org/packages/a1/3c/a08eb9b8ee1bbb6fd8c4eabce17b79b570de858442b63f3a78b5ec21abe0/rembg-2.0.37.tar.gz
+[2023-05-16 03:15:45] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-16 03:15:45] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.96.tar.gz tmp/cdk-sops-secrets-1.2.97.tar.gz --markdown 20230516/c/cdk-sops-secrets/1.2.96-1.2.97/diff.md --exclude *.pyd
+[2023-05-16 03:15:45] INFO root fetch - processPackages [rembg]: executing diffoscope
+[2023-05-16 03:15:45] INFO root fetch - processPackages [rembg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rembg-2.0.36.tar.gz tmp/rembg-2.0.37.tar.gz --markdown 20230516/r/rembg/2.0.36-2.0.37/diff.md --exclude *.pyd
+[2023-05-16 03:15:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-16 03:15:46] INFO root fetch - main [MainThread]: End processing [rembg]: success
+[2023-05-16 03:15:47] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-16 03:15:47] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-05-16 03:15:47] INFO root fetch - main [MainThread]: Store serial: [18115971]
