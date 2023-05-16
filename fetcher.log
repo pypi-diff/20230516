@@ -16912,3 +16912,107 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 14:46:45] INFO root fetch - main [MainThread]: End processing [pymisp]: success
 [2023-05-16 14:47:01] INFO root fetch - main [MainThread]: End processing [fastly]: success
 [2023-05-16 14:47:01] INFO root fetch - main [MainThread]: Store serial: [18123394]
+[2023-05-16 14:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18123394]
+[2023-05-16 14:52:11] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xpol
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataset-tools
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydisadm
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gleaner
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ayon-python-api
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cms
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BLiC
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: utctime
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kvakk-git-tools
+[2023-05-16 14:52:11] INFO root fetch - processPackages [xpol]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-05-16 14:52:11] WARNING root fetch - processPackages [pydisadm]: Skipping, unable to determine old version
+[2023-05-16 14:52:11] INFO root fetch - processPackages [pydisadm]: Start processing: nonebot-plugin-session
+[2023-05-16 14:52:11] INFO root fetch - main [MainThread]: End processing [pydisadm] error
+[2023-05-16 14:52:11] INFO root fetch - processPackages [django-cms]: New version: [4.1.0rc2] Old Version: [4.1.0rc1]
+[2023-05-16 14:52:11] INFO root fetch - processPackages [kvakk-git-tools]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-16 14:52:11] INFO root fetch - processPackages [xpol]: executing diffoscope
+[2023-05-16 14:52:11] INFO root fetch - processPackages [xpol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpol-1.6.1.tar.gz tmp/xpol-1.7.0.tar.gz --markdown 20230516/x/xpol/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-05-16 14:52:11] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2023-05-16 14:52:11] INFO root fetch - processPackages [gleaner]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 14:52:11] INFO root fetch - processPackages [BLiC]: New version: [2023.5.0] Old Version: [2023.2.0]
+[2023-05-16 14:52:11] WARNING root fetch - processPackages [utctime]: Skipping, unable to determine old version
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ayon-python-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 14:52:11] INFO root fetch - processPackages [utctime]: Start processing: jina-now
+[2023-05-16 14:52:11] INFO root fetch - main [MainThread]: End processing [utctime] error
+[2023-05-16 14:52:11] WARNING root fetch - processPackages [nonebot-plugin-session]: Skipping, unable to determine old version
+[2023-05-16 14:52:11] INFO root fetch - processPackages [nonebot-plugin-session]: Start processing: deepset-cloud-sdk
+[2023-05-16 14:52:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-session] error
+[2023-05-16 14:52:11] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-16 14:52:11] INFO root fetch - processPackages [kvakk-git-tools]: Downloading https://files.pythonhosted.org/packages/de/aa/9874750e7c45027d190e59264274ea4ec279585585071b2fc4ad5ea18da4/kvakk_git_tools-2.1.2.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [django-cms]: Downloading https://files.pythonhosted.org/packages/0b/35/b10bac433810bef2f30396fc5285da9b1dbe31f7e4cc039efff686229bf2/django-cms-4.1.0rc1.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 14:52:11] INFO root fetch - processPackages [gleaner]: Downloading https://files.pythonhosted.org/packages/5a/3d/0cab7466c394ef90288fde7d48082be0d7585c64c1a872b5de05a610e482/gleaner-0.0.2.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/fe/92/96e02372e4f4389a60109f20f134adfe73ebc13fef9e84c3f5904b2a872b/ayon-python-api-0.1.8.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [BLiC]: Downloading https://files.pythonhosted.org/packages/f8/81/ad0e9e279ed0332c9f5ea50547dc808df96d092badf4ede73dd115886547/BLiC-2023.2.0.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/d1/5f/bb9231eb61e8f666c988e7854664cf89314a2e65617bb722611237fa6c9f/dataset-tools-0.0.3.1.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/db/04/62e3c75f6d92e97818eb7baff82b5ba54f13d520682e8375e32bc4cbab7d/deepset_cloud_sdk-0.0.6.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [kvakk-git-tools]: executing diffoscope
+[2023-05-16 14:52:11] INFO root fetch - processPackages [kvakk-git-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kvakk_git_tools-2.1.2.tar.gz tmp/kvakk_git_tools-2.2.0.tar.gz --markdown 20230516/k/kvakk-git-tools/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-16 14:52:11] INFO root fetch - processPackages [jina-now]: Downloading https://files.pythonhosted.org/packages/a0/c1/8dab3c7cac6450f5dcc71e7437bc31197cbadb65f348356c767429777502/jina-now-0.0.9.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [gleaner]: Downloading https://files.pythonhosted.org/packages/ea/3b/311796e31fb58ed6d4297293d0c5c455f16d1a27de704ae8f45403bd1938/gleaner-0.0.3.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [BLiC]: Downloading https://files.pythonhosted.org/packages/ff/9d/c4151c5e2c0d5d8503f32057771c9ce2b2b07ff5940de84d0bf9dec49653/BLiC-2023.5.0.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2023-05-16 14:52:11] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.3.tar.gz tmp/dataset-tools-0.0.3.1.tar.gz --markdown 20230516/d/dataset-tools/0.0.3-0.0.3.1/diff.md --exclude *.pyd
+[2023-05-16 14:52:11] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-16 14:52:11] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230516/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/83/1c/3bad3ff067a1f0006588afd84589fa1680e0325e4ffd1b35496bd3cc223c/ayon-python-api-0.1.9.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [gleaner]: executing diffoscope
+[2023-05-16 14:52:11] INFO root fetch - processPackages [gleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gleaner-0.0.2.tar.gz tmp/gleaner-0.0.3.tar.gz --markdown 20230516/g/gleaner/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 14:52:11] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/73/5a/1eab4d21ea9bd81f0a7641301276ebe7c615fbdf2bfc2a52c535a778a4fc/deepset_cloud_sdk-0.0.7.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [django-cms]: Downloading https://files.pythonhosted.org/packages/3e/97/2ed3134967403b2bbdc87ada1c9693a13a7079356a7541f1f3eb908d4b44/django-cms-4.1.0rc2.tar.gz
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ayon-python-api]: executing diffoscope
+[2023-05-16 14:52:11] INFO root fetch - processPackages [ayon-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayon-python-api-0.1.8.tar.gz tmp/ayon-python-api-0.1.9.tar.gz --markdown 20230516/a/ayon-python-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 14:52:12] INFO root fetch - processPackages [BLiC]: executing diffoscope
+[2023-05-16 14:52:12] INFO root fetch - processPackages [BLiC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLiC-2023.2.0.tar.gz tmp/BLiC-2023.5.0.tar.gz --markdown 20230516/B/BLiC/2023.2.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-16 14:52:12] INFO root fetch - processPackages [jina-now]: Downloading https://files.pythonhosted.org/packages/82/20/038948e51195bd3de8c85ac694d6a59d712e94575701c6d9eb0c2eb58f7b/jina-now-0.0.9.dev2.tar.gz
+[2023-05-16 14:52:12] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-05-16 14:52:12] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.6.tar.gz tmp/deepset_cloud_sdk-0.0.7.tar.gz --markdown 20230516/d/deepset-cloud-sdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 14:52:12] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-05-16 14:52:12] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230516/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-05-16 14:52:12] INFO root fetch - processPackages [xpol]: Start processing: tf-keras-vis
+[2023-05-16 14:52:12] INFO root fetch - main [MainThread]: End processing [xpol]: success
+[2023-05-16 14:52:12] INFO root fetch - processPackages [django-cms]: executing diffoscope
+[2023-05-16 14:52:12] INFO root fetch - processPackages [django-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cms-4.1.0rc1.tar.gz tmp/django-cms-4.1.0rc2.tar.gz --markdown 20230516/d/django-cms/4.1.0rc1-4.1.0rc2/diff.md --exclude *.pyd
+[2023-05-16 14:52:12] INFO root fetch - processPackages [tf-keras-vis]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-16 14:52:12] INFO root fetch - processPackages [tf-keras-vis]: Downloading https://files.pythonhosted.org/packages/e9/33/b0f0fe8341b1b4be6f372773e8609e3c4e6a36271fb5a72b45a84873c79d/tf-keras-vis-0.8.4.tar.gz
+[2023-05-16 14:52:13] INFO root fetch - processPackages [kvakk-git-tools]: Start processing: udata
+[2023-05-16 14:52:13] INFO root fetch - main [MainThread]: End processing [kvakk-git-tools]: success
+[2023-05-16 14:52:13] INFO root fetch - processPackages [udata]: New version: [6.1.4.dev25440] Old Version: [6.1.4.dev25429]
+[2023-05-16 14:52:13] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/c0/87/276927d571aa09231a0b33f535cc75ba264f2a823d66297080e6df4bf8ca/udata-6.1.4.dev25429-py2.py3-none-any.whl
+[2023-05-16 14:52:13] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19606512>=10485760
+[2023-05-16 14:52:13] INFO root fetch - processPackages [udata]: Start processing: viewm2m
+[2023-05-16 14:52:13] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-05-16 14:52:13] INFO root fetch - processPackages [tf-keras-vis]: Downloading https://files.pythonhosted.org/packages/fc/98/a542ccb528a764302b7db123c9ff19736879a81d5d326a5d2899f99561e8/tf-keras-vis-0.8.5.tar.gz
+[2023-05-16 14:52:13] WARNING root fetch - processPackages [viewm2m]: Skipping, unable to determine old version
+[2023-05-16 14:52:13] INFO root fetch - processPackages [viewm2m]: Start processing: CQE
+[2023-05-16 14:52:13] INFO root fetch - main [MainThread]: End processing [viewm2m] error
+[2023-05-16 14:52:13] INFO root fetch - processPackages [CQE]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-16 14:52:13] INFO root fetch - processPackages [BLiC]: Start processing: pydisadm
+[2023-05-16 14:52:13] INFO root fetch - main [MainThread]: End processing [BLiC]: success
+[2023-05-16 14:52:13] INFO root fetch - processPackages [pydisadm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-16 14:52:13] INFO root fetch - processPackages [tf-keras-vis]: executing diffoscope
+[2023-05-16 14:52:13] INFO root fetch - processPackages [tf-keras-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf-keras-vis-0.8.4.tar.gz tmp/tf-keras-vis-0.8.5.tar.gz --markdown 20230516/t/tf-keras-vis/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-16 14:52:13] INFO root fetch - main [MainThread]: End processing [gleaner]: success
+[2023-05-16 14:52:13] INFO root fetch - processPackages [CQE]: Downloading https://files.pythonhosted.org/packages/09/e0/1270910479e3c920c70b7cc8df572512c8b6f57f54c5c8f660dbc63b7fac/CQE-1.0.3.tar.gz
+[2023-05-16 14:52:13] INFO root fetch - processPackages [pydisadm]: Downloading https://files.pythonhosted.org/packages/23/f8/9566d38753bdbe40a8a7ef919e35e00f83af3f00e8493d86c48618529940/pydisadm-1.0.2.tar.gz
+[2023-05-16 14:52:13] INFO root fetch - main [MainThread]: End processing [ayon-python-api]: success
+[2023-05-16 14:52:13] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2023-05-16 14:52:14] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-05-16 14:52:14] INFO root fetch - processPackages [CQE]: executing diffoscope
+[2023-05-16 14:52:14] INFO root fetch - processPackages [CQE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CQE-1.0.2.tar.gz tmp/CQE-1.0.3.tar.gz --markdown 20230516/C/CQE/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-16 14:52:14] INFO root fetch - processPackages [pydisadm]: Downloading https://files.pythonhosted.org/packages/e0/28/d560fd5ce948626d8fff9fbd011db86a0a93bd0ef8c3dfbbbb2f7226825a/pydisadm-1.0.3.tar.gz
+[2023-05-16 14:52:14] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-05-16 14:52:14] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-16 14:52:14] INFO root fetch - processPackages [pydisadm]: executing diffoscope
+[2023-05-16 14:52:14] INFO root fetch - processPackages [pydisadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisadm-1.0.2.tar.gz tmp/pydisadm-1.0.3.tar.gz --markdown 20230516/p/pydisadm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-16 14:52:15] INFO root fetch - main [MainThread]: End processing [tf-keras-vis]: success
+[2023-05-16 14:52:15] INFO root fetch - main [MainThread]: End processing [CQE]: success
+[2023-05-16 14:52:15] INFO root fetch - main [MainThread]: End processing [pydisadm]: success
+[2023-05-16 14:52:42] INFO root fetch - main [MainThread]: End processing [django-cms]: success
+[2023-05-16 14:52:42] INFO root fetch - main [MainThread]: Store serial: [18123454]
