@@ -13938,3 +13938,102 @@
 [2023-05-16 12:02:39] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-05-16 12:02:47] INFO root fetch - main [MainThread]: End processing [kedro-viz]: success
 [2023-05-16 12:02:47] INFO root fetch - main [MainThread]: Store serial: [18121451]
+[2023-05-16 12:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121451]
+[2023-05-16 12:07:56] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hkkang-utils
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: darwin-py
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TailraiderAlliance
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Mosek
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dismake
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: authomize-rest-api-client
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nef-pipelines
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-cloud-bigtable
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-cloud-kms
+[2023-05-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supervisely
+[2023-05-16 12:07:56] INFO root fetch - processPackages [dismake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.38] Old Version: [0.1.37]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [dismake]: executing diffoscope
+[2023-05-16 12:07:56] INFO root fetch - processPackages [dismake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismake-0.0.8.tar.gz tmp/dismake-0.0.9.tar.gz --markdown 20230516/d/dismake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:07:56] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [TailraiderAlliance]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [darwin-py]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.0.0] Old Version: [3.2.3]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [google-cloud-bigtable]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [google-cloud-kms]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2023-05-16 12:07:56] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/90/3f/19ed704c9da1948e822f1a3d3ff5fa7b5df464d1bf39e01e8d55ea56f0dc/nef_pipelines-0.1.37.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [google-cloud-bigtable]: Downloading https://files.pythonhosted.org/packages/73/53/d329370dc282108f26a1608c1d2dd9dc83c4e4b69af08010248990accf22/google-cloud-bigtable-2.8.1.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [darwin-py]: Downloading https://files.pythonhosted.org/packages/93/f6/a0986edeb7fdef1e834f8d1de3051e64d7a11b558e66dd6f541d41841c09/darwin_py-0.8.9.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/46/92/ff134448ca020c9a623807a6d957ed97272ff906456513a8890ef03fd2e8/authomize-rest-api-client-3.2.3.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [google-cloud-kms]: Downloading https://files.pythonhosted.org/packages/3b/6e/4ac301f9f8326a62db6644b616f8d95a337b74f44208ac2ba698c7578f21/google-cloud-kms-2.8.0.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2023-05-16 12:07:57] INFO root fetch - processPackages [TailraiderAlliance]: Downloading https://files.pythonhosted.org/packages/d5/8d/d85de544fa1ad31dbaaecbf23fc14a06653dc94bff3afa3e051adbc8262b/TailraiderAlliance-0.0.4.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-05-16 12:07:57] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230516/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 12:07:57] INFO root fetch - processPackages [google-cloud-bigtable]: Downloading https://files.pythonhosted.org/packages/43/3f/48f9246ce975409c3f5519002ebc49faa00f52c678a345bc967ec63b5a65/google-cloud-bigtable-2.9.0.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/1f/b8/10155a2965432b593a63efcb58674c1e8c9085d439a304419e1469e0c727/authomize-rest-api-client-4.0.0.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [TailraiderAlliance]: executing diffoscope
+[2023-05-16 12:07:57] INFO root fetch - processPackages [TailraiderAlliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TailraiderAlliance-0.0.3.tar.gz tmp/TailraiderAlliance-0.0.4.tar.gz --markdown 20230516/T/TailraiderAlliance/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 12:07:57] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/a4/08/96c731024e3ea8dde3891a92643d608242423f76b55a5cf1bed123d49b76/nef_pipelines-0.1.38.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [google-cloud-bigtable]: executing diffoscope
+[2023-05-16 12:07:57] INFO root fetch - processPackages [google-cloud-bigtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigtable-2.8.1.tar.gz tmp/google-cloud-bigtable-2.9.0.tar.gz --markdown 20230516/g/google-cloud-bigtable/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-16 12:07:57] INFO root fetch - processPackages [darwin-py]: Downloading https://files.pythonhosted.org/packages/c5/56/e34f4f67858e6b507fb799ab789e82144a84a51233dfaaea764b8c51ad5d/darwin_py-0.9.0.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [google-cloud-kms]: Downloading https://files.pythonhosted.org/packages/d1/17/bee6f279596b7d1dbec9be81a8930742f15acff42e9c7a88d51ff0d18ee4/google-cloud-kms-2.9.0.tar.gz
+[2023-05-16 12:07:57] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2023-05-16 12:07:57] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.37.tar.gz tmp/nef_pipelines-0.1.38.tar.gz --markdown 20230516/n/nef-pipelines/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2023-05-16 12:07:57] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-05-16 12:07:57] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-3.2.3.tar.gz tmp/authomize-rest-api-client-4.0.0.tar.gz --markdown 20230516/a/authomize-rest-api-client/3.2.3-4.0.0/diff.md --exclude *.pyd
+[2023-05-16 12:07:57] INFO root fetch - processPackages [darwin-py]: executing diffoscope
+[2023-05-16 12:07:57] INFO root fetch - processPackages [darwin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwin_py-0.8.9.tar.gz tmp/darwin_py-0.9.0.tar.gz --markdown 20230516/d/darwin-py/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 12:07:57] INFO root fetch - processPackages [google-cloud-kms]: executing diffoscope
+[2023-05-16 12:07:57] INFO root fetch - processPackages [google-cloud-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-kms-2.8.0.tar.gz tmp/google-cloud-kms-2.9.0.tar.gz --markdown 20230516/g/google-cloud-kms/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-16 12:07:57] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-05-16 12:07:57] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230516/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-16 12:07:58] INFO root fetch - processPackages [hkkang-utils]: Start processing: lz-import
+[2023-05-16 12:07:58] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-05-16 12:07:58] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2023-05-16 12:07:58] WARNING root fetch - processPackages [lz-import]: Skipping, unable to determine old version
+[2023-05-16 12:07:58] INFO root fetch - processPackages [lz-import]: Start processing: crawler-commons
+[2023-05-16 12:07:58] INFO root fetch - main [MainThread]: End processing [lz-import] error
+[2023-05-16 12:07:58] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 12:07:58] INFO root fetch - processPackages [TailraiderAlliance]: Start processing: aliyun-python-sdk-computenestsupplier
+[2023-05-16 12:07:58] INFO root fetch - main [MainThread]: End processing [TailraiderAlliance]: success
+[2023-05-16 12:07:58] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-16 12:07:58] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230516/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:07:58] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-16 12:07:58] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: executing diffoscope
+[2023-05-16 12:07:58] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-computenestsupplier-1.0.2.tar.gz tmp/aliyun-python-sdk-computenestsupplier-1.0.3.tar.gz --markdown 20230516/a/aliyun-python-sdk-computenestsupplier/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-16 12:07:59] INFO root fetch - processPackages [authomize-rest-api-client]: Start processing: dismake
+[2023-05-16 12:07:59] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-05-16 12:07:59] INFO root fetch - processPackages [dismake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 12:07:59] INFO root fetch - processPackages [dismake]: executing diffoscope
+[2023-05-16 12:07:59] INFO root fetch - processPackages [dismake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismake-0.0.8.tar.gz tmp/dismake-0.0.9.tar.gz --markdown 20230516/d/dismake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:07:59] INFO root fetch - processPackages [dismake]: Start processing: MMEdu
+[2023-05-16 12:07:59] INFO root fetch - main [MainThread]: End processing [dismake]: success
+[2023-05-16 12:07:59] INFO root fetch - processPackages [MMEdu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 12:07:59] INFO root fetch - processPackages [google-cloud-kms]: Start processing: scrapere
+[2023-05-16 12:07:59] INFO root fetch - main [MainThread]: End processing [google-cloud-kms]: success
+[2023-05-16 12:07:59] INFO root fetch - processPackages [scrapere]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 12:07:59] INFO root fetch - main [MainThread]: End processing [darwin-py]: success
+[2023-05-16 12:07:59] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/ab/1e/588ba9856221eb0f1fdb52ad1f4ec1112510c4d8806e8ce3fe35dc706347/MMEdu-0.1.8.tar.gz
+[2023-05-16 12:07:59] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/45/74/376c08ac900908ee91ea1f2ba5384405d42d30983f0471c6c8887aa5d1d1/scrapere-0.1.8.tar.gz
+[2023-05-16 12:08:00] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/47/39/353c28206b6bb14419b0637ed054cdda8882895e90995b407e8ac6891b0e/MMEdu-0.1.9.tar.gz
+[2023-05-16 12:08:00] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2023-05-16 12:08:00] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20230516/M/Mosek/9.3.8-9.3.9/diff.md --exclude *.pyd
+[2023-05-16 12:08:00] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-16 12:08:00] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.7.tar.gz tmp/scrapere-0.1.8.tar.gz --markdown 20230516/s/scrapere/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 12:08:00] INFO root fetch - processPackages [MMEdu]: executing diffoscope
+[2023-05-16 12:08:00] INFO root fetch - processPackages [MMEdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMEdu-0.1.8.tar.gz tmp/MMEdu-0.1.9.tar.gz --markdown 20230516/M/MMEdu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 12:08:00] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-16 12:08:00] INFO root fetch - main [MainThread]: End processing [google-cloud-bigtable]: success
+[2023-05-16 12:08:00] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-computenestsupplier]: success
+[2023-05-16 12:08:00] INFO root fetch - main [MainThread]: End processing [dismake]: success
+[2023-05-16 12:08:01] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-05-16 12:08:01] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-16 12:08:01] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2023-05-16 12:08:04] INFO root fetch - main [MainThread]: End processing [MMEdu]: success
+[2023-05-16 12:08:48] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2023-05-16 12:08:48] INFO root fetch - main [MainThread]: Store serial: [18121525]
