@@ -18667,3 +18667,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 16:02:08] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
 [2023-05-16 16:02:12] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-16 16:02:12] INFO root fetch - main [MainThread]: Store serial: [18124360]
+[2023-05-16 16:07:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124360]
+[2023-05-16 16:07:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyphpfunc
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BDXConverter
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recon-lw
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diskq
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zrlog
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iron-toolbox
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TotalSegmentator
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kappadata
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NEMO
+[2023-05-16 16:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bus-wizard
+[2023-05-16 16:07:21] INFO root fetch - processPackages [BDXConverter]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-16 16:07:21] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4992831728] Old Version: [2.0.0.dev4991603720]
+[2023-05-16 16:07:21] INFO root fetch - processPackages [bus-wizard]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 16:07:21] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 16:07:22] WARNING root fetch - processPackages [pyphpfunc]: Skipping, unable to determine old version
+[2023-05-16 16:07:22] INFO root fetch - processPackages [pyphpfunc]: Start processing: aihandler
+[2023-05-16 16:07:22] INFO root fetch - main [MainThread]: End processing [pyphpfunc] error
+[2023-05-16 16:07:22] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.1.8.tar.gz tmp/BDXConverter-1.1.9.tar.gz --markdown 20230516/B/BDXConverter/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] WARNING root fetch - processPackages [diskq]: Skipping, unable to determine old version
+[2023-05-16 16:07:22] INFO root fetch - processPackages [diskq]: Start processing: certora-cli-alpha-CERT-2181-support-currentContract-in-ghosts
+[2023-05-16 16:07:22] INFO root fetch - main [MainThread]: End processing [diskq] error
+[2023-05-16 16:07:22] INFO root fetch - processPackages [zrlog]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-16 16:07:22] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-16 16:07:22] INFO root fetch - processPackages [TotalSegmentator]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-16 16:07:22] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-16 16:07:22] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230516/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] INFO root fetch - processPackages [NEMO]: New version: [4.5.5] Old Version: [4.5.4]
+[2023-05-16 16:07:22] INFO root fetch - processPackages [bus-wizard]: Downloading https://files.pythonhosted.org/packages/5d/cf/9beb5c1b8296b5bc24e8d35dfbbc3bee3d807be121465cce5d324f4decec/bus_wizard-0.0.4.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/6c/c8/87343a561d0a28da062c39a8a44f1e9f6ccdc89f55c206b2fbf017d6fe7d/recon_lw-2.0.0.dev4992831728.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230516/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] WARNING root fetch - processPackages [certora-cli-alpha-CERT-2181-support-currentContract-in-ghosts]: Skipping, unable to determine old version
+[2023-05-16 16:07:22] INFO root fetch - processPackages [certora-cli-alpha-CERT-2181-support-currentContract-in-ghosts]: Start processing: corrct
+[2023-05-16 16:07:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-CERT-2181-support-currentContract-in-ghosts] error
+[2023-05-16 16:07:22] INFO root fetch - processPackages [TotalSegmentator]: Downloading https://files.pythonhosted.org/packages/64/d0/8e24c588776e6987bd2d4a4c041fc35edeb3162fd750f70ca615e5275f5f/TotalSegmentator-1.5.5.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [bus-wizard]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [bus-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_wizard-0.0.3.tar.gz tmp/bus_wizard-0.0.4.tar.gz --markdown 20230516/b/bus-wizard/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] INFO root fetch - processPackages [zrlog]: Downloading https://files.pythonhosted.org/packages/b6/12/c8b18ab80c8d2979c664ae06ce9582d97fc0b94ad401d46ad0917f153004/zrlog-0.1.1.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4991603720.tar.gz tmp/recon_lw-2.0.0.dev4992831728.tar.gz --markdown 20230516/r/recon-lw/2.0.0.dev4991603720-2.0.0.dev4992831728/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] INFO root fetch - processPackages [NEMO]: Downloading https://files.pythonhosted.org/packages/06/71/2fb9f618d19bba96dc8c1da30f5ef7a14edd7edea2d15612d558dc6045af/NEMO-4.5.4.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [corrct]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-16 16:07:22] INFO root fetch - processPackages [TotalSegmentator]: Downloading https://files.pythonhosted.org/packages/03/1c/ac5d724d368a65b215eb9e7f839dff18fef544354633d3524f5d6bd605c4/TotalSegmentator-1.5.6.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230516/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] INFO root fetch - processPackages [TotalSegmentator]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [TotalSegmentator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TotalSegmentator-1.5.5.tar.gz tmp/TotalSegmentator-1.5.6.tar.gz --markdown 20230516/T/TotalSegmentator/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] INFO root fetch - processPackages [zrlog]: Downloading https://files.pythonhosted.org/packages/b5/a8/3e7118e6084162174c1e01f58ca1ccd37fff44661b6c33e53b1a27618974/zrlog-0.2.0.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [corrct]: Downloading https://files.pythonhosted.org/packages/4b/d5/a285c6373b0724dc2aa05dd5f1c69578aa5a67684854965e6d96d24ee41b/corrct-0.8.0.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [NEMO]: Downloading https://files.pythonhosted.org/packages/e8/b6/57fd880790861fb748ecb0b2d2deb58b4d48540d4156d825edbe8b806df9/NEMO-4.5.5.tar.gz
+[2023-05-16 16:07:22] INFO root fetch - processPackages [zrlog]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [zrlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrlog-0.1.1.tar.gz tmp/zrlog-0.2.0.tar.gz --markdown 20230516/z/zrlog/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] INFO root fetch - processPackages [NEMO]: executing diffoscope
+[2023-05-16 16:07:22] INFO root fetch - processPackages [NEMO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO-4.5.4.tar.gz tmp/NEMO-4.5.5.tar.gz --markdown 20230516/N/NEMO/4.5.4-4.5.5/diff.md --exclude *.pyd
+[2023-05-16 16:07:22] INFO root fetch - processPackages [corrct]: Downloading https://files.pythonhosted.org/packages/b2/18/82abcf52e1158a8d460d6c779adf6f7a04954814f3cd6a1e7425ec6e8a51/corrct-0.8.1.tar.gz
+[2023-05-16 16:07:23] INFO root fetch - processPackages [corrct]: executing diffoscope
+[2023-05-16 16:07:23] INFO root fetch - processPackages [corrct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corrct-0.8.0.tar.gz tmp/corrct-0.8.1.tar.gz --markdown 20230516/c/corrct/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-16 16:07:23] INFO root fetch - processPackages [recon-lw]: Start processing: WebtoonScraper
+[2023-05-16 16:07:23] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-16 16:07:23] INFO root fetch - main [MainThread]: End processing [bus-wizard]: success
+[2023-05-16 16:07:23] WARNING root fetch - processPackages [WebtoonScraper]: Skipping, unable to determine old version
+[2023-05-16 16:07:23] INFO root fetch - main [MainThread]: End processing [WebtoonScraper] error
+[2023-05-16 16:07:23] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-05-16 16:07:23] INFO root fetch - main [MainThread]: End processing [zrlog]: success
+[2023-05-16 16:07:24] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-05-16 16:07:24] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-16 16:07:24] INFO root fetch - main [MainThread]: End processing [TotalSegmentator]: success
+[2023-05-16 16:07:25] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-05-16 16:07:25] INFO root fetch - main [MainThread]: End processing [corrct]: success
+[2023-05-16 16:07:30] INFO root fetch - main [MainThread]: End processing [NEMO]: success
+[2023-05-16 16:07:30] INFO root fetch - main [MainThread]: Store serial: [18124407]
