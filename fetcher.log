@@ -17440,3 +17440,150 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 15:14:04] INFO root fetch - processPackages [artistools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artistools-2023.4.19.2.tar.gz tmp/artistools-2023.5.16.tar.gz --markdown 20230516/a/artistools/2023.4.19.2-2023.5.16/diff.md --exclude *.pyd
 [2023-05-16 15:14:10] INFO root fetch - main [MainThread]: End processing [artistools]: success
 [2023-05-16 15:14:10] INFO root fetch - main [MainThread]: Store serial: [18123691]
+[2023-05-16 15:19:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18123691]
+[2023-05-16 15:19:19] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alipay-sdk-python
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intecomm-form-validators
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-sphinx
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-airflow
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyVLMP
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ramodels
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-utilitas
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nlp-models
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-django
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sllim
+[2023-05-16 15:19:19] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-16 15:19:19] INFO root fetch - processPackages [django-utilitas]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-16 15:19:19] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-16 15:19:19] WARNING root fetch - processPackages [sllim]: Skipping, unable to determine old version
+[2023-05-16 15:19:19] INFO root fetch - processPackages [sllim]: Start processing: nonebot-plugin-session
+[2023-05-16 15:19:19] INFO root fetch - main [MainThread]: End processing [sllim] error
+[2023-05-16 15:19:19] WARNING root fetch - processPackages [nonebot-plugin-session]: Skipping, unable to determine old version
+[2023-05-16 15:19:19] INFO root fetch - processPackages [nonebot-plugin-session]: Start processing: certora-cli-alpha-rahav-CERT-2189-bad-error-message
+[2023-05-16 15:19:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-session] error
+[2023-05-16 15:19:19] WARNING root fetch - processPackages [certora-cli-alpha-rahav-CERT-2189-bad-error-message]: Skipping, unable to determine old version
+[2023-05-16 15:19:19] INFO root fetch - processPackages [certora-cli-alpha-rahav-CERT-2189-bad-error-message]: Start processing: climify-api
+[2023-05-16 15:19:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-CERT-2189-bad-error-message] error
+[2023-05-16 15:19:19] INFO root fetch - processPackages [climify-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 15:19:19] INFO root fetch - processPackages [alipay-sdk-python]: New version: [3.6.72] Old Version: [3.6.623]
+[2023-05-16 15:19:20] INFO root fetch - processPackages [django-utilitas]: executing diffoscope
+[2023-05-16 15:19:20] INFO root fetch - processPackages [django-utilitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-utilitas-1.3.5.tar.gz tmp/django-utilitas-1.3.6.tar.gz --markdown 20230516/d/django-utilitas/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-16 15:19:20] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 15:19:20] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-16 15:19:20] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230516/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nlp-models]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:19:20] INFO root fetch - processPackages [apache-airflow]: New version: [2.6.1rc3] Old Version: [2.6.1rc2]
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:19:20] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/97/1b/442451945f30940b97b214ffda3de4221647ebaa1ea28fcfb07d3a6fb591/alipay-sdk-python-3.6.623.tar.gz
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230516/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:19:20] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/7a/50/b8ebce324564eda6983bb4a17cd14eec6697794b808ba16859571d75e4d1/nlp-models-1.0.0.tar.gz
+[2023-05-16 15:19:20] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-05-16 15:19:20] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.5.tar.gz tmp/pyVLMP-1.0.6.tar.gz --markdown 20230516/p/pyVLMP/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-16 15:19:20] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-05-16 15:19:20] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.7.tar.gz tmp/climify_api-1.0.8.tar.gz --markdown 20230516/c/climify-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230516/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:19:20] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/34/16/aa9e50bbf7dc02fad23997af8883ac80d13d8b229677deabe84e0f35c392/nlp-models-1.0.1.tar.gz
+[2023-05-16 15:19:20] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/1a/44/c1026b1a03c94307814aabb95ba597b7d8a69d4a1e1380d2e5d9942fbc05/alipay-sdk-python-3.6.72.tar.gz
+[2023-05-16 15:19:20] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-05-16 15:19:20] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230516/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nlp-models]: executing diffoscope
+[2023-05-16 15:19:20] INFO root fetch - processPackages [nlp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-models-1.0.0.tar.gz tmp/nlp-models-1.0.1.tar.gz --markdown 20230516/n/nlp-models/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 15:19:21] INFO root fetch - processPackages [apache-airflow]: Downloading https://files.pythonhosted.org/packages/48/a3/00046da0ff4e1da92aff60badf78d9b5d455ab1ae91360129bacefca6a4f/apache-airflow-2.6.1rc2.tar.gz
+[2023-05-16 15:19:21] WARNING root fetch - processPackages [apache-airflow]: Skipping package: exceeds size limit 11472064>=10485760
+[2023-05-16 15:19:21] INFO root fetch - processPackages [apache-airflow]: Start processing: petab
+[2023-05-16 15:19:21] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
+[2023-05-16 15:19:21] INFO root fetch - processPackages [alipay-sdk-python]: executing diffoscope
+[2023-05-16 15:19:21] INFO root fetch - processPackages [alipay-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alipay-sdk-python-3.6.623.tar.gz tmp/alipay-sdk-python-3.6.72.tar.gz --markdown 20230516/a/alipay-sdk-python/3.6.623-3.6.72/diff.md --exclude *.pyd
+[2023-05-16 15:19:21] INFO root fetch - processPackages [petab]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-16 15:19:21] INFO root fetch - processPackages [petab]: Downloading https://files.pythonhosted.org/packages/d6/8e/6ee1013edd2b0cffbcd00d73a4cf7a3417626a5c169f7c7a9af2e4475fa9/petab-0.2.0.tar.gz
+[2023-05-16 15:19:21] INFO root fetch - processPackages [django-utilitas]: Start processing: nbdev-apl
+[2023-05-16 15:19:21] INFO root fetch - main [MainThread]: End processing [django-utilitas]: success
+[2023-05-16 15:19:21] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.775] Old Version: [0.0.774]
+[2023-05-16 15:19:22] INFO root fetch - processPackages [petab]: Downloading https://files.pythonhosted.org/packages/ed/00/539182c177a017e58a9dd7d2d8bb86b718263e4e2e02b491cca5f1f0b4a1/petab-0.2.1.tar.gz
+[2023-05-16 15:19:22] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-16 15:19:22] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.774.tar.gz tmp/nbdev-apl-0.0.775.tar.gz --markdown 20230516/n/nbdev-apl/0.0.774-0.0.775/diff.md --exclude *.pyd
+[2023-05-16 15:19:22] INFO root fetch - processPackages [ramodels]: Start processing: wue
+[2023-05-16 15:19:22] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-16 15:19:22] WARNING root fetch - processPackages [wue]: Skipping, unable to determine old version
+[2023-05-16 15:19:22] INFO root fetch - processPackages [wue]: Start processing: django-utilitas
+[2023-05-16 15:19:22] INFO root fetch - main [MainThread]: End processing [wue] error
+[2023-05-16 15:19:22] INFO root fetch - processPackages [django-utilitas]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-16 15:19:22] INFO root fetch - processPackages [petab]: executing diffoscope
+[2023-05-16 15:19:22] INFO root fetch - processPackages [petab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petab-0.2.0.tar.gz tmp/petab-0.2.1.tar.gz --markdown 20230516/p/petab/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-16 15:19:22] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/ef/af/768c7b3176130b197ccd20e0e99f01333e8714605cf792c105e60adc7a95/django-utilitas-1.3.7.tar.gz
+[2023-05-16 15:19:22] INFO root fetch - processPackages [intecomm-form-validators]: Start processing: udata-front
+[2023-05-16 15:19:22] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-05-16 15:19:22] INFO root fetch - processPackages [udata-front]: New version: [3.2.3.dev9974] Old Version: [3.2.3.dev10709]
+[2023-05-16 15:19:22] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: depthai-sdk
+[2023-05-16 15:19:22] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-16 15:19:22] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/22/fb/87f343de572f07e755f139413d17873b19e2251f2efff3e108ba60bac315/udata_front-3.2.3.dev10709-py2.py3-none-any.whl
+[2023-05-16 15:19:22] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/4b/52/3eaaa877dc9e31c7ad0873bcba35994c7b07979471284a4b8211d37e727c/django-utilitas-1.3.8.tar.gz
+[2023-05-16 15:19:22] INFO root fetch - processPackages [nbdev-django]: Start processing: odoo13-addon-base-binary-url-import
+[2023-05-16 15:19:22] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-16 15:19:22] INFO root fetch - processPackages [depthai-sdk]: New version: [1.9.5] Old Version: [1.9.4.1]
+[2023-05-16 15:19:22] INFO root fetch - processPackages [nlp-models]: Start processing: odoo13-addon-test-base-binary-url-import
+[2023-05-16 15:19:22] INFO root fetch - main [MainThread]: End processing [nlp-models]: success
+[2023-05-16 15:19:22] WARNING root fetch - processPackages [odoo13-addon-base-binary-url-import]: Skipping, unable to determine old version
+[2023-05-16 15:19:22] INFO root fetch - processPackages [odoo13-addon-base-binary-url-import]: Start processing: label-sleuth
+[2023-05-16 15:19:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-binary-url-import] error
+[2023-05-16 15:19:22] WARNING root fetch - processPackages [odoo13-addon-test-base-binary-url-import]: Skipping, unable to determine old version
+[2023-05-16 15:19:22] INFO root fetch - processPackages [odoo13-addon-test-base-binary-url-import]: Start processing: qontract-reconcile
+[2023-05-16 15:19:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-test-base-binary-url-import] error
+[2023-05-16 15:19:23] INFO root fetch - processPackages [django-utilitas]: executing diffoscope
+[2023-05-16 15:19:23] INFO root fetch - processPackages [django-utilitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-utilitas-1.3.7.tar.gz tmp/django-utilitas-1.3.8.tar.gz --markdown 20230516/d/django-utilitas/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-16 15:19:23] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-16 15:19:23] INFO root fetch - processPackages [climify-api]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-16 15:19:23] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-05-16 15:19:23] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/20/eb/0df359cc2efb53018ab6bb3265e923186a11e3b4874f563e38ed961a4982/depthai-sdk-1.9.4.1.tar.gz
+[2023-05-16 15:19:23] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-05-16 15:19:23] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.3.dev10709-py2.py3-none-any.whl.zip tmp/udata_front-3.2.3.dev9974-py2.py3-none-any.whl.zip --markdown 20230516/u/udata-front/3.2.3.dev10709-3.2.3.dev9974/diff.md --exclude *.pyd
+[2023-05-16 15:19:23] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-16 15:19:23] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:19:23] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-16 15:19:23] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230516/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-16 15:19:23] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-16 15:19:23] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:19:23] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/77/e0/ee99d0650b8f1910bc9bb3c144dd4782f08b149f5a3bd4099f346117368b/label-sleuth-0.9.3.tar.gz
+[2023-05-16 15:19:23] INFO root fetch - processPackages [depthai-sdk]: Downloading https://files.pythonhosted.org/packages/8a/c6/52f9402b7ada5aae5bbcd8c9a70c488e99bfdb7e05ea708ea6bb2f02b64c/depthai-sdk-1.9.5.tar.gz
+[2023-05-16 15:19:23] INFO root fetch - processPackages [depthai-sdk]: executing diffoscope
+[2023-05-16 15:19:23] INFO root fetch - processPackages [depthai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthai-sdk-1.9.4.1.tar.gz tmp/depthai-sdk-1.9.5.tar.gz --markdown 20230516/d/depthai-sdk/1.9.4.1-1.9.5/diff.md --exclude *.pyd
+[2023-05-16 15:19:23] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/dd/ee/ffc7b366823c259f75094f7898e27c3f4ae71d66cd5fa3f5da579f3afbbd/label-sleuth-0.9.4.tar.gz
+[2023-05-16 15:19:23] INFO root fetch - processPackages [nbdev-apl]: Start processing: pipshelllll
+[2023-05-16 15:19:23] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-16 15:19:24] WARNING root fetch - processPackages [pipshelllll]: Skipping, unable to determine old version
+[2023-05-16 15:19:24] INFO root fetch - processPackages [pipshelllll]: Start processing: iron-toolbox
+[2023-05-16 15:19:24] INFO root fetch - main [MainThread]: End processing [pipshelllll] error
+[2023-05-16 15:19:24] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-05-16 15:19:24] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230516/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-16 15:19:24] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 15:19:24] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-05-16 15:19:24] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230516/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 15:19:24] INFO root fetch - processPackages [pyVLMP]: Start processing: mainnet
+[2023-05-16 15:19:24] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-05-16 15:19:24] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-16 15:19:24] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-05-16 15:19:24] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230516/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-16 15:19:25] INFO root fetch - processPackages [django-utilitas]: Start processing: sisaptools
+[2023-05-16 15:19:25] INFO root fetch - main [MainThread]: End processing [django-utilitas]: success
+[2023-05-16 15:19:25] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-16 15:19:25] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/96/02/9b4bfd32347388e1847764a78c7a71ec5021f029c567f97a40ad392fbada/sisaptools-1.9.8.tar.gz
+[2023-05-16 15:19:25] INFO root fetch - main [MainThread]: End processing [petab]: success
+[2023-05-16 15:19:25] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/fa/b7/9ed03e2a5a0fab512a4b6a72bcb2957691b047981b21811a85b006208ce0/sisaptools-1.9.9.tar.gz
+[2023-05-16 15:19:25] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-05-16 15:19:25] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230516/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-16 15:19:26] INFO root fetch - main [MainThread]: End processing [depthai-sdk]: success
+[2023-05-16 15:19:26] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-05-16 15:19:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-16 15:19:27] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-05-16 15:19:29] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-16 15:19:34] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-05-16 15:19:54] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-05-16 15:20:13] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-05-16 15:22:21] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
+[2023-05-16 15:22:21] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
+[2023-05-16 15:22:21] INFO root fetch - main [MainThread]: Store serial: [18123782]
