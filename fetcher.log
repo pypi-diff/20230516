@@ -3656,3 +3656,37 @@
 [2023-05-16 02:59:29] INFO root fetch - main [MainThread]: End processing [hugchat]: success
 [2023-05-16 03:00:00] INFO root fetch - main [MainThread]: End processing [wrap-rocks]: success
 [2023-05-16 03:00:00] INFO root fetch - main [MainThread]: Store serial: [18115913]
+[2023-05-16 03:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18115913]
+[2023-05-16 03:05:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-16 03:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aemcmc-nightly
+[2023-05-16 03:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acc_provision
+[2023-05-16 03:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-05-16 03:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: structure-py
+[2023-05-16 03:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-roborock
+[2023-05-16 03:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-jtoman-cert-2122
+[2023-05-16 03:05:19] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-16 03:05:19] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230516] Old Version: [0.0.8.dev20230515]
+[2023-05-16 03:05:19] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-cert-2122]: Skipping, unable to determine old version
+[2023-05-16 03:05:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-cert-2122] error
+[2023-05-16 03:05:19] INFO root fetch - processPackages [acc_provision]: New version: [5.2.3.7rc1] Old Version: [5.2.3.6rc5]
+[2023-05-16 03:05:19] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-05-16 03:05:19] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-16 03:05:19] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230516/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-16 03:05:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-16 03:05:20] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/9e/77/86d6b796d073f361cce80520296c265db82a5d1c1db38e7c8e7ece34b8a8/aemcmc-nightly-0.0.8.dev20230515.tar.gz
+[2023-05-16 03:05:20] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/5e/cd/1ef9015a79df92d76ab07cb4263ca3e5fa335f4241b29cf208c2bc1a1a98/acc_provision-5.2.3.6rc5.tar.gz
+[2023-05-16 03:05:20] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-16 03:05:20] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230516/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 03:05:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-16 03:05:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230516/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:05:20] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/31/9f/bae48e640532723de38549dca5c34503733d805559d4cd64a737cf4fb87b/aemcmc-nightly-0.0.8.dev20230516.tar.gz
+[2023-05-16 03:05:20] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-16 03:05:20] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230515.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230516.tar.gz --markdown 20230516/a/aemcmc-nightly/0.0.8.dev20230515-0.0.8.dev20230516/diff.md --exclude *.pyd
+[2023-05-16 03:05:21] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-16 03:05:21] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-16 03:05:21] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-16 03:05:21] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-16 03:05:22] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/23/df/fae4102be803ac1c22fc4d571e99c30406546332eb1cc30fa80a8867361d/acc_provision-5.2.3.7rc1.tar.gz
+[2023-05-16 03:05:22] WARNING root fetch - processPackages [acc_provision]: Skipping package: exceeds size limit 10592210>=10485760
+[2023-05-16 03:05:22] INFO root fetch - main [MainThread]: End processing [acc_provision] error
+[2023-05-16 03:05:22] INFO root fetch - main [MainThread]: Store serial: [18115932]
