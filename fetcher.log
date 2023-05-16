@@ -10580,3 +10580,19 @@
 [2023-05-16 09:04:21] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
 [2023-05-16 09:04:21] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
 [2023-05-16 09:04:21] INFO root fetch - main [MainThread]: Store serial: [18119571]
+[2023-05-16 09:09:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119571]
+[2023-05-16 09:09:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-16 09:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtdip-sdk
+[2023-05-16 09:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazi
+[2023-05-16 09:09:30] INFO root fetch - processPackages [rtdip-sdk]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-16 09:09:30] INFO root fetch - processPackages [lazi]: New version: [1.7.80] Old Version: [1.7.74]
+[2023-05-16 09:09:31] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/e3/cc/42ff3d44e4193091419424c35beccdc78307aa108290094f4e1a87ddc5ec/lazi-1.7.74.tar.gz
+[2023-05-16 09:09:31] INFO root fetch - processPackages [rtdip-sdk]: Downloading https://files.pythonhosted.org/packages/ba/9e/04812df611a7504f0e899697c9d78131a040293a7db2100cb9e580e6631a/rtdip_sdk-0.3.1-py3-none-any.whl
+[2023-05-16 09:09:31] INFO root fetch - processPackages [rtdip-sdk]: executing diffoscope
+[2023-05-16 09:09:31] INFO root fetch - processPackages [rtdip-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtdip_sdk-0.3.0-py3-none-any.whl.zip tmp/rtdip_sdk-0.3.1-py3-none-any.whl.zip --markdown 20230516/r/rtdip-sdk/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-16 09:09:31] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/38/e7/5c1940064abb7e802f358c72a90c92a3c7d17170dbc0e08e6c650a653e86/lazi-1.7.80.tar.gz
+[2023-05-16 09:09:31] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-16 09:09:31] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.7.74.tar.gz tmp/lazi-1.7.80.tar.gz --markdown 20230516/l/lazi/1.7.74-1.7.80/diff.md --exclude *.pyd
+[2023-05-16 09:09:32] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-16 09:09:33] INFO root fetch - main [MainThread]: End processing [rtdip-sdk]: success
+[2023-05-16 09:09:33] INFO root fetch - main [MainThread]: Store serial: [18119578]
