@@ -7597,3 +7597,43 @@
 [2023-05-16 05:26:58] INFO root fetch - main [MainThread]: End processing [zensvi]: success
 [2023-05-16 05:27:35] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2023-05-16 05:27:35] INFO root fetch - main [MainThread]: Store serial: [18117844]
+[2023-05-16 05:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117844]
+[2023-05-16 05:32:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-16 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HawaData
+[2023-05-16 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensor-processor-learning
+[2023-05-16 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Daystar
+[2023-05-16 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-runtime
+[2023-05-16 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ant1Interface
+[2023-05-16 05:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: VSautomatic
+[2023-05-16 05:32:45] INFO root fetch - processPackages [Daystar]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 05:32:45] INFO root fetch - processPackages [VSautomatic]: New version: [1.1] Old Version: [1.0]
+[2023-05-16 05:32:45] INFO root fetch - processPackages [tensor-processor-learning]: New version: [1.2] Old Version: [1.1]
+[2023-05-16 05:32:45] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-16 05:32:45] INFO root fetch - processPackages [HawaData]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-16 05:32:45] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 05:32:45] INFO root fetch - processPackages [Daystar]: Downloading https://files.pythonhosted.org/packages/64/b4/0ab8eec67f8e0d507aab6f79ec7e12579da428bff10a2860166b106e339d/Daystar-0.0.1.tar.gz
+[2023-05-16 05:32:45] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-05-16 05:32:45] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230516/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 05:32:45] INFO root fetch - processPackages [VSautomatic]: Downloading https://files.pythonhosted.org/packages/80/3e/204f7ef1eade6f6af0d1467e073fe70a88040f23dbdd56a5d004a40c70f2/VSautomatic-1.0.tar.gz
+[2023-05-16 05:32:45] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/55/b4/0e6b33a4139d94b793f6747518ad2b6eda750a5014c420ed47f940d8f4f6/HawaData-0.4.0.tar.gz
+[2023-05-16 05:32:45] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-05-16 05:32:45] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230516/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 05:32:45] INFO root fetch - processPackages [tensor-processor-learning]: Downloading https://files.pythonhosted.org/packages/50/28/c95f5c56a48b44842bfbe867d7c4ec57355911791199ffef1ba298e50233/tensor_processor_learning-1.2.tar.gz
+[2023-05-16 05:32:45] INFO root fetch - processPackages [tensor-processor-learning]: executing diffoscope
+[2023-05-16 05:32:45] INFO root fetch - processPackages [tensor-processor-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensor_processor_learning-1.1.tar.gz tmp/tensor_processor_learning-1.2.tar.gz --markdown 20230516/t/tensor-processor-learning/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-16 05:32:45] INFO root fetch - processPackages [Daystar]: Downloading https://files.pythonhosted.org/packages/67/fb/453a8c6ea14a49b73c1dea6b342562c8673409df5435557945b02c73bd79/Daystar-0.0.2.tar.gz
+[2023-05-16 05:32:45] INFO root fetch - processPackages [VSautomatic]: Downloading https://files.pythonhosted.org/packages/d2/9e/cffa408653a44acb46e3e17cef3dec8688627af16e0fed45735912868ca4/VSautomatic-1.1.tar.gz
+[2023-05-16 05:32:45] INFO root fetch - processPackages [Daystar]: executing diffoscope
+[2023-05-16 05:32:45] INFO root fetch - processPackages [Daystar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Daystar-0.0.1.tar.gz tmp/Daystar-0.0.2.tar.gz --markdown 20230516/D/Daystar/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 05:32:45] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/ab/1f/a327a02a0967d41746d0e90e3e2586141629b954b4d2899859a09a09159b/HawaData-0.4.1.tar.gz
+[2023-05-16 05:32:45] INFO root fetch - processPackages [VSautomatic]: executing diffoscope
+[2023-05-16 05:32:45] INFO root fetch - processPackages [VSautomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VSautomatic-1.0.tar.gz tmp/VSautomatic-1.1.tar.gz --markdown 20230516/V/VSautomatic/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-16 05:32:45] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-05-16 05:32:45] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.4.0.tar.gz tmp/HawaData-0.4.1.tar.gz --markdown 20230516/H/HawaData/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-16 05:32:46] INFO root fetch - main [MainThread]: End processing [tensor-processor-learning]: success
+[2023-05-16 05:32:46] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-05-16 05:32:46] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-05-16 05:32:46] INFO root fetch - main [MainThread]: End processing [Daystar]: success
+[2023-05-16 05:32:46] INFO root fetch - main [MainThread]: End processing [VSautomatic]: success
+[2023-05-16 05:32:47] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-05-16 05:32:47] INFO root fetch - main [MainThread]: Store serial: [18117862]
