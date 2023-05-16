@@ -18475,3 +18475,119 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 15:51:25] INFO root fetch - main [MainThread]: End processing [openclsim]: success
 [2023-05-16 15:51:35] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-16 15:51:35] INFO root fetch - main [MainThread]: Store serial: [18124265]
+[2023-05-16 15:56:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124265]
+[2023-05-16 15:56:48] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskbase
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akeneo-cli
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: znh5md
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dymoval
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biocartograph
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipshelllll
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tapita
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynguin
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dissect.target
+[2023-05-16 15:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clickzetta-connector
+[2023-05-16 15:56:48] INFO root fetch - processPackages [taskbase]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 15:56:48] WARNING root fetch - processPackages [pipshelllll]: Skipping, unable to determine old version
+[2023-05-16 15:56:48] INFO root fetch - processPackages [pipshelllll]: Start processing: clickzetta-sqlalchemy
+[2023-05-16 15:56:48] INFO root fetch - main [MainThread]: End processing [pipshelllll] error
+[2023-05-16 15:56:48] INFO root fetch - processPackages [dymoval]: New version: [0.8.81] Old Version: [0.8.8]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [pynguin]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [akeneo-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-16 15:56:48] WARNING root fetch - processPackages [tapita]: Skipping, unable to determine old version
+[2023-05-16 15:56:48] INFO root fetch - processPackages [tapita]: Start processing: mwrpy
+[2023-05-16 15:56:48] INFO root fetch - main [MainThread]: End processing [tapita] error
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [dymoval]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [dymoval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dymoval-0.8.8.tar.gz tmp/dymoval-0.8.81.tar.gz --markdown 20230516/d/dymoval/0.8.8-0.8.81/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [biocartograph]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [znh5md]: New version: [0.1.7] Old Version: [0.1.6a0]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-16 15:56:48] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-16 15:56:48] INFO root fetch - processPackages [dissect.target]: Start processing: nlp-models
+[2023-05-16 15:56:48] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-16 15:56:48] INFO root fetch - processPackages [taskbase]: Downloading https://files.pythonhosted.org/packages/c7/6c/02cfec4d8f640bb7f49e7c32a86e88467386d538583867bfb34125aa1688/taskbase-0.1.5.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [nlp-models]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [mwrpy]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-16 15:56:48] INFO root fetch - processPackages [pynguin]: Downloading https://files.pythonhosted.org/packages/f8/cf/84aa8a5c3874ecb67b947b52c2b6d72352e88377626c03bc164e42683db8/pynguin-0.9.1.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [akeneo-cli]: Downloading https://files.pythonhosted.org/packages/3f/ac/fd01d26ee80985460b6db09b6e06e2d37c398129aca7054b5bd63189c796/akeneo-cli-1.0.8.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [taskbase]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [taskbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskbase-0.1.4.tar.gz tmp/taskbase-0.1.5.tar.gz --markdown 20230516/t/taskbase/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/00/be/db31cb11fc84dac7dd1cb6f7ea64b0391de84ef0a83b950ec0788adf2cfe/clickzetta-connector-0.6.5.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [nlp-models]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [nlp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-models-1.0.0.tar.gz tmp/nlp-models-1.0.1.tar.gz --markdown 20230516/n/nlp-models/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/13/5b/c072c4778c2ca8d318b079dbd7ea377ea6c2908c653f41b005c819e77ec1/clickzetta-sqlalchemy-0.6.5.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [znh5md]: Downloading https://files.pythonhosted.org/packages/a1/22/c4179929275d435ac51a23bdef4233d8b95d61a12633bb01344059c5e7d7/znh5md-0.1.6a0.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [biocartograph]: Downloading https://files.pythonhosted.org/packages/17/58/971aa4116533836ff0f70b2cce799f5ea212f17b32ad34d85a9e31f85c4c/biocartograph-0.5.1.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [akeneo-cli]: Downloading https://files.pythonhosted.org/packages/9b/00/35c6532ee1eb19f69add8c66fe1ee3016bb29681c96a4884f9bcdf978bee/akeneo-cli-1.0.9.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [pynguin]: Downloading https://files.pythonhosted.org/packages/8f/d4/6d71a49162929dcb12e5563e679e84684e5f046894b11063d8db01d97809/pynguin-0.9.2.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/b0/8f/b30914e40d93fd94695cc810bac4b3bc0f87bbc8aaa53cbc650700e27137/mwrpy-0.2.0.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [biocartograph]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [biocartograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocartograph-0.5.0.tar.gz tmp/biocartograph-0.5.1.tar.gz --markdown 20230516/b/biocartograph/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/42/36/2fb0ce2a84572beed5c2aaadef7a094161bde3dd331988a2da0366ee9779/clickzetta-connector-0.6.6.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/24/1d/876d494927b919979e93cfa1d721dd580972604d4efb8e2b1c0d1291c5ec/clickzetta-sqlalchemy-0.6.6.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [znh5md]: Downloading https://files.pythonhosted.org/packages/4f/fd/31e528830aaf513fceeaf5b691af91b8067e9cca210d1a22c2354db58b4e/znh5md-0.1.7.tar.gz
+[2023-05-16 15:56:48] INFO root fetch - processPackages [pynguin]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [pynguin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynguin-0.9.1.tar.gz tmp/pynguin-0.9.2.tar.gz --markdown 20230516/p/pynguin/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [akeneo-cli]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [akeneo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeneo-cli-1.0.8.tar.gz tmp/akeneo-cli-1.0.9.tar.gz --markdown 20230516/a/akeneo-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [znh5md]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [znh5md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/znh5md-0.1.6a0.tar.gz tmp/znh5md-0.1.7.tar.gz --markdown 20230516/z/znh5md/0.1.6a0-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.6.5.tar.gz tmp/clickzetta-connector-0.6.6.tar.gz --markdown 20230516/c/clickzetta-connector/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.6.5.tar.gz tmp/clickzetta-sqlalchemy-0.6.6.tar.gz --markdown 20230516/c/clickzetta-sqlalchemy/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-16 15:56:48] INFO root fetch - processPackages [mwrpy]: executing diffoscope
+[2023-05-16 15:56:48] INFO root fetch - processPackages [mwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwrpy-0.1.8.tar.gz tmp/mwrpy-0.2.0.tar.gz --markdown 20230516/m/mwrpy/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 15:56:49] INFO root fetch - processPackages [taskbase]: Start processing: mlflow-aws-rds-iam
+[2023-05-16 15:56:49] INFO root fetch - main [MainThread]: End processing [taskbase]: success
+[2023-05-16 15:56:49] WARNING root fetch - processPackages [mlflow-aws-rds-iam]: Skipping, unable to determine old version
+[2023-05-16 15:56:49] INFO root fetch - processPackages [mlflow-aws-rds-iam]: Start processing: gtki-module-orup-errors
+[2023-05-16 15:56:49] INFO root fetch - main [MainThread]: End processing [mlflow-aws-rds-iam] error
+[2023-05-16 15:56:50] INFO root fetch - processPackages [gtki-module-orup-errors]: New version: [1.36.4] Old Version: [1.36.3]
+[2023-05-16 15:56:50] INFO root fetch - processPackages [nlp-models]: Start processing: pyPreservica
+[2023-05-16 15:56:50] INFO root fetch - main [MainThread]: End processing [nlp-models]: success
+[2023-05-16 15:56:50] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/60/81/d7e8a48571cefabd3be36b181f14bffce14452c4a1ef0d5321089a9b98ba/gtki_module_orup_errors-1.36.4-py3-none-any.whl
+[2023-05-16 15:56:50] INFO root fetch - processPackages [pyPreservica]: New version: [1.7.8] Old Version: [1.7.1]
+[2023-05-16 15:56:50] INFO root fetch - processPackages [gtki-module-orup-errors]: executing diffoscope
+[2023-05-16 15:56:50] INFO root fetch - processPackages [gtki-module-orup-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_orup_errors-1.36.3-py3-none-any.whl.zip tmp/gtki_module_orup_errors-1.36.4-py3-none-any.whl.zip --markdown 20230516/g/gtki-module-orup-errors/1.36.3-1.36.4/diff.md --exclude *.pyd
+[2023-05-16 15:56:50] INFO root fetch - processPackages [znh5md]: Start processing: shapeout2
+[2023-05-16 15:56:50] INFO root fetch - main [MainThread]: End processing [znh5md]: success
+[2023-05-16 15:56:50] INFO root fetch - processPackages [akeneo-cli]: Start processing: webexbotsdk
+[2023-05-16 15:56:50] INFO root fetch - main [MainThread]: End processing [akeneo-cli]: success
+[2023-05-16 15:56:50] INFO root fetch - processPackages [shapeout2]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-16 15:56:50] INFO root fetch - processPackages [pyPreservica]: Downloading https://files.pythonhosted.org/packages/3d/ab/da078959d7c93c6938adb6b063fc30e1bbc4022c89949d6a2eaf81aa2bfd/pyPreservica-1.7.1.tar.gz
+[2023-05-16 15:56:50] INFO root fetch - processPackages [webexbotsdk]: New version: [0.2.6] Old Version: [0.2.3]
+[2023-05-16 15:56:50] INFO root fetch - processPackages [shapeout2]: executing diffoscope
+[2023-05-16 15:56:50] INFO root fetch - processPackages [shapeout2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapeout2-2.9.5.tar.gz tmp/shapeout2-2.9.6.tar.gz --markdown 20230516/s/shapeout2/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-16 15:56:50] INFO root fetch - processPackages [biocartograph]: Start processing: autumn8
+[2023-05-16 15:56:50] INFO root fetch - main [MainThread]: End processing [biocartograph]: success
+[2023-05-16 15:56:50] INFO root fetch - processPackages [autumn8]: New version: [1.0.5rc6] Old Version: [1.0.5rc5]
+[2023-05-16 15:56:50] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Start processing: aotpy
+[2023-05-16 15:56:50] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-05-16 15:56:50] INFO root fetch - processPackages [aotpy]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-16 15:56:50] INFO root fetch - processPackages [webexbotsdk]: Downloading https://files.pythonhosted.org/packages/c0/35/9f66f452027001ddc07c04d9cde1f991b5ddd000521eaa46019218fedfe6/webexbotsdk-0.2.3.tar.gz
+[2023-05-16 15:56:50] INFO root fetch - processPackages [aotpy]: executing diffoscope
+[2023-05-16 15:56:50] INFO root fetch - processPackages [aotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aotpy-0.5.1.tar.gz tmp/aotpy-0.6.0.tar.gz --markdown 20230516/a/aotpy/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-16 15:56:50] INFO root fetch - processPackages [pyPreservica]: Downloading https://files.pythonhosted.org/packages/a6/f7/f34a798f646009950ce94e126d7224a3013948df0e590536c731eb576f8d/pyPreservica-1.7.8.tar.gz
+[2023-05-16 15:56:51] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/b6/ea/65d4e132c6c08695ed0bc04218c0a7551d67a9100b9f832118406e86e69f/autumn8-1.0.5rc6.tar.gz
+[2023-05-16 15:56:51] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-16 15:56:51] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.5rc5.tar.gz tmp/autumn8-1.0.5rc6.tar.gz --markdown 20230516/a/autumn8/1.0.5rc5-1.0.5rc6/diff.md --exclude *.pyd
+[2023-05-16 15:56:51] INFO root fetch - processPackages [pyPreservica]: executing diffoscope
+[2023-05-16 15:56:51] INFO root fetch - processPackages [pyPreservica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPreservica-1.7.1.tar.gz tmp/pyPreservica-1.7.8.tar.gz --markdown 20230516/p/pyPreservica/1.7.1-1.7.8/diff.md --exclude *.pyd
+[2023-05-16 15:56:51] INFO root fetch - processPackages [webexbotsdk]: Downloading https://files.pythonhosted.org/packages/94/33/817262be4b4a1e320bd31b9ffd73fa652b841cf3c8f56c83e2ef9ed7bc89/webexbotsdk-0.2.6.tar.gz
+[2023-05-16 15:56:51] INFO root fetch - processPackages [webexbotsdk]: executing diffoscope
+[2023-05-16 15:56:51] INFO root fetch - processPackages [webexbotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webexbotsdk-0.2.3.tar.gz tmp/webexbotsdk-0.2.6.tar.gz --markdown 20230516/w/webexbotsdk/0.2.3-0.2.6/diff.md --exclude *.pyd
+[2023-05-16 15:56:51] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
+[2023-05-16 15:56:51] INFO root fetch - main [MainThread]: End processing [gtki-module-orup-errors]: success
+[2023-05-16 15:56:52] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-05-16 15:56:52] INFO root fetch - main [MainThread]: End processing [pyPreservica]: success
+[2023-05-16 15:56:52] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-16 15:56:52] INFO root fetch - main [MainThread]: End processing [webexbotsdk]: success
+[2023-05-16 15:56:53] INFO root fetch - main [MainThread]: End processing [pynguin]: success
+[2023-05-16 15:56:53] INFO root fetch - main [MainThread]: End processing [aotpy]: success
+[2023-05-16 15:56:53] INFO root fetch - main [MainThread]: End processing [dymoval]: success
+[2023-05-16 15:56:56] INFO root fetch - main [MainThread]: End processing [shapeout2]: success
+[2023-05-16 15:56:56] INFO root fetch - main [MainThread]: Store serial: [18124325]
