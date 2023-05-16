@@ -8696,3 +8696,73 @@
 [2023-05-16 07:01:56] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-05-16 07:01:57] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2023-05-16 07:01:57] INFO root fetch - main [MainThread]: Store serial: [18118499]
+[2023-05-16 07:07:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118499]
+[2023-05-16 07:07:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starwhale
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipfontingv1
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeSync-tool
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amebo
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-l4d2-server
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazi
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rapid-pe
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onnx2tf
+[2023-05-16 07:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multi-model-server
+[2023-05-16 07:07:06] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.4] Old Version: [0.5.3.3]
+[2023-05-16 07:07:06] INFO root fetch - processPackages [lazi]: New version: [1.7.72] Old Version: [1.6.69]
+[2023-05-16 07:07:06] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-16 07:07:06] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230515] Old Version: [1.1.8b20230514]
+[2023-05-16 07:07:06] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230515] Old Version: [23.6.0a230514]
+[2023-05-16 07:07:06] WARNING root fetch - processPackages [pipfontingv1]: Skipping, unable to determine old version
+[2023-05-16 07:07:06] INFO root fetch - processPackages [pipfontingv1]: Start processing: read-rapidpe
+[2023-05-16 07:07:06] INFO root fetch - main [MainThread]: End processing [pipfontingv1] error
+[2023-05-16 07:07:06] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.6.69.tar.gz tmp/lazi-1.7.72.tar.gz --markdown 20230516/l/lazi/1.6.69-1.7.72/diff.md --exclude *.pyd
+[2023-05-16 07:07:06] WARNING root fetch - processPackages [codeSync-tool]: Skipping, unable to determine old version
+[2023-05-16 07:07:06] WARNING root fetch - processPackages [amebo]: Skipping, unable to determine old version
+[2023-05-16 07:07:06] INFO root fetch - processPackages [codeSync-tool]: Start processing: character-encoding-utils
+[2023-05-16 07:07:06] INFO root fetch - processPackages [starwhale]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-16 07:07:06] INFO root fetch - main [MainThread]: End processing [codeSync-tool] error
+[2023-05-16 07:07:06] INFO root fetch - processPackages [amebo]: Start processing: fern-seam
+[2023-05-16 07:07:06] INFO root fetch - main [MainThread]: End processing [amebo] error
+[2023-05-16 07:07:06] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230516] Old Version: [0.1.1.dev20230515]
+[2023-05-16 07:07:06] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230514-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230515-py2.py3-none-any.whl.zip --markdown 20230516/m/multi-model-server/1.1.8b20230514-1.1.8b20230515/diff.md --exclude *.pyd
+[2023-05-16 07:07:06] INFO root fetch - processPackages [fern-seam]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 07:07:06] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230516/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-16 07:07:06] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.3.3.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.4.tar.gz --markdown 20230516/n/nonebot-plugin-l4d2-server/0.5.3.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-16 07:07:06] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230514.tar.gz tmp/dask-cuda-23.6.0a230515.tar.gz --markdown 20230516/d/dask-cuda/23.6.0a230514-23.6.0a230515/diff.md --exclude *.pyd
+[2023-05-16 07:07:06] INFO root fetch - processPackages [read-rapidpe]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-16 07:07:06] INFO root fetch - processPackages [character-encoding-utils]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-16 07:07:06] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/07/07/2ea5c4e956fe3dee6a86ae955d9d6d5844d9862e182478fa8cbe45b45b85/starwhale-0.4.4.tar.gz
+[2023-05-16 07:07:06] INFO root fetch - processPackages [fern-seam]: Downloading https://files.pythonhosted.org/packages/a2/db/ee02f9d0d6a9dd1b0df9be2886af6800e1d5ebc461f32fb897c86a7e7850/fern_seam-0.0.6.tar.gz
+[2023-05-16 07:07:06] INFO root fetch - processPackages [fern-seam]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [fern-seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_seam-0.0.5.tar.gz tmp/fern_seam-0.0.6.tar.gz --markdown 20230516/f/fern-seam/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 07:07:06] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/cc/f7/8ee185064d2949bec8e8f49fa1e7bd992a4d2ac1cd898a1eeb75b71026ee/rapid_pe-0.1.1.dev20230516.tar.gz
+[2023-05-16 07:07:06] INFO root fetch - processPackages [character-encoding-utils]: Downloading https://files.pythonhosted.org/packages/ac/11/71a6c727d0a86fcfc713602f89b8190c849f1e687e58064d2de62245df2a/character-encoding-utils-0.0.0.tar.gz
+[2023-05-16 07:07:06] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/dd/5d/92a503b06e90ec65b12f72547c86537b4f6bc6826351bb588da9867c75f9/read_rapidpe-0.5.0.tar.gz
+[2023-05-16 07:07:06] INFO root fetch - processPackages [starwhale]: Downloading https://files.pythonhosted.org/packages/19/39/f6b56fe8dedf48d81669f559da2d351fac9c994b316cf404c07fae1c1333/starwhale-0.4.5.tar.gz
+[2023-05-16 07:07:06] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230515.tar.gz tmp/rapid_pe-0.1.1.dev20230516.tar.gz --markdown 20230516/r/rapid-pe/0.1.1.dev20230515-0.1.1.dev20230516/diff.md --exclude *.pyd
+[2023-05-16 07:07:06] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.4.0.tar.gz tmp/read_rapidpe-0.5.0.tar.gz --markdown 20230516/r/read-rapidpe/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-16 07:07:06] INFO root fetch - processPackages [character-encoding-utils]: Downloading https://files.pythonhosted.org/packages/97/45/fcda431a2c543f15138b5d8289bf64838c380fc35b4c1bac5f7dc3a7f772/character-encoding-utils-0.0.1.tar.gz
+[2023-05-16 07:07:06] INFO root fetch - processPackages [starwhale]: executing diffoscope
+[2023-05-16 07:07:06] INFO root fetch - processPackages [starwhale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starwhale-0.4.4.tar.gz tmp/starwhale-0.4.5.tar.gz --markdown 20230516/s/starwhale/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-16 07:07:07] INFO root fetch - processPackages [character-encoding-utils]: executing diffoscope
+[2023-05-16 07:07:07] INFO root fetch - processPackages [character-encoding-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/character-encoding-utils-0.0.0.tar.gz tmp/character-encoding-utils-0.0.1.tar.gz --markdown 20230516/c/character-encoding-utils/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-16 07:07:07] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-16 07:07:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-05-16 07:07:08] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-16 07:07:08] INFO root fetch - main [MainThread]: End processing [fern-seam]: success
+[2023-05-16 07:07:08] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-05-16 07:07:08] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-16 07:07:08] INFO root fetch - main [MainThread]: End processing [character-encoding-utils]: success
+[2023-05-16 07:07:11] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-16 07:09:48] INFO root fetch - main [MainThread]: End processing [starwhale]: success
+[2023-05-16 07:10:06] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-05-16 07:10:06] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-05-16 07:10:06] INFO root fetch - main [MainThread]: Store serial: [18118544]
