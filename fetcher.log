@@ -22285,3 +22285,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 18:28:39] INFO root fetch - main [MainThread]: End processing [zou]: success
 [2023-05-16 18:28:40] INFO root fetch - main [MainThread]: End processing [upsolver-sdk-python]: success
 [2023-05-16 18:28:40] INFO root fetch - main [MainThread]: Store serial: [18126433]
+[2023-05-16 18:33:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18126433]
+[2023-05-16 18:33:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upsolver-sdk-python
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sibyl-ai
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Econ-Windows
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikeCA
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simses
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-mike-migration-script
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyshs
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zou
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: 5gasp-cli
+[2023-05-16 18:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dxsp
+[2023-05-16 18:33:49] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [upsolver-sdk-python]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 18:33:49] WARNING root fetch - processPackages [5gasp-cli]: Skipping, unable to determine old version
+[2023-05-16 18:33:49] INFO root fetch - processPackages [5gasp-cli]: Start processing: oasislmf
+[2023-05-16 18:33:49] INFO root fetch - main [MainThread]: End processing [5gasp-cli] error
+[2023-05-16 18:33:49] INFO root fetch - processPackages [pyshs]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [simses]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [NikeCA]: New version: [0.2.8a0] Old Version: [0.2.8]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [dxsp]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: New version: [20230516.16.31.483844] Old Version: [20230516.15.37.270419]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [sibyl-ai]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-05-16 18:33:49] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230516/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 18:33:49] INFO root fetch - processPackages [upsolver-sdk-python]: executing diffoscope
+[2023-05-16 18:33:49] INFO root fetch - processPackages [upsolver-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsolver_sdk_python-0.1.7.tar.gz tmp/upsolver_sdk_python-0.1.8.tar.gz --markdown 20230516/u/upsolver-sdk-python/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 18:33:49] INFO root fetch - processPackages [NikeCA]: executing diffoscope
+[2023-05-16 18:33:49] INFO root fetch - processPackages [NikeCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikeCA-0.2.8.tar.gz tmp/NikeCA-0.2.8a0.tar.gz --markdown 20230516/N/NikeCA/0.2.8-0.2.8a0/diff.md --exclude *.pyd
+[2023-05-16 18:33:49] INFO root fetch - processPackages [oasislmf]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-16 18:33:49] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-16 18:33:49] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.8.tar.gz tmp/dxsp-2.2.9.tar.gz --markdown 20230516/d/dxsp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-16 18:33:49] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/2c/10/a75133b5ab493c528811b2c8bf8c2c9f683b66c167185d1107ae806a0e92/Econ_Windows-0.0.5.tar.gz
+[2023-05-16 18:33:49] INFO root fetch - processPackages [pyshs]: Downloading https://files.pythonhosted.org/packages/88/7f/31c0143bd7d1a5bbee90d8c2f060a60ee1f53f6955733d53f6a249c32abf/pyshs-0.3.4.tar.gz
+[2023-05-16 18:33:49] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-16 18:33:49] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.4.tar.gz tmp/Econ_Windows-0.0.5.tar.gz --markdown 20230516/E/Econ-Windows/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 18:33:50] INFO root fetch - processPackages [simses]: Downloading https://files.pythonhosted.org/packages/60/b9/da18fdeafd60a29ed525c2a9eed12f70de7dcd2c30ad2deae54c8eec719a/simses-1.3.4.tar.gz
+[2023-05-16 18:33:50] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Downloading https://files.pythonhosted.org/packages/f8/13/d5ab79dbca1e5b7a2dead7ff348dbd2249efe19791c10d080d21aa203a10/certora-cli-alpha-mike-migration-script-20230516.15.37.270419.tar.gz
+[2023-05-16 18:33:50] INFO root fetch - processPackages [sibyl-ai]: executing diffoscope
+[2023-05-16 18:33:50] INFO root fetch - processPackages [sibyl-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sibyl-ai-1.0.8.tar.gz tmp/sibyl-ai-1.0.9.tar.gz --markdown 20230516/s/sibyl-ai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 18:33:50] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2023-05-16 18:33:50] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-1.9.0.tar.gz tmp/oasislmf-1.9.1.tar.gz --markdown 20230516/o/oasislmf/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-16 18:33:50] WARNING root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Skipping package: exceeds size limit 38975703>=10485760
+[2023-05-16 18:33:50] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Start processing: deeplake
+[2023-05-16 18:33:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-mike-migration-script] error
+[2023-05-16 18:33:50] INFO root fetch - processPackages [pyshs]: executing diffoscope
+[2023-05-16 18:33:50] INFO root fetch - processPackages [pyshs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshs-0.3.3.tar.gz tmp/pyshs-0.3.4.tar.gz --markdown 20230516/p/pyshs/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-16 18:33:50] INFO root fetch - processPackages [deeplake]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-05-16 18:33:51] INFO root fetch - main [MainThread]: End processing [upsolver-sdk-python]: success
+[2023-05-16 18:33:51] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/0d/3e/3a9c032467adefd32c5407cc223dd54ddb8ff5adb74130bd3a63d8901375/deeplake-3.4.4.tar.gz
+[2023-05-16 18:33:51] INFO root fetch - processPackages [simses]: executing diffoscope
+[2023-05-16 18:33:51] INFO root fetch - processPackages [simses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simses-1.3.3.tar.gz tmp/simses-1.3.4.tar.gz --markdown 20230516/s/simses/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-16 18:33:51] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-16 18:33:51] INFO root fetch - main [MainThread]: End processing [NikeCA]: success
+[2023-05-16 18:33:51] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-16 18:33:51] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-05-16 18:33:51] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.4.3.tar.gz tmp/deeplake-3.4.4.tar.gz --markdown 20230516/d/deeplake/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-05-16 18:33:51] INFO root fetch - main [MainThread]: End processing [sibyl-ai]: success
+[2023-05-16 18:33:52] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
+[2023-05-16 18:33:52] INFO root fetch - main [MainThread]: End processing [pyshs]: success
+[2023-05-16 18:33:52] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-05-16 18:33:54] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-05-16 18:33:57] INFO root fetch - main [MainThread]: End processing [simses]: success
+[2023-05-16 18:33:57] INFO root fetch - main [MainThread]: Store serial: [18126466]
