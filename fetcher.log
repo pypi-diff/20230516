@@ -11612,3 +11612,125 @@
 [2023-05-16 09:59:06] INFO root fetch - main [MainThread]: End processing [unidata-blocks]: success
 [2023-05-16 09:59:07] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
 [2023-05-16 09:59:07] INFO root fetch - main [MainThread]: Store serial: [18120145]
+[2023-05-16 10:04:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120145]
+[2023-05-16 10:04:17] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ign-pdal-tools
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata-front
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drb-driver-odata
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-eiam-developerapi20220225-py2
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-eiam-developerapi20220225
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nacos-client-py
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: licensespring
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kolyaklimkLab3
+[2023-05-16 10:04:17] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [kolyaklimkLab3]: New version: [0.4.0] Old Version: [0.2.0]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230516065720] Old Version: [2.0.3.dev20230515191021]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [udata-front]: New version: [3.2.3.dev9974] Old Version: [3.2.3.dev10593]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [nacos-client-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225-py2]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [drb-driver-odata]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ign-pdal-tools]: New version: [0.5.2.dev0] Old Version: [0.5.1]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [licensespring]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-16 10:04:17] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.3.dev10593-py2.py3-none-any.whl.zip tmp/udata_front-3.2.3.dev9974-py2.py3-none-any.whl.zip --markdown 20230516/u/udata-front/3.2.3.dev10593-3.2.3.dev9974/diff.md --exclude *.pyd
+[2023-05-16 10:04:17] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230515191021.tar.gz tmp/localstack-core-2.0.3.dev20230516065720.tar.gz --markdown 20230516/l/localstack-core/2.0.3.dev20230515191021-2.0.3.dev20230516065720/diff.md --exclude *.pyd
+[2023-05-16 10:04:17] INFO root fetch - processPackages [kolyaklimkLab3]: Downloading https://files.pythonhosted.org/packages/7d/d9/9581250161e2cb08c3d9976a9a41ef393d71b9a294e2c3d9d744db5f5e61/kolyaklimkLab3-0.2.0.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/20/fa/d7d0da54225a88229c2be0c517ff3c2b0c30a22cef4e9495fdc5fadf7b5a/PatryksAutoAI-0.7.2.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [nacos-client-py]: Downloading https://files.pythonhosted.org/packages/c2/84/d99603f2a7ae0b7e1cec14b0ca03860abb6769cbd00921481d6938a39465/nacos-client-py-0.0.8.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ign-pdal-tools]: Downloading https://files.pythonhosted.org/packages/39/68/00c2b0dcbdd81c5a8e027fc750a462f8ffe86fe4ba405fc7d428e2204866/ign-pdal-tools-0.5.1.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.7.1.tar.gz tmp/PatryksAutoAI-0.7.2.tar.gz --markdown 20230516/P/PatryksAutoAI/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225]: Downloading https://files.pythonhosted.org/packages/26/88/b73a6fc33e80766dba5e5ddd698912c802433caacee65b8b33ae83d9d263/alibabacloud_eiam-developerapi20220225-1.0.5.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225-py2]: Downloading https://files.pythonhosted.org/packages/d5/be/3b2f5d9e62e3ee6b9371cef5a8061a32e0e87bc546f2e25e0ce8164bc6b5/alibabacloud_eiam-developerapi20220225_py2-1.0.5.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [drb-driver-odata]: Downloading https://files.pythonhosted.org/packages/bf/29/15e947fbd35ac441ee89e2718fe1744b6914cc7cd3d4d4df76cdef99745e/drb-driver-odata-1.1.0.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [licensespring]: Downloading https://files.pythonhosted.org/packages/9d/d1/5446dbd34ca88cb0bc4d58df65a308624efbed16eb0cbaced56bd2054c7b/licensespring-1.1.0.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [kolyaklimkLab3]: Downloading https://files.pythonhosted.org/packages/05/56/500f208495e9520259c1d7c5de6d9897e7c27595b2aa5b2c3eea6625d38f/kolyaklimkLab3-0.4.0.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [nacos-client-py]: Downloading https://files.pythonhosted.org/packages/07/70/325daef7d1f987eef87c8a15e19b40c178b45098e258a97ebd2e23280562/nacos-client-py-0.0.9.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ign-pdal-tools]: Downloading https://files.pythonhosted.org/packages/83/c8/d7b8c9ad9482bac304b2fa52253f7dd15f2d9c78ced0624887913f26a14b/ign_pdal_tools-0.5.2.dev0-py3-none-any.whl
+[2023-05-16 10:04:17] INFO root fetch - processPackages [kolyaklimkLab3]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [kolyaklimkLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolyaklimkLab3-0.2.0.tar.gz tmp/kolyaklimkLab3-0.4.0.tar.gz --markdown 20230516/k/kolyaklimkLab3/0.2.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 10:04:17] INFO root fetch - processPackages [drb-driver-odata]: Downloading https://files.pythonhosted.org/packages/68/00/a38dc5b77515d5bac9faff0a55406cb4757bcec66c7ea9caf43729dd10ad/drb-driver-odata-1.2.0.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225]: Downloading https://files.pythonhosted.org/packages/54/e1/e0b5a0edd55d93d5aef9072e8fa8cde77febe8f692b6227e5bf7a26b7afd/alibabacloud_eiam-developerapi20220225-1.0.6.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [licensespring]: Downloading https://files.pythonhosted.org/packages/aa/cc/506d41f67db365c0fdbf40cc16fca2bb8d4cf9402c12d557fa641e2bfad3/licensespring-1.2.0.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ign-pdal-tools]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [ign-pdal-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-pdal-tools-0.5.1.tar.gz tmp/ign_pdal_tools-0.5.2.dev0-py3-none-any.whl.zip --markdown 20230516/i/ign-pdal-tools/0.5.1-0.5.2.dev0/diff.md --exclude *.pyd
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225-py2]: Downloading https://files.pythonhosted.org/packages/ec/03/4fa221cfa60e19dcd9dec294f4835140857c2b30915be253ed29d5fc865a/alibabacloud_eiam-developerapi20220225_py2-1.0.6.tar.gz
+[2023-05-16 10:04:17] INFO root fetch - processPackages [drb-driver-odata]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [drb-driver-odata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-odata-1.1.0.tar.gz tmp/drb-driver-odata-1.2.0.tar.gz --markdown 20230516/d/drb-driver-odata/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eiam-developerapi20220225-1.0.5.tar.gz tmp/alibabacloud_eiam-developerapi20220225-1.0.6.tar.gz --markdown 20230516/a/alibabacloud-eiam-developerapi20220225/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225-py2]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eiam-developerapi20220225_py2-1.0.5.tar.gz tmp/alibabacloud_eiam-developerapi20220225_py2-1.0.6.tar.gz --markdown 20230516/a/alibabacloud-eiam-developerapi20220225-py2/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-16 10:04:17] INFO root fetch - processPackages [licensespring]: executing diffoscope
+[2023-05-16 10:04:17] INFO root fetch - processPackages [licensespring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensespring-1.1.0.tar.gz tmp/licensespring-1.2.0.tar.gz --markdown 20230516/l/licensespring/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-16 10:04:18] INFO root fetch - processPackages [nacos-client-py]: executing diffoscope
+[2023-05-16 10:04:18] INFO root fetch - processPackages [nacos-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nacos-client-py-0.0.8.tar.gz tmp/nacos-client-py-0.0.9.tar.gz --markdown 20230516/n/nacos-client-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:04:18] INFO root fetch - processPackages [ign-pdal-tools]: Start processing: lana
+[2023-05-16 10:04:18] INFO root fetch - main [MainThread]: End processing [ign-pdal-tools]: success
+[2023-05-16 10:04:18] INFO root fetch - processPackages [lana]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 10:04:19] INFO root fetch - processPackages [kolyaklimkLab3]: Start processing: sino
+[2023-05-16 10:04:19] INFO root fetch - main [MainThread]: End processing [kolyaklimkLab3]: success
+[2023-05-16 10:04:19] INFO root fetch - processPackages [drb-driver-odata]: Start processing: scipion-em-novactf
+[2023-05-16 10:04:19] INFO root fetch - main [MainThread]: End processing [drb-driver-odata]: success
+[2023-05-16 10:04:19] WARNING root fetch - processPackages [sino]: Skipping, unable to determine old version
+[2023-05-16 10:04:19] INFO root fetch - processPackages [sino]: Start processing: horus-media-client
+[2023-05-16 10:04:19] INFO root fetch - main [MainThread]: End processing [sino] error
+[2023-05-16 10:04:19] INFO root fetch - processPackages [lana]: Downloading https://files.pythonhosted.org/packages/c4/56/d06cf803b39131b8b4e3a2a81952fb4eed41048c839274456fa111096337/lana-0.0.5.tar.gz
+[2023-05-16 10:04:19] INFO root fetch - processPackages [scipion-em-novactf]: New version: [3.1.1] Old Version: [3.0.5]
+[2023-05-16 10:04:19] INFO root fetch - processPackages [horus-media-client]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-16 10:04:19] INFO root fetch - processPackages [lana]: executing diffoscope
+[2023-05-16 10:04:19] INFO root fetch - processPackages [lana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lana-0.0.4-cp37-abi3-macosx_10_7_x86_64.whl.zip tmp/lana-0.0.5.tar.gz --markdown 20230516/l/lana/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 10:04:19] INFO root fetch - processPackages [scipion-em-novactf]: Downloading https://files.pythonhosted.org/packages/10/bd/80900e405cb5add4147057b48e9586e14ce4267387e230a4c02c12c04828/scipion-em-novactf-3.0.5.tar.gz
+[2023-05-16 10:04:19] INFO root fetch - processPackages [horus-media-client]: Downloading https://files.pythonhosted.org/packages/8a/69/d34858c3455a5477ed7e947c489fb884179a37ca7ff74d3d91d75bf28891/horus-media-client-0.9.4.tar.gz
+[2023-05-16 10:04:19] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: karaden-prg-python
+[2023-05-16 10:04:19] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-16 10:04:19] WARNING root fetch - processPackages [karaden-prg-python]: Skipping, unable to determine old version
+[2023-05-16 10:04:19] INFO root fetch - processPackages [karaden-prg-python]: Start processing: bardapi
+[2023-05-16 10:04:19] INFO root fetch - main [MainThread]: End processing [karaden-prg-python] error
+[2023-05-16 10:04:19] INFO root fetch - processPackages [bardapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 10:04:19] INFO root fetch - processPackages [nacos-client-py]: Start processing: tritondse
+[2023-05-16 10:04:19] INFO root fetch - main [MainThread]: End processing [nacos-client-py]: success
+[2023-05-16 10:04:19] INFO root fetch - processPackages [horus-media-client]: Downloading https://files.pythonhosted.org/packages/89/cd/2ad0ad6b42b9ce66a559f65b75b2794088d7f62fb877af00d30ad298d2de/horus-media-client-0.9.5.tar.gz
+[2023-05-16 10:04:19] INFO root fetch - processPackages [scipion-em-novactf]: Downloading https://files.pythonhosted.org/packages/b8/58/e851fe9f88278cf4eab9592da2c6e45ef8cb273aaca64e99c2cf48451402/scipion-em-novactf-3.1.1.tar.gz
+[2023-05-16 10:04:19] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225]: Start processing: skyndo
+[2023-05-16 10:04:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-eiam-developerapi20220225]: success
+[2023-05-16 10:04:19] INFO root fetch - processPackages [skyndo]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-16 10:04:19] INFO root fetch - processPackages [tritondse]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 10:04:19] INFO root fetch - processPackages [alibabacloud-eiam-developerapi20220225-py2]: Start processing: rshelper
+[2023-05-16 10:04:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-eiam-developerapi20220225-py2]: success
+[2023-05-16 10:04:19] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-16 10:04:19] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.7.4.tar.gz tmp/skyndo-0.7.5.tar.gz --markdown 20230516/s/skyndo/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-16 10:04:20] INFO root fetch - processPackages [horus-media-client]: executing diffoscope
+[2023-05-16 10:04:20] INFO root fetch - processPackages [horus-media-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horus-media-client-0.9.4.tar.gz tmp/horus-media-client-0.9.5.tar.gz --markdown 20230516/h/horus-media-client/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-16 10:04:20] INFO root fetch - processPackages [scipion-em-novactf]: executing diffoscope
+[2023-05-16 10:04:20] INFO root fetch - processPackages [scipion-em-novactf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-novactf-3.0.5.tar.gz tmp/scipion-em-novactf-3.1.1.tar.gz --markdown 20230516/s/scipion-em-novactf/3.0.5-3.1.1/diff.md --exclude *.pyd
+[2023-05-16 10:04:20] WARNING root fetch - processPackages [rshelper]: Skipping, unable to determine old version
+[2023-05-16 10:04:20] INFO root fetch - processPackages [rshelper]: Start processing: pychangelog2
+[2023-05-16 10:04:20] INFO root fetch - main [MainThread]: End processing [rshelper] error
+[2023-05-16 10:04:20] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/d6/ed/a4f5ea0cd9ebb6a4a6f0d42301ecbed2e9b48d7e3314292fab62360cfb74/tritondse-0.1.2.tar.gz
+[2023-05-16 10:04:20] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/d0/83/233a96810e6f929971597216221cf63fe8be577222edced35384ef739b9a/bardapi-0.1.3.tar.gz
+[2023-05-16 10:04:20] INFO root fetch - processPackages [pychangelog2]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-05-16 10:04:20] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-05-16 10:04:20] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.2.tar.gz tmp/bardapi-0.1.3.tar.gz --markdown 20230516/b/bardapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 10:04:20] INFO root fetch - processPackages [pychangelog2]: Downloading https://files.pythonhosted.org/packages/11/35/17af7a47625780f42d0e6c695dfa665106d28d21db00d22d1e8ab318353f/pychangelog2-0.0.2.tar.gz
+[2023-05-16 10:04:20] INFO root fetch - processPackages [tritondse]: Downloading https://files.pythonhosted.org/packages/12/84/e6ddc3d91684bb580877a0ec39399990dcb4496bc39ad1df2408ff0d77cd/tritondse-0.1.3.tar.gz
+[2023-05-16 10:04:20] INFO root fetch - processPackages [tritondse]: executing diffoscope
+[2023-05-16 10:04:20] INFO root fetch - processPackages [tritondse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritondse-0.1.2.tar.gz tmp/tritondse-0.1.3.tar.gz --markdown 20230516/t/tritondse/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 10:04:20] INFO root fetch - processPackages [pychangelog2]: Downloading https://files.pythonhosted.org/packages/ee/4b/efdb509b5aa7bc303bf023bfe5ff7f5d4d7b1e1d382a5c65edbbd86b18a1/pychangelog2-1.0.0.tar.gz
+[2023-05-16 10:04:20] INFO root fetch - main [MainThread]: End processing [lana]: success
+[2023-05-16 10:04:20] INFO root fetch - processPackages [pychangelog2]: executing diffoscope
+[2023-05-16 10:04:20] INFO root fetch - processPackages [pychangelog2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychangelog2-0.0.2.tar.gz tmp/pychangelog2-1.0.0.tar.gz --markdown 20230516/p/pychangelog2/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-16 10:04:21] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-16 10:04:21] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-05-16 10:04:21] INFO root fetch - main [MainThread]: End processing [scipion-em-novactf]: success
+[2023-05-16 10:04:22] INFO root fetch - main [MainThread]: End processing [tritondse]: success
+[2023-05-16 10:04:22] INFO root fetch - main [MainThread]: End processing [horus-media-client]: success
+[2023-05-16 10:04:22] INFO root fetch - main [MainThread]: End processing [pychangelog2]: success
+[2023-05-16 10:04:27] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-16 10:04:45] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-05-16 10:04:48] INFO root fetch - main [MainThread]: End processing [licensespring]: success
+[2023-05-16 10:04:48] INFO root fetch - main [MainThread]: Store serial: [18120212]
