@@ -20426,3 +20426,145 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 17:17:28] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
 [2023-05-16 17:17:28] INFO root fetch - main [MainThread]: End processing [gridworks-atn]: success
 [2023-05-16 17:17:28] INFO root fetch - main [MainThread]: Store serial: [18125342]
+[2023-05-16 17:22:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18125342]
+[2023-05-16 17:22:38] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syngen
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdsr-fewspy
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: actoolkit
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirqqrack
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ypricemagic
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoxynet
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudboss-cloudlib
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pro-video-ferramentas-w
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tutorialleigos
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hdsr-pygithub
+[2023-05-16 17:22:38] INFO root fetch - processPackages [syngen]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 17:22:38] WARNING root fetch - processPackages [pro-video-ferramentas-w]: Skipping, unable to determine old version
+[2023-05-16 17:22:38] INFO root fetch - processPackages [pro-video-ferramentas-w]: Start processing: availabl-cli
+[2023-05-16 17:22:38] INFO root fetch - main [MainThread]: End processing [pro-video-ferramentas-w] error
+[2023-05-16 17:22:38] WARNING root fetch - processPackages [cloudboss-cloudlib]: Skipping, unable to determine old version
+[2023-05-16 17:22:38] INFO root fetch - processPackages [hdsr-fewspy]: New version: [1.9] Old Version: [1.8]
+[2023-05-16 17:22:38] INFO root fetch - processPackages [cirqqrack]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-16 17:22:38] INFO root fetch - processPackages [hdsr-pygithub]: New version: [1.9] Old Version: [1.8]
+[2023-05-16 17:22:38] INFO root fetch - processPackages [tutorialleigos]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 17:22:38] INFO root fetch - processPackages [cloudboss-cloudlib]: Start processing: validmind
+[2023-05-16 17:22:38] INFO root fetch - main [MainThread]: End processing [cloudboss-cloudlib] error
+[2023-05-16 17:22:38] INFO root fetch - processPackages [actoolkit]: New version: [2.6.4b6] Old Version: [2.6.4b5]
+[2023-05-16 17:22:38] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.9.dev9] Old Version: [2.2.9.dev8]
+[2023-05-16 17:22:38] WARNING root fetch - processPackages [availabl-cli]: Skipping, unable to determine old version
+[2023-05-16 17:22:38] INFO root fetch - processPackages [availabl-cli]: Start processing: alacorder
+[2023-05-16 17:22:38] INFO root fetch - main [MainThread]: End processing [availabl-cli] error
+[2023-05-16 17:22:38] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-05-16 17:22:38] INFO root fetch - processPackages [alacorder]: New version: [80.5.6] Old Version: [80.5.5]
+[2023-05-16 17:22:38] INFO root fetch - processPackages [tutorialleigos]: Downloading https://files.pythonhosted.org/packages/ec/3d/0ed9ffb92841dee853c976c84946a007a9d2dc2a0b73c711adb7c01c9cd1/tutorialleigos-0.1.2.tar.gz
+[2023-05-16 17:22:38] INFO root fetch - processPackages [cirqqrack]: Downloading https://files.pythonhosted.org/packages/d6/bb/2d22f435e1944567447d391e20a386d907de831c3215b2200de27b1bba69/cirqqrack-0.5.1.tar.gz
+[2023-05-16 17:22:38] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/9f/dc/41784fc2a3dcb3c1868ab55e4631257ac6623709e2731665654c1ae0baa7/actoolkit-2.6.4b5-py3-none-any.whl
+[2023-05-16 17:22:38] INFO root fetch - processPackages [hdsr-pygithub]: Downloading https://files.pythonhosted.org/packages/41/f9/141e6b650cc5d419f4d1b0a37b76c17fc249842093c99e830ffe39515b3e/hdsr_pygithub-1.8.tar.gz
+[2023-05-16 17:22:38] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/a0/d7/5497d9859c3dd2fa9f52649aaed9414e286754fbdc4cad54c49df4b7232d/ypricemagic-2.2.9.dev8.tar.gz
+[2023-05-16 17:22:38] INFO root fetch - processPackages [hdsr-fewspy]: Downloading https://files.pythonhosted.org/packages/c4/95/1c2c806a03f052432c1910649c954abab72660f0ad87d159e406a891de2a/hdsr_fewspy-1.8.tar.gz
+[2023-05-16 17:22:38] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/e6/10/b41e9c7755c982837ccc80a17a125c20b5c583e86387996b88350ed0f172/alacorder-80.5.5.tar.gz
+[2023-05-16 17:22:38] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/ac/6a/93bb9a6a22b9860a8e0f79e256134aa5d299348b6e0ae4067888ef4049ad/syngen-0.1.1.tar.gz
+[2023-05-16 17:22:38] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-16 17:22:38] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230516/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230516/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [tutorialleigos]: Downloading https://files.pythonhosted.org/packages/c0/5d/08ad4a4d1a93f2f1bf8be03d5e0877a7e9e6d0bbbc18f68113ab3b01aad7/tutorialleigos-0.1.3.tar.gz
+[2023-05-16 17:22:39] INFO root fetch - processPackages [cirqqrack]: Downloading https://files.pythonhosted.org/packages/1e/1d/9f7d06c5f24533ea54918cab23efd17d4dcce9718e7af7c2aaec1085a9c2/cirqqrack-0.6.0.tar.gz
+[2023-05-16 17:22:39] INFO root fetch - processPackages [actoolkit]: Downloading https://files.pythonhosted.org/packages/1c/81/044ac8c9c39b8a546b82ecf017ed19db1176df3adffdc92a859bda4b4118/actoolkit-2.6.4b6-py3-none-any.whl
+[2023-05-16 17:22:39] INFO root fetch - processPackages [hdsr-pygithub]: Downloading https://files.pythonhosted.org/packages/5d/42/aaeb22fc67e6d652872597b97abfc7cca20a0bf555240cce92c5858309f2/hdsr_pygithub-1.9.tar.gz
+[2023-05-16 17:22:39] INFO root fetch - processPackages [hdsr-fewspy]: Downloading https://files.pythonhosted.org/packages/b2/ab/3f3a5ba942f22ac9e16c3e27d396cf57b66f80f8229c4719ddfa3c520aa4/hdsr_fewspy-1.9.tar.gz
+[2023-05-16 17:22:39] INFO root fetch - processPackages [tutorialleigos]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [tutorialleigos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutorialleigos-0.1.2.tar.gz tmp/tutorialleigos-0.1.3.tar.gz --markdown 20230516/t/tutorialleigos/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [cirqqrack]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [cirqqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirqqrack-0.5.1.tar.gz tmp/cirqqrack-0.6.0.tar.gz --markdown 20230516/c/cirqqrack/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.0.tar.gz tmp/syngen-0.1.1.tar.gz --markdown 20230516/s/syngen/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [actoolkit]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [actoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actoolkit-2.6.4b5-py3-none-any.whl.zip tmp/actoolkit-2.6.4b6-py3-none-any.whl.zip --markdown 20230516/a/actoolkit/2.6.4b5-2.6.4b6/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/8d/85/ceb35864a81431e2630b8070fd760180abc409b7a6a95474b13a5c66e026/ypricemagic-2.2.9.dev9.tar.gz
+[2023-05-16 17:22:39] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/7c/3c/7bdfdaaa8f56db41be733e3805c9f691a78a70c56e6bb8ab216850e321d7/alacorder-80.5.6.tar.gz
+[2023-05-16 17:22:39] INFO root fetch - processPackages [hdsr-fewspy]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [hdsr-fewspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_fewspy-1.8.tar.gz tmp/hdsr_fewspy-1.9.tar.gz --markdown 20230516/h/hdsr-fewspy/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.9.dev8.tar.gz tmp/ypricemagic-2.2.9.dev9.tar.gz --markdown 20230516/y/ypricemagic/2.2.9.dev8-2.2.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [hdsr-pygithub]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [hdsr-pygithub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_pygithub-1.8.tar.gz tmp/hdsr_pygithub-1.9.tar.gz --markdown 20230516/h/hdsr-pygithub/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-16 17:22:39] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-16 17:22:39] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.5.5.tar.gz tmp/alacorder-80.5.6.tar.gz --markdown 20230516/a/alacorder/80.5.5-80.5.6/diff.md --exclude *.pyd
+[2023-05-16 17:22:40] INFO root fetch - processPackages [cirqqrack]: Start processing: nlp-models
+[2023-05-16 17:22:40] INFO root fetch - main [MainThread]: End processing [cirqqrack]: success
+[2023-05-16 17:22:40] INFO root fetch - processPackages [tutorialleigos]: Start processing: threefive
+[2023-05-16 17:22:40] INFO root fetch - main [MainThread]: End processing [tutorialleigos]: success
+[2023-05-16 17:22:40] INFO root fetch - processPackages [nlp-models]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 17:22:40] INFO root fetch - processPackages [threefive]: New version: [2.3.9] Old Version: [2.3.89]
+[2023-05-16 17:22:40] INFO root fetch - processPackages [hdsr-pygithub]: Start processing: QuNet
+[2023-05-16 17:22:40] INFO root fetch - main [MainThread]: End processing [hdsr-pygithub]: success
+[2023-05-16 17:22:40] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/04/c8/54a61b5fad348f7b321de5c1f4df870fd0d5ad2e854d33b8f1941be3dd31/nlp-models-1.0.2.tar.gz
+[2023-05-16 17:22:40] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/03/6c/7dc46c77902e9dc00f8349c4998be1d5e7696606204159255fa1e1d38c68/threefive-2.3.89.tar.gz
+[2023-05-16 17:22:41] INFO root fetch - processPackages [validmind]: Start processing: ooouno
+[2023-05-16 17:22:41] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-16 17:22:41] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 17:22:41] INFO root fetch - processPackages [actoolkit]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-16 17:22:41] INFO root fetch - main [MainThread]: End processing [actoolkit]: success
+[2023-05-16 17:22:41] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230516.4.26.467828] Old Version: [20230516.14.36.236849]
+[2023-05-16 17:22:41] INFO root fetch - processPackages [ooouno]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-05-16 17:22:41] INFO root fetch - processPackages [nlp-models]: executing diffoscope
+[2023-05-16 17:22:41] INFO root fetch - processPackages [nlp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-models-1.0.1.tar.gz tmp/nlp-models-1.0.2.tar.gz --markdown 20230516/n/nlp-models/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 17:22:41] INFO root fetch - processPackages [pyoxynet]: Start processing: mqt.qecc
+[2023-05-16 17:22:41] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-05-16 17:22:41] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/85/aa/9b06780f721bd1691a4eccfe54761ce2e1ab67ba042870cf88b7a5728fc7/certora-cli-alpha-jtoman-infinite-loop-fix-20230516.14.36.236849.tar.gz
+[2023-05-16 17:22:41] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/3e/c0/7124567a4e5f6bb7e9adeadcfef53f542521589cc98cb00dfa2d53e4cb1d/threefive-2.3.9.tar.gz
+[2023-05-16 17:22:41] INFO root fetch - processPackages [mqt.qecc]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-16 17:22:41] INFO root fetch - processPackages [ypricemagic]: Start processing: TriTan
+[2023-05-16 17:22:41] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-05-16 17:22:41] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 38976454>=10485760
+[2023-05-16 17:22:41] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: plottime
+[2023-05-16 17:22:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-16 17:22:41] INFO root fetch - processPackages [TriTan]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 17:22:41] INFO root fetch - processPackages [ooouno]: Downloading https://files.pythonhosted.org/packages/5a/89/a56d9697391705e2fa546f01335e2cc030de966ec75b32aacb4d3900e6d6/ooouno-2.0.0.tar.gz
+[2023-05-16 17:22:41] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-16 17:22:41] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230516/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 17:22:41] WARNING root fetch - processPackages [plottime]: Skipping, unable to determine old version
+[2023-05-16 17:22:41] INFO root fetch - processPackages [plottime]: Start processing: zalo-sdk
+[2023-05-16 17:22:41] INFO root fetch - main [MainThread]: End processing [plottime] error
+[2023-05-16 17:22:41] INFO root fetch - processPackages [mqt.qecc]: Downloading https://files.pythonhosted.org/packages/3d/fe/97d4b4fd00b447316f7f0e9396dc18003ab3de4243ec3140206d8fac8a0b/mqt.qecc-1.3.0.tar.gz
+[2023-05-16 17:22:41] INFO root fetch - processPackages [threefive]: executing diffoscope
+[2023-05-16 17:22:41] INFO root fetch - processPackages [threefive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threefive-2.3.89.tar.gz tmp/threefive-2.3.9.tar.gz --markdown 20230516/t/threefive/2.3.89-2.3.9/diff.md --exclude *.pyd
+[2023-05-16 17:22:41] INFO root fetch - processPackages [TriTan]: Downloading https://files.pythonhosted.org/packages/87/5f/e37bf43ce16d256dd0326da492113dfc04f04a48a6c70af066dbe59866a7/TriTan-1.0.0.tar.gz
+[2023-05-16 17:22:41] INFO root fetch - processPackages [hdsr-fewspy]: Start processing: BDXConverter
+[2023-05-16 17:22:41] INFO root fetch - main [MainThread]: End processing [hdsr-fewspy]: success
+[2023-05-16 17:22:41] INFO root fetch - processPackages [ooouno]: executing diffoscope
+[2023-05-16 17:22:41] INFO root fetch - processPackages [ooouno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooouno-1.0.2.tar.gz tmp/ooouno-2.0.0.tar.gz --markdown 20230516/o/ooouno/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-05-16 17:22:41] INFO root fetch - processPackages [zalo-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-16 17:22:41] INFO root fetch - processPackages [BDXConverter]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-16 17:22:41] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-16 17:22:41] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.1.8.tar.gz tmp/BDXConverter-1.1.9.tar.gz --markdown 20230516/B/BDXConverter/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-16 17:22:41] INFO root fetch - processPackages [zalo-sdk]: Downloading https://files.pythonhosted.org/packages/3e/b2/da30f67dd533a23533f62e23f99ad945fe335a8cf5d0b31fcf9cf55f6db1/zalo_sdk-0.1.6.tar.gz
+[2023-05-16 17:22:41] INFO root fetch - processPackages [TriTan]: Downloading https://files.pythonhosted.org/packages/02/5c/59e5e2a0318f022a075a5bd2a26ae2eb80b1c1196967e404a84958ab18da/TriTan-1.0.1-py3-none-any.whl
+[2023-05-16 17:22:41] INFO root fetch - processPackages [TriTan]: executing diffoscope
+[2023-05-16 17:22:41] INFO root fetch - processPackages [TriTan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TriTan-1.0.0.tar.gz tmp/TriTan-1.0.1-py3-none-any.whl.zip --markdown 20230516/T/TriTan/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 17:22:42] INFO root fetch - processPackages [mqt.qecc]: Downloading https://files.pythonhosted.org/packages/ca/68/2629e51567d0244b6ec6dccfa5978dc72c4a8c250a5bb07cadc9d5baf607/mqt.qecc-1.3.1.tar.gz
+[2023-05-16 17:22:42] INFO root fetch - processPackages [zalo-sdk]: Downloading https://files.pythonhosted.org/packages/08/d4/8b976fbf8b382b97cca96e33274655aa103207c8461f07a59ef698ee579f/zalo_sdk-0.1.7-py3-none-any.whl
+[2023-05-16 17:22:42] INFO root fetch - processPackages [zalo-sdk]: executing diffoscope
+[2023-05-16 17:22:42] INFO root fetch - processPackages [zalo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalo_sdk-0.1.6.tar.gz tmp/zalo_sdk-0.1.7-py3-none-any.whl.zip --markdown 20230516/z/zalo-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 17:22:42] INFO root fetch - processPackages [alacorder]: Start processing: lark-dynamic
+[2023-05-16 17:22:42] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-16 17:22:42] INFO root fetch - main [MainThread]: End processing [nlp-models]: success
+[2023-05-16 17:22:42] INFO root fetch - processPackages [mqt.qecc]: executing diffoscope
+[2023-05-16 17:22:42] INFO root fetch - processPackages [mqt.qecc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt.qecc-1.3.0.tar.gz tmp/mqt.qecc-1.3.1.tar.gz --markdown 20230516/m/mqt.qecc/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-16 17:22:42] INFO root fetch - processPackages [lark-dynamic]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-16 17:22:42] INFO root fetch - processPackages [lark-dynamic]: Downloading https://files.pythonhosted.org/packages/bc/b1/3a97872dd1b8ff503ba79cda4a008cd21f722239031b04128031e939d627/lark_dynamic-1.0.3.tar.gz
+[2023-05-16 17:22:42] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-16 17:22:42] INFO root fetch - processPackages [lark-dynamic]: executing diffoscope
+[2023-05-16 17:22:42] INFO root fetch - processPackages [lark-dynamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark_dynamic-1.0.3.tar.gz tmp/lark_dynamic-1.0.4.tar.gz --markdown 20230516/l/lark-dynamic/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-16 17:22:43] INFO root fetch - main [MainThread]: End processing [TriTan]: success
+[2023-05-16 17:22:43] INFO root fetch - main [MainThread]: End processing [threefive]: success
+[2023-05-16 17:22:43] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-16 17:22:43] INFO root fetch - main [MainThread]: End processing [zalo-sdk]: success
+[2023-05-16 17:22:43] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-05-16 17:22:44] INFO root fetch - main [MainThread]: End processing [lark-dynamic]: success
+[2023-05-16 17:22:51] INFO root fetch - main [MainThread]: End processing [mqt.qecc]: success
+[2023-05-16 17:25:41] ERROR root fetch - processPackages [ooouno]: Timeout during execution of pkgdiff
+[2023-05-16 17:25:41] INFO root fetch - main [MainThread]: End processing [ooouno] error
+[2023-05-16 17:25:41] INFO root fetch - main [MainThread]: Store serial: [18125425]
