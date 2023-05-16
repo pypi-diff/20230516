@@ -15934,3 +15934,100 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 13:51:15] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-05-16 13:51:17] INFO root fetch - main [MainThread]: End processing [pyvalhalla]: success
 [2023-05-16 13:51:17] INFO root fetch - main [MainThread]: Store serial: [18122743]
+[2023-05-16 13:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18122743]
+[2023-05-16 13:56:27] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysparse-array
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-httpx-request-converted-to-flask-test-client-request
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-nbgallery
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text2story
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snelt
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cso-classifier
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdp-core
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coretex
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xmen
+[2023-05-16 13:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto
+[2023-05-16 13:56:27] WARNING root fetch - processPackages [xmen]: Skipping, unable to determine old version
+[2023-05-16 13:56:27] INFO root fetch - processPackages [xmen]: Start processing: biocolabsdk
+[2023-05-16 13:56:27] INFO root fetch - main [MainThread]: End processing [xmen] error
+[2023-05-16 13:56:27] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-16 13:56:27] WARNING root fetch - processPackages [snelt]: Skipping, unable to determine old version
+[2023-05-16 13:56:27] INFO root fetch - processPackages [snelt]: Start processing: scrapere
+[2023-05-16 13:56:27] INFO root fetch - main [MainThread]: End processing [snelt] error
+[2023-05-16 13:56:27] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 13:56:27] INFO root fetch - processPackages [pysparse-array]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 13:56:27] INFO root fetch - processPackages [text2story]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-16 13:56:27] INFO root fetch - processPackages [jupyterlab-nbgallery]: New version: [2.0.2] Old Version: [2.0.0a4]
+[2023-05-16 13:56:27] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 13:56:27] INFO root fetch - processPackages [tdp-core]: New version: [9.0.0] Old Version: [19.0.0]
+[2023-05-16 13:56:27] INFO root fetch - processPackages [biocolabsdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 13:56:27] INFO root fetch - processPackages [cso-classifier]: New version: [3.1] Old Version: [3.0]
+[2023-05-16 13:56:27] WARNING root fetch - processPackages [scrapere]: Skipping, unable to determine old version
+[2023-05-16 13:56:27] INFO root fetch - processPackages [scrapere]: Start processing: torchaction
+[2023-05-16 13:56:27] INFO root fetch - main [MainThread]: End processing [scrapere] error
+[2023-05-16 13:56:27] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230516/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 13:56:27] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/99/4e/f2919cbb4f7cbbc52a0b0941d1dadfa2b4ae32f861bcbf8f32fad468f59c/text2story-1.2.0.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [torchaction]: New version: [0.0.3] Old Version: [0.0.2.dev1]
+[2023-05-16 13:56:27] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: Downloading https://files.pythonhosted.org/packages/34/5e/bbb45c4896f97d92da67218c2287467d63d32a5e08449d56036d13a6b634/flask-httpx-request-converted-to-flask-test-client-request-0.1.2.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [jupyterlab-nbgallery]: Downloading https://files.pythonhosted.org/packages/b7/26/3d9a4414fc5107469991d423ff006d4a84a6ad9aacb95a092d93be93bfe6/jupyterlab_nbgallery-2.0.0a4.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [tdp-core]: Downloading https://files.pythonhosted.org/packages/de/8a/0f48375dccbde6d2e3cbc5db0f33fb532367733a3c2168365d43d4f35b7e/tdp_core-19.0.0-py3-none-any.whl
+[2023-05-16 13:56:27] INFO root fetch - processPackages [biocolabsdk]: Downloading https://files.pythonhosted.org/packages/d9/df/a57fed08af6bf604d34b2149cec83cd1e1c855273ea031f2f554f3e8834e/biocolabsdk-1.0.1.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [cso-classifier]: Downloading https://files.pythonhosted.org/packages/6d/56/b2da540062cabd9607b04ebefd015d56153f1891e3d7cc3646da08cf0697/cso-classifier-3.0.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/21/1d/980c6d21dbe2d503de34a1993b1e0e9c69167b0ab6e7aae2d6ebf057e8ed/coretex-0.0.8.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [pysparse-array]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [pysparse-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparse-array-0.1.2.tar.gz tmp/pysparse-array-0.1.3.tar.gz --markdown 20230516/p/pysparse-array/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 13:56:27] INFO root fetch - processPackages [torchaction]: Downloading https://files.pythonhosted.org/packages/f1/d5/e9b600a2f5db0010beaa2fa859eda8cfa84bd4c5c749e686b54c853cd63e/torchaction-0.0.2.dev1.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: Downloading https://files.pythonhosted.org/packages/49/fc/4c0f12312703f858b449f261b2e4aa293672bbb9e3ed209cc170fc7f65ce/flask-httpx-request-converted-to-flask-test-client-request-0.1.3.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/83/23/ec2d2cc7cd63e06d79a76759e24b319f5f9d1a1cac7f9a2b6aff91823ae2/text2story-1.2.1.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [cso-classifier]: Downloading https://files.pythonhosted.org/packages/15/a7/0d75e220165e784473d4ce6db6dd28fb86c9b93d9c33279e7426c5a889fa/cso-classifier-3.1.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/93/86/1cf39d4988d7419e88a27e0ad1b3c4872a93a11dfc4bccd1a80ad2c687c7/coretex-0.0.9.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [jupyterlab-nbgallery]: Downloading https://files.pythonhosted.org/packages/e2/f8/c7596b970d8d1fb324dc067a428b4534dff76f0500e9a6e3d99a908f163a/jupyterlab_nbgallery-2.0.2.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [biocolabsdk]: Downloading https://files.pythonhosted.org/packages/e9/b2/6f3b1cc5fbed448b2455d10a3f3a5691224b2da6a6c2da25ddb1475cd526/biocolabsdk-1.0.2.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-httpx-request-converted-to-flask-test-client-request-0.1.2.tar.gz tmp/flask-httpx-request-converted-to-flask-test-client-request-0.1.3.tar.gz --markdown 20230516/f/flask-httpx-request-converted-to-flask-test-client-request/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 13:56:27] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230516/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 13:56:27] INFO root fetch - processPackages [tdp-core]: Downloading https://files.pythonhosted.org/packages/1d/cf/bc4f8ac5c2a64d009a93ca460d99b8b9dc0cf4ab4fcd8a118815d76ea717/tdp_core-9.0.0.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [cso-classifier]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [cso-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cso-classifier-3.0.tar.gz tmp/cso-classifier-3.1.tar.gz --markdown 20230516/c/cso-classifier/3.0-3.1/diff.md --exclude *.pyd
+[2023-05-16 13:56:27] INFO root fetch - processPackages [jupyterlab-nbgallery]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [jupyterlab-nbgallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nbgallery-2.0.0a4.tar.gz tmp/jupyterlab_nbgallery-2.0.2.tar.gz --markdown 20230516/j/jupyterlab-nbgallery/2.0.0a4-2.0.2/diff.md --exclude *.pyd
+[2023-05-16 13:56:27] INFO root fetch - processPackages [biocolabsdk]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [biocolabsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocolabsdk-1.0.1.tar.gz tmp/biocolabsdk-1.0.2.tar.gz --markdown 20230516/b/biocolabsdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 13:56:27] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.2.0.tar.gz tmp/text2story-1.2.1.tar.gz --markdown 20230516/t/text2story/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-16 13:56:27] INFO root fetch - processPackages [torchaction]: Downloading https://files.pythonhosted.org/packages/fa/24/22ff00573e5a319a522c39abb890caaa2a16e931d5b9f89d9ecef1a6fd31/torchaction-0.0.3.tar.gz
+[2023-05-16 13:56:27] INFO root fetch - processPackages [tdp-core]: executing diffoscope
+[2023-05-16 13:56:27] INFO root fetch - processPackages [tdp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdp_core-19.0.0-py3-none-any.whl.zip tmp/tdp_core-9.0.0.tar.gz --markdown 20230516/t/tdp-core/19.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-16 13:56:28] INFO root fetch - processPackages [torchaction]: executing diffoscope
+[2023-05-16 13:56:28] INFO root fetch - processPackages [torchaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchaction-0.0.2.dev1.tar.gz tmp/torchaction-0.0.3.tar.gz --markdown 20230516/t/torchaction/0.0.2.dev1-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 13:56:28] INFO root fetch - processPackages [pysparse-array]: Start processing: nucliadb-contributor-assets
+[2023-05-16 13:56:28] INFO root fetch - main [MainThread]: End processing [pysparse-array]: success
+[2023-05-16 13:56:28] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post783] Old Version: [1.0.0.post782]
+[2023-05-16 13:56:29] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-16 13:56:29] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post782-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post783-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-contributor-assets/1.0.0.post782-1.0.0.post783/diff.md --exclude *.pyd
+[2023-05-16 13:56:29] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: Start processing: skip-django-auth-token
+[2023-05-16 13:56:29] INFO root fetch - main [MainThread]: End processing [flask-httpx-request-converted-to-flask-test-client-request]: success
+[2023-05-16 13:56:29] INFO root fetch - processPackages [skip-django-auth-token]: New version: [0.2.15.3] Old Version: [0.2.15.2]
+[2023-05-16 13:56:29] INFO root fetch - processPackages [torchaction]: Start processing: miquido-spawn-gitlab-job
+[2023-05-16 13:56:29] INFO root fetch - main [MainThread]: End processing [torchaction]: success
+[2023-05-16 13:56:29] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 13:56:29] INFO root fetch - processPackages [skip-django-auth-token]: Downloading https://files.pythonhosted.org/packages/ac/a2/c181518b74dabcc26e46387ef751f3b7a6b843482d0727332bd58f1379e3/skip-django-auth-token-0.2.15.2.tar.gz
+[2023-05-16 13:56:29] INFO root fetch - main [MainThread]: End processing [biocolabsdk]: success
+[2023-05-16 13:56:29] INFO root fetch - main [MainThread]: End processing [tdp-core]: success
+[2023-05-16 13:56:29] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-05-16 13:56:29] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: Downloading https://files.pythonhosted.org/packages/83/a0/4bb5133d6af06e341d6149bbc41743ee81bdcb7aa84c47f96037e4c54532/miquido_spawn_gitlab_job-1.0.1.tar.gz
+[2023-05-16 13:56:29] INFO root fetch - processPackages [skip-django-auth-token]: Downloading https://files.pythonhosted.org/packages/e2/be/7f052aed80de9b5a347db43c1039b3680c1713cae8d69e0269c16bd47175/skip-django-auth-token-0.2.15.3.tar.gz
+[2023-05-16 13:56:29] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-16 13:56:29] INFO root fetch - processPackages [skip-django-auth-token]: executing diffoscope
+[2023-05-16 13:56:29] INFO root fetch - processPackages [skip-django-auth-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-auth-token-0.2.15.2.tar.gz tmp/skip-django-auth-token-0.2.15.3.tar.gz --markdown 20230516/s/skip-django-auth-token/0.2.15.2-0.2.15.3/diff.md --exclude *.pyd
+[2023-05-16 13:56:30] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: Downloading https://files.pythonhosted.org/packages/cc/bb/1b285f77b10601f58d93b26fd86ba803bf32a9dadcc1312e2067daac0bb9/miquido_spawn_gitlab_job-1.0.2.tar.gz
+[2023-05-16 13:56:30] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: executing diffoscope
+[2023-05-16 13:56:30] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miquido_spawn_gitlab_job-1.0.1.tar.gz tmp/miquido_spawn_gitlab_job-1.0.2.tar.gz --markdown 20230516/m/miquido-spawn-gitlab-job/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 13:56:30] INFO root fetch - main [MainThread]: End processing [cso-classifier]: success
+[2023-05-16 13:56:30] INFO root fetch - main [MainThread]: End processing [miquido-spawn-gitlab-job]: success
+[2023-05-16 13:56:31] INFO root fetch - main [MainThread]: End processing [skip-django-auth-token]: success
+[2023-05-16 13:56:38] INFO root fetch - main [MainThread]: End processing [jupyterlab-nbgallery]: success
+[2023-05-16 13:56:41] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-16 13:57:02] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-16 13:57:02] INFO root fetch - main [MainThread]: Store serial: [18122790]
