@@ -16343,3 +16343,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 14:12:56] INFO root fetch - main [MainThread]: End processing [CQE]: success
 [2023-05-16 14:13:31] INFO root fetch - main [MainThread]: End processing [scrapere]: success
 [2023-05-16 14:13:31] INFO root fetch - main [MainThread]: Store serial: [18122983]
+[2023-05-16 14:18:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18122983]
+[2023-05-16 14:18:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hoppr-nexus-bundler
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hoppr-cyclonedx-models
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: banner-storedot
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fedml
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jschemator
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aps-common-libraries
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drb-topic-sentinel1
+[2023-05-16 14:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unitrack
+[2023-05-16 14:18:40] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [jschemator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230516/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-05-16 14:18:40] INFO root fetch - processPackages [hoppr-cyclonedx-models]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230516/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-16 14:18:40] INFO root fetch - processPackages [unitrack]: New version: [4.5.0] Old Version: [4.3.2]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [aps-common-libraries]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [drb-topic-sentinel1]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [jschemator]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [hoppr-nexus-bundler]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [jschemator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jschemator-0.0.4.tar.gz tmp/jschemator-0.0.5.tar.gz --markdown 20230516/j/jschemator/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 14:18:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 14:18:40] INFO root fetch - processPackages [banner-storedot]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-05-16 14:18:40] INFO root fetch - processPackages [unitrack]: Downloading https://files.pythonhosted.org/packages/60/d6/6abd202e03bd4c07359ee3b1dbc661f5b2b6eaf5b1cb297ecf04b3b7b887/unitrack-4.3.2.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [aps-common-libraries]: Downloading https://files.pythonhosted.org/packages/76/7c/b1ff76b01d62db44709f9e097d9dd8da36113881d4920b862d82a35364c5/aps_common_libraries-1.0.7.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [drb-topic-sentinel1]: Downloading https://files.pythonhosted.org/packages/17/d3/87af5babcfedbb3563b9487f55b069b3e80f040de6179adfd0bdab27178f/drb-topic-sentinel1-1.1.0.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/39/77/7e6d2a56238f82b552aabcb3ce6b28efae70421ec92aa6999d9bc80d1226/hoppr_nexus_bundler-0.4.8.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [hoppr-cyclonedx-models]: Downloading https://files.pythonhosted.org/packages/67/57/44aced9389486650d04a8bac07a33315396118df970ee17df6acd1cf1686/hoppr_cyclonedx_models-0.4.8.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [banner-storedot]: Downloading https://files.pythonhosted.org/packages/fe/cf/254e429b07884df44c0da19510109682482c1088863ce8fb3d82923621f1/banner-storedot-2.3.0.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [unitrack]: Downloading https://files.pythonhosted.org/packages/a3/ee/95a55e4ace32f70b8602643594b7808ef52060426a44766affda3275febe/unitrack-4.5.0.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [banner-storedot]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [banner-storedot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banner-storedot-2.2.9.tar.gz tmp/banner-storedot-2.3.0.tar.gz --markdown 20230516/b/banner-storedot/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-05-16 14:18:40] INFO root fetch - processPackages [aps-common-libraries]: Downloading https://files.pythonhosted.org/packages/0a/a1/143997beca6476d87a301c7d6422d55e6ceac77b816e0e96d3393781e2f1/aps_common_libraries-1.0.8.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [hoppr-nexus-bundler]: Downloading https://files.pythonhosted.org/packages/ee/b9/8881e5dce1a89254fdcee37c3a94ef322a8000030b58c179465d6b91ddd1/hoppr_nexus_bundler-0.4.9.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [hoppr-cyclonedx-models]: Downloading https://files.pythonhosted.org/packages/81/98/9f9fff57e1d9f7de886cfb08ab5198ec0082dc6d50b64ade56f4ba54666c/hoppr_cyclonedx_models-0.4.9.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [aps-common-libraries]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [aps-common-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps_common_libraries-1.0.7.tar.gz tmp/aps_common_libraries-1.0.8.tar.gz --markdown 20230516/a/aps-common-libraries/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 14:18:40] INFO root fetch - processPackages [drb-topic-sentinel1]: Downloading https://files.pythonhosted.org/packages/98/1d/9be60ccac8ddc5471b60f23026a647a1453081fb13441f662fa780d51f58/drb-topic-sentinel1-1.2.0.tar.gz
+[2023-05-16 14:18:40] INFO root fetch - processPackages [unitrack]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [unitrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitrack-4.3.2.tar.gz tmp/unitrack-4.5.0.tar.gz --markdown 20230516/u/unitrack/4.3.2-4.5.0/diff.md --exclude *.pyd
+[2023-05-16 14:18:40] INFO root fetch - processPackages [hoppr-nexus-bundler]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [hoppr-nexus-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_nexus_bundler-0.4.8.tar.gz tmp/hoppr_nexus_bundler-0.4.9.tar.gz --markdown 20230516/h/hoppr-nexus-bundler/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-16 14:18:40] INFO root fetch - processPackages [drb-topic-sentinel1]: executing diffoscope
+[2023-05-16 14:18:40] INFO root fetch - processPackages [drb-topic-sentinel1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-topic-sentinel1-1.1.0.tar.gz tmp/drb-topic-sentinel1-1.2.0.tar.gz --markdown 20230516/d/drb-topic-sentinel1/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-16 14:18:41] INFO root fetch - processPackages [hoppr-cyclonedx-models]: executing diffoscope
+[2023-05-16 14:18:41] INFO root fetch - processPackages [hoppr-cyclonedx-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_cyclonedx_models-0.4.8.tar.gz tmp/hoppr_cyclonedx_models-0.4.9.tar.gz --markdown 20230516/h/hoppr-cyclonedx-models/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-16 14:18:41] INFO root fetch - processPackages [jschemator]: Start processing: VonPylib
+[2023-05-16 14:18:41] INFO root fetch - main [MainThread]: End processing [jschemator]: success
+[2023-05-16 14:18:41] INFO root fetch - processPackages [VonPylib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 14:18:41] INFO root fetch - processPackages [VonPylib]: Downloading https://files.pythonhosted.org/packages/05/ee/69fc82db8379161c40bee5e890b148c53d302e93adb4fba83e040e709434/VonPylib-0.1.8.tar.gz
+[2023-05-16 14:18:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-16 14:18:42] INFO root fetch - main [MainThread]: End processing [hoppr-nexus-bundler]: success
+[2023-05-16 14:18:42] INFO root fetch - processPackages [VonPylib]: Downloading https://files.pythonhosted.org/packages/8f/86/a108d3431926fb2c19b0251c5fe97fb5a35ce1f627df1cf6b018a5d34e72/VonPylib-0.1.9.tar.gz
+[2023-05-16 14:18:42] INFO root fetch - main [MainThread]: End processing [banner-storedot]: success
+[2023-05-16 14:18:42] INFO root fetch - processPackages [VonPylib]: executing diffoscope
+[2023-05-16 14:18:42] INFO root fetch - processPackages [VonPylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VonPylib-0.1.8.tar.gz tmp/VonPylib-0.1.9.tar.gz --markdown 20230516/V/VonPylib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 14:18:42] INFO root fetch - main [MainThread]: End processing [aps-common-libraries]: success
+[2023-05-16 14:18:42] INFO root fetch - main [MainThread]: End processing [hoppr-cyclonedx-models]: success
+[2023-05-16 14:18:42] INFO root fetch - main [MainThread]: End processing [unitrack]: success
+[2023-05-16 14:18:42] INFO root fetch - main [MainThread]: End processing [drb-topic-sentinel1]: success
+[2023-05-16 14:18:43] INFO root fetch - main [MainThread]: End processing [VonPylib]: success
+[2023-05-16 14:18:45] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-16 14:18:52] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-05-16 14:18:52] INFO root fetch - main [MainThread]: Store serial: [18123025]
