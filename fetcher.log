@@ -14279,3 +14279,63 @@
 [2023-05-16 12:20:11] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-05-16 12:20:14] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
 [2023-05-16 12:20:14] INFO root fetch - main [MainThread]: Store serial: [18121651]
+[2023-05-16 12:25:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121651]
+[2023-05-16 12:25:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapere
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-gereon-cert-2123-use-reset-assertions
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pl-crossvalidate
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrapere
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hx-requests
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cairo-lang
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scrapere
+[2023-05-16 12:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mqt.bench
+[2023-05-16 12:25:23] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev4990685388] Old Version: [2.0.0.dev4926901978]
+[2023-05-16 12:25:23] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230516.9.9.146614] Old Version: [20230516.8.33.421555]
+[2023-05-16 12:25:23] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2123-use-reset-assertions]: New version: [20230516.8.57.471607] Old Version: [20230516.6.2.84452]
+[2023-05-16 12:25:23] INFO root fetch - processPackages [scrapere]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-16 12:25:23] INFO root fetch - processPackages [scrapere]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-16 12:25:23] INFO root fetch - processPackages [scrapere]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-16 12:25:23] WARNING root fetch - processPackages [pl-crossvalidate]: Skipping, unable to determine old version
+[2023-05-16 12:25:23] INFO root fetch - main [MainThread]: End processing [pl-crossvalidate] error
+[2023-05-16 12:25:23] INFO root fetch - processPackages [hx-requests]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 12:25:23] INFO root fetch - processPackages [mqt.bench]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-16 12:25:23] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-16 12:25:23] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev4926901978.tar.gz tmp/th2_data_services-2.0.0.dev4990685388.tar.gz --markdown 20230516/t/th2-data-services/2.0.0.dev4926901978-2.0.0.dev4990685388/diff.md --exclude *.pyd
+[2023-05-16 12:25:23] INFO root fetch - processPackages [cairo-lang]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-16 12:25:23] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/fe/64/de836058376b5650eb238f5ac3039ad8124091c49ac03035033f6bb70686/certora-cli-alpha-roy-CERT-1955-assertHits-20230516.8.33.421555.tar.gz
+[2023-05-16 12:25:23] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2123-use-reset-assertions]: Downloading https://files.pythonhosted.org/packages/a5/2a/78f04829d7c0cadb2032027e1ee0876fe6916d03650dfcf541a478e04180/certora-cli-alpha-gereon-cert-2123-use-reset-assertions-20230516.6.2.84452.tar.gz
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/58/cd/ad64278d5eca7b0f1397612383c6ba09a15f4555a734a048fc7b24e679f1/scrapere-0.2.0.tar.gz
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/58/cd/ad64278d5eca7b0f1397612383c6ba09a15f4555a734a048fc7b24e679f1/scrapere-0.2.0.tar.gz
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/58/cd/ad64278d5eca7b0f1397612383c6ba09a15f4555a734a048fc7b24e679f1/scrapere-0.2.0.tar.gz
+[2023-05-16 12:25:24] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 38743491>=10485760
+[2023-05-16 12:25:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-16 12:25:24] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2123-use-reset-assertions]: Skipping package: exceeds size limit 38742360>=10485760
+[2023-05-16 12:25:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2123-use-reset-assertions] error
+[2023-05-16 12:25:24] INFO root fetch - processPackages [hx-requests]: Downloading https://files.pythonhosted.org/packages/3a/66/abe3611c9a7b331352d0d584b6cb03b625bec10e97ea4d64a76fa90a7369/hx_requests-0.8.0.tar.gz
+[2023-05-16 12:25:24] INFO root fetch - processPackages [mqt.bench]: Downloading https://files.pythonhosted.org/packages/1a/52/6651aa1d28dd485731d72baed1370b7c13a82a64fc55d2eebb83acce6c07/mqt.bench-0.4.3.tar.gz
+[2023-05-16 12:25:24] INFO root fetch - processPackages [cairo-lang]: Downloading https://files.pythonhosted.org/packages/11/ce/067fdb9b6154af674ea52b4ec1f0e58ce300973835cae5f290e9bcd9a87f/cairo-lang-0.9.0.zip
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.9.tar.gz tmp/scrapere-0.2.0.tar.gz --markdown 20230516/s/scrapere/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.9.tar.gz tmp/scrapere-0.2.0.tar.gz --markdown 20230516/s/scrapere/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-16 12:25:24] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.9.tar.gz tmp/scrapere-0.2.0.tar.gz --markdown 20230516/s/scrapere/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 12:25:24] INFO root fetch - processPackages [mqt.bench]: Downloading https://files.pythonhosted.org/packages/3d/9b/943c238b05301c6164a5e18aa2da3387b4d6617a982d727a451746d2acae/mqt.bench-0.4.4.tar.gz
+[2023-05-16 12:25:24] INFO root fetch - processPackages [hx-requests]: Downloading https://files.pythonhosted.org/packages/38/c2/cd7ffd390e8f65981518e18497e49a3b71e5ded11c98762b6fcf15ff54ba/hx_requests-0.9.0.tar.gz
+[2023-05-16 12:25:24] INFO root fetch - processPackages [cairo-lang]: Downloading https://files.pythonhosted.org/packages/00/8e/4505453196ad40ba5158eef2496504fc0b9059187402217ff26d053d7027/cairo-lang-0.9.1.zip
+[2023-05-16 12:25:24] INFO root fetch - processPackages [hx-requests]: executing diffoscope
+[2023-05-16 12:25:24] INFO root fetch - processPackages [hx-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hx_requests-0.8.0.tar.gz tmp/hx_requests-0.9.0.tar.gz --markdown 20230516/h/hx-requests/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 12:25:24] INFO root fetch - processPackages [cairo-lang]: executing diffoscope
+[2023-05-16 12:25:24] INFO root fetch - processPackages [cairo-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cairo-lang-0.9.0.zip tmp/cairo-lang-0.9.1.zip --markdown 20230516/c/cairo-lang/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 12:25:24] INFO root fetch - processPackages [mqt.bench]: executing diffoscope
+[2023-05-16 12:25:24] INFO root fetch - processPackages [mqt.bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt.bench-0.4.3.tar.gz tmp/mqt.bench-0.4.4.tar.gz --markdown 20230516/m/mqt.bench/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-16 12:25:25] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-16 12:25:25] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-16 12:25:25] INFO root fetch - main [MainThread]: End processing [hx-requests]: success
+[2023-05-16 12:25:26] INFO root fetch - main [MainThread]: End processing [mqt.bench]: success
+[2023-05-16 12:25:26] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-16 12:25:27] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-16 12:25:35] INFO root fetch - main [MainThread]: End processing [cairo-lang]: success
+[2023-05-16 12:25:35] INFO root fetch - main [MainThread]: Store serial: [18121678]
