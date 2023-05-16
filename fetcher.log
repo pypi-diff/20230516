@@ -11830,3 +11830,61 @@
 [2023-05-16 10:10:05] INFO root fetch - main [MainThread]: End processing [st4sd-runtime-core]: success
 [2023-05-16 10:10:30] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-16 10:10:30] INFO root fetch - main [MainThread]: Store serial: [18120255]
+[2023-05-16 10:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120255]
+[2023-05-16 10:15:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pasta-eln
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanolab
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mtANN
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: epitools
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-order-product-availability-inline
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-sale-workflow
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: styles
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: color-palette-extract
+[2023-05-16 10:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ory-client
+[2023-05-16 10:15:39] INFO root fetch - processPackages [odoo-addon-sale-order-product-availability-inline]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-05-16 10:15:39] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-16 10:15:39] INFO root fetch - processPackages [styles]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-16 10:15:40] INFO root fetch - processPackages [pasta-eln]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-16 10:15:40] INFO root fetch - processPackages [nanolab]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 10:15:40] INFO root fetch - processPackages [mtANN]: New version: [1.0] Old Version: [0.1.6]
+[2023-05-16 10:15:40] INFO root fetch - processPackages [styles]: executing diffoscope
+[2023-05-16 10:15:40] INFO root fetch - processPackages [epitools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 10:15:40] INFO root fetch - processPackages [styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/styles-0.1.6.tar.gz tmp/styles-0.1.7.tar.gz --markdown 20230516/s/styles/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 10:15:40] WARNING root fetch - processPackages [color-palette-extract]: Skipping, unable to determine old version
+[2023-05-16 10:15:40] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230515.0] Old Version: [16.0.20230513.0]
+[2023-05-16 10:15:40] INFO root fetch - main [MainThread]: End processing [color-palette-extract] error
+[2023-05-16 10:15:40] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-05-16 10:15:40] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/33/89/b2125c7e65a86fd7524c6d074340f1a9761eba01f2593d84de8978b2d81d/PatryksAutoAI-0.7.3.tar.gz
+[2023-05-16 10:15:40] INFO root fetch - processPackages [odoo-addon-sale-order-product-availability-inline]: executing diffoscope
+[2023-05-16 10:15:40] INFO root fetch - processPackages [odoo-addon-sale-order-product-availability-inline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_availability_inline-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_availability_inline-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-sale-order-product-availability-inline/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-16 10:15:40] INFO root fetch - processPackages [mtANN]: Downloading https://files.pythonhosted.org/packages/64/66/28165d5fcfdc982ffede10a88559e22221cdd7e4e6d7fbb00aa4262c0298/mtANN-0.1.6.tar.gz
+[2023-05-16 10:15:40] INFO root fetch - processPackages [epitools]: Downloading https://files.pythonhosted.org/packages/2e/54/b111304a44a0fe0449d97873bc7536bdc75fa32cd53a20e2978334be1e64/epitools-0.0.6.tar.gz
+[2023-05-16 10:15:40] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/44/8b/4799fb838d0092b7ac666a8dae770a02996267998f6731162949bce09317/ory-client-1.1.5.tar.gz
+[2023-05-16 10:15:40] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-16 10:15:40] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.7.2.tar.gz tmp/PatryksAutoAI-0.7.3.tar.gz --markdown 20230516/P/PatryksAutoAI/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-16 10:15:40] INFO root fetch - processPackages [nanolab]: Downloading https://files.pythonhosted.org/packages/89/2c/ff094c0100f755947d5e1dd7fbdd59edb5c40ff2e80eb266a5fe6ed970f6/nanolab-0.0.6.tar.gz
+[2023-05-16 10:15:40] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/01/dc/9519a97af6fe4e9e2b62f6ff51ff972971780fc119904db0ed5f7ab3872d/odoo_addons_oca_sale_workflow-16.0.20230515.0-py3-none-any.whl
+[2023-05-16 10:15:40] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-05-16 10:15:40] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.3.8-py3-none-any.whl.zip tmp/pasta_eln-2.3.9-py3-none-any.whl.zip --markdown 20230516/p/pasta-eln/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-16 10:15:40] INFO root fetch - processPackages [nanolab]: executing diffoscope
+[2023-05-16 10:15:40] INFO root fetch - processPackages [nanolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolab-0.0.5.tar.gz tmp/nanolab-0.0.6.tar.gz --markdown 20230516/n/nanolab/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 10:15:40] INFO root fetch - processPackages [mtANN]: Downloading https://files.pythonhosted.org/packages/a8/53/0cb625b6111202c9964e6ece9b7a8da3c71a78f1a6dad44f14ea7e579a35/mtANN-1.0.tar.gz
+[2023-05-16 10:15:40] WARNING root fetch - processPackages [epitools]: Skipping package: exceeds size limit 16028724>=10485760
+[2023-05-16 10:15:40] INFO root fetch - main [MainThread]: End processing [epitools] error
+[2023-05-16 10:15:40] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-05-16 10:15:40] INFO root fetch - processPackages [mtANN]: executing diffoscope
+[2023-05-16 10:15:40] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230513.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230515.0-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-sale-workflow/16.0.20230513.0-16.0.20230515.0/diff.md --exclude *.pyd
+[2023-05-16 10:15:40] INFO root fetch - processPackages [mtANN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtANN-0.1.6.tar.gz tmp/mtANN-1.0.tar.gz --markdown 20230516/m/mtANN/0.1.6-1.0/diff.md --exclude *.pyd
+[2023-05-16 10:15:40] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/a5/c2/168ddaefc28da41c63d772b9db3c39f3033665541e1a4b4ecc510c5eb836/ory-client-1.1.7.tar.gz
+[2023-05-16 10:15:40] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-05-16 10:15:40] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230516/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-05-16 10:15:41] INFO root fetch - main [MainThread]: End processing [styles]: success
+[2023-05-16 10:15:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-availability-inline]: success
+[2023-05-16 10:15:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-05-16 10:15:41] INFO root fetch - main [MainThread]: End processing [mtANN]: success
+[2023-05-16 10:15:41] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-05-16 10:15:41] INFO root fetch - main [MainThread]: End processing [nanolab]: success
+[2023-05-16 10:15:42] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-16 10:15:55] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-05-16 10:15:55] INFO root fetch - main [MainThread]: Store serial: [18120292]
