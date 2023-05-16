@@ -22588,3 +22588,102 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 18:49:41] INFO root fetch - main [MainThread]: End processing [raspisump]: success
 [2023-05-16 18:49:44] INFO root fetch - main [MainThread]: End processing [django-ledger]: success
 [2023-05-16 18:49:44] INFO root fetch - main [MainThread]: Store serial: [18126589]
+[2023-05-16 18:54:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18126589]
+[2023-05-16 18:54:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: norman-ai
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-loader-xyz
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-mike-migration-script
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llava
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-website-blog-excerpt-img
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msmanager
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-website-lazy-load-image
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-website-snippet-country-dropdown
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcicsnovault
+[2023-05-16 18:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-website-portal-contact
+[2023-05-16 18:54:53] INFO root fetch - processPackages [data-loader-xyz]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-snippet-country-dropdown]: New version: [12.0.1.2.0.99.dev9] Old Version: [12.0.1.2.0.99.dev8]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-blog-excerpt-img]: New version: [12.0.1.2.0.99.dev6] Old Version: [12.0.1.2.0.99.dev3]
+[2023-05-16 18:54:53] WARNING root fetch - processPackages [odoo12-addon-website-portal-contact]: Skipping, unable to determine old version
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-portal-contact]: Start processing: odoo12-addon-website-megamenu
+[2023-05-16 18:54:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-portal-contact] error
+[2023-05-16 18:54:53] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: New version: [20230516.16.31.483844] Old Version: [20230516.15.37.270419]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-lazy-load-image]: New version: [12.0.1.0.1.99.dev6] Old Version: [12.0.1.0.1.99.dev5]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.1.2b4] Old Version: [8.0.1.1b5]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-megamenu]: New version: [12.0.1.1.0.99.dev5] Old Version: [12.0.1.1.0.99.dev3]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Downloading https://files.pythonhosted.org/packages/f8/13/d5ab79dbca1e5b7a2dead7ff348dbd2249efe19791c10d080d21aa203a10/certora-cli-alpha-mike-migration-script-20230516.15.37.270419.tar.gz
+[2023-05-16 18:54:53] WARNING root fetch - processPackages [llava]: Skipping, unable to determine old version
+[2023-05-16 18:54:53] INFO root fetch - processPackages [llava]: Start processing: odoo12-addon-website-img-dimension
+[2023-05-16 18:54:53] INFO root fetch - main [MainThread]: End processing [llava] error
+[2023-05-16 18:54:53] WARNING root fetch - processPackages [msmanager]: Skipping, unable to determine old version
+[2023-05-16 18:54:53] INFO root fetch - processPackages [msmanager]: Start processing: simplebox
+[2023-05-16 18:54:53] INFO root fetch - main [MainThread]: End processing [msmanager] error
+[2023-05-16 18:54:53] WARNING root fetch - processPackages [norman-ai]: Skipping, unable to determine old version
+[2023-05-16 18:54:53] INFO root fetch - processPackages [norman-ai]: Start processing: denmune
+[2023-05-16 18:54:53] INFO root fetch - main [MainThread]: End processing [norman-ai] error
+[2023-05-16 18:54:53] WARNING root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Skipping package: exceeds size limit 38975703>=10485760
+[2023-05-16 18:54:53] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Start processing: lark-dynamic
+[2023-05-16 18:54:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-mike-migration-script] error
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-img-dimension]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [lark-dynamic]: New version: [1.1.2] Old Version: [1.0.4]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a147] Old Version: [0.0.1a146]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-blog-excerpt-img]: Downloading https://files.pythonhosted.org/packages/7b/0d/09501d3c77c4945282f875994ef66d699de1d4b14dd5ba832b157fb0fe98/odoo12_addon_website_blog_excerpt_img-12.0.1.2.0.99.dev3-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [data-loader-xyz]: Downloading https://files.pythonhosted.org/packages/78/bb/8d8cb64343efc9f140a8a3d744dde9bdbd85ddbdf67811b511f5787badd7/data_loader_xyz-0.0.4.tar.gz
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-snippet-country-dropdown]: Downloading https://files.pythonhosted.org/packages/32/81/4849b95ac4098c5d6fd022b00c8592b0f44a6ab19e35fb1eecd68cb4143c/odoo12_addon_website_snippet_country_dropdown-12.0.1.2.0.99.dev8-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-lazy-load-image]: Downloading https://files.pythonhosted.org/packages/cc/da/1b7b27cfb0b21ed8f41a20f2b995986a5095cf224378cd1308e26de14c0b/odoo12_addon_website_lazy_load_image-12.0.1.0.1.99.dev5-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [denmune]: New version: [1.16.3] Old Version: [1.16.2]
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-megamenu]: Downloading https://files.pythonhosted.org/packages/d8/9e/7c0ae076668d35c0bd27f4695364dc1256fdc8a33b5bbbb0316b2f9665be/odoo12_addon_website_megamenu-12.0.1.1.0.99.dev3-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [data-loader-xyz]: executing diffoscope
+[2023-05-16 18:54:53] INFO root fetch - processPackages [data-loader-xyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_loader_xyz-0.0.3.tar.gz tmp/data_loader_xyz-0.0.4.tar.gz --markdown 20230516/d/data-loader-xyz/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-img-dimension]: Downloading https://files.pythonhosted.org/packages/81/9f/d0c39902102e0bc546064c3094c6baf1917564aef5d6e92ed2e09c053185/odoo12_addon_website_img_dimension-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-16 18:54:53] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.1b5.tar.gz tmp/dcicsnovault-8.0.1.2b4.tar.gz --markdown 20230516/d/dcicsnovault/8.0.1.1b5-8.0.1.2b4/diff.md --exclude *.pyd
+[2023-05-16 18:54:53] INFO root fetch - processPackages [denmune]: Downloading https://files.pythonhosted.org/packages/16/14/f5ea667f11e28f36ac9ac9d9336e7e14183e4a1179a689a8e9363f20fcf5/denmune-1.16.2.tar.gz
+[2023-05-16 18:54:53] INFO root fetch - processPackages [lark-dynamic]: Downloading https://files.pythonhosted.org/packages/6d/a0/26cd5df8e8cd249e96d0d3dd9753a8554d8f201d1c0a062f47250d446ab3/lark_dynamic-1.1.2.tar.gz
+[2023-05-16 18:54:53] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/71/4a/3940f5694e0b49625fdb7b5b00b9627fb7b2cb38b1b838bd2f8f84e99f0c/simplebox-0.0.1a147-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-snippet-country-dropdown]: Downloading https://files.pythonhosted.org/packages/56/19/ef29f89d110a7a7bbd768474a5ff29b1338bdfb2656cc40f98a6a38337fa/odoo12_addon_website_snippet_country_dropdown-12.0.1.2.0.99.dev9-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-lazy-load-image]: Downloading https://files.pythonhosted.org/packages/48/0f/b9ca1d4983d597b9e2a300ab55e541b8dba462a6b5662f2b7142d3f6299b/odoo12_addon_website_lazy_load_image-12.0.1.0.1.99.dev6-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [lark-dynamic]: executing diffoscope
+[2023-05-16 18:54:53] INFO root fetch - processPackages [lark-dynamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark_dynamic-1.0.4.tar.gz tmp/lark_dynamic-1.1.2.tar.gz --markdown 20230516/l/lark-dynamic/1.0.4-1.1.2/diff.md --exclude *.pyd
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-blog-excerpt-img]: Downloading https://files.pythonhosted.org/packages/c4/de/df96a617aa541063b3496e624dea56547e230441645e62be0a3b5234b128/odoo12_addon_website_blog_excerpt_img-12.0.1.2.0.99.dev6-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [odoo12-addon-website-megamenu]: Downloading https://files.pythonhosted.org/packages/34/e1/f15059882027bdb79ac99d47f66689bbd2545c047711e7dd69a8288c37d2/odoo12_addon_website_megamenu-12.0.1.1.0.99.dev5-py3-none-any.whl
+[2023-05-16 18:54:53] INFO root fetch - processPackages [denmune]: Downloading https://files.pythonhosted.org/packages/8a/9b/aa592c41b31ffe4ac2c15643f374ad0437fc4578da955fff395d56246aa3/denmune-1.16.3.tar.gz
+[2023-05-16 18:54:53] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-05-16 18:54:54] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a146-py3-none-any.whl.zip tmp/simplebox-0.0.1a147-py3-none-any.whl.zip --markdown 20230516/s/simplebox/0.0.1a146-0.0.1a147/diff.md --exclude *.pyd
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-snippet-country-dropdown]: executing diffoscope
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-snippet-country-dropdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_snippet_country_dropdown-12.0.1.2.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_website_snippet_country_dropdown-12.0.1.2.0.99.dev9-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-website-snippet-country-dropdown/12.0.1.2.0.99.dev8-12.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-lazy-load-image]: executing diffoscope
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-lazy-load-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_lazy_load_image-12.0.1.0.1.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_website_lazy_load_image-12.0.1.0.1.99.dev6-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-website-lazy-load-image/12.0.1.0.1.99.dev5-12.0.1.0.1.99.dev6/diff.md --exclude *.pyd
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-blog-excerpt-img]: executing diffoscope
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-blog-excerpt-img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_blog_excerpt_img-12.0.1.2.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_website_blog_excerpt_img-12.0.1.2.0.99.dev6-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-website-blog-excerpt-img/12.0.1.2.0.99.dev3-12.0.1.2.0.99.dev6/diff.md --exclude *.pyd
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-megamenu]: executing diffoscope
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-megamenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_megamenu-12.0.1.1.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_website_megamenu-12.0.1.1.0.99.dev5-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-website-megamenu/12.0.1.1.0.99.dev3-12.0.1.1.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-16 18:54:54] INFO root fetch - processPackages [denmune]: executing diffoscope
+[2023-05-16 18:54:54] INFO root fetch - processPackages [denmune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denmune-1.16.2.tar.gz tmp/denmune-1.16.3.tar.gz --markdown 20230516/d/denmune/1.16.2-1.16.3/diff.md --exclude *.pyd
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-img-dimension]: Downloading https://files.pythonhosted.org/packages/b2/73/f5b23d306c7401fa51a86adf93af49eedb46c011cda521b02639220e5eb1/odoo12_addon_website_img_dimension-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-img-dimension]: executing diffoscope
+[2023-05-16 18:54:54] INFO root fetch - processPackages [odoo12-addon-website-img-dimension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_img_dimension-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_website_img_dimension-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-website-img-dimension/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-16 18:54:55] INFO root fetch - processPackages [data-loader-xyz]: Start processing: polymatica-api
+[2023-05-16 18:54:55] INFO root fetch - main [MainThread]: End processing [data-loader-xyz]: success
+[2023-05-16 18:54:55] INFO root fetch - processPackages [polymatica-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-16 18:54:55] INFO root fetch - processPackages [lark-dynamic]: Start processing: album-sender
+[2023-05-16 18:54:55] INFO root fetch - main [MainThread]: End processing [lark-dynamic]: success
+[2023-05-16 18:54:55] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/82/71/9ee9475c799f190caaf704d5a5bdc820b219c06a538d32127755f18a5a65/polymatica_api-0.2.2.tar.gz
+[2023-05-16 18:54:55] INFO root fetch - processPackages [album-sender]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 18:54:55] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/7d/f8/aa521f1580b468ae01d0f80a3e1c56d301cd54639f44a3d1b7b9b8625a9a/polymatica_api-0.2.3.tar.gz
+[2023-05-16 18:54:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-megamenu]: success
+[2023-05-16 18:54:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-lazy-load-image]: success
+[2023-05-16 18:54:55] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/72/90/a5e804bd6c1ecf26050b552365080edb0ff4e57f9b474941d1b3e8c956f2/album_sender-0.0.8.tar.gz
+[2023-05-16 18:54:55] INFO root fetch - processPackages [polymatica-api]: executing diffoscope
+[2023-05-16 18:54:55] INFO root fetch - processPackages [polymatica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatica_api-0.2.2.tar.gz tmp/polymatica_api-0.2.3.tar.gz --markdown 20230516/p/polymatica-api/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-16 18:54:55] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-snippet-country-dropdown]: success
+[2023-05-16 18:54:55] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-05-16 18:54:56] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/a6/b0/b73dab7d1275705a49c4160beb9cf5cd8fb5aab7e889c7b606e81f425bac/album_sender-0.0.9.tar.gz
+[2023-05-16 18:54:56] INFO root fetch - processPackages [album-sender]: executing diffoscope
+[2023-05-16 18:54:56] INFO root fetch - processPackages [album-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/album_sender-0.0.8.tar.gz tmp/album_sender-0.0.9.tar.gz --markdown 20230516/a/album-sender/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 18:54:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-blog-excerpt-img]: success
+[2023-05-16 18:54:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-img-dimension]: success
+[2023-05-16 18:54:56] INFO root fetch - main [MainThread]: End processing [denmune]: success
+[2023-05-16 18:54:56] INFO root fetch - main [MainThread]: End processing [polymatica-api]: success
+[2023-05-16 18:54:57] INFO root fetch - main [MainThread]: End processing [album-sender]: success
+[2023-05-16 18:54:58] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-16 18:54:58] INFO root fetch - main [MainThread]: Store serial: [18126637]
