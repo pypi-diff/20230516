@@ -12267,3 +12267,106 @@
 [2023-05-16 10:37:41] INFO root fetch - main [MainThread]: End processing [openai-api-call]: success
 [2023-05-16 10:37:41] INFO root fetch - main [MainThread]: End processing [skyndo]: success
 [2023-05-16 10:37:41] INFO root fetch - main [MainThread]: Store serial: [18120497]
+[2023-05-16 10:42:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120497]
+[2023-05-16 10:42:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiversx-sdk-network-providers
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csp-cryspy
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-antd-components
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eventiq
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trendingbot
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coordinate-projector
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-email-template-qweb
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wise-pizza
+[2023-05-16 10:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-social
+[2023-05-16 10:42:52] INFO root fetch - processPackages [multiversx-sdk-network-providers]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [csp-cryspy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [trendingbot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [eventiq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [coordinate-projector]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20230515.0] Old Version: [16.0.20230426.0]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [wise-pizza]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-16 10:42:52] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.8.tar.gz tmp/eventiq-0.1.9.tar.gz --markdown 20230516/e/eventiq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [trendingbot]: Downloading https://files.pythonhosted.org/packages/10/c0/4d40fd33e390a5b61a35a73d78d2a94b34c8974cdc0401df8eeb87d32138/trendingbot-0.0.1.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/ae/96/9d8c20d2b12c11bf3d5ea7ecde40a3e62d8de472648f754198cb39507183/streamlit_antd_components-0.0.8-py3-none-any.whl
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: Downloading https://files.pythonhosted.org/packages/38/52/ac64ccf3f9f5f501d78b2d710edba14bd0101cb7db5c4bf68d270ee4ddb5/odoo_addon_email_template_qweb-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 10:42:52] INFO root fetch - processPackages [coordinate-projector]: Downloading https://files.pythonhosted.org/packages/5d/5c/b4c17ed535783d8a7c74ee5a3ff652eaa6b2895e960e8e90e4c127fafdd7/coordinate-projector-0.0.7.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/dd/d3/f85ada3a6a203790037c544d180db704537014af690edefb229a6d52c8de/multiversx_sdk_network_providers-0.7.0.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230516/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [csp-cryspy]: Downloading https://files.pythonhosted.org/packages/0a/5b/acc8b7043a2ab9061628f2086e6e4c1828e05bc01eda2267e806198d753b/csp-cryspy-1.0.0.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_email_template_qweb-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_email_template_qweb-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-email-template-qweb/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [wise-pizza]: Downloading https://files.pythonhosted.org/packages/9d/1e/2c310d09808d9b080697df782fbeb8fc66f9abbed5fbfca48dc0a7745281/wise-pizza-0.1.1.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/5c/a1/766f817d4123bac5f3bd80046cd3bdd43f586fb6542999af04aa92e65ee4/odoo_addons_oca_social-16.0.20230426.0-py3-none-any.whl
+[2023-05-16 10:42:52] INFO root fetch - processPackages [trendingbot]: Downloading https://files.pythonhosted.org/packages/f1/5c/c9ad8a162b7d91e05aa18b643522e64e08eb3ba9139bf7df91d637b696e3/trendingbot-0.0.2.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.0.7-py3-none-any.whl.zip tmp/streamlit_antd_components-0.0.8-py3-none-any.whl.zip --markdown 20230516/s/streamlit-antd-components/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [trendingbot]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [trendingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendingbot-0.0.1.tar.gz tmp/trendingbot-0.0.2.tar.gz --markdown 20230516/t/trendingbot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [coordinate-projector]: Downloading https://files.pythonhosted.org/packages/75/8f/d2e2cef961c8a93a4496bddc83abef6275ac799de8e7fe9f3e27ce944ffc/coordinate_projector-0.0.8.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/27/f1/3cbbc62fb266ba87a09ce15850305f92b122e977a5466a36af5bf78c5567/multiversx_sdk_network_providers-0.8.0.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [coordinate-projector]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [coordinate-projector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coordinate-projector-0.0.7.tar.gz tmp/coordinate_projector-0.0.8.tar.gz --markdown 20230516/c/coordinate-projector/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [multiversx-sdk-network-providers]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [multiversx-sdk-network-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_network_providers-0.7.0.tar.gz tmp/multiversx_sdk_network_providers-0.8.0.tar.gz --markdown 20230516/m/multiversx-sdk-network-providers/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/a4/c0/ac63a8623eefa2a7db110364e9b6e3b5ad5812dd79bf011ce97c6d8c314a/odoo_addons_oca_social-16.0.20230515.0-py3-none-any.whl
+[2023-05-16 10:42:52] INFO root fetch - processPackages [wise-pizza]: Downloading https://files.pythonhosted.org/packages/8a/d7/4f00f7751db29b2bbc8f46fc389edb25e659bf39b0176fae244373dd60d9/wise-pizza-0.1.2.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20230426.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20230515.0-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-social/16.0.20230426.0-16.0.20230515.0/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [wise-pizza]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [wise-pizza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wise-pizza-0.1.1.tar.gz tmp/wise-pizza-0.1.2.tar.gz --markdown 20230516/w/wise-pizza/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 10:42:52] INFO root fetch - processPackages [csp-cryspy]: Downloading https://files.pythonhosted.org/packages/a1/70/012ee604250e379c43d8f2a21fc4e0b2d18f70d7f059ff44d6c6f9087f3a/csp-cryspy-1.1.0.tar.gz
+[2023-05-16 10:42:52] INFO root fetch - processPackages [csp-cryspy]: executing diffoscope
+[2023-05-16 10:42:52] INFO root fetch - processPackages [csp-cryspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csp-cryspy-1.0.0.tar.gz tmp/csp-cryspy-1.1.0.tar.gz --markdown 20230516/c/csp-cryspy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-16 10:42:53] INFO root fetch - processPackages [trendingbot]: Start processing: dynamicrender
+[2023-05-16 10:42:53] INFO root fetch - main [MainThread]: End processing [trendingbot]: success
+[2023-05-16 10:42:54] INFO root fetch - processPackages [dynamicrender]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-16 10:42:54] INFO root fetch - processPackages [odoo-addon-email-template-qweb]: Start processing: pydoclint
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-email-template-qweb]: success
+[2023-05-16 10:42:54] INFO root fetch - processPackages [pydoclint]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 10:42:54] INFO root fetch - processPackages [dynamicrender]: Downloading https://files.pythonhosted.org/packages/95/05/303d589c95adc8c2b9a4dff9a7667ef3940cc9cb35e8ec12e915fd9d1b1b/dynamicrender-1.2.4.tar.gz
+[2023-05-16 10:42:54] WARNING root fetch - processPackages [dynamicrender]: Skipping package: exceeds size limit 25184040>=10485760
+[2023-05-16 10:42:54] INFO root fetch - processPackages [dynamicrender]: Start processing: panther
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [dynamicrender] error
+[2023-05-16 10:42:54] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Start processing: tff-nightly
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-network-providers]: success
+[2023-05-16 10:42:54] INFO root fetch - processPackages [panther]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-05-16 10:42:54] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/c0/5f/08bd4eaf8756c804e29173544bfadca59d46731938486bb8a3a71285d11a/pydoclint-0.0.1.tar.gz
+[2023-05-16 10:42:54] INFO root fetch - processPackages [streamlit-antd-components]: Start processing: semisup-segmentation
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-05-16 10:42:54] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 10:42:54] INFO root fetch - processPackages [odoo-addons-oca-social]: Start processing: aloso
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2023-05-16 10:42:54] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 10:42:54] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230516] Old Version: [0.0.1.dev20230515]
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [coordinate-projector]: success
+[2023-05-16 10:42:54] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-16 10:42:54] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230516/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:42:54] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/3f/99/b515e16ebf18c84ac87eefec8ba7e8846f7d6905fec3b21d300e7a42ae71/panther-1.7.3.tar.gz
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-05-16 10:42:54] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-05-16 10:42:54] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230516/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [wise-pizza]: success
+[2023-05-16 10:42:54] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/b9/b4/c6ccbc17c054507f69703f76f9e634cb49414d9d786c8d78829a5ef76fda/tff_nightly-0.0.1.dev20230515-py2.py3-none-any.whl
+[2023-05-16 10:42:54] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/15/bf/2af73f426f85680c0091ed486e4fbb3dca9404bc8b4c5d6cc2f31e511601/pydoclint-0.0.2.tar.gz
+[2023-05-16 10:42:54] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-05-16 10:42:54] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.1.tar.gz tmp/pydoclint-0.0.2.tar.gz --markdown 20230516/p/pydoclint/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 10:42:54] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/62/d9/6fd26a1b97b80e80a6ca367df8cb9c0bcf5f8d2cf55364ea4d601e88b4b2/panther-1.7.4.tar.gz
+[2023-05-16 10:42:54] INFO root fetch - processPackages [panther]: executing diffoscope
+[2023-05-16 10:42:54] INFO root fetch - processPackages [panther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther-1.7.3.tar.gz tmp/panther-1.7.4.tar.gz --markdown 20230516/p/panther/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-16 10:42:54] INFO root fetch - main [MainThread]: End processing [csp-cryspy]: success
+[2023-05-16 10:42:55] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/b6/a7/c9eb3fae87124c405db923843209c858206b3e92ea75b1f618127b148f20/tff_nightly-0.0.1.dev20230516-py2.py3-none-any.whl
+[2023-05-16 10:42:55] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-16 10:42:55] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230515-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230516-py2.py3-none-any.whl.zip --markdown 20230516/t/tff-nightly/0.0.1.dev20230515-0.0.1.dev20230516/diff.md --exclude *.pyd
+[2023-05-16 10:42:55] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-16 10:42:55] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-05-16 10:42:56] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-05-16 10:42:56] INFO root fetch - main [MainThread]: End processing [panther]: success
+[2023-05-16 10:42:58] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-16 10:42:58] INFO root fetch - main [MainThread]: Store serial: [18120538]
