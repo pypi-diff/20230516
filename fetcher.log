@@ -19839,3 +19839,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 16:45:28] INFO root fetch - main [MainThread]: End processing [qdrant-haystack]: success
 [2023-05-16 16:45:28] INFO root fetch - main [MainThread]: End processing [vot-toolkit]: success
 [2023-05-16 16:45:28] INFO root fetch - main [MainThread]: Store serial: [18124970]
+[2023-05-16 16:50:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124970]
+[2023-05-16 16:50:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aotpy
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitpackage
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbtdoc
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmlt-core
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SC2Spa
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matcha-ml
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: triglav
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shipyard-jira
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pollination-two-phase-daylight-coefficient
+[2023-05-16 16:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mumuzi1
+[2023-05-16 16:50:39] WARNING root fetch - processPackages [shipyard-jira]: Skipping, unable to determine old version
+[2023-05-16 16:50:39] INFO root fetch - processPackages [shipyard-jira]: Start processing: pymiau
+[2023-05-16 16:50:39] INFO root fetch - main [MainThread]: End processing [shipyard-jira] error
+[2023-05-16 16:50:39] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 16:50:39] INFO root fetch - processPackages [pymiau]: New version: [0.2] Old Version: [0.1]
+[2023-05-16 16:50:39] WARNING root fetch - processPackages [unitpackage]: Skipping, unable to determine old version
+[2023-05-16 16:50:39] INFO root fetch - processPackages [unitpackage]: Start processing: viewm2m
+[2023-05-16 16:50:39] INFO root fetch - main [MainThread]: End processing [unitpackage] error
+[2023-05-16 16:50:39] INFO root fetch - processPackages [SC2Spa]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-16 16:50:39] INFO root fetch - processPackages [dbtdoc]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-16 16:50:39] INFO root fetch - processPackages [aotpy]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-16 16:50:39] WARNING root fetch - processPackages [mumuzi1]: Skipping, unable to determine old version
+[2023-05-16 16:50:39] INFO root fetch - processPackages [triglav]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 16:50:39] INFO root fetch - processPackages [matcha-ml]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-16 16:50:39] INFO root fetch - processPackages [mumuzi1]: Start processing: konfuzio-sdk
+[2023-05-16 16:50:39] INFO root fetch - main [MainThread]: End processing [mumuzi1] error
+[2023-05-16 16:50:39] INFO root fetch - processPackages [tmlt-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-16 16:50:39] INFO root fetch - processPackages [viewm2m]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 16:50:39] INFO root fetch - processPackages [pymiau]: executing diffoscope
+[2023-05-16 16:50:39] INFO root fetch - processPackages [pymiau]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymiau-0.1.tar.gz tmp/pymiau-0.2.tar.gz --markdown 20230516/p/pymiau/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-16 16:50:39] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-05-16 16:50:39] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: Downloading https://files.pythonhosted.org/packages/74/9b/99bb9c6c054825044a2d58caa63621aec0df51271048a875ba5c9f6eb149/pollination-two-phase-daylight-coefficient-1.0.8.tar.gz
+[2023-05-16 16:50:39] INFO root fetch - processPackages [aotpy]: Downloading https://files.pythonhosted.org/packages/8c/b2/48f0f7e40ab673f557aeae0872119f10f326882a5f3e1dceb6abeb7c0d45/aotpy-0.6.1.tar.gz
+[2023-05-16 16:50:39] INFO root fetch - processPackages [triglav]: Downloading https://files.pythonhosted.org/packages/38/e3/eb217ad64289725a987d1097000ce623e26f7c8f1b2ea0aae026c608dadd/triglav-1.0.0.tar.gz
+[2023-05-16 16:50:39] INFO root fetch - processPackages [matcha-ml]: Downloading https://files.pythonhosted.org/packages/b3/f6/e5c7de314e4243a2cd1eaaf4c82ee838ca545d2d4d8abf592df7c85778ea/matcha_ml-0.2.1.tar.gz
+[2023-05-16 16:50:39] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-05-16 16:50:39] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230516/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-05-16 16:50:39] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/c3/98/b259d542e20891062ba76541da6da90783bed3d178b9117b86fd02464630/SC2Spa-1.1.6.tar.gz
+[2023-05-16 16:50:39] INFO root fetch - processPackages [tmlt-core]: Downloading https://files.pythonhosted.org/packages/db/91/0907ae419697c9a5b8dea33411f69b063a37d5def17cd6e1db18fe6a753f/tmlt_core-0.9.1.tar.gz
+[2023-05-16 16:50:39] INFO root fetch - processPackages [dbtdoc]: Downloading https://files.pythonhosted.org/packages/e1/27/4b4f09f6ea9400d09fcfbd0a0f80daaf9adcbc89db0e8f2b9e044d54d981/dbtdoc-0.1.6-py3-none-any.whl
+[2023-05-16 16:50:39] INFO root fetch - processPackages [viewm2m]: Downloading https://files.pythonhosted.org/packages/d5/cb/93c6fea6c2aaf1331aa185adcf30d4018f9d28b6287e6c80311fbc097711/viewm2m-0.0.7.tar.gz
+[2023-05-16 16:50:40] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: Downloading https://files.pythonhosted.org/packages/e3/4d/ec192da2d2b87ea63f65e04ca54875d80815eaa0a90912ceedf57cdcb45f/pollination-two-phase-daylight-coefficient-1.0.9.tar.gz
+[2023-05-16 16:50:40] INFO root fetch - processPackages [viewm2m]: executing diffoscope
+[2023-05-16 16:50:40] INFO root fetch - processPackages [viewm2m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewm2m-0.0.6.tar.gz tmp/viewm2m-0.0.7.tar.gz --markdown 20230516/v/viewm2m/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 16:50:40] INFO root fetch - processPackages [aotpy]: Downloading https://files.pythonhosted.org/packages/2a/5e/03ec5a3c8fae93623504a151a25e5c1a7a5d7cc7ff960a681bccd8ab49e8/aotpy-0.6.2.tar.gz
+[2023-05-16 16:50:40] INFO root fetch - processPackages [triglav]: Downloading https://files.pythonhosted.org/packages/27/b1/4a0d6d8fe4bf94bc02e313b8eaeb04069e009d95eb96f75c8a3edd5cd8f1/triglav-1.0.1.tar.gz
+[2023-05-16 16:50:40] INFO root fetch - processPackages [matcha-ml]: Downloading https://files.pythonhosted.org/packages/60/39/07e465bfa0858b3288563bb756bcef30ada6ef0157ff4fe63270d61ee3df/matcha_ml-0.2.2.tar.gz
+[2023-05-16 16:50:40] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/e6/1b/3cea600731b7f19b02f40018dec39f0c50afdba5df1d9434ba97d7d0634f/SC2Spa-1.1.7.tar.gz
+[2023-05-16 16:50:40] INFO root fetch - processPackages [dbtdoc]: Downloading https://files.pythonhosted.org/packages/dd/48/8efef603fc85a3595d91c5f91ab7908f5b6f3110e3435a9b64d49764d4fe/dbtdoc-0.1.7-py3-none-any.whl
+[2023-05-16 16:50:40] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: executing diffoscope
+[2023-05-16 16:50:40] INFO root fetch - processPackages [pollination-two-phase-daylight-coefficient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-two-phase-daylight-coefficient-1.0.8.tar.gz tmp/pollination-two-phase-daylight-coefficient-1.0.9.tar.gz --markdown 20230516/p/pollination-two-phase-daylight-coefficient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 16:50:40] INFO root fetch - processPackages [triglav]: executing diffoscope
+[2023-05-16 16:50:40] INFO root fetch - processPackages [triglav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triglav-1.0.0.tar.gz tmp/triglav-1.0.1.tar.gz --markdown 20230516/t/triglav/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 16:50:40] INFO root fetch - processPackages [tmlt-core]: Downloading https://files.pythonhosted.org/packages/55/1e/2c3a66d7ebffd264a53a5020d5502d0ba6d4f75d3c1a8a258843e3fca58a/tmlt_core-0.9.2.tar.gz
+[2023-05-16 16:50:40] INFO root fetch - processPackages [aotpy]: executing diffoscope
+[2023-05-16 16:50:40] INFO root fetch - processPackages [aotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aotpy-0.6.1.tar.gz tmp/aotpy-0.6.2.tar.gz --markdown 20230516/a/aotpy/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-16 16:50:40] INFO root fetch - processPackages [dbtdoc]: executing diffoscope
+[2023-05-16 16:50:40] INFO root fetch - processPackages [dbtdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtdoc-0.1.6-py3-none-any.whl.zip tmp/dbtdoc-0.1.7-py3-none-any.whl.zip --markdown 20230516/d/dbtdoc/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 16:50:40] INFO root fetch - processPackages [matcha-ml]: executing diffoscope
+[2023-05-16 16:50:40] INFO root fetch - processPackages [matcha-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matcha_ml-0.2.1.tar.gz tmp/matcha_ml-0.2.2.tar.gz --markdown 20230516/m/matcha-ml/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-16 16:50:40] INFO root fetch - processPackages [SC2Spa]: executing diffoscope
+[2023-05-16 16:50:40] INFO root fetch - processPackages [SC2Spa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SC2Spa-1.1.6.tar.gz tmp/SC2Spa-1.1.7.tar.gz --markdown 20230516/S/SC2Spa/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-16 16:50:40] INFO root fetch - processPackages [tmlt-core]: executing diffoscope
+[2023-05-16 16:50:40] INFO root fetch - processPackages [tmlt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmlt_core-0.9.1.tar.gz tmp/tmlt_core-0.9.2.tar.gz --markdown 20230516/t/tmlt-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 16:50:41] INFO root fetch - processPackages [pymiau]: Start processing: python-snippets
+[2023-05-16 16:50:41] INFO root fetch - main [MainThread]: End processing [pymiau]: success
+[2023-05-16 16:50:41] INFO root fetch - processPackages [python-snippets]: New version: [0.0.6] Old Version: [0.0.3]
+[2023-05-16 16:50:41] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/4b/00/591dc3a4ae13b698b6f2bbca55623e1a0595c19d0fc54cb77945c145c5ae/python-snippets-0.0.3.tar.gz
+[2023-05-16 16:50:41] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-05-16 16:50:41] INFO root fetch - main [MainThread]: End processing [viewm2m]: success
+[2023-05-16 16:50:41] INFO root fetch - main [MainThread]: End processing [pollination-two-phase-daylight-coefficient]: success
+[2023-05-16 16:50:41] INFO root fetch - processPackages [python-snippets]: Downloading https://files.pythonhosted.org/packages/f6/c3/913b89642369dc97ecc362717e8cc63904613fbd509b670ce64e809ffc7a/python-snippets-0.0.6.tar.gz
+[2023-05-16 16:50:41] INFO root fetch - main [MainThread]: End processing [triglav]: success
+[2023-05-16 16:50:41] INFO root fetch - main [MainThread]: End processing [dbtdoc]: success
+[2023-05-16 16:50:41] INFO root fetch - processPackages [python-snippets]: executing diffoscope
+[2023-05-16 16:50:41] INFO root fetch - processPackages [python-snippets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-snippets-0.0.3.tar.gz tmp/python-snippets-0.0.6.tar.gz --markdown 20230516/p/python-snippets/0.0.3-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 16:50:42] INFO root fetch - main [MainThread]: End processing [matcha-ml]: success
+[2023-05-16 16:50:42] INFO root fetch - main [MainThread]: End processing [SC2Spa]: success
+[2023-05-16 16:50:42] INFO root fetch - main [MainThread]: End processing [aotpy]: success
+[2023-05-16 16:50:42] INFO root fetch - main [MainThread]: End processing [python-snippets]: success
+[2023-05-16 16:50:46] INFO root fetch - main [MainThread]: End processing [tmlt-core]: success
+[2023-05-16 16:50:46] INFO root fetch - main [MainThread]: Store serial: [18125025]
