@@ -21135,3 +21135,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 17:52:34] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
 [2023-05-16 17:52:48] INFO root fetch - main [MainThread]: End processing [django-oscar-bundles]: success
 [2023-05-16 17:52:48] INFO root fetch - main [MainThread]: Store serial: [18125814]
+[2023-05-16 17:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18125814]
+[2023-05-16 17:57:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceano-algos
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-tamer
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Econ-Windows
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bgnlp
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyreemote
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: badger-voter-sdk
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leap-model-parser
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mslex
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mujoco-dev
+[2023-05-16 17:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: s2aff
+[2023-05-16 17:57:58] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 17:57:58] INFO root fetch - processPackages [pyreemote]: New version: [12.2.0] Old Version: [12.1.0]
+[2023-05-16 17:57:58] WARNING root fetch - processPackages [Econ-Windows]: Skipping, unable to determine old version
+[2023-05-16 17:57:58] INFO root fetch - processPackages [Econ-Windows]: Start processing: codeSync-tool
+[2023-05-16 17:57:58] INFO root fetch - main [MainThread]: End processing [Econ-Windows] error
+[2023-05-16 17:57:58] INFO root fetch - processPackages [mslex]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-05-16 17:57:58] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev532458388] Old Version: [2.3.6.dev532447706]
+[2023-05-16 17:57:58] INFO root fetch - processPackages [s2aff]: New version: [0.42] Old Version: [0.41]
+[2023-05-16 17:57:58] WARNING root fetch - processPackages [codeSync-tool]: Skipping, unable to determine old version
+[2023-05-16 17:57:58] INFO root fetch - main [MainThread]: End processing [codeSync-tool] error
+[2023-05-16 17:57:58] INFO root fetch - processPackages [up-tamer]: New version: [0.3.1.9.dev1] Old Version: [0.3.1.7.dev1]
+[2023-05-16 17:57:58] INFO root fetch - processPackages [bgnlp]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-16 17:57:58] INFO root fetch - processPackages [badger-voter-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 17:57:58] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-05-16 17:57:58] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-16 17:57:58] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230516/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 17:57:58] INFO root fetch - processPackages [mslex]: Downloading https://files.pythonhosted.org/packages/59/6d/8f02ca6ae496701277b3ab107b4ea6d0f30bfe8c53cb40b142a2468ac67d/mslex-1.0.0.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [pyreemote]: Downloading https://files.pythonhosted.org/packages/bf/8e/22747cd2a3de501461eb137ed2c0fa678588148768c9635a4d7a1e67d524/pyreemote-12.2.0.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/a7/60/6433ef4c971174413d5176e83e07155eb0773a7b083e2be59c018380db91/up_tamer-0.3.1.7.dev1.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/16/74/c1e26a939d1544d33efa12824a26e2c1f3d02f1322f9e660fbd6e0b20db0/s2aff-0.42.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [pyreemote]: executing diffoscope
+[2023-05-16 17:57:58] INFO root fetch - processPackages [pyreemote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreemote-12.1.0.tar.gz tmp/pyreemote-12.2.0.tar.gz --markdown 20230516/p/pyreemote/12.1.0-12.2.0/diff.md --exclude *.pyd
+[2023-05-16 17:57:58] INFO root fetch - processPackages [mslex]: executing diffoscope
+[2023-05-16 17:57:58] INFO root fetch - processPackages [mslex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslex-0.3.0.tar.gz tmp/mslex-1.0.0.tar.gz --markdown 20230516/m/mslex/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-16 17:57:58] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/4c/47/1ed6937e60ee3e4094ce5754d4eacb54c0b521239a341314b39bcf7511e6/mujoco_dev-2.3.6.dev532458388-cp39-cp39-macosx_10_12_x86_64.whl
+[2023-05-16 17:57:58] INFO root fetch - processPackages [badger-voter-sdk]: Downloading https://files.pythonhosted.org/packages/32/18/c5a8935c802c6cc6e9b4a21a6ec8d260d5389803910c7a227722f61a9832/badger-voter-sdk-0.1.2.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [bgnlp]: Downloading https://files.pythonhosted.org/packages/86/42/a55df57a0546790406f07afae1fd0f2330760610ea31d6ca00c1150f4f76/bgnlp-0.2.0.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-16 17:57:58] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.41.tar.gz tmp/s2aff-0.42.tar.gz --markdown 20230516/s/s2aff/0.41-0.42/diff.md --exclude *.pyd
+[2023-05-16 17:57:58] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/36/bd/0007d00a76cfd7ac7de061c91587c79c5d36dc38291f588204a54ef0267b/leap_model_parser-0.1.96.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [badger-voter-sdk]: Downloading https://files.pythonhosted.org/packages/63/60/82e04452ca67de13f6a03ea69d1989f214037a049ac060146cf5b447e889/badger-voter-sdk-0.1.3.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [bgnlp]: Downloading https://files.pythonhosted.org/packages/b9/21/7b1a9039af056adce795061ca8054005ce488ceda27d9d6825b105f8ee7f/bgnlp-0.3.0.tar.gz
+[2023-05-16 17:57:58] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-05-16 17:57:58] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.95.tar.gz tmp/leap_model_parser-0.1.96.tar.gz --markdown 20230516/l/leap-model-parser/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-05-16 17:57:59] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/da/04/7612a277ea4c1eba3ffb6b9d81b43107ead3478727fb6308c0270c6cad60/up_tamer-0.3.1.9.dev1.tar.gz
+[2023-05-16 17:57:59] INFO root fetch - processPackages [badger-voter-sdk]: executing diffoscope
+[2023-05-16 17:57:59] INFO root fetch - processPackages [badger-voter-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badger-voter-sdk-0.1.2.tar.gz tmp/badger-voter-sdk-0.1.3.tar.gz --markdown 20230516/b/badger-voter-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 17:57:59] INFO root fetch - processPackages [bgnlp]: executing diffoscope
+[2023-05-16 17:57:59] INFO root fetch - processPackages [bgnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgnlp-0.2.0.tar.gz tmp/bgnlp-0.3.0.tar.gz --markdown 20230516/b/bgnlp/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-16 17:57:59] INFO root fetch - processPackages [up-tamer]: executing diffoscope
+[2023-05-16 17:57:59] INFO root fetch - processPackages [up-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_tamer-0.3.1.7.dev1.tar.gz tmp/up_tamer-0.3.1.9.dev1.tar.gz --markdown 20230516/u/up-tamer/0.3.1.7.dev1-0.3.1.9.dev1/diff.md --exclude *.pyd
+[2023-05-16 17:57:59] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-05-16 17:57:59] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev532447706-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mujoco_dev-2.3.6.dev532458388-cp39-cp39-macosx_10_12_x86_64.whl.zip --markdown 20230516/m/mujoco-dev/2.3.6.dev532447706-2.3.6.dev532458388/diff.md --exclude *.pyd
+[2023-05-16 17:57:59] INFO root fetch - main [MainThread]: End processing [pyreemote]: success
+[2023-05-16 17:58:00] INFO root fetch - main [MainThread]: End processing [mslex]: success
+[2023-05-16 17:58:00] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-16 17:58:00] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-05-16 17:58:00] INFO root fetch - main [MainThread]: End processing [badger-voter-sdk]: success
+[2023-05-16 17:58:00] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-16 17:58:00] INFO root fetch - main [MainThread]: End processing [up-tamer]: success
+[2023-05-16 17:58:00] INFO root fetch - main [MainThread]: End processing [bgnlp]: success
+[2023-05-16 17:58:01] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-05-16 17:58:01] INFO root fetch - main [MainThread]: Store serial: [18125847]
