@@ -16533,3 +16533,93 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 14:24:09] INFO root fetch - main [MainThread]: End processing [slapos.toolbox]: success
 [2023-05-16 14:24:32] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-05-16 14:24:32] INFO root fetch - main [MainThread]: Store serial: [18123126]
+[2023-05-16 14:29:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18123126]
+[2023-05-16 14:29:41] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arxivai
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AIBoost
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: symbolic
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dymoval
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openapi-bridge
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: preloaded
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qoala
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecida
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-antti-learned-lemma-passing-cvl2
+[2023-05-16 14:29:41] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Skipping, unable to determine old version
+[2023-05-16 14:29:41] INFO root fetch - processPackages [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta]: Start processing: wagtail-factories
+[2023-05-16 14:29:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-enhance-CVLExpToTACExprMeta] error
+[2023-05-16 14:29:41] INFO root fetch - processPackages [symbolic]: New version: [9.2.1] Old Version: [9.2.0]
+[2023-05-16 14:29:41] INFO root fetch - processPackages [preloaded]: New version: [1.20221228.135405] Old Version: [1.20221012.123320]
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 14:29:41] INFO root fetch - processPackages [symbolic]: executing diffoscope
+[2023-05-16 14:29:41] INFO root fetch - processPackages [symbolic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolic-9.2.0.zip tmp/symbolic-9.2.1.zip --markdown 20230516/s/symbolic/9.2.0-9.2.1/diff.md --exclude *.pyd
+[2023-05-16 14:29:41] WARNING root fetch - processPackages [arxivai]: Skipping, unable to determine old version
+[2023-05-16 14:29:41] INFO root fetch - processPackages [arxivai]: Start processing: micromechanics-indentationGUI
+[2023-05-16 14:29:41] INFO root fetch - main [MainThread]: End processing [arxivai] error
+[2023-05-16 14:29:41] WARNING root fetch - processPackages [openapi-bridge]: Skipping, unable to determine old version
+[2023-05-16 14:29:41] WARNING root fetch - processPackages [AIBoost]: Skipping, unable to determine old version
+[2023-05-16 14:29:41] WARNING root fetch - processPackages [certora-cli-alpha-antti-learned-lemma-passing-cvl2]: Skipping, unable to determine old version
+[2023-05-16 14:29:41] INFO root fetch - processPackages [openapi-bridge]: Start processing: joern-lib
+[2023-05-16 14:29:41] INFO root fetch - processPackages [AIBoost]: Start processing: edx-rest-api-client
+[2023-05-16 14:29:41] INFO root fetch - main [MainThread]: End processing [openapi-bridge] error
+[2023-05-16 14:29:41] INFO root fetch - processPackages [certora-cli-alpha-antti-learned-lemma-passing-cvl2]: Start processing: svrkitttt
+[2023-05-16 14:29:41] INFO root fetch - processPackages [dymoval]: New version: [0.8.81] Old Version: [0.8.8]
+[2023-05-16 14:29:41] INFO root fetch - main [MainThread]: End processing [AIBoost] error
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-16 14:29:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-learned-lemma-passing-cvl2] error
+[2023-05-16 14:29:41] INFO root fetch - processPackages [wagtail-factories]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-16 14:29:41] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20230516/e/ecida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 14:29:41] INFO root fetch - processPackages [qoala]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-16 14:29:41] INFO root fetch - processPackages [preloaded]: Downloading https://files.pythonhosted.org/packages/56/f2/b7012fd77dc47666025fa6e66425b8f77f10a391e0482177903fe5a62809/preloaded-1.20221012.123320.tar.gz
+[2023-05-16 14:29:41] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 14:29:41] WARNING root fetch - processPackages [svrkitttt]: Skipping, unable to determine old version
+[2023-05-16 14:29:41] INFO root fetch - processPackages [svrkitttt]: Start processing: quickstart-vdk
+[2023-05-16 14:29:41] INFO root fetch - main [MainThread]: End processing [svrkitttt] error
+[2023-05-16 14:29:41] INFO root fetch - processPackages [edx-rest-api-client]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-05-16 14:29:41] INFO root fetch - processPackages [joern-lib]: New version: [0.9.1] Old Version: [0.8.3]
+[2023-05-16 14:29:41] INFO root fetch - processPackages [wagtail-factories]: Downloading https://files.pythonhosted.org/packages/57/2b/bc47ba30e0d1ba8672689ddda2160d32f3d7d5625fa505c5520bc343303b/wagtail_factories-4.0.0.tar.gz
+[2023-05-16 14:29:41] INFO root fetch - processPackages [qoala]: Downloading https://files.pythonhosted.org/packages/5d/c7/6eec1e533dbb17a4d4c436e6e01f2e03320bb677703be6041a36d948e3e9/qoala-0.2.1.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/ab/4f/40d9256a1076ff26959f1405e06679d7dd82d6decc0bc1b83c187b33907d/micromechanics_indentationGUI-0.0.8-py3-none-any.whl
+[2023-05-16 14:29:42] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.868861548.dev10396] Old Version: [0.2.865727599.dev10321]
+[2023-05-16 14:29:42] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/65/df/db4009992939669cd15b3e3f12fdc6b675a23c5a706eecfe40235e8168de/joern_lib-0.8.3.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [edx-rest-api-client]: Downloading https://files.pythonhosted.org/packages/60/17/630257c99812113c5afedd2a192a81fd6827887627be8ab746bb5fcb220a/edx-rest-api-client-5.5.0.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [preloaded]: Downloading https://files.pythonhosted.org/packages/a6/83/048d951ccc10f632859436c26a77ab337347480a949b5c17f133525acae1/preloaded-1.20221228.135405.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [dymoval]: Downloading https://files.pythonhosted.org/packages/92/67/cd2fc1d079121f49b8c47adb250ea28ed229b46fb44ceac2c9aa6ec1820e/dymoval-0.8.81.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [wagtail-factories]: Downloading https://files.pythonhosted.org/packages/26/b3/0635fd66623ed5c0d943d8911a0ea5adff63df2c7ab1cfb1802003ba362c/wagtail_factories-4.1.0.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [preloaded]: executing diffoscope
+[2023-05-16 14:29:42] INFO root fetch - processPackages [preloaded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preloaded-1.20221012.123320.tar.gz tmp/preloaded-1.20221228.135405.tar.gz --markdown 20230516/p/preloaded/1.20221012.123320-1.20221228.135405/diff.md --exclude *.pyd
+[2023-05-16 14:29:42] INFO root fetch - processPackages [qoala]: Downloading https://files.pythonhosted.org/packages/fe/95/d2db82727835e2b3b244876b05fecc0c343b308816503179a2aaa25fa3a9/qoala-0.2.2.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [dymoval]: executing diffoscope
+[2023-05-16 14:29:42] INFO root fetch - processPackages [dymoval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dymoval-0.8.8.tar.gz tmp/dymoval-0.8.81.tar.gz --markdown 20230516/d/dymoval/0.8.8-0.8.81/diff.md --exclude *.pyd
+[2023-05-16 14:29:42] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/87/e7/8b1480ae33f1773b92c0b97041d7ba8ea6b00e2522decab107f86c60392d/joern_lib-0.9.1.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/9a/91/9adf7c989a57f5f9818868a1f78f3046e4d716799c02e699c74d31c7eca7/micromechanics_indentationGUI-0.0.9-py3-none-any.whl
+[2023-05-16 14:29:42] INFO root fetch - processPackages [edx-rest-api-client]: Downloading https://files.pythonhosted.org/packages/1f/37/75efb1bba2fe04e25c30e1d33be3959b251e96a8ff38926c0f40cb664292/edx-rest-api-client-5.5.1.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [wagtail-factories]: executing diffoscope
+[2023-05-16 14:29:42] INFO root fetch - processPackages [wagtail-factories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_factories-4.0.0.tar.gz tmp/wagtail_factories-4.1.0.tar.gz --markdown 20230516/w/wagtail-factories/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-16 14:29:42] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/09/70/09f0aabdbe587a04f1c02d22dafbf53e9aad25514729972c51b26ca3c04f/quickstart-vdk-0.2.868861548.dev10396.tar.gz
+[2023-05-16 14:29:42] INFO root fetch - processPackages [qoala]: executing diffoscope
+[2023-05-16 14:29:42] INFO root fetch - processPackages [qoala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoala-0.2.1.tar.gz tmp/qoala-0.2.2.tar.gz --markdown 20230516/q/qoala/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-16 14:29:42] INFO root fetch - processPackages [joern-lib]: executing diffoscope
+[2023-05-16 14:29:42] INFO root fetch - processPackages [joern-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joern_lib-0.8.3.tar.gz tmp/joern_lib-0.9.1.tar.gz --markdown 20230516/j/joern-lib/0.8.3-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 14:29:42] INFO root fetch - processPackages [edx-rest-api-client]: executing diffoscope
+[2023-05-16 14:29:42] INFO root fetch - processPackages [edx-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-rest-api-client-5.5.0.tar.gz tmp/edx-rest-api-client-5.5.1.tar.gz --markdown 20230516/e/edx-rest-api-client/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-05-16 14:29:42] INFO root fetch - processPackages [micromechanics-indentationGUI]: executing diffoscope
+[2023-05-16 14:29:42] INFO root fetch - processPackages [micromechanics-indentationGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micromechanics_indentationGUI-0.0.8-py3-none-any.whl.zip tmp/micromechanics_indentationGUI-0.0.9-py3-none-any.whl.zip --markdown 20230516/m/micromechanics-indentationGUI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 14:29:42] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-05-16 14:29:42] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.865727599.dev10321.tar.gz tmp/quickstart-vdk-0.2.868861548.dev10396.tar.gz --markdown 20230516/q/quickstart-vdk/0.2.865727599.dev10321-0.2.868861548.dev10396/diff.md --exclude *.pyd
+[2023-05-16 14:29:42] INFO root fetch - processPackages [ecida]: Start processing: nonebot-plugin-arcaeabot
+[2023-05-16 14:29:42] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-16 14:29:43] INFO root fetch - processPackages [nonebot-plugin-arcaeabot]: New version: [3.1.9] Old Version: [3.1.7]
+[2023-05-16 14:29:43] INFO root fetch - processPackages [nonebot-plugin-arcaeabot]: Downloading https://files.pythonhosted.org/packages/45/70/e66fdf34eb1c5cd335f0a7a6ed5d0796b64a9212f42ce8e33aa299929001/nonebot_plugin_arcaeabot-3.1.7.tar.gz
+[2023-05-16 14:29:43] WARNING root fetch - processPackages [nonebot-plugin-arcaeabot]: Skipping package: exceeds size limit 20780877>=10485760
+[2023-05-16 14:29:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arcaeabot] error
+[2023-05-16 14:29:43] INFO root fetch - main [MainThread]: End processing [preloaded]: success
+[2023-05-16 14:29:43] INFO root fetch - main [MainThread]: End processing [wagtail-factories]: success
+[2023-05-16 14:29:43] INFO root fetch - main [MainThread]: End processing [edx-rest-api-client]: success
+[2023-05-16 14:29:43] INFO root fetch - main [MainThread]: End processing [joern-lib]: success
+[2023-05-16 14:29:43] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-05-16 14:29:44] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI]: success
+[2023-05-16 14:29:44] INFO root fetch - main [MainThread]: End processing [qoala]: success
+[2023-05-16 14:29:45] INFO root fetch - main [MainThread]: End processing [dymoval]: success
+[2023-05-16 14:29:49] INFO root fetch - main [MainThread]: End processing [symbolic]: success
+[2023-05-16 14:29:49] INFO root fetch - main [MainThread]: Store serial: [18123194]
