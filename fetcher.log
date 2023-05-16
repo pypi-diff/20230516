@@ -15681,3 +15681,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 13:35:30] INFO root fetch - main [MainThread]: End processing [cashocs]: success
 [2023-05-16 13:35:30] INFO root fetch - main [MainThread]: End processing [ccpem-utils]: success
 [2023-05-16 13:35:30] INFO root fetch - main [MainThread]: Store serial: [18122558]
+[2023-05-16 13:40:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18122558]
+[2023-05-16 13:40:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-eytan-view-reentrency
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geopyv
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpterminal
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmppl
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apicurioregistrysdk
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visyn-core
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docker-with-criu
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kadi-apy
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpterminal
+[2023-05-16 13:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-df-auth
+[2023-05-16 13:40:40] INFO root fetch - processPackages [geopyv]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [lmppl]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [gpterminal]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [gpterminal]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.2.tar.gz tmp/geopyv-0.0.4.tar.gz --markdown 20230516/g/geopyv/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 13:40:40] WARNING root fetch - processPackages [apicurioregistrysdk]: Skipping, unable to determine old version
+[2023-05-16 13:40:40] INFO root fetch - processPackages [apicurioregistrysdk]: Start processing: cambridge
+[2023-05-16 13:40:40] INFO root fetch - main [MainThread]: End processing [apicurioregistrysdk] error
+[2023-05-16 13:40:40] INFO root fetch - processPackages [visyn-core]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: New version: [20230516.11.35.842069] Old Version: [20230515.16.27.843920]
+[2023-05-16 13:40:40] WARNING root fetch - processPackages [docker-with-criu]: Skipping, unable to determine old version
+[2023-05-16 13:40:40] INFO root fetch - processPackages [docker-with-criu]: Start processing: crawler-commons
+[2023-05-16 13:40:40] INFO root fetch - main [MainThread]: End processing [docker-with-criu] error
+[2023-05-16 13:40:40] INFO root fetch - processPackages [django-df-auth]: New version: [0.9] Old Version: [0.8]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [kadi-apy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [gpterminal]: Downloading https://files.pythonhosted.org/packages/0f/e3/a569899fd02a224bb4f13fe9c902216e993172e23d0efaf9aefcda347194/gpterminal-0.1.5.tar.gz
+[2023-05-16 13:40:40] INFO root fetch - processPackages [gpterminal]: Downloading https://files.pythonhosted.org/packages/0f/e3/a569899fd02a224bb4f13fe9c902216e993172e23d0efaf9aefcda347194/gpterminal-0.1.5.tar.gz
+[2023-05-16 13:40:40] INFO root fetch - processPackages [cambridge]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Downloading https://files.pythonhosted.org/packages/f0/4a/3b38d3622b8286c56f56541437c76a729d520bb11ce6c946d945703ebe38/certora-cli-alpha-eytan-view_reentrency-20230515.16.27.843920.tar.gz
+[2023-05-16 13:40:40] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/a0/35/60cbb987c88958e2f7540212f8e7436d8ef9c16066017a6f94d8e9165138/visyn_core-1.2.0-py3-none-any.whl
+[2023-05-16 13:40:40] INFO root fetch - processPackages [gpterminal]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [gpterminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpterminal-0.1.4.tar.gz tmp/gpterminal-0.1.5.tar.gz --markdown 20230516/g/gpterminal/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 13:40:40] INFO root fetch - processPackages [gpterminal]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [gpterminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpterminal-0.1.4.tar.gz tmp/gpterminal-0.1.5.tar.gz --markdown 20230516/g/gpterminal/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 13:40:40] INFO root fetch - processPackages [django-df-auth]: Downloading https://files.pythonhosted.org/packages/fa/9d/c4c4c6e2dcb64321f322f7d657698b187a660f76098a766624ec375adabd/django-df-auth-0.8.tar.gz
+[2023-05-16 13:40:40] INFO root fetch - processPackages [kadi-apy]: Downloading https://files.pythonhosted.org/packages/e5/25/f9331b8a4df419ae8c3f6503a03a3b8dc3cf6a287841b43c628fb988949b/kadi_apy-0.9.0-py3-none-any.whl
+[2023-05-16 13:40:40] INFO root fetch - processPackages [lmppl]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [lmppl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmppl-0.2.7.tar.gz tmp/lmppl-0.2.8.tar.gz --markdown 20230516/l/lmppl/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-16 13:40:40] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230516/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 13:40:40] WARNING root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Skipping package: exceeds size limit 39470991>=10485760
+[2023-05-16 13:40:40] INFO root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Start processing: cleanchausie
+[2023-05-16 13:40:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eytan-view-reentrency] error
+[2023-05-16 13:40:40] INFO root fetch - processPackages [cleanchausie]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-16 13:40:40] INFO root fetch - processPackages [visyn-core]: Downloading https://files.pythonhosted.org/packages/e8/d3/337eae86da6e2ab694c3230d54914da53a6a386f57433eaa401350558d7e/visyn_core-2.0.0-py3-none-any.whl
+[2023-05-16 13:40:40] INFO root fetch - processPackages [cambridge]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [cambridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cambridge-3.5.8.tar.gz tmp/cambridge-3.5.9.tar.gz --markdown 20230516/c/cambridge/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-05-16 13:40:40] INFO root fetch - processPackages [kadi-apy]: Downloading https://files.pythonhosted.org/packages/2f/a3/c83a2d6b5c30f483bd95316a6b53cef383e412d98ac26f636f8f1364ab20/kadi_apy-0.9.1-py3-none-any.whl
+[2023-05-16 13:40:40] INFO root fetch - processPackages [cleanchausie]: Downloading https://files.pythonhosted.org/packages/a7/78/dbb98225f8ff4846374d6aa1685bf9ef970270d109deb0b928ca4b213424/cleanchausie-1.9.0.tar.gz
+[2023-05-16 13:40:40] INFO root fetch - processPackages [django-df-auth]: Downloading https://files.pythonhosted.org/packages/19/b0/7af1970dd02a1366cd65ac1e945bf1faaf33555f2b5d11eda2fde8497bcc/django-df-auth-0.9.tar.gz
+[2023-05-16 13:40:40] INFO root fetch - processPackages [visyn-core]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [visyn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visyn_core-1.2.0-py3-none-any.whl.zip tmp/visyn_core-2.0.0-py3-none-any.whl.zip --markdown 20230516/v/visyn-core/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-16 13:40:40] INFO root fetch - processPackages [kadi-apy]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [kadi-apy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kadi_apy-0.9.0-py3-none-any.whl.zip tmp/kadi_apy-0.9.1-py3-none-any.whl.zip --markdown 20230516/k/kadi-apy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 13:40:40] INFO root fetch - processPackages [django-df-auth]: executing diffoscope
+[2023-05-16 13:40:40] INFO root fetch - processPackages [django-df-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-df-auth-0.8.tar.gz tmp/django-df-auth-0.9.tar.gz --markdown 20230516/d/django-df-auth/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-16 13:40:41] INFO root fetch - processPackages [cleanchausie]: Downloading https://files.pythonhosted.org/packages/4f/6b/b3ff2752ea6aefe1723794295a2001fe12d9b4991690db10fe4a1c09f609/cleanchausie-1.9.1.tar.gz
+[2023-05-16 13:40:41] INFO root fetch - processPackages [cleanchausie]: executing diffoscope
+[2023-05-16 13:40:41] INFO root fetch - processPackages [cleanchausie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanchausie-1.9.0.tar.gz tmp/cleanchausie-1.9.1.tar.gz --markdown 20230516/c/cleanchausie/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-16 13:40:41] INFO root fetch - processPackages [gpterminal]: Start processing: sparkpipelineframework
+[2023-05-16 13:40:41] INFO root fetch - main [MainThread]: End processing [gpterminal]: success
+[2023-05-16 13:40:41] INFO root fetch - main [MainThread]: End processing [gpterminal]: success
+[2023-05-16 13:40:41] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-16 13:40:42] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-05-16 13:40:42] INFO root fetch - main [MainThread]: End processing [cambridge]: success
+[2023-05-16 13:40:42] INFO root fetch - main [MainThread]: End processing [lmppl]: success
+[2023-05-16 13:40:42] INFO root fetch - main [MainThread]: End processing [django-df-auth]: success
+[2023-05-16 13:40:42] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-05-16 13:40:42] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230516/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-16 13:40:42] INFO root fetch - main [MainThread]: End processing [kadi-apy]: success
+[2023-05-16 13:40:42] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-05-16 13:40:42] INFO root fetch - main [MainThread]: End processing [cleanchausie]: success
+[2023-05-16 13:40:43] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
+[2023-05-16 13:40:45] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-05-16 13:40:45] INFO root fetch - main [MainThread]: Store serial: [18122640]
