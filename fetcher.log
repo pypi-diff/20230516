@@ -16414,3 +16414,122 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 14:18:45] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-16 14:18:52] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-16 14:18:52] INFO root fetch - main [MainThread]: Store serial: [18123025]
+[2023-05-16 14:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18123025]
+[2023-05-16 14:24:01] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karton-core
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapere
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volcengine-python-sdk
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slapos.toolbox
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h1d
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: customdataclass
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th2-data-services
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swdl
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dev-gpt
+[2023-05-16 14:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nemony
+[2023-05-16 14:24:01] INFO root fetch - processPackages [scrapere]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev4991615086] Old Version: [2.0.0.dev4990685388]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [customdataclass]: New version: [0.1.1.3] Old Version: [0.1.1.2]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [h1d]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [karton-core]: New version: [5.1.0] Old Version: [5.0.1]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [swdl]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-16 14:24:01] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.2.6.tar.gz tmp/scrapere-0.2.7.tar.gz --markdown 20230516/s/scrapere/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-16 14:24:01] WARNING root fetch - processPackages [nemony]: Skipping, unable to determine old version
+[2023-05-16 14:24:01] INFO root fetch - processPackages [nemony]: Start processing: yifeipdf
+[2023-05-16 14:24:01] INFO root fetch - main [MainThread]: End processing [nemony] error
+[2023-05-16 14:24:01] INFO root fetch - processPackages [slapos.toolbox]: New version: [0.99] Old Version: [0.98]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-16 14:24:01] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230516/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-16 14:24:01] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/e1/09/d8e94a65a0cdb666678e7aec4d5e01e7921a11efde210f8e9088d1d80efc/th2_data_services-2.0.0.dev4991615086.tar.gz
+[2023-05-16 14:24:01] INFO root fetch - processPackages [customdataclass]: Downloading https://files.pythonhosted.org/packages/34/4c/8a337f432a5a0b7d84c2bd67932757deb0762cfcd0cc9fcdb4287cb4a2a6/customdataclass-0.1.1.2.tar.gz
+[2023-05-16 14:24:01] WARNING root fetch - processPackages [yifeipdf]: Skipping, unable to determine old version
+[2023-05-16 14:24:01] INFO root fetch - processPackages [yifeipdf]: Start processing: TailraiderAlliance
+[2023-05-16 14:24:01] INFO root fetch - main [MainThread]: End processing [yifeipdf] error
+[2023-05-16 14:24:01] INFO root fetch - processPackages [karton-core]: Downloading https://files.pythonhosted.org/packages/b6/c3/4967c92376a5da18ec3001047f33b237dbaa3a87b17cf535bdc77a77ad66/karton_core-5.0.1-py3-none-any.whl
+[2023-05-16 14:24:01] INFO root fetch - processPackages [TailraiderAlliance]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 14:24:01] INFO root fetch - processPackages [h1d]: Downloading https://files.pythonhosted.org/packages/8c/89/10883d6b5672efb3f4b15af5c687c8159a78c13a1103803c98b9a27b3c1b/h1d-0.2.4.tar.gz
+[2023-05-16 14:24:01] INFO root fetch - processPackages [swdl]: Downloading https://files.pythonhosted.org/packages/ec/52/8e0b77c7410b44f369a83e5c3b472882ae4da393e327a17d28f06d0465b7/swdl-1.8.2-py3-none-any.whl
+[2023-05-16 14:24:01] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-05-16 14:24:01] INFO root fetch - processPackages [slapos.toolbox]: Downloading https://files.pythonhosted.org/packages/48/51/64d4a2d4140d818d0f4880455b738582832413a9e5492425172d57f4efab/slapos.toolbox-0.98.tar.gz
+[2023-05-16 14:24:01] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-16 14:24:01] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev4990685388.tar.gz tmp/th2_data_services-2.0.0.dev4991615086.tar.gz --markdown 20230516/t/th2-data-services/2.0.0.dev4990685388-2.0.0.dev4991615086/diff.md --exclude *.pyd
+[2023-05-16 14:24:02] INFO root fetch - processPackages [customdataclass]: Downloading https://files.pythonhosted.org/packages/46/07/d4b4a42edd7c6dd9c5ecd624a2d43729a16b8ae15b86daeaf277ae284975/customdataclass-0.1.1.3.tar.gz
+[2023-05-16 14:24:02] WARNING root fetch - processPackages [h1d]: Skipping package: exceeds size limit 26123335>=10485760
+[2023-05-16 14:24:02] INFO root fetch - processPackages [h1d]: Start processing: granian
+[2023-05-16 14:24:02] INFO root fetch - main [MainThread]: End processing [h1d] error
+[2023-05-16 14:24:02] INFO root fetch - processPackages [karton-core]: Downloading https://files.pythonhosted.org/packages/31/d5/982065bc2b3b5de4e04f0a46953796e1a5aa8c48974e316ce0353c3ba7e0/karton_core-5.1.0-py3-none-any.whl
+[2023-05-16 14:24:02] INFO root fetch - processPackages [TailraiderAlliance]: Downloading https://files.pythonhosted.org/packages/ad/47/0c59084677cd6b99d4676e7dab5c0ec8e4066212e1e402d2e18c363fa40f/TailraiderAlliance-0.0.8.tar.gz
+[2023-05-16 14:24:02] INFO root fetch - processPackages [customdataclass]: executing diffoscope
+[2023-05-16 14:24:02] INFO root fetch - processPackages [customdataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customdataclass-0.1.1.2.tar.gz tmp/customdataclass-0.1.1.3.tar.gz --markdown 20230516/c/customdataclass/0.1.1.2-0.1.1.3/diff.md --exclude *.pyd
+[2023-05-16 14:24:02] INFO root fetch - processPackages [granian]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-16 14:24:02] INFO root fetch - processPackages [karton-core]: executing diffoscope
+[2023-05-16 14:24:02] INFO root fetch - processPackages [karton-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karton_core-5.0.1-py3-none-any.whl.zip tmp/karton_core-5.1.0-py3-none-any.whl.zip --markdown 20230516/k/karton-core/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2023-05-16 14:24:02] INFO root fetch - processPackages [swdl]: Downloading https://files.pythonhosted.org/packages/cb/1d/8c5454eaed8ae4b9ddade1b9899169c9d351283cbf730eb1e81f09a424c6/swdl-1.8.3-py3-none-any.whl
+[2023-05-16 14:24:02] INFO root fetch - processPackages [TailraiderAlliance]: executing diffoscope
+[2023-05-16 14:24:02] INFO root fetch - processPackages [TailraiderAlliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TailraiderAlliance-0.0.7.tar.gz tmp/TailraiderAlliance-0.0.8.tar.gz --markdown 20230516/T/TailraiderAlliance/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 14:24:02] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-05-16 14:24:02] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-05-16 14:24:02] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230516/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 14:24:02] INFO root fetch - processPackages [swdl]: executing diffoscope
+[2023-05-16 14:24:02] INFO root fetch - processPackages [swdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swdl-1.8.2-py3-none-any.whl.zip tmp/swdl-1.8.3-py3-none-any.whl.zip --markdown 20230516/s/swdl/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-05-16 14:24:02] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/9b/9b/97ec08a6d6763bf7c8461202573ca2714c8384db3a4fe5665f6ab67c0c91/granian-0.4.2.tar.gz
+[2023-05-16 14:24:02] INFO root fetch - processPackages [granian]: executing diffoscope
+[2023-05-16 14:24:02] INFO root fetch - processPackages [granian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granian-0.4.1.tar.gz tmp/granian-0.4.2.tar.gz --markdown 20230516/g/granian/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-16 14:24:02] INFO root fetch - processPackages [slapos.toolbox]: Downloading https://files.pythonhosted.org/packages/b8/ed/b5607d2d84aa4ef9c3d583f2d2b296ae5837ab5ee5a01caf01d599275444/slapos.toolbox-0.99.tar.gz
+[2023-05-16 14:24:03] INFO root fetch - processPackages [scrapere]: Start processing: sphinxcontrib-cadquery
+[2023-05-16 14:24:03] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-16 14:24:03] INFO root fetch - processPackages [sphinxcontrib-cadquery]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-16 14:24:03] INFO root fetch - processPackages [dev-gpt]: Start processing: ec2imgutils
+[2023-05-16 14:24:03] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-16 14:24:03] INFO root fetch - processPackages [slapos.toolbox]: executing diffoscope
+[2023-05-16 14:24:03] INFO root fetch - processPackages [slapos.toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slapos.toolbox-0.98.tar.gz tmp/slapos.toolbox-0.99.tar.gz --markdown 20230516/s/slapos.toolbox/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-16 14:24:03] INFO root fetch - processPackages [ec2imgutils]: New version: [9.0.4] Old Version: [9.0.3]
+[2023-05-16 14:24:03] INFO root fetch - processPackages [sphinxcontrib-cadquery]: Downloading https://files.pythonhosted.org/packages/71/35/01835c94d5d1fe0d52e91a72a693b50150f87da0dc0c0314f9675e07b5e9/sphinxcontrib_cadquery-0.5.0.tar.gz
+[2023-05-16 14:24:03] INFO root fetch - processPackages [TailraiderAlliance]: Start processing: phc-ingestion
+[2023-05-16 14:24:03] INFO root fetch - main [MainThread]: End processing [TailraiderAlliance]: success
+[2023-05-16 14:24:03] INFO root fetch - processPackages [ec2imgutils]: Downloading https://files.pythonhosted.org/packages/87/c7/139e6dec5743ac902e97b9ca7270346165bdeab3be1ff842ad614767c631/ec2imgutils-9.0.3.tar.gz
+[2023-05-16 14:24:03] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-16 14:24:03] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7c/50/dddee5ed9f37b0a223816dbcded72773737dfa9dda1c606fdb575b27a1f8/phc-ingestion-0.3.8.tar.gz
+[2023-05-16 14:24:03] WARNING root fetch - processPackages [phc-ingestion]: Skipping package: exceeds size limit 55817200>=10485760
+[2023-05-16 14:24:03] INFO root fetch - processPackages [phc-ingestion]: Start processing: cliconfig
+[2023-05-16 14:24:03] INFO root fetch - main [MainThread]: End processing [phc-ingestion] error
+[2023-05-16 14:24:03] INFO root fetch - processPackages [karton-core]: Start processing: dataset-tools
+[2023-05-16 14:24:03] INFO root fetch - main [MainThread]: End processing [karton-core]: success
+[2023-05-16 14:24:03] INFO root fetch - processPackages [sphinxcontrib-cadquery]: Downloading https://files.pythonhosted.org/packages/a4/67/56141f1480cadbd94474d7b19b5612691b4f4d7cd023330cbfc67cf25d35/sphinxcontrib_cadquery-0.6.0.tar.gz
+[2023-05-16 14:24:03] INFO root fetch - processPackages [swdl]: Start processing: fiat-cli
+[2023-05-16 14:24:03] INFO root fetch - main [MainThread]: End processing [swdl]: success
+[2023-05-16 14:24:03] INFO root fetch - processPackages [cliconfig]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-05-16 14:24:03] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 14:24:03] WARNING root fetch - processPackages [fiat-cli]: Skipping, unable to determine old version
+[2023-05-16 14:24:03] INFO root fetch - processPackages [fiat-cli]: Start processing: TailraiderAlliance
+[2023-05-16 14:24:03] INFO root fetch - main [MainThread]: End processing [fiat-cli] error
+[2023-05-16 14:24:03] INFO root fetch - processPackages [TailraiderAlliance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 14:24:03] INFO root fetch - processPackages [ec2imgutils]: Downloading https://files.pythonhosted.org/packages/94/6a/778f6944e6b53f3a8ce41be4d5e66e60c03c0d60779ce74f8d7b2d001655/ec2imgutils-9.0.4.tar.gz
+[2023-05-16 14:24:04] INFO root fetch - processPackages [ec2imgutils]: executing diffoscope
+[2023-05-16 14:24:04] INFO root fetch - processPackages [ec2imgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2imgutils-9.0.3.tar.gz tmp/ec2imgutils-9.0.4.tar.gz --markdown 20230516/e/ec2imgutils/9.0.3-9.0.4/diff.md --exclude *.pyd
+[2023-05-16 14:24:04] INFO root fetch - processPackages [sphinxcontrib-cadquery]: executing diffoscope
+[2023-05-16 14:24:04] INFO root fetch - processPackages [sphinxcontrib-cadquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_cadquery-0.5.0.tar.gz tmp/sphinxcontrib_cadquery-0.6.0.tar.gz --markdown 20230516/s/sphinxcontrib-cadquery/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-16 14:24:04] INFO root fetch - main [MainThread]: End processing [customdataclass]: success
+[2023-05-16 14:24:04] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/1a/62/b828fef7b8fa8a5ce85305b647a9fecd68cddc135601f351d94b3083b7c9/cliconfig-0.6.3.tar.gz
+[2023-05-16 14:24:04] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/a2/a8/0b32ae14d1650be36404d73f53846b849b0cdea7eb2f562b0f7d5e7c2e2d/dataset-tools-0.0.2.tar.gz
+[2023-05-16 14:24:04] INFO root fetch - processPackages [TailraiderAlliance]: Downloading https://files.pythonhosted.org/packages/cd/cf/865f62177171596a5ffe9e71c30f4c7a30bcd131565b5e3ef2065e228a96/TailraiderAlliance-0.0.9.tar.gz
+[2023-05-16 14:24:04] INFO root fetch - processPackages [TailraiderAlliance]: executing diffoscope
+[2023-05-16 14:24:04] INFO root fetch - processPackages [TailraiderAlliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TailraiderAlliance-0.0.8.tar.gz tmp/TailraiderAlliance-0.0.9.tar.gz --markdown 20230516/T/TailraiderAlliance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 14:24:04] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/35/4b/0cb77dd11a0e521c2951f0e12a84e0d07fb5b419d0f59cc999322061460b/dataset-tools-0.0.3.tar.gz
+[2023-05-16 14:24:04] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/45/e8/0f895b80e8baec0f4b59704e0d12cb69ac7eacaedd4cee19e4e21ff15cca/cliconfig-0.7.0.tar.gz
+[2023-05-16 14:24:04] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2023-05-16 14:24:04] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.2.tar.gz tmp/dataset-tools-0.0.3.tar.gz --markdown 20230516/d/dataset-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 14:24:04] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-16 14:24:04] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.6.3.tar.gz tmp/cliconfig-0.7.0.tar.gz --markdown 20230516/c/cliconfig/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-05-16 14:24:05] INFO root fetch - main [MainThread]: End processing [granian]: success
+[2023-05-16 14:24:05] INFO root fetch - main [MainThread]: End processing [TailraiderAlliance]: success
+[2023-05-16 14:24:05] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-cadquery]: success
+[2023-05-16 14:24:05] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2023-05-16 14:24:05] INFO root fetch - main [MainThread]: End processing [ec2imgutils]: success
+[2023-05-16 14:24:07] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-16 14:24:07] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-16 14:24:09] INFO root fetch - main [MainThread]: End processing [slapos.toolbox]: success
+[2023-05-16 14:24:32] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-05-16 14:24:32] INFO root fetch - main [MainThread]: Store serial: [18123126]
