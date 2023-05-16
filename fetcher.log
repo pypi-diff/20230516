@@ -7275,3 +7275,79 @@
 [2023-05-16 05:05:27] INFO root fetch - main [MainThread]: End processing [python-keycloak-async]: success
 [2023-05-16 05:05:31] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-16 05:05:31] INFO root fetch - main [MainThread]: Store serial: [18117664]
+[2023-05-16 05:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117664]
+[2023-05-16 05:10:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-stock-picking-return-invoicing
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-account-invoicing
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-ak-de45e14cba2c4defbab7659a63578373
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slicpy
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nyoibo
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperparameter
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-universal
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skyndo
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coconut-develop
+[2023-05-16 05:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antchain-ak-9e956771c16e4b758a00488b7e766a85
+[2023-05-16 05:10:40] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-16 05:10:40] INFO root fetch - processPackages [slicpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 05:10:40] WARNING root fetch - processPackages [antchain-ak-de45e14cba2c4defbab7659a63578373]: Skipping, unable to determine old version
+[2023-05-16 05:10:40] INFO root fetch - processPackages [antchain-ak-de45e14cba2c4defbab7659a63578373]: Start processing: edc-pdf-reports
+[2023-05-16 05:10:40] INFO root fetch - main [MainThread]: End processing [antchain-ak-de45e14cba2c4defbab7659a63578373] error
+[2023-05-16 05:10:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230515.0] Old Version: [16.0.20230421.0]
+[2023-05-16 05:10:40] INFO root fetch - processPackages [skyndo]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-16 05:10:40] INFO root fetch - processPackages [nyoibo]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-16 05:10:40] INFO root fetch - processPackages [core-universal]: New version: [3.0.1] Old Version: [2.5.8]
+[2023-05-16 05:10:40] INFO root fetch - processPackages [hyperparameter]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-16 05:10:40] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.0a0.dev9] Old Version: [3.0.0a0.dev8]
+[2023-05-16 05:10:40] WARNING root fetch - processPackages [antchain-ak-9e956771c16e4b758a00488b7e766a85]: Skipping, unable to determine old version
+[2023-05-16 05:10:40] INFO root fetch - processPackages [antchain-ak-9e956771c16e4b758a00488b7e766a85]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-05-16 05:10:40] INFO root fetch - main [MainThread]: End processing [antchain-ak-9e956771c16e4b758a00488b7e766a85] error
+[2023-05-16 05:10:40] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-16 05:10:40] INFO root fetch - processPackages [edc-pdf-reports]: New version: [0.3.9] Old Version: [0.3.12]
+[2023-05-16 05:10:40] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/52/b3/349e334819653d322d02e7c73ac6324c3f0aeaa41676f330cd2807357aa3/core_universal-2.5.8-py2.py3-none-win_amd64.whl
+[2023-05-16 05:10:40] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/89/67/62020eeb579cab4f60a642c4957e147f631075d7350838ea7547f37cbb55/skyndo-0.7.2.tar.gz
+[2023-05-16 05:10:40] INFO root fetch - processPackages [nyoibo]: Downloading https://files.pythonhosted.org/packages/60/86/d483a234f3a423ab8c9827596839e2592e5dd6e1541475fba1e3c2d7f9f0/nyoibo-0.4.1.tar.gz
+[2023-05-16 05:10:41] INFO root fetch - processPackages [slicpy]: Downloading https://files.pythonhosted.org/packages/3c/dd/7ceccbfd1d4aac186f1753d4ae5d292dfdd1798940577f8037206561363c/slicpy-0.0.3.tar.gz
+[2023-05-16 05:10:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/4c/4c/fdc97fccdd5fc67a1d9771e47c2a95fdf26c6a9c0d0f94b74ef80cc43748/odoo_addons_oca_account_invoicing-16.0.20230421.0-py3-none-any.whl
+[2023-05-16 05:10:41] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev8.tar.gz tmp/coconut-develop-3.0.0a0.dev9.tar.gz --markdown 20230516/c/coconut-develop/3.0.0a0.dev8-3.0.0a0.dev9/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/76/76/88b93424a38a4d66867b0c178401281a813df5c744fe226d6f90537a27e1/edc-pdf-reports-0.3.12.tar.gz
+[2023-05-16 05:10:41] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.7.1.tar.gz tmp/skyndo-0.7.2.tar.gz --markdown 20230516/s/skyndo/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: Downloading https://files.pythonhosted.org/packages/67/5d/404112b26c9bd743ecc4242832d53f917708d1398a9e0a5a5ea2bd6ca829/odoo_addon_purchase_stock_picking_return_invoicing-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 05:10:41] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 25883127>=10485760
+[2023-05-16 05:10:41] INFO root fetch - processPackages [core-universal]: Start processing: mojo-runtime
+[2023-05-16 05:10:41] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-05-16 05:10:41] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230516/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [slicpy]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [slicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slicpy-0.0.2.tar.gz tmp/slicpy-0.0.3.tar.gz --markdown 20230516/s/slicpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-return-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_picking_return_invoicing-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_picking_return_invoicing-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-purchase-stock-picking-return-invoicing/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [nyoibo]: Downloading https://files.pythonhosted.org/packages/8d/e5/0684195f3012382c627e7d61af9c59a99646fb122c26e4b482d910fd9566/nyoibo-0.5.0.tar.gz
+[2023-05-16 05:10:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/aa/4c/ea1ab795240fc64c331ffa957de11aebe0bb04e464707fcaab7e56bb6b6b/odoo_addons_oca_account_invoicing-16.0.20230515.0-py3-none-any.whl
+[2023-05-16 05:10:41] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 05:10:41] INFO root fetch - processPackages [hyperparameter]: Downloading https://files.pythonhosted.org/packages/30/ad/c90a2f46f3d9cbb1bbf466937388dc4460a9aaa444aeab98433f297a2878/hyperparameter-0.5.1.tar.gz
+[2023-05-16 05:10:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230421.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230515.0-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-account-invoicing/16.0.20230421.0-16.0.20230515.0/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/f6/f9/ff5521ba26ca2c42105ff66e6fdbe57e998921d1287d264e0a6754ede2fe/edc-pdf-reports-0.3.9.tar.gz
+[2023-05-16 05:10:41] INFO root fetch - processPackages [hyperparameter]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [hyperparameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperparameter-0.5.0.tar.gz tmp/hyperparameter-0.5.1.tar.gz --markdown 20230516/h/hyperparameter/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [nyoibo]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [nyoibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyoibo-0.4.1.tar.gz tmp/nyoibo-0.5.0.tar.gz --markdown 20230516/n/nyoibo/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [edc-pdf-reports]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [edc-pdf-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pdf-reports-0.3.12.tar.gz tmp/edc-pdf-reports-0.3.9.tar.gz --markdown 20230516/e/edc-pdf-reports/0.3.12-0.3.9/diff.md --exclude *.pyd
+[2023-05-16 05:10:41] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-05-16 05:10:41] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-05-16 05:10:41] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-05-16 05:10:41] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230516/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 05:10:42] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-16 05:10:42] INFO root fetch - main [MainThread]: End processing [slicpy]: success
+[2023-05-16 05:10:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-05-16 05:10:42] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-05-16 05:10:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-picking-return-invoicing]: success
+[2023-05-16 05:10:43] INFO root fetch - main [MainThread]: End processing [nyoibo]: success
+[2023-05-16 05:10:43] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-05-16 05:10:43] INFO root fetch - main [MainThread]: End processing [hyperparameter]: success
+[2023-05-16 05:10:43] INFO root fetch - main [MainThread]: End processing [edc-pdf-reports]: success
+[2023-05-16 05:10:45] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-16 05:10:45] INFO root fetch - main [MainThread]: Store serial: [18117707]
