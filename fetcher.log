@@ -9121,3 +9121,106 @@
 [2023-05-16 07:44:47] INFO root fetch - main [MainThread]: End processing [fastq-preprocessor]: success
 [2023-05-16 07:44:47] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
 [2023-05-16 07:44:47] INFO root fetch - main [MainThread]: Store serial: [18118740]
+[2023-05-16 07:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118740]
+[2023-05-16 07:49:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MoveFile
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: todo-by
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-seam
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-auth0
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-civo
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-cloudinit
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: icclim
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-artifactory
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fern-seam
+[2023-05-16 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Jdkcal
+[2023-05-16 07:49:56] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1683955258] Old Version: [2.4.0a1683782748]
+[2023-05-16 07:49:56] INFO root fetch - processPackages [fern-seam]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 07:49:56] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1683955211] Old Version: [1.4.0a1683783263]
+[2023-05-16 07:49:56] INFO root fetch - processPackages [fern-seam]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 07:49:56] WARNING root fetch - processPackages [todo-by]: Skipping, unable to determine old version
+[2023-05-16 07:49:56] INFO root fetch - processPackages [todo-by]: Start processing: pulumi-akamai
+[2023-05-16 07:49:56] INFO root fetch - main [MainThread]: End processing [todo-by] error
+[2023-05-16 07:49:56] INFO root fetch - processPackages [MoveFile]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-16 07:49:56] WARNING root fetch - processPackages [Jdkcal]: Skipping, unable to determine old version
+[2023-05-16 07:49:56] INFO root fetch - processPackages [Jdkcal]: Start processing: k1a
+[2023-05-16 07:49:56] INFO root fetch - main [MainThread]: End processing [Jdkcal] error
+[2023-05-16 07:49:56] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-05-16 07:49:56] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.5.0a1684214270] Old Version: [3.5.0a1683955032]
+[2023-05-16 07:49:56] INFO root fetch - processPackages [icclim]: New version: [6.4.0] Old Version: [6.3.0]
+[2023-05-16 07:49:56] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/20/c6/4b3563c082961f4556ccf6409c390de6ad993a1c93e030311c050aa5a39f/pulumi_civo-2.4.0a1683782748.tar.gz
+[2023-05-16 07:49:56] INFO root fetch - processPackages [fern-seam]: Downloading https://files.pythonhosted.org/packages/bf/d2/1fde024bcd8f5cbffd5cef06128e6b789fe4c44daffe25c32b38e0e637ac/fern_seam-0.0.8.tar.gz
+[2023-05-16 07:49:56] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/19/53/377cbb0c05828951f232700b7737f49dff0c6c255e95854b14371794e4b3/pulumi_cloudinit-1.4.0a1683783263.tar.gz
+[2023-05-16 07:49:56] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.6.0a1684214209] Old Version: [4.6.0a1683955130]
+[2023-05-16 07:49:56] INFO root fetch - processPackages [k1a]: New version: [1.2.1] Old Version: [1.2]
+[2023-05-16 07:49:56] INFO root fetch - processPackages [fern-seam]: Downloading https://files.pythonhosted.org/packages/bf/d2/1fde024bcd8f5cbffd5cef06128e6b789fe4c44daffe25c32b38e0e637ac/fern_seam-0.0.8.tar.gz
+[2023-05-16 07:49:56] INFO root fetch - processPackages [fern-seam]: executing diffoscope
+[2023-05-16 07:49:56] INFO root fetch - processPackages [fern-seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_seam-0.0.7.tar.gz tmp/fern_seam-0.0.8.tar.gz --markdown 20230516/f/fern-seam/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 07:49:56] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-05-16 07:49:56] INFO root fetch - processPackages [icclim]: Downloading https://files.pythonhosted.org/packages/8b/c1/415d8f82a824b8eea1442eff60ff86e99fac29d611048410c37e28664026/icclim-6.3.0.tar.gz
+[2023-05-16 07:49:56] INFO root fetch - processPackages [fern-seam]: executing diffoscope
+[2023-05-16 07:49:56] INFO root fetch - processPackages [fern-seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_seam-0.0.7.tar.gz tmp/fern_seam-0.0.8.tar.gz --markdown 20230516/f/fern-seam/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 07:49:57] INFO root fetch - processPackages [k1a]: Downloading https://files.pythonhosted.org/packages/e6/fe/3965c79c42b9b5d9500025f9f93ad5545380e27b2b00e3e2438ec82ea3ed/k1a-1.2-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/a6/a7/55344428147fa80def308a2bcfa178d17e4034eeb6b1c71a6a981576edbd/pulumi_artifactory-3.5.0a1684214270.tar.gz
+[2023-05-16 07:49:57] INFO root fetch - processPackages [MoveFile]: Downloading https://files.pythonhosted.org/packages/f7/5a/478d59906b80ffe2f34f209df042b737bae5d2218eb051d5995e4290e517/MoveFile-0.3.2.tar.gz
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1683782748.tar.gz tmp/pulumi_civo-2.4.0a1683955258.tar.gz --markdown 20230516/p/pulumi-civo/2.4.0a1683782748-2.4.0a1683955258/diff.md --exclude *.pyd
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1683783263.tar.gz tmp/pulumi_cloudinit-1.4.0a1683955211.tar.gz --markdown 20230516/p/pulumi-cloudinit/1.4.0a1683783263-1.4.0a1683955211/diff.md --exclude *.pyd
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f2/90/c997d576fed280035c2f117ad8a0ad8e8e7994c952d8b7bb7dde3b754e75/pulumi_akamai-4.6.0a1684214209.tar.gz
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.5.0a1683955032.tar.gz tmp/pulumi_artifactory-3.5.0a1684214270.tar.gz --markdown 20230516/p/pulumi-artifactory/3.5.0a1683955032-3.5.0a1684214270/diff.md --exclude *.pyd
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-05-16 07:49:57] INFO root fetch - processPackages [icclim]: Downloading https://files.pythonhosted.org/packages/78/7d/226b1bdae15e4ac43f0254ca64b7fff99a3f10696b6fda5f863286f45965/icclim-6.4.0.tar.gz
+[2023-05-16 07:49:57] INFO root fetch - processPackages [k1a]: Downloading https://files.pythonhosted.org/packages/7e/02/afa869e761d49d0c9e872117c22214882c03090bb895e3df1c240061c00a/k1a-1.2.1.tar.gz
+[2023-05-16 07:49:57] INFO root fetch - processPackages [MoveFile]: executing diffoscope
+[2023-05-16 07:49:57] INFO root fetch - processPackages [MoveFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MoveFile-0.3.1.tar.gz tmp/MoveFile-0.3.2.tar.gz --markdown 20230516/M/MoveFile/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.6.0a1683955130.tar.gz tmp/pulumi_akamai-4.6.0a1684214209.tar.gz --markdown 20230516/p/pulumi-akamai/4.6.0a1683955130-4.6.0a1684214209/diff.md --exclude *.pyd
+[2023-05-16 07:49:57] INFO root fetch - processPackages [icclim]: executing diffoscope
+[2023-05-16 07:49:57] INFO root fetch - processPackages [icclim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icclim-6.3.0.tar.gz tmp/icclim-6.4.0.tar.gz --markdown 20230516/i/icclim/6.3.0-6.4.0/diff.md --exclude *.pyd
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-05-16 07:49:57] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230516/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-05-16 07:49:57] INFO root fetch - processPackages [k1a]: executing diffoscope
+[2023-05-16 07:49:57] INFO root fetch - processPackages [k1a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1a-1.2-cp39-cp39-manylinux_2_24_x86_64.whl.zip tmp/k1a-1.2.1.tar.gz --markdown 20230516/k/k1a/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-05-16 07:49:58] INFO root fetch - processPackages [fern-seam]: Start processing: streamlit-antd-components
+[2023-05-16 07:49:58] INFO root fetch - main [MainThread]: End processing [fern-seam]: success
+[2023-05-16 07:49:58] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 07:49:58] INFO root fetch - processPackages [pulumi-cloudinit]: Start processing: stsf
+[2023-05-16 07:49:58] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-05-16 07:49:58] INFO root fetch - processPackages [MoveFile]: Start processing: baseblock
+[2023-05-16 07:49:58] INFO root fetch - main [MainThread]: End processing [MoveFile]: success
+[2023-05-16 07:49:58] WARNING root fetch - processPackages [stsf]: Skipping, unable to determine old version
+[2023-05-16 07:49:58] INFO root fetch - processPackages [stsf]: Start processing: baldertest
+[2023-05-16 07:49:58] INFO root fetch - main [MainThread]: End processing [stsf] error
+[2023-05-16 07:49:58] INFO root fetch - processPackages [fern-seam]: Start processing: pulumi-azuread
+[2023-05-16 07:49:58] INFO root fetch - main [MainThread]: End processing [fern-seam]: success
+[2023-05-16 07:49:58] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/ff/0c/7fd649e1d46baacb35204cb2003a1f482888555c418dcc324bf84a3efeec/streamlit_antd_components-0.0.2-py3-none-any.whl
+[2023-05-16 07:49:58] INFO root fetch - processPackages [baseblock]: New version: [0.2.23] Old Version: [0.2.22]
+[2023-05-16 07:49:58] INFO root fetch - processPackages [baldertest]: New version: [0.1.0b7] Old Version: [0.1.0b6]
+[2023-05-16 07:49:58] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-05-16 07:49:58] INFO root fetch - processPackages [baseblock]: Downloading https://files.pythonhosted.org/packages/35/87/21303bc2cfe0e4b80a73ff8647cf58744be355b5684b36387a261d44e262/baseblock-0.2.22.tar.gz
+[2023-05-16 07:49:58] INFO root fetch - main [MainThread]: End processing [k1a]: success
+[2023-05-16 07:49:59] INFO root fetch - processPackages [baldertest]: Downloading https://files.pythonhosted.org/packages/f4/8a/5d70ca4ee287638fbdb1d2295c5191a6b0f92df9338261b39bd0d33647e3/baldertest-0.1.0b6.tar.gz
+[2023-05-16 07:49:59] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-05-16 07:49:59] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/30/3c/27d024714daca3197ab18b480f924d27924bcbb179bd57c7b5462c5d1bc5/streamlit_antd_components-0.0.3-py3-none-any.whl
+[2023-05-16 07:49:59] INFO root fetch - processPackages [baseblock]: Downloading https://files.pythonhosted.org/packages/e8/51/30a8b9e73189b52f095db1b590771747bfd0fd030f8d690175c845868680/baseblock-0.2.23.tar.gz
+[2023-05-16 07:49:59] INFO root fetch - main [MainThread]: End processing [icclim]: success
+[2023-05-16 07:49:59] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-05-16 07:49:59] INFO root fetch - processPackages [baseblock]: executing diffoscope
+[2023-05-16 07:49:59] INFO root fetch - processPackages [baseblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseblock-0.2.22.tar.gz tmp/baseblock-0.2.23.tar.gz --markdown 20230516/b/baseblock/0.2.22-0.2.23/diff.md --exclude *.pyd
+[2023-05-16 07:49:59] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-05-16 07:49:59] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230516/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-05-16 07:49:59] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-05-16 07:49:59] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.0.2-py3-none-any.whl.zip tmp/streamlit_antd_components-0.0.3-py3-none-any.whl.zip --markdown 20230516/s/streamlit-antd-components/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 07:49:59] INFO root fetch - processPackages [baldertest]: Downloading https://files.pythonhosted.org/packages/7e/1d/429c2063452c56495e931846dd01f1eeb657e4e9cbe3b593c2638f510c09/baldertest-0.1.0b7.tar.gz
+[2023-05-16 07:49:59] INFO root fetch - processPackages [baldertest]: executing diffoscope
+[2023-05-16 07:49:59] INFO root fetch - processPackages [baldertest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baldertest-0.1.0b6.tar.gz tmp/baldertest-0.1.0b7.tar.gz --markdown 20230516/b/baldertest/0.1.0b6-0.1.0b7/diff.md --exclude *.pyd
+[2023-05-16 07:50:00] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-05-16 07:50:00] INFO root fetch - main [MainThread]: End processing [baseblock]: success
+[2023-05-16 07:50:00] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-05-16 07:50:00] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-05-16 07:50:01] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-05-16 07:50:01] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-05-16 07:50:02] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-05-16 07:50:21] INFO root fetch - main [MainThread]: End processing [baldertest]: success
+[2023-05-16 07:50:21] INFO root fetch - main [MainThread]: Store serial: [18118794]
