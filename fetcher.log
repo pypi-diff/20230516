@@ -11339,3 +11339,118 @@
 [2023-05-16 09:48:24] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-05-16 09:48:32] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-16 09:48:32] INFO root fetch - main [MainThread]: Store serial: [18119992]
+[2023-05-16 09:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119992]
+[2023-05-16 09:53:42] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-core
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skyndo
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtdraw
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beamspy
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akshare
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xpydf
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-cpu
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whatap-python
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PatryksAutoAI
+[2023-05-16 09:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-rma
+[2023-05-16 09:53:42] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [xpydf]: New version: [0.1.4.3] Old Version: [0.1.4.2]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.82]
+[2023-05-16 09:53:42] WARNING root fetch - processPackages [qtdraw]: Skipping, unable to determine old version
+[2023-05-16 09:53:42] INFO root fetch - processPackages [qtdraw]: Start processing: alibabacloud-btripopen20220520
+[2023-05-16 09:53:42] INFO root fetch - main [MainThread]: End processing [qtdraw] error
+[2023-05-16 09:53:42] INFO root fetch - processPackages [odoo12-addon-rma]: New version: [12.0.2.6.0.99.dev9] Old Version: [12.0.2.6.0.99.dev8]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [beamspy]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [whatap-python]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-05-16 09:53:42] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.4.2.tar.gz tmp/xpydf-0.1.4.3.tar.gz --markdown 20230516/x/xpydf/0.1.4.2-0.1.4.3/diff.md --exclude *.pyd
+[2023-05-16 09:53:42] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.0]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230516] Old Version: [2.14.0.dev20230515]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-16 09:53:42] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.82.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230516/a/akshare/1.9.82-1.9.9/diff.md --exclude *.pyd
+[2023-05-16 09:53:42] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/a8/b1/f5be5aca060448163b844b9fc7f813b154c422aa6528fca13e6044279c34/PatryksAutoAI-0.7.1.tar.gz
+[2023-05-16 09:53:42] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/8e/03/0ac83e9da761907f809724e2d631c577e9ee1c02131098e2e30a2447880e/skyndo-0.7.4.tar.gz
+[2023-05-16 09:53:42] INFO root fetch - processPackages [whatap-python]: Downloading https://files.pythonhosted.org/packages/fc/46/24c28c58d9999e996264e4773295a7145accd47f82554238b3e2c7df12b9/whatap-python-1.3.4.tar.gz
+[2023-05-16 09:53:42] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-16 09:53:42] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.7.0.tar.gz tmp/PatryksAutoAI-0.7.1.tar.gz --markdown 20230516/P/PatryksAutoAI/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-16 09:53:42] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/4b/0f/b6856b64a40086bba9da6ac5f52d1734fd33690e11d89c221d3afcb0d021/OpenGeode_core-14.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-16 09:53:42] INFO root fetch - processPackages [beamspy]: Downloading https://files.pythonhosted.org/packages/40/ea/db5a5871cfedc1ca1117ccaa574de16d30964bb615c0dbea0b33d1eef875/beamspy-1.1.0.tar.gz
+[2023-05-16 09:53:42] WARNING root fetch - processPackages [whatap-python]: Skipping package: exceeds size limit 26422527>=10485760
+[2023-05-16 09:53:42] INFO root fetch - processPackages [whatap-python]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-05-16 09:53:42] INFO root fetch - main [MainThread]: End processing [whatap-python] error
+[2023-05-16 09:53:42] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/22/db/55856f6d8870724d595ac9e131b5fb49d5acd414a50bd7142cebbc660f9d/alibabacloud_btripopen20220520-1.0.8.tar.gz
+[2023-05-16 09:53:42] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 09:53:42] WARNING root fetch - processPackages [beamspy]: Skipping package: exceeds size limit 38124130>=10485760
+[2023-05-16 09:53:42] INFO root fetch - processPackages [beamspy]: Start processing: kolyaklimkLab3
+[2023-05-16 09:53:42] INFO root fetch - main [MainThread]: End processing [beamspy] error
+[2023-05-16 09:53:42] WARNING root fetch - processPackages [kolyaklimkLab3]: Skipping, unable to determine old version
+[2023-05-16 09:53:42] INFO root fetch - processPackages [kolyaklimkLab3]: Start processing: skyndo
+[2023-05-16 09:53:42] INFO root fetch - main [MainThread]: End processing [kolyaklimkLab3] error
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/59/a4/0bba48cfe4a058a7c0c202798ef2691c546792204ac589ae83524c849995/tf_nightly_cpu-2.14.0.dev20230516-cp39-cp39-win_amd64.whl
+[2023-05-16 09:53:42] INFO root fetch - processPackages [odoo12-addon-rma]: executing diffoscope
+[2023-05-16 09:53:42] INFO root fetch - processPackages [odoo12-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-rma/12.0.2.6.0.99.dev8-12.0.2.6.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/97/9c/887294758061dca7dc880876841de1ff9fb104d61d19c1ce5169a4c8207f/skyndo-0.7.5.tar.gz
+[2023-05-16 09:53:42] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 16870245>=10485760
+[2023-05-16 09:53:42] INFO root fetch - processPackages [OpenGeode-core]: Start processing: odoo14-addon-rma
+[2023-05-16 09:53:42] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/97/9c/887294758061dca7dc880876841de1ff9fb104d61d19c1ce5169a4c8207f/skyndo-0.7.5.tar.gz
+[2023-05-16 09:53:42] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/de/a0/5d0af6d89a2c23444ae609a054c08a29d7641fc54acaf60d73a7d01fe4c2/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz
+[2023-05-16 09:53:42] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-16 09:53:42] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230515-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230516-cp39-cp39-win_amd64.whl.zip --markdown 20230516/t/tf-nightly-cpu/2.14.0.dev20230515-2.14.0.dev20230516/diff.md --exclude *.pyd
+[2023-05-16 09:53:42] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/9a/a2/11400c6b9d370d1b31aa09ba794773931b464f71096c6677a22ccfacd119/alibabacloud_btripopen20220520-1.0.9.tar.gz
+[2023-05-16 09:53:42] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev4] Old Version: [14.0.3.2.7.dev3]
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.7.4.tar.gz tmp/skyndo-0.7.5.tar.gz --markdown 20230516/s/skyndo/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-16 09:53:42] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.7.4.tar.gz tmp/skyndo-0.7.5.tar.gz --markdown 20230516/s/skyndo/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-16 09:53:42] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-05-16 09:53:42] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230516/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 09:53:43] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/e4/c7/d4efe3620d3319b87755842b6ed1925259fd25ba21cce7089faa20c24d4b/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz
+[2023-05-16 09:53:43] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/bf/ae/1cd0a6ac0acfd6f9858372e8e61c453f84d80f6f90c1c0bddbdac7226739/odoo14_addon_rma-14.0.3.2.7.dev4-py3-none-any.whl
+[2023-05-16 09:53:43] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-05-16 09:53:43] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230516/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 09:53:43] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-05-16 09:53:43] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.7.dev3-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev4-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-rma/14.0.3.2.7.dev3-14.0.3.2.7.dev4/diff.md --exclude *.pyd
+[2023-05-16 09:53:44] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: odoo-addon-rma
+[2023-05-16 09:53:44] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-16 09:53:44] INFO root fetch - processPackages [skyndo]: Start processing: ansible
+[2023-05-16 09:53:44] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-16 09:53:44] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3.4] Old Version: [15.0.1.1.3.3]
+[2023-05-16 09:53:44] INFO root fetch - processPackages [ansible]: New version: [8.0.0a3] Old Version: [8.0.0a2]
+[2023-05-16 09:53:44] INFO root fetch - processPackages [skyndo]: Start processing: dobrepraktyki
+[2023-05-16 09:53:44] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-16 09:53:44] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Start processing: rsutil
+[2023-05-16 09:53:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-05-16 09:53:44] INFO root fetch - processPackages [dobrepraktyki]: New version: [0.2] Old Version: [0.1]
+[2023-05-16 09:53:44] INFO root fetch - processPackages [rsutil]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-16 09:53:44] INFO root fetch - processPackages [ansible]: Downloading https://files.pythonhosted.org/packages/3b/81/3576eb61e81eba9319afa61be429ef5ac82e08586cb0dba24caed57c5ad1/ansible-8.0.0a2.tar.gz
+[2023-05-16 09:53:44] WARNING root fetch - processPackages [ansible]: Skipping package: exceeds size limit 36012941>=10485760
+[2023-05-16 09:53:44] INFO root fetch - processPackages [ansible]: Start processing: nonebot-plugin-sd-webui
+[2023-05-16 09:53:44] INFO root fetch - main [MainThread]: End processing [ansible] error
+[2023-05-16 09:53:44] INFO root fetch - processPackages [nonebot-plugin-sd-webui]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 09:53:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-05-16 09:53:44] INFO root fetch - processPackages [dobrepraktyki]: Downloading https://files.pythonhosted.org/packages/02/06/d9104eb754d0fdf26912e76216b52d2e5aee6c84ba9732efa0832467a9e5/dobrepraktyki-0.1.tar.gz
+[2023-05-16 09:53:44] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/31/4a/62add843fb3864b1b7e70178ddecd8e595500260c9370cb706386bcca30a/odoo_addon_rma-15.0.1.1.3.4-py3-none-any.whl
+[2023-05-16 09:53:44] INFO root fetch - processPackages [rsutil]: Downloading https://files.pythonhosted.org/packages/7f/f1/d0320913e65cb50c98af9ad260a71f46327c6e456afe752278169828c687/rsutil-0.3.0-cp39-cp39-macosx_11_0_arm64.whl
+[2023-05-16 09:53:44] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-16 09:53:44] INFO root fetch - processPackages [rsutil]: executing diffoscope
+[2023-05-16 09:53:44] INFO root fetch - processPackages [rsutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsutil-0.2.0-cp39-cp39-macosx_11_0_arm64.whl.zip tmp/rsutil-0.3.0-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230516/r/rsutil/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-16 09:53:44] INFO root fetch - processPackages [nonebot-plugin-sd-webui]: Downloading https://files.pythonhosted.org/packages/18/3d/e446241a60bccdbd305d1fb90ddbcbf4a34ff2b80414a6aae18dc93f46cb/nonebot_plugin_sd_webui-0.1.0.tar.gz
+[2023-05-16 09:53:44] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-05-16 09:53:44] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.3.3-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3.4-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-rma/15.0.1.1.3.3-15.0.1.1.3.4/diff.md --exclude *.pyd
+[2023-05-16 09:53:44] INFO root fetch - main [MainThread]: End processing [odoo12-addon-rma]: success
+[2023-05-16 09:53:44] INFO root fetch - processPackages [dobrepraktyki]: Downloading https://files.pythonhosted.org/packages/36/75/822d4e34cd2a34f4991379156e83a99f4b460c7809715cf87f75020788c1/dobrepraktyki-0.2.tar.gz
+[2023-05-16 09:53:45] INFO root fetch - processPackages [dobrepraktyki]: executing diffoscope
+[2023-05-16 09:53:45] INFO root fetch - processPackages [dobrepraktyki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dobrepraktyki-0.1.tar.gz tmp/dobrepraktyki-0.2.tar.gz --markdown 20230516/d/dobrepraktyki/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-16 09:53:45] INFO root fetch - processPackages [nonebot-plugin-sd-webui]: Downloading https://files.pythonhosted.org/packages/0a/bc/aacfb2f49c3b43fda2eeefae32c481a3cf088bf84140f4223561bf90f1ae/nonebot_plugin_sd_webui-0.1.1.tar.gz
+[2023-05-16 09:53:45] INFO root fetch - processPackages [nonebot-plugin-sd-webui]: executing diffoscope
+[2023-05-16 09:53:45] INFO root fetch - processPackages [nonebot-plugin-sd-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sd_webui-0.1.0.tar.gz tmp/nonebot_plugin_sd_webui-0.1.1.tar.gz --markdown 20230516/n/nonebot-plugin-sd-webui/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 09:53:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-05-16 09:53:46] INFO root fetch - main [MainThread]: End processing [dobrepraktyki]: success
+[2023-05-16 09:53:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-05-16 09:53:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sd-webui]: success
+[2023-05-16 09:53:46] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-05-16 09:53:46] INFO root fetch - main [MainThread]: End processing [rsutil]: success
+[2023-05-16 09:53:49] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-16 09:53:49] INFO root fetch - main [MainThread]: Store serial: [18120059]
