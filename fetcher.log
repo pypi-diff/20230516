@@ -10078,3 +10078,58 @@
 [2023-05-16 08:32:42] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
 [2023-05-16 08:32:42] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
 [2023-05-16 08:32:42] INFO root fetch - main [MainThread]: Store serial: [18119278]
+[2023-05-16 08:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119278]
+[2023-05-16 08:37:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ioddcomchecker
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinetstream
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-airflow-providers-sktvane
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-ads-api-report-fetcher
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-mkdocs
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-signalfx
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rsutil
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: insidecouchbase
+[2023-05-16 08:37:52] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-16 08:37:52] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-05-16 08:37:52] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 08:37:52] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.4.0] Old Version: [1.2.1]
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ioddcomchecker]: New version: [1.6.8] Old Version: [1.6.5.post4]
+[2023-05-16 08:37:52] INFO root fetch - processPackages [sinetstream]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-16 08:37:52] INFO root fetch - processPackages [insidecouchbase]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-16 08:37:52] INFO root fetch - processPackages [nbdev-mkdocs]: New version: [1.0.0] Old Version: [0.5.0rc0]
+[2023-05-16 08:37:52] WARNING root fetch - processPackages [rsutil]: Skipping, unable to determine old version
+[2023-05-16 08:37:52] INFO root fetch - main [MainThread]: End processing [rsutil] error
+[2023-05-16 08:37:52] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-16 08:37:52] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230516/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-16 08:37:52] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/7f/e9/e829265513de1a9239c0fd4514356b40548faffe738306045d0bddf5fe3f/apache-airflow-providers-sktvane-0.1.3.tar.gz
+[2023-05-16 08:37:52] INFO root fetch - processPackages [sinetstream]: Downloading https://files.pythonhosted.org/packages/70/5b/73173ffc0d6ba20899c2c29d4bd1f1c8e395de3dbebbd8903ce99704ebb8/sinetstream-1.7.0.tar.gz
+[2023-05-16 08:37:52] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-05-16 08:37:52] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230516/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-05-16 08:37:52] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ee/b5/c307a5880593f60e55c2553164e7386a49461641e41e55fa81af26e6768d/google-ads-api-report-fetcher-1.2.1.tar.gz
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ioddcomchecker]: Downloading https://files.pythonhosted.org/packages/49/d0/b3697c02679fccb66c5132562f59034f354e52c787603be88b108f56e971/ioddcomchecker-1.6.5.post4-cp39-cp39-win_amd64.whl
+[2023-05-16 08:37:52] INFO root fetch - processPackages [insidecouchbase]: Downloading https://files.pythonhosted.org/packages/1b/f1/2c6b6c75827ae58954bb94181285ed20c4b477aa4d560a3d71bead402335/insidecouchbase-2.0.0.tar.gz
+[2023-05-16 08:37:52] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-05-16 08:37:52] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.1.2.tar.gz tmp/apache-airflow-providers-sktvane-0.1.3.tar.gz --markdown 20230516/a/apache-airflow-providers-sktvane/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 08:37:52] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/05/20/f7abd483ef102888d5b26d87d888e17ff727684b79b95ef77e992c89dafa/google-ads-api-report-fetcher-1.4.0.tar.gz
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ioddcomchecker]: Downloading https://files.pythonhosted.org/packages/5c/ce/5c0d44d4f12d6030baf9c51de042ebd187002ee7e03fcbc922f409666ddb/ioddcomchecker-1.6.8-cp39-cp39-win_amd64.whl
+[2023-05-16 08:37:52] INFO root fetch - processPackages [nbdev-mkdocs]: executing diffoscope
+[2023-05-16 08:37:52] INFO root fetch - processPackages [nbdev-mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-mkdocs-0.5.0rc0.tar.gz tmp/nbdev-mkdocs-1.0.0.tar.gz --markdown 20230516/n/nbdev-mkdocs/0.5.0rc0-1.0.0/diff.md --exclude *.pyd
+[2023-05-16 08:37:52] INFO root fetch - processPackages [sinetstream]: Downloading https://files.pythonhosted.org/packages/ae/c2/55c7524b4535c855cba7f1030f2e9a310514e5893c8bf607f98eef45cca2/sinetstream-1.8.0.tar.gz
+[2023-05-16 08:37:52] INFO root fetch - processPackages [insidecouchbase]: Downloading https://files.pythonhosted.org/packages/a8/0c/e3892203e7f37efaa7d3868b53e6fce161e15936bd14b34f2cfab476c0fd/insidecouchbase-2.1.0.tar.gz
+[2023-05-16 08:37:52] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2023-05-16 08:37:52] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.2.1.tar.gz tmp/google-ads-api-report-fetcher-1.4.0.tar.gz --markdown 20230516/g/google-ads-api-report-fetcher/1.2.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ioddcomchecker]: executing diffoscope
+[2023-05-16 08:37:52] INFO root fetch - processPackages [ioddcomchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioddcomchecker-1.6.5.post4-cp39-cp39-win_amd64.whl.zip tmp/ioddcomchecker-1.6.8-cp39-cp39-win_amd64.whl.zip --markdown 20230516/i/ioddcomchecker/1.6.5.post4-1.6.8/diff.md --exclude *.pyd
+[2023-05-16 08:37:52] INFO root fetch - processPackages [sinetstream]: executing diffoscope
+[2023-05-16 08:37:52] INFO root fetch - processPackages [sinetstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinetstream-1.7.0.tar.gz tmp/sinetstream-1.8.0.tar.gz --markdown 20230516/s/sinetstream/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-16 08:37:52] INFO root fetch - processPackages [insidecouchbase]: executing diffoscope
+[2023-05-16 08:37:52] INFO root fetch - processPackages [insidecouchbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insidecouchbase-2.0.0.tar.gz tmp/insidecouchbase-2.1.0.tar.gz --markdown 20230516/i/insidecouchbase/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-16 08:37:53] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-05-16 08:37:54] INFO root fetch - main [MainThread]: End processing [ioddcomchecker]: success
+[2023-05-16 08:37:54] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-05-16 08:37:54] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2023-05-16 08:37:54] INFO root fetch - main [MainThread]: End processing [insidecouchbase]: success
+[2023-05-16 08:37:54] INFO root fetch - main [MainThread]: End processing [sinetstream]: success
+[2023-05-16 08:37:54] INFO root fetch - main [MainThread]: End processing [nbdev-mkdocs]: success
+[2023-05-16 08:37:58] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-16 08:37:58] INFO root fetch - main [MainThread]: Store serial: [18119344]
