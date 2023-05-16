@@ -7709,3 +7709,61 @@
 [2023-05-16 05:38:00] INFO root fetch - main [MainThread]: End processing [AutoFun]: success
 [2023-05-16 05:38:00] INFO root fetch - main [MainThread]: End processing [myylearn]: success
 [2023-05-16 05:38:00] INFO root fetch - main [MainThread]: Store serial: [18117892]
+[2023-05-16 05:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117892]
+[2023-05-16 05:43:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensor-processor-learning
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pxgrid-api
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-l4d2-server
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fyCursor
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsptrain
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensor-processor-learning
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cutransformers
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ifileoperation
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: slicpy
+[2023-05-16 05:43:09] INFO root fetch - processPackages [tensor-processor-learning]: New version: [1.4] Old Version: [1.3]
+[2023-05-16 05:43:09] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.4] Old Version: [0.5.3.3]
+[2023-05-16 05:43:09] INFO root fetch - processPackages [fyCursor]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 05:43:09] WARNING root fetch - processPackages [cutransformers]: Skipping, unable to determine old version
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ifileoperation]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-16 05:43:09] INFO root fetch - main [MainThread]: End processing [cutransformers] error
+[2023-05-16 05:43:09] INFO root fetch - processPackages [lsptrain]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-05-16 05:43:09] INFO root fetch - processPackages [tensor-processor-learning]: New version: [1.4] Old Version: [1.3]
+[2023-05-16 05:43:09] INFO root fetch - processPackages [slicpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 05:43:09] INFO root fetch - processPackages [pxgrid-api]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-16 05:43:09] INFO root fetch - processPackages [tensor-processor-learning]: Downloading https://files.pythonhosted.org/packages/ad/3b/e4d6d3e635388ac2424542b6f9a8f7d88c9d922202ad41fb0fbf45cb7a5d/tensor_processor_learning-1.3.tar.gz
+[2023-05-16 05:43:09] INFO root fetch - processPackages [tensor-processor-learning]: Downloading https://files.pythonhosted.org/packages/ad/3b/e4d6d3e635388ac2424542b6f9a8f7d88c9d922202ad41fb0fbf45cb7a5d/tensor_processor_learning-1.3.tar.gz
+[2023-05-16 05:43:09] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/64/41/6028d86e6febf94707044608c9cfaae4bbff6c74324c6b2dec304e9c4e2b/fyCursor-0.0.3.tar.gz
+[2023-05-16 05:43:09] INFO root fetch - processPackages [ifileoperation]: Downloading https://files.pythonhosted.org/packages/94/06/9a00ce682e88ee37034955102653c918cc6276bf484f0dac305509fc302f/ifileoperation-1.2.3.tar.gz
+[2023-05-16 05:43:09] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/35/27/0ce05025d03a9ced0ee06db014766bb8ffb6dd7a91678fcde7b77e7a8d34/nonebot_plugin_l4d2_server-0.5.4.tar.gz
+[2023-05-16 05:43:09] INFO root fetch - processPackages [slicpy]: Downloading https://files.pythonhosted.org/packages/ad/cf/dddc232d642db3bde81802a290bb55d6d50b526962b79fdab34cf2fdb07b/slicpy-0.0.9.tar.gz
+[2023-05-16 05:43:09] INFO root fetch - processPackages [pxgrid-api]: Downloading https://files.pythonhosted.org/packages/7e/38/35f2cc14d0635dfb3fc58b8a233e8452f0a78c6d328449aaf278e8fc87c7/pxgrid-api-0.2.1.tar.gz
+[2023-05-16 05:43:09] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/2c/ad/01ebc356fb7328ac11c09c5a47eae52573cfb62a035ca58c7304c7e52deb/lsptrain-0.0.61.tar.gz
+[2023-05-16 05:43:10] INFO root fetch - processPackages [slicpy]: executing diffoscope
+[2023-05-16 05:43:10] INFO root fetch - processPackages [slicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slicpy-0.0.8.tar.gz tmp/slicpy-0.0.9.tar.gz --markdown 20230516/s/slicpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 05:43:10] INFO root fetch - processPackages [fyCursor]: executing diffoscope
+[2023-05-16 05:43:10] INFO root fetch - processPackages [fyCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyCursor-0.0.2.tar.gz tmp/fyCursor-0.0.3.tar.gz --markdown 20230516/f/fyCursor/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 05:43:10] INFO root fetch - processPackages [tensor-processor-learning]: Downloading https://files.pythonhosted.org/packages/f4/de/dcc516682bde808370cff69054110d6e20aa8490653bc5bb4ed5b5db4d89/tensor_processor_learning-1.4.tar.gz
+[2023-05-16 05:43:10] INFO root fetch - processPackages [tensor-processor-learning]: Downloading https://files.pythonhosted.org/packages/f4/de/dcc516682bde808370cff69054110d6e20aa8490653bc5bb4ed5b5db4d89/tensor_processor_learning-1.4.tar.gz
+[2023-05-16 05:43:10] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-05-16 05:43:10] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.60.tar.gz tmp/lsptrain-0.0.61.tar.gz --markdown 20230516/l/lsptrain/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-05-16 05:43:10] INFO root fetch - processPackages [pxgrid-api]: Downloading https://files.pythonhosted.org/packages/92/96/63549daebd85831639f908ccbc37c343ccae1e78c18caaa66f6c2e453844/pxgrid-api-0.2.2.tar.gz
+[2023-05-16 05:43:10] INFO root fetch - processPackages [pxgrid-api]: executing diffoscope
+[2023-05-16 05:43:10] INFO root fetch - processPackages [pxgrid-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxgrid-api-0.2.1.tar.gz tmp/pxgrid-api-0.2.2.tar.gz --markdown 20230516/p/pxgrid-api/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-16 05:43:10] INFO root fetch - processPackages [tensor-processor-learning]: executing diffoscope
+[2023-05-16 05:43:10] INFO root fetch - processPackages [tensor-processor-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensor_processor_learning-1.3.tar.gz tmp/tensor_processor_learning-1.4.tar.gz --markdown 20230516/t/tensor-processor-learning/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-16 05:43:10] INFO root fetch - processPackages [tensor-processor-learning]: executing diffoscope
+[2023-05-16 05:43:10] INFO root fetch - processPackages [tensor-processor-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensor_processor_learning-1.3.tar.gz tmp/tensor_processor_learning-1.4.tar.gz --markdown 20230516/t/tensor-processor-learning/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-16 05:43:10] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-05-16 05:43:10] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.3.3.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.4.tar.gz --markdown 20230516/n/nonebot-plugin-l4d2-server/0.5.3.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-16 05:43:10] INFO root fetch - processPackages [ifileoperation]: Downloading https://files.pythonhosted.org/packages/3f/35/ccffe33fd5b45834d0bc4ff5ed202bc7e0cc462a127569b44294b5b92ca2/ifileoperation-1.2.4.tar.gz
+[2023-05-16 05:43:10] INFO root fetch - processPackages [ifileoperation]: executing diffoscope
+[2023-05-16 05:43:10] INFO root fetch - processPackages [ifileoperation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifileoperation-1.2.3.tar.gz tmp/ifileoperation-1.2.4.tar.gz --markdown 20230516/i/ifileoperation/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-16 05:43:11] INFO root fetch - main [MainThread]: End processing [fyCursor]: success
+[2023-05-16 05:43:11] INFO root fetch - main [MainThread]: End processing [slicpy]: success
+[2023-05-16 05:43:11] INFO root fetch - main [MainThread]: End processing [tensor-processor-learning]: success
+[2023-05-16 05:43:11] INFO root fetch - main [MainThread]: End processing [pxgrid-api]: success
+[2023-05-16 05:43:11] INFO root fetch - main [MainThread]: End processing [tensor-processor-learning]: success
+[2023-05-16 05:43:11] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-05-16 05:43:11] INFO root fetch - main [MainThread]: End processing [ifileoperation]: success
+[2023-05-16 05:43:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-05-16 05:43:13] INFO root fetch - main [MainThread]: Store serial: [18117918]
