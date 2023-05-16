@@ -20207,3 +20207,138 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 17:06:41] INFO root fetch - main [MainThread]: End processing [TPEBot]: success
 [2023-05-16 17:06:54] INFO root fetch - main [MainThread]: End processing [fastjet]: success
 [2023-05-16 17:06:54] INFO root fetch - main [MainThread]: Store serial: [18125213]
+[2023-05-16 17:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18125213]
+[2023-05-16 17:12:04] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labelme
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-barn
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lisflood-lisvap
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geonode-django-dynamic-model
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelbit
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pcf8591-library
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfy-mlflow-client
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oceano-algos
+[2023-05-16 17:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: paloma-sdk
+[2023-05-16 17:12:04] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-16 17:12:04] INFO root fetch - processPackages [paloma-sdk]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-05-16 17:12:04] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 17:12:04] INFO root fetch - processPackages [pcf8591-library]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 17:12:04] INFO root fetch - processPackages [python-barn]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-16 17:12:04] WARNING root fetch - processPackages [geonode-django-dynamic-model]: Skipping, unable to determine old version
+[2023-05-16 17:12:04] INFO root fetch - processPackages [geonode-django-dynamic-model]: Start processing: geonode-importer
+[2023-05-16 17:12:04] INFO root fetch - processPackages [lisflood-lisvap]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-16 17:12:04] INFO root fetch - main [MainThread]: End processing [geonode-django-dynamic-model] error
+[2023-05-16 17:12:04] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 17:12:04] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-16 17:12:04] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230516/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 17:12:04] INFO root fetch - processPackages [labelme]: New version: [5.3.0a0] Old Version: [5.2.1]
+[2023-05-16 17:12:04] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-16 17:12:04] INFO root fetch - processPackages [paloma-sdk]: Downloading https://files.pythonhosted.org/packages/d1/a7/96c74107b1398a26bd36b923fdf11f711b15daf999b731f3b231cf937299/paloma-sdk-3.0.7.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [geonode-importer]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-16 17:12:04] INFO root fetch - processPackages [pcf8591-library]: Downloading https://files.pythonhosted.org/packages/cd/e1/ecbb09f3d9d14a680eb4db503c62a294524b69a96d48340e5d7b1790aaf2/pcf8591-library-0.0.1.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [python-barn]: Downloading https://files.pythonhosted.org/packages/08/d4/1e334a82739f44e368771480ea5453991c635d490d67a903389ecaf7f670/python-barn-0.5.1.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [labelme]: Downloading https://files.pythonhosted.org/packages/36/41/b83675d84a8b45095d2deba810cf57540df6db299bed5539eb727d3ca9b0/labelme-5.2.1.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/43/f0/45be21abdff732bb8de13f178413b52bd098bb8395e239c8721423f39e0e/tfy-mlflow-client-0.0.8.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [lisflood-lisvap]: Downloading https://files.pythonhosted.org/packages/25/95/9169b89836082840898e94ee27e251aeb8e25118ed87f0455b19336bac5d/lisflood-lisvap-1.2.6.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/43/e5/82fe0b2635eaaf4a1c2a061fc21e9fa6576b89f7ccb360954c0130dc39a2/geonode_importer-0.0.1-py3-none-any.whl
+[2023-05-16 17:12:04] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-16 17:12:04] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230516/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 17:12:04] INFO root fetch - processPackages [paloma-sdk]: Downloading https://files.pythonhosted.org/packages/6e/38/a6c43f7313557eb96d8cd7993c83a217cc44aa872fd3b74e318c6bd89b98/paloma-sdk-3.0.8.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [python-barn]: Downloading https://files.pythonhosted.org/packages/4e/96/84072ec118d6a88b38efbf1af643beb9791fa0f43829c0151a3e438e35e6/python-barn-0.6.0.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [lisflood-lisvap]: Downloading https://files.pythonhosted.org/packages/21/d5/4872eb1178181e1a76213335462de5aa2692278200550fa73ef7e2e35bcf/lisflood-lisvap-1.2.7.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [labelme]: Downloading https://files.pythonhosted.org/packages/40/be/4612c58e6d8e6fc47ace6a71cba7b26e2169e0895f4b61803d93bbfa7cf2/labelme-5.3.0a0.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [pcf8591-library]: Downloading https://files.pythonhosted.org/packages/d3/fe/54fd4a982eaf4538b316dfe8e238f0c08fad75246735ecad797118df9fb3/pcf8591-library-0.0.2.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [geonode-importer]: Downloading https://files.pythonhosted.org/packages/b2/bf/f25f7878c1be27f96f791a9613dced8c691b967af4c7c3de0be5ead784a2/geonode_importer-1.0.0-py3-none-any.whl
+[2023-05-16 17:12:04] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-05-16 17:12:04] INFO root fetch - processPackages [python-barn]: executing diffoscope
+[2023-05-16 17:12:04] INFO root fetch - processPackages [python-barn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-barn-0.5.1.tar.gz tmp/python-barn-0.6.0.tar.gz --markdown 20230516/p/python-barn/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-16 17:12:05] INFO root fetch - processPackages [pcf8591-library]: executing diffoscope
+[2023-05-16 17:12:05] INFO root fetch - processPackages [lisflood-lisvap]: executing diffoscope
+[2023-05-16 17:12:05] INFO root fetch - processPackages [pcf8591-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcf8591-library-0.0.1.tar.gz tmp/pcf8591-library-0.0.2.tar.gz --markdown 20230516/p/pcf8591-library/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 17:12:05] INFO root fetch - processPackages [lisflood-lisvap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisflood-lisvap-1.2.6.tar.gz tmp/lisflood-lisvap-1.2.7.tar.gz --markdown 20230516/l/lisflood-lisvap/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-16 17:12:05] INFO root fetch - processPackages [paloma-sdk]: executing diffoscope
+[2023-05-16 17:12:05] INFO root fetch - processPackages [paloma-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paloma-sdk-3.0.7.tar.gz tmp/paloma-sdk-3.0.8.tar.gz --markdown 20230516/p/paloma-sdk/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-05-16 17:12:05] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-05-16 17:12:05] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230516/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-16 17:12:05] INFO root fetch - processPackages [geonode-importer]: executing diffoscope
+[2023-05-16 17:12:05] INFO root fetch - processPackages [geonode-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonode_importer-0.0.1-py3-none-any.whl.zip tmp/geonode_importer-1.0.0-py3-none-any.whl.zip --markdown 20230516/g/geonode-importer/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-16 17:12:05] INFO root fetch - processPackages [labelme]: executing diffoscope
+[2023-05-16 17:12:05] INFO root fetch - processPackages [labelme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme-5.2.1.tar.gz tmp/labelme-5.3.0a0.tar.gz --markdown 20230516/l/labelme/5.2.1-5.3.0a0/diff.md --exclude *.pyd
+[2023-05-16 17:12:05] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/99/46/ec87ff507a911f7eb4550bd758513440cf543ba1d9701b042b5caf64682a/tfy-mlflow-client-0.0.9.tar.gz
+[2023-05-16 17:12:06] INFO root fetch - processPackages [oceano-algos]: Start processing: pepperize.cdk-security-group
+[2023-05-16 17:12:06] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-16 17:12:06] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 17:12:06] INFO root fetch - processPackages [python-barn]: Start processing: moredata
+[2023-05-16 17:12:06] INFO root fetch - main [MainThread]: End processing [python-barn]: success
+[2023-05-16 17:12:06] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-16 17:12:06] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 17:12:06] INFO root fetch - processPackages [moredata]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-05-16 17:12:06] INFO root fetch - processPackages [pcf8591-library]: Start processing: labelme
+[2023-05-16 17:12:06] INFO root fetch - main [MainThread]: End processing [pcf8591-library]: success
+[2023-05-16 17:12:06] INFO root fetch - processPackages [labelme]: New version: [5.3.0a0] Old Version: [5.2.1]
+[2023-05-16 17:12:06] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2023-05-16 17:12:06] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20230516/t/tfy-mlflow-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 17:12:06] INFO root fetch - processPackages [moredata]: Downloading https://files.pythonhosted.org/packages/40/fb/497b778cc373c69461ebe2ac2e60648d9f650cebf4e743aef8e27adb7882/moredata-0.1.5.tar.gz
+[2023-05-16 17:12:06] INFO root fetch - processPackages [langchain-serve]: Start processing: crmodel
+[2023-05-16 17:12:06] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-16 17:12:06] INFO root fetch - processPackages [labelme]: executing diffoscope
+[2023-05-16 17:12:06] INFO root fetch - processPackages [labelme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme-5.2.1.tar.gz tmp/labelme-5.3.0a0.tar.gz --markdown 20230516/l/labelme/5.2.1-5.3.0a0/diff.md --exclude *.pyd
+[2023-05-16 17:12:06] INFO root fetch - processPackages [crmodel]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-16 17:12:06] INFO root fetch - processPackages [lisflood-lisvap]: Start processing: geonode-importer
+[2023-05-16 17:12:06] INFO root fetch - main [MainThread]: End processing [lisflood-lisvap]: success
+[2023-05-16 17:12:06] INFO root fetch - processPackages [geonode-importer]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-16 17:12:06] INFO root fetch - processPackages [geonode-importer]: Start processing: pytest-mongodb
+[2023-05-16 17:12:06] INFO root fetch - main [MainThread]: End processing [geonode-importer]: success
+[2023-05-16 17:12:06] INFO root fetch - processPackages [moredata]: Downloading https://files.pythonhosted.org/packages/0b/42/cd26b434ad2c41d2f221be6b803f2d9945d1b1e5ec9e5583e8f5a21ed688/moredata-0.2.0.tar.gz
+[2023-05-16 17:12:06] INFO root fetch - processPackages [geonode-importer]: executing diffoscope
+[2023-05-16 17:12:06] INFO root fetch - processPackages [geonode-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonode_importer-0.0.1-py3-none-any.whl.zip tmp/geonode_importer-1.0.0-py3-none-any.whl.zip --markdown 20230516/g/geonode-importer/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-16 17:12:06] INFO root fetch - processPackages [pytest-mongodb]: New version: [2.4.0] Old Version: [2.2.0]
+[2023-05-16 17:12:07] INFO root fetch - processPackages [crmodel]: Downloading https://files.pythonhosted.org/packages/a8/be/45ec66f2590f2c2e8366395fcd126dffa255e7632c3bd84b20b6114ff0db/crmodel-0.4.3.tar.gz
+[2023-05-16 17:12:07] INFO root fetch - processPackages [moredata]: executing diffoscope
+[2023-05-16 17:12:07] INFO root fetch - processPackages [moredata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moredata-0.1.5.tar.gz tmp/moredata-0.2.0.tar.gz --markdown 20230516/m/moredata/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 17:12:07] INFO root fetch - processPackages [crmodel]: executing diffoscope
+[2023-05-16 17:12:07] INFO root fetch - processPackages [crmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crmodel-0.4.2.tar.gz tmp/crmodel-0.4.3.tar.gz --markdown 20230516/c/crmodel/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-16 17:12:07] INFO root fetch - processPackages [pytest-mongodb]: Downloading https://files.pythonhosted.org/packages/9a/cf/aa06dd12fc89ad364f5f8d745f1059fdb91a27f058ce91f7225d199705f3/pytest_mongodb-2.2.0-py2.py3-none-any.whl
+[2023-05-16 17:12:07] INFO root fetch - processPackages [modelbit]: Start processing: modelfree-protein15n
+[2023-05-16 17:12:07] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-05-16 17:12:07] INFO root fetch - processPackages [modelfree-protein15n]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 17:12:07] INFO root fetch - processPackages [modelfree-protein15n]: executing diffoscope
+[2023-05-16 17:12:07] INFO root fetch - processPackages [modelfree-protein15n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelfree-protein15n-0.0.1.tar.gz tmp/modelfree-protein15n-0.0.2.tar.gz --markdown 20230516/m/modelfree-protein15n/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 17:12:07] INFO root fetch - processPackages [pytest-mongodb]: Downloading https://files.pythonhosted.org/packages/7a/5d/83ff9c4652b71a55959bc93f83f095a8f32063a913fc16d8c180ed15909e/pytest-mongodb-2.4.0.tar.gz
+[2023-05-16 17:12:07] INFO root fetch - processPackages [pytest-mongodb]: executing diffoscope
+[2023-05-16 17:12:07] INFO root fetch - processPackages [pytest-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_mongodb-2.2.0-py2.py3-none-any.whl.zip tmp/pytest-mongodb-2.4.0.tar.gz --markdown 20230516/p/pytest-mongodb/2.2.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-16 17:12:07] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: pyikarus
+[2023-05-16 17:12:07] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-16 17:12:08] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000079] Old Version: [0.3.0.dev202310000077]
+[2023-05-16 17:12:08] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-16 17:12:08] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000077.tar.gz tmp/pyikarus-0.3.0.dev202310000079.tar.gz --markdown 20230516/p/pyikarus/0.3.0.dev202310000077-0.3.0.dev202310000079/diff.md --exclude *.pyd
+[2023-05-16 17:12:08] INFO root fetch - processPackages [geonode-importer]: Start processing: TDhelper
+[2023-05-16 17:12:08] INFO root fetch - main [MainThread]: End processing [geonode-importer]: success
+[2023-05-16 17:12:08] INFO root fetch - processPackages [TDhelper]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-16 17:12:08] INFO root fetch - processPackages [paloma-sdk]: Start processing: brain-loop-search
+[2023-05-16 17:12:08] INFO root fetch - main [MainThread]: End processing [paloma-sdk]: success
+[2023-05-16 17:12:08] INFO root fetch - processPackages [brain-loop-search]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 17:12:08] INFO root fetch - processPackages [pytest-mongodb]: Start processing: swh.core
+[2023-05-16 17:12:08] INFO root fetch - main [MainThread]: End processing [pytest-mongodb]: success
+[2023-05-16 17:12:08] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-05-16 17:12:08] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.4.8.tar.gz tmp/TDhelper-2.4.9.tar.gz --markdown 20230516/T/TDhelper/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-16 17:12:08] INFO root fetch - processPackages [modelfree-protein15n]: Start processing: pysvg-cl3
+[2023-05-16 17:12:08] INFO root fetch - main [MainThread]: End processing [modelfree-protein15n]: success
+[2023-05-16 17:12:08] WARNING root fetch - processPackages [pysvg-cl3]: Skipping, unable to determine old version
+[2023-05-16 17:12:08] INFO root fetch - main [MainThread]: End processing [pysvg-cl3] error
+[2023-05-16 17:12:08] INFO root fetch - processPackages [brain-loop-search]: executing diffoscope
+[2023-05-16 17:12:08] INFO root fetch - processPackages [brain-loop-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brain-loop-search-0.1.4.tar.gz tmp/brain-loop-search-0.1.5.tar.gz --markdown 20230516/b/brain-loop-search/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 17:12:08] INFO root fetch - processPackages [swh.core]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-16 17:12:08] INFO root fetch - main [MainThread]: End processing [crmodel]: success
+[2023-05-16 17:12:09] INFO root fetch - main [MainThread]: End processing [labelme]: success
+[2023-05-16 17:12:09] INFO root fetch - processPackages [swh.core]: executing diffoscope
+[2023-05-16 17:12:09] INFO root fetch - processPackages [swh.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.core-2.8.1.tar.gz tmp/swh.core-2.9.0.tar.gz --markdown 20230516/s/swh.core/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-16 17:12:09] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2023-05-16 17:12:10] INFO root fetch - main [MainThread]: End processing [brain-loop-search]: success
+[2023-05-16 17:12:10] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-05-16 17:12:10] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-16 17:12:10] INFO root fetch - main [MainThread]: End processing [swh.core]: success
+[2023-05-16 17:12:12] INFO root fetch - main [MainThread]: End processing [moredata]: success
+[2023-05-16 17:12:13] INFO root fetch - main [MainThread]: End processing [labelme]: success
+[2023-05-16 17:12:13] INFO root fetch - main [MainThread]: Store serial: [18125292]
