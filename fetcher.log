@@ -6581,3 +6581,82 @@
 [2023-05-16 03:55:16] INFO root fetch - main [MainThread]: End processing [django.js-ng]: success
 [2023-05-16 03:55:16] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
 [2023-05-16 03:55:16] INFO root fetch - main [MainThread]: Store serial: [18117311]
+[2023-05-16 04:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117311]
+[2023-05-16 04:00:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow-providers-sktvane
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fern-seam
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplyfire
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botxbingxuser
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: com.castsoftware.uc.python.common
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fieldedge-utilities
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: com.castsoftware.uc.oneclick
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphinxcontrib-confluencebuilder
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyonfleet
+[2023-05-16 04:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xklb
+[2023-05-16 04:00:25] WARNING root fetch - processPackages [fern-seam]: Skipping, unable to determine old version
+[2023-05-16 04:00:25] INFO root fetch - processPackages [fern-seam]: Start processing: optimus-prime-transformers
+[2023-05-16 04:00:25] INFO root fetch - main [MainThread]: End processing [fern-seam] error
+[2023-05-16 04:00:25] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 04:00:25] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-16 04:00:25] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [0.2.2.8] Old Version: [0.2.2.7]
+[2023-05-16 04:00:25] INFO root fetch - processPackages [xklb]: New version: [1.27.6] Old Version: [1.27.5]
+[2023-05-16 04:00:25] INFO root fetch - processPackages [simplyfire]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-16 04:00:25] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 04:00:25] WARNING root fetch - processPackages [botxbingxuser]: Skipping, unable to determine old version
+[2023-05-16 04:00:25] INFO root fetch - processPackages [botxbingxuser]: Start processing: IoddComCheckerGui
+[2023-05-16 04:00:25] INFO root fetch - main [MainThread]: End processing [botxbingxuser] error
+[2023-05-16 04:00:25] INFO root fetch - processPackages [pyonfleet]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-16 04:00:25] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-16 04:00:25] INFO root fetch - processPackages [optimus-prime-transformers]: New version: [1.0.7] Old Version: [1.0.1]
+[2023-05-16 04:00:25] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2023-05-16 04:00:25] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.oneclick-0.2.2.7.tar.gz tmp/com.castsoftware.uc.oneclick-0.2.2.8.tar.gz --markdown 20230516/c/com.castsoftware.uc.oneclick/0.2.2.7-0.2.2.8/diff.md --exclude *.pyd
+[2023-05-16 04:00:25] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-05-16 04:00:25] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.1.1.tar.gz tmp/apache-airflow-providers-sktvane-0.1.2.tar.gz --markdown 20230516/a/apache-airflow-providers-sktvane/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 04:00:25] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Downloading https://files.pythonhosted.org/packages/73/2e/280d6e4d0dab4b9597408f2505a21c437eed74cb5d1f2bef73886580f482/com.castsoftware.uc.python.common-1.0.1.tar.gz
+[2023-05-16 04:00:25] INFO root fetch - processPackages [simplyfire]: Downloading https://files.pythonhosted.org/packages/f0/41/2e1150e6ba6ddb7d14587038e57aa0bf6cc414f4d5878c25d8c677b920a5/simplyfire-0.5.3.tar.gz
+[2023-05-16 04:00:25] INFO root fetch - processPackages [IoddComCheckerGui]: New version: [1.6.8] Old Version: [1.6.5.post4]
+[2023-05-16 04:00:26] INFO root fetch - processPackages [pyonfleet]: Downloading https://files.pythonhosted.org/packages/4e/0e/f42538883adc7374d7fe32f0b68facf42e15316eb03189055ff54e1c409f/pyonfleet-1.3.1.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-05-16 04:00:26] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230516/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-16 04:00:26] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/67/f3/aa1a251f8038af66e338ecd5f57d8db2eb208aa56b6630f0eafba4e153ec/xklb-1.27.6.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/cb/aa/13e41febba34647a2e65b07d7f7e2888043caed1c9fa5f60da713a87dff0/optimus-prime-transformers-1.0.1.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: Downloading https://files.pythonhosted.org/packages/95/55/19c9a8d693379447473facdfab5577530182c5112161f3ee101a0e07d1e7/sphinxcontrib-confluencebuilder-2.0.0.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-05-16 04:00:26] INFO root fetch - processPackages [IoddComCheckerGui]: Downloading https://files.pythonhosted.org/packages/90/5a/29e1f2665a7eb038165ac60a7bcccf7b62c2952a07ba16fcfc2839208542/ioddcomcheckergui-1.6.5.post4-py3-none-any.whl
+[2023-05-16 04:00:26] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.27.5.tar.gz tmp/xklb-1.27.6.tar.gz --markdown 20230516/x/xklb/1.27.5-1.27.6/diff.md --exclude *.pyd
+[2023-05-16 04:00:26] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: Downloading https://files.pythonhosted.org/packages/05/45/85918ec4bda3e0c9b9b61ff552d654af319478f4d92a49a7008bccd557df/com.castsoftware.uc.python.common-1.0.2.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [simplyfire]: Downloading https://files.pythonhosted.org/packages/9a/7c/5fe6f70255aeb96d0be49b5af4019726168d7cb905f7bde117fe1c1f6814/simplyfire-0.5.4.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/a0/ba/17927bdaff61fb0629e66f948421888d68ef21976dacf030eb63b8e9650a/optimus-prime-transformers-1.0.7.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: Downloading https://files.pythonhosted.org/packages/a0/a0/d9752807699790474c85dfd55c53e634c12dd561d4b0bb2037292326b766/sphinxcontrib_confluencebuilder-2.1.0.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [pyonfleet]: Downloading https://files.pythonhosted.org/packages/1a/36/dbf2dc1b96e0f04d621aecad74f40fd647024810b850356f4955688ccd5e/pyonfleet-1.4.0.tar.gz
+[2023-05-16 04:00:26] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: executing diffoscope
+[2023-05-16 04:00:26] INFO root fetch - processPackages [com.castsoftware.uc.python.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.python.common-1.0.1.tar.gz tmp/com.castsoftware.uc.python.common-1.0.2.tar.gz --markdown 20230516/c/com.castsoftware.uc.python.common/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 04:00:26] INFO root fetch - processPackages [IoddComCheckerGui]: Downloading https://files.pythonhosted.org/packages/23/5e/689e2723102498e6c4d12d2c66e97c2f4b593e4384aa7777c910f412cc4c/ioddcomcheckergui-1.6.8-py3-none-any.whl
+[2023-05-16 04:00:26] INFO root fetch - processPackages [optimus-prime-transformers]: executing diffoscope
+[2023-05-16 04:00:26] INFO root fetch - processPackages [optimus-prime-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimus-prime-transformers-1.0.1.tar.gz tmp/optimus-prime-transformers-1.0.7.tar.gz --markdown 20230516/o/optimus-prime-transformers/1.0.1-1.0.7/diff.md --exclude *.pyd
+[2023-05-16 04:00:26] INFO root fetch - processPackages [simplyfire]: executing diffoscope
+[2023-05-16 04:00:26] INFO root fetch - processPackages [simplyfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplyfire-0.5.3.tar.gz tmp/simplyfire-0.5.4.tar.gz --markdown 20230516/s/simplyfire/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-16 04:00:26] INFO root fetch - processPackages [IoddComCheckerGui]: executing diffoscope
+[2023-05-16 04:00:26] INFO root fetch - processPackages [IoddComCheckerGui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioddcomcheckergui-1.6.5.post4-py3-none-any.whl.zip tmp/ioddcomcheckergui-1.6.8-py3-none-any.whl.zip --markdown 20230516/I/IoddComCheckerGui/1.6.5.post4-1.6.8/diff.md --exclude *.pyd
+[2023-05-16 04:00:26] INFO root fetch - processPackages [pyonfleet]: executing diffoscope
+[2023-05-16 04:00:26] INFO root fetch - processPackages [pyonfleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyonfleet-1.3.1.tar.gz tmp/pyonfleet-1.4.0.tar.gz --markdown 20230516/p/pyonfleet/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-16 04:00:26] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: executing diffoscope
+[2023-05-16 04:00:26] INFO root fetch - processPackages [sphinxcontrib-confluencebuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-confluencebuilder-2.0.0.tar.gz tmp/sphinxcontrib_confluencebuilder-2.1.0.tar.gz --markdown 20230516/s/sphinxcontrib-confluencebuilder/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-16 04:00:27] INFO root fetch - processPackages [fieldedge-utilities]: Start processing: fern-seam
+[2023-05-16 04:00:27] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-05-16 04:00:27] INFO root fetch - processPackages [fern-seam]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 04:00:27] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-05-16 04:00:27] INFO root fetch - processPackages [fern-seam]: Downloading https://files.pythonhosted.org/packages/ad/97/18dc72bc17ba829d4e777a3e1127f182aa46234f15860cdead6dc1c02ce0/fern_seam-0.0.3.tar.gz
+[2023-05-16 04:00:27] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.python.common]: success
+[2023-05-16 04:00:27] INFO root fetch - processPackages [fern-seam]: Downloading https://files.pythonhosted.org/packages/46/6b/dd1623122e35dc2ac13777b596e42a2771c29fb605dc95fda6f2983a6d4e/fern_seam-0.0.4.tar.gz
+[2023-05-16 04:00:27] INFO root fetch - main [MainThread]: End processing [IoddComCheckerGui]: success
+[2023-05-16 04:00:27] INFO root fetch - main [MainThread]: End processing [optimus-prime-transformers]: success
+[2023-05-16 04:00:27] INFO root fetch - processPackages [fern-seam]: executing diffoscope
+[2023-05-16 04:00:27] INFO root fetch - processPackages [fern-seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_seam-0.0.3.tar.gz tmp/fern_seam-0.0.4.tar.gz --markdown 20230516/f/fern-seam/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 04:00:28] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2023-05-16 04:00:28] INFO root fetch - main [MainThread]: End processing [pyonfleet]: success
+[2023-05-16 04:00:29] INFO root fetch - main [MainThread]: End processing [fern-seam]: success
+[2023-05-16 04:00:29] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-05-16 04:00:29] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-confluencebuilder]: success
+[2023-05-16 04:00:30] INFO root fetch - main [MainThread]: End processing [simplyfire]: success
+[2023-05-16 04:00:30] INFO root fetch - main [MainThread]: Store serial: [18117354]
