@@ -11965,3 +11965,150 @@
 [2023-05-16 10:21:08] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-05-16 10:21:39] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-16 10:21:39] INFO root fetch - main [MainThread]: Store serial: [18120329]
+[2023-05-16 10:26:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120329]
+[2023-05-16 10:26:49] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmspec
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packageshareque
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: image-service-foundation
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: example-pypi-package-loler1
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: connect-sdk-python2
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: connect-sdk-python3
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semisup-segmentation
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sj-tool
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: styles
+[2023-05-16 10:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kuto
+[2023-05-16 10:26:49] WARNING root fetch - processPackages [llmspec]: Skipping, unable to determine old version
+[2023-05-16 10:26:49] INFO root fetch - processPackages [llmspec]: Start processing: discord-advert-framework
+[2023-05-16 10:26:49] INFO root fetch - main [MainThread]: End processing [llmspec] error
+[2023-05-16 10:26:49] INFO root fetch - processPackages [image-service-foundation]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [packageshareque]: New version: [0.2] Old Version: [0.1]
+[2023-05-16 10:26:49] WARNING root fetch - processPackages [example-pypi-package-loler1]: Skipping, unable to determine old version
+[2023-05-16 10:26:49] INFO root fetch - processPackages [example-pypi-package-loler1]: Start processing: pypack-template
+[2023-05-16 10:26:49] INFO root fetch - main [MainThread]: End processing [example-pypi-package-loler1] error
+[2023-05-16 10:26:49] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [styles]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [connect-sdk-python2]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [connect-sdk-python3]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [pypack-template]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [packageshareque]: Downloading https://files.pythonhosted.org/packages/03/2e/7e0b79547b37e5f646e4f4601def701623bb07e097a356f8104cb803bfd2/packageshareque-0.1.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [styles]: Downloading https://files.pythonhosted.org/packages/d1/4f/1aa8db5417416d3ac15c5365c7b3b764a05a57756d3e3960d2996a00d132/styles-0.1.9.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [pypack-template]: Downloading https://files.pythonhosted.org/packages/ff/da/287173a2bb45a9d840233788e73f59ab00ab17a7901defe4716c65ec8060/pypack-template-1.0.0.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [connect-sdk-python2]: Downloading https://files.pythonhosted.org/packages/53/de/0817e7e6578d4347cc07b8b1673acc9fa9b4cbcd49f9886387eb84555577/connect-sdk-python2-3.8.0.zip
+[2023-05-16 10:26:49] INFO root fetch - processPackages [connect-sdk-python3]: Downloading https://files.pythonhosted.org/packages/0c/ef/4b79c9048e3a01936eb932de8448d846de8ead1e1fefc3f0949d0dc7556b/connect-sdk-python3-3.8.0.zip
+[2023-05-16 10:26:49] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/56/67/06c36c6ad87b158786c3de9162b04e5b78982dfec20b964b72b74d6ae733/discord-advert-framework-2.7.0.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [image-service-foundation]: Downloading https://files.pythonhosted.org/packages/f9/6c/be8109ea49b1cdacf7cd4dc906e02660f100b02c6861553aba0918d50424/image-service-foundation-0.4.0.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/47/c7/dcd7d163ee4e75390d85b7ff16e81547bebceaef7f581b2ce74e55663566/semisup-segmentation-0.0.8.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/44/22/ef926091281ffebdd1b36f86dd2bf9d42dae07fa46569cd788f675d0c2fd/kuto-0.0.9.tar.gz
+[2023-05-16 10:26:49] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18320393>=10485760
+[2023-05-16 10:26:49] INFO root fetch - processPackages [discord-advert-framework]: Start processing: kolyaklimkLab3
+[2023-05-16 10:26:49] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-05-16 10:26:49] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-05-16 10:26:49] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230516/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:26:49] INFO root fetch - processPackages [kolyaklimkLab3]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-05-16 10:26:49] INFO root fetch - processPackages [pypack-template]: Downloading https://files.pythonhosted.org/packages/fe/15/c29c6e37a3a6a4c303e5ea679253be0b54ef898acd4277a85549f8c9fdd9/pypack-template-1.0.1.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-16 10:26:49] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230516/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:26:49] INFO root fetch - processPackages [styles]: Downloading https://files.pythonhosted.org/packages/37/5f/0c8f2ba525e1e436565614ecd1fbbd4cd1d9b3a7032555f1a95503745861/styles-0.2.0.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [image-service-foundation]: Downloading https://files.pythonhosted.org/packages/c0/2c/e216af31c41aeeabe5fdb6c09e4dd007033b75f8eb7a628c32ad2320d082/image_service_foundation-0.4.1.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [packageshareque]: Downloading https://files.pythonhosted.org/packages/33/02/c1c21b9820e917702aab09e911402618174bd0d1a7ed1ead3128bd6a667c/packageshareque-0.2.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [connect-sdk-python3]: Downloading https://files.pythonhosted.org/packages/ba/9e/0bb70ffda1eb8ec19968e163e95828f095624eb9ca96ca13a136d41d23ca/connect-sdk-python3-3.9.0.zip
+[2023-05-16 10:26:49] INFO root fetch - processPackages [pypack-template]: executing diffoscope
+[2023-05-16 10:26:49] INFO root fetch - processPackages [pypack-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypack-template-1.0.0.tar.gz tmp/pypack-template-1.0.1.tar.gz --markdown 20230516/p/pypack-template/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 10:26:49] INFO root fetch - processPackages [kolyaklimkLab3]: Downloading https://files.pythonhosted.org/packages/8e/89/0003e4734c41791c6abf17be5cba05ddecc9ea1458dd25998048277d8a58/kolyaklimkLab3-3.0.0.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [styles]: executing diffoscope
+[2023-05-16 10:26:49] INFO root fetch - processPackages [styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/styles-0.1.9.tar.gz tmp/styles-0.2.0.tar.gz --markdown 20230516/s/styles/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 10:26:49] INFO root fetch - processPackages [semisup-segmentation]: Downloading https://files.pythonhosted.org/packages/0f/08/e18d525873c4014f434582cc1b1178204dde15b356f544acd67545377665/semisup-segmentation-0.0.9.tar.gz
+[2023-05-16 10:26:49] INFO root fetch - processPackages [connect-sdk-python2]: Downloading https://files.pythonhosted.org/packages/77/11/5d4f897f7663b0b409f8cb95f37bb8c6037e89f410fb671fbc0e5bde96dd/connect-sdk-python2-3.9.0.zip
+[2023-05-16 10:26:50] INFO root fetch - processPackages [packageshareque]: executing diffoscope
+[2023-05-16 10:26:50] INFO root fetch - processPackages [packageshareque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packageshareque-0.1.tar.gz tmp/packageshareque-0.2.tar.gz --markdown 20230516/p/packageshareque/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-16 10:26:50] INFO root fetch - processPackages [connect-sdk-python3]: executing diffoscope
+[2023-05-16 10:26:50] INFO root fetch - processPackages [connect-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-sdk-python3-3.8.0.zip tmp/connect-sdk-python3-3.9.0.zip --markdown 20230516/c/connect-sdk-python3/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-16 10:26:50] INFO root fetch - processPackages [image-service-foundation]: executing diffoscope
+[2023-05-16 10:26:50] INFO root fetch - processPackages [image-service-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-service-foundation-0.4.0.tar.gz tmp/image_service_foundation-0.4.1.tar.gz --markdown 20230516/i/image-service-foundation/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-16 10:26:50] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-16 10:26:50] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230516/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:26:50] INFO root fetch - processPackages [connect-sdk-python2]: executing diffoscope
+[2023-05-16 10:26:50] INFO root fetch - processPackages [connect-sdk-python2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-sdk-python2-3.8.0.zip tmp/connect-sdk-python2-3.9.0.zip --markdown 20230516/c/connect-sdk-python2/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-16 10:26:50] INFO root fetch - processPackages [kolyaklimkLab3]: Downloading https://files.pythonhosted.org/packages/64/06/f64de4f51c6f31e3c0e94c3bf0388e2b87371c20f11e3fded3b2073a9260/kolyaklimkLab3-4.0.0.tar.gz
+[2023-05-16 10:26:50] INFO root fetch - processPackages [kolyaklimkLab3]: executing diffoscope
+[2023-05-16 10:26:50] INFO root fetch - processPackages [kolyaklimkLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolyaklimkLab3-3.0.0.tar.gz tmp/kolyaklimkLab3-4.0.0.tar.gz --markdown 20230516/k/kolyaklimkLab3/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-16 10:26:51] INFO root fetch - processPackages [pypack-template]: Start processing: ansible-lint
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [pypack-template]: success
+[2023-05-16 10:26:51] INFO root fetch - processPackages [ansible-lint]: New version: [6.9.1] Old Version: [6.9.0]
+[2023-05-16 10:26:51] INFO root fetch - processPackages [sj-tool]: Start processing: chrome-parser
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-05-16 10:26:51] WARNING root fetch - processPackages [chrome-parser]: Skipping, unable to determine old version
+[2023-05-16 10:26:51] INFO root fetch - processPackages [chrome-parser]: Start processing: pytorch-ood
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [chrome-parser] error
+[2023-05-16 10:26:51] INFO root fetch - processPackages [pytorch-ood]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 10:26:51] INFO root fetch - processPackages [kuto]: Start processing: data2latex
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-16 10:26:51] INFO root fetch - processPackages [data2latex]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-05-16 10:26:51] INFO root fetch - processPackages [ansible-lint]: Downloading https://files.pythonhosted.org/packages/59/c9/bebba18cfb0eb91208fbfaf44156225aa55bfe7f2dbd5afeb6f020fa5dcb/ansible-lint-6.9.0.tar.gz
+[2023-05-16 10:26:51] INFO root fetch - processPackages [packageshareque]: Start processing: nanolab
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [packageshareque]: success
+[2023-05-16 10:26:51] INFO root fetch - processPackages [nanolab]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 10:26:51] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/3a/3e/d74a63199ffaa11f25f466d38fbc8d0382e39f594b918bd0828e3702d774/pytorch_ood-0.1.0-py3-none-any.whl
+[2023-05-16 10:26:51] INFO root fetch - processPackages [styles]: Start processing: TTS
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [styles]: success
+[2023-05-16 10:26:51] INFO root fetch - processPackages [TTS]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 10:26:51] INFO root fetch - processPackages [semisup-segmentation]: Start processing: kolyaklimkLab3
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-16 10:26:51] INFO root fetch - processPackages [kolyaklimkLab3]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-05-16 10:26:51] INFO root fetch - processPackages [nanolab]: Downloading https://files.pythonhosted.org/packages/12/69/f312900eb2d5737622cb29b52cd462eabc7ca0b6a346822bb1efffe5ff90/nanolab-0.0.7.tar.gz
+[2023-05-16 10:26:51] INFO root fetch - processPackages [kolyaklimkLab3]: Start processing: rime-sdk
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [kolyaklimkLab3]: success
+[2023-05-16 10:26:51] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc2] Old Version: [2.1.0rc1]
+[2023-05-16 10:26:51] INFO root fetch - processPackages [image-service-foundation]: Start processing: processpiper
+[2023-05-16 10:26:51] INFO root fetch - main [MainThread]: End processing [image-service-foundation]: success
+[2023-05-16 10:26:51] INFO root fetch - processPackages [processpiper]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-16 10:26:51] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/67/99/6c20d7d05ba1b790ecf630c966339575f1e1ba1de99180cfb6cd0cdef613/TTS-0.8.0.tar.gz
+[2023-05-16 10:26:51] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/20/35/e9a2dfb7d5c1608171287003d94a49643d4c46c4ea212947b0872a461ef5/pytorch_ood-0.1.1-py3-none-any.whl
+[2023-05-16 10:26:51] INFO root fetch - processPackages [data2latex]: Downloading https://files.pythonhosted.org/packages/95/b7/9f33c7a184b5db243176c951184f84d0ac95829ae0f6dcdfeb66e2b9809e/data2latex-1.0.4.tar.gz
+[2023-05-16 10:26:51] INFO root fetch - processPackages [kolyaklimkLab3]: executing diffoscope
+[2023-05-16 10:26:51] INFO root fetch - processPackages [kolyaklimkLab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolyaklimkLab3-3.0.0.tar.gz tmp/kolyaklimkLab3-4.0.0.tar.gz --markdown 20230516/k/kolyaklimkLab3/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-16 10:26:51] INFO root fetch - processPackages [data2latex]: executing diffoscope
+[2023-05-16 10:26:51] INFO root fetch - processPackages [data2latex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data2latex-1.0.2.tar.gz tmp/data2latex-1.0.4.tar.gz --markdown 20230516/d/data2latex/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-05-16 10:26:51] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/f4/e7/2040e79b620bda964fb3302af57c993c2d7e6d97ef5749c2126a2b99cd8f/rime_sdk-2.1.0rc1.tar.gz
+[2023-05-16 10:26:51] INFO root fetch - processPackages [nanolab]: executing diffoscope
+[2023-05-16 10:26:51] INFO root fetch - processPackages [nanolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolab-0.0.6.tar.gz tmp/nanolab-0.0.7.tar.gz --markdown 20230516/n/nanolab/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 10:26:52] INFO root fetch - processPackages [ansible-lint]: Downloading https://files.pythonhosted.org/packages/fb/c0/915c941753e6ef9ca998621a5ee07a812a07d674cf5bb759de0488f1325d/ansible-lint-6.9.1.tar.gz
+[2023-05-16 10:26:52] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/f4/09/15a772f82646a9c3d207fffd076f0c7b9b4df24cb038622b764d6a23112d/processpiper-0.3.1.tar.gz
+[2023-05-16 10:26:52] INFO root fetch - processPackages [pytorch-ood]: executing diffoscope
+[2023-05-16 10:26:52] INFO root fetch - processPackages [pytorch-ood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ood-0.1.0-py3-none-any.whl.zip tmp/pytorch_ood-0.1.1-py3-none-any.whl.zip --markdown 20230516/p/pytorch-ood/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 10:26:52] INFO root fetch - processPackages [ansible-lint]: executing diffoscope
+[2023-05-16 10:26:52] INFO root fetch - processPackages [ansible-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-lint-6.9.0.tar.gz tmp/ansible-lint-6.9.1.tar.gz --markdown 20230516/a/ansible-lint/6.9.0-6.9.1/diff.md --exclude *.pyd
+[2023-05-16 10:26:52] INFO root fetch - processPackages [TTS]: Downloading https://files.pythonhosted.org/packages/e6/68/26dd07a1742aa1c80702fe0bf57fbe9379806b1dda277c705a37a46dd744/TTS-0.9.0.tar.gz
+[2023-05-16 10:26:52] INFO root fetch - processPackages [processpiper]: Downloading https://files.pythonhosted.org/packages/0a/8c/5e597d5e613099243b79820a8834157ddc2259307bdf0b37b429a80ed07e/processpiper-0.4.0.tar.gz
+[2023-05-16 10:26:52] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/25/79/ba7681364317f1cc1fcb8d61cb09bf0beead08e3c305d2ecebd3f397d6b8/rime_sdk-2.1.0rc2.tar.gz
+[2023-05-16 10:26:52] INFO root fetch - processPackages [processpiper]: executing diffoscope
+[2023-05-16 10:26:52] INFO root fetch - processPackages [processpiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processpiper-0.3.1.tar.gz tmp/processpiper-0.4.0.tar.gz --markdown 20230516/p/processpiper/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 10:26:52] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-05-16 10:26:52] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.0rc1.tar.gz tmp/rime_sdk-2.1.0rc2.tar.gz --markdown 20230516/r/rime-sdk/2.1.0rc1-2.1.0rc2/diff.md --exclude *.pyd
+[2023-05-16 10:26:52] INFO root fetch - processPackages [TTS]: executing diffoscope
+[2023-05-16 10:26:52] INFO root fetch - processPackages [TTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TTS-0.8.0.tar.gz tmp/TTS-0.9.0.tar.gz --markdown 20230516/T/TTS/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 10:26:53] INFO root fetch - processPackages [kolyaklimkLab3]: Start processing: swh.loader.core
+[2023-05-16 10:26:53] INFO root fetch - main [MainThread]: End processing [kolyaklimkLab3]: success
+[2023-05-16 10:26:53] INFO root fetch - processPackages [swh.loader.core]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-05-16 10:26:53] INFO root fetch - processPackages [swh.loader.core]: Downloading https://files.pythonhosted.org/packages/59/40/3c114878049a933ec57bddb80f0280940ba780f8f53aa7c3303cc20a4a25/swh.loader.core-5.3.0.tar.gz
+[2023-05-16 10:26:53] INFO root fetch - processPackages [data2latex]: Start processing: dymoval
+[2023-05-16 10:26:53] INFO root fetch - main [MainThread]: End processing [data2latex]: success
+[2023-05-16 10:26:53] WARNING root fetch - processPackages [dymoval]: Skipping, unable to determine old version
+[2023-05-16 10:26:53] INFO root fetch - processPackages [dymoval]: Start processing: firefox-parser
+[2023-05-16 10:26:53] INFO root fetch - main [MainThread]: End processing [dymoval] error
+[2023-05-16 10:26:53] WARNING root fetch - processPackages [swh.loader.core]: Skipping package: exceeds size limit 11117418>=10485760
+[2023-05-16 10:26:53] INFO root fetch - main [MainThread]: End processing [swh.loader.core] error
+[2023-05-16 10:26:53] WARNING root fetch - processPackages [firefox-parser]: Skipping, unable to determine old version
+[2023-05-16 10:26:53] INFO root fetch - main [MainThread]: End processing [firefox-parser] error
+[2023-05-16 10:26:54] INFO root fetch - main [MainThread]: End processing [processpiper]: success
+[2023-05-16 10:26:54] INFO root fetch - main [MainThread]: End processing [pytorch-ood]: success
+[2023-05-16 10:26:54] INFO root fetch - main [MainThread]: End processing [nanolab]: success
+[2023-05-16 10:26:55] INFO root fetch - main [MainThread]: End processing [connect-sdk-python2]: success
+[2023-05-16 10:26:56] INFO root fetch - main [MainThread]: End processing [connect-sdk-python3]: success
+[2023-05-16 10:26:57] INFO root fetch - main [MainThread]: End processing [TTS]: success
+[2023-05-16 10:26:59] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-05-16 10:27:00] INFO root fetch - main [MainThread]: End processing [ansible-lint]: success
+[2023-05-16 10:27:00] INFO root fetch - main [MainThread]: Store serial: [18120401]
