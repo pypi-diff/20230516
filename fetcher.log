@@ -6875,3 +6875,37 @@
 [2023-05-16 04:26:36] INFO root fetch - main [MainThread]: End processing [aiontutil]: success
 [2023-05-16 04:26:37] INFO root fetch - main [MainThread]: End processing [autoviz]: success
 [2023-05-16 04:26:37] INFO root fetch - main [MainThread]: Store serial: [18117479]
+[2023-05-16 04:31:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117479]
+[2023-05-16 04:31:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-16 04:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getproclist
+[2023-05-16 04:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coconut-develop
+[2023-05-16 04:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2023-05-16 04:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: httpheaders
+[2023-05-16 04:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-25
+[2023-05-16 04:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sql2netx
+[2023-05-16 04:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fparse
+[2023-05-16 04:31:45] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230515] Old Version: [1.2.20230514]
+[2023-05-16 04:31:45] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-16 04:31:45] INFO root fetch - processPackages [httpheaders]: New version: [2023.5.16] Old Version: [2023.3.31]
+[2023-05-16 04:31:45] WARNING root fetch - processPackages [getproclist]: Skipping, unable to determine old version
+[2023-05-16 04:31:45] INFO root fetch - main [MainThread]: End processing [getproclist] error
+[2023-05-16 04:31:45] WARNING root fetch - processPackages [fparse]: Skipping, unable to determine old version
+[2023-05-16 04:31:45] INFO root fetch - main [MainThread]: End processing [fparse] error
+[2023-05-16 04:31:46] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.0a0.dev9] Old Version: [3.0.0a0.dev8]
+[2023-05-16 04:31:46] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-16 04:31:46] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230514.tar.gz tmp/iam_actions-1.2.20230515.tar.gz --markdown 20230516/i/iam-actions/1.2.20230514-1.2.20230515/diff.md --exclude *.pyd
+[2023-05-16 04:31:46] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-16 04:31:46] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230516/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-16 04:31:46] INFO root fetch - processPackages [httpheaders]: Downloading https://files.pythonhosted.org/packages/59/c8/983e1dbc738ace4d6405477040aa160890cd7abd4892dea7bd2cc29cad0a/httpheaders-2023.3.31.tar.gz
+[2023-05-16 04:31:46] WARNING root fetch - processPackages [sql2netx]: Skipping, unable to determine old version
+[2023-05-16 04:31:46] INFO root fetch - main [MainThread]: End processing [sql2netx] error
+[2023-05-16 04:31:46] INFO root fetch - processPackages [httpheaders]: Downloading https://files.pythonhosted.org/packages/b5/82/31e53f3fced16163e66f304229375ff28c3c97cfa00fdfe68bb30836d986/httpheaders-2023.5.16.tar.gz
+[2023-05-16 04:31:46] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-16 04:31:46] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev8.tar.gz tmp/coconut-develop-3.0.0a0.dev9.tar.gz --markdown 20230516/c/coconut-develop/3.0.0a0.dev8-3.0.0a0.dev9/diff.md --exclude *.pyd
+[2023-05-16 04:31:46] INFO root fetch - processPackages [httpheaders]: executing diffoscope
+[2023-05-16 04:31:46] INFO root fetch - processPackages [httpheaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpheaders-2023.3.31.tar.gz tmp/httpheaders-2023.5.16.tar.gz --markdown 20230516/h/httpheaders/2023.3.31-2023.5.16/diff.md --exclude *.pyd
+[2023-05-16 04:31:47] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-16 04:31:47] INFO root fetch - main [MainThread]: End processing [httpheaders]: success
+[2023-05-16 04:31:48] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-16 04:31:48] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-16 04:31:48] INFO root fetch - main [MainThread]: Store serial: [18117506]
