@@ -20906,3 +20906,123 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 17:41:51] INFO root fetch - main [MainThread]: End processing [dustpylib]: success
 [2023-05-16 17:41:56] INFO root fetch - main [MainThread]: End processing [protozfits]: success
 [2023-05-16 17:41:56] INFO root fetch - main [MainThread]: Store serial: [18125606]
+[2023-05-16 17:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18125606]
+[2023-05-16 17:47:06] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypots
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-teste-21479813
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chat2plot
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-circuitpython
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: delvewheel
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dubinka-custom-serializer
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-circuitpython
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geomulticorr
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-circuitpython
+[2023-05-16 17:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OncoAMBER
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0a2] Old Version: [8.0.3]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0a2] Old Version: [8.0.3]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [dubinka-custom-serializer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [geomulticorr]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [pypots]: New version: [0.1] Old Version: [0.0.9]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0b2] Old Version: [8.1.0b1]
+[2023-05-16 17:47:06] WARNING root fetch - processPackages [test-teste-21479813]: Skipping, unable to determine old version
+[2023-05-16 17:47:06] INFO root fetch - processPackages [test-teste-21479813]: Start processing: Tellie
+[2023-05-16 17:47:06] INFO root fetch - main [MainThread]: End processing [test-teste-21479813] error
+[2023-05-16 17:47:06] INFO root fetch - processPackages [delvewheel]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [OncoAMBER]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [chat2plot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.0.3.tar.gz tmp/types-circuitpython-8.1.0a2.tar.gz --markdown 20230516/t/types-circuitpython/8.0.3-8.1.0a2/diff.md --exclude *.pyd
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.0.3.tar.gz tmp/types-circuitpython-8.1.0a2.tar.gz --markdown 20230516/t/types-circuitpython/8.0.3-8.1.0a2/diff.md --exclude *.pyd
+[2023-05-16 17:47:06] INFO root fetch - processPackages [dubinka-custom-serializer]: Downloading https://files.pythonhosted.org/packages/fd/17/794f473ffbf0ccb5e9d303946b0d84d1b6e31c9f9a7f5577d0e1360aca98/dubinka-custom-serializer-0.0.1.tar.gz
+[2023-05-16 17:47:06] INFO root fetch - processPackages [geomulticorr]: Downloading https://files.pythonhosted.org/packages/a2/31/e023a87116ab27d97563f15b7d93de74d3b23824e98e2393bbb38d9629d0/geomulticorr-0.2.0.tar.gz
+[2023-05-16 17:47:06] WARNING root fetch - processPackages [Tellie]: Skipping, unable to determine old version
+[2023-05-16 17:47:06] INFO root fetch - processPackages [Tellie]: Start processing: types-circuitpython
+[2023-05-16 17:47:06] INFO root fetch - main [MainThread]: End processing [Tellie] error
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/46/9c/52b23a53f9774eb762e217367b1128659e65694909b1e4a0a13ea12b9e3a/types-circuitpython-8.1.0b1.tar.gz
+[2023-05-16 17:47:06] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/97/9d/b7a3a42db309bb2b45d7a56d2b88cb439795e2b126640f3e8758d77f60d5/pypots-0.1-py3-none-any.whl
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0b2] Old Version: [8.1.0b1]
+[2023-05-16 17:47:06] INFO root fetch - processPackages [delvewheel]: Downloading https://files.pythonhosted.org/packages/e7/98/19f06fb23bdd3aaabae349db89116a28f5b6aea638eb800a5db7b3c909e5/delvewheel-1.3.6.tar.gz
+[2023-05-16 17:47:06] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/46/9c/52b23a53f9774eb762e217367b1128659e65694909b1e4a0a13ea12b9e3a/types-circuitpython-8.1.0b1.tar.gz
+[2023-05-16 17:47:07] INFO root fetch - processPackages [pypots]: executing diffoscope
+[2023-05-16 17:47:07] INFO root fetch - processPackages [pypots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypots-0.0.9.tar.gz tmp/pypots-0.1-py3-none-any.whl.zip --markdown 20230516/p/pypots/0.0.9-0.1/diff.md --exclude *.pyd
+[2023-05-16 17:47:07] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-05-16 17:47:07] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.2.7.tar.gz tmp/OncoAMBER-1.2.8.tar.gz --markdown 20230516/O/OncoAMBER/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-16 17:47:07] INFO root fetch - processPackages [delvewheel]: Downloading https://files.pythonhosted.org/packages/0f/f1/d2fecb8059be82767b923d2bd9110aab63ebd300c1e9902bb85a77294981/delvewheel-1.3.7.tar.gz
+[2023-05-16 17:47:07] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/1c/df/8439c6bba355ee718025a273b313c7120af6ea7595a20794bfa46928ea77/types-circuitpython-8.1.0b2.tar.gz
+[2023-05-16 17:47:07] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/1c/df/8439c6bba355ee718025a273b313c7120af6ea7595a20794bfa46928ea77/types-circuitpython-8.1.0b2.tar.gz
+[2023-05-16 17:47:07] INFO root fetch - processPackages [chat2plot]: executing diffoscope
+[2023-05-16 17:47:07] INFO root fetch - processPackages [chat2plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat2plot-0.0.8.tar.gz tmp/chat2plot-0.0.9.tar.gz --markdown 20230516/c/chat2plot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 17:47:07] INFO root fetch - processPackages [dubinka-custom-serializer]: Downloading https://files.pythonhosted.org/packages/b8/5a/fb91815309b8907f56b005d62a6a4207fef661d71ac48534de2c1715e69b/dubinka-custom-serializer-0.0.2.tar.gz
+[2023-05-16 17:47:07] INFO root fetch - processPackages [delvewheel]: executing diffoscope
+[2023-05-16 17:47:07] INFO root fetch - processPackages [delvewheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delvewheel-1.3.6.tar.gz tmp/delvewheel-1.3.7.tar.gz --markdown 20230516/d/delvewheel/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-16 17:47:07] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:47:07] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.1.0b1.tar.gz tmp/types-circuitpython-8.1.0b2.tar.gz --markdown 20230516/t/types-circuitpython/8.1.0b1-8.1.0b2/diff.md --exclude *.pyd
+[2023-05-16 17:47:07] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:47:07] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.1.0b1.tar.gz tmp/types-circuitpython-8.1.0b2.tar.gz --markdown 20230516/t/types-circuitpython/8.1.0b1-8.1.0b2/diff.md --exclude *.pyd
+[2023-05-16 17:47:07] INFO root fetch - processPackages [dubinka-custom-serializer]: executing diffoscope
+[2023-05-16 17:47:07] INFO root fetch - processPackages [dubinka-custom-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dubinka-custom-serializer-0.0.1.tar.gz tmp/dubinka-custom-serializer-0.0.2.tar.gz --markdown 20230516/d/dubinka-custom-serializer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 17:47:07] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-16 17:47:07] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.1.9.tar.gz tmp/geomulticorr-0.2.0.tar.gz --markdown 20230516/g/geomulticorr/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 17:47:08] INFO root fetch - processPackages [pypots]: Start processing: piccolo
+[2023-05-16 17:47:08] INFO root fetch - main [MainThread]: End processing [pypots]: success
+[2023-05-16 17:47:08] INFO root fetch - processPackages [OncoAMBER]: Start processing: stream-read-xbrl
+[2023-05-16 17:47:08] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-05-16 17:47:08] INFO root fetch - processPackages [piccolo]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-16 17:47:08] INFO root fetch - processPackages [stream-read-xbrl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 17:47:08] INFO root fetch - processPackages [chat2plot]: Start processing: tybase
+[2023-05-16 17:47:08] INFO root fetch - main [MainThread]: End processing [chat2plot]: success
+[2023-05-16 17:47:08] INFO root fetch - processPackages [tybase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 17:47:08] INFO root fetch - processPackages [dubinka-custom-serializer]: Start processing: types-circuitpython
+[2023-05-16 17:47:08] INFO root fetch - main [MainThread]: End processing [dubinka-custom-serializer]: success
+[2023-05-16 17:47:08] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/ce/2e/670339ba209098ad7e26363966d6f472f16037e22c57ec0998d6fc5eb2ef/piccolo-0.98.0.tar.gz
+[2023-05-16 17:47:08] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0b2] Old Version: [8.1.0b1]
+[2023-05-16 17:47:08] INFO root fetch - processPackages [types-circuitpython]: Start processing: polyswarm-api
+[2023-05-16 17:47:08] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:47:08] INFO root fetch - processPackages [stream-read-xbrl]: Downloading https://files.pythonhosted.org/packages/cb/01/79f21f957ba2c972f760a478736725869548d44085bea99c8f94e5a7e85f/stream_read_xbrl-0.0.8.tar.gz
+[2023-05-16 17:47:08] INFO root fetch - processPackages [polyswarm-api]: New version: [3.2.0] Old Version: [3.1.3]
+[2023-05-16 17:47:08] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:47:08] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.1.0b1.tar.gz tmp/types-circuitpython-8.1.0b2.tar.gz --markdown 20230516/t/types-circuitpython/8.1.0b1-8.1.0b2/diff.md --exclude *.pyd
+[2023-05-16 17:47:09] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/d1/7b/62bb2f4141cb1520764033657ecef8fc6f29e4591d23d681699dcb460558/piccolo-0.99.0.tar.gz
+[2023-05-16 17:47:09] INFO root fetch - processPackages [polyswarm-api]: Downloading https://files.pythonhosted.org/packages/fb/1f/445db1c167c870b4c653debfe2d8a088c9208de59b5b90233ddd35f14f23/polyswarm-api-3.1.3.tar.gz
+[2023-05-16 17:47:09] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/65/c8/7514792f08c9cc225e12ab3c0629988d4fa7e87ac767d6285f203a4a0232/tybase-0.0.9.tar.gz
+[2023-05-16 17:47:09] INFO root fetch - processPackages [piccolo]: executing diffoscope
+[2023-05-16 17:47:09] INFO root fetch - processPackages [piccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo-0.98.0.tar.gz tmp/piccolo-0.99.0.tar.gz --markdown 20230516/p/piccolo/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-16 17:47:09] INFO root fetch - processPackages [stream-read-xbrl]: Downloading https://files.pythonhosted.org/packages/4b/59/5369f824554b070f94e4c4afc9e824c5d1eb0f8636a43018acbe6f118628/stream_read_xbrl-0.0.9.tar.gz
+[2023-05-16 17:47:09] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-05-16 17:47:09] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.0.8.tar.gz tmp/tybase-0.0.9.tar.gz --markdown 20230516/t/tybase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 17:47:09] INFO root fetch - processPackages [polyswarm-api]: Downloading https://files.pythonhosted.org/packages/f3/27/ab110bd15cd1c75e9ec271eaf358db7c37888d6448dcc26ce9c963d00dbb/polyswarm-api-3.2.0.tar.gz
+[2023-05-16 17:47:09] INFO root fetch - processPackages [polyswarm-api]: executing diffoscope
+[2023-05-16 17:47:09] INFO root fetch - processPackages [polyswarm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyswarm-api-3.1.3.tar.gz tmp/polyswarm-api-3.2.0.tar.gz --markdown 20230516/p/polyswarm-api/3.1.3-3.2.0/diff.md --exclude *.pyd
+[2023-05-16 17:47:09] INFO root fetch - processPackages [stream-read-xbrl]: executing diffoscope
+[2023-05-16 17:47:09] INFO root fetch - processPackages [stream-read-xbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_read_xbrl-0.0.8.tar.gz tmp/stream_read_xbrl-0.0.9.tar.gz --markdown 20230516/s/stream-read-xbrl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 17:47:09] INFO root fetch - processPackages [types-circuitpython]: Start processing: ethyca-fides
+[2023-05-16 17:47:09] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:47:09] INFO root fetch - processPackages [delvewheel]: Start processing: dubinka-custom-serializer
+[2023-05-16 17:47:09] INFO root fetch - main [MainThread]: End processing [delvewheel]: success
+[2023-05-16 17:47:09] INFO root fetch - processPackages [dubinka-custom-serializer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 17:47:09] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-16 17:47:09] INFO root fetch - processPackages [dubinka-custom-serializer]: Downloading https://files.pythonhosted.org/packages/9e/16/99e1767cb58aa44e7783a4f17dd0bbcc5d3b696e29f7f7f005b25dc194d7/dubinka-custom-serializer-0.0.3.tar.gz
+[2023-05-16 17:47:09] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2023-05-16 17:47:10] INFO root fetch - processPackages [dubinka-custom-serializer]: Downloading https://files.pythonhosted.org/packages/cc/94/048c0ef08077327aaf4080656703248d4150a1a773c3230bf19ece34a3f7/dubinka-custom-serializer-0.0.4.tar.gz
+[2023-05-16 17:47:10] INFO root fetch - processPackages [dubinka-custom-serializer]: executing diffoscope
+[2023-05-16 17:47:10] INFO root fetch - processPackages [dubinka-custom-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dubinka-custom-serializer-0.0.3.tar.gz tmp/dubinka-custom-serializer-0.0.4.tar.gz --markdown 20230516/d/dubinka-custom-serializer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 17:47:10] INFO root fetch - processPackages [types-circuitpython]: Start processing: clustertools
+[2023-05-16 17:47:10] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:47:10] INFO root fetch - processPackages [clustertools]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-16 17:47:10] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:47:10] INFO root fetch - main [MainThread]: End processing [stream-read-xbrl]: success
+[2023-05-16 17:47:10] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-05-16 17:47:10] INFO root fetch - processPackages [clustertools]: Downloading https://files.pythonhosted.org/packages/d6/d6/cf68a01e25f00331d8f3934de57b044aa2d597abdb715c7c7d2c84024dd6/clustertools-1.0.9.tar.gz
+[2023-05-16 17:47:10] WARNING root fetch - processPackages [clustertools]: Skipping package: exceeds size limit 17962483>=10485760
+[2023-05-16 17:47:10] INFO root fetch - main [MainThread]: End processing [clustertools] error
+[2023-05-16 17:47:10] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2023-05-16 17:47:10] INFO root fetch - main [MainThread]: End processing [polyswarm-api]: success
+[2023-05-16 17:47:11] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-16 17:47:11] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230516/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-16 17:47:11] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:47:11] INFO root fetch - main [MainThread]: End processing [dubinka-custom-serializer]: success
+[2023-05-16 17:47:12] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-16 17:47:14] INFO root fetch - main [MainThread]: End processing [piccolo]: success
+[2023-05-16 17:47:19] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-16 17:47:19] INFO root fetch - main [MainThread]: Store serial: [18125725]
