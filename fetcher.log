@@ -19393,3 +19393,149 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 16:23:48] INFO root fetch - main [MainThread]: End processing [xformers]: success
 [2023-05-16 16:23:53] INFO root fetch - main [MainThread]: End processing [simses]: success
 [2023-05-16 16:23:53] INFO root fetch - main [MainThread]: Store serial: [18124722]
+[2023-05-16 16:28:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124722]
+[2023-05-16 16:29:02] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viewm2m
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starlette-authlib
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muvinai
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pard
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steampunk-spotter
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysradb
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowtask
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CreaTeBME
+[2023-05-16 16:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pocketsphinx
+[2023-05-16 16:29:02] INFO root fetch - processPackages [viewm2m]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [pard]: New version: [0.5.0.0] Old Version: [0.4.0.1]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [pysradb]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [pocketsphinx]: New version: [5.0.0rc5] Old Version: [5.0.0rc4]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [starlette-authlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230516.14.24.835741] Old Version: [20230515.14.33.601725]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [steampunk-spotter]: New version: [1.2.8a1] Old Version: [1.2.7a2]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [flowtask]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [muvinai]: New version: [0.2.9] Old Version: [0.2.8.dev0]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [CreaTeBME]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 16:29:02] INFO root fetch - processPackages [viewm2m]: Downloading https://files.pythonhosted.org/packages/21/c7/caa796d173d426ed3cb9bc4a999676cdf0f8bee28d0a723726383def44b6/viewm2m-0.0.5.tar.gz
+[2023-05-16 16:29:02] INFO root fetch - processPackages [pysradb]: Downloading https://files.pythonhosted.org/packages/44/6a/3de5d537816842ddab01f80b82780290519d29606672447978916b022d2e/pysradb-2.0.1.tar.gz
+[2023-05-16 16:29:02] INFO root fetch - processPackages [pocketsphinx]: Downloading https://files.pythonhosted.org/packages/16/04/3b5b1aebaf4fe36e9c8fe260c540b2363ef0ca3f3126c193353fe3e23a13/pocketsphinx-5.0.0rc4.tar.gz
+[2023-05-16 16:29:02] INFO root fetch - processPackages [pard]: Downloading https://files.pythonhosted.org/packages/27/00/ea86cdc298965a9ace7cfe5c42bc5f82503ea1682cd430be39283a03cb9d/pard-0.5.0.0.tar.gz
+[2023-05-16 16:29:02] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/97/1c/e239461c8de237e39bc2d19fa9f88a87ec7e50160e3439885455d96ee0f6/certora-cli-alpha-uri-eradicate_certora_dir-20230515.14.33.601725.tar.gz
+[2023-05-16 16:29:02] INFO root fetch - processPackages [CreaTeBME]: Downloading https://files.pythonhosted.org/packages/11/6b/dfda23d1d76a0930694c1ff2ddf947f9386f240a9ef8960d1c17df3d6c9b/CreaTeBME-1.0.0.tar.gz
+[2023-05-16 16:29:02] INFO root fetch - processPackages [viewm2m]: executing diffoscope
+[2023-05-16 16:29:02] INFO root fetch - processPackages [starlette-authlib]: Downloading https://files.pythonhosted.org/packages/e8/34/f64726924da662042f5c7f821951d889a4ac9a9f7fceb68da14fefc04653/starlette-authlib-0.1.8.tar.gz
+[2023-05-16 16:29:02] INFO root fetch - processPackages [viewm2m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewm2m-0.0.4.tar.gz tmp/viewm2m-0.0.5.tar.gz --markdown 20230516/v/viewm2m/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [pard]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [pard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pard-0.4.0.1.tar.gz tmp/pard-0.5.0.0.tar.gz --markdown 20230516/p/pard/0.4.0.1-0.5.0.0/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [muvinai]: Downloading https://files.pythonhosted.org/packages/af/9e/2457f3c883b262802d607aa0b057621322e25445eb40cf5694f24c667be2/muvinai-0.2.8.dev0.tar.gz
+[2023-05-16 16:29:03] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/a5/9a/7e53948c27ac82d39722900b61562f52d310ceba3f63eea8b4ea83514fb0/steampunk_spotter-1.2.7a2-py3-none-any.whl
+[2023-05-16 16:29:03] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/c2/62/f46ab29a2dd82185c6bd5c9c0f318e522e6249f21eb22ea947add139e646/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-16 16:29:03] WARNING root fetch - processPackages [pocketsphinx]: Skipping package: exceeds size limit 33848329>=10485760
+[2023-05-16 16:29:03] INFO root fetch - processPackages [pocketsphinx]: Start processing: viewm2m
+[2023-05-16 16:29:03] INFO root fetch - main [MainThread]: End processing [pocketsphinx] error
+[2023-05-16 16:29:03] INFO root fetch - processPackages [viewm2m]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 16:29:03] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 39461034>=10485760
+[2023-05-16 16:29:03] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: s2aff
+[2023-05-16 16:29:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-16 16:29:03] INFO root fetch - processPackages [s2aff]: New version: [0.40] Old Version: [0.39]
+[2023-05-16 16:29:03] INFO root fetch - processPackages [pysradb]: Downloading https://files.pythonhosted.org/packages/ed/bc/875cb45bfbc244a6cab5f326d8e7d5d41b62684deb4f483e8f8888964735/pysradb-2.0.2.tar.gz
+[2023-05-16 16:29:03] INFO root fetch - processPackages [CreaTeBME]: Downloading https://files.pythonhosted.org/packages/d3/e7/08ae4d66a2ca52cfed49c7b7ae0f4e5d7c3d0be43ba4257445fe0415ade7/CreaTeBME-1.0.1.tar.gz
+[2023-05-16 16:29:03] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.39.tar.gz tmp/s2aff-0.40.tar.gz --markdown 20230516/s/s2aff/0.39-0.40/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [pysradb]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [pysradb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysradb-2.0.1.tar.gz tmp/pysradb-2.0.2.tar.gz --markdown 20230516/p/pysradb/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [viewm2m]: Downloading https://files.pythonhosted.org/packages/89/fb/efe05598300d40af967ea3fe90d23eebb3ed44cac915e37248b19f7c482d/viewm2m-0.0.6.tar.gz
+[2023-05-16 16:29:03] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/60/78/6249c33d9f35e59bbc57e62a6e99da74adbf6743c81c4054e8c015120a17/steampunk_spotter-1.2.8a1-py3-none-any.whl
+[2023-05-16 16:29:03] INFO root fetch - processPackages [CreaTeBME]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [CreaTeBME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CreaTeBME-1.0.0.tar.gz tmp/CreaTeBME-1.0.1.tar.gz --markdown 20230516/C/CreaTeBME/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [starlette-authlib]: Downloading https://files.pythonhosted.org/packages/56/ae/07dfe4886a0edad2e1edb7767edf1e293d0a2dcd9dbdd4f29e8883fd3f21/starlette-authlib-0.1.9.tar.gz
+[2023-05-16 16:29:03] INFO root fetch - processPackages [muvinai]: Downloading https://files.pythonhosted.org/packages/25/2b/14fa831cab12dadb200fbde21f3e8566d301f2b31da4b059a1a4ce132861/muvinai-0.2.9.tar.gz
+[2023-05-16 16:29:03] INFO root fetch - processPackages [viewm2m]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [viewm2m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewm2m-0.0.5.tar.gz tmp/viewm2m-0.0.6.tar.gz --markdown 20230516/v/viewm2m/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [muvinai]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [muvinai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muvinai-0.2.8.dev0.tar.gz tmp/muvinai-0.2.9.tar.gz --markdown 20230516/m/muvinai/0.2.8.dev0-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-1.2.7a2-py3-none-any.whl.zip tmp/steampunk_spotter-1.2.8a1-py3-none-any.whl.zip --markdown 20230516/s/steampunk-spotter/1.2.7a2-1.2.8a1/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [starlette-authlib]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [starlette-authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette-authlib-0.1.8.tar.gz tmp/starlette-authlib-0.1.9.tar.gz --markdown 20230516/s/starlette-authlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 16:29:03] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/b7/a3/74a6d1b74b14713ea3930ecdaefb14c0638f27ade795e74706beda3cdb2f/flowtask-4.3.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-16 16:29:03] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-05-16 16:29:03] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.3.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230516/f/flowtask/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-05-16 16:29:04] INFO root fetch - processPackages [viewm2m]: Start processing: schatsi
+[2023-05-16 16:29:04] INFO root fetch - main [MainThread]: End processing [viewm2m]: success
+[2023-05-16 16:29:04] INFO root fetch - processPackages [schatsi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 16:29:04] INFO root fetch - processPackages [viewm2m]: Start processing: dvc-render
+[2023-05-16 16:29:04] INFO root fetch - main [MainThread]: End processing [viewm2m]: success
+[2023-05-16 16:29:04] INFO root fetch - processPackages [schatsi]: Downloading https://files.pythonhosted.org/packages/4b/55/f796806f98761ad95fb17017bf49b4f748af1e03f583b41f82b844799ce2/schatsi-0.1.8.tar.gz
+[2023-05-16 16:29:04] INFO root fetch - processPackages [CreaTeBME]: Start processing: odoo13-addon-base-domain-inverse-function
+[2023-05-16 16:29:04] INFO root fetch - main [MainThread]: End processing [CreaTeBME]: success
+[2023-05-16 16:29:04] INFO root fetch - processPackages [dvc-render]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-16 16:29:04] WARNING root fetch - processPackages [odoo13-addon-base-domain-inverse-function]: Skipping, unable to determine old version
+[2023-05-16 16:29:04] INFO root fetch - processPackages [odoo13-addon-base-domain-inverse-function]: Start processing: aij
+[2023-05-16 16:29:04] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-domain-inverse-function] error
+[2023-05-16 16:29:04] INFO root fetch - processPackages [starlette-authlib]: Start processing: bimdata-api-client
+[2023-05-16 16:29:04] INFO root fetch - main [MainThread]: End processing [starlette-authlib]: success
+[2023-05-16 16:29:05] INFO root fetch - processPackages [dvc-render]: Downloading https://files.pythonhosted.org/packages/2e/3f/622be21de841b4ab9cab3a43a2225c9083438a71251f80e295b9ecf24fc1/dvc-render-0.5.1.tar.gz
+[2023-05-16 16:29:05] INFO root fetch - processPackages [aij]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-16 16:29:05] INFO root fetch - processPackages [steampunk-spotter]: Start processing: aida-tools
+[2023-05-16 16:29:05] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-05-16 16:29:05] INFO root fetch - processPackages [bimdata-api-client]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-05-16 16:29:05] INFO root fetch - processPackages [aida-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 16:29:05] INFO root fetch - processPackages [aida-tools]: executing diffoscope
+[2023-05-16 16:29:05] INFO root fetch - processPackages [aida-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aida_tools-0.1.1.tar.gz tmp/aida_tools-0.1.2.tar.gz --markdown 20230516/a/aida-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 16:29:05] INFO root fetch - processPackages [dvc-render]: executing diffoscope
+[2023-05-16 16:29:05] INFO root fetch - processPackages [dvc-render]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-render-0.5.0.tar.gz tmp/dvc-render-0.5.1.tar.gz --markdown 20230516/d/dvc-render/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-16 16:29:05] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/2f/7a/025bd38858b44925fac4abf2105445c93da1a5221e526c5a3f6388951530/bimdata-api-client-9.8.1.tar.gz
+[2023-05-16 16:29:05] INFO root fetch - processPackages [aij]: Downloading https://files.pythonhosted.org/packages/56/52/cdede50b3a344a3c184b942c0fb404c482ee7ba38589a3d530f1a9b11400/aij-1.0.7.tar.gz
+[2023-05-16 16:29:05] INFO root fetch - processPackages [schatsi]: Downloading https://files.pythonhosted.org/packages/ac/40/4affcfdce54f53f87b59fa0fc510effd70827bcc69241ab37ee18e47747e/schatsi-0.1.9.tar.gz
+[2023-05-16 16:29:05] INFO root fetch - processPackages [schatsi]: executing diffoscope
+[2023-05-16 16:29:05] INFO root fetch - processPackages [schatsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schatsi-0.1.8.tar.gz tmp/schatsi-0.1.9.tar.gz --markdown 20230516/s/schatsi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 16:29:05] INFO root fetch - processPackages [aij]: executing diffoscope
+[2023-05-16 16:29:05] INFO root fetch - processPackages [aij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-1.0.6.tar.gz tmp/aij-1.0.7.tar.gz --markdown 20230516/a/aij/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-16 16:29:05] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/04/d6/f16eeffb47cb62e83c3459330ab4b2f40e6502e16df942ccd8185cf05998/bimdata-api-client-9.9.0.tar.gz
+[2023-05-16 16:29:05] INFO root fetch - processPackages [bimdata-api-client]: executing diffoscope
+[2023-05-16 16:29:05] INFO root fetch - processPackages [bimdata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimdata-api-client-9.8.1.tar.gz tmp/bimdata-api-client-9.9.0.tar.gz --markdown 20230516/b/bimdata-api-client/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2023-05-16 16:29:05] INFO root fetch - processPackages [s2aff]: Start processing: mujoco-dev
+[2023-05-16 16:29:05] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-16 16:29:05] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev532447706] Old Version: [2.3.6.dev532158635]
+[2023-05-16 16:29:05] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/f4/81/8febd4a53834fa0f31e79428fff1e65b33b236248de0a752433e23c1772d/mujoco_dev-2.3.6.dev532158635-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-16 16:29:05] INFO root fetch - processPackages [pard]: Start processing: bastion-api
+[2023-05-16 16:29:05] INFO root fetch - main [MainThread]: End processing [pard]: success
+[2023-05-16 16:29:06] WARNING root fetch - processPackages [bastion-api]: Skipping, unable to determine old version
+[2023-05-16 16:29:06] INFO root fetch - processPackages [bastion-api]: Start processing: pollination-handlers
+[2023-05-16 16:29:06] INFO root fetch - main [MainThread]: End processing [bastion-api] error
+[2023-05-16 16:29:06] INFO root fetch - processPackages [pollination-handlers]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-16 16:29:06] INFO root fetch - processPackages [pollination-handlers]: Downloading https://files.pythonhosted.org/packages/b0/30/7fd212f727559989be8873d84326ded705046edfc50787929987619b9997/pollination-handlers-0.9.5.tar.gz
+[2023-05-16 16:29:06] INFO root fetch - processPackages [aida-tools]: Start processing: pymiau
+[2023-05-16 16:29:06] INFO root fetch - main [MainThread]: End processing [aida-tools]: success
+[2023-05-16 16:29:06] INFO root fetch - processPackages [pollination-handlers]: Downloading https://files.pythonhosted.org/packages/0a/39/15eb30fcf22cf3fbf9c4285e467bbc8eee80ae13ba25af01401542c7fdea/pollination-handlers-0.9.6.tar.gz
+[2023-05-16 16:29:06] WARNING root fetch - processPackages [pymiau]: Skipping, unable to determine old version
+[2023-05-16 16:29:06] INFO root fetch - processPackages [pymiau]: Start processing: jacobi-motion
+[2023-05-16 16:29:06] INFO root fetch - main [MainThread]: End processing [pymiau] error
+[2023-05-16 16:29:06] INFO root fetch - processPackages [pollination-handlers]: executing diffoscope
+[2023-05-16 16:29:06] INFO root fetch - processPackages [pollination-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-handlers-0.9.5.tar.gz tmp/pollination-handlers-0.9.6.tar.gz --markdown 20230516/p/pollination-handlers/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-16 16:29:06] INFO root fetch - processPackages [jacobi-motion]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 16:29:06] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/49/f1/07825ea2eccf8b6cff9d6f535b5c57cbc65730c0d6689f1002ec7cb61898/mujoco_dev-2.3.6.dev532447706-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-16 16:29:06] INFO root fetch - processPackages [schatsi]: Start processing: honeycomb-opentelemetry
+[2023-05-16 16:29:06] INFO root fetch - main [MainThread]: End processing [schatsi]: success
+[2023-05-16 16:29:06] INFO root fetch - processPackages [jacobi-motion]: Downloading https://files.pythonhosted.org/packages/04/82/e528edef636ab4876d0703607d47edc8637af5029e3bac19a0f2e0ece2eb/jacobi_motion-0.0.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-05-16 16:29:06] INFO root fetch - processPackages [honeycomb-opentelemetry]: New version: [0.2.1b0] Old Version: [0.2.0b0]
+[2023-05-16 16:29:06] INFO root fetch - main [MainThread]: End processing [aij]: success
+[2023-05-16 16:29:07] INFO root fetch - main [MainThread]: End processing [dvc-render]: success
+[2023-05-16 16:29:07] INFO root fetch - processPackages [honeycomb-opentelemetry]: Downloading https://files.pythonhosted.org/packages/12/23/88a5543e63fa341b70faefb7f2821fa80256202131887daeb72880978622/honeycomb_opentelemetry-0.2.0b0.tar.gz
+[2023-05-16 16:29:07] INFO root fetch - processPackages [jacobi-motion]: Downloading https://files.pythonhosted.org/packages/32/34/e0f37ad181cffebee9913a7316dc47906c4d92b3242e1918eecc546c2945/jacobi_motion-0.0.9-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-05-16 16:29:07] INFO root fetch - processPackages [jacobi-motion]: executing diffoscope
+[2023-05-16 16:29:07] INFO root fetch - processPackages [jacobi-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacobi_motion-0.0.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/jacobi_motion-0.0.9-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230516/j/jacobi-motion/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 16:29:07] INFO root fetch - processPackages [honeycomb-opentelemetry]: Downloading https://files.pythonhosted.org/packages/9e/eb/5722095f815971c8d31fd26ea2e7d1abd6a9ef371b4fb844dd15b6a9f5f5/honeycomb_opentelemetry-0.2.1b0.tar.gz
+[2023-05-16 16:29:07] INFO root fetch - processPackages [honeycomb-opentelemetry]: executing diffoscope
+[2023-05-16 16:29:07] INFO root fetch - processPackages [honeycomb-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeycomb_opentelemetry-0.2.0b0.tar.gz tmp/honeycomb_opentelemetry-0.2.1b0.tar.gz --markdown 20230516/h/honeycomb-opentelemetry/0.2.0b0-0.2.1b0/diff.md --exclude *.pyd
+[2023-05-16 16:29:07] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-05-16 16:29:07] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev532158635-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mujoco_dev-2.3.6.dev532447706-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230516/m/mujoco-dev/2.3.6.dev532158635-2.3.6.dev532447706/diff.md --exclude *.pyd
+[2023-05-16 16:29:09] INFO root fetch - main [MainThread]: End processing [honeycomb-opentelemetry]: success
+[2023-05-16 16:29:09] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-05-16 16:29:09] INFO root fetch - main [MainThread]: End processing [pysradb]: success
+[2023-05-16 16:29:09] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-05-16 16:29:11] INFO root fetch - main [MainThread]: End processing [pollination-handlers]: success
+[2023-05-16 16:29:12] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
+[2023-05-16 16:29:35] INFO root fetch - main [MainThread]: End processing [muvinai]: success
+[2023-05-16 16:29:39] INFO root fetch - main [MainThread]: End processing [jacobi-motion]: success
+[2023-05-16 16:29:39] INFO root fetch - main [MainThread]: Store serial: [18124805]
