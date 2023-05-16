@@ -6532,3 +6532,30 @@
 [2023-05-16 03:44:49] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-05-16 03:44:51] INFO root fetch - main [MainThread]: End processing [ats-ckonlpy]: success
 [2023-05-16 03:44:51] INFO root fetch - main [MainThread]: Store serial: [18117289]
+[2023-05-16 03:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117289]
+[2023-05-16 03:50:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-16 03:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaflow
+[2023-05-16 03:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dexie-rewards
+[2023-05-16 03:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basedosdados
+[2023-05-16 03:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codex
+[2023-05-16 03:50:00] INFO root fetch - processPackages [basedosdados]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-05-16 03:50:00] INFO root fetch - processPackages [codex]: New version: [1.4.0a1] Old Version: [1.4.0a0]
+[2023-05-16 03:50:00] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/86/d8/c86943bc2638fc2492fc846ce4ec45f20a17c70a8e15fbedd39391ff064a/codex-1.4.0a0.tar.gz
+[2023-05-16 03:50:00] INFO root fetch - processPackages [dexie-rewards]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 03:50:00] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 16151115>=10485760
+[2023-05-16 03:50:00] INFO root fetch - main [MainThread]: End processing [codex] error
+[2023-05-16 03:50:00] INFO root fetch - processPackages [metaflow]: New version: [2.9.0] Old Version: [2.8.6]
+[2023-05-16 03:50:01] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/48/91/2d9e8c733b3f3a12e139c203e7b59012e1b52b77ab8cecb96e8fbed9c6f8/dexie_rewards-0.0.6.tar.gz
+[2023-05-16 03:50:01] INFO root fetch - processPackages [basedosdados]: executing diffoscope
+[2023-05-16 03:50:01] INFO root fetch - processPackages [basedosdados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedosdados-2.0.0b1.tar.gz tmp/basedosdados-2.0.0b2.tar.gz --markdown 20230516/b/basedosdados/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-05-16 03:50:01] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/97/25/97de5bf3fc6afc7118ebd8b8a22c9e6a49ac1b7d6f262fd10b7ea5b7898b/metaflow-2.8.6.tar.gz
+[2023-05-16 03:50:01] INFO root fetch - processPackages [dexie-rewards]: Downloading https://files.pythonhosted.org/packages/14/e5/6b361672663672cc4d189ad4d557ca369c3d290162710165b61025e60f93/dexie_rewards-0.0.7.tar.gz
+[2023-05-16 03:50:01] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/ef/a9/99392d13f1636e74db1f74f404a7140c81afb86d005cca8f209266a65a45/metaflow-2.9.0.tar.gz
+[2023-05-16 03:50:01] INFO root fetch - processPackages [dexie-rewards]: executing diffoscope
+[2023-05-16 03:50:01] INFO root fetch - processPackages [dexie-rewards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexie_rewards-0.0.6.tar.gz tmp/dexie_rewards-0.0.7.tar.gz --markdown 20230516/d/dexie-rewards/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 03:50:01] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2023-05-16 03:50:01] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.8.6.tar.gz tmp/metaflow-2.9.0.tar.gz --markdown 20230516/m/metaflow/2.8.6-2.9.0/diff.md --exclude *.pyd
+[2023-05-16 03:50:02] INFO root fetch - main [MainThread]: End processing [basedosdados]: success
+[2023-05-16 03:50:02] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
+[2023-05-16 03:50:05] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2023-05-16 03:50:05] INFO root fetch - main [MainThread]: Store serial: [18117302]
