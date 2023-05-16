@@ -10247,3 +10247,94 @@
 [2023-05-16 08:43:11] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2023-05-16 08:43:12] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2023-05-16 08:43:12] INFO root fetch - main [MainThread]: Store serial: [18119395]
+[2023-05-16 08:48:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119395]
+[2023-05-16 08:48:21] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: b2cloud
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-sumologic
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MeUtils
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itaed
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotifyCL
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-p5generator
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-wavefront
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scMet
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-snowflake
+[2023-05-16 08:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-debug-toolbar
+[2023-05-16 08:48:21] INFO root fetch - processPackages [django-debug-toolbar]: New version: [4.0.0] Old Version: [3.8.1]
+[2023-05-16 08:48:21] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-16 08:48:21] INFO root fetch - processPackages [django-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/80/53/1d1e3bbef3c6f5820f838a6a6a8e795a3c86323f9dbf2f8a89de78477972/django_debug_toolbar-3.8.1.tar.gz
+[2023-05-16 08:48:21] WARNING root fetch - processPackages [itaed]: Skipping, unable to determine old version
+[2023-05-16 08:48:21] INFO root fetch - processPackages [b2cloud]: New version: [0.1.7] Old Version: [0.1.1]
+[2023-05-16 08:48:21] INFO root fetch - processPackages [itaed]: Start processing: wechatpayv3
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-05-16 08:48:21] INFO root fetch - main [MainThread]: End processing [itaed] error
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-wavefront]: New version: [1.4.0a1684218280] Old Version: [1.4.0a1683958212]
+[2023-05-16 08:48:21] WARNING root fetch - processPackages [spotifyCL]: Skipping, unable to determine old version
+[2023-05-16 08:48:21] INFO root fetch - processPackages [spotifyCL]: Start processing: odoo12-addon-stock-operating-unit
+[2023-05-16 08:48:21] INFO root fetch - main [MainThread]: End processing [spotifyCL] error
+[2023-05-16 08:48:21] INFO root fetch - processPackages [nonebot-plugin-p5generator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 08:48:21] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-16 08:48:21] WARNING root fetch - processPackages [scMet]: Skipping, unable to determine old version
+[2023-05-16 08:48:21] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230516/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-16 08:48:21] INFO root fetch - processPackages [scMet]: Start processing: pulumi-vsphere
+[2023-05-16 08:48:21] INFO root fetch - main [MainThread]: End processing [scMet] error
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-05-16 08:48:21] INFO root fetch - processPackages [odoo12-addon-stock-operating-unit]: New version: [12.0.2.0.0.99.dev8] Old Version: [12.0.2.0.0.99.dev7]
+[2023-05-16 08:48:21] INFO root fetch - processPackages [wechatpayv3]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.5.0a1684218146] Old Version: [4.5.0a1683958260]
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [django-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/86/e0/85387258279b436e66d0afa5e676b5956ae9f68e62e22fadcc473315e322/django_debug_toolbar-4.0.0.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [b2cloud]: Downloading https://files.pythonhosted.org/packages/0e/fe/16c98fbf4f5ba3e8521a1ef2e656ae1c0a5dd85bda35224f41f97ebd7cea/b2cloud-0.1.1.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [nonebot-plugin-p5generator]: Downloading https://files.pythonhosted.org/packages/b0/09/4b5cabcc4832cc92c48433549221e802008f3978ddf1a9b6157b21840f72/nonebot_plugin_p5generator-0.1.0.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [odoo12-addon-stock-operating-unit]: Downloading https://files.pythonhosted.org/packages/c4/7a/11a341e55054b64f0935b4e3d36298ef9534fe651ec1fd6fd53d71e768f8/odoo12_addon_stock_operating_unit-12.0.2.0.0.99.dev7-py3-none-any.whl
+[2023-05-16 08:48:21] INFO root fetch - processPackages [django-debug-toolbar]: executing diffoscope
+[2023-05-16 08:48:21] INFO root fetch - processPackages [django-debug-toolbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_debug_toolbar-3.8.1.tar.gz tmp/django_debug_toolbar-4.0.0.tar.gz --markdown 20230516/d/django-debug-toolbar/3.8.1-4.0.0/diff.md --exclude *.pyd
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/d8/39/b01c824d61dc51a08bf7404a83f3a1b8d3cd08406235f267d7a9a6e1e71a/pulumi_wavefront-1.4.0a1684218280.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/71/83/3a10f7692ca833df60c2c13fc32dd494a1cd913a359f0ce0dbdba33164ea/wechatpayv3-1.2.8.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/91/47/4df66cd1d9a494a39b2bbcc8fd995ac594c47a7dc17dde8b27562136af94/pulumi_vsphere-4.5.0a1684218146.tar.gz
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-05-16 08:48:21] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-1.4.0a1683958212.tar.gz tmp/pulumi_wavefront-1.4.0a1684218280.tar.gz --markdown 20230516/p/pulumi-wavefront/1.4.0a1683958212-1.4.0a1684218280/diff.md --exclude *.pyd
+[2023-05-16 08:48:21] INFO root fetch - processPackages [nonebot-plugin-p5generator]: Downloading https://files.pythonhosted.org/packages/ac/6a/51b8cc2b7ce6b73befa0c12e7399368880c169d22fdb56efe6d7b07c8b03/nonebot_plugin_p5generator-0.1.1.tar.gz
+[2023-05-16 08:48:22] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-05-16 08:48:22] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-05-16 08:48:22] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230516/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-05-16 08:48:22] INFO root fetch - processPackages [odoo12-addon-stock-operating-unit]: Downloading https://files.pythonhosted.org/packages/36/f8/1ff9c1f0a491b650cf29bd617cbdf04670b29354d8b2ea4af731276ca165/odoo12_addon_stock_operating_unit-12.0.2.0.0.99.dev8-py3-none-any.whl
+[2023-05-16 08:48:22] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-05-16 08:48:22] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.5.0a1683958260.tar.gz tmp/pulumi_vsphere-4.5.0a1684218146.tar.gz --markdown 20230516/p/pulumi-vsphere/4.5.0a1683958260-4.5.0a1684218146/diff.md --exclude *.pyd
+[2023-05-16 08:48:22] INFO root fetch - processPackages [nonebot-plugin-p5generator]: executing diffoscope
+[2023-05-16 08:48:22] INFO root fetch - processPackages [nonebot-plugin-p5generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_p5generator-0.1.0.tar.gz tmp/nonebot_plugin_p5generator-0.1.1.tar.gz --markdown 20230516/n/nonebot-plugin-p5generator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 08:48:22] INFO root fetch - processPackages [b2cloud]: Downloading https://files.pythonhosted.org/packages/b4/91/11279f4c29a8078214ee66d61a9d8049b261f7776ac354cfc964c67d21f1/b2cloud-0.1.7.tar.gz
+[2023-05-16 08:48:22] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-05-16 08:48:22] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230516/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-05-16 08:48:22] INFO root fetch - processPackages [odoo12-addon-stock-operating-unit]: executing diffoscope
+[2023-05-16 08:48:22] INFO root fetch - processPackages [odoo12-addon-stock-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_operating_unit-12.0.2.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_stock_operating_unit-12.0.2.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-stock-operating-unit/12.0.2.0.0.99.dev7-12.0.2.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-16 08:48:22] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/da/ad/c24743b5be0d84cb9e06e1782533916efab40435177b65150d0773448361/wechatpayv3-1.2.9.tar.gz
+[2023-05-16 08:48:22] INFO root fetch - processPackages [b2cloud]: executing diffoscope
+[2023-05-16 08:48:22] INFO root fetch - processPackages [b2cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2cloud-0.1.1.tar.gz tmp/b2cloud-0.1.7.tar.gz --markdown 20230516/b/b2cloud/0.1.1-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 08:48:22] INFO root fetch - processPackages [wechatpayv3]: executing diffoscope
+[2023-05-16 08:48:22] INFO root fetch - processPackages [wechatpayv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wechatpayv3-1.2.8.tar.gz tmp/wechatpayv3-1.2.9.tar.gz --markdown 20230516/w/wechatpayv3/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-16 08:48:23] INFO root fetch - processPackages [nonebot-plugin-p5generator]: Start processing: pulumi-venafi
+[2023-05-16 08:48:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-p5generator]: success
+[2023-05-16 08:48:23] INFO root fetch - processPackages [b2cloud]: Start processing: aioairzone
+[2023-05-16 08:48:23] INFO root fetch - main [MainThread]: End processing [b2cloud]: success
+[2023-05-16 08:48:23] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.6.0a1684218163] Old Version: [1.6.0a1683958278]
+[2023-05-16 08:48:23] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-operating-unit]: success
+[2023-05-16 08:48:23] INFO root fetch - processPackages [aioairzone]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-16 08:48:23] INFO root fetch - main [MainThread]: End processing [wechatpayv3]: success
+[2023-05-16 08:48:23] INFO root fetch - processPackages [aioairzone]: Downloading https://files.pythonhosted.org/packages/66/45/bffeb4ad68a59ffb704e4c97dc736e234be96b1589f9fb058f635dce3218/aioairzone-0.5.5.tar.gz
+[2023-05-16 08:48:23] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/8f/bd/8fb85150d7c443a95b9c22c63791860415066bbaa5d0c9002f862ed0f3a4/pulumi_venafi-1.6.0a1684218163.tar.gz
+[2023-05-16 08:48:23] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-05-16 08:48:24] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2023-05-16 08:48:24] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.6.0a1683958278.tar.gz tmp/pulumi_venafi-1.6.0a1684218163.tar.gz --markdown 20230516/p/pulumi-venafi/1.6.0a1683958278-1.6.0a1684218163/diff.md --exclude *.pyd
+[2023-05-16 08:48:24] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-05-16 08:48:24] INFO root fetch - processPackages [aioairzone]: Downloading https://files.pythonhosted.org/packages/1d/e9/3e2e7b303d97ab59d3af9e53c7cfc49f796b0e0846825144ee761855d352/aioairzone-0.5.6.tar.gz
+[2023-05-16 08:48:24] INFO root fetch - processPackages [aioairzone]: executing diffoscope
+[2023-05-16 08:48:24] INFO root fetch - processPackages [aioairzone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-0.5.5.tar.gz tmp/aioairzone-0.5.6.tar.gz --markdown 20230516/a/aioairzone/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-16 08:48:24] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2023-05-16 08:48:25] INFO root fetch - main [MainThread]: End processing [django-debug-toolbar]: success
+[2023-05-16 08:48:25] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-05-16 08:48:25] INFO root fetch - main [MainThread]: End processing [aioairzone]: success
+[2023-05-16 08:48:26] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-05-16 08:48:29] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-16 08:48:29] INFO root fetch - main [MainThread]: Store serial: [18119443]
