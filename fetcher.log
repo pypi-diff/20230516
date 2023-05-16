@@ -13199,3 +13199,100 @@
 [2023-05-16 11:21:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-16 11:21:31] INFO root fetch - main [MainThread]: End processing [prowler]: success
 [2023-05-16 11:21:31] INFO root fetch - main [MainThread]: Store serial: [18121003]
+[2023-05-16 11:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121003]
+[2023-05-16 11:26:41] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odp-sdk-python-ingest
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu-aws
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bytetrade-recommend-model-sdk
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postmaniac
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fasttextsearch
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spseg-tool
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hrin-msb
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blockapi
+[2023-05-16 11:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mkdocs-apicall-plugin
+[2023-05-16 11:26:41] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [kfish]: New version: [99.0.202305160921] Old Version: [99.0.202305152009]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [odp-sdk-python-ingest]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-16 11:26:41] WARNING root fetch - processPackages [fasttextsearch]: Skipping, unable to determine old version
+[2023-05-16 11:26:41] INFO root fetch - processPackages [fasttextsearch]: Start processing: Geode-Common
+[2023-05-16 11:26:41] INFO root fetch - main [MainThread]: End processing [fasttextsearch] error
+[2023-05-16 11:26:41] WARNING root fetch - processPackages [spseg-tool]: Skipping, unable to determine old version
+[2023-05-16 11:26:41] INFO root fetch - processPackages [mkdocs-apicall-plugin]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [spseg-tool]: Start processing: alibabacloud-ens20171110-py2
+[2023-05-16 11:26:41] INFO root fetch - main [MainThread]: End processing [spseg-tool] error
+[2023-05-16 11:26:41] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230516] Old Version: [2.14.0.dev20230515]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2023-05-16 11:26:41] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20230516/b/blockapi/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 11:26:41] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: executing diffoscope
+[2023-05-16 11:26:41] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytetrade-recommend-model-sdk-0.0.14.tar.gz tmp/bytetrade-recommend-model-sdk-0.0.15.tar.gz --markdown 20230516/b/bytetrade-recommend-model-sdk/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-05-16 11:26:41] INFO root fetch - processPackages [postmaniac]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [Geode-Common]: New version: [25.0.8] Old Version: [25.0.7]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-16 11:26:41] INFO root fetch - processPackages [mkdocs-apicall-plugin]: Downloading https://files.pythonhosted.org/packages/c6/1a/31d7944b6487672db384bc0ff154502de0974c24a3d1b85532924bc8294e/mkdocs_apicall_plugin-0.1.6.tar.gz
+[2023-05-16 11:26:41] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/62/5c/2a48e5aa78eb50d932673b237180fc0b697a6b774a39c73654c3745c9ee2/odp_sdk_python_ingest-0.4.1.tar.gz
+[2023-05-16 11:26:41] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/31/fc/60c0d66ae1cca963fb4fb4ace73f81562c2c081736314de39937f7a41a03/tf_nightly_cpu_aws-2.14.0.dev20230515-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-16 11:26:41] INFO root fetch - processPackages [postmaniac]: Downloading https://files.pythonhosted.org/packages/af/3d/60e0891b48a94c9a8b02effcf7294331156384b7a4092015214f127f7691/postmaniac-0.9.0.tar.gz
+[2023-05-16 11:26:41] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/7f/8b/775f9a064f3d7312064038e09cf90ec411908e6be98842410c6564f325fd/Geode_Common-25.0.7-cp39-cp39-win_amd64.whl
+[2023-05-16 11:26:41] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/55/9e/cf78fe799d7667fe402e73da0a0fb3272679949be65149f1a07f6579f8d2/kfish-99.0.202305160921-py3-none-any.whl
+[2023-05-16 11:26:41] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Downloading https://files.pythonhosted.org/packages/91/c0/3d243c6ac403900e423f30576e14f0466f5ed0a2793ad48a57a93f1b1016/alibabacloud_ens20171110_py2-3.0.8.tar.gz
+[2023-05-16 11:26:41] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/3d/68/89c2c717579eda7700c791b89c1244fd1df9cd5182b8697c3ce9a0fd4e47/odp_sdk_python_ingest-0.4.2.tar.gz
+[2023-05-16 11:26:41] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 252140604>=10485760
+[2023-05-16 11:26:41] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: streamlit-wordcloud-v2
+[2023-05-16 11:26:41] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-05-16 11:26:41] INFO root fetch - processPackages [mkdocs-apicall-plugin]: Downloading https://files.pythonhosted.org/packages/7b/a1/78775b22550ef7d8b2ff6e730501e7ea438181ef310c959108829beaed0c/mkdocs_apicall_plugin-0.1.7.tar.gz
+[2023-05-16 11:26:42] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-16 11:26:42] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230516/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 11:26:42] INFO root fetch - processPackages [streamlit-wordcloud-v2]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-16 11:26:42] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-16 11:26:42] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305152009-py3-none-any.whl.zip tmp/kfish-99.0.202305160921-py3-none-any.whl.zip --markdown 20230516/k/kfish/99.0.202305152009-99.0.202305160921/diff.md --exclude *.pyd
+[2023-05-16 11:26:42] INFO root fetch - processPackages [postmaniac]: Downloading https://files.pythonhosted.org/packages/1c/f7/cc9bd510d259463f750e3bd0b890974844268329bed79fb3f9d368593e9f/postmaniac-0.9.2.tar.gz
+[2023-05-16 11:26:42] INFO root fetch - processPackages [mkdocs-apicall-plugin]: executing diffoscope
+[2023-05-16 11:26:42] INFO root fetch - processPackages [mkdocs-apicall-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_apicall_plugin-0.1.6.tar.gz tmp/mkdocs_apicall_plugin-0.1.7.tar.gz --markdown 20230516/m/mkdocs-apicall-plugin/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 11:26:42] INFO root fetch - processPackages [odp-sdk-python-ingest]: executing diffoscope
+[2023-05-16 11:26:42] INFO root fetch - processPackages [odp-sdk-python-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk_python_ingest-0.4.1.tar.gz tmp/odp_sdk_python_ingest-0.4.2.tar.gz --markdown 20230516/o/odp-sdk-python-ingest/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-16 11:26:42] INFO root fetch - processPackages [postmaniac]: executing diffoscope
+[2023-05-16 11:26:42] INFO root fetch - processPackages [postmaniac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postmaniac-0.9.0.tar.gz tmp/postmaniac-0.9.2.tar.gz --markdown 20230516/p/postmaniac/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 11:26:42] INFO root fetch - processPackages [streamlit-wordcloud-v2]: Downloading https://files.pythonhosted.org/packages/0a/bb/ae6e3c4751ddd84010edff5c0d1c19133ec9fac51807ad07329962843a0f/streamlit_wordcloud_v2-0.2.0-py3-none-any.whl
+[2023-05-16 11:26:42] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/7d/1a/1c8b40382fdaf38b5fd9efd3a9b375c9d3f589600b6d0054015d261349a7/Geode_Common-25.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-16 11:26:42] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: Downloading https://files.pythonhosted.org/packages/d4/8d/5c83d605d62ecee989b14315c0f56e1114e031618839bbce70dce3c03438/alibabacloud_ens20171110_py2-3.0.9.tar.gz
+[2023-05-16 11:26:42] INFO root fetch - processPackages [streamlit-wordcloud-v2]: Downloading https://files.pythonhosted.org/packages/e4/d4/07c2461b02385d73ae0ba0055c092aa38bde760d566056dd849e239446ac/streamlit_wordcloud_v2-0.3.0-py3-none-any.whl
+[2023-05-16 11:26:42] INFO root fetch - processPackages [streamlit-wordcloud-v2]: executing diffoscope
+[2023-05-16 11:26:42] INFO root fetch - processPackages [streamlit-wordcloud-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_wordcloud_v2-0.2.0-py3-none-any.whl.zip tmp/streamlit_wordcloud_v2-0.3.0-py3-none-any.whl.zip --markdown 20230516/s/streamlit-wordcloud-v2/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-16 11:26:42] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-05-16 11:26:42] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-25.0.7-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-25.0.8-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230516/G/Geode-Common/25.0.7-25.0.8/diff.md --exclude *.pyd
+[2023-05-16 11:26:42] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: executing diffoscope
+[2023-05-16 11:26:42] INFO root fetch - processPackages [alibabacloud-ens20171110-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ens20171110_py2-3.0.8.tar.gz tmp/alibabacloud_ens20171110_py2-3.0.9.tar.gz --markdown 20230516/a/alibabacloud-ens20171110-py2/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-16 11:26:43] INFO root fetch - processPackages [bytetrade-recommend-model-sdk]: Start processing: alphaz
+[2023-05-16 11:26:43] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk]: success
+[2023-05-16 11:26:43] INFO root fetch - processPackages [alphaz]: New version: [0.7.8.1] Old Version: [0.7.8]
+[2023-05-16 11:26:43] INFO root fetch - processPackages [kfish]: Start processing: alibabacloud-ens20171110
+[2023-05-16 11:26:43] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-16 11:26:43] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/9f/fa/d1573337a60321365284398dca70505a16b4c61217341ef1b30ab6b62d3e/alphaz-0.7.8.1.tar.gz
+[2023-05-16 11:26:43] INFO root fetch - processPackages [alibabacloud-ens20171110]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-16 11:26:43] INFO root fetch - processPackages [alibabacloud-ens20171110]: Downloading https://files.pythonhosted.org/packages/04/63/35b662d85dd21231caef6e06cd5dd99df65553a203862069c134c30cb7e9/alibabacloud_ens20171110-3.0.8.tar.gz
+[2023-05-16 11:26:43] INFO root fetch - processPackages [mkdocs-apicall-plugin]: Start processing: ccdt
+[2023-05-16 11:26:43] INFO root fetch - main [MainThread]: End processing [mkdocs-apicall-plugin]: success
+[2023-05-16 11:26:43] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2023-05-16 11:26:43] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-16 11:26:43] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-16 11:26:43] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.8.tar.gz tmp/alphaz-0.7.8.1.tar.gz --markdown 20230516/a/alphaz/0.7.8-0.7.8.1/diff.md --exclude *.pyd
+[2023-05-16 11:26:43] INFO root fetch - processPackages [ccdt]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-16 11:26:44] INFO root fetch - processPackages [alibabacloud-ens20171110]: Downloading https://files.pythonhosted.org/packages/57/75/5ffd2e20e64b2ede821d73379ad72f6b66bffd77068c92c2a8cec259691e/alibabacloud_ens20171110-3.0.9.tar.gz
+[2023-05-16 11:26:44] INFO root fetch - processPackages [alibabacloud-ens20171110]: executing diffoscope
+[2023-05-16 11:26:44] INFO root fetch - processPackages [alibabacloud-ens20171110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ens20171110-3.0.8.tar.gz tmp/alibabacloud_ens20171110-3.0.9.tar.gz --markdown 20230516/a/alibabacloud-ens20171110/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-16 11:26:44] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/be/67/147d273a5dbd941d12098660120395ff29f6a6c4aa02a1990ade4366112a/ccdt-2.0.8.tar.gz
+[2023-05-16 11:26:44] INFO root fetch - main [MainThread]: End processing [streamlit-wordcloud-v2]: success
+[2023-05-16 11:26:44] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/ca/50/782762d60cc87c8905a7332fcddcbb65ed137e219876fab43704d6916f94/ccdt-2.0.9.tar.gz
+[2023-05-16 11:26:44] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-05-16 11:26:44] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.0.8.tar.gz tmp/ccdt-2.0.9.tar.gz --markdown 20230516/c/ccdt/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-16 11:26:44] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-05-16 11:26:45] INFO root fetch - main [MainThread]: End processing [postmaniac]: success
+[2023-05-16 11:26:45] INFO root fetch - main [MainThread]: End processing [odp-sdk-python-ingest]: success
+[2023-05-16 11:26:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-ens20171110]: success
+[2023-05-16 11:26:45] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-05-16 11:26:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-ens20171110-py2]: success
+[2023-05-16 11:26:47] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-16 11:26:47] INFO root fetch - main [MainThread]: Store serial: [18121059]
