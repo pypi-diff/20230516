@@ -13357,3 +13357,107 @@
 [2023-05-16 11:32:00] INFO root fetch - main [MainThread]: End processing [xchembku]: success
 [2023-05-16 11:32:14] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
 [2023-05-16 11:32:14] INFO root fetch - main [MainThread]: Store serial: [18121090]
+[2023-05-16 11:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121090]
+[2023-05-16 11:37:24] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EOxServer
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: giant-redirect-import
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapere
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dismake
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bgrm
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: premise-gwp
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arctic
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbcollage
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: otc-sphinx-directives
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccpem-utils
+[2023-05-16 11:37:24] INFO root fetch - processPackages [premise-gwp]: New version: [0.8] Old Version: [0.7]
+[2023-05-16 11:37:24] INFO root fetch - processPackages [otc-sphinx-directives]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-16 11:37:24] INFO root fetch - processPackages [giant-redirect-import]: New version: [0.2] Old Version: [0.1.0]
+[2023-05-16 11:37:24] INFO root fetch - processPackages [EOxServer]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-16 11:37:24] INFO root fetch - processPackages [scrapere]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-16 11:37:24] INFO root fetch - processPackages [ccpem-utils]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-16 11:37:24] INFO root fetch - processPackages [lbcollage]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 11:37:24] INFO root fetch - processPackages [bgrm]: New version: [9] Old Version: [8]
+[2023-05-16 11:37:24] WARNING root fetch - processPackages [dismake]: Skipping, unable to determine old version
+[2023-05-16 11:37:24] INFO root fetch - processPackages [dismake]: Start processing: udata-front
+[2023-05-16 11:37:24] INFO root fetch - main [MainThread]: End processing [dismake] error
+[2023-05-16 11:37:24] INFO root fetch - processPackages [arctic]: New version: [1.9.0] Old Version: [1.81.2]
+[2023-05-16 11:37:24] INFO root fetch - processPackages [udata-front]: New version: [3.2.3.dev9974] Old Version: [3.2.3.dev10701]
+[2023-05-16 11:37:25] INFO root fetch - processPackages [otc-sphinx-directives]: Downloading https://files.pythonhosted.org/packages/de/ad/f0658c7fb90c7e2ed326f2eac6f41029e9e2cb6f277e0f8f3ce69152fd3c/otc_sphinx_directives-0.2.2.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [premise-gwp]: Downloading https://files.pythonhosted.org/packages/a7/26/0fd076ea0b71c52ccf3a3cc9a3c8d357a948b7dd62aff5d7940baa8ca665/premise_gwp-0.7.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/19/2d/fccb5a68acf3f0e2b2b35653619657ec59addb3132d1babe92fa61461939/giant-redirect-import-0.1.0.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [arctic]: Downloading https://files.pythonhosted.org/packages/af/4f/7a1f08835490d1787388a11d2e700b3ed48d31fa3b7410a12dc222f2a395/arctic-1.81.2.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [bgrm]: Downloading https://files.pythonhosted.org/packages/d5/b4/0334e3545f46c5a6df5336e758167722ab9176ddc603e9068d3d6c1c5011/bgrm-8.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/4c/db/2edfa129f57c081115d9ed6277117dad5d6107d53841e3269bdbc816d696/scrapere-0.1.5.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [ccpem-utils]: Downloading https://files.pythonhosted.org/packages/28/ef/2fadc871f695378f40d8a5af23a883fce8f7b1eea3c54116bbd51e708bfd/ccpem_utils-0.0.1.dev8.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [lbcollage]: Downloading https://files.pythonhosted.org/packages/54/a0/4de04fe80f2b7d641e4587686e97d3f186248cb15a0b5ef03628394f9e1e/lbcollage-0.1.1.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [otc-sphinx-directives]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [otc-sphinx-directives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otc_sphinx_directives-0.2.1.tar.gz tmp/otc_sphinx_directives-0.2.2.tar.gz --markdown 20230516/o/otc-sphinx-directives/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/92/8a/241db87dc0224c3ecc704591df112b43aafa048f3618435264e7231a720d/udata_front-3.2.3.dev10701-py2.py3-none-any.whl
+[2023-05-16 11:37:25] INFO root fetch - processPackages [EOxServer]: Downloading https://files.pythonhosted.org/packages/8f/91/0ca954c69b38183472d8f4c216d899430e6d84d0a2530c043209f283253e/EOxServer-1.2.9.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/06/ba/714c3ec3047d770889798c9c2d36889ec755168970765a0a68d220708231/giant_redirect_import-0.2.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [premise-gwp]: Downloading https://files.pythonhosted.org/packages/93/f4/c4ee039c83ac6479644bc0f2e7442909a63894dcb000ea096d0350d2dadc/premise_gwp-0.8.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [lbcollage]: Downloading https://files.pythonhosted.org/packages/98/6d/bd40f73543bc592810a60d0961bed6934f91a60796da34b63e2d2e3e7110/lbcollage-0.1.2.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [arctic]: Downloading https://files.pythonhosted.org/packages/1b/89/a7e7baff147397ef2385fd1795400aefe1a149a13e46c9eb4350a4d35193/arctic-1.9.0.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/cd/06/f450a1cf0af7321894c608b066a03863ae4254840a49282f472eb44d1010/scrapere-0.1.6.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.3.dev10701-py2.py3-none-any.whl.zip tmp/udata_front-3.2.3.dev9974-py2.py3-none-any.whl.zip --markdown 20230516/u/udata-front/3.2.3.dev10701-3.2.3.dev9974/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [bgrm]: Downloading https://files.pythonhosted.org/packages/bc/c1/2fb94a4391819fa5fb17f32b4a127deb2ae6af864972a43e53f2cef1e0f1/bgrm-9.tar.gz
+[2023-05-16 11:37:25] INFO root fetch - processPackages [premise-gwp]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [premise-gwp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/premise_gwp-0.7.tar.gz tmp/premise_gwp-0.8.tar.gz --markdown 20230516/p/premise-gwp/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [giant-redirect-import]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [giant-redirect-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant-redirect-import-0.1.0.tar.gz tmp/giant_redirect_import-0.2.tar.gz --markdown 20230516/g/giant-redirect-import/0.1.0-0.2/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.5.tar.gz tmp/scrapere-0.1.6.tar.gz --markdown 20230516/s/scrapere/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [lbcollage]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [lbcollage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbcollage-0.1.1.tar.gz tmp/lbcollage-0.1.2.tar.gz --markdown 20230516/l/lbcollage/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [arctic]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [arctic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctic-1.81.2.tar.gz tmp/arctic-1.9.0.tar.gz --markdown 20230516/a/arctic/1.81.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [bgrm]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [bgrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgrm-8.tar.gz tmp/bgrm-9.tar.gz --markdown 20230516/b/bgrm/8-9/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [EOxServer]: executing diffoscope
+[2023-05-16 11:37:25] INFO root fetch - processPackages [EOxServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EOxServer-1.2.8.tar.gz tmp/EOxServer-1.2.9.tar.gz --markdown 20230516/E/EOxServer/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-16 11:37:25] INFO root fetch - processPackages [ccpem-utils]: Downloading https://files.pythonhosted.org/packages/4e/6d/3501aaba0ccbd3a2387ee204c009b9dffd42e3701b620715388af67f3cf5/ccpem_utils-0.0.1.dev9.tar.gz
+[2023-05-16 11:37:26] INFO root fetch - processPackages [ccpem-utils]: executing diffoscope
+[2023-05-16 11:37:26] INFO root fetch - processPackages [ccpem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpem_utils-0.0.1.dev8.tar.gz tmp/ccpem_utils-0.0.1.dev9.tar.gz --markdown 20230516/c/ccpem-utils/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-16 11:37:27] INFO root fetch - processPackages [giant-redirect-import]: Start processing: asociita
+[2023-05-16 11:37:27] INFO root fetch - main [MainThread]: End processing [giant-redirect-import]: success
+[2023-05-16 11:37:27] INFO root fetch - processPackages [lbcollage]: Start processing: django-mathtext
+[2023-05-16 11:37:27] INFO root fetch - main [MainThread]: End processing [lbcollage]: success
+[2023-05-16 11:37:27] INFO root fetch - processPackages [asociita]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 11:37:27] INFO root fetch - processPackages [otc-sphinx-directives]: Start processing: mecord-cli
+[2023-05-16 11:37:27] INFO root fetch - main [MainThread]: End processing [otc-sphinx-directives]: success
+[2023-05-16 11:37:27] WARNING root fetch - processPackages [django-mathtext]: Skipping, unable to determine old version
+[2023-05-16 11:37:27] INFO root fetch - processPackages [django-mathtext]: Start processing: langchain-serve
+[2023-05-16 11:37:27] INFO root fetch - main [MainThread]: End processing [django-mathtext] error
+[2023-05-16 11:37:27] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-16 11:37:27] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 11:37:27] INFO root fetch - processPackages [bgrm]: Start processing: prometheus-http-sd
+[2023-05-16 11:37:27] INFO root fetch - main [MainThread]: End processing [bgrm]: success
+[2023-05-16 11:37:27] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-16 11:37:27] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230516/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 11:37:27] INFO root fetch - processPackages [asociita]: Downloading https://files.pythonhosted.org/packages/b8/5a/b0f10a0ebcaa990114a28a8b0f731c810b376051678e8c2dfeca7e3f5be6/asociita-0.1.3.tar.gz
+[2023-05-16 11:37:27] INFO root fetch - processPackages [prometheus-http-sd]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-16 11:37:27] INFO root fetch - processPackages [premise-gwp]: Start processing: aihandler
+[2023-05-16 11:37:27] INFO root fetch - main [MainThread]: End processing [premise-gwp]: success
+[2023-05-16 11:37:27] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-05-16 11:37:27] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.1.2.tar.gz tmp/asociita-0.1.3.tar.gz --markdown 20230516/a/asociita/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 11:37:27] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-16 11:37:27] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/ca/cd/96a7a05dc18295e7f98d8812eb844a34e8ca41e43c25193aadd395c36751/prometheus_http_sd-1.2.2.tar.gz
+[2023-05-16 11:37:27] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-05-16 11:37:27] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230516/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 11:37:27] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-05-16 11:37:27] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230516/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-16 11:37:27] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/91/5a/4309569909f5996521bbdd00b747d1b5efcfec7f0dea88102aa9814c8456/prometheus_http_sd-1.2.3.tar.gz
+[2023-05-16 11:37:28] INFO root fetch - processPackages [prometheus-http-sd]: executing diffoscope
+[2023-05-16 11:37:28] INFO root fetch - processPackages [prometheus-http-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_http_sd-1.2.2.tar.gz tmp/prometheus_http_sd-1.2.3.tar.gz --markdown 20230516/p/prometheus-http-sd/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-16 11:37:28] INFO root fetch - main [MainThread]: End processing [arctic]: success
+[2023-05-16 11:37:28] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-05-16 11:37:29] INFO root fetch - main [MainThread]: End processing [prometheus-http-sd]: success
+[2023-05-16 11:37:29] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-05-16 11:37:29] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-16 11:37:29] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-05-16 11:37:30] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-16 11:37:31] INFO root fetch - main [MainThread]: End processing [ccpem-utils]: success
+[2023-05-16 11:37:34] INFO root fetch - main [MainThread]: End processing [EOxServer]: success
+[2023-05-16 11:37:54] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-05-16 11:37:54] INFO root fetch - main [MainThread]: Store serial: [18121143]
