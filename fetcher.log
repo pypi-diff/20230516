@@ -8095,3 +8095,80 @@
 [2023-05-16 06:10:27] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
 [2023-05-16 06:11:03] INFO root fetch - main [MainThread]: End processing [tiktokapipy]: success
 [2023-05-16 06:11:03] INFO root fetch - main [MainThread]: Store serial: [18118107]
+[2023-05-16 06:16:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118107]
+[2023-05-16 06:16:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pip-RCE
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lealnumeros
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeno-sliceline
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-serve
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blackprint-engine
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-ddmrp
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SeisMonitor
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-serve
+[2023-05-16 06:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-index
+[2023-05-16 06:16:12] INFO root fetch - processPackages [lealnumeros]: New version: [0.0.4] Old Version: [0.0.3.1]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [pip-RCE]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [SeisMonitor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [blackprint-engine]: New version: [0.8.15] Old Version: [0.8.14]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [zeno-sliceline]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [gpt-index]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-16 06:16:12] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-16 06:16:12] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230516/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 06:16:12] INFO root fetch - processPackages [pip-RCE]: Downloading https://files.pythonhosted.org/packages/96/2f/8a7e9f6092f6dcee10661ebfc24292f550e9661b43007483229c7883bd9f/pip-RCE-0.0.1.tar.gz
+[2023-05-16 06:16:12] INFO root fetch - processPackages [SeisMonitor]: executing diffoscope
+[2023-05-16 06:16:12] INFO root fetch - processPackages [SeisMonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeisMonitor-0.0.8.tar.gz tmp/SeisMonitor-0.0.9.tar.gz --markdown 20230516/S/SeisMonitor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 06:16:12] INFO root fetch - processPackages [lealnumeros]: Downloading https://files.pythonhosted.org/packages/e8/6d/a22c388cac8c55ce4caa1001d3bebccb86f7d6abaca85e713c9ab326a286/lealnumeros-0.0.3.1.tar.gz
+[2023-05-16 06:16:12] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-16 06:16:12] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230516/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 06:16:12] INFO root fetch - processPackages [zeno-sliceline]: Downloading https://files.pythonhosted.org/packages/1c/61/2fb35ce3b2c920fa154519c1251897220b69fb4cff9fb3fb28c1b54b58d4/zeno_sliceline-0.0.0.tar.gz
+[2023-05-16 06:16:12] INFO root fetch - processPackages [blackprint-engine]: Downloading https://files.pythonhosted.org/packages/16/61/930e0f320697b089ddff631bfc19b5753976634363a29d7abebb036e505e/blackprint_engine-0.8.14-py3-none-any.whl
+[2023-05-16 06:16:12] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/dc/95/950a4a2a5a258222e5237488d199eb7d07de47b5f5c6474af8b60e6a7a69/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl
+[2023-05-16 06:16:13] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-05-16 06:16:13] INFO root fetch - processPackages [pip-RCE]: Downloading https://files.pythonhosted.org/packages/ba/62/42b0636743786d253242e51dfbfa2cb67b88613993d7c0872cf2ead47ef1/pip-RCE-0.0.2.tar.gz
+[2023-05-16 06:16:13] INFO root fetch - processPackages [zeno-sliceline]: Downloading https://files.pythonhosted.org/packages/3f/34/3aa6051078db1b164d977056158ffaad74e7711fbe5eeb21779973129cb5/zeno_sliceline-0.0.1.tar.gz
+[2023-05-16 06:16:13] INFO root fetch - processPackages [lealnumeros]: Downloading https://files.pythonhosted.org/packages/c1/83/f7adc37d6ab0536e66671c2036cd1566b04ce304c3a5f30bb82c3ec1bcf7/lealnumeros-0.0.4.tar.gz
+[2023-05-16 06:16:13] INFO root fetch - processPackages [pip-RCE]: executing diffoscope
+[2023-05-16 06:16:13] INFO root fetch - processPackages [pip-RCE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-RCE-0.0.1.tar.gz tmp/pip-RCE-0.0.2.tar.gz --markdown 20230516/p/pip-RCE/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 06:16:13] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-16 06:16:13] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230516/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-16 06:16:13] INFO root fetch - processPackages [zeno-sliceline]: executing diffoscope
+[2023-05-16 06:16:13] INFO root fetch - processPackages [zeno-sliceline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeno_sliceline-0.0.0.tar.gz tmp/zeno_sliceline-0.0.1.tar.gz --markdown 20230516/z/zeno-sliceline/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-16 06:16:13] INFO root fetch - processPackages [blackprint-engine]: Downloading https://files.pythonhosted.org/packages/d0/93/8c3786346c0686ddde38f02b8de9e33759d06ca6aa1b5f53add7172b6a7f/blackprint_engine-0.8.15-py3-none-any.whl
+[2023-05-16 06:16:13] INFO root fetch - processPackages [odoo13-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/5a/f1/e682a43d6521ca41456243a79d1e5d7102f586e0b44f357ad5a1b8a40965/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl
+[2023-05-16 06:16:13] INFO root fetch - processPackages [lealnumeros]: executing diffoscope
+[2023-05-16 06:16:13] INFO root fetch - processPackages [lealnumeros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lealnumeros-0.0.3.1.tar.gz tmp/lealnumeros-0.0.4.tar.gz --markdown 20230516/l/lealnumeros/0.0.3.1-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 06:16:13] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-16 06:16:13] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.7.tar.gz tmp/gpt_index-0.6.8.tar.gz --markdown 20230516/g/gpt-index/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-16 06:16:13] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-05-16 06:16:13] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230516/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-16 06:16:13] INFO root fetch - processPackages [blackprint-engine]: executing diffoscope
+[2023-05-16 06:16:13] INFO root fetch - processPackages [blackprint-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackprint_engine-0.8.14-py3-none-any.whl.zip tmp/blackprint_engine-0.8.15-py3-none-any.whl.zip --markdown 20230516/b/blackprint-engine/0.8.14-0.8.15/diff.md --exclude *.pyd
+[2023-05-16 06:16:14] INFO root fetch - processPackages [SeisMonitor]: Start processing: odoo9-addon-stock-picking-delivery-rate
+[2023-05-16 06:16:14] INFO root fetch - main [MainThread]: End processing [SeisMonitor]: success
+[2023-05-16 06:16:14] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-05-16 06:16:14] INFO root fetch - processPackages [pip-RCE]: Start processing: llama-index
+[2023-05-16 06:16:14] INFO root fetch - main [MainThread]: End processing [pip-RCE]: success
+[2023-05-16 06:16:14] INFO root fetch - processPackages [llama-index]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-16 06:16:14] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: Downloading https://files.pythonhosted.org/packages/13/3e/1e02bc52891611aef9895c01429bf9c59eef1bb912ca2fb9d889c4db1974/odoo9_addon_stock_picking_delivery_rate-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-16 06:16:14] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-16 06:16:14] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-05-16 06:16:14] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: Downloading https://files.pythonhosted.org/packages/d1/a0/aafb1da2b69af800ce222beeb8b279289990f80d99807d856451583b6e27/odoo9_addon_stock_picking_delivery_rate-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-16 06:16:14] INFO root fetch - main [MainThread]: End processing [lealnumeros]: success
+[2023-05-16 06:16:14] INFO root fetch - main [MainThread]: End processing [zeno-sliceline]: success
+[2023-05-16 06:16:14] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: executing diffoscope
+[2023-05-16 06:16:14] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_picking_delivery_rate-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_stock_picking_delivery_rate-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230516/o/odoo9-addon-stock-picking-delivery-rate/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-16 06:16:15] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-16 06:16:15] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.7.tar.gz tmp/llama_index-0.6.8.tar.gz --markdown 20230516/l/llama-index/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-16 06:16:15] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-16 06:16:15] INFO root fetch - main [MainThread]: End processing [blackprint-engine]: success
+[2023-05-16 06:16:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-05-16 06:16:16] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-picking-delivery-rate]: success
+[2023-05-16 06:16:18] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-16 06:16:18] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-16 06:16:18] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-16 06:16:18] INFO root fetch - main [MainThread]: Store serial: [18118141]
