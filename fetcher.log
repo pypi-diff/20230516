@@ -9224,3 +9224,62 @@
 [2023-05-16 07:50:02] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2023-05-16 07:50:21] INFO root fetch - main [MainThread]: End processing [baldertest]: success
 [2023-05-16 07:50:21] INFO root fetch - main [MainThread]: Store serial: [18118794]
+[2023-05-16 07:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118794]
+[2023-05-16 07:55:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-consul
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sadonion
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypipr
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-review
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-bgp
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ant1Interface
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-cloudflare
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: covalent-cloud
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: depthcharge-ms
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fern-seam
+[2023-05-16 07:55:30] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.16.0rc0]
+[2023-05-16 07:55:30] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-05-16 07:55:30] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.2.0a1684191600] Old Version: [5.2.0a1684190677]
+[2023-05-16 07:55:30] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-16 07:55:30] INFO root fetch - processPackages [fern-seam]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 07:55:30] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-05-16 07:55:30] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.2.0a1684190677.tar.gz tmp/pulumi_cloudflare-5.2.0a1684191600.tar.gz --markdown 20230516/p/pulumi-cloudflare/5.2.0a1684190677-5.2.0a1684191600/diff.md --exclude *.pyd
+[2023-05-16 07:55:30] INFO root fetch - processPackages [gpt-review]: New version: [0.9.1rc773.post1] Old Version: [0.9.1rc762.post1]
+[2023-05-16 07:55:30] WARNING root fetch - processPackages [sadonion]: Skipping, unable to determine old version
+[2023-05-16 07:55:30] INFO root fetch - processPackages [sadonion]: Start processing: ht2
+[2023-05-16 07:55:30] INFO root fetch - main [MainThread]: End processing [sadonion] error
+[2023-05-16 07:55:30] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-16 07:55:30] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.85.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230516/p/pypipr/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 07:55:30] INFO root fetch - processPackages [netbox-bgp]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-16 07:55:30] INFO root fetch - processPackages [depthcharge-ms]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-16 07:55:31] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1684214643] Old Version: [3.9.0a1683783480]
+[2023-05-16 07:55:31] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-05-16 07:55:31] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230516/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 07:55:31] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-05-16 07:55:31] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.16.0rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230516/c/covalent-cloud/0.16.0rc0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-05-16 07:55:31] WARNING root fetch - processPackages [ht2]: Skipping, unable to determine old version
+[2023-05-16 07:55:31] INFO root fetch - main [MainThread]: End processing [ht2] error
+[2023-05-16 07:55:31] INFO root fetch - processPackages [fern-seam]: Downloading https://files.pythonhosted.org/packages/f6/13/795f57e79c8a53e054ed667aae2b7d9dcbe886eb1eb09d37dbc51aa27102/fern_seam-0.0.9.tar.gz
+[2023-05-16 07:55:31] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/a9/9c/0fff07995fbb3ba7cb63620c8e26f25c67ae1365f98a841ba34ead553dc2/gpt_review-0.9.1rc773.post1.tar.gz
+[2023-05-16 07:55:31] INFO root fetch - processPackages [fern-seam]: executing diffoscope
+[2023-05-16 07:55:31] INFO root fetch - processPackages [fern-seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_seam-0.0.8.tar.gz tmp/fern_seam-0.0.9.tar.gz --markdown 20230516/f/fern-seam/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 07:55:31] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-16 07:55:31] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.1rc762.post1.tar.gz tmp/gpt_review-0.9.1rc773.post1.tar.gz --markdown 20230516/g/gpt-review/0.9.1rc762.post1-0.9.1rc773.post1/diff.md --exclude *.pyd
+[2023-05-16 07:55:31] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/c2/3a/adbd410f426cb734862604e219598759cff0815f2750b9724311cf2a17e2/depthcharge-ms-0.2.2.tar.gz
+[2023-05-16 07:55:31] INFO root fetch - processPackages [netbox-bgp]: executing diffoscope
+[2023-05-16 07:55:31] INFO root fetch - processPackages [netbox-bgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-bgp-0.8.1.tar.gz tmp/netbox-bgp-0.9.0.tar.gz --markdown 20230516/n/netbox-bgp/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 07:55:31] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/5b/25/c829e2ae37bbcb9fbceaa322001da7ee507f1611ff54c5beec145a7900b4/pulumi_consul-3.9.0a1683783480.tar.gz
+[2023-05-16 07:55:31] INFO root fetch - processPackages [depthcharge-ms]: executing diffoscope
+[2023-05-16 07:55:31] INFO root fetch - processPackages [depthcharge-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthcharge-ms-0.2.1.tar.gz tmp/depthcharge-ms-0.2.2.tar.gz --markdown 20230516/d/depthcharge-ms/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-16 07:55:31] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/79/2b/c23063ab846775df0b7f2ccf75533b8a1211e7c015d2884dbf20d9dfd0ea/pulumi_consul-3.9.0a1684214643.tar.gz
+[2023-05-16 07:55:31] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2023-05-16 07:55:31] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1683783480.tar.gz tmp/pulumi_consul-3.9.0a1684214643.tar.gz --markdown 20230516/p/pulumi-consul/3.9.0a1683783480-3.9.0a1684214643/diff.md --exclude *.pyd
+[2023-05-16 07:55:32] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-16 07:55:32] INFO root fetch - main [MainThread]: End processing [fern-seam]: success
+[2023-05-16 07:55:32] INFO root fetch - main [MainThread]: End processing [netbox-bgp]: success
+[2023-05-16 07:55:32] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-05-16 07:55:33] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-05-16 07:55:33] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
+[2023-05-16 07:55:33] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-16 07:55:33] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2023-05-16 07:55:34] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-05-16 07:55:34] INFO root fetch - main [MainThread]: Store serial: [18118835]
