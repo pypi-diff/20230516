@@ -22350,3 +22350,52 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 18:33:54] INFO root fetch - main [MainThread]: End processing [deeplake]: success
 [2023-05-16 18:33:57] INFO root fetch - main [MainThread]: End processing [simses]: success
 [2023-05-16 18:33:57] INFO root fetch - main [MainThread]: Store serial: [18126466]
+[2023-05-16 18:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18126466]
+[2023-05-16 18:39:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dkist-processing-visp
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-generation
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airoboros
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-pygame
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: methodflow
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: livesolid
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ethhelper
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neulabs-cdk-constructs
+[2023-05-16 18:39:07] INFO root fetch - processPackages [livesolid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 18:39:07] INFO root fetch - processPackages [airoboros]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-16 18:39:07] INFO root fetch - processPackages [dkist-processing-visp]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ethhelper]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-16 18:39:07] INFO root fetch - processPackages [text-generation]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-16 18:39:07] INFO root fetch - processPackages [neulabs-cdk-constructs]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-16 18:39:07] INFO root fetch - processPackages [simple-pygame]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 18:39:07] WARNING root fetch - processPackages [methodflow]: Skipping, unable to determine old version
+[2023-05-16 18:39:07] INFO root fetch - main [MainThread]: End processing [methodflow] error
+[2023-05-16 18:39:07] INFO root fetch - processPackages [neulabs-cdk-constructs]: executing diffoscope
+[2023-05-16 18:39:07] INFO root fetch - processPackages [neulabs-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulabs-cdk-constructs-0.3.4.tar.gz tmp/neulabs-cdk-constructs-0.3.5.tar.gz --markdown 20230516/n/neulabs-cdk-constructs/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-16 18:39:07] INFO root fetch - processPackages [text-generation]: Downloading https://files.pythonhosted.org/packages/26/0f/3a70beceb4565f9bce9bbec6350c285f9d737b6823d08239aa5823788f8e/text-generation-0.5.1.tar.gz
+[2023-05-16 18:39:07] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/ad/e2/e34258f1ee0aa3cda7e273cc17ae58140ebf5ffdedf1f785be67b73a5015/dkist_processing_visp-2.1.1.tar.gz
+[2023-05-16 18:39:07] INFO root fetch - processPackages [livesolid]: executing diffoscope
+[2023-05-16 18:39:07] INFO root fetch - processPackages [livesolid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livesolid-0.0.8.tar.gz tmp/livesolid-0.0.9.tar.gz --markdown 20230516/l/livesolid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 18:39:07] INFO root fetch - processPackages [simple-pygame]: Downloading https://files.pythonhosted.org/packages/36/8f/289daa4d6e9cfd22ffaeebce99eb6f6a614016a3f2ad5026e805232da373/simple_pygame-0.0.4.tar.gz
+[2023-05-16 18:39:07] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/5d/9e/b1b4995c293b8185942c315a8a2326c99f1d2a265933f8050ed10564dab6/airoboros-0.2.7.tar.gz
+[2023-05-16 18:39:07] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-05-16 18:39:07] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-0.2.6.tar.gz tmp/airoboros-0.2.7.tar.gz --markdown 20230516/a/airoboros/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-16 18:39:07] INFO root fetch - processPackages [text-generation]: Downloading https://files.pythonhosted.org/packages/49/72/90c245467a88cc3b65ea4a5fa1c5e7ed3ee17a4c44542256584183c59dc2/text-generation-0.5.2.tar.gz
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ethhelper]: Downloading https://files.pythonhosted.org/packages/68/bc/b204fe5106b3748ccd84bcf2fd1e2164b575cafa2cedefa6f7113c9c8b9d/ethhelper-0.4.1.tar.gz
+[2023-05-16 18:39:07] INFO root fetch - processPackages [text-generation]: executing diffoscope
+[2023-05-16 18:39:07] INFO root fetch - processPackages [text-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-generation-0.5.1.tar.gz tmp/text-generation-0.5.2.tar.gz --markdown 20230516/t/text-generation/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-16 18:39:07] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/02/54/877e90b51990f5f5d5ff1b346e8761fb326e311daa2f8da0d0ad57ab7527/dkist_processing_visp-2.2.0.tar.gz
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ethhelper]: executing diffoscope
+[2023-05-16 18:39:07] INFO root fetch - processPackages [ethhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethhelper-0.4.0.tar.gz tmp/ethhelper-0.4.1.tar.gz --markdown 20230516/e/ethhelper/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-16 18:39:07] INFO root fetch - processPackages [simple-pygame]: Downloading https://files.pythonhosted.org/packages/02/6c/9da0e91bbebed6523b083ca63d4f9e1270638cf24a178f9214667aa1353d/simple_pygame-0.0.5.tar.gz
+[2023-05-16 18:39:07] INFO root fetch - processPackages [dkist-processing-visp]: executing diffoscope
+[2023-05-16 18:39:07] INFO root fetch - processPackages [dkist-processing-visp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_visp-2.1.1.tar.gz tmp/dkist_processing_visp-2.2.0.tar.gz --markdown 20230516/d/dkist-processing-visp/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-16 18:39:07] INFO root fetch - processPackages [simple-pygame]: executing diffoscope
+[2023-05-16 18:39:07] INFO root fetch - processPackages [simple-pygame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_pygame-0.0.4.tar.gz tmp/simple_pygame-0.0.5.tar.gz --markdown 20230516/s/simple-pygame/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 18:39:08] INFO root fetch - main [MainThread]: End processing [text-generation]: success
+[2023-05-16 18:39:08] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
+[2023-05-16 18:39:08] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-05-16 18:39:08] INFO root fetch - main [MainThread]: End processing [simple-pygame]: success
+[2023-05-16 18:39:09] INFO root fetch - main [MainThread]: End processing [livesolid]: success
+[2023-05-16 18:39:09] INFO root fetch - main [MainThread]: End processing [ethhelper]: success
+[2023-05-16 18:39:09] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
+[2023-05-16 18:39:09] INFO root fetch - main [MainThread]: Store serial: [18126492]
