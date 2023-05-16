@@ -7637,3 +7637,75 @@
 [2023-05-16 05:32:46] INFO root fetch - main [MainThread]: End processing [VSautomatic]: success
 [2023-05-16 05:32:47] INFO root fetch - main [MainThread]: End processing [HawaData]: success
 [2023-05-16 05:32:47] INFO root fetch - main [MainThread]: Store serial: [18117862]
+[2023-05-16 05:37:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117862]
+[2023-05-16 05:37:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Daystar
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SeisMonitor
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slicpy
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazi
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vule-magics
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meeple-cli
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-runtime
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AutoFun
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cnv-suite
+[2023-05-16 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jy-word
+[2023-05-16 05:37:56] INFO root fetch - processPackages [Daystar]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [vule-magics]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [lazi]: New version: [1.7.72] Old Version: [1.6.69]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [slicpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [AutoFun]: New version: [0.3.7] Old Version: [0.3.5]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [cnv-suite]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [meeple-cli]: New version: [0.1.0rc1] Old Version: [0.1.0b8]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [SeisMonitor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [jy-word]: New version: [1.69] Old Version: [1.68]
+[2023-05-16 05:37:56] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/fa/10/663449566e2be3d2483eb0f525ffd314f230d1c213be828a0b60c9b5c168/lazi-1.6.69.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [cnv-suite]: Downloading https://files.pythonhosted.org/packages/7b/ef/c014a65db3159bd22de848a1ec3b1b297dd8319b843c03b610b2d83b92f1/cnv_suite-0.1.1.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [meeple-cli]: Downloading https://files.pythonhosted.org/packages/31/e9/7e865c723a7365bdeec7e65faf9c5cba0cc2f83ce92ff953f52d0ccb7ed4/meeple-cli-0.1.0b8.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/a9/54/b274845138bd0e217a6f62e56a7f152b953fd360becfe054740304f25bc7/AutoFun-0.3.5.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [slicpy]: Downloading https://files.pythonhosted.org/packages/aa/78/fe756565b679e2c7e0b4d79ff39ac55890232fe3a3d6e9d7871246eb51fb/slicpy-0.0.8.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [vule-magics]: Downloading https://files.pythonhosted.org/packages/bc/67/fdb2bf7e1b4b71e74ac51335baf5283728f0455bf469b9c50d7ea9ed5168/vule_magics-1.1.1.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [Daystar]: Downloading https://files.pythonhosted.org/packages/16/dd/3a8b947c8cc4752a1040bbfdcc31a64fff10d9404a787a4d9175a3fdd04b/Daystar-0.0.3.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [jy-word]: Downloading https://files.pythonhosted.org/packages/93/41/0d426e4da66acc88293a2fa45c3e77aef3f8c5f7e4cdcbf22f9db8e894b5/jy-word-1.68.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [SeisMonitor]: executing diffoscope
+[2023-05-16 05:37:56] INFO root fetch - processPackages [SeisMonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeisMonitor-0.0.8.tar.gz tmp/SeisMonitor-0.0.9.tar.gz --markdown 20230516/S/SeisMonitor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 05:37:56] INFO root fetch - processPackages [vule-magics]: executing diffoscope
+[2023-05-16 05:37:56] INFO root fetch - processPackages [vule-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vule_magics-1.1.0.tar.gz tmp/vule_magics-1.1.1.tar.gz --markdown 20230516/v/vule-magics/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-16 05:37:56] INFO root fetch - processPackages [Daystar]: executing diffoscope
+[2023-05-16 05:37:56] INFO root fetch - processPackages [Daystar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Daystar-0.0.2.tar.gz tmp/Daystar-0.0.3.tar.gz --markdown 20230516/D/Daystar/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 05:37:56] INFO root fetch - processPackages [slicpy]: executing diffoscope
+[2023-05-16 05:37:56] INFO root fetch - processPackages [slicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slicpy-0.0.7.tar.gz tmp/slicpy-0.0.8.tar.gz --markdown 20230516/s/slicpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 05:37:56] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-05-16 05:37:56] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230516/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 05:37:56] INFO root fetch - processPackages [cnv-suite]: Downloading https://files.pythonhosted.org/packages/06/cf/e6862ab261ed416c7dbfc2aae0844ce6557940ccc3b3c34e4cbf0f4718d6/cnv_suite-0.1.2.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/2c/02/6fb04d2140f046aa3c052e36b23ac87d745625c31d552ae21a82b7882a6e/lazi-1.7.72.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [meeple-cli]: Downloading https://files.pythonhosted.org/packages/3d/61/2a2bb475519185dddeaeeb49b95a29339a1e8c662de24b33d1bde707d937/meeple_cli-0.1.0rc1.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-16 05:37:56] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.6.69.tar.gz tmp/lazi-1.7.72.tar.gz --markdown 20230516/l/lazi/1.6.69-1.7.72/diff.md --exclude *.pyd
+[2023-05-16 05:37:56] INFO root fetch - processPackages [cnv-suite]: executing diffoscope
+[2023-05-16 05:37:56] INFO root fetch - processPackages [cnv-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnv_suite-0.1.1.tar.gz tmp/cnv_suite-0.1.2.tar.gz --markdown 20230516/c/cnv-suite/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 05:37:56] INFO root fetch - processPackages [jy-word]: Downloading https://files.pythonhosted.org/packages/05/81/9a789725d86cac8c3412e99c271d7409fc96a6f1f0375cc6ef6816d1e93b/jy-word-1.69.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/15/00/8e8e2a69117da74a5ff8bd49ef01771ee37564a016aa302065a37587d800/AutoFun-0.3.7.tar.gz
+[2023-05-16 05:37:56] INFO root fetch - processPackages [meeple-cli]: executing diffoscope
+[2023-05-16 05:37:56] INFO root fetch - processPackages [meeple-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeple-cli-0.1.0b8.tar.gz tmp/meeple_cli-0.1.0rc1.tar.gz --markdown 20230516/m/meeple-cli/0.1.0b8-0.1.0rc1/diff.md --exclude *.pyd
+[2023-05-16 05:37:57] INFO root fetch - processPackages [AutoFun]: executing diffoscope
+[2023-05-16 05:37:57] INFO root fetch - processPackages [AutoFun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoFun-0.3.5.tar.gz tmp/AutoFun-0.3.7.tar.gz --markdown 20230516/A/AutoFun/0.3.5-0.3.7/diff.md --exclude *.pyd
+[2023-05-16 05:37:57] INFO root fetch - processPackages [jy-word]: executing diffoscope
+[2023-05-16 05:37:57] INFO root fetch - processPackages [jy-word]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy-word-1.68.tar.gz tmp/jy-word-1.69.tar.gz --markdown 20230516/j/jy-word/1.68-1.69/diff.md --exclude *.pyd
+[2023-05-16 05:37:58] INFO root fetch - processPackages [slicpy]: Start processing: myylearn
+[2023-05-16 05:37:58] INFO root fetch - main [MainThread]: End processing [slicpy]: success
+[2023-05-16 05:37:58] INFO root fetch - main [MainThread]: End processing [Daystar]: success
+[2023-05-16 05:37:58] INFO root fetch - processPackages [myylearn]: New version: [0.2.5.7] Old Version: [0.2.0]
+[2023-05-16 05:37:58] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-05-16 05:37:58] INFO root fetch - processPackages [myylearn]: Downloading https://files.pythonhosted.org/packages/e1/0e/2619f266dc8b2dd4bbae06d339842cfb409470a1f569a5bba0722f8b81b6/myylearn-0.2.5.7.tar.gz
+[2023-05-16 05:37:58] INFO root fetch - main [MainThread]: End processing [vule-magics]: success
+[2023-05-16 05:37:58] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-16 05:37:58] INFO root fetch - main [MainThread]: End processing [cnv-suite]: success
+[2023-05-16 05:37:58] INFO root fetch - processPackages [myylearn]: executing diffoscope
+[2023-05-16 05:37:58] INFO root fetch - processPackages [myylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myylearn-0.2.0.tar.gz tmp/myylearn-0.2.5.7.tar.gz --markdown 20230516/m/myylearn/0.2.0-0.2.5.7/diff.md --exclude *.pyd
+[2023-05-16 05:37:58] INFO root fetch - main [MainThread]: End processing [jy-word]: success
+[2023-05-16 05:37:59] INFO root fetch - main [MainThread]: End processing [SeisMonitor]: success
+[2023-05-16 05:37:59] INFO root fetch - main [MainThread]: End processing [meeple-cli]: success
+[2023-05-16 05:38:00] INFO root fetch - main [MainThread]: End processing [AutoFun]: success
+[2023-05-16 05:38:00] INFO root fetch - main [MainThread]: End processing [myylearn]: success
+[2023-05-16 05:38:00] INFO root fetch - main [MainThread]: Store serial: [18117892]
