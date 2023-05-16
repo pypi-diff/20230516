@@ -8341,3 +8341,55 @@
 [2023-05-16 06:27:19] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum-flashbots]: success
 [2023-05-16 06:27:37] INFO root fetch - main [MainThread]: End processing [zenoml]: success
 [2023-05-16 06:27:37] INFO root fetch - main [MainThread]: Store serial: [18118251]
+[2023-05-16 06:32:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118251]
+[2023-05-16 06:32:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-aea-ledger-solana
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-aea-ledger-fetchai
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypack-template
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backgroundremover
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stun-protocol
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowflake-connector-python-nightly
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ob-metaflow
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duy-book
+[2023-05-16 06:32:47] INFO root fetch - processPackages [duy-book]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-16 06:32:47] INFO root fetch - processPackages [open-aea-ledger-fetchai]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-05-16 06:32:47] INFO root fetch - processPackages [backgroundremover]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-16 06:32:47] WARNING root fetch - processPackages [pypack-template]: Skipping, unable to determine old version
+[2023-05-16 06:32:47] INFO root fetch - main [MainThread]: End processing [pypack-template] error
+[2023-05-16 06:32:47] INFO root fetch - processPackages [open-aea-ledger-solana]: New version: [1.34.0] Old Version: [1.33.0]
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ob-metaflow]: New version: [2.9.1.3] Old Version: [2.8.4.2]
+[2023-05-16 06:32:47] INFO root fetch - processPackages [stun-protocol]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 06:32:47] INFO root fetch - processPackages [duy-book]: executing diffoscope
+[2023-05-16 06:32:47] INFO root fetch - processPackages [duy-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duy-book-1.1.2.tar.gz tmp/duy-book-1.1.3.tar.gz --markdown 20230516/d/duy-book/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-16 06:32:47] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.5.3] Old Version: [2023.5.16]
+[2023-05-16 06:32:47] INFO root fetch - processPackages [open-aea-ledger-solana]: Downloading https://files.pythonhosted.org/packages/fe/63/759cad71d11c80b1ae771a36a3e75fd7b07c33b464b6fe53632e9d05b3a2/open-aea-ledger-solana-1.33.0.tar.gz
+[2023-05-16 06:32:47] INFO root fetch - processPackages [backgroundremover]: Downloading https://files.pythonhosted.org/packages/74/d8/010f937440f2a9828f8a2fffcded67713e5e13ee0e1fe3223aa37e89011a/backgroundremover-0.2.1.tar.gz
+[2023-05-16 06:32:47] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Downloading https://files.pythonhosted.org/packages/d3/7a/a66a5cc018ff6d37acfa3cd9b460fed2f2a5d5fc5d1f429183c1245dd818/open-aea-ledger-fetchai-1.9.0.tar.gz
+[2023-05-16 06:32:47] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/ac/64/167fd06a0de8968d4d014f2c557d71eba6275d95639446067fe36b056497/snowflake-connector-python-nightly-2023.5.16.tar.gz
+[2023-05-16 06:32:47] INFO root fetch - processPackages [stun-protocol]: Downloading https://files.pythonhosted.org/packages/30/6b/254e4d3571937e088d1aae869a2d49439f15f4c55b988b0d1c4fdfddd487/stun-protocol-0.0.4.tar.gz
+[2023-05-16 06:32:47] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/0f/ca/215e540106a73836da1a01a62f763314bd28829dcbd3519e5fa53e60ddb3/ob-metaflow-2.9.1.3.tar.gz
+[2023-05-16 06:32:48] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Downloading https://files.pythonhosted.org/packages/93/4a/2cf242698e247471b6846b556e0a78f7b682853d7234b5b9343510df0e98/open-aea-ledger-fetchai-1.9.0.post1.tar.gz
+[2023-05-16 06:32:48] INFO root fetch - processPackages [ob-metaflow]: executing diffoscope
+[2023-05-16 06:32:48] INFO root fetch - processPackages [ob-metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-2.8.4.2.tar.gz tmp/ob-metaflow-2.9.1.3.tar.gz --markdown 20230516/o/ob-metaflow/2.8.4.2-2.9.1.3/diff.md --exclude *.pyd
+[2023-05-16 06:32:48] INFO root fetch - processPackages [backgroundremover]: Downloading https://files.pythonhosted.org/packages/bf/20/06309f06c80a5a6de9d617574d469c79ed711a28048e5c596c4b0ab9b513/backgroundremover-0.2.2.tar.gz
+[2023-05-16 06:32:48] INFO root fetch - processPackages [stun-protocol]: Downloading https://files.pythonhosted.org/packages/c2/a3/30689425fb1cc10299dd1b238e9248936deaffe68af7e27443918e665ff3/stun-protocol-0.0.5.tar.gz
+[2023-05-16 06:32:48] INFO root fetch - processPackages [open-aea-ledger-solana]: Downloading https://files.pythonhosted.org/packages/c6/a8/791f339d03d993305160a0b7bdeefdf4ccffd6aef7598092e19cd870256e/open-aea-ledger-solana-1.34.0.tar.gz
+[2023-05-16 06:32:48] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/74/72/f8c906b350d21baa9c755f2c8d81891f20acaaa9f63270016dcbdb20d39c/snowflake-connector-python-nightly-2023.5.3.tar.gz
+[2023-05-16 06:32:48] INFO root fetch - processPackages [backgroundremover]: executing diffoscope
+[2023-05-16 06:32:48] INFO root fetch - processPackages [backgroundremover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backgroundremover-0.2.1.tar.gz tmp/backgroundremover-0.2.2.tar.gz --markdown 20230516/b/backgroundremover/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-16 06:32:48] INFO root fetch - processPackages [stun-protocol]: executing diffoscope
+[2023-05-16 06:32:48] INFO root fetch - processPackages [stun-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stun-protocol-0.0.4.tar.gz tmp/stun-protocol-0.0.5.tar.gz --markdown 20230516/s/stun-protocol/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 06:32:48] INFO root fetch - processPackages [open-aea-ledger-solana]: executing diffoscope
+[2023-05-16 06:32:48] INFO root fetch - processPackages [open-aea-ledger-solana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-solana-1.33.0.tar.gz tmp/open-aea-ledger-solana-1.34.0.tar.gz --markdown 20230516/o/open-aea-ledger-solana/1.33.0-1.34.0/diff.md --exclude *.pyd
+[2023-05-16 06:32:48] INFO root fetch - processPackages [open-aea-ledger-fetchai]: executing diffoscope
+[2023-05-16 06:32:48] INFO root fetch - processPackages [open-aea-ledger-fetchai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-fetchai-1.9.0.tar.gz tmp/open-aea-ledger-fetchai-1.9.0.post1.tar.gz --markdown 20230516/o/open-aea-ledger-fetchai/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-05-16 06:32:48] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-05-16 06:32:48] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.5.16.tar.gz tmp/snowflake-connector-python-nightly-2023.5.3.tar.gz --markdown 20230516/s/snowflake-connector-python-nightly/2023.5.16-2023.5.3/diff.md --exclude *.pyd
+[2023-05-16 06:32:48] INFO root fetch - main [MainThread]: End processing [duy-book]: success
+[2023-05-16 06:32:49] INFO root fetch - main [MainThread]: End processing [backgroundremover]: success
+[2023-05-16 06:32:49] INFO root fetch - main [MainThread]: End processing [stun-protocol]: success
+[2023-05-16 06:32:49] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-solana]: success
+[2023-05-16 06:32:50] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-05-16 06:32:50] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-fetchai]: success
+[2023-05-16 06:32:53] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
+[2023-05-16 06:32:53] INFO root fetch - main [MainThread]: Store serial: [18118345]
