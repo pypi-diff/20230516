@@ -17209,3 +17209,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 15:03:13] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
 [2023-05-16 15:03:18] INFO root fetch - main [MainThread]: End processing [cargo-zigbuild]: success
 [2023-05-16 15:03:18] INFO root fetch - main [MainThread]: Store serial: [18123569]
+[2023-05-16 15:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18123569]
+[2023-05-16 15:08:29] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: query-toolkits
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naclib
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynamer
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydisadm
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyskema
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aubaySamDeploy
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cliconfig
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cliconfig
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wwpdb.utils.nmr
+[2023-05-16 15:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-16 15:08:29] INFO root fetch - processPackages [pyskema]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-16 15:08:29] INFO root fetch - processPackages [naclib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 15:08:29] INFO root fetch - processPackages [cliconfig]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-05-16 15:08:29] INFO root fetch - processPackages [pydisadm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-16 15:08:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.15] Old Version: [2023.5.14]
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pynamer]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-16 15:08:30] INFO root fetch - processPackages [cliconfig]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pydisadm]: executing diffoscope
+[2023-05-16 15:08:30] WARNING root fetch - processPackages [aubaySamDeploy]: Skipping, unable to determine old version
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pydisadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisadm-1.0.2.tar.gz tmp/pydisadm-1.0.3.tar.gz --markdown 20230516/p/pydisadm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-16 15:08:30] INFO root fetch - processPackages [aubaySamDeploy]: Start processing: areixio
+[2023-05-16 15:08:30] INFO root fetch - main [MainThread]: End processing [aubaySamDeploy] error
+[2023-05-16 15:08:30] INFO root fetch - processPackages [query-toolkits]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-16 15:08:30] INFO root fetch - processPackages [wwpdb.utils.nmr]: New version: [0.26.2] Old Version: [0.26.1]
+[2023-05-16 15:08:30] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-16 15:08:30] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.6.3.tar.gz tmp/cliconfig-0.7.0.tar.gz --markdown 20230516/c/cliconfig/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-05-16 15:08:30] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-16 15:08:30] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.6.3.tar.gz tmp/cliconfig-0.7.0.tar.gz --markdown 20230516/c/cliconfig/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pyskema]: Downloading https://files.pythonhosted.org/packages/ef/53/f207d825660818f56c142a7e13b0c64fa8f9f8297e44fd330929fbb14e95/pyskema-0.4.0.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [naclib]: Downloading https://files.pythonhosted.org/packages/cd/93/51915ff5c9586ce571a43e8563b6105c8a8aeb0bfb52b88f5e00fd396f87/naclib-1.0.0.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-16 15:08:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/16/93/8ccf054b3e3801df3d65cb6696c689d65833f0e681e42865744fa429c0b6/fbgemm_gpu_nightly_cpu-2023.5.15-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-16 15:08:30] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/fa/d8/4a8318065e7fb49ebb061566d457495009a0e569391d9a1ac8cbd1e005f9/wwpdb.utils.nmr-0.26.1.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pyskema]: Downloading https://files.pythonhosted.org/packages/ae/ab/277a99d0aa50fc3c8675411d936f9f4bc9a9328bcbe45cd1d5780e8b3d60/pyskema-0.4.1.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/a4/90/b5aae634a5596e807c10554accff547e6fb815de50036ba2a60aabc47f7a/pynamer-1.2.0.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [naclib]: Downloading https://files.pythonhosted.org/packages/b3/22/b842b14bd5af9bc4348a51e37054258e9d341c49bfd2062fb227d4ec4425/naclib-1.0.1.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [query-toolkits]: Downloading https://files.pythonhosted.org/packages/e5/25/3fb026300155e7c54b56d45f949d8f11d1cbc81a388d30779f4dddcc36ef/query_toolkits-1.1.8.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pyskema]: executing diffoscope
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pyskema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyskema-0.4.0.tar.gz tmp/pyskema-0.4.1.tar.gz --markdown 20230516/p/pyskema/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-16 15:08:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-16 15:08:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.14-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.15-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230516/f/fbgemm-gpu-nightly-cpu/2023.5.14-2023.5.15/diff.md --exclude *.pyd
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pynamer]: executing diffoscope
+[2023-05-16 15:08:30] INFO root fetch - processPackages [pynamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamer-1.1.0.tar.gz tmp/pynamer-1.2.0.tar.gz --markdown 20230516/p/pynamer/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-16 15:08:30] INFO root fetch - processPackages [naclib]: executing diffoscope
+[2023-05-16 15:08:30] INFO root fetch - processPackages [naclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naclib-1.0.0.tar.gz tmp/naclib-1.0.1.tar.gz --markdown 20230516/n/naclib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 15:08:30] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/37/21/31783cc4bd2daa18063a0a91b566903deb2cd446a40ec268794ccd97a44a/wwpdb.utils.nmr-0.26.2.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-05-16 15:08:30] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230516/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 15:08:30] INFO root fetch - processPackages [query-toolkits]: Downloading https://files.pythonhosted.org/packages/66/d4/4e4f1561bb3776a9cdbcf55b1433856bec916153fb19f820e4e829b7a78a/query_toolkits-1.1.9.tar.gz
+[2023-05-16 15:08:30] INFO root fetch - processPackages [wwpdb.utils.nmr]: executing diffoscope
+[2023-05-16 15:08:30] INFO root fetch - processPackages [wwpdb.utils.nmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.nmr-0.26.1.tar.gz tmp/wwpdb.utils.nmr-0.26.2.tar.gz --markdown 20230516/w/wwpdb.utils.nmr/0.26.1-0.26.2/diff.md --exclude *.pyd
+[2023-05-16 15:08:31] INFO root fetch - processPackages [query-toolkits]: executing diffoscope
+[2023-05-16 15:08:31] INFO root fetch - processPackages [query-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/query_toolkits-1.1.8.tar.gz tmp/query_toolkits-1.1.9.tar.gz --markdown 20230516/q/query-toolkits/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-16 15:08:31] INFO root fetch - processPackages [pydisadm]: Start processing: epcis-event-hash-generator
+[2023-05-16 15:08:31] INFO root fetch - main [MainThread]: End processing [pydisadm]: success
+[2023-05-16 15:08:31] INFO root fetch - processPackages [epcis-event-hash-generator]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-16 15:08:31] INFO root fetch - processPackages [pyskema]: Start processing: CardGameBase
+[2023-05-16 15:08:31] INFO root fetch - main [MainThread]: End processing [pyskema]: success
+[2023-05-16 15:08:32] INFO root fetch - processPackages [CardGameBase]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 15:08:32] INFO root fetch - processPackages [epcis-event-hash-generator]: Downloading https://files.pythonhosted.org/packages/02/d5/08a5613bf50699980773613f581d0c77d1d985ae97e6c699d788103eeb09/epcis-event-hash-generator-1.8.0.tar.gz
+[2023-05-16 15:08:32] INFO root fetch - processPackages [naclib]: Start processing: QX-jdcal
+[2023-05-16 15:08:32] INFO root fetch - main [MainThread]: End processing [naclib]: success
+[2023-05-16 15:08:32] INFO root fetch - processPackages [CardGameBase]: Downloading https://files.pythonhosted.org/packages/ef/84/7af79082c3bd94b26bd5e4d245f1678aa39f6ab8da9bb7caafa62cfddb3d/CardGameBase-1.0.0.tar.gz
+[2023-05-16 15:08:32] WARNING root fetch - processPackages [QX-jdcal]: Skipping, unable to determine old version
+[2023-05-16 15:08:32] INFO root fetch - processPackages [QX-jdcal]: Start processing: nbdev-stdlib
+[2023-05-16 15:08:32] INFO root fetch - main [MainThread]: End processing [QX-jdcal] error
+[2023-05-16 15:08:32] INFO root fetch - processPackages [epcis-event-hash-generator]: Downloading https://files.pythonhosted.org/packages/2c/6f/3d8c4085b5fec6d023f9bd600af14a642df2857c4b14b59283ac74bec424/epcis-event-hash-generator-1.9.0.tar.gz
+[2023-05-16 15:08:32] INFO root fetch - processPackages [cliconfig]: Start processing: woe-scoring
+[2023-05-16 15:08:32] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-16 15:08:32] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:08:32] INFO root fetch - processPackages [woe-scoring]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 15:08:32] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-16 15:08:32] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230516/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:08:32] INFO root fetch - processPackages [epcis-event-hash-generator]: executing diffoscope
+[2023-05-16 15:08:32] INFO root fetch - processPackages [epcis-event-hash-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epcis-event-hash-generator-1.8.0.tar.gz tmp/epcis-event-hash-generator-1.9.0.tar.gz --markdown 20230516/e/epcis-event-hash-generator/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-16 15:08:32] INFO root fetch - processPackages [CardGameBase]: Downloading https://files.pythonhosted.org/packages/0a/99/f76ffa6b0dc009b9b4f9aeba77ca3ea014910889ece35460efe909cb142d/CardGameBase-1.0.1.tar.gz
+[2023-05-16 15:08:32] INFO root fetch - processPackages [pynamer]: Start processing: dataset-tools
+[2023-05-16 15:08:32] INFO root fetch - main [MainThread]: End processing [pynamer]: success
+[2023-05-16 15:08:32] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2023-05-16 15:08:32] INFO root fetch - processPackages [CardGameBase]: executing diffoscope
+[2023-05-16 15:08:32] INFO root fetch - processPackages [CardGameBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CardGameBase-1.0.0.tar.gz tmp/CardGameBase-1.0.1.tar.gz --markdown 20230516/C/CardGameBase/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 15:08:32] INFO root fetch - processPackages [woe-scoring]: Downloading https://files.pythonhosted.org/packages/67/25/58876a56184523e57ade700c83810d516cfbe738bfbe52e7f7f76f9ee0d8/woe_scoring-0.8.0.tar.gz
+[2023-05-16 15:08:32] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2023-05-16 15:08:32] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.3.tar.gz tmp/dataset-tools-0.0.3.1.tar.gz --markdown 20230516/d/dataset-tools/0.0.3-0.0.3.1/diff.md --exclude *.pyd
+[2023-05-16 15:08:32] INFO root fetch - processPackages [woe-scoring]: Downloading https://files.pythonhosted.org/packages/5c/33/00fd7f2d8f8d603aa62affd65598ff1b3c60f6b9dae2245f164e3575fa71/woe_scoring-0.9.0.tar.gz
+[2023-05-16 15:08:33] INFO root fetch - processPackages [woe-scoring]: executing diffoscope
+[2023-05-16 15:08:33] INFO root fetch - processPackages [woe-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_scoring-0.8.0.tar.gz tmp/woe_scoring-0.9.0.tar.gz --markdown 20230516/w/woe-scoring/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 15:08:33] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: remotemanager
+[2023-05-16 15:08:33] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-16 15:08:33] INFO root fetch - processPackages [remotemanager]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-16 15:08:33] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-05-16 15:08:33] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.5.8.tar.gz tmp/remotemanager-0.5.9.tar.gz --markdown 20230516/r/remotemanager/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-16 15:08:33] INFO root fetch - main [MainThread]: End processing [epcis-event-hash-generator]: success
+[2023-05-16 15:08:33] INFO root fetch - main [MainThread]: End processing [CardGameBase]: success
+[2023-05-16 15:08:34] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-16 15:08:34] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2023-05-16 15:08:34] INFO root fetch - main [MainThread]: End processing [woe-scoring]: success
+[2023-05-16 15:08:34] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-05-16 15:08:35] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-16 15:08:38] INFO root fetch - main [MainThread]: End processing [query-toolkits]: success
+[2023-05-16 15:08:40] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.nmr]: success
+[2023-05-16 15:08:44] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-05-16 15:08:44] INFO root fetch - main [MainThread]: Store serial: [18123623]
