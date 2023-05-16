@@ -6445,3 +6445,90 @@
 [2023-05-16 03:39:24] INFO root fetch - main [MainThread]: End processing [callingcardstools]: success
 [2023-05-16 03:39:36] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2023-05-16 03:39:36] INFO root fetch - main [MainThread]: Store serial: [18117234]
+[2023-05-16 03:44:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117234]
+[2023-05-16 03:44:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow-providers-sktvane
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchility
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-scipy
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-shell-craft
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-sphinx
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplyfire
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xbingx-user
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecidacli
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proactive
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-lambda-layer-wget
+[2023-05-16 03:44:45] INFO root fetch - processPackages [ecidacli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 03:44:45] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-16 03:44:45] INFO root fetch - processPackages [simplyfire]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-16 03:44:45] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 03:44:45] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-16 03:44:46] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-16 03:44:46] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 03:44:46] INFO root fetch - processPackages [openai-shell-craft]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-16 03:44:46] INFO root fetch - processPackages [torchility]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-16 03:44:46] WARNING root fetch - processPackages [xbingx-user]: Skipping, unable to determine old version
+[2023-05-16 03:44:46] INFO root fetch - processPackages [xbingx-user]: Start processing: nbdev-django
+[2023-05-16 03:44:46] INFO root fetch - main [MainThread]: End processing [xbingx-user] error
+[2023-05-16 03:44:46] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 03:44:46] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-16 03:44:46] INFO root fetch - processPackages [proactive]: Start processing: ats-ckonlpy
+[2023-05-16 03:44:46] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-16 03:44:46] INFO root fetch - processPackages [simplyfire]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [simplyfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplyfire-0.5.1.tar.gz tmp/simplyfire-0.5.2.tar.gz --markdown 20230516/s/simplyfire/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 03:44:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230516/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [ecidacli]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [ecidacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecidacli-0.0.8.tar.gz tmp/ecidacli-0.0.9.tar.gz --markdown 20230516/e/ecidacli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [ats-ckonlpy]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-05-16 03:44:46] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230516/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/4c/87/6eb7b1b8c79b645e1e68d4be70585e75a85fa33137286944d951031144c2/apache-airflow-providers-sktvane-0.1.2.tar.gz
+[2023-05-16 03:44:46] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230516/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/d5/da/c71bdd2ac73d2a59a82db5358e1ec917ae6919536814564ef58883dc78de/openai_shell_craft-0.8.0.tar.gz
+[2023-05-16 03:44:46] INFO root fetch - processPackages [ats-ckonlpy]: Downloading https://files.pythonhosted.org/packages/bc/28/d16dd7f62ba4da26dcfd670684f907d8daaeecf8dbd3fecb5fa5f38a2195/ats_ckonlpy-0.0.2.tar.gz
+[2023-05-16 03:44:46] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.6.8.tar.gz tmp/torchility-0.6.9.tar.gz --markdown 20230516/t/torchility/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [openai-shell-craft]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [openai-shell-craft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_shell_craft-0.7.1.tar.gz tmp/openai_shell_craft-0.8.0.tar.gz --markdown 20230516/o/openai-shell-craft/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230516/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.1.1.tar.gz tmp/apache-airflow-providers-sktvane-0.1.2.tar.gz --markdown 20230516/a/apache-airflow-providers-sktvane/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 03:44:46] INFO root fetch - processPackages [ats-ckonlpy]: Downloading https://files.pythonhosted.org/packages/44/bd/87b8cc3a9fcabd5f5e5c65d403beba36dd533e5e3ab056936154ace094bc/ats_ckonlpy-1.0.0.tar.gz
+[2023-05-16 03:44:46] INFO root fetch - processPackages [ats-ckonlpy]: executing diffoscope
+[2023-05-16 03:44:46] INFO root fetch - processPackages [ats-ckonlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_ckonlpy-0.0.2.tar.gz tmp/ats_ckonlpy-1.0.0.tar.gz --markdown 20230516/a/ats-ckonlpy/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-16 03:44:47] INFO root fetch - processPackages [ecidacli]: Start processing: nbdev-apl
+[2023-05-16 03:44:47] INFO root fetch - main [MainThread]: End processing [ecidacli]: success
+[2023-05-16 03:44:47] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.775] Old Version: [0.0.774]
+[2023-05-16 03:44:47] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Start processing: einsum-pipe
+[2023-05-16 03:44:47] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-16 03:44:48] INFO root fetch - processPackages [einsum-pipe]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-16 03:44:48] INFO root fetch - processPackages [simplyfire]: Start processing: proactive-jupyter-kernel
+[2023-05-16 03:44:48] INFO root fetch - main [MainThread]: End processing [simplyfire]: success
+[2023-05-16 03:44:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-16 03:44:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-16 03:44:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230516/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-16 03:44:48] INFO root fetch - processPackages [einsum-pipe]: executing diffoscope
+[2023-05-16 03:44:48] INFO root fetch - processPackages [einsum-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einsum_pipe-0.0.1.tar.gz tmp/einsum_pipe-0.1.0.tar.gz --markdown 20230516/e/einsum-pipe/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-16 03:44:48] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: s2aff
+[2023-05-16 03:44:48] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-16 03:44:48] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/6e/72/47385eeae75895e9f3b2467d6d56288882dcd2779f6b9af4517383a8717b/nbdev-apl-0.0.775.tar.gz
+[2023-05-16 03:44:48] INFO root fetch - processPackages [s2aff]: New version: [0.37] Old Version: [0.36]
+[2023-05-16 03:44:48] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-16 03:44:48] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-16 03:44:48] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.774.tar.gz tmp/nbdev-apl-0.0.775.tar.gz --markdown 20230516/n/nbdev-apl/0.0.774-0.0.775/diff.md --exclude *.pyd
+[2023-05-16 03:44:48] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/0c/aa/14953e3ddd3d9363b8105188a547a3d1ad723e045d46f7232d1a28d895db/s2aff-0.37.tar.gz
+[2023-05-16 03:44:48] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-05-16 03:44:48] INFO root fetch - main [MainThread]: End processing [openai-shell-craft]: success
+[2023-05-16 03:44:48] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-05-16 03:44:48] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-16 03:44:48] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.36.tar.gz tmp/s2aff-0.37.tar.gz --markdown 20230516/s/s2aff/0.36-0.37/diff.md --exclude *.pyd
+[2023-05-16 03:44:49] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-16 03:44:49] INFO root fetch - main [MainThread]: End processing [einsum-pipe]: success
+[2023-05-16 03:44:49] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-16 03:44:49] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-16 03:44:49] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-16 03:44:51] INFO root fetch - main [MainThread]: End processing [ats-ckonlpy]: success
+[2023-05-16 03:44:51] INFO root fetch - main [MainThread]: Store serial: [18117289]
