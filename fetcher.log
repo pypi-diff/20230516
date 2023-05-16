@@ -12482,3 +12482,137 @@
 [2023-05-16 10:48:21] INFO root fetch - main [MainThread]: End processing [renku]: success
 [2023-05-16 10:48:23] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-16 10:48:23] INFO root fetch - main [MainThread]: Store serial: [18120586]
+[2023-05-16 10:53:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120586]
+[2023-05-16 10:53:33] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azureml-acft-accelerator
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-acft-common-components
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-acft-contrib-hf-diffusion
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-acft-contrib-hf-nlp
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azureml-acft-image-components
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureml-evaluate-mlflow
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azureml-metrics
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiorobonect
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docbuild
+[2023-05-16 10:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bambooai
+[2023-05-16 10:53:33] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:53:33] INFO root fetch - processPackages [azureml-acft-common-components]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:53:33] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:53:33] INFO root fetch - processPackages [azureml-acft-accelerator]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:53:33] INFO root fetch - processPackages [aiorobonect]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 10:53:33] INFO root fetch - processPackages [azureml-acft-image-components]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:53:33] INFO root fetch - processPackages [azureml-metrics]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:53:33] INFO root fetch - processPackages [bambooai]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-16 10:53:33] INFO root fetch - processPackages [docbuild]: New version: [0.1.109] Old Version: [0.1.108]
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-evaluate-mlflow]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 10:53:34] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/c4/b0/2f5178cc6f5c0e1dff97044aca5baf4359db8d02cd98ae24789e564e989b/aiorobonect-0.1.4.tar.gz
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-common-components]: Downloading https://files.pythonhosted.org/packages/1b/69/79c753b95642820059ac6078e8d3304c534d5fb1670b39f2979261b8e8e5/azureml_acft_common_components-0.0.8-py3-none-any.whl
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Downloading https://files.pythonhosted.org/packages/b3/e4/d85f7a1a243a906f8c0c1337e73e9679cc506d3cacd07e2751e7fe7db717/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: Downloading https://files.pythonhosted.org/packages/c6/b4/92fe2844600ef202ad1bfb17d785a9983adaed2ba8c40362e8d46f44641f/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-image-components]: Downloading https://files.pythonhosted.org/packages/54/14/b21660f0894f00e8b252c21c555bfa0f0d81cb9c5e21a5d0558cef89779c/azureml_acft_image_components-0.0.8-py3-none-any.whl
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-common-components]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-common-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_common_components-0.0.7-py3-none-any.whl.zip tmp/azureml_acft_common_components-0.0.8-py3-none-any.whl.zip --markdown 20230516/a/azureml-acft-common-components/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_diffusion-0.0.7-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_diffusion-0.0.8-py3-none-any.whl.zip --markdown 20230516/a/azureml-acft-contrib-hf-diffusion/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/3d/b0/422a764d714983f14248337463eb78995e2369f913f8e5101b916e26c825/bambooai-0.2.2.tar.gz
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-accelerator]: Downloading https://files.pythonhosted.org/packages/7e/ef/bae82174f8ae37679572ec1080feac58efa577918ab6594b2b38d1113bcd/azureml_acft_accelerator-0.0.8-py3-none-any.whl
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-metrics]: Downloading https://files.pythonhosted.org/packages/ab/8d/c00408ae3f836d5caab609c4e0207687802fba036c489afd1de05df60ee8/azureml_metrics-0.0.8-py3-none-any.whl
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-image-components]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-image-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_image_components-0.0.7-py3-none-any.whl.zip tmp/azureml_acft_image_components-0.0.8-py3-none-any.whl.zip --markdown 20230516/a/azureml-acft-image-components/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-contrib-hf-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_contrib_hf_nlp-0.0.7-py3-none-any.whl.zip tmp/azureml_acft_contrib_hf_nlp-0.0.8-py3-none-any.whl.zip --markdown 20230516/a/azureml-acft-contrib-hf-nlp/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.2.1.tar.gz tmp/bambooai-0.2.2.tar.gz --markdown 20230516/b/bambooai/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Downloading https://files.pythonhosted.org/packages/bf/82/f2b5cca48caac7cedb5d44dff46c9fbcc32c3cde13444bead6d5aacb0c43/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-accelerator]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-acft-accelerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_acft_accelerator-0.0.7-py3-none-any.whl.zip tmp/azureml_acft_accelerator-0.0.8-py3-none-any.whl.zip --markdown 20230516/a/azureml-acft-accelerator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [aiorobonect]: Downloading https://files.pythonhosted.org/packages/01/ab/81db7ce17e348b20afc3e66d5dd7972be8f727d2f5bb5caeee7f1fd627f1/aiorobonect-0.1.5.tar.gz
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-metrics]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_metrics-0.0.7-py3-none-any.whl.zip tmp/azureml_metrics-0.0.8-py3-none-any.whl.zip --markdown 20230516/a/azureml-metrics/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [aiorobonect]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [aiorobonect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorobonect-0.1.4.tar.gz tmp/aiorobonect-0.1.5.tar.gz --markdown 20230516/a/aiorobonect/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-evaluate-mlflow]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [azureml-evaluate-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_evaluate_mlflow-0.0.7-py3-none-any.whl.zip tmp/azureml_evaluate_mlflow-0.0.8-py3-none-any.whl.zip --markdown 20230516/a/azureml-evaluate-mlflow/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 10:53:34] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/0a/8b/e631d05913afcce94682ffc5b0f80b005c77b7ac08eaef89818b9b913f0e/docbuild-0.1.109.tar.gz
+[2023-05-16 10:53:34] INFO root fetch - processPackages [docbuild]: executing diffoscope
+[2023-05-16 10:53:34] INFO root fetch - processPackages [docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docbuild-0.1.108.tar.gz tmp/docbuild-0.1.109.tar.gz --markdown 20230516/d/docbuild/0.1.108-0.1.109/diff.md --exclude *.pyd
+[2023-05-16 10:53:36] INFO root fetch - processPackages [bambooai]: Start processing: jcloud
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-05-16 10:53:36] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev3] Old Version: [0.2.8.dev2]
+[2023-05-16 10:53:36] INFO root fetch - processPackages [azureml-acft-accelerator]: Start processing: bagbag
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [azureml-acft-accelerator]: success
+[2023-05-16 10:53:36] INFO root fetch - processPackages [aiorobonect]: Start processing: pymysqlite
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [aiorobonect]: success
+[2023-05-16 10:53:36] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-16 10:53:36] WARNING root fetch - processPackages [pymysqlite]: Skipping, unable to determine old version
+[2023-05-16 10:53:36] INFO root fetch - processPackages [pymysqlite]: Start processing: EdiHeadyTrack
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [pymysqlite] error
+[2023-05-16 10:53:36] INFO root fetch - processPackages [EdiHeadyTrack]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 10:53:36] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/fc/79/107880da9c6034efd3b45399d840b2f621a56a1cbe10ae5a7ffec5da4052/jcloud-0.2.8.dev2.tar.gz
+[2023-05-16 10:53:36] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-16 10:53:36] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230516/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-16 10:53:36] INFO root fetch - processPackages [azureml-acft-common-components]: Start processing: gpterminal
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [azureml-acft-common-components]: success
+[2023-05-16 10:53:36] INFO root fetch - processPackages [gpterminal]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 10:53:36] INFO root fetch - processPackages [docbuild]: Start processing: localstack
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [docbuild]: success
+[2023-05-16 10:53:36] INFO root fetch - processPackages [localstack]: New version: [2.0.3.dev20230516084829] Old Version: [2.0.2]
+[2023-05-16 10:53:36] INFO root fetch - processPackages [EdiHeadyTrack]: Downloading https://files.pythonhosted.org/packages/ed/79/35b6d20035f8c4ec464d40b03a04fe37f82b03f6d8377fec68b537f23f2a/EdiHeadyTrack-0.0.5.tar.gz
+[2023-05-16 10:53:36] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-05-16 10:53:36] INFO root fetch - processPackages [gpterminal]: Downloading https://files.pythonhosted.org/packages/0f/5e/504b8d21c65452a7df64217a710cfe296fb1f4e1a2dde0bbe4716472a8a4/gpterminal-0.1.3.tar.gz
+[2023-05-16 10:53:36] INFO root fetch - processPackages [EdiHeadyTrack]: executing diffoscope
+[2023-05-16 10:53:36] INFO root fetch - processPackages [EdiHeadyTrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdiHeadyTrack-0.0.4.tar.gz tmp/EdiHeadyTrack-0.0.5.tar.gz --markdown 20230516/E/EdiHeadyTrack/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 10:53:36] INFO root fetch - processPackages [azureml-evaluate-mlflow]: Start processing: PyRvcTestA
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [azureml-evaluate-mlflow]: success
+[2023-05-16 10:53:36] WARNING root fetch - processPackages [PyRvcTestA]: Skipping, unable to determine old version
+[2023-05-16 10:53:36] INFO root fetch - processPackages [PyRvcTestA]: Start processing: localstack-ext
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [PyRvcTestA] error
+[2023-05-16 10:53:36] INFO root fetch - processPackages [localstack-ext]: New version: [2.0.3.dev20230516084829] Old Version: [2.0.2]
+[2023-05-16 10:53:36] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/a6/97/1b6102bdc5b7d4922b73ffd2c7acecf537ba928880abb5207f4610039f97/localstack-2.0.2.tar.gz
+[2023-05-16 10:53:36] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-05-16 10:53:36] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.8.dev2.tar.gz tmp/jcloud-0.2.9.dev3.tar.gz --markdown 20230516/j/jcloud/0.2.8.dev2-0.2.9.dev3/diff.md --exclude *.pyd
+[2023-05-16 10:53:36] INFO root fetch - processPackages [gpterminal]: executing diffoscope
+[2023-05-16 10:53:36] INFO root fetch - processPackages [gpterminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpterminal-0.1.2.tar.gz tmp/gpterminal-0.1.3.tar.gz --markdown 20230516/g/gpterminal/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 10:53:36] INFO root fetch - processPackages [azureml-metrics]: Start processing: odoo12-addon-procurement-auto-create-group
+[2023-05-16 10:53:36] INFO root fetch - main [MainThread]: End processing [azureml-metrics]: success
+[2023-05-16 10:53:36] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-05-16 10:53:36] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/69/21/6d96de4770948f56f71a99a95f844fb651c064496363eeae600815341435/localstack-2.0.3.dev20230516084829.tar.gz
+[2023-05-16 10:53:37] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: Downloading https://files.pythonhosted.org/packages/bb/57/a76f152e753528b2ea0af551194ac498089a9d5f21be7ff8eaeda01ccd15/odoo12_addon_procurement_auto_create_group-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-16 10:53:37] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-05-16 10:53:37] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.0.2.tar.gz tmp/localstack-2.0.3.dev20230516084829.tar.gz --markdown 20230516/l/localstack/2.0.2-2.0.3.dev20230516084829/diff.md --exclude *.pyd
+[2023-05-16 10:53:37] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/f9/91/9acc7005e9e65bb47267ceaab901140e87bbf3f585cbd77cb249f1880be4/localstack-ext-2.0.2.tar.gz
+[2023-05-16 10:53:37] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/75/cb/bf0a64512e8710e982fdcb4148ebed0b74f18a6b5e29f6d64a8d9fa6c706/localstack-ext-2.0.3.dev20230516084829.tar.gz
+[2023-05-16 10:53:37] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: Downloading https://files.pythonhosted.org/packages/06/b9/25866fcd7b7741038bd9036778cd94e7bf8f1182bce81cd7f9a2b9398090/odoo12_addon_procurement_auto_create_group-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-05-16 10:53:37] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: executing diffoscope
+[2023-05-16 10:53:37] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_procurement_auto_create_group-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_procurement_auto_create_group-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-procurement-auto-create-group/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-16 10:53:37] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-05-16 10:53:37] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.0.2.tar.gz tmp/localstack-ext-2.0.3.dev20230516084829.tar.gz --markdown 20230516/l/localstack-ext/2.0.2-2.0.3.dev20230516084829/diff.md --exclude *.pyd
+[2023-05-16 10:53:37] INFO root fetch - processPackages [azureml-acft-image-components]: Start processing: polario
+[2023-05-16 10:53:37] INFO root fetch - main [MainThread]: End processing [azureml-acft-image-components]: success
+[2023-05-16 10:53:37] INFO root fetch - processPackages [polario]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-16 10:53:37] INFO root fetch - processPackages [EdiHeadyTrack]: Start processing: odoo12-addon-stock-request
+[2023-05-16 10:53:37] INFO root fetch - main [MainThread]: End processing [EdiHeadyTrack]: success
+[2023-05-16 10:53:37] INFO root fetch - processPackages [odoo12-addon-stock-request]: New version: [12.0.1.5.0.99.dev9] Old Version: [12.0.1.5.0.99.dev8]
+[2023-05-16 10:53:38] INFO root fetch - processPackages [azureml-acft-contrib-hf-diffusion]: Start processing: recon-lw
+[2023-05-16 10:53:38] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-diffusion]: success
+[2023-05-16 10:53:38] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4989843192] Old Version: [2.0.0.dev4989419599]
+[2023-05-16 10:53:38] INFO root fetch - processPackages [polario]: Downloading https://files.pythonhosted.org/packages/52/dd/cc200dfc0377f678424a6c86f34610cb62b4b3fa2d7a099ab510e7b4b55b/polario-0.2.2.tar.gz
+[2023-05-16 10:53:38] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-05-16 10:53:38] INFO root fetch - main [MainThread]: End processing [gpterminal]: success
+[2023-05-16 10:53:38] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/31/94/6941146d1bd6a78731203007f09cf73d2b59d8ebee6cc8b4810a367990a8/recon_lw-2.0.0.dev4989419599.tar.gz
+[2023-05-16 10:53:38] INFO root fetch - processPackages [polario]: Downloading https://files.pythonhosted.org/packages/9b/31/53935d61723baa8caca1b548b9ddd028ca695e2661a2f328af79078c59eb/polario-0.2.3.tar.gz
+[2023-05-16 10:53:38] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-05-16 10:53:38] INFO root fetch - processPackages [polario]: executing diffoscope
+[2023-05-16 10:53:38] INFO root fetch - processPackages [polario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polario-0.2.2.tar.gz tmp/polario-0.2.3.tar.gz --markdown 20230516/p/polario/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-16 10:53:38] INFO root fetch - processPackages [odoo12-addon-stock-request]: executing diffoscope
+[2023-05-16 10:53:38] INFO root fetch - processPackages [odoo12-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-stock-request/12.0.1.5.0.99.dev8-12.0.1.5.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-16 10:53:38] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/2f/aa/56640dec36ede28b5026b1191081a3863eb203d17bca537aaa2f1ce7f8f6/recon_lw-2.0.0.dev4989843192.tar.gz
+[2023-05-16 10:53:38] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-16 10:53:38] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4989419599.tar.gz tmp/recon_lw-2.0.0.dev4989843192.tar.gz --markdown 20230516/r/recon-lw/2.0.0.dev4989419599-2.0.0.dev4989843192/diff.md --exclude *.pyd
+[2023-05-16 10:53:38] INFO root fetch - main [MainThread]: End processing [azureml-acft-contrib-hf-nlp]: success
+[2023-05-16 10:53:39] INFO root fetch - main [MainThread]: End processing [odoo12-addon-procurement-auto-create-group]: success
+[2023-05-16 10:53:39] INFO root fetch - main [MainThread]: End processing [polario]: success
+[2023-05-16 10:53:40] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-request]: success
+[2023-05-16 10:53:40] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-16 10:53:47] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-05-16 10:54:14] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-16 10:54:14] INFO root fetch - main [MainThread]: Store serial: [18120652]
