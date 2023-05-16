@@ -3690,3 +3690,51 @@
 [2023-05-16 03:05:22] WARNING root fetch - processPackages [acc_provision]: Skipping package: exceeds size limit 10592210>=10485760
 [2023-05-16 03:05:22] INFO root fetch - main [MainThread]: End processing [acc_provision] error
 [2023-05-16 03:05:22] INFO root fetch - main [MainThread]: Store serial: [18115932]
+[2023-05-16 03:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18115932]
+[2023-05-16 03:10:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-16 03:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dinohub-seedwork-be
+[2023-05-16 03:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gameyamlspiderandgenerator
+[2023-05-16 03:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: image-processing-py
+[2023-05-16 03:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-pagerduty
+[2023-05-16 03:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formic-opcua
+[2023-05-16 03:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperliquid-python-sdk
+[2023-05-16 03:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tccli-intl-en
+[2023-05-16 03:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: s2aff
+[2023-05-16 03:10:31] INFO root fetch - processPackages [s2aff]: New version: [0.34] Old Version: [0.33]
+[2023-05-16 03:10:31] INFO root fetch - processPackages [formic-opcua]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-16 03:10:31] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-05-16 03:10:31] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 03:10:31] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-16 03:10:31] WARNING root fetch - processPackages [image-processing-py]: Skipping, unable to determine old version
+[2023-05-16 03:10:31] INFO root fetch - main [MainThread]: End processing [image-processing-py] error
+[2023-05-16 03:10:31] INFO root fetch - processPackages [hyperliquid-python-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 03:10:31] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-16 03:10:31] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/cd/6c/dbd6a28bf014c3b8b135d44219b82bbc5ef903dcc4e871c889fc3e339afc/s2aff-0.34.tar.gz
+[2023-05-16 03:10:31] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-05-16 03:10:31] INFO root fetch - processPackages [formic-opcua]: executing diffoscope
+[2023-05-16 03:10:31] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230516/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-05-16 03:10:31] INFO root fetch - processPackages [formic-opcua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formic_opcua-1.3.6.tar.gz tmp/formic_opcua-1.3.7.tar.gz --markdown 20230516/f/formic-opcua/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-16 03:10:31] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-05-16 03:10:31] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230516/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-16 03:10:32] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-16 03:10:32] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.33.tar.gz tmp/s2aff-0.34.tar.gz --markdown 20230516/s/s2aff/0.33-0.34/diff.md --exclude *.pyd
+[2023-05-16 03:10:32] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/b1/fe/ffe86a9ab190200e40d4fcf1c551b3c49a3a3f878a3621c4081c3a70e856/gameyamlspiderandgenerator-1.4.3.tar.gz
+[2023-05-16 03:10:32] INFO root fetch - processPackages [hyperliquid-python-sdk]: Downloading https://files.pythonhosted.org/packages/91/fd/5881aa36b2fff873764f4d80f2604b0771c724381dd61daeaa4b3cc7e456/hyperliquid_python_sdk-0.1.7.tar.gz
+[2023-05-16 03:10:32] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/4c/46/d1887f78ab55b1b70017664e8a938e6744c93233a84d21e028aea8a6a379/dinohub_seedwork_be-0.1.8.tar.gz
+[2023-05-16 03:10:32] INFO root fetch - processPackages [hyperliquid-python-sdk]: Downloading https://files.pythonhosted.org/packages/cd/91/c6491d8c2c1cf0d759caf8d184ca9fe3e80e28d4c6f027c98aaed5fe4f19/hyperliquid_python_sdk-0.1.8.tar.gz
+[2023-05-16 03:10:32] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/22/d0/32e7fc305ee378cf286fd347321479af053af0c8aad9500ce1ad594356a2/gameyamlspiderandgenerator-1.4.4.tar.gz
+[2023-05-16 03:10:32] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/c7/f0/83f951a0ce5587c272db2365405ce0774dee3aaa3ce05609cb806a402d92/dinohub_seedwork_be-0.1.9.tar.gz
+[2023-05-16 03:10:32] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-05-16 03:10:32] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230516/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 03:10:32] INFO root fetch - processPackages [hyperliquid-python-sdk]: executing diffoscope
+[2023-05-16 03:10:32] INFO root fetch - processPackages [hyperliquid-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperliquid_python_sdk-0.1.7.tar.gz tmp/hyperliquid_python_sdk-0.1.8.tar.gz --markdown 20230516/h/hyperliquid-python-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 03:10:32] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-05-16 03:10:32] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.4.3.tar.gz tmp/gameyamlspiderandgenerator-1.4.4.tar.gz --markdown 20230516/g/gameyamlspiderandgenerator/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-16 03:10:33] INFO root fetch - main [MainThread]: End processing [formic-opcua]: success
+[2023-05-16 03:10:33] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-16 03:10:33] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-05-16 03:10:33] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-05-16 03:10:34] INFO root fetch - main [MainThread]: End processing [hyperliquid-python-sdk]: success
+[2023-05-16 03:10:34] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-05-16 03:10:36] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-05-16 03:10:36] INFO root fetch - main [MainThread]: Store serial: [18115957]
