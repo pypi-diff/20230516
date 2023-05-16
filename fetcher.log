@@ -16623,3 +16623,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 14:29:45] INFO root fetch - main [MainThread]: End processing [dymoval]: success
 [2023-05-16 14:29:49] INFO root fetch - main [MainThread]: End processing [symbolic]: success
 [2023-05-16 14:29:49] INFO root fetch - main [MainThread]: Store serial: [18123194]
+[2023-05-16 14:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18123194]
+[2023-05-16 14:34:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dymoval
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyowletapi
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dan-build
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyworxcloud
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arxivai
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steamship-langchain
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openquake.engine
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyngres
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abu-package
+[2023-05-16 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asociita
+[2023-05-16 14:34:58] WARNING root fetch - processPackages [arxivai]: Skipping, unable to determine old version
+[2023-05-16 14:34:58] INFO root fetch - processPackages [arxivai]: Start processing: b2-utils
+[2023-05-16 14:34:58] INFO root fetch - main [MainThread]: End processing [arxivai] error
+[2023-05-16 14:34:58] INFO root fetch - processPackages [openquake.engine]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-05-16 14:34:58] INFO root fetch - processPackages [asociita]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-16 14:34:58] WARNING root fetch - processPackages [pyngres]: Skipping, unable to determine old version
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyngres]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-16 14:34:58] INFO root fetch - main [MainThread]: End processing [pyngres] error
+[2023-05-16 14:34:58] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230516.4.26.467828] Old Version: [20230516.11.6.538862]
+[2023-05-16 14:34:58] INFO root fetch - processPackages [dan-build]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-16 14:34:58] INFO root fetch - processPackages [asociita]: executing diffoscope
+[2023-05-16 14:34:58] INFO root fetch - processPackages [asociita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asociita-0.1.2.tar.gz tmp/asociita-0.1.3.tar.gz --markdown 20230516/a/asociita/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.9] Old Version: [2023.5.7]
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyworxcloud]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-05-16 14:34:58] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 14:34:58] WARNING root fetch - processPackages [abu-package]: Skipping, unable to determine old version
+[2023-05-16 14:34:58] INFO root fetch - main [MainThread]: End processing [abu-package] error
+[2023-05-16 14:34:58] INFO root fetch - processPackages [b2-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 14:34:58] INFO root fetch - processPackages [dymoval]: New version: [0.8.81] Old Version: [0.8.8]
+[2023-05-16 14:34:58] INFO root fetch - processPackages [openquake.engine]: Downloading https://files.pythonhosted.org/packages/cc/2f/fcd3bb66a4a074327bceeec194fd7a75fdcad2dc3a1d1a12a789421ea5f3/openquake.engine-3.8.1.tar.gz
+[2023-05-16 14:34:58] WARNING root fetch - processPackages [openquake.engine]: Skipping package: exceeds size limit 29973276>=10485760
+[2023-05-16 14:34:58] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/4a/2b/2557a749f4188523461f881b75dbd6e1ac06b75eb914ede742b01dea721d/certora-cli-alpha-jtoman-infinite-loop-fix-20230516.11.6.538862.tar.gz
+[2023-05-16 14:34:58] INFO root fetch - main [MainThread]: End processing [openquake.engine] error
+[2023-05-16 14:34:58] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/28/9b/7d30260ef422e30d955c8e4ebaea1b7da8fe8e82ed497d0e37cfe71a5062/steamship-langchain-0.0.8.tar.gz
+[2023-05-16 14:34:58] INFO root fetch - processPackages [b2-utils]: Downloading https://files.pythonhosted.org/packages/6e/72/68d41ed27990268a7cf3da296ac64e5ebe706998a380c798202ffe352831/b2-utils-0.1.8.tar.gz
+[2023-05-16 14:34:58] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 38975725>=10485760
+[2023-05-16 14:34:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/c9/c9/0e5f93a81a6d2a350f4fc737af8befc397fde88bcdf459fbee0a98245ad8/pyworxcloud-3.1.4.tar.gz
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.7.tar.gz tmp/pyowletapi-2023.5.9.tar.gz --markdown 20230516/p/pyowletapi/2023.5.7-2023.5.9/diff.md --exclude *.pyd
+[2023-05-16 14:34:58] INFO root fetch - processPackages [dan-build]: Downloading https://files.pythonhosted.org/packages/ed/f9/394545836e352ec444b5928aa094cea4c1da335b7a9fe9008d9c02cec99f/dan-build-0.2.0.tar.gz
+[2023-05-16 14:34:58] INFO root fetch - processPackages [dymoval]: executing diffoscope
+[2023-05-16 14:34:58] INFO root fetch - processPackages [dymoval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dymoval-0.8.8.tar.gz tmp/dymoval-0.8.81.tar.gz --markdown 20230516/d/dymoval/0.8.8-0.8.81/diff.md --exclude *.pyd
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/3e/0f/aa3e732cf20445f8a24616fff15c45fdf1292a4890e37ed2a2241a4ab5c0/pyworxcloud-3.1.5.tar.gz
+[2023-05-16 14:34:58] INFO root fetch - processPackages [steamship-langchain]: Downloading https://files.pythonhosted.org/packages/d3/e8/99fd7d90895f3d224f2fe3210c59f541a6187cc6e3aab13e92fa5e2da113/steamship-langchain-0.0.9.tar.gz
+[2023-05-16 14:34:58] INFO root fetch - processPackages [b2-utils]: Downloading https://files.pythonhosted.org/packages/a5/92/08ca3879762ed71294dc4b44ef249cc771e0225e104137e55e2aa3ebb7e8/b2-utils-0.1.9.tar.gz
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2023-05-16 14:34:58] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-3.1.4.tar.gz tmp/pyworxcloud-3.1.5.tar.gz --markdown 20230516/p/pyworxcloud/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-05-16 14:34:58] INFO root fetch - processPackages [dan-build]: executing diffoscope
+[2023-05-16 14:34:58] INFO root fetch - processPackages [dan-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dan-build-0.1.1.tar.gz tmp/dan-build-0.2.0.tar.gz --markdown 20230516/d/dan-build/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 14:34:59] INFO root fetch - processPackages [b2-utils]: executing diffoscope
+[2023-05-16 14:34:59] INFO root fetch - processPackages [b2-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2-utils-0.1.8.tar.gz tmp/b2-utils-0.1.9.tar.gz --markdown 20230516/b/b2-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 14:34:59] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-05-16 14:34:59] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230516/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 14:34:59] INFO root fetch - main [MainThread]: End processing [asociita]: success
+[2023-05-16 14:34:59] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-16 14:35:00] INFO root fetch - main [MainThread]: End processing [b2-utils]: success
+[2023-05-16 14:35:00] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2023-05-16 14:35:00] INFO root fetch - main [MainThread]: End processing [dymoval]: success
+[2023-05-16 14:35:00] INFO root fetch - main [MainThread]: End processing [dan-build]: success
+[2023-05-16 14:35:37] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-05-16 14:35:37] INFO root fetch - main [MainThread]: Store serial: [18123232]
