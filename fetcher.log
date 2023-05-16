@@ -9354,3 +9354,93 @@
 [2023-05-16 08:00:48] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-16 08:00:51] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2023-05-16 08:00:51] INFO root fetch - main [MainThread]: Store serial: [18118880]
+[2023-05-16 08:05:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118880]
+[2023-05-16 08:06:00] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jdkcal
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-minio
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moveFile
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-gereon-cert-2123-use-reset-assertions
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ApReusable
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-aiven
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kong
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: discotoolkit
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-hcloud
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.2.0a1684191618] Old Version: [6.2.0a1684187488]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [gpt-review]: New version: [0.9.1rc775.post1] Old Version: [0.9.1rc773.post1]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [moveFile]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.2.0a1684187488.tar.gz tmp/pulumi_aiven-6.2.0a1684191618.tar.gz --markdown 20230516/p/pulumi-aiven/6.2.0a1684187488-6.2.0a1684191618/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] ERROR root fetch - processPackages [Jdkcal]: Unable to get metadata: No such project 'Jdkcal'
+[2023-05-16 08:06:00] INFO root fetch - processPackages [Jdkcal]: Start processing: pulumi-github
+[2023-05-16 08:06:00] INFO root fetch - main [MainThread]: End processing [Jdkcal] error
+[2023-05-16 08:06:00] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2123-use-reset-assertions]: Skipping, unable to determine old version
+[2023-05-16 08:06:00] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2123-use-reset-assertions]: Start processing: pulumi-mailgun
+[2023-05-16 08:06:00] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2123-use-reset-assertions] error
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [discotoolkit]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [moveFile]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ApReusable]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [moveFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MoveFile-0.3.1.tar.gz tmp/MoveFile-0.3.2.tar.gz --markdown 20230516/m/moveFile/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1684215426] Old Version: [4.6.0a1683956030]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/75/e1/b85b15c65835f3e32bc0de2ab57ee91fdfc4dd57e217f70358ab8a3fb989/gpt_review-0.9.1rc775.post1.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1684215476] Old Version: [3.5.0a1683956182]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.0a1683752304] Old Version: [5.9.0a1683610445]
+[2023-05-16 08:06:00] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.1rc773.post1.tar.gz tmp/gpt_review-0.9.1rc775.post1.tar.gz --markdown 20230516/g/gpt-review/0.9.1rc773.post1-0.9.1rc775.post1/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/1e/28/0fb0764927c01110799dcfdf5bd00072977a96b71fd06adf1a39a09e3963/discotoolkit-1.0.7.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ApReusable]: Downloading https://files.pythonhosted.org/packages/01/6e/f10185e49495267ce7065e0e25fa3ef3af50384b28d660e1d8a542a8620e/ApReusable-1.3.1.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/b6/3b/48dc074080bc303234e70848d796b0567c22726e38ca1e7b207ca6bb2d81/pulumi_github-5.9.0a1683610445.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/4a/a9/67cc9e5d4f0054acefc702dcd2031ab361c2833320cbb300022915e0bb94/pulumi_kong-4.6.0a1684215426.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/78/0c/a0b6a3ead2d8cf6dd8b66610263bdea1ec0616fa1a72e0a39e3dd03eed95/discotoolkit-1.0.8.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1683956030.tar.gz tmp/pulumi_kong-4.6.0a1684215426.tar.gz --markdown 20230516/p/pulumi-kong/4.6.0a1683956030-4.6.0a1684215426/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ApReusable]: Downloading https://files.pythonhosted.org/packages/77/e8/c99f4508e26b0c49d54e1899e8bdce418aae2f35dcfc37aada9b70a3ebaa/ApReusable-1.3.2.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/0c/11/75bbd52c596f08a3a9cd8ffc2a4a9fae49d8778a5ebc41f16dbdbb5b9075/pulumi_mailgun-3.5.0a1684215476.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-05-16 08:06:00] INFO root fetch - processPackages [discotoolkit]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [discotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotoolkit-1.0.7.tar.gz tmp/discotoolkit-1.0.8.tar.gz --markdown 20230516/d/discotoolkit/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230516/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ApReusable]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [ApReusable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ApReusable-1.3.1.tar.gz tmp/ApReusable-1.3.2.tar.gz --markdown 20230516/A/ApReusable/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230516/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1683956182.tar.gz tmp/pulumi_mailgun-3.5.0a1684215476.tar.gz --markdown 20230516/p/pulumi-mailgun/3.5.0a1683956182-3.5.0a1684215476/diff.md --exclude *.pyd
+[2023-05-16 08:06:00] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-05-16 08:06:01] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-05-16 08:06:01] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683610445.tar.gz tmp/pulumi_github-5.9.0a1683752304.tar.gz --markdown 20230516/p/pulumi-github/5.9.0a1683610445-5.9.0a1683752304/diff.md --exclude *.pyd
+[2023-05-16 08:06:01] INFO root fetch - processPackages [moveFile]: Start processing: xia-gpt
+[2023-05-16 08:06:01] INFO root fetch - main [MainThread]: End processing [moveFile]: success
+[2023-05-16 08:06:01] WARNING root fetch - processPackages [xia-gpt]: Skipping, unable to determine old version
+[2023-05-16 08:06:01] INFO root fetch - processPackages [xia-gpt]: Start processing: pulumi-fastly
+[2023-05-16 08:06:01] INFO root fetch - main [MainThread]: End processing [xia-gpt] error
+[2023-05-16 08:06:01] INFO root fetch - processPackages [pulumi-fastly]: New version: [7.4.0a1684173919] Old Version: [7.4.0a1683784083]
+[2023-05-16 08:06:02] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-05-16 08:06:02] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-7.4.0a1683784083.tar.gz tmp/pulumi_fastly-7.4.0a1684173919.tar.gz --markdown 20230516/p/pulumi-fastly/7.4.0a1683784083-7.4.0a1684173919/diff.md --exclude *.pyd
+[2023-05-16 08:06:02] INFO root fetch - processPackages [pulumi-kong]: Start processing: traversaal
+[2023-05-16 08:06:02] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2023-05-16 08:06:02] INFO root fetch - processPackages [traversaal]: New version: [0.6970] Old Version: [0.6960]
+[2023-05-16 08:06:02] INFO root fetch - processPackages [traversaal]: executing diffoscope
+[2023-05-16 08:06:02] INFO root fetch - processPackages [traversaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traversaal-0.6960-py3-none-any.whl.zip tmp/traversaal-0.6970-py3-none-any.whl.zip --markdown 20230516/t/traversaal/0.6960-0.6970/diff.md --exclude *.pyd
+[2023-05-16 08:06:02] INFO root fetch - processPackages [ApReusable]: Start processing: ApReusable
+[2023-05-16 08:06:02] INFO root fetch - main [MainThread]: End processing [ApReusable]: success
+[2023-05-16 08:06:02] INFO root fetch - processPackages [ApReusable]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-16 08:06:02] INFO root fetch - processPackages [ApReusable]: executing diffoscope
+[2023-05-16 08:06:02] INFO root fetch - processPackages [ApReusable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ApReusable-1.3.1.tar.gz tmp/ApReusable-1.3.2.tar.gz --markdown 20230516/A/ApReusable/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-16 08:06:02] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-05-16 08:06:02] INFO root fetch - main [MainThread]: End processing [discotoolkit]: success
+[2023-05-16 08:06:02] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-05-16 08:06:02] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-16 08:06:03] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-05-16 08:06:03] INFO root fetch - main [MainThread]: End processing [traversaal]: success
+[2023-05-16 08:06:03] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-05-16 08:06:03] INFO root fetch - main [MainThread]: End processing [ApReusable]: success
+[2023-05-16 08:06:03] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-05-16 08:06:04] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-05-16 08:06:04] INFO root fetch - main [MainThread]: Store serial: [18118929]
