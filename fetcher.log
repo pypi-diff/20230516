@@ -16780,3 +16780,135 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 14:41:06] INFO root fetch - main [MainThread]: End processing [highspy]: success
 [2023-05-16 14:41:23] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2023-05-16 14:41:23] INFO root fetch - main [MainThread]: Store serial: [18123315]
+[2023-05-16 14:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18123315]
+[2023-05-16 14:46:38] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-exasol
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SecretManagerCredentials
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pasec
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-exasol
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taskbase
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpcflow-new2
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ecida
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biocolabsdk
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: subtitles-translator
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [biocolabsdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [subtitles-translator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-16 14:46:38] WARNING root fetch - processPackages [SecretManagerCredentials]: Skipping, unable to determine old version
+[2023-05-16 14:46:38] INFO root fetch - processPackages [SecretManagerCredentials]: Start processing: netbox-app-systems
+[2023-05-16 14:46:38] INFO root fetch - main [MainThread]: End processing [SecretManagerCredentials] error
+[2023-05-16 14:46:38] WARNING root fetch - processPackages [pasec]: Skipping, unable to determine old version
+[2023-05-16 14:46:38] INFO root fetch - processPackages [pasec]: Start processing: pymisp
+[2023-05-16 14:46:38] INFO root fetch - main [MainThread]: End processing [pasec] error
+[2023-05-16 14:46:38] INFO root fetch - processPackages [taskbase]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [netbox-app-systems]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [biocolabsdk]: executing diffoscope
+[2023-05-16 14:46:38] INFO root fetch - processPackages [biocolabsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocolabsdk-1.0.3.tar.gz tmp/biocolabsdk-1.0.4.tar.gz --markdown 20230516/b/biocolabsdk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230516/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-16 14:46:38] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-05-16 14:46:38] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20230516/e/ecida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 14:46:38] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230516/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-05-16 14:46:38] INFO root fetch - processPackages [subtitles-translator]: Downloading https://files.pythonhosted.org/packages/36/40/3a2237340584cb1b0c8bc9f76da70e08aa4f6758e2fed811d35f6cd91ff5/subtitles_translator-0.0.1.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [pymisp]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-05-16 14:46:38] INFO root fetch - processPackages [taskbase]: Downloading https://files.pythonhosted.org/packages/a0/27/177137bae57340e9bb43639472251e479d66a8cd9d4d8be63666da761fb2/taskbase-0.1.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/4f/fe/74c6f08bfed4f6e2d0df76543237da012dbe54a8045499bcd84ba215b134/dbt_exasol-1.4.0.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [netbox-app-systems]: Downloading https://files.pythonhosted.org/packages/1c/50/60d67f022ebb9f34861287551ac2a3d0a444cb9cfa72637b52d756de9cf0/netbox-app-systems-0.2.7.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/4f/fe/74c6f08bfed4f6e2d0df76543237da012dbe54a8045499bcd84ba215b134/dbt_exasol-1.4.0.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [pymisp]: Downloading https://files.pythonhosted.org/packages/32/19/f2d78346e3750b7467c1e65c2260eacb925199f89b4c2184ab360e413770/pymisp-2.4.98.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [taskbase]: Downloading https://files.pythonhosted.org/packages/91/72/746d1a701c01bea9496a56a5f38d74482ec4a869b01832897e842756d73c/taskbase-0.1.1.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/3f/08/0c946bd0b87af86083ad1571e7a0a079ec79919948a68af8bf647dff4e27/dbt_exasol-1.4.1.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [subtitles-translator]: Downloading https://files.pythonhosted.org/packages/c5/20/bbbe268e0c4277f7029d0110abd492c0dcfb37cada33344134f4ff459a73/subtitles_translator-0.0.2.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: Downloading https://files.pythonhosted.org/packages/3f/08/0c946bd0b87af86083ad1571e7a0a079ec79919948a68af8bf647dff4e27/dbt_exasol-1.4.1.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [subtitles-translator]: executing diffoscope
+[2023-05-16 14:46:38] INFO root fetch - processPackages [subtitles-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subtitles_translator-0.0.1.tar.gz tmp/subtitles_translator-0.0.2.tar.gz --markdown 20230516/s/subtitles-translator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 14:46:38] INFO root fetch - processPackages [taskbase]: executing diffoscope
+[2023-05-16 14:46:38] INFO root fetch - processPackages [taskbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskbase-0.1.tar.gz tmp/taskbase-0.1.1.tar.gz --markdown 20230516/t/taskbase/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 14:46:38] INFO root fetch - processPackages [netbox-app-systems]: Downloading https://files.pythonhosted.org/packages/18/15/76cad5df115039ce7043f90c29fe23ed59bfbff7c554aa68b447fdf9be4f/netbox-app-systems-0.2.8.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: executing diffoscope
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_exasol-1.4.0.tar.gz tmp/dbt_exasol-1.4.1.tar.gz --markdown 20230516/d/dbt-exasol/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-16 14:46:38] INFO root fetch - processPackages [pymisp]: Downloading https://files.pythonhosted.org/packages/74/20/acd9637c4e60fd8e1b28fb5b24b31dcd7b41f7fcd542494bde4753facec9/pymisp-2.4.99.tar.gz
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: executing diffoscope
+[2023-05-16 14:46:38] INFO root fetch - processPackages [dbt-exasol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_exasol-1.4.0.tar.gz tmp/dbt_exasol-1.4.1.tar.gz --markdown 20230516/d/dbt-exasol/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-16 14:46:39] INFO root fetch - processPackages [pymisp]: executing diffoscope
+[2023-05-16 14:46:39] INFO root fetch - processPackages [pymisp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymisp-2.4.98.tar.gz tmp/pymisp-2.4.99.tar.gz --markdown 20230516/p/pymisp/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-05-16 14:46:39] INFO root fetch - processPackages [netbox-app-systems]: executing diffoscope
+[2023-05-16 14:46:39] INFO root fetch - processPackages [netbox-app-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-app-systems-0.2.7.tar.gz tmp/netbox-app-systems-0.2.8.tar.gz --markdown 20230516/n/netbox-app-systems/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-16 14:46:39] INFO root fetch - processPackages [biocolabsdk]: Start processing: cybrid-api-id-python
+[2023-05-16 14:46:39] INFO root fetch - main [MainThread]: End processing [biocolabsdk]: success
+[2023-05-16 14:46:39] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 14:46:39] INFO root fetch - processPackages [ecida]: Start processing: cybrid-api-organization-python
+[2023-05-16 14:46:39] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-16 14:46:39] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 14:46:39] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-16 14:46:39] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230516/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 14:46:40] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-16 14:46:40] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230516/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 14:46:40] INFO root fetch - processPackages [hpcflow-new2]: Start processing: cybrid-api-bank-python
+[2023-05-16 14:46:40] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-05-16 14:46:40] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 14:46:40] INFO root fetch - processPackages [taskbase]: Start processing: fastly
+[2023-05-16 14:46:40] INFO root fetch - main [MainThread]: End processing [taskbase]: success
+[2023-05-16 14:46:40] INFO root fetch - processPackages [subtitles-translator]: Start processing: kvakk-git-tools
+[2023-05-16 14:46:40] INFO root fetch - main [MainThread]: End processing [subtitles-translator]: success
+[2023-05-16 14:46:40] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-16 14:46:40] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230516/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 14:46:40] INFO root fetch - processPackages [kvakk-git-tools]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-16 14:46:40] INFO root fetch - processPackages [ramodels]: Start processing: qiskit-symb
+[2023-05-16 14:46:40] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-16 14:46:40] WARNING root fetch - processPackages [qiskit-symb]: Skipping, unable to determine old version
+[2023-05-16 14:46:40] INFO root fetch - processPackages [qiskit-symb]: Start processing: comet-ml
+[2023-05-16 14:46:40] INFO root fetch - main [MainThread]: End processing [qiskit-symb] error
+[2023-05-16 14:46:40] INFO root fetch - processPackages [fastly]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-05-16 14:46:40] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-16 14:46:40] INFO root fetch - processPackages [kvakk-git-tools]: Downloading https://files.pythonhosted.org/packages/87/01/0309f0fcfa028c419f5329fcb8ba4246b880baee73e48f0f2511d62f7bb2/kvakk_git_tools-2.1.1.tar.gz
+[2023-05-16 14:46:40] INFO root fetch - processPackages [netbox-app-systems]: Start processing: prism-ds
+[2023-05-16 14:46:40] INFO root fetch - main [MainThread]: End processing [netbox-app-systems]: success
+[2023-05-16 14:46:40] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/df/7c/f9a240e01379bb42b58daeb4e29c71a7daaac3b1c554da287025ec98d647/fastly-1.3.1.tar.gz
+[2023-05-16 14:46:40] INFO root fetch - processPackages [prism-ds]: New version: [0.1.8rc3] Old Version: [0.1.8rc2]
+[2023-05-16 14:46:40] INFO root fetch - processPackages [dbt-exasol]: Start processing: py-link-monitor
+[2023-05-16 14:46:40] INFO root fetch - main [MainThread]: End processing [dbt-exasol]: success
+[2023-05-16 14:46:40] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2023-05-16 14:46:40] INFO root fetch - processPackages [fastly]: Downloading https://files.pythonhosted.org/packages/27/0d/924a708db2c17e8e20e25fadd2bd87dbb1b49d667434cba7cd0d8c56e91e/fastly-2.0.0.tar.gz
+[2023-05-16 14:46:40] WARNING root fetch - processPackages [py-link-monitor]: Skipping, unable to determine old version
+[2023-05-16 14:46:40] INFO root fetch - processPackages [py-link-monitor]: Start processing: polarityjam
+[2023-05-16 14:46:40] INFO root fetch - main [MainThread]: End processing [py-link-monitor] error
+[2023-05-16 14:46:40] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/ec/da/f87ce503289aafe622f9fef6bec91eb3c7cdff551912ec317902418d7da2/prism-ds-0.1.8rc2.tar.gz
+[2023-05-16 14:46:40] INFO root fetch - processPackages [polarityjam]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-16 14:46:40] INFO root fetch - processPackages [kvakk-git-tools]: Downloading https://files.pythonhosted.org/packages/b6/35/c4420cec2f3e45bf35acd5ae3418a66a2a84c2be98e6a89f4824b460158d/kvakk_git_tools-2.2.0.tar.gz
+[2023-05-16 14:46:40] INFO root fetch - processPackages [kvakk-git-tools]: executing diffoscope
+[2023-05-16 14:46:40] INFO root fetch - processPackages [kvakk-git-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kvakk_git_tools-2.1.1.tar.gz tmp/kvakk_git_tools-2.2.0.tar.gz --markdown 20230516/k/kvakk-git-tools/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-16 14:46:41] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2023-05-16 14:46:41] INFO root fetch - processPackages [fastly]: executing diffoscope
+[2023-05-16 14:46:41] INFO root fetch - processPackages [fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastly-1.3.1.tar.gz tmp/fastly-2.0.0.tar.gz --markdown 20230516/f/fastly/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-16 14:46:41] INFO root fetch - processPackages [polarityjam]: Downloading https://files.pythonhosted.org/packages/d4/cc/93fcb859fae923d1eef1d332647b9ccacd13194c15edb64c5f6cfd2f432d/polarityjam-0.1.3.tar.gz
+[2023-05-16 14:46:41] WARNING root fetch - processPackages [polarityjam]: Skipping package: exceeds size limit 42039794>=10485760
+[2023-05-16 14:46:41] INFO root fetch - processPackages [polarityjam]: Start processing: xpol
+[2023-05-16 14:46:41] INFO root fetch - main [MainThread]: End processing [polarityjam] error
+[2023-05-16 14:46:41] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2023-05-16 14:46:41] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20230516/c/comet-ml/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-16 14:46:41] INFO root fetch - main [MainThread]: End processing [dbt-exasol]: success
+[2023-05-16 14:46:41] INFO root fetch - processPackages [prism-ds]: Downloading https://files.pythonhosted.org/packages/9b/f4/5583003c3a847f1813bd5948ad7b114abadf04842265c7475c13cfaad6c0/prism-ds-0.1.8rc3.tar.gz
+[2023-05-16 14:46:41] INFO root fetch - processPackages [prism-ds]: executing diffoscope
+[2023-05-16 14:46:41] INFO root fetch - processPackages [prism-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prism-ds-0.1.8rc2.tar.gz tmp/prism-ds-0.1.8rc3.tar.gz --markdown 20230516/p/prism-ds/0.1.8rc2-0.1.8rc3/diff.md --exclude *.pyd
+[2023-05-16 14:46:41] INFO root fetch - processPackages [xpol]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-05-16 14:46:41] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-16 14:46:41] INFO root fetch - processPackages [xpol]: Downloading https://files.pythonhosted.org/packages/68/72/657e131288bb2c79c78586938fd5e1bdc0780d6e0c27b35fbfc9acbf183b/xpol-1.6.1.tar.gz
+[2023-05-16 14:46:42] INFO root fetch - processPackages [xpol]: Downloading https://files.pythonhosted.org/packages/85/25/0c6e852183debafacefde64b76fe712ad2b01ddc1282101d372185fbfb7f/xpol-1.7.0.tar.gz
+[2023-05-16 14:46:42] INFO root fetch - processPackages [xpol]: executing diffoscope
+[2023-05-16 14:46:42] INFO root fetch - processPackages [xpol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpol-1.6.1.tar.gz tmp/xpol-1.7.0.tar.gz --markdown 20230516/x/xpol/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-05-16 14:46:42] INFO root fetch - main [MainThread]: End processing [kvakk-git-tools]: success
+[2023-05-16 14:46:42] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2023-05-16 14:46:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-16 14:46:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-16 14:46:43] INFO root fetch - main [MainThread]: End processing [xpol]: success
+[2023-05-16 14:46:44] INFO root fetch - main [MainThread]: End processing [prism-ds]: success
+[2023-05-16 14:46:45] INFO root fetch - main [MainThread]: End processing [pymisp]: success
+[2023-05-16 14:47:01] INFO root fetch - main [MainThread]: End processing [fastly]: success
+[2023-05-16 14:47:01] INFO root fetch - main [MainThread]: Store serial: [18123394]
