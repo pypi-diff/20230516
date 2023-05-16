@@ -6752,3 +6752,38 @@
 [2023-05-16 04:10:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2023-05-16 04:11:03] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-16 04:11:03] INFO root fetch - main [MainThread]: Store serial: [18117411]
+[2023-05-16 04:16:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117411]
+[2023-05-16 04:16:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-16 04:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-backpack
+[2023-05-16 04:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardano-nft-vending-machine
+[2023-05-16 04:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fyCursor
+[2023-05-16 04:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optimus-prime-transformers
+[2023-05-16 04:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-lambda-layer
+[2023-05-16 04:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: guidance
+[2023-05-16 04:16:12] INFO root fetch - processPackages [cardano-nft-vending-machine]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-16 04:16:12] INFO root fetch - processPackages [optimus-prime-transformers]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 04:16:12] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 04:16:12] INFO root fetch - processPackages [optimus-prime-transformers]: executing diffoscope
+[2023-05-16 04:16:12] INFO root fetch - processPackages [optimus-prime-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimus-prime-transformers-1.0.7.tar.gz tmp/optimus-prime-transformers-1.0.8.tar.gz --markdown 20230516/o/optimus-prime-transformers/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 04:16:12] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-16 04:16:12] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230516/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 04:16:12] INFO root fetch - processPackages [python-backpack]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-16 04:16:12] INFO root fetch - processPackages [fyCursor]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 04:16:12] WARNING root fetch - processPackages [aws-lambda-layer]: Skipping, unable to determine old version
+[2023-05-16 04:16:12] INFO root fetch - main [MainThread]: End processing [aws-lambda-layer] error
+[2023-05-16 04:16:12] INFO root fetch - processPackages [cardano-nft-vending-machine]: executing diffoscope
+[2023-05-16 04:16:12] INFO root fetch - processPackages [cardano-nft-vending-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardano-nft-vending-machine-0.7.0.tar.gz tmp/cardano-nft-vending-machine-0.7.1.tar.gz --markdown 20230516/c/cardano-nft-vending-machine/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-16 04:16:12] INFO root fetch - processPackages [python-backpack]: Downloading https://files.pythonhosted.org/packages/01/33/53cf00c460d9b1d19723160533d7ffa5c1abf925e70cdafe69cd7bf6fc02/python-backpack-1.0.4.tar.gz
+[2023-05-16 04:16:12] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/06/c8/715b164893aeb1f3265c75963206623c65318a684d27b6574d2caf963264/fyCursor-0.0.1.tar.gz
+[2023-05-16 04:16:12] INFO root fetch - processPackages [python-backpack]: Downloading https://files.pythonhosted.org/packages/6a/62/812347ea28cc90348d6b34e8507859808670a1c42f7938b367ff22c26463/python-backpack-1.0.5.tar.gz
+[2023-05-16 04:16:12] INFO root fetch - processPackages [fyCursor]: Downloading https://files.pythonhosted.org/packages/40/50/1d35c3e7fa59b5b119af556a93b06d1854967afdfe1a0a93dc6a4f6328d5/fyCursor-0.0.2.tar.gz
+[2023-05-16 04:16:12] INFO root fetch - processPackages [python-backpack]: executing diffoscope
+[2023-05-16 04:16:12] INFO root fetch - processPackages [python-backpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-backpack-1.0.4.tar.gz tmp/python-backpack-1.0.5.tar.gz --markdown 20230516/p/python-backpack/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-16 04:16:12] INFO root fetch - processPackages [fyCursor]: executing diffoscope
+[2023-05-16 04:16:12] INFO root fetch - processPackages [fyCursor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyCursor-0.0.1.tar.gz tmp/fyCursor-0.0.2.tar.gz --markdown 20230516/f/fyCursor/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 04:16:13] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-16 04:16:13] INFO root fetch - main [MainThread]: End processing [optimus-prime-transformers]: success
+[2023-05-16 04:16:13] INFO root fetch - main [MainThread]: End processing [cardano-nft-vending-machine]: success
+[2023-05-16 04:16:13] INFO root fetch - main [MainThread]: End processing [fyCursor]: success
+[2023-05-16 04:16:14] INFO root fetch - main [MainThread]: End processing [python-backpack]: success
+[2023-05-16 04:16:14] INFO root fetch - main [MainThread]: Store serial: [18117430]
