@@ -22399,3 +22399,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 18:39:09] INFO root fetch - main [MainThread]: End processing [ethhelper]: success
 [2023-05-16 18:39:09] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
 [2023-05-16 18:39:09] INFO root fetch - main [MainThread]: Store serial: [18126492]
+[2023-05-16 18:44:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18126492]
+[2023-05-16 18:44:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Faker
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argrelay
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-client
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-dataset
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-models
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-protos
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-sdk
+[2023-05-16 18:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-utils
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [Faker]: New version: [9.9.1] Old Version: [9.9.0]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [coiled]: New version: [0.6.4.dev9] Old Version: [0.6.4.dev8]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [argrelay]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [Faker]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [Faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Faker-9.9.0.tar.gz tmp/Faker-9.9.1.tar.gz --markdown 20230516/F/Faker/9.9.0-9.9.1/diff.md --exclude *.pyd
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 18:44:18] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.4.dev8.tar.gz tmp/coiled-0.6.4.dev9.tar.gz --markdown 20230516/c/coiled/0.6.4.dev8-0.6.4.dev9/diff.md --exclude *.pyd
+[2023-05-16 18:44:18] WARNING root fetch - processPackages [argrelay]: fallback to get urls: [0.0.0.dev8]
+[2023-05-16 18:44:18] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-16 18:44:18] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-16 18:44:18] WARNING root fetch - processPackages [argrelay]: unable to get url for both version [0.0.0.dev8]
+[2023-05-16 18:44:18] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-16 18:44:18] INFO root fetch - processPackages [argrelay]: Start processing: snaptrade-python-sdk
+[2023-05-16 18:44:18] INFO root fetch - main [MainThread]: End processing [argrelay] error
+[2023-05-16 18:44:18] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-16 18:44:18] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-16 18:44:19] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-05-16 18:44:19] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230516/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-16 18:44:20] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: aed-utilities
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-16 18:44:20] INFO root fetch - processPackages [aed-utilities]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-16 18:44:20] INFO root fetch - processPackages [nucliadb-client]: Start processing: scrapy-processors
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-16 18:44:20] WARNING root fetch - processPackages [scrapy-processors]: Skipping, unable to determine old version
+[2023-05-16 18:44:20] INFO root fetch - processPackages [scrapy-processors]: Start processing: fiat-cli
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [scrapy-processors] error
+[2023-05-16 18:44:20] INFO root fetch - processPackages [fiat-cli]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-16 18:44:20] INFO root fetch - processPackages [aed-utilities]: Downloading https://files.pythonhosted.org/packages/2c/99/dcb05cadd009c921ee4781f951f53e3d4392043337cc53bf5c211b9d136a/aed_utilities-0.5.5.tar.gz
+[2023-05-16 18:44:20] INFO root fetch - processPackages [nucliadb-utils]: Start processing: pointersect
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-16 18:44:20] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: gpt-review
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-16 18:44:20] INFO root fetch - processPackages [gpt-review]: New version: [0.9.2rc796.post1] Old Version: [0.9.2rc788.post1]
+[2023-05-16 18:44:20] INFO root fetch - processPackages [nucliadb-models]: Start processing: gwas-sumstats-tools
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-16 18:44:20] INFO root fetch - processPackages [gwas-sumstats-tools]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2023-05-16 18:44:20] WARNING root fetch - processPackages [pointersect]: Skipping, unable to determine old version
+[2023-05-16 18:44:20] INFO root fetch - processPackages [pointersect]: Start processing: sefazetllib
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [pointersect] error
+[2023-05-16 18:44:20] INFO root fetch - processPackages [fiat-cli]: Downloading https://files.pythonhosted.org/packages/ca/22/e26889657012054ce8e8fb09d249532407ffb41f7c39af33e97f910c7569/fiat_cli-0.6.9.tar.gz
+[2023-05-16 18:44:20] INFO root fetch - processPackages [nucliadb-protos]: Start processing: pyduinocli
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-16 18:44:20] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/f1/4a/9d658d2cb9aa384c88e3bd05ff3c7a7f653f0ceaf9c0a37c8d9e8f0b592a/gpt_review-0.9.2rc788.post1.tar.gz
+[2023-05-16 18:44:20] INFO root fetch - processPackages [pyduinocli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 18:44:20] INFO root fetch - processPackages [sefazetllib]: New version: [0.1.31] Old Version: [0.1.30]
+[2023-05-16 18:44:20] INFO root fetch - processPackages [coiled]: Start processing: FreeTVG-karjakak
+[2023-05-16 18:44:20] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-16 18:44:20] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.2rc1] Old Version: [3.2.2]
+[2023-05-16 18:44:20] INFO root fetch - processPackages [gwas-sumstats-tools]: Downloading https://files.pythonhosted.org/packages/e7/b3/029e83cfa35de70c96c25088612afe14eca781eae1dbb640be3a606556ec/gwas_sumstats_tools-1.0.1a1.tar.gz
+[2023-05-16 18:44:20] INFO root fetch - processPackages [aed-utilities]: Downloading https://files.pythonhosted.org/packages/39/46/e2c058997edd011e3195f79c706b18de0c1ee4099b099bd00ab06091b8dc/aed_utilities-0.5.6.tar.gz
+[2023-05-16 18:44:20] INFO root fetch - processPackages [fiat-cli]: executing diffoscope
+[2023-05-16 18:44:20] INFO root fetch - processPackages [fiat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiat_cli-0.6.8.tar.gz tmp/fiat_cli-0.6.9.tar.gz --markdown 20230516/f/fiat-cli/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-16 18:44:21] INFO root fetch - processPackages [aed-utilities]: executing diffoscope
+[2023-05-16 18:44:21] INFO root fetch - processPackages [aed-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aed_utilities-0.5.5.tar.gz tmp/aed_utilities-0.5.6.tar.gz --markdown 20230516/a/aed-utilities/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-16 18:44:21] INFO root fetch - processPackages [pyduinocli]: Downloading https://files.pythonhosted.org/packages/b9/c5/966ce7328f76e0232c75630b2b363383706ade8ef125e89df4e620429377/pyduinocli-0.8.0.tar.gz
+[2023-05-16 18:44:21] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/5b/b5/3caab69c45a8c71ec275d07d24a020df7ff7ced46a642aa1834772d1f783/FreeTVG-karjakak-3.2.2.tar.gz
+[2023-05-16 18:44:21] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/fc/01/ea36af874dc8d88dc06bac28bbf55a5430083299fc5af5b3a7f932b7e490/gpt_review-0.9.2rc796.post1.tar.gz
+[2023-05-16 18:44:21] INFO root fetch - processPackages [gwas-sumstats-tools]: Downloading https://files.pythonhosted.org/packages/bf/c8/f8f272ded53224261da9eb13f6748f8fe8f03317d5b9f8e173f2da147ec4/gwas_sumstats_tools-1.0.1a2.tar.gz
+[2023-05-16 18:44:21] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/fd/98/4fe92c0ed436d715c8b2e98da48af8ba546a36af0b20f9d651e695e57772/sefazetllib-0.1.31.tar.gz
+[2023-05-16 18:44:21] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-16 18:44:21] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.2rc788.post1.tar.gz tmp/gpt_review-0.9.2rc796.post1.tar.gz --markdown 20230516/g/gpt-review/0.9.2rc788.post1-0.9.2rc796.post1/diff.md --exclude *.pyd
+[2023-05-16 18:44:21] INFO root fetch - processPackages [pyduinocli]: Downloading https://files.pythonhosted.org/packages/4f/93/05b0c94a4109123aeeb793a2af57ef746748f34b92cdb26c174a59138454/pyduinocli-0.9.0.tar.gz
+[2023-05-16 18:44:21] INFO root fetch - processPackages [sefazetllib]: executing diffoscope
+[2023-05-16 18:44:21] INFO root fetch - processPackages [sefazetllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sefazetllib-0.1.30.tar.gz tmp/sefazetllib-0.1.31.tar.gz --markdown 20230516/s/sefazetllib/0.1.30-0.1.31/diff.md --exclude *.pyd
+[2023-05-16 18:44:21] INFO root fetch - processPackages [gwas-sumstats-tools]: executing diffoscope
+[2023-05-16 18:44:21] INFO root fetch - processPackages [gwas-sumstats-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwas_sumstats_tools-1.0.1a1.tar.gz tmp/gwas_sumstats_tools-1.0.1a2.tar.gz --markdown 20230516/g/gwas-sumstats-tools/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2023-05-16 18:44:21] INFO root fetch - processPackages [pyduinocli]: executing diffoscope
+[2023-05-16 18:44:21] INFO root fetch - processPackages [pyduinocli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyduinocli-0.8.0.tar.gz tmp/pyduinocli-0.9.0.tar.gz --markdown 20230516/p/pyduinocli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 18:44:21] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/d8/d2/86368bd8a3a68b301ee1cbad5a2a94bd9b83e7fabf1343c003f06f2145f1/FreeTVG-karjakak-3.2.2rc1.tar.gz
+[2023-05-16 18:44:21] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-05-16 18:44:21] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.2.tar.gz tmp/FreeTVG-karjakak-3.2.2rc1.tar.gz --markdown 20230516/F/FreeTVG-karjakak/3.2.2-3.2.2rc1/diff.md --exclude *.pyd
+[2023-05-16 18:44:22] INFO root fetch - main [MainThread]: End processing [aed-utilities]: success
+[2023-05-16 18:44:22] INFO root fetch - main [MainThread]: End processing [fiat-cli]: success
+[2023-05-16 18:44:22] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-16 18:44:22] INFO root fetch - main [MainThread]: End processing [pyduinocli]: success
+[2023-05-16 18:44:22] INFO root fetch - main [MainThread]: End processing [gwas-sumstats-tools]: success
+[2023-05-16 18:44:22] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-05-16 18:44:23] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-16 18:44:23] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
+[2023-05-16 18:44:27] INFO root fetch - main [MainThread]: End processing [Faker]: success
+[2023-05-16 18:44:28] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-05-16 18:44:28] INFO root fetch - main [MainThread]: Store serial: [18126554]
