@@ -11012,3 +11012,168 @@
 [2023-05-16 09:31:51] INFO root fetch - main [MainThread]: End processing [symbolic]: success
 [2023-05-16 09:32:11] INFO root fetch - main [MainThread]: End processing [pyboy]: success
 [2023-05-16 09:32:11] INFO root fetch - main [MainThread]: Store serial: [18119789]
+[2023-05-16 09:37:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119789]
+[2023-05-16 09:37:21] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-purchase-request
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Swaiter
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-purchase-discount
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: db-contrib-tool
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-purchase-triple-discount
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-purchase-triple-discount
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tvdcn
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-telemetry
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-purchase-request
+[2023-05-16 09:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-purchase-discount
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-request]: New version: [13.0.4.3.1.dev9] Old Version: [13.0.4.3.1.dev7]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-discount]: New version: [13.0.1.1.1.dev1] Old Version: [13.0.1.1.0]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo14-addon-purchase-discount]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.3.dev8]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-triple-discount]: New version: [13.0.1.0.1.dev6] Old Version: [13.0.1.0.1.dev5]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-request]: executing diffoscope
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev9-py3-none-any.whl.zip --markdown 20230516/o/odoo13-addon-purchase-request/13.0.4.3.1.dev7-13.0.4.3.1.dev9/diff.md --exclude *.pyd
+[2023-05-16 09:37:21] WARNING root fetch - processPackages [Swaiter]: Skipping, unable to determine old version
+[2023-05-16 09:37:21] INFO root fetch - processPackages [Swaiter]: Start processing: odoo-addon-purchase-request
+[2023-05-16 09:37:21] INFO root fetch - main [MainThread]: End processing [Swaiter] error
+[2023-05-16 09:37:21] INFO root fetch - processPackages [tvdcn]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo12-addon-purchase-triple-discount]: New version: [12.0.1.1.0.99.dev9] Old Version: [12.0.1.1.0.99.dev8]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [db-contrib-tool]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo14-addon-purchase-request]: New version: [14.0.2.1.2.dev8] Old Version: [14.0.2.1.2.dev7]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo14-addon-purchase-discount]: Downloading https://files.pythonhosted.org/packages/9e/54/9735ff62c8d0b31a9352e155c0b90efff49b3923af3c4fdebb578b34f935/odoo14_addon_purchase_discount-14.0.1.1.3.dev8-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-discount]: Downloading https://files.pythonhosted.org/packages/83/28/0bc2f75f1b1b62ac96ada500e488e6419948d0b4aacf9cebca8cc8e623d3/odoo13_addon_purchase_discount-13.0.1.1.0-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo12-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/67/3b/1dba8a970bb1b65b2c68da342d096ddcee4e38bbb462044dd08204418048/odoo12_addon_purchase_triple_discount-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/bb/a2/c343a30437826e4c8301bf6953d00d3ca950668dee29f623e2002c0c7421/nucliadb_telemetry-1.9.1-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [db-contrib-tool]: Downloading https://files.pythonhosted.org/packages/f2/7f/2310e11e3d2a0b2f783913c188dd2b60392aa87b4cdd2b279c3ac522e86e/db_contrib_tool-0.6.3.tar.gz
+[2023-05-16 09:37:21] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/44/ef/f2cda353310bcc6c4f06a8f98aeb7a8f886d8e91b46e5aa697572d6695e6/tvdcn-0.2.2.tar.gz
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-discount]: Downloading https://files.pythonhosted.org/packages/5f/d5/a9376c9420a43f9d3a919873d5b51bc8a1be3bbdcf33af55e6bf99a1f64e/odoo13_addon_purchase_discount-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/8e/89/c33368b2f4ded99972244364d8910251fb06ce52c594020efc1973045a9c/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo14-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/10/23/fc96268277cc4f0ea2e7a6189ae9657360919e93f5b2c13e4cd9e7888ea2/odoo14_addon_purchase_request-14.0.2.1.2.dev8-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo14-addon-purchase-discount]: Downloading https://files.pythonhosted.org/packages/1a/c5/99c7c8ff07e47bdc67c44924879a2fd75eb05a1f110f3ced6058ed2fe814/odoo14_addon_purchase_discount-14.0.1.2.0-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/3a/54/9200f09d9a6b81276206b432708a96f265f7df33ce31f30ab0b20cf14f9c/nucliadb_telemetry-1.9.2-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/fc/fc/a7f6360e843acb3950ed7e7647266e6f40300fe2bbb1fe877b08de52eb18/tvdcn-0.2.3.tar.gz
+[2023-05-16 09:37:21] INFO root fetch - processPackages [db-contrib-tool]: Downloading https://files.pythonhosted.org/packages/70/50/409b0433768d92fcb1444e72aeedf52ad4b347ecebd758ac80a7c15109f1/db_contrib_tool-0.6.4.tar.gz
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-discount]: executing diffoscope
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_discount-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_purchase_discount-13.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230516/o/odoo13-addon-purchase-discount/13.0.1.1.0-13.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo13-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/00/c7/e45a022bfeb85a51eec4f2d62aae0003f30efc726287a7666f3921395304/odoo13_addon_purchase_triple_discount-13.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-16 09:37:21] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2023-05-16 09:37:21] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-1.9.1-py3-none-any.whl.zip tmp/nucliadb_telemetry-1.9.2-py3-none-any.whl.zip --markdown 20230516/n/nucliadb-telemetry/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo14-addon-purchase-request]: executing diffoscope
+[2023-05-16 09:37:21] INFO root fetch - processPackages [odoo14-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_request-14.0.2.1.2.dev7-py3-none-any.whl.zip tmp/odoo14_addon_purchase_request-14.0.2.1.2.dev8-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-purchase-request/14.0.2.1.2.dev7-14.0.2.1.2.dev8/diff.md --exclude *.pyd
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo14-addon-purchase-discount]: executing diffoscope
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo14-addon-purchase-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_discount-14.0.1.1.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_purchase_discount-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-purchase-discount/14.0.1.1.3.dev8-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0d/d1/4e43b9e658f256b20633846c736938767c0d80a2abd356e00d6d293485e7/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-16 09:37:22] INFO root fetch - processPackages [db-contrib-tool]: executing diffoscope
+[2023-05-16 09:37:22] INFO root fetch - processPackages [db-contrib-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db_contrib_tool-0.6.3.tar.gz tmp/db_contrib_tool-0.6.4.tar.gz --markdown 20230516/d/db-contrib-tool/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-16 09:37:22] INFO root fetch - processPackages [tvdcn]: executing diffoscope
+[2023-05-16 09:37:22] INFO root fetch - processPackages [tvdcn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvdcn-0.2.2.tar.gz tmp/tvdcn-0.2.3.tar.gz --markdown 20230516/t/tvdcn/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo13-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/6e/48/3cf7bcc4680402b1af3ec60111e3fabc3ad0f824509601a8e9d84710fab6/odoo13_addon_purchase_triple_discount-13.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo12-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/15/5e/fb6c21dd567cd6d3d21e567102999b963dea21460d75d78dfd5de98cbce7/odoo12_addon_purchase_triple_discount-12.0.1.1.0.99.dev9-py3-none-any.whl
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo12-addon-purchase-triple-discount]: executing diffoscope
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo12-addon-purchase-triple-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_triple_discount-12.0.1.1.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_triple_discount-12.0.1.1.0.99.dev9-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-purchase-triple-discount/12.0.1.1.0.99.dev8-12.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo13-addon-purchase-triple-discount]: executing diffoscope
+[2023-05-16 09:37:22] INFO root fetch - processPackages [odoo13-addon-purchase-triple-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_triple_discount-13.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo13_addon_purchase_triple_discount-13.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230516/o/odoo13-addon-purchase-triple-discount/13.0.1.0.1.dev5-13.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-05-16 09:37:23] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: pybelt
+[2023-05-16 09:37:23] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2023-05-16 09:37:23] INFO root fetch - processPackages [odoo13-addon-purchase-request]: Start processing: odoo-addon-purchase-discount
+[2023-05-16 09:37:23] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-request]: success
+[2023-05-16 09:37:23] INFO root fetch - processPackages [odoo-addon-purchase-discount]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2023-05-16 09:37:23] INFO root fetch - processPackages [pybelt]: New version: [1.1b1] Old Version: [1.0.6]
+[2023-05-16 09:37:23] INFO root fetch - processPackages [odoo14-addon-purchase-discount]: Start processing: odoo-addon-product-supplier-code-purchase
+[2023-05-16 09:37:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-discount]: success
+[2023-05-16 09:37:23] WARNING root fetch - processPackages [odoo-addon-product-supplier-code-purchase]: Skipping, unable to determine old version
+[2023-05-16 09:37:23] INFO root fetch - processPackages [odoo-addon-product-supplier-code-purchase]: Start processing: caplib4
+[2023-05-16 09:37:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplier-code-purchase] error
+[2023-05-16 09:37:23] INFO root fetch - processPackages [pybelt]: Downloading https://files.pythonhosted.org/packages/5c/e2/49f4d1046380f869b21675a7d578b9b583a3dd3b9641abaeafb13dffd0cd/pybelt-1.0.6.tar.gz
+[2023-05-16 09:37:23] INFO root fetch - processPackages [odoo-addon-purchase-discount]: Downloading https://files.pythonhosted.org/packages/de/1e/49f7c7dacc0e62a3417633f7cb4d3108884835386515d797c0b57d59768a/odoo_addon_purchase_discount-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 09:37:23] WARNING root fetch - processPackages [caplib4]: Skipping, unable to determine old version
+[2023-05-16 09:37:23] INFO root fetch - processPackages [caplib4]: Start processing: pyrsm
+[2023-05-16 09:37:23] INFO root fetch - main [MainThread]: End processing [caplib4] error
+[2023-05-16 09:37:23] INFO root fetch - processPackages [pyrsm]: New version: [0.8.1.2] Old Version: [0.8.1.1]
+[2023-05-16 09:37:24] INFO root fetch - processPackages [tvdcn]: Start processing: sino
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [tvdcn]: success
+[2023-05-16 09:37:24] INFO root fetch - processPackages [pybelt]: Downloading https://files.pythonhosted.org/packages/db/a7/fa70ed67f75d2eb3144fa65981c09895327d795759196cc776387f3e5884/pybelt-1.1b1.tar.gz
+[2023-05-16 09:37:24] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-05-16 09:37:24] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.8.1.1.tar.gz tmp/pyrsm-0.8.1.2.tar.gz --markdown 20230516/p/pyrsm/0.8.1.1-0.8.1.2/diff.md --exclude *.pyd
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-discount]: Downloading https://files.pythonhosted.org/packages/59/7c/298e3489e9c28fa86a341f60d2fba22e38e0e83f4ecff4e401632b5b619e/odoo_addon_purchase_discount-16.0.1.1.0-py3-none-any.whl
+[2023-05-16 09:37:24] WARNING root fetch - processPackages [sino]: Skipping, unable to determine old version
+[2023-05-16 09:37:24] INFO root fetch - processPackages [sino]: Start processing: styles
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [sino] error
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo13-addon-purchase-discount]: Start processing: odoo-addon-purchase-triple-discount
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-discount]: success
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo12-addon-purchase-triple-discount]: Start processing: geomulticorr
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-triple-discount]: success
+[2023-05-16 09:37:24] INFO root fetch - processPackages [pybelt]: executing diffoscope
+[2023-05-16 09:37:24] INFO root fetch - processPackages [pybelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybelt-1.0.6.tar.gz tmp/pybelt-1.1b1.tar.gz --markdown 20230516/p/pybelt/1.0.6-1.1b1/diff.md --exclude *.pyd
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-16 09:37:24] INFO root fetch - processPackages [geomulticorr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 09:37:24] INFO root fetch - processPackages [styles]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-discount]: executing diffoscope
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_discount-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_discount-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-purchase-discount/16.0.1.0.0.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/56/7a/71c5bd0e64faad8ba0e678ee790d624243939762fcc569feea0bed832983/odoo_addon_purchase_triple_discount-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-16 09:37:24] INFO root fetch - processPackages [db-contrib-tool]: Start processing: deploy-django-nginx
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [db-contrib-tool]: success
+[2023-05-16 09:37:24] INFO root fetch - processPackages [geomulticorr]: Downloading https://files.pythonhosted.org/packages/b7/fb/090c50454ccb509cc3033386f43d2930db3a09f9c10e2c754d043938d55a/geomulticorr-0.1.9.tar.gz
+[2023-05-16 09:37:24] INFO root fetch - processPackages [styles]: Downloading https://files.pythonhosted.org/packages/25/87/01bfdebf8bbec817c2865ba3ed81d5def9a752c7b523f557e900b806bca9/styles-0.1.6.tar.gz
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo13-addon-purchase-triple-discount]: Start processing: lalsuite
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-triple-discount]: success
+[2023-05-16 09:37:24] WARNING root fetch - processPackages [deploy-django-nginx]: Skipping, unable to determine old version
+[2023-05-16 09:37:24] INFO root fetch - processPackages [deploy-django-nginx]: Start processing: odoo-addon-purchase-request
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [deploy-django-nginx] error
+[2023-05-16 09:37:24] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-16 09:37:24] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.1.8.tar.gz tmp/geomulticorr-0.1.9.tar.gz --markdown 20230516/g/geomulticorr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-16 09:37:24] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo14-addon-purchase-request]: Start processing: xpydf
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-request]: success
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/ad/25/8e434267adb4dddf9600ff214fa9ce32126f6aa6a66241aadb4ca58ac0d5/odoo_addon_purchase_triple_discount-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 09:37:24] INFO root fetch - processPackages [styles]: Downloading https://files.pythonhosted.org/packages/2e/72/f2ec046c5cdbf5c40e3fb6fce86903781b2934993b6fac24419a216fb5bb/styles-0.1.7.tar.gz
+[2023-05-16 09:37:24] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-16 09:37:24] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-16 09:37:24] INFO root fetch - processPackages [lalsuite]: Start processing: odoo-addon-purchase-delivery-split-date
+[2023-05-16 09:37:24] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-16 09:37:24] INFO root fetch - processPackages [xpydf]: New version: [0.1.4.3] Old Version: [0.1.4.2]
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-05-16 09:37:24] INFO root fetch - processPackages [styles]: executing diffoscope
+[2023-05-16 09:37:24] INFO root fetch - processPackages [styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/styles-0.1.6.tar.gz tmp/styles-0.1.7.tar.gz --markdown 20230516/s/styles/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: executing diffoscope
+[2023-05-16 09:37:24] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_triple_discount-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_triple_discount-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-purchase-triple-discount/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-16 09:37:25] INFO root fetch - processPackages [odoo-addon-purchase-request]: Start processing: cdk8s
+[2023-05-16 09:37:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-05-16 09:37:25] INFO root fetch - processPackages [xpydf]: Downloading https://files.pythonhosted.org/packages/80/cf/adb44a78891909acc7fa52b012063e4f8dfc054d5e21be2b80e20020d8cd/xpydf-0.1.4.3.tar.gz
+[2023-05-16 09:37:25] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-16 09:37:25] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: Downloading https://files.pythonhosted.org/packages/01/b9/eaccad254ca8d2f127a4c20d4bbbad9d66164d79eaeaff475882461c9207/odoo_addon_purchase_delivery_split_date-16.0.1.0.0.7-py3-none-any.whl
+[2023-05-16 09:37:25] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-05-16 09:37:25] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230516/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-16 09:37:25] INFO root fetch - processPackages [xpydf]: executing diffoscope
+[2023-05-16 09:37:25] INFO root fetch - processPackages [xpydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpydf-0.1.4.2.tar.gz tmp/xpydf-0.1.4.3.tar.gz --markdown 20230516/x/xpydf/0.1.4.2-0.1.4.3/diff.md --exclude *.pyd
+[2023-05-16 09:37:25] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: Downloading https://files.pythonhosted.org/packages/49/ec/9a170a21c423efce4799f061ed05b7712c9af150e65a1bb880b00a93a3e5/odoo_addon_purchase_delivery_split_date-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-16 09:37:25] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: executing diffoscope
+[2023-05-16 09:37:25] INFO root fetch - processPackages [odoo-addon-purchase-delivery-split-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_delivery_split_date-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_purchase_delivery_split_date-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-purchase-delivery-split-date/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-05-16 09:37:25] INFO root fetch - processPackages [pyrsm]: Start processing: odoo-addon-purchase-triple-discount
+[2023-05-16 09:37:25] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-05-16 09:37:25] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-05-16 09:37:26] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/48/fb/8bdf0b7a8bd5436572c09b10158ef6c7fbb2460439f6a69cd75e911a4418/odoo_addon_purchase_triple_discount-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-16 09:37:26] INFO root fetch - processPackages [styles]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-05-16 09:37:26] INFO root fetch - main [MainThread]: End processing [styles]: success
+[2023-05-16 09:37:26] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: executing diffoscope
+[2023-05-16 09:37:26] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_triple_discount-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_triple_discount-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-purchase-triple-discount/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-16 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230515.0] Old Version: [16.0.20230508.0]
+[2023-05-16 09:37:26] INFO root fetch - main [MainThread]: End processing [pybelt]: success
+[2023-05-16 09:37:26] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-05-16 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/b0/1d/a0219aa16f5036d00b08c325f008dfc9cbaf89944c797bd778c334fc25f4/odoo_addons_oca_purchase_workflow-16.0.20230508.0-py3-none-any.whl
+[2023-05-16 09:37:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-triple-discount]: success
+[2023-05-16 09:37:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-discount]: success
+[2023-05-16 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/7b/9a/ac8e548cf516a6aae976fc6d79865c6e58312cb72166cdac9ac0e6734c50/odoo_addons_oca_purchase_workflow-16.0.20230515.0-py3-none-any.whl
+[2023-05-16 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-05-16 09:37:26] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230508.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230515.0-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-purchase-workflow/16.0.20230508.0-16.0.20230515.0/diff.md --exclude *.pyd
+[2023-05-16 09:37:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-delivery-split-date]: success
+[2023-05-16 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-05-16 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-triple-discount]: success
+[2023-05-16 09:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-05-16 09:37:28] INFO root fetch - main [MainThread]: End processing [xpydf]: success
+[2023-05-16 09:37:31] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-16 09:37:31] INFO root fetch - main [MainThread]: Store serial: [18119891]
