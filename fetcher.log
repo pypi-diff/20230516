@@ -8172,3 +8172,45 @@
 [2023-05-16 06:16:18] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
 [2023-05-16 06:16:18] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-05-16 06:16:18] INFO root fetch - main [MainThread]: Store serial: [18118141]
+[2023-05-16 06:21:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118141]
+[2023-05-16 06:21:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-16 06:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amqp-workers
+[2023-05-16 06:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-util
+[2023-05-16 06:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-review
+[2023-05-16 06:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moftransformer
+[2023-05-16 06:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: folderobserver
+[2023-05-16 06:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multicast-expert
+[2023-05-16 06:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syscolouraddons
+[2023-05-16 06:21:27] INFO root fetch - processPackages [amqp-workers]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 06:21:27] INFO root fetch - processPackages [moftransformer]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-16 06:21:27] WARNING root fetch - processPackages [folderobserver]: Skipping, unable to determine old version
+[2023-05-16 06:21:27] INFO root fetch - processPackages [multicast-expert]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-16 06:21:27] INFO root fetch - processPackages [hatch-util]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 06:21:27] INFO root fetch - main [MainThread]: End processing [folderobserver] error
+[2023-05-16 06:21:27] INFO root fetch - processPackages [gpt-review]: New version: [0.9.1rc762.post1] Old Version: [0.9.0rc741.post1]
+[2023-05-16 06:21:27] ERROR root fetch - processPackages [syscolouraddons]: Unable to get metadata: No such project 'syscolouraddons'
+[2023-05-16 06:21:27] INFO root fetch - main [MainThread]: End processing [syscolouraddons] error
+[2023-05-16 06:21:28] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/ee/7d/86616775a4f342abf08933246d20a2dccd469f02a305c771dc666261ffef/moftransformer-2.0.1.tar.gz
+[2023-05-16 06:21:28] INFO root fetch - processPackages [hatch-util]: Downloading https://files.pythonhosted.org/packages/c5/cb/e81d35ebd46bc40ee549e72fa5e8adc63dd2f35fb93acfdfe75089f6455d/hatch_util-0.0.3.tar.gz
+[2023-05-16 06:21:28] INFO root fetch - processPackages [multicast-expert]: Downloading https://files.pythonhosted.org/packages/bb/b1/dc682816b5780b6b94d41f6c3592b4352ea0837303903e42299a7cd34868/multicast_expert-1.0.1.tar.gz
+[2023-05-16 06:21:28] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/3a/5b/3ad1e78c4af7e8acaeb6eee2d1e7e76cb93df7848cd40d042af3e6584423/gpt_review-0.9.0rc741.post1.tar.gz
+[2023-05-16 06:21:28] INFO root fetch - processPackages [hatch-util]: executing diffoscope
+[2023-05-16 06:21:28] INFO root fetch - processPackages [hatch-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_util-0.0.2.tar.gz tmp/hatch_util-0.0.3.tar.gz --markdown 20230516/h/hatch-util/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 06:21:28] INFO root fetch - processPackages [amqp-workers]: Downloading https://files.pythonhosted.org/packages/fc/79/da0bbfe6b48b21cd105bc633ff6dbcfe5e56f8481f4588ab8d7d7f663fee/amqp_workers-0.1.2.tar.gz
+[2023-05-16 06:21:28] INFO root fetch - processPackages [amqp-workers]: executing diffoscope
+[2023-05-16 06:21:28] INFO root fetch - processPackages [amqp-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_workers-0.1.1.tar.gz tmp/amqp_workers-0.1.2.tar.gz --markdown 20230516/a/amqp-workers/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 06:21:28] INFO root fetch - processPackages [multicast-expert]: Downloading https://files.pythonhosted.org/packages/61/f6/bb6df9402f09e3b2f119bac651a84ac7998b0d6e2e902dd2da0c793f322f/multicast_expert-1.1.0.tar.gz
+[2023-05-16 06:21:28] INFO root fetch - processPackages [moftransformer]: Downloading https://files.pythonhosted.org/packages/bd/75/fbbbdf2a588d8e390572e7528db7e92e90f91265ff837777805e2bac5335/moftransformer-2.1.0.tar.gz
+[2023-05-16 06:21:28] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/a3/b4/7cc04ecf9e26160977364f6eb62a09e8c757da677116f23919daf41e4c77/gpt_review-0.9.1rc762.post1.tar.gz
+[2023-05-16 06:21:28] INFO root fetch - processPackages [multicast-expert]: executing diffoscope
+[2023-05-16 06:21:28] INFO root fetch - processPackages [multicast-expert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicast_expert-1.0.1.tar.gz tmp/multicast_expert-1.1.0.tar.gz --markdown 20230516/m/multicast-expert/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-16 06:21:28] INFO root fetch - processPackages [moftransformer]: executing diffoscope
+[2023-05-16 06:21:28] INFO root fetch - processPackages [moftransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moftransformer-2.0.1.tar.gz tmp/moftransformer-2.1.0.tar.gz --markdown 20230516/m/moftransformer/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-16 06:21:28] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-16 06:21:28] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.0rc741.post1.tar.gz tmp/gpt_review-0.9.1rc762.post1.tar.gz --markdown 20230516/g/gpt-review/0.9.0rc741.post1-0.9.1rc762.post1/diff.md --exclude *.pyd
+[2023-05-16 06:21:29] INFO root fetch - main [MainThread]: End processing [hatch-util]: success
+[2023-05-16 06:21:29] INFO root fetch - main [MainThread]: End processing [multicast-expert]: success
+[2023-05-16 06:21:29] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-16 06:21:30] INFO root fetch - main [MainThread]: End processing [moftransformer]: success
+[2023-05-16 06:22:05] INFO root fetch - main [MainThread]: End processing [amqp-workers]: success
+[2023-05-16 06:22:05] INFO root fetch - main [MainThread]: Store serial: [18118175]
