@@ -19184,3 +19184,131 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 16:12:59] INFO root fetch - main [MainThread]: End processing [gridworks-atn]: success
 [2023-05-16 16:13:01] INFO root fetch - main [MainThread]: End processing [pygama]: success
 [2023-05-16 16:13:01] INFO root fetch - main [MainThread]: Store serial: [18124597]
+[2023-05-16 16:18:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124597]
+[2023-05-16 16:18:11] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vgs-api-client
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyxll-jupyter
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: highspy
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viewm2m
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lz-import
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thrivve-core
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edxml
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bus-wizard
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nso-oc
+[2023-05-16 16:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: query-toolkits
+[2023-05-16 16:18:11] INFO root fetch - processPackages [lz-import]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [highspy]: New version: [1.5.2] Old Version: [1.5.0.dev0]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [bus-wizard]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [viewm2m]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [thrivve-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [nso-oc]: New version: [2.50.1] Old Version: [2.50.0]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [query-toolkits]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [pyxll-jupyter]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [lz-import]: executing diffoscope
+[2023-05-16 16:18:11] INFO root fetch - processPackages [lz-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lz_import-0.1.0.tar.gz tmp/lz_import-0.1.1.tar.gz --markdown 20230516/l/lz-import/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 16:18:11] INFO root fetch - processPackages [edxml]: New version: [3.0.1] Old Version: [3.0.0.dev2]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [highspy]: executing diffoscope
+[2023-05-16 16:18:11] INFO root fetch - processPackages [highspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highspy-1.5.0.dev0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/highspy-1.5.2-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230516/h/highspy/1.5.0.dev0-1.5.2/diff.md --exclude *.pyd
+[2023-05-16 16:18:11] INFO root fetch - processPackages [query-toolkits]: executing diffoscope
+[2023-05-16 16:18:11] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-05-16 16:18:11] INFO root fetch - processPackages [query-toolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/query_toolkits-1.1.8.tar.gz tmp/query_toolkits-1.1.9.tar.gz --markdown 20230516/q/query-toolkits/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-16 16:18:11] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.2.3.tar.gz tmp/thrivve_core-0.2.4.tar.gz --markdown 20230516/t/thrivve-core/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-16 16:18:11] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-16 16:18:11] INFO root fetch - processPackages [viewm2m]: Downloading https://files.pythonhosted.org/packages/c0/91/0be012f98c4b28c629a69a51ef945cc16749b2787350996fe3996d4dbc69/viewm2m-0.0.2.tar.gz
+[2023-05-16 16:18:11] INFO root fetch - processPackages [bus-wizard]: Downloading https://files.pythonhosted.org/packages/a8/f7/cad26db676f0b0bbbebbed5fcaf48dc9cccb67d77d38860a09daaa03422e/bus_wizard-0.0.5.tar.gz
+[2023-05-16 16:18:11] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-05-16 16:18:11] INFO root fetch - processPackages [bus-wizard]: executing diffoscope
+[2023-05-16 16:18:11] INFO root fetch - processPackages [bus-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_wizard-0.0.4.tar.gz tmp/bus_wizard-0.0.5.tar.gz --markdown 20230516/b/bus-wizard/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 16:18:11] INFO root fetch - processPackages [edxml]: Downloading https://files.pythonhosted.org/packages/3a/32/fb6e040fafe6db18a7936c9efe6ee45a975f9928dbd88eadea60a4a6f983/edxml-3.0.0.dev2.tar.gz
+[2023-05-16 16:18:11] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/2b/bb/d48ed768e02914647bbf9ebd903cc0d12ec967f5cbf187be1a065d57dbd8/nso-oc-2.50.1.tar.gz
+[2023-05-16 16:18:11] INFO root fetch - processPackages [viewm2m]: Downloading https://files.pythonhosted.org/packages/d8/2b/ca6e559df0890dfe8f1367fe4c1bbfc4c2d5144be556e8516011d4e25652/viewm2m-0.0.3.tar.gz
+[2023-05-16 16:18:11] INFO root fetch - processPackages [pyxll-jupyter]: Downloading https://files.pythonhosted.org/packages/93/67/e404d297a851c8e2972f16f2bfc83a222c9568d961cd6a09634993a7223e/pyxll_jupyter-0.4.1-py3-none-any.whl
+[2023-05-16 16:18:11] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-05-16 16:18:11] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.50.0.tar.gz tmp/nso-oc-2.50.1.tar.gz --markdown 20230516/n/nso-oc/2.50.0-2.50.1/diff.md --exclude *.pyd
+[2023-05-16 16:18:11] INFO root fetch - processPackages [viewm2m]: executing diffoscope
+[2023-05-16 16:18:11] INFO root fetch - processPackages [viewm2m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewm2m-0.0.2.tar.gz tmp/viewm2m-0.0.3.tar.gz --markdown 20230516/v/viewm2m/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 16:18:11] INFO root fetch - processPackages [pyxll-jupyter]: executing diffoscope
+[2023-05-16 16:18:11] INFO root fetch - processPackages [pyxll-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxll_jupyter-0.4.0-py3-none-any.whl.zip tmp/pyxll_jupyter-0.4.1-py3-none-any.whl.zip --markdown 20230516/p/pyxll-jupyter/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-16 16:18:11] INFO root fetch - processPackages [edxml]: Downloading https://files.pythonhosted.org/packages/84/12/bde60e6b64412991e65b998e90b500bcda91297c769c1485601dd6b813a4/edxml-3.0.1.tar.gz
+[2023-05-16 16:18:12] INFO root fetch - processPackages [edxml]: executing diffoscope
+[2023-05-16 16:18:12] INFO root fetch - processPackages [edxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edxml-3.0.0.dev2.tar.gz tmp/edxml-3.0.1.tar.gz --markdown 20230516/e/edxml/3.0.0.dev2-3.0.1/diff.md --exclude *.pyd
+[2023-05-16 16:18:12] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-05-16 16:18:12] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-16 16:18:12] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230516/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-16 16:18:12] INFO root fetch - processPackages [lz-import]: Start processing: certora-cli-alpha-uri-remove-last-conf-dir
+[2023-05-16 16:18:12] INFO root fetch - main [MainThread]: End processing [lz-import]: success
+[2023-05-16 16:18:12] WARNING root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: Skipping, unable to determine old version
+[2023-05-16 16:18:12] INFO root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: Start processing: aida-tools
+[2023-05-16 16:18:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-remove-last-conf-dir] error
+[2023-05-16 16:18:12] INFO root fetch - processPackages [bus-wizard]: Start processing: prophecy-build-tool
+[2023-05-16 16:18:12] INFO root fetch - main [MainThread]: End processing [bus-wizard]: success
+[2023-05-16 16:18:12] WARNING root fetch - processPackages [aida-tools]: Skipping, unable to determine old version
+[2023-05-16 16:18:12] INFO root fetch - processPackages [aida-tools]: Start processing: s2aff
+[2023-05-16 16:18:12] INFO root fetch - main [MainThread]: End processing [aida-tools] error
+[2023-05-16 16:18:13] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.1.0.1] Old Version: [1.1.0.0]
+[2023-05-16 16:18:13] INFO root fetch - processPackages [s2aff]: New version: [0.39] Old Version: [0.38]
+[2023-05-16 16:18:13] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/9d/a9/10594f826ac7c174ea85ed8f18341c8aa8a78a01898b681c1984dbd97363/s2aff-0.38.tar.gz
+[2023-05-16 16:18:13] INFO root fetch - processPackages [viewm2m]: Start processing: opn-sonarqube-api
+[2023-05-16 16:18:13] INFO root fetch - main [MainThread]: End processing [viewm2m]: success
+[2023-05-16 16:18:13] INFO root fetch - processPackages [opn-sonarqube-api]: New version: [2.3.2.2952263] Old Version: [2.3.2.2950747]
+[2023-05-16 16:18:13] INFO root fetch - processPackages [nso-oc]: Start processing: nobinobi-child
+[2023-05-16 16:18:13] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-05-16 16:18:13] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/63/6f/9164675ff7bf3fb2dd80ddbd82cf80abfeb2662033990c9db1920488972c/prophecy-build-tool-1.1.0.1.tar.gz
+[2023-05-16 16:18:13] INFO root fetch - processPackages [pyxll-jupyter]: Start processing: silero-api-server
+[2023-05-16 16:18:13] INFO root fetch - main [MainThread]: End processing [pyxll-jupyter]: success
+[2023-05-16 16:18:13] INFO root fetch - processPackages [silero-api-server]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 16:18:13] INFO root fetch - processPackages [nobinobi-child]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2023-05-16 16:18:13] INFO root fetch - processPackages [thrivve-core]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-16 16:18:13] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-05-16 16:18:13] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 16:18:13] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2023-05-16 16:18:13] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.1.0.0.tar.gz tmp/prophecy-build-tool-1.1.0.1.tar.gz --markdown 20230516/p/prophecy-build-tool/1.1.0.0-1.1.0.1/diff.md --exclude *.pyd
+[2023-05-16 16:18:13] INFO root fetch - processPackages [silero-api-server]: executing diffoscope
+[2023-05-16 16:18:13] INFO root fetch - processPackages [silero-api-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero_api_server-0.1.4.tar.gz tmp/silero_api_server-0.1.5.tar.gz --markdown 20230516/s/silero-api-server/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 16:18:13] INFO root fetch - processPackages [opn-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/91/88/e45c0064d29c80b7a3ea378c2311da1bdc4534f4fe60903e28a30bddb45a/opn_sonarqube_api-2.3.2.2952263.tar.gz
+[2023-05-16 16:18:13] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-16 16:18:13] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 16:18:13] INFO root fetch - processPackages [nobinobi-child]: Downloading https://files.pythonhosted.org/packages/40/89/6206738eb561e922dee10ccaa698474d2dabc50afd9e0b3f694caafe1ced/nobinobi-child-0.1.4.8.tar.gz
+[2023-05-16 16:18:13] WARNING root fetch - processPackages [nobinobi-child]: Skipping package: exceeds size limit 24753372>=10485760
+[2023-05-16 16:18:13] INFO root fetch - processPackages [nobinobi-child]: Start processing: fal
+[2023-05-16 16:18:13] INFO root fetch - main [MainThread]: End processing [nobinobi-child] error
+[2023-05-16 16:18:13] INFO root fetch - processPackages [opn-sonarqube-api]: executing diffoscope
+[2023-05-16 16:18:13] INFO root fetch - processPackages [opn-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opn_sonarqube_api-2.3.2.2950747.tar.gz tmp/opn_sonarqube_api-2.3.2.2952263.tar.gz --markdown 20230516/o/opn-sonarqube-api/2.3.2.2950747-2.3.2.2952263/diff.md --exclude *.pyd
+[2023-05-16 16:18:13] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/6e/dd/6bd9c6dd1612a7d9c973b9fc6e552ae86d732e1f6afd3333256d43a0e052/s2aff-0.39.tar.gz
+[2023-05-16 16:18:13] INFO root fetch - processPackages [fal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-16 16:18:13] INFO root fetch - processPackages [vgs-api-client]: Start processing: vgs-api-client
+[2023-05-16 16:18:13] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-16 16:18:13] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-16 16:18:13] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-16 16:18:13] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.38.tar.gz tmp/s2aff-0.39.tar.gz --markdown 20230516/s/s2aff/0.38-0.39/diff.md --exclude *.pyd
+[2023-05-16 16:18:13] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-16 16:18:13] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230516/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-16 16:18:14] INFO root fetch - processPackages [fal]: Downloading https://files.pythonhosted.org/packages/58/4b/bc3cbe4e8213a90fe366b40579a53c386440dd3764b42b554edb4e6b3988/fal-0.9.1.tar.gz
+[2023-05-16 16:18:14] INFO root fetch - processPackages [fal]: executing diffoscope
+[2023-05-16 16:18:14] INFO root fetch - processPackages [fal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal-0.9.0.tar.gz tmp/fal-0.9.1.tar.gz --markdown 20230516/f/fal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 16:18:14] INFO root fetch - processPackages [edxml]: Start processing: piscola
+[2023-05-16 16:18:14] INFO root fetch - main [MainThread]: End processing [edxml]: success
+[2023-05-16 16:18:14] INFO root fetch - processPackages [piscola]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-05-16 16:18:14] INFO root fetch - processPackages [piscola]: Downloading https://files.pythonhosted.org/packages/4a/df/d937c1e04d1fa1d0863839993b337017957d129ceba26b93501dc19cc90e/piscola-1.0.7.tar.gz
+[2023-05-16 16:18:14] WARNING root fetch - processPackages [piscola]: Skipping package: exceeds size limit 11161719>=10485760
+[2023-05-16 16:18:14] INFO root fetch - processPackages [piscola]: Start processing: aida-tools
+[2023-05-16 16:18:14] INFO root fetch - main [MainThread]: End processing [piscola] error
+[2023-05-16 16:18:14] INFO root fetch - processPackages [aida-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 16:18:14] INFO root fetch - processPackages [silero-api-server]: Start processing: yifeipdf
+[2023-05-16 16:18:14] INFO root fetch - main [MainThread]: End processing [silero-api-server]: success
+[2023-05-16 16:18:14] INFO root fetch - processPackages [aida-tools]: Downloading https://files.pythonhosted.org/packages/24/2c/0997025a895cf696f030853793106bd0e30258b10e0d9d95e8ca5a751611/aida_tools-0.1.1.tar.gz
+[2023-05-16 16:18:14] WARNING root fetch - processPackages [yifeipdf]: Skipping, unable to determine old version
+[2023-05-16 16:18:14] INFO root fetch - main [MainThread]: End processing [yifeipdf] error
+[2023-05-16 16:18:14] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2023-05-16 16:18:14] INFO root fetch - processPackages [aida-tools]: Downloading https://files.pythonhosted.org/packages/42/e6/01044acecbd4256184f0836cd1e707bbb88dcf3577119345aa5d23546e23/aida_tools-0.1.2.tar.gz
+[2023-05-16 16:18:15] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-16 16:18:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-16 16:18:15] INFO root fetch - main [MainThread]: End processing [opn-sonarqube-api]: success
+[2023-05-16 16:18:15] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-16 16:18:15] INFO root fetch - main [MainThread]: End processing [fal]: success
+[2023-05-16 16:18:15] INFO root fetch - processPackages [aida-tools]: executing diffoscope
+[2023-05-16 16:18:15] INFO root fetch - processPackages [aida-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aida_tools-0.1.1.tar.gz tmp/aida_tools-0.1.2.tar.gz --markdown 20230516/a/aida-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 16:18:16] INFO root fetch - main [MainThread]: End processing [aida-tools]: success
+[2023-05-16 16:18:17] INFO root fetch - main [MainThread]: End processing [query-toolkits]: success
+[2023-05-16 16:18:30] INFO root fetch - main [MainThread]: End processing [highspy]: success
+[2023-05-16 16:18:30] INFO root fetch - main [MainThread]: Store serial: [18124677]
