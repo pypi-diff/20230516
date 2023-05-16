@@ -6954,3 +6954,88 @@
 [2023-05-16 04:37:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-05-16 04:37:36] INFO root fetch - main [MainThread]: End processing [rcmpy]: success
 [2023-05-16 04:37:36] INFO root fetch - main [MainThread]: Store serial: [18117525]
+[2023-05-16 04:42:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117525]
+[2023-05-16 04:42:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-analytic-required
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-analytic
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-analytic
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-shopinvader-odoo-shopinvader
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-account-analytic
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-jtoman-cert-2127
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fparse
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coola
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Py-BOBYQA
+[2023-05-16 04:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: isoCycle
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo-addon-stock-analytic]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.1]
+[2023-05-16 04:42:45] WARNING root fetch - processPackages [isoCycle]: Skipping, unable to determine old version
+[2023-05-16 04:42:45] INFO root fetch - processPackages [isoCycle]: Start processing: policyengine-us
+[2023-05-16 04:42:45] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: New version: [14.0.20230515.0] Old Version: [14.0.20230404.0]
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: New version: [16.0.20230515.0] Old Version: [16.0.20230211.0]
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.2]
+[2023-05-16 04:42:45] INFO root fetch - processPackages [Py-BOBYQA]: New version: [1.4] Old Version: [1.3]
+[2023-05-16 04:42:45] INFO root fetch - processPackages [coola]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-16 04:42:45] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-cert-2127]: Skipping, unable to determine old version
+[2023-05-16 04:42:45] INFO root fetch - processPackages [certora-cli-alpha-jtoman-cert-2127]: Start processing: aliyun-python-sdk-live
+[2023-05-16 04:42:45] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-cert-2127] error
+[2023-05-16 04:42:45] INFO root fetch - processPackages [fparse]: New version: [1.20.1] Old Version: [1.20.0]
+[2023-05-16 04:42:45] INFO root fetch - processPackages [policyengine-us]: New version: [0.316.1] Old Version: [0.316.0]
+[2023-05-16 04:42:45] INFO root fetch - processPackages [aliyun-python-sdk-live]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-05-16 04:42:45] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/b7/10/e25bcf020fb344f7c9b3fcc0fb2c6766994386263f64540b3418dca2c89d/coola-0.0.6.tar.gz
+[2023-05-16 04:42:45] INFO root fetch - processPackages [fparse]: Downloading https://files.pythonhosted.org/packages/fe/82/3864ecb0b41b9c0af44f87a6f4e89b5086c8832475ee0286dbd85f62aea5/fparse-1.20.0.tar.gz
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/fc/ab/1e5de60e2489fed638ba0344ee89dee586b5062c3a62cb41c7882f03bae7/odoo_addons_oca_account_analytic-16.0.20230211.0-py3-none-any.whl
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: Downloading https://files.pythonhosted.org/packages/4e/be/9ac66cc6937c904781e4b31b92cae4e18cb90ee0cc0f686dce32832c3ce1/odoo_addon_purchase_analytic-16.0.1.0.0.6-py3-none-any.whl
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/71/32/363b6734c09f93a1fc9af8d41acf2e417445972555fef5b32170aae20157/odoo_addon_stock_analytic-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-16 04:42:45] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Downloading https://files.pythonhosted.org/packages/19/44/4558d1c4c2163d3f90cc412dd41c756b4dbca605f5649dd7b2f705045a4b/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230404.0-py3-none-any.whl
+[2023-05-16 04:42:45] INFO root fetch - processPackages [Py-BOBYQA]: Downloading https://files.pythonhosted.org/packages/e5/bb/1a9ee8d3592d6cc310f50cee0196c2988a9b59c06da060127db8a7cfa71c/Py-BOBYQA-1.3.tar.gz
+[2023-05-16 04:42:46] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/72/47/6aa83cda86ebfd8dbcb93f2b04b9baeed6c3e014f49c8cecfcfb81d92d64/policyengine-us-0.316.0.tar.gz
+[2023-05-16 04:42:46] INFO root fetch - processPackages [aliyun-python-sdk-live]: Downloading https://files.pythonhosted.org/packages/31/65/4f6a896045410caad0fb1072937d98a415358d05f026fcc623fc7b574676/aliyun-python-sdk-live-3.9.8.tar.gz
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Downloading https://files.pythonhosted.org/packages/3a/39/f87ca663683f6e81d8492774267ac95e24a8820ee793d9482de374b71e5a/odoo_addons_oca_account_analytic-16.0.20230515.0-py3-none-any.whl
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: Downloading https://files.pythonhosted.org/packages/e2/54/c7a88023d5fac513c31158332ffc2eec6d9a4a9ffe8111351c84acfa9506/odoo_addon_account_analytic_required-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-16 04:42:46] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/bb/00/6da1753f2cea5141a81364e8821f0b13d105ba050820f8b24af4ddc3dd36/coola-0.0.7.tar.gz
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Downloading https://files.pythonhosted.org/packages/a2/c6/4ec5df89d7da44b5d53b0b2f8369dfe49759e2fa8ee345f6417b5790a818/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230515.0-py3-none-any.whl
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-stock-analytic]: Downloading https://files.pythonhosted.org/packages/49/73/fea2c257bb6257c1ec17d5799e310632555694c61812b3efe7672dbbfce0/odoo_addon_stock_analytic-16.0.1.1.0.3-py3-none-any.whl
+[2023-05-16 04:42:46] INFO root fetch - processPackages [fparse]: Downloading https://files.pythonhosted.org/packages/e5/75/f26c0925b1fbe38badaafcda7ed5ef82eabc785ff18aaab4563827d1f424/fparse-1.20.1.tar.gz
+[2023-05-16 04:42:46] INFO root fetch - processPackages [Py-BOBYQA]: Downloading https://files.pythonhosted.org/packages/64/d4/5cdf443bf7fde99ca180d7bb4a0c1668cc1a5477634db64688c7481e7c33/Py-BOBYQA-1.4.tar.gz
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_analytic-16.0.20230211.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_analytic-16.0.20230515.0-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-account-analytic/16.0.20230211.0-16.0.20230515.0/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: Downloading https://files.pythonhosted.org/packages/22/01/d0e6db5dea774d0cfe99a1c179eb4e178684d027783438c2bac08959a3e5/odoo_addon_purchase_analytic-16.0.1.0.0.7-py3-none-any.whl
+[2023-05-16 04:42:46] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.6.tar.gz tmp/coola-0.0.7.tar.gz --markdown 20230516/c/coola/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_analytic_required-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_analytic_required-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-account-analytic-required/16.0.1.0.0.2-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_analytic-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_analytic-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-purchase-analytic/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [aliyun-python-sdk-live]: Downloading https://files.pythonhosted.org/packages/c9/c2/cab5cf2ebd2f262d29f54860eed7fac4412fa50e6388b0053c4dd76ae3ad/aliyun-python-sdk-live-3.9.9.tar.gz
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230404.0-py3-none-any.whl.zip tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230515.0-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addons-shopinvader-odoo-shopinvader/14.0.20230404.0-14.0.20230515.0/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [fparse]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [fparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fparse-1.20.0.tar.gz tmp/fparse-1.20.1.tar.gz --markdown 20230516/f/fparse/1.20.0-1.20.1/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [Py-BOBYQA]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [Py-BOBYQA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Py-BOBYQA-1.3.tar.gz tmp/Py-BOBYQA-1.4.tar.gz --markdown 20230516/P/Py-BOBYQA/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-stock-analytic]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [odoo-addon-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_analytic-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_analytic-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-stock-analytic/16.0.1.1.0.1-16.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/c3/70/8a3bc4f70c6e0e864561c6d675957b04f7a17589fa45e256d1461115e756/policyengine-us-0.316.1.tar.gz
+[2023-05-16 04:42:46] INFO root fetch - processPackages [aliyun-python-sdk-live]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [aliyun-python-sdk-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-live-3.9.8.tar.gz tmp/aliyun-python-sdk-live-3.9.9.tar.gz --markdown 20230516/a/aliyun-python-sdk-live/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-05-16 04:42:46] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-16 04:42:46] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.316.0.tar.gz tmp/policyengine-us-0.316.1.tar.gz --markdown 20230516/p/policyengine-us/0.316.0-0.316.1/diff.md --exclude *.pyd
+[2023-05-16 04:42:47] INFO root fetch - processPackages [odoo-addons-oca-account-analytic]: Start processing: isoCycle
+[2023-05-16 04:42:47] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-analytic]: success
+[2023-05-16 04:42:47] INFO root fetch - processPackages [isoCycle]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 04:42:47] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/85/ae/dcf698da386c1d4ff077f19d56965c815c11387d60c9d32d4309c643a62b/isoCycle-0.0.2.tar.gz
+[2023-05-16 04:42:47] INFO root fetch - main [MainThread]: End processing [odoo14-addons-shopinvader-odoo-shopinvader]: success
+[2023-05-16 04:42:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-analytic]: success
+[2023-05-16 04:42:48] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/b3/cb/a54d6086efadf2dd0986dc109d9f2688756e856ba5e9ac73d2f38e5f4b81/isoCycle-0.0.3.tar.gz
+[2023-05-16 04:42:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-analytic-required]: success
+[2023-05-16 04:42:48] INFO root fetch - main [MainThread]: End processing [fparse]: success
+[2023-05-16 04:42:48] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-05-16 04:42:48] INFO root fetch - processPackages [isoCycle]: executing diffoscope
+[2023-05-16 04:42:48] INFO root fetch - processPackages [isoCycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isoCycle-0.0.2.tar.gz tmp/isoCycle-0.0.3.tar.gz --markdown 20230516/i/isoCycle/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 04:42:48] INFO root fetch - main [MainThread]: End processing [Py-BOBYQA]: success
+[2023-05-16 04:42:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-analytic]: success
+[2023-05-16 04:42:49] INFO root fetch - main [MainThread]: End processing [isoCycle]: success
+[2023-05-16 04:42:49] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-live]: success
+[2023-05-16 04:44:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-16 04:44:02] INFO root fetch - main [MainThread]: Store serial: [18117555]
