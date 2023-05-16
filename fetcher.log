@@ -8214,3 +8214,130 @@
 [2023-05-16 06:21:30] INFO root fetch - main [MainThread]: End processing [moftransformer]: success
 [2023-05-16 06:22:05] INFO root fetch - main [MainThread]: End processing [amqp-workers]: success
 [2023-05-16 06:22:05] INFO root fetch - main [MainThread]: Store serial: [18118175]
+[2023-05-16 06:27:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118175]
+[2023-05-16 06:27:14] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-donation-base
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-donation
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-donation-recurring
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-donation
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syscolouraddons
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WX-Push-Services
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zenoml
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dartpy
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqapi
+[2023-05-16 06:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-website-sale-product-item-cart-custom-qty
+[2023-05-16 06:27:14] INFO root fetch - processPackages [odoo-addon-donation-recurring]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-16 06:27:14] INFO root fetch - processPackages [odoo-addon-donation-base]: New version: [16.0.2.0.0.4] Old Version: [16.0.2.0.0.2]
+[2023-05-16 06:27:14] INFO root fetch - processPackages [odoo-addon-donation]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-16 06:27:14] INFO root fetch - processPackages [odoo-addons-oca-donation]: New version: [16.0.20230515.1] Old Version: [16.0.20230317.0]
+[2023-05-16 06:27:14] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 06:27:14] INFO root fetch - processPackages [syscolouraddons]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-16 06:27:14] INFO root fetch - processPackages [zenoml]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-16 06:27:14] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post88] Old Version: [0.1.0.post87]
+[2023-05-16 06:27:15] INFO root fetch - processPackages [sqapi]: New version: [0.41] Old Version: [0.4]
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo14-addon-website-sale-product-item-cart-custom-qty]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2023-05-16 06:27:15] INFO root fetch - processPackages [syscolouraddons]: Downloading https://files.pythonhosted.org/packages/92/ae/5c1e6e6c71dec7a872d02ee4febeb47aebd83b1961aa46c9578dace31c68/syscolouraddons-1.0.0.tar.gz
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation-base]: Downloading https://files.pythonhosted.org/packages/1a/f8/224e18da92a10eedddc031dfdb09daf1cf6471f894e109b1c62de9748098/odoo_addon_donation_base-16.0.2.0.0.2-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addons-oca-donation]: Downloading https://files.pythonhosted.org/packages/64/4e/aaf89dc0e30e01e9b3416518e4fb9aac41ebdf1bbe1e1d9ac2571e3c874c/odoo_addons_oca_donation-16.0.20230317.0-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/88/11/70c96ee996033c8b9ee3609382616f9d7bc5225b690fe6afc63cc4aa6750/dartpy-0.1.0.post87-cp39-cp39-win_amd64.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation]: Downloading https://files.pythonhosted.org/packages/fb/68/b1977fc7117d94b8dfa8d17d0e8459681ccf17b49dd28b059497dfd62b7a/odoo_addon_donation-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-16 06:27:15] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20010419>=10485760
+[2023-05-16 06:27:15] INFO root fetch - processPackages [dartpy]: Start processing: open-aea
+[2023-05-16 06:27:15] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation-recurring]: Downloading https://files.pythonhosted.org/packages/88/4f/a96e53b2c293d0adcfe20e05536773f8ff755975294b5101a944c1ecf705/odoo_addon_donation_recurring-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [sqapi]: Downloading https://files.pythonhosted.org/packages/8a/eb/a34ac8691047ee924c6ca8c302db0467aa2bf36882920f58aff29884b848/sqapi-0.4.tar.gz
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo14-addon-website-sale-product-item-cart-custom-qty]: Downloading https://files.pythonhosted.org/packages/4c/7e/00e39734f76ac3aae172111393dc56ed67681167833d23156da8255c4c65/odoo14_addon_website_sale_product_item_cart_custom_qty-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [zenoml]: Downloading https://files.pythonhosted.org/packages/8b/16/6747f7ad090e05aca7484e13c29e9224545e9e2ec6e40d74f9397d64b78a/zenoml-0.5.3.tar.gz
+[2023-05-16 06:27:15] INFO root fetch - processPackages [open-aea]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-05-16 06:27:15] INFO root fetch - processPackages [syscolouraddons]: Downloading https://files.pythonhosted.org/packages/5a/5e/35d704364f21f6a0a523e8d9031ca4b35c68dcd8eca520fe255eb3322f9c/syscolouraddons-1.1.0.tar.gz
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation-base]: Downloading https://files.pythonhosted.org/packages/8a/86/940fd31eb12ea0cc1e49548b0c1c7d8293e33a73b776bdb535e2a8728d6e/odoo_addon_donation_base-16.0.2.0.0.4-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-16 06:27:15] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.8.tar.gz tmp/WX_Push_Services-1.0.9.tar.gz --markdown 20230516/W/WX-Push-Services/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation]: Downloading https://files.pythonhosted.org/packages/38/8c/30db4882e14c0bac352c85b4520d6a308e5911668a38b83772a3b6e7cf9c/odoo_addon_donation-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [sqapi]: Downloading https://files.pythonhosted.org/packages/94/73/4e4096ecc15c8920d36ba9e42bed25fac806e436a57c92b622bd9c3a0e53/sqapi-0.41.tar.gz
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addons-oca-donation]: Downloading https://files.pythonhosted.org/packages/de/8e/84aede0d69242348ec3a212d659fe9041dfc586e77a086910ae26bf9809b/odoo_addons_oca_donation-16.0.20230515.1-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation-recurring]: Downloading https://files.pythonhosted.org/packages/b2/04/a2f4fbb34e771a2a648959563a386c171a697c7d2e8798ca1ab9833f4b26/odoo_addon_donation_recurring-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation-base]: executing diffoscope
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_base-16.0.2.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_donation_base-16.0.2.0.0.4-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-donation-base/16.0.2.0.0.2-16.0.2.0.0.4/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo14-addon-website-sale-product-item-cart-custom-qty]: Downloading https://files.pythonhosted.org/packages/f6/39/88d8114e141c921b3c572ea261879f1fc2566e2c88a4c8276a8825aa4528/odoo14_addon_website_sale_product_item_cart_custom_qty-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-05-16 06:27:15] INFO root fetch - processPackages [open-aea]: Downloading https://files.pythonhosted.org/packages/7f/40/3bc96b026068c72069daaa6c85cc6c0c5904acc0c80107b1752886595b2b/open-aea-1.9.0.tar.gz
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation]: executing diffoscope
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_donation-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-donation/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [syscolouraddons]: executing diffoscope
+[2023-05-16 06:27:15] INFO root fetch - processPackages [syscolouraddons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolouraddons-1.0.0.tar.gz tmp/syscolouraddons-1.1.0.tar.gz --markdown 20230516/s/syscolouraddons/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [zenoml]: executing diffoscope
+[2023-05-16 06:27:15] WARNING root fetch - processPackages [open-aea]: Skipping package: exceeds size limit 16774114>=10485760
+[2023-05-16 06:27:15] INFO root fetch - processPackages [zenoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenoml-0.5.2.tar.gz tmp/zenoml-0.5.3.tar.gz --markdown 20230516/z/zenoml/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [open-aea]: Start processing: open-aea-cli-benchmark
+[2023-05-16 06:27:15] INFO root fetch - main [MainThread]: End processing [open-aea] error
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation-recurring]: executing diffoscope
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addon-donation-recurring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_recurring-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_donation_recurring-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-donation-recurring/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [sqapi]: executing diffoscope
+[2023-05-16 06:27:15] INFO root fetch - processPackages [sqapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqapi-0.4.tar.gz tmp/sqapi-0.41.tar.gz --markdown 20230516/s/sqapi/0.4-0.41/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addons-oca-donation]: executing diffoscope
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo-addons-oca-donation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_donation-16.0.20230317.0-py3-none-any.whl.zip tmp/odoo_addons_oca_donation-16.0.20230515.1-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-donation/16.0.20230317.0-16.0.20230515.1/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo14-addon-website-sale-product-item-cart-custom-qty]: executing diffoscope
+[2023-05-16 06:27:15] INFO root fetch - processPackages [odoo14-addon-website-sale-product-item-cart-custom-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_product_item_cart_custom_qty-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_product_item_cart_custom_qty-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-website-sale-product-item-cart-custom-qty/14.0.1.0.1.dev2-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-05-16 06:27:15] INFO root fetch - processPackages [open-aea-cli-benchmark]: New version: [1.34.0] Old Version: [1.33.0]
+[2023-05-16 06:27:15] INFO root fetch - processPackages [open-aea-cli-benchmark]: Downloading https://files.pythonhosted.org/packages/15/98/0d5ea49699d1dc14c894ea4a8e4a9d265fea10d785161af998289db7284f/open-aea-cli-benchmark-1.33.0.tar.gz
+[2023-05-16 06:27:16] INFO root fetch - processPackages [open-aea-cli-benchmark]: Downloading https://files.pythonhosted.org/packages/ed/21/7ef8541debd9a09418f415d39597a1290a470ed613f0928f2ad8d58f943a/open-aea-cli-benchmark-1.34.0.tar.gz
+[2023-05-16 06:27:16] INFO root fetch - processPackages [open-aea-cli-benchmark]: executing diffoscope
+[2023-05-16 06:27:16] INFO root fetch - processPackages [open-aea-cli-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-cli-benchmark-1.33.0.tar.gz tmp/open-aea-cli-benchmark-1.34.0.tar.gz --markdown 20230516/o/open-aea-cli-benchmark/1.33.0-1.34.0/diff.md --exclude *.pyd
+[2023-05-16 06:27:16] INFO root fetch - processPackages [WX-Push-Services]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-16 06:27:16] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-16 06:27:16] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230515.9.25.738539] Old Version: [20230515.8.30.947345]
+[2023-05-16 06:27:16] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/bf/ef/01dbf730e79959b14a661e61d8251b68e10c12a2362b5ea487bf586f1e6b/certora-cli-alpha-jtoman-infinite-loop-fix-20230515.8.30.947345.tar.gz
+[2023-05-16 06:27:17] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39430959>=10485760
+[2023-05-16 06:27:17] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: open-aea-cli-ipfs
+[2023-05-16 06:27:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-cli-ipfs]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-05-16 06:27:17] INFO root fetch - processPackages [syscolouraddons]: Start processing: open-aea-ledger-cosmos
+[2023-05-16 06:27:17] INFO root fetch - main [MainThread]: End processing [syscolouraddons]: success
+[2023-05-16 06:27:17] INFO root fetch - processPackages [odoo-addon-donation-base]: Start processing: open-aea-ledger-ethereum
+[2023-05-16 06:27:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-base]: success
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-cosmos]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-cli-ipfs]: Downloading https://files.pythonhosted.org/packages/ee/91/2e992d2fbb21f1c4976404b5f9f6d72aff9c1444a80f3ac7d0bcd8cf805e/open-aea-cli-ipfs-1.9.0.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Downloading https://files.pythonhosted.org/packages/8d/74/f371c3137a52ba978c1bb14e30533a29ec5f5648b1cdc3357ce5a9b48ef9/open-aea-ledger-cosmos-1.9.0.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [odoo-addon-donation-recurring]: Start processing: open-aea-ledger-ethereum-hwi
+[2023-05-16 06:27:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-recurring]: success
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: New version: [1.33.0] Old Version: [1.32.0]
+[2023-05-16 06:27:17] INFO root fetch - processPackages [odoo-addons-oca-donation]: Start processing: access-nri-intake
+[2023-05-16 06:27:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-donation]: success
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-cli-ipfs]: Downloading https://files.pythonhosted.org/packages/e4/34/810547261a12125c890b47a5e3ed32ef550369d1e4c298604ae35d4216cb/open-aea-cli-ipfs-1.9.0.post1.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Downloading https://files.pythonhosted.org/packages/83/67/960e6fa3586afa96b5fc5cd411f1403706ae6993d9fc85456dae6175968f/open-aea-ledger-ethereum-1.9.0.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [odoo14-addon-website-sale-product-item-cart-custom-qty]: Start processing: open-aea-ledger-ethereum-flashbots
+[2023-05-16 06:27:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-product-item-cart-custom-qty]: success
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: New version: [1.33.0] Old Version: [1.32.0]
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-cli-ipfs]: executing diffoscope
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-cli-ipfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-cli-ipfs-1.9.0.tar.gz tmp/open-aea-cli-ipfs-1.9.0.post1.tar.gz --markdown 20230516/o/open-aea-cli-ipfs/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-05-16 06:27:17] INFO root fetch - processPackages [access-nri-intake]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Downloading https://files.pythonhosted.org/packages/1b/76/c044f34b456bb06b88a03e7c86cc9c0a8f1238de3444d5ab0c0a85283b3a/open-aea-ledger-ethereum-hwi-1.32.0.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - main [MainThread]: End processing [sqapi]: success
+[2023-05-16 06:27:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation]: success
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Downloading https://files.pythonhosted.org/packages/61/d2/94be4f42f237964ad50ffebdd1d35d5a2fa8ad842708135c5d7386d2426a/open-aea-ledger-cosmos-1.9.0.post1.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Downloading https://files.pythonhosted.org/packages/32/31/b5bbe55e870c416f20dc20f026036cf4cf11ff3e6ee3eb1063910c57c314/open-aea-ledger-ethereum-flashbots-1.32.0.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-cosmos]: executing diffoscope
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-cosmos-1.9.0.tar.gz tmp/open-aea-ledger-cosmos-1.9.0.post1.tar.gz --markdown 20230516/o/open-aea-ledger-cosmos/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-05-16 06:27:17] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/d2/4c/375d30c690fb32c90f821131ad9f7625d78994fc81fe7bb26d430e9d01d3/access_nri_intake-0.0.1.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Downloading https://files.pythonhosted.org/packages/5a/2f/432a8948e4381bf374a78adafb58677bc83c853fe716108f745d13ecd673/open-aea-ledger-ethereum-1.9.0.post1.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Downloading https://files.pythonhosted.org/packages/ef/14/2275940fa186d79c499784a17f5c6639df6df2349fe044352be779eccf1d/open-aea-ledger-ethereum-hwi-1.33.0.tar.gz
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum]: executing diffoscope
+[2023-05-16 06:27:17] INFO root fetch - processPackages [open-aea-ledger-ethereum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-ethereum-1.9.0.tar.gz tmp/open-aea-ledger-ethereum-1.9.0.post1.tar.gz --markdown 20230516/o/open-aea-ledger-ethereum/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-05-16 06:27:18] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: executing diffoscope
+[2023-05-16 06:27:18] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-ethereum-hwi-1.32.0.tar.gz tmp/open-aea-ledger-ethereum-hwi-1.33.0.tar.gz --markdown 20230516/o/open-aea-ledger-ethereum-hwi/1.32.0-1.33.0/diff.md --exclude *.pyd
+[2023-05-16 06:27:18] INFO root fetch - processPackages [access-nri-intake]: Downloading https://files.pythonhosted.org/packages/f0/2f/3c987922ac5bb32df7dd23e89a745b7015a778e1df245409ab2799517974/access_nri_intake-0.0.2.tar.gz
+[2023-05-16 06:27:18] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Downloading https://files.pythonhosted.org/packages/59/2a/402d92abd9d647fbaf87b222101b3384a125cbce281744a53d74a3c3f092/open-aea-ledger-ethereum-flashbots-1.33.0.tar.gz
+[2023-05-16 06:27:18] INFO root fetch - processPackages [access-nri-intake]: executing diffoscope
+[2023-05-16 06:27:18] INFO root fetch - processPackages [access-nri-intake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/access_nri_intake-0.0.1.tar.gz tmp/access_nri_intake-0.0.2.tar.gz --markdown 20230516/a/access-nri-intake/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 06:27:18] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: executing diffoscope
+[2023-05-16 06:27:18] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-ethereum-flashbots-1.32.0.tar.gz tmp/open-aea-ledger-ethereum-flashbots-1.33.0.tar.gz --markdown 20230516/o/open-aea-ledger-ethereum-flashbots/1.32.0-1.33.0/diff.md --exclude *.pyd
+[2023-05-16 06:27:18] INFO root fetch - main [MainThread]: End processing [open-aea-cli-ipfs]: success
+[2023-05-16 06:27:19] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-cosmos]: success
+[2023-05-16 06:27:19] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum]: success
+[2023-05-16 06:27:19] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum-hwi]: success
+[2023-05-16 06:27:19] INFO root fetch - main [MainThread]: End processing [access-nri-intake]: success
+[2023-05-16 06:27:19] INFO root fetch - main [MainThread]: End processing [open-aea-cli-benchmark]: success
+[2023-05-16 06:27:19] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum-flashbots]: success
+[2023-05-16 06:27:37] INFO root fetch - main [MainThread]: End processing [zenoml]: success
+[2023-05-16 06:27:37] INFO root fetch - main [MainThread]: Store serial: [18118251]
