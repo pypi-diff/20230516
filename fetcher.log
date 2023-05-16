@@ -6827,3 +6827,51 @@
 [2023-05-16 04:21:25] INFO root fetch - main [MainThread]: End processing [trops]: success
 [2023-05-16 04:21:25] INFO root fetch - main [MainThread]: End processing [featurewiz]: success
 [2023-05-16 04:21:25] INFO root fetch - main [MainThread]: Store serial: [18117451]
+[2023-05-16 04:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117451]
+[2023-05-16 04:26:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-16 04:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimus-prime-transformers
+[2023-05-16 04:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pip-RCE
+[2023-05-16 04:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamicadaptor
+[2023-05-16 04:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoviz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiontutil
+[2023-05-16 04:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scavenger-py
+[2023-05-16 04:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-24
+[2023-05-16 04:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsptrain
+[2023-05-16 04:26:34] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-16 04:26:34] INFO root fetch - processPackages [optimus-prime-transformers]: New version: [1.1.1] Old Version: [1.0.9]
+[2023-05-16 04:26:34] INFO root fetch - processPackages [lsptrain]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-05-16 04:26:34] WARNING root fetch - processPackages [pip-RCE]: Skipping, unable to determine old version
+[2023-05-16 04:26:34] INFO root fetch - main [MainThread]: End processing [pip-RCE] error
+[2023-05-16 04:26:34] WARNING root fetch - processPackages [scavenger-py]: Skipping, unable to determine old version
+[2023-05-16 04:26:34] INFO root fetch - main [MainThread]: End processing [scavenger-py] error
+[2023-05-16 04:26:34] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-16 04:26:34] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230516/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-16 04:26:34] INFO root fetch - processPackages [autoviz]: New version: [0.1.604] Old Version: [0.1.603]
+[2023-05-16 04:26:34] INFO root fetch - processPackages [aiontutil]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 04:26:34] INFO root fetch - processPackages [dynamicadaptor]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-16 04:26:34] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/50/68/4e53f7e0fb5c4d227896981c99e54247a789043c9a1fa84e9ca4ebdd6785/optimus-prime-transformers-1.1.1.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/36/19/5e6b51513332a5d73a65e9dd890a1118d1c4ff03fac5daa43d5ff66d3eea/lsptrain-0.0.56.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/58/60/ba7e0bdbbe598d7a59d4488c1f6c483dea5940732fb985c43a59c2b7449f/autoviz-0.1.603.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [dynamicadaptor]: Downloading https://files.pythonhosted.org/packages/be/8f/0f220f88d36b15591cdcc0abbfbf1c1c818e62297bd271a72da2bbd41cc6/dynamicadaptor-0.3.9.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [aiontutil]: Downloading https://files.pythonhosted.org/packages/80/1b/66f9b210c8064969d77017c93dabbe14802a00646cb77bdbe0e916a28450/aiontutil-0.0.5.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [optimus-prime-transformers]: executing diffoscope
+[2023-05-16 04:26:34] INFO root fetch - processPackages [optimus-prime-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimus-prime-transformers-1.0.9.tar.gz tmp/optimus-prime-transformers-1.1.1.tar.gz --markdown 20230516/o/optimus-prime-transformers/1.0.9-1.1.1/diff.md --exclude *.pyd
+[2023-05-16 04:26:34] INFO root fetch - processPackages [dynamicadaptor]: Downloading https://files.pythonhosted.org/packages/d4/23/fcd368e9a0df724a6f42f586b3c7b8f9bc1d7fa6b1982b08b19bdb5a960a/dynamicadaptor-0.4.0.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [aiontutil]: Downloading https://files.pythonhosted.org/packages/3c/50/96aebe0c69d9f47803c62b0354f8faa48542e11bbfc711f30661faa789f1/aiontutil-0.0.6.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/07/94/0ac7e24715dd5702819db5fa284982e03344340138b784c3268ab99ae75d/lsptrain-0.0.57.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/d5/70/44eca534fc6ab798eebc5c54471764465da56d6241d204519739b3e8e0a4/autoviz-0.1.604.tar.gz
+[2023-05-16 04:26:34] INFO root fetch - processPackages [dynamicadaptor]: executing diffoscope
+[2023-05-16 04:26:34] INFO root fetch - processPackages [dynamicadaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicadaptor-0.3.9.tar.gz tmp/dynamicadaptor-0.4.0.tar.gz --markdown 20230516/d/dynamicadaptor/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 04:26:34] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-05-16 04:26:34] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.56.tar.gz tmp/lsptrain-0.0.57.tar.gz --markdown 20230516/l/lsptrain/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-05-16 04:26:35] INFO root fetch - processPackages [aiontutil]: executing diffoscope
+[2023-05-16 04:26:35] INFO root fetch - processPackages [aiontutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiontutil-0.0.5.tar.gz tmp/aiontutil-0.0.6.tar.gz --markdown 20230516/a/aiontutil/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 04:26:35] INFO root fetch - processPackages [autoviz]: executing diffoscope
+[2023-05-16 04:26:35] INFO root fetch - processPackages [autoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviz-0.1.603.tar.gz tmp/autoviz-0.1.604.tar.gz --markdown 20230516/a/autoviz/0.1.603-0.1.604/diff.md --exclude *.pyd
+[2023-05-16 04:26:35] INFO root fetch - main [MainThread]: End processing [optimus-prime-transformers]: success
+[2023-05-16 04:26:36] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-16 04:26:36] INFO root fetch - main [MainThread]: End processing [dynamicadaptor]: success
+[2023-05-16 04:26:36] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-05-16 04:26:36] INFO root fetch - main [MainThread]: End processing [aiontutil]: success
+[2023-05-16 04:26:37] INFO root fetch - main [MainThread]: End processing [autoviz]: success
+[2023-05-16 04:26:37] INFO root fetch - main [MainThread]: Store serial: [18117479]
