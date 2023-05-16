@@ -6559,3 +6559,25 @@
 [2023-05-16 03:50:02] INFO root fetch - main [MainThread]: End processing [dexie-rewards]: success
 [2023-05-16 03:50:05] INFO root fetch - main [MainThread]: End processing [metaflow]: success
 [2023-05-16 03:50:05] INFO root fetch - main [MainThread]: Store serial: [18117302]
+[2023-05-16 03:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117302]
+[2023-05-16 03:55:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-16 03:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VisionFive.gpio
+[2023-05-16 03:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django.js-ng
+[2023-05-16 03:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hybridcontents
+[2023-05-16 03:55:14] INFO root fetch - processPackages [django.js-ng]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-16 03:55:14] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-16 03:55:14] INFO root fetch - processPackages [hybridcontents]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-16 03:55:14] INFO root fetch - processPackages [django.js-ng]: executing diffoscope
+[2023-05-16 03:55:14] INFO root fetch - processPackages [django.js-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django.js-ng-2.2.0.tar.gz tmp/django.js-ng-2.3.0.tar.gz --markdown 20230516/d/django.js-ng/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-16 03:55:14] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/eb/08/d7a111300538371b689eed736ccd9fd7ce129b55c7dc212be0a849658762/VisionFive.gpio-1.2.8.tar.gz
+[2023-05-16 03:55:14] INFO root fetch - processPackages [hybridcontents]: Downloading https://files.pythonhosted.org/packages/0e/4f/f3a10b1b526e42b705f9b1e91679c3716957f62d1ac9be52b3647f8c857c/hybridcontents-0.3.0.tar.gz
+[2023-05-16 03:55:15] INFO root fetch - processPackages [hybridcontents]: Downloading https://files.pythonhosted.org/packages/82/52/4f0319d7470184ca32b06ed48c9c69231699d2105e616176598cdfd7bf67/hybridcontents-0.4.0.tar.gz
+[2023-05-16 03:55:15] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/9b/f4/55224979b86c25bc928a09fd65c2c7b121d763ec4f3cabf20e9dff6fa35a/VisionFive.gpio-1.2.9.tar.gz
+[2023-05-16 03:55:15] INFO root fetch - processPackages [hybridcontents]: executing diffoscope
+[2023-05-16 03:55:15] INFO root fetch - processPackages [hybridcontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybridcontents-0.3.0.tar.gz tmp/hybridcontents-0.4.0.tar.gz --markdown 20230516/h/hybridcontents/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 03:55:15] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-05-16 03:55:15] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.8.tar.gz tmp/VisionFive.gpio-1.2.9.tar.gz --markdown 20230516/V/VisionFive.gpio/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-16 03:55:16] INFO root fetch - main [MainThread]: End processing [hybridcontents]: success
+[2023-05-16 03:55:16] INFO root fetch - main [MainThread]: End processing [django.js-ng]: success
+[2023-05-16 03:55:16] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-05-16 03:55:16] INFO root fetch - main [MainThread]: Store serial: [18117311]
