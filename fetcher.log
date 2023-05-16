@@ -12738,3 +12738,193 @@
 [2023-05-16 10:59:44] INFO root fetch - main [MainThread]: End processing [xorbits]: success
 [2023-05-16 11:00:12] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-16 11:00:12] INFO root fetch - main [MainThread]: Store serial: [18120743]
+[2023-05-16 11:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120743]
+[2023-05-16 11:05:23] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kof-parser
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Operetta-tool
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation_rest_server
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TMD
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assisted-service-client
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-stock-picking-group-by-partner-by-carrier
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opensesame-core
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deep-training
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: garpix-profitbase
+[2023-05-16 11:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-product-supplierinfo-for-customer-picking
+[2023-05-16 11:05:23] INFO root fetch - processPackages [garpix-profitbase]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [deep-training]: New version: [0.1.5.post0] Old Version: [0.1.5]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [TMD]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [kof-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a34]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [odoo13-addon-stock-picking-group-by-partner-by-carrier]: New version: [13.0.1.9.0] Old Version: [13.0.1.8.1.dev1]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [automation_rest_server]: New version: [3.7.1] Old Version: [3.6.9]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [garpix-profitbase]: executing diffoscope
+[2023-05-16 11:05:23] INFO root fetch - processPackages [garpix-profitbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_profitbase-1.9.1.tar.gz tmp/garpix_profitbase-1.9.2.tar.gz --markdown 20230516/g/garpix-profitbase/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-16 11:05:23] INFO root fetch - processPackages [Operetta-tool]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-16 11:05:23] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-05-16 11:05:23] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.5-py3-none-any.whl.zip tmp/deep_training-0.1.5.post0-py3-none-any.whl.zip --markdown 20230516/d/deep-training/0.1.5-0.1.5.post0/diff.md --exclude *.pyd
+[2023-05-16 11:05:23] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/32/19/cda89e740dfaec8802cd1cab3e7d2eaca1ccdd10225bd99e363500771e8a/opensesame_core-4.0.0a34.tar.gz
+[2023-05-16 11:05:23] INFO root fetch - processPackages [TMD]: Downloading https://files.pythonhosted.org/packages/56/87/05e0e85b8d7d6983c0b3f5247eba55457b88fbc224944fa95f17f558acdf/TMD-2.3.0.tar.gz
+[2023-05-16 11:05:23] INFO root fetch - processPackages [kof-parser]: Downloading https://files.pythonhosted.org/packages/3a/6a/9dfd0aa9a4c6830248077727c5c91acffd94825964620148f49be0b1d52a/kof-parser-0.0.8.tar.gz
+[2023-05-16 11:05:23] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: Downloading https://files.pythonhosted.org/packages/67/ae/ba3e93ce49c2f1875bf73349247797ba43ab2d74911f5c2e7f89587e357d/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-16 11:05:23] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-05-16 11:05:23] INFO root fetch - processPackages [Operetta-tool]: Downloading https://files.pythonhosted.org/packages/d3/d1/fabf12d5e75c58f7ce088f8b2fd5add55e2178dcfb137fa09c29e13f5019/Operetta_tool-1.3.1.tar.gz
+[2023-05-16 11:05:23] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18923652>=10485760
+[2023-05-16 11:05:23] INFO root fetch - processPackages [opensesame-core]: Start processing: djungle-rulesengine-client
+[2023-05-16 11:05:23] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-05-16 11:05:23] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: executing diffoscope
+[2023-05-16 11:05:23] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-product-supplierinfo-for-customer-picking/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-16 11:05:23] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/27/00/1065abacfc542764277654dd4e5d570f2ad816679d1585e43ac3d7e20366/automation_rest_server-3.7.1.tar.gz
+[2023-05-16 11:05:23] INFO root fetch - processPackages [odoo13-addon-stock-picking-group-by-partner-by-carrier]: executing diffoscope
+[2023-05-16 11:05:23] INFO root fetch - processPackages [odoo13-addon-stock-picking-group-by-partner-by-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_picking_group_by_partner_by_carrier-13.0.1.8.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_stock_picking_group_by_partner_by_carrier-13.0.1.9.0-py3-none-any.whl.zip --markdown 20230516/o/odoo13-addon-stock-picking-group-by-partner-by-carrier/13.0.1.8.1.dev1-13.0.1.9.0/diff.md --exclude *.pyd
+[2023-05-16 11:05:23] INFO root fetch - processPackages [djungle-rulesengine-client]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-16 11:05:24] INFO root fetch - processPackages [TMD]: Downloading https://files.pythonhosted.org/packages/8b/81/884b2d755669ad63686b53d09b442a89a1e0be8b12f8611bdbb37d59a6dc/TMD-2.3.1.tar.gz
+[2023-05-16 11:05:24] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-05-16 11:05:24] INFO root fetch - processPackages [Operetta-tool]: Downloading https://files.pythonhosted.org/packages/cc/9e/b1e05fd07449359be7dfb54dc24197d5c8bb17776b04428c9a99a4317f64/Operetta_tool-1.3.2.tar.gz
+[2023-05-16 11:05:24] INFO root fetch - processPackages [kof-parser]: Downloading https://files.pythonhosted.org/packages/61/9c/9c564fb38dbaab42148e3bdcc1588496c9cc0d0277c030d731ed21a787df/kof-parser-0.0.9.tar.gz
+[2023-05-16 11:05:24] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-16 11:05:24] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230516/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-16 11:05:24] INFO root fetch - processPackages [Operetta-tool]: executing diffoscope
+[2023-05-16 11:05:24] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-05-16 11:05:24] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.6.9.tar.gz tmp/automation_rest_server-3.7.1.tar.gz --markdown 20230516/a/automation_rest_server/3.6.9-3.7.1/diff.md --exclude *.pyd
+[2023-05-16 11:05:24] INFO root fetch - processPackages [Operetta-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Operetta_tool-1.3.1.tar.gz tmp/Operetta_tool-1.3.2.tar.gz --markdown 20230516/O/Operetta-tool/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-16 11:05:24] INFO root fetch - processPackages [TMD]: executing diffoscope
+[2023-05-16 11:05:24] INFO root fetch - processPackages [TMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMD-2.3.0.tar.gz tmp/TMD-2.3.1.tar.gz --markdown 20230516/T/TMD/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-16 11:05:24] INFO root fetch - processPackages [kof-parser]: executing diffoscope
+[2023-05-16 11:05:24] INFO root fetch - processPackages [kof-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kof-parser-0.0.8.tar.gz tmp/kof-parser-0.0.9.tar.gz --markdown 20230516/k/kof-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 11:05:24] INFO root fetch - processPackages [djungle-rulesengine-client]: Downloading https://files.pythonhosted.org/packages/83/76/6678b4248df720c555265218a21b66bedd05396b7c0452f6c00c6c53822d/djungle-rulesengine-client-0.4.0.tar.gz
+[2023-05-16 11:05:24] INFO root fetch - processPackages [djungle-rulesengine-client]: executing diffoscope
+[2023-05-16 11:05:24] INFO root fetch - processPackages [djungle-rulesengine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djungle-rulesengine-client-0.3.3.tar.gz tmp/djungle-rulesengine-client-0.4.0.tar.gz --markdown 20230516/d/djungle-rulesengine-client/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-16 11:05:25] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: Start processing: blobtk
+[2023-05-16 11:05:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-supplierinfo-for-customer-picking]: success
+[2023-05-16 11:05:25] INFO root fetch - processPackages [garpix-profitbase]: Start processing: dgpost
+[2023-05-16 11:05:25] INFO root fetch - main [MainThread]: End processing [garpix-profitbase]: success
+[2023-05-16 11:05:25] INFO root fetch - processPackages [blobtk]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-16 11:05:25] INFO root fetch - processPackages [dgpost]: New version: [2.0rc1] Old Version: [2.0a4]
+[2023-05-16 11:05:25] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/59/98/57961cc4e5b138a9c053f8a9248eb1e39d793fa9d5065fe830f45627239a/blobtk-0.3.1.tar.gz
+[2023-05-16 11:05:25] INFO root fetch - processPackages [odoo13-addon-stock-picking-group-by-partner-by-carrier]: Start processing: Swaiter
+[2023-05-16 11:05:25] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-picking-group-by-partner-by-carrier]: success
+[2023-05-16 11:05:25] INFO root fetch - processPackages [Swaiter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 11:05:25] INFO root fetch - processPackages [dgpost]: Downloading https://files.pythonhosted.org/packages/83/39/8c23883b40c5713c30fa8e8b47448831f8209032b7863cc6fa7acadc1883/dgpost-2.0a4.tar.gz
+[2023-05-16 11:05:25] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/0f/3d/3410dae563b524ea14714d204b501d8b4d72533ca76373c4db401f62648c/blobtk-0.3.2.tar.gz
+[2023-05-16 11:05:25] INFO root fetch - processPackages [Swaiter]: Downloading https://files.pythonhosted.org/packages/d7/b2/23596a9030a878027b0fe0da5c267fae292379dff242cdc6429516648851/Swaiter-1.0.1.tar.gz
+[2023-05-16 11:05:26] INFO root fetch - processPackages [blobtk]: executing diffoscope
+[2023-05-16 11:05:26] INFO root fetch - processPackages [blobtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobtk-0.3.1.tar.gz tmp/blobtk-0.3.2.tar.gz --markdown 20230516/b/blobtk/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-16 11:05:26] INFO root fetch - processPackages [kof-parser]: Start processing: iosense-connect
+[2023-05-16 11:05:26] INFO root fetch - main [MainThread]: End processing [kof-parser]: success
+[2023-05-16 11:05:26] INFO root fetch - processPackages [dgpost]: Downloading https://files.pythonhosted.org/packages/ec/fc/f8f0b7cd98044cffbdea1f452a9c6679ed2168017bc5b83819dfdbd14f04/dgpost-2.0rc1.tar.gz
+[2023-05-16 11:05:26] INFO root fetch - processPackages [iosense-connect]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-16 11:05:26] INFO root fetch - processPackages [Swaiter]: Downloading https://files.pythonhosted.org/packages/62/b5/80a2f3cca899f2a2090f43c7f19da845d35550afa4935b3796929c1987a8/Swaiter-1.0.2.tar.gz
+[2023-05-16 11:05:26] INFO root fetch - processPackages [djungle-rulesengine-client]: Start processing: langchain-serve
+[2023-05-16 11:05:26] INFO root fetch - main [MainThread]: End processing [djungle-rulesengine-client]: success
+[2023-05-16 11:05:26] INFO root fetch - processPackages [Swaiter]: executing diffoscope
+[2023-05-16 11:05:26] INFO root fetch - processPackages [Swaiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swaiter-1.0.1.tar.gz tmp/Swaiter-1.0.2.tar.gz --markdown 20230516/S/Swaiter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 11:05:26] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-16 11:05:26] INFO root fetch - processPackages [dgpost]: executing diffoscope
+[2023-05-16 11:05:26] INFO root fetch - processPackages [dgpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgpost-2.0a4.tar.gz tmp/dgpost-2.0rc1.tar.gz --markdown 20230516/d/dgpost/2.0a4-2.0rc1/diff.md --exclude *.pyd
+[2023-05-16 11:05:26] INFO root fetch - processPackages [deep-training]: Start processing: RiboMetric
+[2023-05-16 11:05:26] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-05-16 11:05:26] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/17/fc/fa810386408af723454fed5d58afb3c2b40df7fa7043c98b18ecaeb48ed6/iosense_connect-2.1.3.tar.gz
+[2023-05-16 11:05:26] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-16 11:05:26] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230516/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 11:05:26] WARNING root fetch - processPackages [RiboMetric]: Skipping, unable to determine old version
+[2023-05-16 11:05:26] INFO root fetch - processPackages [RiboMetric]: Start processing: recon-lw
+[2023-05-16 11:05:26] INFO root fetch - main [MainThread]: End processing [RiboMetric] error
+[2023-05-16 11:05:26] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4989843192] Old Version: [2.0.0.dev4989419599]
+[2023-05-16 11:05:26] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-16 11:05:26] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4989419599.tar.gz tmp/recon_lw-2.0.0.dev4989843192.tar.gz --markdown 20230516/r/recon-lw/2.0.0.dev4989419599-2.0.0.dev4989843192/diff.md --exclude *.pyd
+[2023-05-16 11:05:26] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/70/3d/ad1cad631cb29bd36eec8a5c72a7d7c4bae495b53f2c992b28fdd9eb3060/iosense_connect-2.1.4.tar.gz
+[2023-05-16 11:05:26] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-05-16 11:05:26] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-2.1.3.tar.gz tmp/iosense_connect-2.1.4.tar.gz --markdown 20230516/i/iosense-connect/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-16 11:05:27] INFO root fetch - processPackages [TMD]: Start processing: torchninja
+[2023-05-16 11:05:27] INFO root fetch - main [MainThread]: End processing [TMD]: success
+[2023-05-16 11:05:27] WARNING root fetch - processPackages [torchninja]: Skipping, unable to determine old version
+[2023-05-16 11:05:27] INFO root fetch - processPackages [torchninja]: Start processing: daspython
+[2023-05-16 11:05:27] INFO root fetch - main [MainThread]: End processing [torchninja] error
+[2023-05-16 11:05:27] INFO root fetch - processPackages [daspython]: New version: [2.0.1] Old Version: [2.0]
+[2023-05-16 11:05:27] INFO root fetch - processPackages [Swaiter]: Start processing: autogluon.common
+[2023-05-16 11:05:27] INFO root fetch - main [MainThread]: End processing [Swaiter]: success
+[2023-05-16 11:05:27] INFO root fetch - processPackages [Operetta-tool]: Start processing: bridgecrew
+[2023-05-16 11:05:27] INFO root fetch - main [MainThread]: End processing [Operetta-tool]: success
+[2023-05-16 11:05:27] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-16 11:05:27] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230516] Old Version: [0.7.1b20230515]
+[2023-05-16 11:05:27] INFO root fetch - processPackages [daspython]: executing diffoscope
+[2023-05-16 11:05:27] INFO root fetch - processPackages [daspython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daspython-2.0.tar.gz tmp/daspython-2.0.1.tar.gz --markdown 20230516/d/daspython/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-16 11:05:27] INFO root fetch - processPackages [recon-lw]: Start processing: autogluon.core
+[2023-05-16 11:05:27] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-16 11:05:27] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/d3/1a/25142251f55a87040b716c1731cdc6bd06cebf151af2529870f3a87fdc39/autogluon.common-0.7.1b20230516.tar.gz
+[2023-05-16 11:05:27] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230515] Old Version: [0.7.1b20230514]
+[2023-05-16 11:05:28] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-16 11:05:28] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230516/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-16 11:05:28] INFO root fetch - processPackages [iosense-connect]: Start processing: autogluon.features
+[2023-05-16 11:05:28] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230515.tar.gz tmp/autogluon.common-0.7.1b20230516.tar.gz --markdown 20230516/a/autogluon.common/0.7.1b20230515-0.7.1b20230516/diff.md --exclude *.pyd
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230514.tar.gz tmp/autogluon.core-0.7.1b20230515.tar.gz --markdown 20230516/a/autogluon.core/0.7.1b20230514-0.7.1b20230515/diff.md --exclude *.pyd
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230516] Old Version: [0.7.1b20230515]
+[2023-05-16 11:05:28] INFO root fetch - processPackages [blobtk]: Start processing: autogluon.tabular
+[2023-05-16 11:05:28] INFO root fetch - main [MainThread]: End processing [blobtk]: success
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.1b20230515] Old Version: [0.7.1b20230514]
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/c5/d0/72bcbf3cda78f8cfd29ee54b85e62402cc733698785540903fe234555c73/autogluon.features-0.7.1b20230516.tar.gz
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.1b20230514.tar.gz tmp/autogluon.tabular-0.7.1b20230515.tar.gz --markdown 20230516/a/autogluon.tabular/0.7.1b20230514-0.7.1b20230515/diff.md --exclude *.pyd
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.1b20230515.tar.gz tmp/autogluon.features-0.7.1b20230516.tar.gz --markdown 20230516/a/autogluon.features/0.7.1b20230515-0.7.1b20230516/diff.md --exclude *.pyd
+[2023-05-16 11:05:28] INFO root fetch - processPackages [langchain-serve]: Start processing: autogluon.multimodal
+[2023-05-16 11:05:28] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-16 11:05:28] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.1b20230515] Old Version: [0.7.1b20230514]
+[2023-05-16 11:05:28] INFO root fetch - processPackages [dgpost]: Start processing: aio-dt-protocol
+[2023-05-16 11:05:28] INFO root fetch - main [MainThread]: End processing [dgpost]: success
+[2023-05-16 11:05:29] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-05-16 11:05:29] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.1b20230514.tar.gz tmp/autogluon.multimodal-0.7.1b20230515.tar.gz --markdown 20230516/a/autogluon.multimodal/0.7.1b20230514-0.7.1b20230515/diff.md --exclude *.pyd
+[2023-05-16 11:05:29] INFO root fetch - processPackages [aio-dt-protocol]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-16 11:05:29] INFO root fetch - processPackages [aio-dt-protocol]: Downloading https://files.pythonhosted.org/packages/75/bf/a2c53d5c1b60ffd221f159d2fc95e824e3fbd78406f80ad3a2ed3f8a0d68/aio_dt_protocol-0.9.3.tar.gz
+[2023-05-16 11:05:29] INFO root fetch - processPackages [aio-dt-protocol]: Downloading https://files.pythonhosted.org/packages/9d/3b/6ac0168c1846d80cf906c36c11dc3ffe444a6b3fe8c2e8d8dd342df317f1/aio_dt_protocol-0.9.4.tar.gz
+[2023-05-16 11:05:29] INFO root fetch - processPackages [bridgecrew]: Start processing: autogluon.timeseries
+[2023-05-16 11:05:29] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-16 11:05:29] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.1b20230515] Old Version: [0.7.1b20230514]
+[2023-05-16 11:05:29] INFO root fetch - processPackages [aio-dt-protocol]: executing diffoscope
+[2023-05-16 11:05:29] INFO root fetch - processPackages [aio-dt-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_dt_protocol-0.9.3.tar.gz tmp/aio_dt_protocol-0.9.4.tar.gz --markdown 20230516/a/aio-dt-protocol/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-16 11:05:29] INFO root fetch - processPackages [assisted-service-client]: Start processing: autogluon
+[2023-05-16 11:05:29] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-16 11:05:29] INFO root fetch - processPackages [daspython]: Start processing: autogluon.cloud
+[2023-05-16 11:05:29] INFO root fetch - main [MainThread]: End processing [daspython]: success
+[2023-05-16 11:05:29] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230515] Old Version: [0.2.1b20230514]
+[2023-05-16 11:05:29] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon.eda
+[2023-05-16 11:05:29] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-05-16 11:05:29] INFO root fetch - processPackages [autogluon]: New version: [0.7.1b20230516] Old Version: [0.7.1b20230515]
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.1b20230514.tar.gz tmp/autogluon.timeseries-0.7.1b20230515.tar.gz --markdown 20230516/a/autogluon.timeseries/0.7.1b20230514-0.7.1b20230515/diff.md --exclude *.pyd
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.1b20230515] Old Version: [0.7.1b20230514]
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230514.tar.gz tmp/autogluon.cloud-0.2.1b20230515.tar.gz --markdown 20230516/a/autogluon.cloud/0.2.1b20230514-0.2.1b20230515/diff.md --exclude *.pyd
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/89/f4/3eb7a3b8dbad80f8b062617c6a6fc6f1f0f89702f8954bac6b3c73608371/autogluon-0.7.1b20230516.tar.gz
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.1b20230514.tar.gz tmp/autogluon.eda-0.7.1b20230515.tar.gz --markdown 20230516/a/autogluon.eda/0.7.1b20230514-0.7.1b20230515/diff.md --exclude *.pyd
+[2023-05-16 11:05:30] INFO root fetch - processPackages [automation_rest_server]: Start processing: PyMca5
+[2023-05-16 11:05:30] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-05-16 11:05:30] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.1b20230515.tar.gz tmp/autogluon-0.7.1b20230516.tar.gz --markdown 20230516/a/autogluon/0.7.1b20230515-0.7.1b20230516/diff.md --exclude *.pyd
+[2023-05-16 11:05:30] INFO root fetch - processPackages [PyMca5]: New version: [5.8.2] Old Version: [5.8.1]
+[2023-05-16 11:05:30] INFO root fetch - processPackages [PyMca5]: Downloading https://files.pythonhosted.org/packages/d9/11/260c635a275aee6dc4c67d847e797a5f10e0fbea557d0b93ea167c74ce2f/PyMca5-5.8.1.tar.gz
+[2023-05-16 11:05:30] WARNING root fetch - processPackages [PyMca5]: Skipping package: exceeds size limit 15888211>=10485760
+[2023-05-16 11:05:30] INFO root fetch - processPackages [PyMca5]: Start processing: fwadmin
+[2023-05-16 11:05:30] INFO root fetch - main [MainThread]: End processing [PyMca5] error
+[2023-05-16 11:05:30] INFO root fetch - processPackages [fwadmin]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-16 11:05:31] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-05-16 11:05:31] INFO root fetch - processPackages [fwadmin]: Downloading https://files.pythonhosted.org/packages/7d/44/37fbc45bb428274280a7f39a5de7b0f4a822e2ff9741a487c8832ac92a26/fwadmin-0.0.3.tar.gz
+[2023-05-16 11:05:31] INFO root fetch - main [MainThread]: End processing [aio-dt-protocol]: success
+[2023-05-16 11:05:31] INFO root fetch - processPackages [fwadmin]: Downloading https://files.pythonhosted.org/packages/a6/73/8f19c3050e53971647fa1daa59d9e1520efd98e28e9d0cd31450950cf474/fwadmin-0.0.5.tar.gz
+[2023-05-16 11:05:31] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-05-16 11:05:31] INFO root fetch - processPackages [fwadmin]: executing diffoscope
+[2023-05-16 11:05:31] INFO root fetch - processPackages [fwadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwadmin-0.0.3.tar.gz tmp/fwadmin-0.0.5.tar.gz --markdown 20230516/f/fwadmin/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 11:05:31] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-05-16 11:05:31] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-05-16 11:05:32] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-05-16 11:05:32] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-05-16 11:05:32] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-05-16 11:05:32] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-05-16 11:05:32] INFO root fetch - main [MainThread]: End processing [fwadmin]: success
+[2023-05-16 11:05:32] INFO root fetch - main [MainThread]: Store serial: [18120847]
