@@ -18591,3 +18591,79 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 15:56:53] INFO root fetch - main [MainThread]: End processing [dymoval]: success
 [2023-05-16 15:56:56] INFO root fetch - main [MainThread]: End processing [shapeout2]: success
 [2023-05-16 15:56:56] INFO root fetch - main [MainThread]: Store serial: [18124325]
+[2023-05-16 16:02:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124325]
+[2023-05-16 16:02:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyelib
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ext-list
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudnetpy
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viewm2m
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recon-lw
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyxdi
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-rahav-CERT-2189-bad-error-message
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gymnasium-robotics
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BDXConverter
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vtmmpy
+[2023-05-16 16:02:05] WARNING root fetch - processPackages [viewm2m]: Skipping, unable to determine old version
+[2023-05-16 16:02:05] INFO root fetch - processPackages [viewm2m]: Start processing: bus-wizard
+[2023-05-16 16:02:05] INFO root fetch - main [MainThread]: End processing [viewm2m] error
+[2023-05-16 16:02:05] INFO root fetch - processPackages [certora-cli-alpha-rahav-CERT-2189-bad-error-message]: New version: [20230516.9.53.837301] Old Version: [20230516.13.25.590962]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4991603720] Old Version: [2.0.0.dev4990931200]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [bus-wizard]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [vtmmpy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [pyelib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ext-list]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [pyxdi]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [gymnasium-robotics]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [BDXConverter]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [certora-cli-alpha-rahav-CERT-2189-bad-error-message]: Downloading https://files.pythonhosted.org/packages/30/d8/a06ff8b579789dce2b18026f210f82e58ab518d285c3dc33887b3254e9a0/certora-cli-alpha-rahav-CERT-2189-bad-error-message-20230516.13.25.590962.tar.gz
+[2023-05-16 16:02:05] INFO root fetch - processPackages [bus-wizard]: Downloading https://files.pythonhosted.org/packages/90/9a/79a8fe205a7575589a5d3c7c0ecbad80b28cfcfc434eedf7d9d23b717a21/bus_wizard-0.0.3.tar.gz
+[2023-05-16 16:02:05] INFO root fetch - processPackages [vtmmpy]: Downloading https://files.pythonhosted.org/packages/b6/c2/a345fcb7e5745694650c21acb2f8faa8cbba066ee3be246d220728113709/vtmmpy-1.0.8.tar.gz
+[2023-05-16 16:02:05] WARNING root fetch - processPackages [certora-cli-alpha-rahav-CERT-2189-bad-error-message]: Skipping package: exceeds size limit 38975737>=10485760
+[2023-05-16 16:02:05] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/a8/09/e0949966220e7ffa6e38560242ad34809d4bf8979bca28d60780e3282c2a/recon_lw-2.0.0.dev4991603720.tar.gz
+[2023-05-16 16:02:05] INFO root fetch - processPackages [certora-cli-alpha-rahav-CERT-2189-bad-error-message]: Start processing: t4flib
+[2023-05-16 16:02:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-CERT-2189-bad-error-message] error
+[2023-05-16 16:02:05] INFO root fetch - processPackages [pyelib]: Downloading https://files.pythonhosted.org/packages/69/5e/57386b57f4f62f249a15561ab64b98abd206bc6ab40a46ab113c31f382b7/pyelib-0.0.2.tar.gz
+[2023-05-16 16:02:05] INFO root fetch - processPackages [t4flib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 16:02:05] INFO root fetch - processPackages [ext-list]: Downloading https://files.pythonhosted.org/packages/06/8c/446229ee8924bcd39427ebb7134eddd058058983799beed7d7e22b993e21/ext-list-1.0.0.tar.gz
+[2023-05-16 16:02:05] INFO root fetch - processPackages [bus-wizard]: executing diffoscope
+[2023-05-16 16:02:05] INFO root fetch - processPackages [bus-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_wizard-0.0.2.tar.gz tmp/bus_wizard-0.0.3.tar.gz --markdown 20230516/b/bus-wizard/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 16:02:06] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-05-16 16:02:06] INFO root fetch - processPackages [gymnasium-robotics]: Downloading https://files.pythonhosted.org/packages/0b/88/eda776d2bb1c23768217b87d361f04a79326e357d2d15ec33134c8a58547/gymnasium_robotics-1.2.0.tar.gz
+[2023-05-16 16:02:06] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/56/46/578ebd97960553507b9da7588a7a34ceb1f0baefd0fbb6fecdc76bf78261/pyxdi-0.6.3.tar.gz
+[2023-05-16 16:02:06] INFO root fetch - processPackages [vtmmpy]: executing diffoscope
+[2023-05-16 16:02:06] INFO root fetch - processPackages [vtmmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtmmpy-1.0.7.tar.gz tmp/vtmmpy-1.0.8.tar.gz --markdown 20230516/v/vtmmpy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-16 16:02:06] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-16 16:02:06] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4990931200.tar.gz tmp/recon_lw-2.0.0.dev4991603720.tar.gz --markdown 20230516/r/recon-lw/2.0.0.dev4990931200-2.0.0.dev4991603720/diff.md --exclude *.pyd
+[2023-05-16 16:02:06] WARNING root fetch - processPackages [gymnasium-robotics]: Skipping package: exceeds size limit 27793067>=10485760
+[2023-05-16 16:02:06] INFO root fetch - processPackages [gymnasium-robotics]: Start processing: returnn
+[2023-05-16 16:02:06] INFO root fetch - main [MainThread]: End processing [gymnasium-robotics] error
+[2023-05-16 16:02:06] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-05-16 16:02:06] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-05-16 16:02:06] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-05-16 16:02:06] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.1.8-py2.py3-none-any.whl.zip tmp/t4flib-0.1.9-py2.py3-none-any.whl.zip --markdown 20230516/t/t4flib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 16:02:06] INFO root fetch - processPackages [returnn]: New version: [1.20230515.93528] Old Version: [1.20230515.191601]
+[2023-05-16 16:02:06] INFO root fetch - processPackages [pyelib]: Downloading https://files.pythonhosted.org/packages/f9/eb/ffcac5e87332268e1a2ec832ba8380570e2cf61549650042cc6da9a116b7/pyelib-0.0.3.tar.gz
+[2023-05-16 16:02:06] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-16 16:02:06] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.1.8.tar.gz tmp/BDXConverter-1.1.9.tar.gz --markdown 20230516/B/BDXConverter/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-16 16:02:06] INFO root fetch - processPackages [ext-list]: Downloading https://files.pythonhosted.org/packages/b1/cc/75eaa791cf77d9c026ab6a087243a1fb1d2fb22f7224119f8c5771c35ace/ext-list-1.1.0.tar.gz
+[2023-05-16 16:02:06] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/1f/7d/00187c2d645b8942b7a6a872123254350e15566b5fbc8b6c6ac47183d1b8/pyxdi-0.7.0.tar.gz
+[2023-05-16 16:02:06] INFO root fetch - processPackages [pyelib]: executing diffoscope
+[2023-05-16 16:02:06] INFO root fetch - processPackages [pyelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyelib-0.0.2.tar.gz tmp/pyelib-0.0.3.tar.gz --markdown 20230516/p/pyelib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 16:02:06] INFO root fetch - processPackages [ext-list]: executing diffoscope
+[2023-05-16 16:02:06] INFO root fetch - processPackages [ext-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ext-list-1.0.0.tar.gz tmp/ext-list-1.1.0.tar.gz --markdown 20230516/e/ext-list/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-16 16:02:06] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/0e/3e/71254ce8f4c24c426fbc9e3e080e5d8c5f4fa1dac3bcc71ef5327478d9db/returnn-1.20230515.191601.tar.gz
+[2023-05-16 16:02:06] INFO root fetch - processPackages [pyxdi]: executing diffoscope
+[2023-05-16 16:02:06] INFO root fetch - processPackages [pyxdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxdi-0.6.3.tar.gz tmp/pyxdi-0.7.0.tar.gz --markdown 20230516/p/pyxdi/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-05-16 16:02:06] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-16 16:02:06] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230515.191601.tar.gz tmp/returnn-1.20230515.93528.tar.gz --markdown 20230516/r/returnn/1.20230515.191601-1.20230515.93528/diff.md --exclude *.pyd
+[2023-05-16 16:02:07] INFO root fetch - main [MainThread]: End processing [vtmmpy]: success
+[2023-05-16 16:02:07] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-16 16:02:07] INFO root fetch - main [MainThread]: End processing [bus-wizard]: success
+[2023-05-16 16:02:07] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-05-16 16:02:07] INFO root fetch - main [MainThread]: End processing [ext-list]: success
+[2023-05-16 16:02:07] INFO root fetch - main [MainThread]: End processing [pyelib]: success
+[2023-05-16 16:02:08] INFO root fetch - main [MainThread]: End processing [pyxdi]: success
+[2023-05-16 16:02:08] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-16 16:02:12] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-16 16:02:12] INFO root fetch - main [MainThread]: Store serial: [18124360]
