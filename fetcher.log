@@ -12370,3 +12370,115 @@
 [2023-05-16 10:42:56] INFO root fetch - main [MainThread]: End processing [panther]: success
 [2023-05-16 10:42:58] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-05-16 10:42:58] INFO root fetch - main [MainThread]: Store serial: [18120538]
+[2023-05-16 10:48:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18120538]
+[2023-05-16 10:48:08] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accim
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ztfidr
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simcardems
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-uri-broaden-server
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docstruct
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-themes
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trendingbot
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renku
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EdiHeadyTrack
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: renku-lock
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ztfidr]: New version: [0.9.1] Old Version: [0.8.3]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [accim]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [trendingbot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: New version: [20230516.8.44.57245] Old Version: [20230511.7.23.881884]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [wagtail-themes]: New version: [0.5.0rc1] Old Version: [0.5.0]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [EdiHeadyTrack]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [simcardems]: New version: [2023.4.1] Old Version: [2023.4.0]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [renku-lock]: New version: [2.4.1rc3] Old Version: [2.4.1rc2]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [renku]: New version: [2.4.1rc3] Old Version: [2.4.1rc2]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [accim]: Downloading https://files.pythonhosted.org/packages/cd/c7/3a8127622e29d2867e2a0200894f2d56823ecb20ce7046e189503caf7443/accim-0.6.8.tar.gz
+[2023-05-16 10:48:08] WARNING root fetch - processPackages [accim]: Skipping package: exceeds size limit 23953167>=10485760
+[2023-05-16 10:48:08] INFO root fetch - processPackages [accim]: Start processing: lbsntransform
+[2023-05-16 10:48:08] INFO root fetch - main [MainThread]: End processing [accim] error
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/84/2b/a8095076b8734c3e654a4a471c3adb1842fa4b95a1b215c4914bb3df1bd8/ztfidr-0.8.3.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [wagtail-themes]: Downloading https://files.pythonhosted.org/packages/c6/2d/b213b0b8d9a7029fa6c7f762384f7d29046bec36dddad6826dabc3b76eee/wagtail-themes-0.5.0.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [simcardems]: Downloading https://files.pythonhosted.org/packages/ea/f4/16b2c9a4eb3a59434320cfa2c8cb56ab75a8fcca26149b4cf50f778d227b/simcardems-2023.4.0.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: Downloading https://files.pythonhosted.org/packages/44/78/6af44b1d8150d48a3463c16d53280d3cb192e5f405abdb66696e3639e7bc/certora-cli-alpha-uri-broaden_server-20230511.7.23.881884.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [EdiHeadyTrack]: Downloading https://files.pythonhosted.org/packages/00/d5/09feccd7e1deb99b5791e9e12a3732bb3fe734f6499eca3913bf436c8057/EdiHeadyTrack-0.0.3.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [trendingbot]: Downloading https://files.pythonhosted.org/packages/0e/11/b1501bbcc27475a4926457200abd1380e4d94c5f2850d2f9003817312719/trendingbot-0.0.3.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [lbsntransform]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/7a/56/02de6a6c773f2dfee7e4280a8aa8fd2bccbca5c6c112f8d454f36b358186/renku-2.4.1rc3.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/2a/c9/b0d67e34b5b1d0555fbc97c7dcdd0457607da2dc28e228940f9830c1f375/renku_lock-2.4.1rc3-py3-none-any.whl
+[2023-05-16 10:48:08] INFO root fetch - processPackages [renku-lock]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [renku-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku_lock-2.4.1rc2-py3-none-any.whl.zip tmp/renku_lock-2.4.1rc3-py3-none-any.whl.zip --markdown 20230516/r/renku-lock/2.4.1rc2-2.4.1rc3/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] WARNING root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: Skipping package: exceeds size limit 39424459>=10485760
+[2023-05-16 10:48:08] INFO root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: Start processing: tfp-nightly
+[2023-05-16 10:48:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-broaden-server] error
+[2023-05-16 10:48:08] INFO root fetch - processPackages [lbsntransform]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [lbsntransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbsntransform-0.9.0.tar.gz tmp/lbsntransform-0.9.1.tar.gz --markdown 20230516/l/lbsntransform/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] INFO root fetch - processPackages [renku]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [renku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-2.4.1rc2.tar.gz tmp/renku-2.4.1rc3.tar.gz --markdown 20230516/r/renku/2.4.1rc2-2.4.1rc3/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/c1/cc/13389c17bcf717a6baa59ae598c0a41e050a6072242b0d8d80f88d459186/ztfidr-0.9.1.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230516/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] INFO root fetch - processPackages [trendingbot]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [trendingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trendingbot-0.0.2.tar.gz tmp/trendingbot-0.0.3.tar.gz --markdown 20230516/t/trendingbot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-16 10:48:08] INFO root fetch - processPackages [wagtail-themes]: Downloading https://files.pythonhosted.org/packages/8e/00/f28a30b9d369ff89cc0b5039f26d93a2b95cb1c2c4b203a1bd23aaef2163/wagtail-themes-0.5.0rc1.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [simcardems]: Downloading https://files.pythonhosted.org/packages/e3/ad/c5913b6e80009b0c05642a61663cef98370cd91159455d4cf2088433b22d/simcardems-2023.4.1.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ztfidr]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [ztfidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfidr-0.8.3.tar.gz tmp/ztfidr-0.9.1.tar.gz --markdown 20230516/z/ztfidr/0.8.3-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230516/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] INFO root fetch - processPackages [EdiHeadyTrack]: Downloading https://files.pythonhosted.org/packages/36/a2/a0954bb39e5fbb07c70996c5a95c3805ccf2ac8f7cf05de99f433d5ec1b3/EdiHeadyTrack-0.0.4.tar.gz
+[2023-05-16 10:48:08] INFO root fetch - processPackages [simcardems]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [simcardems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simcardems-2023.4.0.tar.gz tmp/simcardems-2023.4.1.tar.gz --markdown 20230516/s/simcardems/2023.4.0-2023.4.1/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] INFO root fetch - processPackages [wagtail-themes]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [wagtail-themes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-themes-0.5.0.tar.gz tmp/wagtail-themes-0.5.0rc1.tar.gz --markdown 20230516/w/wagtail-themes/0.5.0-0.5.0rc1/diff.md --exclude *.pyd
+[2023-05-16 10:48:08] INFO root fetch - processPackages [EdiHeadyTrack]: executing diffoscope
+[2023-05-16 10:48:08] INFO root fetch - processPackages [EdiHeadyTrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdiHeadyTrack-0.0.3.tar.gz tmp/EdiHeadyTrack-0.0.4.tar.gz --markdown 20230516/E/EdiHeadyTrack/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 10:48:10] INFO root fetch - processPackages [renku-lock]: Start processing: py-book-util
+[2023-05-16 10:48:10] INFO root fetch - main [MainThread]: End processing [renku-lock]: success
+[2023-05-16 10:48:10] INFO root fetch - processPackages [trendingbot]: Start processing: gpterminal
+[2023-05-16 10:48:10] INFO root fetch - main [MainThread]: End processing [trendingbot]: success
+[2023-05-16 10:48:10] INFO root fetch - processPackages [py-book-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 10:48:10] INFO root fetch - processPackages [gpterminal]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 10:48:10] INFO root fetch - processPackages [ztfidr]: Start processing: chronus
+[2023-05-16 10:48:10] INFO root fetch - main [MainThread]: End processing [ztfidr]: success
+[2023-05-16 10:48:10] INFO root fetch - processPackages [lbsntransform]: Start processing: odoo-addons-oca-stock-logistics-reporting
+[2023-05-16 10:48:10] INFO root fetch - main [MainThread]: End processing [lbsntransform]: success
+[2023-05-16 10:48:10] INFO root fetch - processPackages [gpterminal]: Downloading https://files.pythonhosted.org/packages/2f/83/8e6a74ed435ce6ec661f9c45b605637fdb712989e92c869720ebc824fc4e/GPTerminal-0.1.1.tar.gz
+[2023-05-16 10:48:10] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: New version: [16.0.20230228.1] Old Version: [15.0.20230329.1]
+[2023-05-16 10:48:10] INFO root fetch - processPackages [docstruct]: Start processing: logging-opentelemetry-format
+[2023-05-16 10:48:10] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-05-16 10:48:10] INFO root fetch - processPackages [chronus]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-16 10:48:10] INFO root fetch - processPackages [logging-opentelemetry-format]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 10:48:10] INFO root fetch - processPackages [gpterminal]: Downloading https://files.pythonhosted.org/packages/31/ba/9ce999def88e0f8cf812822a0d5f69b35e413cc3ce042697e47ef801e323/gpterminal-0.1.2.tar.gz
+[2023-05-16 10:48:10] INFO root fetch - processPackages [py-book-util]: executing diffoscope
+[2023-05-16 10:48:10] INFO root fetch - processPackages [py-book-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_book_util-0.1.8.tar.gz tmp/py_book_util-0.1.9.tar.gz --markdown 20230516/p/py-book-util/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 10:48:10] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Downloading https://files.pythonhosted.org/packages/d3/a8/459c296436de728a9849bb7296fef6246ee197a9d28798a55aaca0846e65/odoo_addons_oca_stock_logistics_reporting-15.0.20230329.1-py3-none-any.whl
+[2023-05-16 10:48:10] INFO root fetch - processPackages [simcardems]: Start processing: filesystem-dict
+[2023-05-16 10:48:10] INFO root fetch - main [MainThread]: End processing [simcardems]: success
+[2023-05-16 10:48:10] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/42/a3/61fb0e662b96b9776006e1b9a484b6772428b96a54ce258f412a1782e3f4/chronus-0.3.7.tar.gz
+[2023-05-16 10:48:10] INFO root fetch - main [MainThread]: End processing [wagtail-themes]: success
+[2023-05-16 10:48:10] INFO root fetch - processPackages [filesystem-dict]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 10:48:10] INFO root fetch - processPackages [logging-opentelemetry-format]: Downloading https://files.pythonhosted.org/packages/0a/54/bdc72f80ec5a37fa2643ff542bc4a0bbef956baab2faffd06549b06726b5/logging_opentelemetry_format-0.0.1.tar.gz
+[2023-05-16 10:48:10] INFO root fetch - processPackages [filesystem-dict]: executing diffoscope
+[2023-05-16 10:48:10] INFO root fetch - processPackages [filesystem-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesystem-dict-0.1.1.tar.gz tmp/filesystem-dict-0.1.2.tar.gz --markdown 20230516/f/filesystem-dict/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 10:48:10] INFO root fetch - processPackages [gpterminal]: executing diffoscope
+[2023-05-16 10:48:10] INFO root fetch - processPackages [gpterminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTerminal-0.1.1.tar.gz tmp/gpterminal-0.1.2.tar.gz --markdown 20230516/g/gpterminal/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 10:48:10] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/13/b5/f78eff395cbc9f56b9e9418250fb4fdeab57c9c20a47bdc871762c75d46c/chronus-0.3.8.tar.gz
+[2023-05-16 10:48:10] INFO root fetch - processPackages [logging-opentelemetry-format]: Downloading https://files.pythonhosted.org/packages/e3/d9/768cfbd005cf092413d5a5345d3ea15814a75c2a1b44a95e490da077af7d/logging_opentelemetry_format-0.0.2.tar.gz
+[2023-05-16 10:48:10] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Downloading https://files.pythonhosted.org/packages/ba/0d/2465714ea5f33d177ce2d199ff2c8c474dace28aa29135b8752efa757527/odoo_addons_oca_stock_logistics_reporting-16.0.20230228.1-py3-none-any.whl
+[2023-05-16 10:48:11] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-05-16 10:48:11] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.3.7.tar.gz tmp/chronus-0.3.8.tar.gz --markdown 20230516/c/chronus/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-16 10:48:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: executing diffoscope
+[2023-05-16 10:48:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_reporting-15.0.20230329.1-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20230228.1-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-stock-logistics-reporting/15.0.20230329.1-16.0.20230228.1/diff.md --exclude *.pyd
+[2023-05-16 10:48:11] INFO root fetch - main [MainThread]: End processing [EdiHeadyTrack]: success
+[2023-05-16 10:48:11] INFO root fetch - processPackages [logging-opentelemetry-format]: executing diffoscope
+[2023-05-16 10:48:11] INFO root fetch - processPackages [logging-opentelemetry-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging_opentelemetry_format-0.0.1.tar.gz tmp/logging_opentelemetry_format-0.0.2.tar.gz --markdown 20230516/l/logging-opentelemetry-format/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 10:48:11] INFO root fetch - main [MainThread]: End processing [py-book-util]: success
+[2023-05-16 10:48:11] INFO root fetch - main [MainThread]: End processing [gpterminal]: success
+[2023-05-16 10:48:11] INFO root fetch - main [MainThread]: End processing [filesystem-dict]: success
+[2023-05-16 10:48:12] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-reporting]: success
+[2023-05-16 10:48:12] INFO root fetch - main [MainThread]: End processing [logging-opentelemetry-format]: success
+[2023-05-16 10:48:12] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-05-16 10:48:21] INFO root fetch - main [MainThread]: End processing [renku]: success
+[2023-05-16 10:48:23] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-16 10:48:23] INFO root fetch - main [MainThread]: Store serial: [18120586]
