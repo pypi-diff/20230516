@@ -14152,3 +14152,130 @@
 [2023-05-16 12:14:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-computenestsupplier20210521-py2]: success
 [2023-05-16 12:14:54] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-16 12:14:54] INFO root fetch - main [MainThread]: Store serial: [18121598]
+[2023-05-16 12:19:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121598]
+[2023-05-16 12:20:04] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-partner-incoterm
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: createai
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: convoy-python
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dismake
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torsposer
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kvakk-git-tools
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-simple-stats
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ht2
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: subtitles-translator
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opn-sonarqube-api
+[2023-05-16 12:20:04] WARNING root fetch - processPackages [subtitles-translator]: Skipping, unable to determine old version
+[2023-05-16 12:20:04] INFO root fetch - processPackages [subtitles-translator]: Start processing: ostorlab
+[2023-05-16 12:20:04] INFO root fetch - main [MainThread]: End processing [subtitles-translator] error
+[2023-05-16 12:20:04] WARNING root fetch - processPackages [kvakk-git-tools]: Skipping, unable to determine old version
+[2023-05-16 12:20:04] INFO root fetch - processPackages [kvakk-git-tools]: Start processing: dankware
+[2023-05-16 12:20:04] INFO root fetch - processPackages [opn-sonarqube-api]: New version: [2.1.0.486996] Old Version: [2.0.0.320423]
+[2023-05-16 12:20:04] INFO root fetch - main [MainThread]: End processing [kvakk-git-tools] error
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ht2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ostorlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [convoy-python]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: New version: [16.0.1.0.0.4] Old Version: [15.0.1.1.0]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [django-simple-stats]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [createai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [torsposer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [dismake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [dankware]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ht2]: Downloading https://files.pythonhosted.org/packages/23/69/de1a67f28e1a1ca1323e6644ea179925fb6f1d9f5de8cfc1607cae7f5089/ht2-0.0.3.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [opn-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/c9/7d/b6e260c292a3903531d733fcf4afad4003816c997b0e57dcc67e4a94059b/opn_sonarqube_api-2.0.0.320423.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [convoy-python]: Downloading https://files.pythonhosted.org/packages/1e/f8/8196d56ac19885d3572ca5013e8681f4978e6c8c740ef2d307e402b535cb/convoy-python-0.1.0.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [django-simple-stats]: Downloading https://files.pythonhosted.org/packages/f9/b4/aafca7902030e9c7372e1e1ca481c409a84145c17bb808a4bc7a64e73e15/django-simple-stats-0.6.0.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [createai]: Downloading https://files.pythonhosted.org/packages/0e/9e/22d27348f5e04296dffd942c3604fabaec981c3ced566e2b7f8a6106ec89/createai-0.1.0.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [dankware]: Downloading https://files.pythonhosted.org/packages/41/94/eeca2d2b68b955f7ed1e6a6a1200146ff112102f43645b2e146c32c27f14/dankware-3.3.7.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: Downloading https://files.pythonhosted.org/packages/06/6b/0ca017b89b1fba29b767fad2054932e9531fdaf9120e8d243ba1f6496470/odoo_addon_sale_partner_incoterm-15.0.1.1.0-py3-none-any.whl
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ht2]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ht2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ht2-0.0.2.tar.gz tmp/ht2-0.0.3.tar.gz --markdown 20230516/h/ht2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [torsposer]: Downloading https://files.pythonhosted.org/packages/53/1a/50067055e6880caa4f94552538d8b68f4b9818641a93dbb5da688e450fb4/torsposer-1.0.1.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-0.9.8.tar.gz tmp/ostorlab-0.9.9.tar.gz --markdown 20230516/o/ostorlab/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [dismake]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [dismake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismake-0.0.8.tar.gz tmp/dismake-0.0.9.tar.gz --markdown 20230516/d/dismake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [opn-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/ba/47/f983fe4b904338b71913eac71b7a851635eede211702f8ee8337f0ddd191/opn_sonarqube_api-2.1.0.486996.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [django-simple-stats]: Downloading https://files.pythonhosted.org/packages/73/a2/0f60b2ef97191fc05e91b6754dcd04f9e699384fb244ae5db8e3cb0c4f64/django-simple-stats-0.7.0.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [createai]: Downloading https://files.pythonhosted.org/packages/96/c1/a1c8e48f5f3f4d9fdbaad3d68862add8d8dc8a32a4d2d84a2dc066bf16b2/createai-0.1.1.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: Downloading https://files.pythonhosted.org/packages/7c/9b/436f7a447c781c62fa2f872514916c7274d8d5913f8c698da7cc7e2a8109/odoo_addon_sale_partner_incoterm-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-16 12:20:04] INFO root fetch - processPackages [convoy-python]: Downloading https://files.pythonhosted.org/packages/a4/8e/16f2135661ae64ad0330b8f821612a4ac884610ebef99e79abd615365292/convoy-python-0.2.0.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [opn-sonarqube-api]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [opn-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opn_sonarqube_api-2.0.0.320423.tar.gz tmp/opn_sonarqube_api-2.1.0.486996.tar.gz --markdown 20230516/o/opn-sonarqube-api/2.0.0.320423-2.1.0.486996/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [django-simple-stats]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [django-simple-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-simple-stats-0.6.0.tar.gz tmp/django-simple-stats-0.7.0.tar.gz --markdown 20230516/d/django-simple-stats/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [createai]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [createai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/createai-0.1.0.tar.gz tmp/createai-0.1.1.tar.gz --markdown 20230516/c/createai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [torsposer]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_partner_incoterm-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_partner_incoterm-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-sale-partner-incoterm/15.0.1.1.0-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [torsposer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torsposer-1.0.0.tar.gz tmp/torsposer-1.0.1.tar.gz --markdown 20230516/t/torsposer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [dankware]: Downloading https://files.pythonhosted.org/packages/b6/31/91837c9d0106942944e3eec9f901a04cb847dc6d19957e7168f8c7ec5f9f/dankware-3.3.8.tar.gz
+[2023-05-16 12:20:04] INFO root fetch - processPackages [convoy-python]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [convoy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convoy-python-0.1.0.tar.gz tmp/convoy-python-0.2.0.tar.gz --markdown 20230516/c/convoy-python/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 12:20:04] INFO root fetch - processPackages [dankware]: executing diffoscope
+[2023-05-16 12:20:04] INFO root fetch - processPackages [dankware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dankware-3.3.7.tar.gz tmp/dankware-3.3.8.tar.gz --markdown 20230516/d/dankware/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2023-05-16 12:20:05] INFO root fetch - processPackages [ht2]: Start processing: mlrun
+[2023-05-16 12:20:05] INFO root fetch - main [MainThread]: End processing [ht2]: success
+[2023-05-16 12:20:05] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc4] Old Version: [1.4.0rc3]
+[2023-05-16 12:20:06] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-16 12:20:06] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc3-py3-none-any.whl.zip tmp/mlrun-1.4.0rc4-py3-none-any.whl.zip --markdown 20230516/m/mlrun/1.4.0rc3-1.4.0rc4/diff.md --exclude *.pyd
+[2023-05-16 12:20:06] INFO root fetch - processPackages [createai]: Start processing: ssb-altinn3-util
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [createai]: success
+[2023-05-16 12:20:06] INFO root fetch - processPackages [opn-sonarqube-api]: Start processing: langchain-serve
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [opn-sonarqube-api]: success
+[2023-05-16 12:20:06] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-16 12:20:06] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 12:20:06] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-16 12:20:06] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230516/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 12:20:06] INFO root fetch - processPackages [torsposer]: Start processing: scrapere
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [torsposer]: success
+[2023-05-16 12:20:06] INFO root fetch - processPackages [scrapere]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 12:20:06] INFO root fetch - processPackages [convoy-python]: Start processing: Enumarator-Window
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [convoy-python]: success
+[2023-05-16 12:20:06] INFO root fetch - processPackages [dankware]: Start processing: odoo14-addon-edi-webservice-oca
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [dankware]: success
+[2023-05-16 12:20:06] INFO root fetch - processPackages [django-simple-stats]: Start processing: odoo-addon-l10n-es-aeat
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [django-simple-stats]: success
+[2023-05-16 12:20:06] INFO root fetch - processPackages [odoo14-addon-edi-webservice-oca]: New version: [14.0.1.3.1] Old Version: [14.0.1.3.0]
+[2023-05-16 12:20:06] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/ef/cb/003df3d92e53e6833a38e7c0e143bc4d6f12027d22363d6eaddd6cdfd246/ssb_altinn3_util-0.0.8.tar.gz
+[2023-05-16 12:20:06] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: Start processing: odoo14-addon-edi-oca
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-partner-incoterm]: success
+[2023-05-16 12:20:06] INFO root fetch - processPackages [dismake]: Start processing: th2-data-services
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [dismake]: success
+[2023-05-16 12:20:06] WARNING root fetch - processPackages [Enumarator-Window]: Skipping, unable to determine old version
+[2023-05-16 12:20:06] INFO root fetch - main [MainThread]: End processing [Enumarator-Window] error
+[2023-05-16 12:20:06] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.0.2.4] Old Version: [16.0.2.0.2.2]
+[2023-05-16 12:20:06] INFO root fetch - processPackages [odoo14-addon-edi-oca]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1.dev1]
+[2023-05-16 12:20:06] INFO root fetch - processPackages [scrapere]: Downloading https://files.pythonhosted.org/packages/72/05/8381986114ed7f78af49d6652d02f52b15f1640ec402f8599e87aad98f48/scrapere-0.1.9.tar.gz
+[2023-05-16 12:20:06] INFO root fetch - processPackages [odoo14-addon-edi-webservice-oca]: Downloading https://files.pythonhosted.org/packages/52/9e/f61400168a82fe0c1975becaaf0909488f40b1c435794f28ddd983b11b74/odoo14_addon_edi_webservice_oca-14.0.1.3.0-py3-none-any.whl
+[2023-05-16 12:20:06] INFO root fetch - processPackages [odoo14-addon-edi-oca]: Downloading https://files.pythonhosted.org/packages/96/ea/6b014df6e4459962319fd91cc64ba8cbf2639e1f0a4faa8dd23efea466ae/odoo14_addon_edi_oca-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-05-16 12:20:06] INFO root fetch - processPackages [scrapere]: executing diffoscope
+[2023-05-16 12:20:06] INFO root fetch - processPackages [scrapere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapere-0.1.8.tar.gz tmp/scrapere-0.1.9.tar.gz --markdown 20230516/s/scrapere/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/6b/be/f5575061cf3d43c350689307dff50d8543d552adb369706ef5f44aef125d/odoo_addon_l10n_es_aeat-16.0.2.0.2.2-py3-none-any.whl
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo14-addon-edi-webservice-oca]: Downloading https://files.pythonhosted.org/packages/9c/77/e9ddc9432fd3f8932db214402afd8fdf8affc360d8b4b9c986b199a5c678/odoo14_addon_edi_webservice_oca-14.0.1.3.1-py3-none-any.whl
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo14-addon-edi-webservice-oca]: executing diffoscope
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/ac/68/539a299fa29ef56c0c3769a8a6faa689693589816aaf4bfd52e88586ca4d/odoo_addon_l10n_es_aeat-16.0.2.0.2.4-py3-none-any.whl
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo14-addon-edi-webservice-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_webservice_oca-14.0.1.3.0-py3-none-any.whl.zip tmp/odoo14_addon_edi_webservice_oca-14.0.1.3.1-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-edi-webservice-oca/14.0.1.3.0-14.0.1.3.1/diff.md --exclude *.pyd
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo14-addon-edi-oca]: Downloading https://files.pythonhosted.org/packages/88/21/652dd250ecb0ada07f6fa9db7ab8e109b5fa710c35ff99c7004b3fa9b95a/odoo14_addon_edi_oca-14.0.1.9.2-py3-none-any.whl
+[2023-05-16 12:20:07] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/94/61/ca19b663821a79f349fe04383c5a68f9cf3f6c75cf20b9b9f2c7a92aa898/ssb_altinn3_util-0.0.9.tar.gz
+[2023-05-16 12:20:07] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev4990685388] Old Version: [2.0.0.dev4926901978]
+[2023-05-16 12:20:07] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-05-16 12:20:07] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230516/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.0.2.4-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-l10n-es-aeat/16.0.2.0.2.2-16.0.2.0.2.4/diff.md --exclude *.pyd
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo14-addon-edi-oca]: executing diffoscope
+[2023-05-16 12:20:07] INFO root fetch - processPackages [odoo14-addon-edi-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_oca-14.0.1.9.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_edi_oca-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-edi-oca/14.0.1.9.1.dev1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-05-16 12:20:07] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/8e/2a/b5689dc554f485da9b4a90c5a75604853a3a246fd3a3f9eae683738c1b8a/th2_data_services-2.0.0.dev4926901978.tar.gz
+[2023-05-16 12:20:07] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-16 12:20:07] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/4b/f6/c5123e18d21d207462893f94dcbfa787936a0a2b79bc3fdc40c93e724a65/th2_data_services-2.0.0.dev4990685388.tar.gz
+[2023-05-16 12:20:08] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-05-16 12:20:08] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev4926901978.tar.gz tmp/th2_data_services-2.0.0.dev4990685388.tar.gz --markdown 20230516/t/th2-data-services/2.0.0.dev4926901978-2.0.0.dev4990685388/diff.md --exclude *.pyd
+[2023-05-16 12:20:08] INFO root fetch - main [MainThread]: End processing [scrapere]: success
+[2023-05-16 12:20:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-webservice-oca]: success
+[2023-05-16 12:20:08] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-05-16 12:20:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-oca]: success
+[2023-05-16 12:20:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-05-16 12:20:10] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-05-16 12:20:11] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-16 12:20:14] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2023-05-16 12:20:14] INFO root fetch - main [MainThread]: Store serial: [18121651]
