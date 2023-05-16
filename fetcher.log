@@ -7131,3 +7131,104 @@
 [2023-05-16 04:54:27] INFO root fetch - processPackages [roboidai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboidai-1.1.8.tar.gz tmp/roboidai-1.1.9.tar.gz --markdown 20230516/r/roboidai/1.1.8-1.1.9/diff.md --exclude *.pyd
 [2023-05-16 04:54:29] INFO root fetch - main [MainThread]: End processing [roboidai]: success
 [2023-05-16 04:54:29] INFO root fetch - main [MainThread]: Store serial: [18117599]
+[2023-05-16 04:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117599]
+[2023-05-16 04:59:39] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clife-svc
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-reporting-weight
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-invoice-report-payment-info
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skyndo
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-account-invoice-reporting
+[2023-05-16 04:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: magpurify2
+[2023-05-16 04:59:39] INFO root fetch - processPackages [clife-svc]: New version: [1.12] Old Version: [1.11]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addon-account-reporting-weight]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: New version: [16.0.20230515.1] Old Version: [16.0.20230209.0]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [skyndo]: New version: [0.7.1] Old Version: [0.7]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [magpurify2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-16 04:59:39] INFO root fetch - processPackages [magpurify2]: Downloading https://files.pythonhosted.org/packages/53/05/39ff5577636acff5c5ec0ff11b4b70ff2524f0e4fd6b66187e94e10079d8/magpurify2-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-16 04:59:39] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/61/f5/5f42d77789e2fc9e9d2221766c4c7ab90677f61de163a612c4eac1cc8963/clife_svc-1.11.tar.gz
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addon-account-reporting-weight]: Downloading https://files.pythonhosted.org/packages/35/25/7fb93ad1a2fbf634fc2c88ba0ace48f68ea042219125128fba472deb6276/odoo_addon_account_reporting_weight-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Downloading https://files.pythonhosted.org/packages/22/20/7644427f110641ca7623e5f48e630b4ac52134018974dccec64177f7c9b8/odoo_addons_oca_account_invoice_reporting-16.0.20230209.0-py3-none-any.whl
+[2023-05-16 04:59:39] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/8f/c4/e034527036731e29b6c44f342328e7643b8175a36b17d43595a8244ca5d7/skyndo-0.7.tar.gz
+[2023-05-16 04:59:39] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: Downloading https://files.pythonhosted.org/packages/ce/bd/25040babbd6ba0cdaf0e050684f3c1196f106ae85b3bc6a8c9ec1aba1b3d/odoo_addon_account_invoice_report_payment_info-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addon-account-reporting-weight]: executing diffoscope
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addon-account-reporting-weight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reporting_weight-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_reporting_weight-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-account-reporting-weight/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: executing diffoscope
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_report_payment_info-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_report_payment_info-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-account-invoice-report-payment-info/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230516/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230516/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-16 04:59:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230516/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 04:59:39] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Downloading https://files.pythonhosted.org/packages/7f/e9/dcc51c44a4b6469cb3e141d785765cc7a62a4194f8fad0bce157508709c0/odoo_addons_oca_account_invoice_reporting-16.0.20230515.1-py3-none-any.whl
+[2023-05-16 04:59:40] INFO root fetch - processPackages [skyndo]: Downloading https://files.pythonhosted.org/packages/a1/e8/ce039ddaa10ef89f30fdc1e113c7d3dc00763abd01844dfa42b8e76d68f1/skyndo-0.7.1.tar.gz
+[2023-05-16 04:59:40] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/31/49/b8dc29deaadab4357fcb51a9771e35bb904cf672aad1a106f1dc3bafdf7c/clife_svc-1.12.tar.gz
+[2023-05-16 04:59:40] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-05-16 04:59:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: executing diffoscope
+[2023-05-16 04:59:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoice_reporting-16.0.20230209.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoice_reporting-16.0.20230515.1-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-account-invoice-reporting/16.0.20230209.0-16.0.20230515.1/diff.md --exclude *.pyd
+[2023-05-16 04:59:40] INFO root fetch - processPackages [skyndo]: executing diffoscope
+[2023-05-16 04:59:40] INFO root fetch - processPackages [skyndo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyndo-0.7.tar.gz tmp/skyndo-0.7.1.tar.gz --markdown 20230516/s/skyndo/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-05-16 04:59:40] INFO root fetch - processPackages [clife-svc]: executing diffoscope
+[2023-05-16 04:59:40] INFO root fetch - processPackages [clife-svc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clife_svc-1.11.tar.gz tmp/clife_svc-1.12.tar.gz --markdown 20230516/c/clife-svc/1.11-1.12/diff.md --exclude *.pyd
+[2023-05-16 04:59:40] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-16 04:59:40] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230516/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-16 04:59:40] INFO root fetch - processPackages [magpurify2]: Downloading https://files.pythonhosted.org/packages/2c/a2/ef8aca5ace8e6c2630809370844a74e0a4945b78870947f2e3721912e033/magpurify2-1.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-16 04:59:40] INFO root fetch - processPackages [magpurify2]: executing diffoscope
+[2023-05-16 04:59:40] INFO root fetch - processPackages [magpurify2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magpurify2-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/magpurify2-1.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230516/m/magpurify2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-16 04:59:41] INFO root fetch - processPackages [odoo-addon-account-reporting-weight]: Start processing: antchain-ak-ea60128d3e1447918428343ec4193dc3
+[2023-05-16 04:59:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reporting-weight]: success
+[2023-05-16 04:59:41] INFO root fetch - processPackages [antchain-ak-ea60128d3e1447918428343ec4193dc3]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 04:59:41] INFO root fetch - processPackages [odoo-addon-account-invoice-report-payment-info]: Start processing: amiyabot
+[2023-05-16 04:59:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-payment-info]: success
+[2023-05-16 04:59:41] INFO root fetch - processPackages [amiyabot]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-05-16 04:59:41] INFO root fetch - processPackages [antchain-ak-ea60128d3e1447918428343ec4193dc3]: Downloading https://files.pythonhosted.org/packages/3b/aa/0c654b19f9d8c331c3989da9bc0cd9ac424b9248996421d8739ec360fff7/antchain_ak_ea60128d3e1447918428343ec4193dc3-1.0.0.tar.gz
+[2023-05-16 04:59:41] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/28/65/3694d052d66a881e1d20d0fdabb61eeec42a85c001d4e5adf3d3d7a4efbb/amiyabot-1.4.6-py3-none-any.whl
+[2023-05-16 04:59:41] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11298971>=10485760
+[2023-05-16 04:59:41] INFO root fetch - processPackages [amiyabot]: Start processing: python-keycloak-async
+[2023-05-16 04:59:41] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-05-16 04:59:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Start processing: bcsfe-discord
+[2023-05-16 04:59:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoice-reporting]: success
+[2023-05-16 04:59:42] INFO root fetch - processPackages [antchain-ak-ea60128d3e1447918428343ec4193dc3]: Downloading https://files.pythonhosted.org/packages/7b/68/cf17610ce2abcb90b5e3b2497f9e3464f5a06510abec93503de756967382/antchain_ak_ea60128d3e1447918428343ec4193dc3-1.0.1.tar.gz
+[2023-05-16 04:59:42] INFO root fetch - processPackages [skyndo]: Start processing: trops
+[2023-05-16 04:59:42] INFO root fetch - main [MainThread]: End processing [skyndo]: success
+[2023-05-16 04:59:42] INFO root fetch - processPackages [python-keycloak-async]: New version: [2.17.0.post9] Old Version: [2.16.0.post8]
+[2023-05-16 04:59:42] INFO root fetch - processPackages [trops]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-16 04:59:42] INFO root fetch - processPackages [antchain-ak-ea60128d3e1447918428343ec4193dc3]: executing diffoscope
+[2023-05-16 04:59:42] INFO root fetch - processPackages [antchain-ak-ea60128d3e1447918428343ec4193dc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_ea60128d3e1447918428343ec4193dc3-1.0.0.tar.gz tmp/antchain_ak_ea60128d3e1447918428343ec4193dc3-1.0.1.tar.gz --markdown 20230516/a/antchain-ak-ea60128d3e1447918428343ec4193dc3/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 04:59:42] INFO root fetch - processPackages [bcsfe-discord]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-16 04:59:42] INFO root fetch - processPackages [trops]: executing diffoscope
+[2023-05-16 04:59:42] INFO root fetch - processPackages [trops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trops-0.2.8.tar.gz tmp/trops-0.2.9.tar.gz --markdown 20230516/t/trops/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 04:59:42] INFO root fetch - processPackages [python-keycloak-async]: Downloading https://files.pythonhosted.org/packages/37/e3/22f87ee616313a421828cbc7e3abdc6e237dea5be37d724cd43e9a1fbcf5/python_keycloak_async-2.16.0.post8.tar.gz
+[2023-05-16 04:59:42] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/f8/96/06f4955f5ebb27d0ed680efed29e921b6e1f4ae17e0d472c868864782b93/bcsfe-discord-2.7.8.tar.gz
+[2023-05-16 04:59:42] INFO root fetch - processPackages [clife-svc]: Start processing: isoCycle
+[2023-05-16 04:59:42] INFO root fetch - main [MainThread]: End processing [clife-svc]: success
+[2023-05-16 04:59:42] INFO root fetch - processPackages [isoCycle]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 04:59:42] INFO root fetch - processPackages [python-keycloak-async]: Downloading https://files.pythonhosted.org/packages/cd/c0/174a288ee18dba457c1769f2be969ddc4a7c4fa248e828faffe789bbd8e8/python_keycloak_async-2.17.0.post9.tar.gz
+[2023-05-16 04:59:42] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/56/c4/3959c3da1b2ec0aa8854daa72f74c5489ac3c0a94729f14402642f4d66f0/isoCycle-0.0.4.tar.gz
+[2023-05-16 04:59:42] INFO root fetch - processPackages [bcsfe-discord]: Downloading https://files.pythonhosted.org/packages/0a/a8/407cf9aa5ac882cd61a9b30eeaaa35a3a56f727904ad9cdaeb2dc2587e46/bcsfe-discord-2.7.9.tar.gz
+[2023-05-16 04:59:42] INFO root fetch - processPackages [python-keycloak-async]: executing diffoscope
+[2023-05-16 04:59:42] INFO root fetch - processPackages [python-keycloak-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak_async-2.16.0.post8.tar.gz tmp/python_keycloak_async-2.17.0.post9.tar.gz --markdown 20230516/p/python-keycloak-async/2.16.0.post8-2.17.0.post9/diff.md --exclude *.pyd
+[2023-05-16 04:59:42] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17393216>=10485760
+[2023-05-16 04:59:42] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-16 04:59:42] INFO root fetch - processPackages [bcsfe-discord]: executing diffoscope
+[2023-05-16 04:59:42] INFO root fetch - processPackages [bcsfe-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcsfe-discord-2.7.8.tar.gz tmp/bcsfe-discord-2.7.9.tar.gz --markdown 20230516/b/bcsfe-discord/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-16 04:59:43] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-16 04:59:43] INFO root fetch - main [MainThread]: End processing [antchain-ak-ea60128d3e1447918428343ec4193dc3]: success
+[2023-05-16 04:59:44] INFO root fetch - main [MainThread]: End processing [trops]: success
+[2023-05-16 04:59:44] INFO root fetch - main [MainThread]: End processing [python-keycloak-async]: success
+[2023-05-16 04:59:44] INFO root fetch - main [MainThread]: End processing [bcsfe-discord]: success
+[2023-05-16 04:59:45] INFO root fetch - main [MainThread]: End processing [magpurify2]: success
+[2023-05-16 05:00:15] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-16 05:00:15] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-16 05:00:15] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-16 05:00:15] INFO root fetch - main [MainThread]: Store serial: [18117643]
