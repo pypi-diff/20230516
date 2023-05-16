@@ -9069,3 +9069,55 @@
 [2023-05-16 07:39:36] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
 [2023-05-16 07:39:36] INFO root fetch - main [MainThread]: End processing [pyvista]: success
 [2023-05-16 07:39:36] INFO root fetch - main [MainThread]: Store serial: [18118711]
+[2023-05-16 07:44:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118711]
+[2023-05-16 07:44:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastq-preprocessor
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-common-test
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genopype
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EdgeGPT
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrsm
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WX-Push-Services
+[2023-05-16 07:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Deeprce
+[2023-05-16 07:44:45] INFO root fetch - processPackages [EdgeGPT]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-16 07:44:45] INFO root fetch - processPackages [WX-Push-Services]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 07:44:45] INFO root fetch - processPackages [pyrsm]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-16 07:44:45] INFO root fetch - processPackages [fastq-preprocessor]: New version: [2023.5.16] Old Version: [2022.3.25]
+[2023-05-16 07:44:45] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-05-16 07:44:45] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-05-16 07:44:45] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.4.0.tar.gz tmp/EdgeGPT-0.4.1.tar.gz --markdown 20230516/E/EdgeGPT/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-16 07:44:45] INFO root fetch - processPackages [automation-common-test]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-16 07:44:45] INFO root fetch - processPackages [genopype]: New version: [2023.5.15] Old Version: [2023.4.13]
+[2023-05-16 07:44:45] WARNING root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: Skipping, unable to determine old version
+[2023-05-16 07:44:45] ERROR root fetch - processPackages [Deeprce]: Unable to get metadata: No such project 'Deeprce'
+[2023-05-16 07:44:45] INFO root fetch - processPackages [WX-Push-Services]: executing diffoscope
+[2023-05-16 07:44:45] INFO root fetch - main [MainThread]: End processing [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4] error
+[2023-05-16 07:44:45] INFO root fetch - processPackages [WX-Push-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WX_Push_Services-1.0.8.tar.gz tmp/WX_Push_Services-1.0.9.tar.gz --markdown 20230516/W/WX-Push-Services/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 07:44:45] INFO root fetch - main [MainThread]: End processing [Deeprce] error
+[2023-05-16 07:44:46] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/a4/0e/c9231d63f034ecac05cc75639e6070088f5ec0406e03a703445e161986a7/pyrsm-0.8.1.tar.gz
+[2023-05-16 07:44:46] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/60/9d/897037a13a40881b4bd99357b8417f2d3c0962b23ae8d22338eb0f0240fa/pypipr-0.1.85.tar.gz
+[2023-05-16 07:44:46] INFO root fetch - processPackages [fastq-preprocessor]: Downloading https://files.pythonhosted.org/packages/a6/b7/5e6d1bcf6b13f5808c1c257bd1b978ab976ebee0103f742cd2ca4ccf98a9/fastq_preprocessor-2022.3.25.tar.gz
+[2023-05-16 07:44:46] INFO root fetch - processPackages [genopype]: Downloading https://files.pythonhosted.org/packages/05/d7/587c19bc5172d7c44e64d740fcc139b8cc0867b39967a6f01a5c5a128176/genopype-2023.4.13.tar.gz
+[2023-05-16 07:44:46] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/d7/57/8c7b9239c35e4b99fa3377ae590879d384a269a13b361abcc31fb21621a5/automation-common-test-1.8.0.tar.gz
+[2023-05-16 07:44:46] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-05-16 07:44:46] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.8.0.tar.gz tmp/pyrsm-0.8.1.tar.gz --markdown 20230516/p/pyrsm/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-16 07:44:46] INFO root fetch - processPackages [fastq-preprocessor]: Downloading https://files.pythonhosted.org/packages/a8/a3/1f732228a3b0e664eb170968b4ae757b9a4e805deb3b537a486a6a9c816c/fastq_preprocessor-2023.5.16.tar.gz
+[2023-05-16 07:44:46] INFO root fetch - processPackages [genopype]: Downloading https://files.pythonhosted.org/packages/1c/22/878de47eabba3da039d109a8615a4672300eeb44a688dfa5c90c2bfe7979/genopype-2023.5.15.tar.gz
+[2023-05-16 07:44:46] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-16 07:44:46] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.85.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230516/p/pypipr/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 07:44:46] INFO root fetch - processPackages [fastq-preprocessor]: executing diffoscope
+[2023-05-16 07:44:46] INFO root fetch - processPackages [fastq-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastq_preprocessor-2022.3.25.tar.gz tmp/fastq_preprocessor-2023.5.16.tar.gz --markdown 20230516/f/fastq-preprocessor/2022.3.25-2023.5.16/diff.md --exclude *.pyd
+[2023-05-16 07:44:46] INFO root fetch - processPackages [genopype]: executing diffoscope
+[2023-05-16 07:44:46] INFO root fetch - processPackages [genopype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopype-2023.4.13.tar.gz tmp/genopype-2023.5.15.tar.gz --markdown 20230516/g/genopype/2023.4.13-2023.5.15/diff.md --exclude *.pyd
+[2023-05-16 07:44:46] INFO root fetch - processPackages [automation-common-test]: Downloading https://files.pythonhosted.org/packages/c2/ba/300856fc6cc3a4af7d0da2d9c3243f212ed1d20a01b0ccc3f3032554961d/automation-common-test-1.9.0.tar.gz
+[2023-05-16 07:44:46] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-16 07:44:46] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.8.0.tar.gz tmp/automation-common-test-1.9.0.tar.gz --markdown 20230516/a/automation-common-test/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-16 07:44:46] INFO root fetch - main [MainThread]: End processing [WX-Push-Services]: success
+[2023-05-16 07:44:47] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-05-16 07:44:47] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-16 07:44:47] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-05-16 07:44:47] INFO root fetch - main [MainThread]: End processing [genopype]: success
+[2023-05-16 07:44:47] INFO root fetch - main [MainThread]: End processing [fastq-preprocessor]: success
+[2023-05-16 07:44:47] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-16 07:44:47] INFO root fetch - main [MainThread]: Store serial: [18118740]
