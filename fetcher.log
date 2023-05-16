@@ -6909,3 +6909,48 @@
 [2023-05-16 04:31:48] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-05-16 04:31:48] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-05-16 04:31:48] INFO root fetch - main [MainThread]: Store serial: [18117506]
+[2023-05-16 04:36:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117506]
+[2023-05-16 04:36:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-16 04:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcmpy
+[2023-05-16 04:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-26
+[2023-05-16 04:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-networking
+[2023-05-16 04:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forecastflowml
+[2023-05-16 04:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-microscopy
+[2023-05-16 04:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-analytic-required
+[2023-05-16 04:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-analytic-parent
+[2023-05-16 04:36:57] INFO root fetch - processPackages [rcmpy]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-16 04:36:57] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.2]
+[2023-05-16 04:36:57] INFO root fetch - processPackages [odoo-addon-account-analytic-parent]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-16 04:36:57] INFO root fetch - processPackages [forecastflowml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 04:36:57] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-16 04:36:57] INFO root fetch - processPackages [mojo-networking]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 04:36:57] INFO root fetch - processPackages [edc-microscopy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 04:36:57] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: executing diffoscope
+[2023-05-16 04:36:57] INFO root fetch - processPackages [odoo-addon-account-analytic-required]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_analytic_required-15.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_analytic_required-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-account-analytic-required/15.0.1.0.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-16 04:36:57] INFO root fetch - processPackages [odoo-addon-account-analytic-parent]: Downloading https://files.pythonhosted.org/packages/7c/45/97fc04a0da190c37b19eea27d17305faf8907c0f52059857df9534ca9d65/odoo_addon_account_analytic_parent-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-16 04:36:57] INFO root fetch - processPackages [forecastflowml]: Downloading https://files.pythonhosted.org/packages/ec/55/4f6e79e1eee16ae1c1b046e60837537665365244419960f52fb1750149d6/forecastflowml-0.0.1.tar.gz
+[2023-05-16 04:36:57] INFO root fetch - processPackages [edc-microscopy]: Downloading https://files.pythonhosted.org/packages/d6/a6/84efe2421ee12fe048aea025f886e7d9b9f298469ba09e49ac5d90f7e494/edc-microscopy-0.1.0.tar.gz
+[2023-05-16 04:36:58] INFO root fetch - processPackages [rcmpy]: executing diffoscope
+[2023-05-16 04:36:58] INFO root fetch - processPackages [rcmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcmpy-1.4.0.tar.gz tmp/rcmpy-1.4.1.tar.gz --markdown 20230516/r/rcmpy/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-16 04:36:58] INFO root fetch - processPackages [mojo-networking]: Downloading https://files.pythonhosted.org/packages/b8/78/df800002b7a863c560629890025020259d57cb573eaed9dc00b35539cde9/mojo-networking-0.0.6.tar.gz
+[2023-05-16 04:36:58] INFO root fetch - processPackages [edc-microscopy]: Downloading https://files.pythonhosted.org/packages/d4/e2/2c113ea66cc9474795b93b1540fc89dfa370469c3ef51d903c5533b85650/edc-microscopy-0.1.1.tar.gz
+[2023-05-16 04:36:58] INFO root fetch - processPackages [odoo-addon-account-analytic-parent]: Downloading https://files.pythonhosted.org/packages/2a/d3/31eff7143b6e3da62f76774227f545c4a4717467be21341656a78d89203b/odoo_addon_account_analytic_parent-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-16 04:36:58] INFO root fetch - processPackages [forecastflowml]: Downloading https://files.pythonhosted.org/packages/9d/46/a44fb43bbab8867af97b96256a65dddae7180136d089b8a7246c0419f08e/forecastflowml-0.0.2.tar.gz
+[2023-05-16 04:36:58] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-16 04:36:58] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230516/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-16 04:36:58] INFO root fetch - processPackages [mojo-networking]: executing diffoscope
+[2023-05-16 04:36:58] INFO root fetch - processPackages [mojo-networking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo-networking-0.0.5.tar.gz tmp/mojo-networking-0.0.6.tar.gz --markdown 20230516/m/mojo-networking/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 04:36:58] INFO root fetch - processPackages [edc-microscopy]: executing diffoscope
+[2023-05-16 04:36:58] INFO root fetch - processPackages [edc-microscopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-microscopy-0.1.0.tar.gz tmp/edc-microscopy-0.1.1.tar.gz --markdown 20230516/e/edc-microscopy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 04:36:58] INFO root fetch - processPackages [forecastflowml]: executing diffoscope
+[2023-05-16 04:36:58] INFO root fetch - processPackages [forecastflowml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastflowml-0.0.1.tar.gz tmp/forecastflowml-0.0.2.tar.gz --markdown 20230516/f/forecastflowml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 04:36:58] INFO root fetch - processPackages [odoo-addon-account-analytic-parent]: executing diffoscope
+[2023-05-16 04:36:58] INFO root fetch - processPackages [odoo-addon-account-analytic-parent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_analytic_parent-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_analytic_parent-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-account-analytic-parent/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-16 04:36:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-analytic-required]: success
+[2023-05-16 04:36:59] INFO root fetch - main [MainThread]: End processing [mojo-networking]: success
+[2023-05-16 04:36:59] INFO root fetch - main [MainThread]: End processing [edc-microscopy]: success
+[2023-05-16 04:36:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-analytic-parent]: success
+[2023-05-16 04:36:59] INFO root fetch - main [MainThread]: End processing [forecastflowml]: success
+[2023-05-16 04:37:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-16 04:37:36] INFO root fetch - main [MainThread]: End processing [rcmpy]: success
+[2023-05-16 04:37:36] INFO root fetch - main [MainThread]: Store serial: [18117525]
