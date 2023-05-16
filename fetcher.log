@@ -8059,3 +8059,39 @@
 [2023-05-16 06:05:10] INFO root fetch - main [MainThread]: End processing [browsr]: success
 [2023-05-16 06:05:15] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2023-05-16 06:05:15] INFO root fetch - main [MainThread]: Store serial: [18118083]
+[2023-05-16 06:10:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118083]
+[2023-05-16 06:10:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-16 06:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: params-aws
+[2023-05-16 06:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lealnumeros
+[2023-05-16 06:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamicrender
+[2023-05-16 06:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tiktokapipy
+[2023-05-16 06:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zeno-sliceline
+[2023-05-16 06:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lealnumeros
+[2023-05-16 06:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CrossPy
+[2023-05-16 06:10:25] WARNING root fetch - processPackages [params-aws]: Skipping, unable to determine old version
+[2023-05-16 06:10:25] INFO root fetch - main [MainThread]: End processing [params-aws] error
+[2023-05-16 06:10:25] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-05-16 06:10:25] INFO root fetch - processPackages [tiktokapipy]: New version: [0.1.9.post1] Old Version: [0.1.9]
+[2023-05-16 06:10:25] WARNING root fetch - processPackages [zeno-sliceline]: Skipping, unable to determine old version
+[2023-05-16 06:10:25] INFO root fetch - main [MainThread]: End processing [zeno-sliceline] error
+[2023-05-16 06:10:25] INFO root fetch - processPackages [lealnumeros]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 06:10:25] INFO root fetch - processPackages [lealnumeros]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 06:10:25] INFO root fetch - processPackages [dynamicrender]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-16 06:10:25] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-05-16 06:10:25] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230516/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-05-16 06:10:25] INFO root fetch - processPackages [dynamicrender]: Downloading https://files.pythonhosted.org/packages/36/b2/4f2f000f6e56c306211b9c2617a737f1735043a043d7fcd82fd6456a629b/dynamicrender-1.2.3.tar.gz
+[2023-05-16 06:10:25] WARNING root fetch - processPackages [dynamicrender]: Skipping package: exceeds size limit 25183586>=10485760
+[2023-05-16 06:10:25] INFO root fetch - main [MainThread]: End processing [dynamicrender] error
+[2023-05-16 06:10:25] INFO root fetch - processPackages [lealnumeros]: Downloading https://files.pythonhosted.org/packages/11/02/558e4f6d39d4a0fd775259bf6fd51e9fa7ff25454c02d09a17ac2a305965/lealnumeros-0.0.3.tar.gz
+[2023-05-16 06:10:25] INFO root fetch - processPackages [lealnumeros]: Downloading https://files.pythonhosted.org/packages/11/02/558e4f6d39d4a0fd775259bf6fd51e9fa7ff25454c02d09a17ac2a305965/lealnumeros-0.0.3.tar.gz
+[2023-05-16 06:10:25] INFO root fetch - processPackages [lealnumeros]: executing diffoscope
+[2023-05-16 06:10:25] INFO root fetch - processPackages [lealnumeros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lealnumeros-0.0.2.tar.gz tmp/lealnumeros-0.0.3.tar.gz --markdown 20230516/l/lealnumeros/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 06:10:25] INFO root fetch - processPackages [lealnumeros]: executing diffoscope
+[2023-05-16 06:10:25] INFO root fetch - processPackages [lealnumeros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lealnumeros-0.0.2.tar.gz tmp/lealnumeros-0.0.3.tar.gz --markdown 20230516/l/lealnumeros/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 06:10:25] INFO root fetch - processPackages [tiktokapipy]: executing diffoscope
+[2023-05-16 06:10:25] INFO root fetch - processPackages [tiktokapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiktokapipy-0.1.9.tar.gz tmp/tiktokapipy-0.1.9.post1.tar.gz --markdown 20230516/t/tiktokapipy/0.1.9-0.1.9.post1/diff.md --exclude *.pyd
+[2023-05-16 06:10:26] INFO root fetch - main [MainThread]: End processing [lealnumeros]: success
+[2023-05-16 06:10:26] INFO root fetch - main [MainThread]: End processing [lealnumeros]: success
+[2023-05-16 06:10:27] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-05-16 06:11:03] INFO root fetch - main [MainThread]: End processing [tiktokapipy]: success
+[2023-05-16 06:11:03] INFO root fetch - main [MainThread]: Store serial: [18118107]
