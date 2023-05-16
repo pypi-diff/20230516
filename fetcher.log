@@ -9002,3 +9002,70 @@
 [2023-05-16 07:34:23] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2023-05-16 07:34:23] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2023-05-16 07:34:23] INFO root fetch - main [MainThread]: Store serial: [18118669]
+[2023-05-16 07:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118669]
+[2023-05-16 07:39:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvista
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decanter-ai-sdk
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stdf-utils
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymdown-extensions
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-l10n-it-asset-history-import
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atbu-common-pkg
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-it-asset-history-import
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dovesnap
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atbu-mp-pipeline-pkg
+[2023-05-16 07:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atbu-pkg
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-05-16 07:39:32] WARNING root fetch - processPackages [stdf-utils]: Skipping, unable to determine old version
+[2023-05-16 07:39:32] INFO root fetch - main [MainThread]: End processing [stdf-utils] error
+[2023-05-16 07:39:32] INFO root fetch - processPackages [pymdown-extensions]: New version: [9.9.2] Old Version: [9.9.1]
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: New version: [12.0.1.0.0.99.dev5] Old Version: [12.0.1.0.0.99.dev4]
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-common-pkg]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 07:39:32] INFO root fetch - processPackages [pyvista]: New version: [0.39.1] Old Version: [0.39.0]
+[2023-05-16 07:39:32] INFO root fetch - processPackages [dovesnap]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-mp-pipeline-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 07:39:32] INFO root fetch - processPackages [decanter-ai-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/a7/7e/cd38cacb266dc5dafc30965145326880825afd287762efc87854a100790b/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/54/59/1306e0a95fca4cc36b946bde3ca1fed2dc286788b18e394c2d960f52b50a/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev4-py3-none-any.whl
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/1e/43/b3e6e693150fa9a54fda96dbac24f19792ba7a45686ff6a62e7bbed9bd5d/atbu-pkg-0.0.8.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-mp-pipeline-pkg]: Downloading https://files.pythonhosted.org/packages/c4/21/6c73506ece809ee38ba44535770057a48a57fd613c2db04aab0210d5ac2e/atbu-mp-pipeline-pkg-0.0.8.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-common-pkg]: Downloading https://files.pythonhosted.org/packages/aa/fe/97ecf75fb32d96a85c0259ecc33ce61fa5bacff8fb9a6489b0249663762f/atbu-common-pkg-0.0.5.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [dovesnap]: Downloading https://files.pythonhosted.org/packages/a2/e6/f71cf28b24aab659174dc91de5032583ee9b55bbb695aa2609c50821945a/dovesnap-1.1.8.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [decanter-ai-sdk]: Downloading https://files.pythonhosted.org/packages/67/6e/a76e21d8455d1d1aab8ab3b33ffcfea001523f7f5275b3dd775227bda674/decanter-ai-sdk-0.1.8.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/22/16/4245329fa45f06911d43073f02132865c48b826c6eb7f887c9842c544e21/pyvista-0.39.0.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [pymdown-extensions]: executing diffoscope
+[2023-05-16 07:39:32] INFO root fetch - processPackages [pymdown-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymdown_extensions-9.9.1.tar.gz tmp/pymdown_extensions-9.9.2.tar.gz --markdown 20230516/p/pymdown-extensions/9.9.1-9.9.2/diff.md --exclude *.pyd
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/0e/98/02ddac0499aeef6155d13067638f621e9db7955a8ac40dae4307a9c512de/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev5-py3-none-any.whl
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/58/ee/525cfb44c4bb51dcb69a9dacb01969d13e884aa106299f47cbaf3fca77d3/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-mp-pipeline-pkg]: Downloading https://files.pythonhosted.org/packages/02/18/c1688bf9b77587d47ab0d45016348c7a527374a7f4c01204a85d41f9a22e/atbu-mp-pipeline-pkg-0.0.9.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/f5/38/dc8d5091ad2ec0108f1b6ca6014651e5e893c7f8f07c961c902e3d5e4b0e/atbu-pkg-0.0.9.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: executing diffoscope
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev5-py3-none-any.whl.zip --markdown 20230516/o/odoo12-addon-l10n-it-asset-history-import/12.0.1.0.0.99.dev4-12.0.1.0.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: executing diffoscope
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-common-pkg]: Downloading https://files.pythonhosted.org/packages/62/dc/51c3dd4d0360be767a9efbd72a78bab0e20da767644a442933774a5ee0dc/atbu-common-pkg-0.0.6.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230516/o/odoo14-addon-l10n-it-asset-history-import/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-mp-pipeline-pkg]: executing diffoscope
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-mp-pipeline-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-mp-pipeline-pkg-0.0.8.tar.gz tmp/atbu-mp-pipeline-pkg-0.0.9.tar.gz --markdown 20230516/a/atbu-mp-pipeline-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 07:39:32] INFO root fetch - processPackages [dovesnap]: Downloading https://files.pythonhosted.org/packages/e1/3f/3f251da63cfc71584b48cba0dbbb080aa6b7eac6453e0e14a07aeb519b04/dovesnap-1.1.9.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [decanter-ai-sdk]: Downloading https://files.pythonhosted.org/packages/7d/25/697b73519c5e93e32cc15d57327602921ae82762cea10775c3306cd568c3/decanter-ai-sdk-0.1.9.tar.gz
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-common-pkg]: executing diffoscope
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-common-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-common-pkg-0.0.5.tar.gz tmp/atbu-common-pkg-0.0.6.tar.gz --markdown 20230516/a/atbu-common-pkg/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-pkg]: executing diffoscope
+[2023-05-16 07:39:32] INFO root fetch - processPackages [atbu-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-pkg-0.0.8.tar.gz tmp/atbu-pkg-0.0.9.tar.gz --markdown 20230516/a/atbu-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 07:39:32] INFO root fetch - processPackages [dovesnap]: executing diffoscope
+[2023-05-16 07:39:32] INFO root fetch - processPackages [dovesnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dovesnap-1.1.8.tar.gz tmp/dovesnap-1.1.9.tar.gz --markdown 20230516/d/dovesnap/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-16 07:39:33] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/9a/8e/5af563f2cb8f5994f5853f6c4dac56f4b247ddcd78d44cd6029c9a778926/pyvista-0.39.1.tar.gz
+[2023-05-16 07:39:33] INFO root fetch - processPackages [decanter-ai-sdk]: executing diffoscope
+[2023-05-16 07:39:33] INFO root fetch - processPackages [decanter-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decanter-ai-sdk-0.1.8.tar.gz tmp/decanter-ai-sdk-0.1.9.tar.gz --markdown 20230516/d/decanter-ai-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 07:39:33] INFO root fetch - processPackages [pyvista]: executing diffoscope
+[2023-05-16 07:39:33] INFO root fetch - processPackages [pyvista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvista-0.39.0.tar.gz tmp/pyvista-0.39.1.tar.gz --markdown 20230516/p/pyvista/0.39.0-0.39.1/diff.md --exclude *.pyd
+[2023-05-16 07:39:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-asset-history-import]: success
+[2023-05-16 07:39:34] INFO root fetch - main [MainThread]: End processing [dovesnap]: success
+[2023-05-16 07:39:34] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-asset-history-import]: success
+[2023-05-16 07:39:34] INFO root fetch - main [MainThread]: End processing [atbu-mp-pipeline-pkg]: success
+[2023-05-16 07:39:34] INFO root fetch - main [MainThread]: End processing [atbu-common-pkg]: success
+[2023-05-16 07:39:35] INFO root fetch - main [MainThread]: End processing [decanter-ai-sdk]: success
+[2023-05-16 07:39:35] INFO root fetch - main [MainThread]: End processing [pymdown-extensions]: success
+[2023-05-16 07:39:36] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
+[2023-05-16 07:39:36] INFO root fetch - main [MainThread]: End processing [pyvista]: success
+[2023-05-16 07:39:36] INFO root fetch - main [MainThread]: Store serial: [18118711]
