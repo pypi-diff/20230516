@@ -13693,3 +13693,119 @@
 [2023-05-16 11:51:23] INFO root fetch - main [MainThread]: End processing [grizli]: success
 [2023-05-16 11:51:59] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
 [2023-05-16 11:51:59] INFO root fetch - main [MainThread]: Store serial: [18121327]
+[2023-05-16 11:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18121327]
+[2023-05-16 11:57:14] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbox
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thoth-doc
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hello2
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-api
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ablog
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eotdl-cli
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wxc-sdk
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: baseband
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangorestfilemanager
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-rahav-CERT-2189-bad-error-message
+[2023-05-16 11:57:14] WARNING root fetch - processPackages [thoth-doc]: Skipping, unable to determine old version
+[2023-05-16 11:57:14] INFO root fetch - processPackages [thoth-doc]: Start processing: certora-cli-alpha-alex-int-to-skey
+[2023-05-16 11:57:14] INFO root fetch - main [MainThread]: End processing [thoth-doc] error
+[2023-05-16 11:57:14] INFO root fetch - processPackages [eotdl-cli]: New version: [2023.5.9.post4] Old Version: [2023.5.9.post3]
+[2023-05-16 11:57:14] WARNING root fetch - processPackages [certora-cli-alpha-rahav-CERT-2189-bad-error-message]: Skipping, unable to determine old version
+[2023-05-16 11:57:14] INFO root fetch - processPackages [certora-cli-alpha-rahav-CERT-2189-bad-error-message]: Start processing: odoo-addon-purchase-order-no-zero-price
+[2023-05-16 11:57:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-CERT-2189-bad-error-message] error
+[2023-05-16 11:57:14] INFO root fetch - processPackages [djangorestfilemanager]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-16 11:57:14] INFO root fetch - processPackages [wxc-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-16 11:57:14] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-05-16 11:57:14] INFO root fetch - processPackages [ablog]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-16 11:57:14] INFO root fetch - processPackages [baseband]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-05-16 11:57:14] WARNING root fetch - processPackages [odoo-addon-purchase-order-no-zero-price]: Skipping, unable to determine old version
+[2023-05-16 11:57:14] INFO root fetch - processPackages [odoo-addon-purchase-order-no-zero-price]: Start processing: mecord-cli
+[2023-05-16 11:57:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-no-zero-price] error
+[2023-05-16 11:57:15] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-05-16 11:57:15] INFO root fetch - processPackages [hello2]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-05-16 11:57:15] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: New version: [20230516.9.53.258982] Old Version: [20230505.16.40.431119]
+[2023-05-16 11:57:15] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 11:57:15] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/49/a1/452c4712e5974f215ed346454a822b4ddabf3f2e39af8c7400560761c48e/eotdl-cli-2023.5.9.post3.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-05-16 11:57:15] INFO root fetch - processPackages [wxc-sdk]: Downloading https://files.pythonhosted.org/packages/65/68/6b828b0a26e40300376631622bcaaca6866bdef28e75f6ed444823a77fde/wxc_sdk-1.8.0.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [djangorestfilemanager]: Downloading https://files.pythonhosted.org/packages/0b/bb/ac4539c5fcba38d6ea8bf61e00846345814c2e326381ad2417f60b305f0a/djangorestfilemanager-2.0.1.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/09/bf/8e8a77f2fe235ea9a866ace8e5c8f5b3573a19ad0f38b64201e5b1f85136/hello2-1.6.6.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [baseband]: Downloading https://files.pythonhosted.org/packages/06/97/4bd01bffdbbf7d2c4c1229f3b961c86a44e91f2cb9eccb175db7e12b26ee/baseband-4.1.2.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230516/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 11:57:15] INFO root fetch - processPackages [ablog]: Downloading https://files.pythonhosted.org/packages/63/e8/82790091411d74571d1e67b11a8175e175f6234dac63bba89bdb87447290/ablog-0.9.4.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Downloading https://files.pythonhosted.org/packages/a4/5a/5bb86cb5ccfba3e4d25104aacdaad8a4f99b8e4a19c9d76e669143394c27/certora-cli-alpha-alex-int-to-skey-20230505.16.40.431119.tar.gz
+[2023-05-16 11:57:15] WARNING root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Skipping package: exceeds size limit 38473133>=10485760
+[2023-05-16 11:57:15] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Start processing: frequenz-channels
+[2023-05-16 11:57:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-int-to-skey] error
+[2023-05-16 11:57:15] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/d3/26/eb94abf53606828ae5a77c69a6d487dbe841652cda7a57b6e22e837ca610/eotdl-cli-2023.5.9.post4.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [djangorestfilemanager]: Downloading https://files.pythonhosted.org/packages/55/78/c15f89ac2c4ac2ebcc26b3015cc86793f21defc39cc47b9b7d588b584ce0/djangorestfilemanager-2.0.2.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/85/49/e71ffbb84af9982fcd58bf3546b0b2c7ef7bb10f4f56b1d404b1f3bec5b8/hello2-1.6.7.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-cli-2023.5.9.post3.tar.gz tmp/eotdl-cli-2023.5.9.post4.tar.gz --markdown 20230516/e/eotdl-cli/2023.5.9.post3-2023.5.9.post4/diff.md --exclude *.pyd
+[2023-05-16 11:57:15] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-05-16 11:57:15] INFO root fetch - processPackages [ablog]: Downloading https://files.pythonhosted.org/packages/7b/1f/2e363c1ad1dd60b7f4feb29a57cf90fede60e9513e5b9d17e474b8e9af32/ablog-0.9.5.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [frequenz-channels]: New version: [0.15.0] Old Version: [0.14.0]
+[2023-05-16 11:57:15] INFO root fetch - processPackages [ablog]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [ablog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablog-0.9.4.tar.gz tmp/ablog-0.9.5.tar.gz --markdown 20230516/a/ablog/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-16 11:57:15] INFO root fetch - processPackages [baseband]: Downloading https://files.pythonhosted.org/packages/2b/dc/4495ca925c770404a314548ea81866396346ddc3b00ce4d372fd30aa3521/baseband-4.1.3.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [djangorestfilemanager]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [djangorestfilemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestfilemanager-2.0.1.tar.gz tmp/djangorestfilemanager-2.0.2.tar.gz --markdown 20230516/d/djangorestfilemanager/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-16 11:57:15] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.6.6.tar.gz tmp/hello2-1.6.7.tar.gz --markdown 20230516/h/hello2/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-05-16 11:57:15] INFO root fetch - processPackages [wxc-sdk]: Downloading https://files.pythonhosted.org/packages/3e/ca/aaf7cecba5b35a662002acb68c785a03eb5f3c85d5a96b58d0aa4d096101/wxc_sdk-1.9.0.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230516/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-16 11:57:15] INFO root fetch - processPackages [frequenz-channels]: Downloading https://files.pythonhosted.org/packages/a1/32/3756bd55cda64fa3c5bca269e8016ba14e427efc35e4d3c1d849c9f84881/frequenz-channels-0.14.0.tar.gz
+[2023-05-16 11:57:15] INFO root fetch - processPackages [wxc-sdk]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [wxc-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxc_sdk-1.8.0.tar.gz tmp/wxc_sdk-1.9.0.tar.gz --markdown 20230516/w/wxc-sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-16 11:57:15] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230516/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-05-16 11:57:15] INFO root fetch - processPackages [baseband]: executing diffoscope
+[2023-05-16 11:57:15] INFO root fetch - processPackages [baseband]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseband-4.1.2.tar.gz tmp/baseband-4.1.3.tar.gz --markdown 20230516/b/baseband/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-05-16 11:57:16] INFO root fetch - processPackages [frequenz-channels]: Downloading https://files.pythonhosted.org/packages/94/1a/77f61db93cb1010561f32323cde1e3ae3d0cf992c58e86606de5aa5af6d4/frequenz-channels-0.15.0.tar.gz
+[2023-05-16 11:57:16] INFO root fetch - processPackages [frequenz-channels]: executing diffoscope
+[2023-05-16 11:57:16] INFO root fetch - processPackages [frequenz-channels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-channels-0.14.0.tar.gz tmp/frequenz-channels-0.15.0.tar.gz --markdown 20230516/f/frequenz-channels/0.14.0-0.15.0/diff.md --exclude *.pyd
+[2023-05-16 11:57:16] INFO root fetch - processPackages [mecord-cli]: Start processing: PyTraffic
+[2023-05-16 11:57:16] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-05-16 11:57:16] INFO root fetch - processPackages [PyTraffic]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-16 11:57:17] INFO root fetch - processPackages [PyTraffic]: executing diffoscope
+[2023-05-16 11:57:17] INFO root fetch - processPackages [PyTraffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTraffic-1.0.6.tar.gz tmp/PyTraffic-1.0.7.tar.gz --markdown 20230516/P/PyTraffic/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-16 11:57:17] INFO root fetch - processPackages [eotdl-cli]: Start processing: cc-py-commons
+[2023-05-16 11:57:17] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-05-16 11:57:17] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-16 11:57:17] INFO root fetch - processPackages [djangorestfilemanager]: Start processing: idf-build-apps
+[2023-05-16 11:57:17] INFO root fetch - main [MainThread]: End processing [djangorestfilemanager]: success
+[2023-05-16 11:57:17] INFO root fetch - processPackages [idf-build-apps]: New version: [1.0.0.dev0] Old Version: [0.6.1]
+[2023-05-16 11:57:17] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/81/74/5efffc01c9c016286a455cfe19bb036495314c0892189fc88af11f899810/idf-build-apps-0.6.1.tar.gz
+[2023-05-16 11:57:17] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-16 11:57:17] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230516/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-16 11:57:17] INFO root fetch - processPackages [frequenz-channels]: Start processing: hydra-genetics
+[2023-05-16 11:57:17] INFO root fetch - main [MainThread]: End processing [frequenz-channels]: success
+[2023-05-16 11:57:17] INFO root fetch - processPackages [ablog]: Start processing: alibabacloud-computenestsupplier20210521-py2
+[2023-05-16 11:57:17] INFO root fetch - main [MainThread]: End processing [ablog]: success
+[2023-05-16 11:57:17] INFO root fetch - processPackages [hydra-genetics]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-16 11:57:17] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521-py2]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-16 11:57:17] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/f2/4f/4e727597d8565050bb785ab07e83010d30f03f782e59b697e1949a0af27b/idf_build_apps-1.0.0.dev0.tar.gz
+[2023-05-16 11:57:18] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-05-16 11:57:18] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/5e/04/3a92d9df734fc75a2ea670f9d74a2dcf45948657db2449871cac096ce3c9/hydra-genetics-1.3.0.tar.gz
+[2023-05-16 11:57:18] INFO root fetch - processPackages [idf-build-apps]: executing diffoscope
+[2023-05-16 11:57:18] INFO root fetch - processPackages [idf-build-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf-build-apps-0.6.1.tar.gz tmp/idf_build_apps-1.0.0.dev0.tar.gz --markdown 20230516/i/idf-build-apps/0.6.1-1.0.0.dev0/diff.md --exclude *.pyd
+[2023-05-16 11:57:18] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521-py2]: Downloading https://files.pythonhosted.org/packages/94/b8/ae8b650f864405ed3a47a3f1a2251e4ed1d4077603f41fc1912290b97fb1/alibabacloud_computenestsupplier20210521_py2-1.1.2.tar.gz
+[2023-05-16 11:57:18] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/b0/93/952208dc4a1af3fa004defa2d33889eb12f9cef06b0c656f190d639ca313/hydra-genetics-1.4.0.tar.gz
+[2023-05-16 11:57:18] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521-py2]: Downloading https://files.pythonhosted.org/packages/18/14/4afa2742896e41e6bc7b2b831c6f7034fe242fc679e4f8180cdedd23b729/alibabacloud_computenestsupplier20210521_py2-1.1.3.tar.gz
+[2023-05-16 11:57:18] INFO root fetch - main [MainThread]: End processing [wxc-sdk]: success
+[2023-05-16 11:57:18] INFO root fetch - processPackages [hydra-genetics]: executing diffoscope
+[2023-05-16 11:57:18] INFO root fetch - processPackages [hydra-genetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra-genetics-1.3.0.tar.gz tmp/hydra-genetics-1.4.0.tar.gz --markdown 20230516/h/hydra-genetics/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-16 11:57:18] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521-py2]: executing diffoscope
+[2023-05-16 11:57:18] INFO root fetch - processPackages [alibabacloud-computenestsupplier20210521-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_computenestsupplier20210521_py2-1.1.2.tar.gz tmp/alibabacloud_computenestsupplier20210521_py2-1.1.3.tar.gz --markdown 20230516/a/alibabacloud-computenestsupplier20210521-py2/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-16 11:57:18] INFO root fetch - main [MainThread]: End processing [baseband]: success
+[2023-05-16 11:57:18] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-05-16 11:57:19] INFO root fetch - main [MainThread]: End processing [PyTraffic]: success
+[2023-05-16 11:57:19] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-16 11:57:19] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-05-16 11:57:19] INFO root fetch - main [MainThread]: End processing [idf-build-apps]: success
+[2023-05-16 11:57:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-computenestsupplier20210521-py2]: success
+[2023-05-16 11:57:21] INFO root fetch - main [MainThread]: End processing [hydra-genetics]: success
+[2023-05-16 11:57:21] INFO root fetch - main [MainThread]: Store serial: [18121392]
