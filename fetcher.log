@@ -20779,3 +20779,130 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 17:36:32] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
 [2023-05-16 17:36:34] INFO root fetch - main [MainThread]: End processing [Faker]: success
 [2023-05-16 17:36:34] INFO root fetch - main [MainThread]: Store serial: [18125541]
+[2023-05-16 17:41:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18125541]
+[2023-05-16 17:41:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-circuitpython
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-circuitpython
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blunder
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drb-topic-landsat8
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-mike-migration-script
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: puput
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-circuitpython
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xrdfit
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SC2Spa
+[2023-05-16 17:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-circuitpython
+[2023-05-16 17:41:43] INFO root fetch - processPackages [puput]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-05-16 17:41:43] INFO root fetch - processPackages [SC2Spa]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-16 17:41:43] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0a2] Old Version: [8.0.3]
+[2023-05-16 17:41:43] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0a2] Old Version: [8.0.3]
+[2023-05-16 17:41:43] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0a2] Old Version: [8.0.3]
+[2023-05-16 17:41:43] INFO root fetch - processPackages [drb-topic-landsat8]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-16 17:41:43] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: New version: [20230516.15.37.270419] Old Version: [20230505.19.55.340970]
+[2023-05-16 17:41:43] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0a2] Old Version: [8.0.3]
+[2023-05-16 17:41:43] WARNING root fetch - processPackages [blunder]: Skipping, unable to determine old version
+[2023-05-16 17:41:43] INFO root fetch - processPackages [xrdfit]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-16 17:41:43] INFO root fetch - processPackages [blunder]: Start processing: SwissArmyTransformer
+[2023-05-16 17:41:43] INFO root fetch - main [MainThread]: End processing [blunder] error
+[2023-05-16 17:41:44] INFO root fetch - processPackages [SC2Spa]: executing diffoscope
+[2023-05-16 17:41:44] INFO root fetch - processPackages [SC2Spa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SC2Spa-1.1.6.tar.gz tmp/SC2Spa-1.1.7.tar.gz --markdown 20230516/S/SC2Spa/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-16 17:41:44] INFO root fetch - processPackages [drb-topic-landsat8]: Downloading https://files.pythonhosted.org/packages/ed/6a/76c2863ab14d86b1d3afd3529bba6d900bcf4623a4d1f1f16abe4d619d15/drb-topic-landsat8-1.0.0.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/12/11/af9ccde0911f299dcb2865a2c2b70792231c9c81c9a8b7055e35be794fbd/types-circuitpython-8.0.3.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [puput]: Downloading https://files.pythonhosted.org/packages/e1/1d/e1506069490ab2d2d239ac97f646849f45f28f3afdcf31d5499535f48433/puput-1.1.4.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [SwissArmyTransformer]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/12/11/af9ccde0911f299dcb2865a2c2b70792231c9c81c9a8b7055e35be794fbd/types-circuitpython-8.0.3.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/12/11/af9ccde0911f299dcb2865a2c2b70792231c9c81c9a8b7055e35be794fbd/types-circuitpython-8.0.3.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/12/11/af9ccde0911f299dcb2865a2c2b70792231c9c81c9a8b7055e35be794fbd/types-circuitpython-8.0.3.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Downloading https://files.pythonhosted.org/packages/25/62/20f2978eb300c8e87e7af35f825b03ff0e2065ea5a3e6aae0a0eca2e2cac/certora-cli-alpha-mike-migration-script-20230505.19.55.340970.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [xrdfit]: Downloading https://files.pythonhosted.org/packages/df/aa/e17b13259fca71bc811956c9bb32647d0c151ba3ce35c5bb2bcc10d16373/xrdfit-1.2.0.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [drb-topic-landsat8]: Downloading https://files.pythonhosted.org/packages/13/89/10b7c4c0fa57e5344ea98961fa4e5ca72702f90b81bf312563dc119fd0bf/drb-topic-landsat8-1.1.0.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [puput]: Downloading https://files.pythonhosted.org/packages/bf/1f/ebff3b63531c607fdebdf20df2bc8e58132241dd4daa00511e068596164f/puput-1.2.0.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/4e/ed/d4c6ec8d12d8309b28d1b6dd2dc194234c0759b6758396fa658a78ca342a/types-circuitpython-8.1.0a2.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [puput]: executing diffoscope
+[2023-05-16 17:41:44] INFO root fetch - processPackages [puput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puput-1.1.4.tar.gz tmp/puput-1.2.0.tar.gz --markdown 20230516/p/puput/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/4e/ed/d4c6ec8d12d8309b28d1b6dd2dc194234c0759b6758396fa658a78ca342a/types-circuitpython-8.1.0a2.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/4e/ed/d4c6ec8d12d8309b28d1b6dd2dc194234c0759b6758396fa658a78ca342a/types-circuitpython-8.1.0a2.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: Downloading https://files.pythonhosted.org/packages/4e/ed/d4c6ec8d12d8309b28d1b6dd2dc194234c0759b6758396fa658a78ca342a/types-circuitpython-8.1.0a2.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [drb-topic-landsat8]: executing diffoscope
+[2023-05-16 17:41:44] INFO root fetch - processPackages [drb-topic-landsat8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-topic-landsat8-1.0.0.tar.gz tmp/drb-topic-landsat8-1.1.0.tar.gz --markdown 20230516/d/drb-topic-landsat8/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-16 17:41:44] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/6f/52/87ccdfc765da88644d3571a9c5afe4e19fb99cc8526c7c81c013e538ce27/SwissArmyTransformer-0.3.5.tar.gz
+[2023-05-16 17:41:44] WARNING root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Skipping package: exceeds size limit 38473035>=10485760
+[2023-05-16 17:41:44] INFO root fetch - processPackages [certora-cli-alpha-mike-migration-script]: Start processing: frontegg
+[2023-05-16 17:41:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-mike-migration-script] error
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.0.3.tar.gz tmp/types-circuitpython-8.1.0a2.tar.gz --markdown 20230516/t/types-circuitpython/8.0.3-8.1.0a2/diff.md --exclude *.pyd
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.0.3.tar.gz tmp/types-circuitpython-8.1.0a2.tar.gz --markdown 20230516/t/types-circuitpython/8.0.3-8.1.0a2/diff.md --exclude *.pyd
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.0.3.tar.gz tmp/types-circuitpython-8.1.0a2.tar.gz --markdown 20230516/t/types-circuitpython/8.0.3-8.1.0a2/diff.md --exclude *.pyd
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:41:44] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.0.3.tar.gz tmp/types-circuitpython-8.1.0a2.tar.gz --markdown 20230516/t/types-circuitpython/8.0.3-8.1.0a2/diff.md --exclude *.pyd
+[2023-05-16 17:41:44] INFO root fetch - processPackages [frontegg]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-16 17:41:44] INFO root fetch - processPackages [xrdfit]: Downloading https://files.pythonhosted.org/packages/8f/09/a2c4ce4ed308145f4459973b99d581b6373b379c7569ac31de58866571cc/xrdfit-1.3.0.tar.gz
+[2023-05-16 17:41:44] INFO root fetch - processPackages [SwissArmyTransformer]: executing diffoscope
+[2023-05-16 17:41:44] INFO root fetch - processPackages [SwissArmyTransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwissArmyTransformer-0.3.4.tar.gz tmp/SwissArmyTransformer-0.3.5.tar.gz --markdown 20230516/S/SwissArmyTransformer/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-16 17:41:44] INFO root fetch - processPackages [frontegg]: Downloading https://files.pythonhosted.org/packages/61/70/c85f85f7b8c74aba0ac543d34b9a085c8d3fd8176214f6d996fde7f09c89/frontegg-2.1.3.tar.gz
+[2023-05-16 17:41:45] INFO root fetch - processPackages [xrdfit]: executing diffoscope
+[2023-05-16 17:41:45] INFO root fetch - processPackages [xrdfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrdfit-1.2.0.tar.gz tmp/xrdfit-1.3.0.tar.gz --markdown 20230516/x/xrdfit/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-16 17:41:45] INFO root fetch - processPackages [frontegg]: Downloading https://files.pythonhosted.org/packages/47/d4/f0a4cc7964445506aa31fea59a861acbdf4b6a94706d929e3398f621894c/frontegg-2.1.4.tar.gz
+[2023-05-16 17:41:45] INFO root fetch - processPackages [SC2Spa]: Start processing: al2var
+[2023-05-16 17:41:45] INFO root fetch - main [MainThread]: End processing [SC2Spa]: success
+[2023-05-16 17:41:45] INFO root fetch - processPackages [al2var]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 17:41:45] INFO root fetch - processPackages [frontegg]: executing diffoscope
+[2023-05-16 17:41:45] INFO root fetch - processPackages [frontegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontegg-2.1.3.tar.gz tmp/frontegg-2.1.4.tar.gz --markdown 20230516/f/frontegg/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-16 17:41:45] INFO root fetch - processPackages [al2var]: executing diffoscope
+[2023-05-16 17:41:45] INFO root fetch - processPackages [al2var]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/al2var-0.0.5.tar.gz tmp/al2var-0.0.6.tar.gz --markdown 20230516/a/al2var/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 17:41:46] INFO root fetch - processPackages [drb-topic-landsat8]: Start processing: dustpylib
+[2023-05-16 17:41:46] INFO root fetch - main [MainThread]: End processing [drb-topic-landsat8]: success
+[2023-05-16 17:41:46] INFO root fetch - processPackages [dustpylib]: New version: [0.4.0rc0] Old Version: [0.3.0rc1]
+[2023-05-16 17:41:46] INFO root fetch - processPackages [dustpylib]: Downloading https://files.pythonhosted.org/packages/e0/fd/10e1862a41fd083111ac2be7b6288a124e7678303c3dbb330bff02c4e66a/dustpylib-0.3.0rc1.tar.gz
+[2023-05-16 17:41:46] INFO root fetch - processPackages [al2var]: Start processing: pyamdgpuinfo
+[2023-05-16 17:41:46] INFO root fetch - main [MainThread]: End processing [al2var]: success
+[2023-05-16 17:41:46] INFO root fetch - processPackages [pyamdgpuinfo]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-16 17:41:46] INFO root fetch - processPackages [types-circuitpython]: Start processing: types-circuitpython
+[2023-05-16 17:41:46] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:41:46] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0a2] Old Version: [8.0.3]
+[2023-05-16 17:41:46] INFO root fetch - processPackages [xrdfit]: Start processing: jlibs
+[2023-05-16 17:41:46] INFO root fetch - main [MainThread]: End processing [xrdfit]: success
+[2023-05-16 17:41:46] INFO root fetch - processPackages [types-circuitpython]: Start processing: autort
+[2023-05-16 17:41:46] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:41:46] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:41:46] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.0.3.tar.gz tmp/types-circuitpython-8.1.0a2.tar.gz --markdown 20230516/t/types-circuitpython/8.0.3-8.1.0a2/diff.md --exclude *.pyd
+[2023-05-16 17:41:46] WARNING root fetch - processPackages [jlibs]: Skipping, unable to determine old version
+[2023-05-16 17:41:46] INFO root fetch - processPackages [jlibs]: Start processing: protozfits
+[2023-05-16 17:41:46] INFO root fetch - main [MainThread]: End processing [jlibs] error
+[2023-05-16 17:41:46] INFO root fetch - processPackages [pyamdgpuinfo]: Downloading https://files.pythonhosted.org/packages/22/97/c5eebca15041138ad69eac26b2a64ef44fa3e371c592470bbdf16301884b/pyamdgpuinfo-2.1.2.tar.gz
+[2023-05-16 17:41:46] WARNING root fetch - processPackages [autort]: Skipping, unable to determine old version
+[2023-05-16 17:41:46] INFO root fetch - processPackages [autort]: Start processing: types-circuitpython
+[2023-05-16 17:41:46] INFO root fetch - main [MainThread]: End processing [autort] error
+[2023-05-16 17:41:46] INFO root fetch - processPackages [protozfits]: New version: [2.1.0] Old Version: [2.0.1.post1]
+[2023-05-16 17:41:46] INFO root fetch - processPackages [types-circuitpython]: New version: [8.1.0a2] Old Version: [8.0.3]
+[2023-05-16 17:41:47] INFO root fetch - processPackages [types-circuitpython]: executing diffoscope
+[2023-05-16 17:41:47] INFO root fetch - processPackages [types-circuitpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-circuitpython-8.0.3.tar.gz tmp/types-circuitpython-8.1.0a2.tar.gz --markdown 20230516/t/types-circuitpython/8.0.3-8.1.0a2/diff.md --exclude *.pyd
+[2023-05-16 17:41:47] INFO root fetch - processPackages [dustpylib]: Downloading https://files.pythonhosted.org/packages/52/86/2c46e9316ecb6ad511ed17ca4ef92ccf0472e5d4668b4d0dd0ddb6fedb68/dustpylib-0.4.0rc0.tar.gz
+[2023-05-16 17:41:47] INFO root fetch - processPackages [protozfits]: Downloading https://files.pythonhosted.org/packages/ef/4e/3cc823a502fc553ef5521330219b9b4543b68fd82bcfbd4f338966e3ae98/protozfits-2.0.1.post1.tar.gz
+[2023-05-16 17:41:47] INFO root fetch - processPackages [pyamdgpuinfo]: Downloading https://files.pythonhosted.org/packages/1a/11/418de9ae116a2c9271d2122ae811e5ea60ddbb9d1743361a034b93e8cefe/pyamdgpuinfo-2.1.3.tar.gz
+[2023-05-16 17:41:47] INFO root fetch - processPackages [pyamdgpuinfo]: executing diffoscope
+[2023-05-16 17:41:47] INFO root fetch - processPackages [pyamdgpuinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyamdgpuinfo-2.1.2.tar.gz tmp/pyamdgpuinfo-2.1.3.tar.gz --markdown 20230516/p/pyamdgpuinfo/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-16 17:41:47] INFO root fetch - processPackages [frontegg]: Start processing: pypots
+[2023-05-16 17:41:47] INFO root fetch - main [MainThread]: End processing [frontegg]: success
+[2023-05-16 17:41:47] INFO root fetch - processPackages [pypots]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 17:41:47] INFO root fetch - processPackages [dustpylib]: executing diffoscope
+[2023-05-16 17:41:47] INFO root fetch - processPackages [dustpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dustpylib-0.3.0rc1.tar.gz tmp/dustpylib-0.4.0rc0.tar.gz --markdown 20230516/d/dustpylib/0.3.0rc1-0.4.0rc0/diff.md --exclude *.pyd
+[2023-05-16 17:41:47] INFO root fetch - processPackages [protozfits]: Downloading https://files.pythonhosted.org/packages/b4/b6/9900faab6c3088457525fcf939b2d56b1a8f07330c87fa4469c990011166/protozfits-2.1.0.tar.gz
+[2023-05-16 17:41:47] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/25/12/da661a231b4f76decc782f62905146278662c02823c2b857ebb2f4f3a3bb/pypots-0.0.8.tar.gz
+[2023-05-16 17:41:47] INFO root fetch - processPackages [protozfits]: executing diffoscope
+[2023-05-16 17:41:47] INFO root fetch - processPackages [protozfits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protozfits-2.0.1.post1.tar.gz tmp/protozfits-2.1.0.tar.gz --markdown 20230516/p/protozfits/2.0.1.post1-2.1.0/diff.md --exclude *.pyd
+[2023-05-16 17:41:47] INFO root fetch - main [MainThread]: End processing [SwissArmyTransformer]: success
+[2023-05-16 17:41:47] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/1e/11/a1c369a1646b8d61069c07a3160873caa5e452fb08ce32a6f29f53e094fa/pypots-0.0.9.tar.gz
+[2023-05-16 17:41:47] INFO root fetch - processPackages [pypots]: executing diffoscope
+[2023-05-16 17:41:47] INFO root fetch - processPackages [pypots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypots-0.0.8.tar.gz tmp/pypots-0.0.9.tar.gz --markdown 20230516/p/pypots/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 17:41:48] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:41:48] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:41:48] INFO root fetch - main [MainThread]: End processing [pyamdgpuinfo]: success
+[2023-05-16 17:41:48] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:41:48] INFO root fetch - main [MainThread]: End processing [types-circuitpython]: success
+[2023-05-16 17:41:49] INFO root fetch - main [MainThread]: End processing [pypots]: success
+[2023-05-16 17:41:49] INFO root fetch - main [MainThread]: End processing [puput]: success
+[2023-05-16 17:41:51] INFO root fetch - main [MainThread]: End processing [dustpylib]: success
+[2023-05-16 17:41:56] INFO root fetch - main [MainThread]: End processing [protozfits]: success
+[2023-05-16 17:41:56] INFO root fetch - main [MainThread]: Store serial: [18125606]
