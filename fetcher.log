@@ -19740,3 +19740,102 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 16:40:13] INFO root fetch - main [MainThread]: End processing [sealights-python-agent]: success
 [2023-05-16 16:40:14] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-16 16:40:14] INFO root fetch - main [MainThread]: Store serial: [18124926]
+[2023-05-16 16:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18124926]
+[2023-05-16 16:45:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reytool
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pollination-alias
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vot-toolkit
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-recipes
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinybird-cli
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-sim
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-loader-xyz
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-superset-lineage
+[2023-05-16 16:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-serve
+[2023-05-16 16:45:23] INFO root fetch - processPackages [vot-toolkit]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: New version: [20230516.7.20.614735] Old Version: [20230513.12.25.91709]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [pollination-alias]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [lbt-recipes]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [data-loader-xyz]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Downloading https://files.pythonhosted.org/packages/97/35/296c706052e3a1374b1e875085be9848d72aa6ea9d48d5b42345d2556f8e/certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize-20230513.12.25.91709.tar.gz
+[2023-05-16 16:45:23] INFO root fetch - processPackages [qwak-sim]: New version: [2023.1013a0] Old Version: [2023.1012a0]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [dbt-superset-lineage]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-16 16:45:23] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-16 16:45:23] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230516/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [data-loader-xyz]: Downloading https://files.pythonhosted.org/packages/a4/e6/22260bf2820f9fd573a46f62205849d629c175537fef8a599c3dd5dc193f/data_loader_xyz-0.0.1.tar.gz
+[2023-05-16 16:45:24] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Skipping package: exceeds size limit 39424489>=10485760
+[2023-05-16 16:45:24] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Start processing: viewm2m
+[2023-05-16 16:45:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize] error
+[2023-05-16 16:45:24] INFO root fetch - processPackages [lbt-recipes]: Downloading https://files.pythonhosted.org/packages/69/f6/b4d9167d8390905370e4cb40cc23cf10ac640051293bc3158615d5b2a0cb/lbt-recipes-0.9.0.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [viewm2m]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 16:45:24] INFO root fetch - processPackages [pollination-alias]: Downloading https://files.pythonhosted.org/packages/e0/43/7e967ed5fa20814ba93b34dc03ad2c5adbcae0d6be295dfc7f8cd7d66333/pollination-alias-0.9.8.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [qwak-sim]: Downloading https://files.pythonhosted.org/packages/5f/6b/650426390df245375e22638a75bda6b24c563926d06ce7d887884e0dfa35/qwak-sim-2023.1012a0.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [dbt-superset-lineage]: Downloading https://files.pythonhosted.org/packages/a7/17/1d3bd6dfa0700c3282cfacb3d30a95b50e01fb0b7663e7127f3e8a8eab22/dbt_superset_lineage-0.3.0.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230516/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [vot-toolkit]: Downloading https://files.pythonhosted.org/packages/f2/f9/ea7fde2bc175324d87ef17c82bfa057b7bac9161b4391706363e8d806812/vot-toolkit-0.6.2.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [viewm2m]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [viewm2m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewm2m-0.0.5.tar.gz tmp/viewm2m-0.0.6.tar.gz --markdown 20230516/v/viewm2m/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230516/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [data-loader-xyz]: Downloading https://files.pythonhosted.org/packages/79/25/347bb00f11c7eb5fd00b82294abd7c18d0b2700ba6d09fdebd66fefb6f45/data_loader_xyz-0.0.2.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [vot-toolkit]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [vot-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vot-toolkit-0.6.1.tar.gz tmp/vot-toolkit-0.6.2.tar.gz --markdown 20230516/v/vot-toolkit/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [qwak-sim]: Downloading https://files.pythonhosted.org/packages/b7/36/215b69d333d66abd148e9010fd5423330faa35068cefe6d37dd9cb6493d8/qwak-sim-2023.1013a0.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [dbt-superset-lineage]: Downloading https://files.pythonhosted.org/packages/38/89/a10571e3929782c961581f46d56b64b1cc2fdd9ec58a4822f7c430104c5f/dbt_superset_lineage-0.3.1.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [lbt-recipes]: Downloading https://files.pythonhosted.org/packages/35/60/e6ba2724f3fa325e0df5cfdb976d9de29cdbdc783aa4b490795b16c1228f/lbt-recipes-0.9.1.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [pollination-alias]: Downloading https://files.pythonhosted.org/packages/1d/e2/b81cc22068d7b79882752bc3491ceed359780e56450fb6cb418bcf52817c/pollination-alias-0.9.9.tar.gz
+[2023-05-16 16:45:24] INFO root fetch - processPackages [qwak-sim]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [qwak-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak-sim-2023.1012a0.tar.gz tmp/qwak-sim-2023.1013a0.tar.gz --markdown 20230516/q/qwak-sim/2023.1012a0-2023.1013a0/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [data-loader-xyz]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [data-loader-xyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_loader_xyz-0.0.1.tar.gz tmp/data_loader_xyz-0.0.2.tar.gz --markdown 20230516/d/data-loader-xyz/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [dbt-superset-lineage]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [dbt-superset-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_superset_lineage-0.3.0.tar.gz tmp/dbt_superset_lineage-0.3.1.tar.gz --markdown 20230516/d/dbt-superset-lineage/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [pollination-alias]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [pollination-alias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-alias-0.9.8.tar.gz tmp/pollination-alias-0.9.9.tar.gz --markdown 20230516/p/pollination-alias/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 16:45:24] INFO root fetch - processPackages [lbt-recipes]: executing diffoscope
+[2023-05-16 16:45:24] INFO root fetch - processPackages [lbt-recipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-recipes-0.9.0.tar.gz tmp/lbt-recipes-0.9.1.tar.gz --markdown 20230516/l/lbt-recipes/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-16 16:45:25] INFO root fetch - processPackages [tinybird-cli]: Start processing: cc-py-commons
+[2023-05-16 16:45:25] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-05-16 16:45:25] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-16 16:45:25] INFO root fetch - processPackages [langchain-serve]: Start processing: premise
+[2023-05-16 16:45:25] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-16 16:45:25] INFO root fetch - processPackages [viewm2m]: Start processing: windbg-copilot
+[2023-05-16 16:45:25] INFO root fetch - main [MainThread]: End processing [viewm2m]: success
+[2023-05-16 16:45:25] INFO root fetch - processPackages [premise]: New version: [1.5.0b4] Old Version: [1.5.0b3]
+[2023-05-16 16:45:26] INFO root fetch - processPackages [reytool]: Start processing: jschemator
+[2023-05-16 16:45:26] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-05-16 16:45:26] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/08/af/c1c755ef71b241948db3073804395b3a9c55242f1e88e18a3f2b51dc40bd/premise-1.5.0b3.tar.gz
+[2023-05-16 16:45:26] INFO root fetch - processPackages [jschemator]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-16 16:45:26] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-16 16:45:26] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230516/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-16 16:45:26] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 67950679>=10485760
+[2023-05-16 16:45:26] INFO root fetch - processPackages [premise]: Start processing: qdrant-haystack
+[2023-05-16 16:45:26] INFO root fetch - main [MainThread]: End processing [premise] error
+[2023-05-16 16:45:26] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 16:45:26] INFO root fetch - processPackages [qdrant-haystack]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-16 16:45:26] INFO root fetch - processPackages [jschemator]: Downloading https://files.pythonhosted.org/packages/ee/31/964a59985725061cdb3dbf6b4f013f94fb956c6d6511a94daf86dadc1c49/jschemator-0.0.6.tar.gz
+[2023-05-16 16:45:26] INFO root fetch - main [MainThread]: End processing [dbt-superset-lineage]: success
+[2023-05-16 16:45:26] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/71/ea/d2f007dd070009549069b211e1e744fff2561aa857f0710bebd2ec2846f9/windbg_copilot-1.0.8.tar.gz
+[2023-05-16 16:45:26] INFO root fetch - processPackages [jschemator]: executing diffoscope
+[2023-05-16 16:45:26] INFO root fetch - processPackages [jschemator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jschemator-0.0.5.tar.gz tmp/jschemator-0.0.6.tar.gz --markdown 20230516/j/jschemator/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-16 16:45:26] INFO root fetch - main [MainThread]: End processing [pollination-alias]: success
+[2023-05-16 16:45:26] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/93/11/94118e15ad49dc2225977b424f4b2eea16864ebac5d5902942b08cac4c3a/qdrant_haystack-1.0.0.tar.gz
+[2023-05-16 16:45:26] INFO root fetch - main [MainThread]: End processing [data-loader-xyz]: success
+[2023-05-16 16:45:26] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/98/4d/f4ca3fba186c8dbb546368432f218fe011dcaffda000df1ec41915ec520d/windbg_copilot-1.0.9.tar.gz
+[2023-05-16 16:45:26] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-05-16 16:45:26] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.8.tar.gz tmp/windbg_copilot-1.0.9.tar.gz --markdown 20230516/w/windbg-copilot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 16:45:26] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/0a/7e/90d5f43aeb0a65f9c8799d3f2cd533487a62f8daa89ddeec066636d510ee/qdrant_haystack-1.0.1.tar.gz
+[2023-05-16 16:45:26] INFO root fetch - processPackages [qdrant-haystack]: executing diffoscope
+[2023-05-16 16:45:26] INFO root fetch - processPackages [qdrant-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_haystack-1.0.0.tar.gz tmp/qdrant_haystack-1.0.1.tar.gz --markdown 20230516/q/qdrant-haystack/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 16:45:26] INFO root fetch - main [MainThread]: End processing [qwak-sim]: success
+[2023-05-16 16:45:27] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-16 16:45:27] INFO root fetch - main [MainThread]: End processing [jschemator]: success
+[2023-05-16 16:45:27] INFO root fetch - main [MainThread]: End processing [lbt-recipes]: success
+[2023-05-16 16:45:27] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-05-16 16:45:28] INFO root fetch - main [MainThread]: End processing [qdrant-haystack]: success
+[2023-05-16 16:45:28] INFO root fetch - main [MainThread]: End processing [vot-toolkit]: success
+[2023-05-16 16:45:28] INFO root fetch - main [MainThread]: Store serial: [18124970]
