@@ -22687,3 +22687,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 18:54:57] INFO root fetch - main [MainThread]: End processing [album-sender]: success
 [2023-05-16 18:54:58] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
 [2023-05-16 18:54:58] INFO root fetch - main [MainThread]: Store serial: [18126637]
+[2023-05-16 19:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18126637]
+[2023-05-16 19:00:08] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepset-cloud-sdk
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appomni-spellbook-utils
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rest-api-vacancy-scraper-local
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multicloud-diagrams
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastdup
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: up-or-down
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napari-chatgpt
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reytool
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-PHAL-plugin-dashboard
+[2023-05-16 19:00:08] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-dashboard]: New version: [0.0.2a3] Old Version: [0.0.1]
+[2023-05-16 19:00:08] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-16 19:00:08] WARNING root fetch - processPackages [rest-api-vacancy-scraper-local]: Skipping, unable to determine old version
+[2023-05-16 19:00:08] INFO root fetch - processPackages [rest-api-vacancy-scraper-local]: Start processing: fstd2nc-deps
+[2023-05-16 19:00:08] INFO root fetch - main [MainThread]: End processing [rest-api-vacancy-scraper-local] error
+[2023-05-16 19:00:08] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 19:00:08] WARNING root fetch - processPackages [up-or-down]: Skipping, unable to determine old version
+[2023-05-16 19:00:08] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-16 19:00:08] WARNING root fetch - processPackages [appomni-spellbook-utils]: Skipping, unable to determine old version
+[2023-05-16 19:00:08] INFO root fetch - processPackages [up-or-down]: Start processing: ovos-PHAL-plugin-configuration-provider
+[2023-05-16 19:00:08] INFO root fetch - main [MainThread]: End processing [up-or-down] error
+[2023-05-16 19:00:08] INFO root fetch - processPackages [appomni-spellbook-utils]: Start processing: ovos-PHAL-plugin-notification-widgets
+[2023-05-16 19:00:08] INFO root fetch - processPackages [napari-chatgpt]: New version: [2023.5.2] Old Version: [2023.5.16]
+[2023-05-16 19:00:08] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-05-16 19:00:08] INFO root fetch - processPackages [fastdup]: New version: [1.0] Old Version: [0.930]
+[2023-05-16 19:00:08] INFO root fetch - main [MainThread]: End processing [appomni-spellbook-utils] error
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-configuration-provider]: New version: [1.0.1a1] Old Version: [1.0.0a3]
+[2023-05-16 19:00:08] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230516/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-notification-widgets]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2023-05-16 19:00:08] INFO root fetch - processPackages [fstd2nc-deps]: New version: [0.20200304.2] Old Version: [0.20200304.0]
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-dashboard]: Downloading https://files.pythonhosted.org/packages/d3/f0/9c2fd3932b468579befb1707f5638da10989b088f8e53573270dac431520/ovos-PHAL-plugin-dashboard-0.0.1.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/ec/be/04338c29792c9477dc1ab7ab29b7b631310578fa72305b8a3dc9f82d2ed1/multicloud_diagrams-0.2.4.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-16 19:00:08] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230516/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-16 19:00:08] INFO root fetch - processPackages [napari-chatgpt]: Downloading https://files.pythonhosted.org/packages/f7/12/78baa5fb7ceda0afd38478d86ba0d233b625d89920764d21f376c5552ee0/napari-chatgpt-2023.5.16.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/bb/89/7a79dfa443184d2422ab56cd9d89df9a1ca6b30f6bb8a6cafea6a4c0937b/deepset_cloud_sdk-0.0.8.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-configuration-provider]: Downloading https://files.pythonhosted.org/packages/6b/e8/a6c718ddda821b08b61472701d09341175df04b6997ae11a183a00df8ede/ovos-PHAL-plugin-configuration-provider-1.0.0a3.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-notification-widgets]: Downloading https://files.pythonhosted.org/packages/d6/5a/37e0bfd394dd50724b81d842c2f501e5e4c7b23c75507ebc46affd200b5c/ovos-PHAL-plugin-notification-widgets-1.0.1a1.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [fstd2nc-deps]: Downloading https://files.pythonhosted.org/packages/05/51/e87e2f1e792f76646ee568b2d3cc524a5cc9335c8192849eda135724e3b8/fstd2nc_deps-0.20200304.0.zip
+[2023-05-16 19:00:08] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/22/00/c04d46118800b0d90fc50831b664a9182976d786ad65561209c17cdefde2/fastdup-0.930-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-05-16 19:00:08] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75112194>=10485760
+[2023-05-16 19:00:08] INFO root fetch - processPackages [fastdup]: Start processing: oarepo-cli
+[2023-05-16 19:00:08] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-05-16 19:00:08] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/6e/29/7d0a3ccf3df0a569b44e02ad9c581b4801713135f86de482b02ddd769c32/multicloud_diagrams-0.2.5.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-dashboard]: Downloading https://files.pythonhosted.org/packages/66/93/bc7a122534aba00036c7299fecffa06ca7a769dbead7ec919ef2fb73d92c/ovos-PHAL-plugin-dashboard-0.0.2a3.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/33/fd/ab1e82f0b8ab4c7e6f30c92135a88a4dff8a164768c68401129a7678bb5b/deepset_cloud_sdk-0.0.9.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-16 19:00:08] INFO root fetch - processPackages [napari-chatgpt]: Downloading https://files.pythonhosted.org/packages/78/f0/2900f1ed22f3985b7eb9e78c2f299cbea233b73c55a5df583052b5af2400/napari-chatgpt-2023.5.2.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-dashboard]: executing diffoscope
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-dashboard-0.0.1.tar.gz tmp/ovos-PHAL-plugin-dashboard-0.0.2a3.tar.gz --markdown 20230516/o/ovos-PHAL-plugin-dashboard/0.0.1-0.0.2a3/diff.md --exclude *.pyd
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-notification-widgets]: Downloading https://files.pythonhosted.org/packages/b3/1c/40ec2bc7fda8e4029b9547825621308365f8674fb80e366974f299414905/ovos-PHAL-plugin-notification-widgets-1.0.1a2.tar.gz
+[2023-05-16 19:00:08] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2023-05-16 19:00:08] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.2.4.tar.gz tmp/multicloud_diagrams-0.2.5.tar.gz --markdown 20230516/m/multicloud-diagrams/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-16 19:00:08] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2023-05-16 19:00:08] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.0.8.tar.gz tmp/deepset_cloud_sdk-0.0.9.tar.gz --markdown 20230516/d/deepset-cloud-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 19:00:08] INFO root fetch - processPackages [napari-chatgpt]: executing diffoscope
+[2023-05-16 19:00:08] INFO root fetch - processPackages [napari-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-chatgpt-2023.5.16.tar.gz tmp/napari-chatgpt-2023.5.2.tar.gz --markdown 20230516/n/napari-chatgpt/2023.5.16-2023.5.2/diff.md --exclude *.pyd
+[2023-05-16 19:00:08] INFO root fetch - processPackages [ovos-PHAL-plugin-configuration-provider]: Downloading https://files.pythonhosted.org/packages/2a/9e/0cd7580cc357299681ec6a090996e9b607817904558f7d17d41e8f83da36/ovos-PHAL-plugin-configuration-provider-1.0.1a1.tar.gz
+[2023-05-16 19:00:09] INFO root fetch - processPackages [ovos-PHAL-plugin-notification-widgets]: executing diffoscope
+[2023-05-16 19:00:09] INFO root fetch - processPackages [ovos-PHAL-plugin-notification-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-notification-widgets-1.0.1a1.tar.gz tmp/ovos-PHAL-plugin-notification-widgets-1.0.1a2.tar.gz --markdown 20230516/o/ovos-PHAL-plugin-notification-widgets/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2023-05-16 19:00:09] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/13/5e/7c987605af62aec987c4ee817c32a1f1dccae97f53623d4caf4d18e3d9b2/oarepo-cli-11.0.7.tar.gz
+[2023-05-16 19:00:09] INFO root fetch - processPackages [fstd2nc-deps]: Downloading https://files.pythonhosted.org/packages/47/12/1b0676dabacc0a666bf41cb9f86f88cdebe4e9943565e009085b3179c327/fstd2nc_deps-0.20200304.2.zip
+[2023-05-16 19:00:09] INFO root fetch - processPackages [ovos-PHAL-plugin-configuration-provider]: executing diffoscope
+[2023-05-16 19:00:09] INFO root fetch - processPackages [ovos-PHAL-plugin-configuration-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-configuration-provider-1.0.0a3.tar.gz tmp/ovos-PHAL-plugin-configuration-provider-1.0.1a1.tar.gz --markdown 20230516/o/ovos-PHAL-plugin-configuration-provider/1.0.0a3-1.0.1a1/diff.md --exclude *.pyd
+[2023-05-16 19:00:09] INFO root fetch - processPackages [fstd2nc-deps]: executing diffoscope
+[2023-05-16 19:00:09] INFO root fetch - processPackages [fstd2nc-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fstd2nc_deps-0.20200304.0.zip tmp/fstd2nc_deps-0.20200304.2.zip --markdown 20230516/f/fstd2nc-deps/0.20200304.0-0.20200304.2/diff.md --exclude *.pyd
+[2023-05-16 19:00:09] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/e6/3e/4471d2f6de859114e7b33494f9ae4f6101321c300c602caaa133c3e170fc/oarepo-cli-11.0.8.tar.gz
+[2023-05-16 19:00:09] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-16 19:00:09] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230516/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-16 19:00:09] INFO root fetch - processPackages [reytool]: Start processing: causaltensor
+[2023-05-16 19:00:09] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-05-16 19:00:09] INFO root fetch - processPackages [causaltensor]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 19:00:09] INFO root fetch - processPackages [always-updates]: Start processing: ovos-PHAL-plugin-color-scheme-manager
+[2023-05-16 19:00:09] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-16 19:00:09] INFO root fetch - processPackages [ovos-PHAL-plugin-color-scheme-manager]: New version: [1.0.1a1] Old Version: [1.0.0a5]
+[2023-05-16 19:00:09] INFO root fetch - processPackages [causaltensor]: Downloading https://files.pythonhosted.org/packages/52/9f/505f62f52b295875209deda64b1409b1f6ee3a81e58ddd975ab899bf3bcd/causaltensor-0.1.4.tar.gz
+[2023-05-16 19:00:10] INFO root fetch - processPackages [ovos-PHAL-plugin-color-scheme-manager]: Downloading https://files.pythonhosted.org/packages/62/83/746ebc139315a77a75130b5dfa633720d8367b08a3e4e14706acca2eee84/ovos-PHAL-plugin-color-scheme-manager-1.0.0a5.tar.gz
+[2023-05-16 19:00:10] INFO root fetch - processPackages [causaltensor]: Downloading https://files.pythonhosted.org/packages/7a/81/062ca27c41b89514c4bdd535e502c8c7cafb37385131cb5e4aa909354c70/causaltensor-0.1.5.tar.gz
+[2023-05-16 19:00:10] INFO root fetch - processPackages [causaltensor]: executing diffoscope
+[2023-05-16 19:00:10] INFO root fetch - processPackages [causaltensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causaltensor-0.1.4.tar.gz tmp/causaltensor-0.1.5.tar.gz --markdown 20230516/c/causaltensor/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 19:00:10] INFO root fetch - processPackages [ovos-PHAL-plugin-color-scheme-manager]: Downloading https://files.pythonhosted.org/packages/34/dd/f57dba86992104d17819b9bd2dcce2a28dbef96c7431cab64fe407eebd3a/ovos-PHAL-plugin-color-scheme-manager-1.0.1a1.tar.gz
+[2023-05-16 19:00:10] INFO root fetch - processPackages [multicloud-diagrams]: Start processing: configzen
+[2023-05-16 19:00:10] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2023-05-16 19:00:10] INFO root fetch - processPackages [ovos-PHAL-plugin-dashboard]: Start processing: ovos-PHAL-plugin-brightness-control-rpi
+[2023-05-16 19:00:10] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-dashboard]: success
+[2023-05-16 19:00:10] INFO root fetch - processPackages [ovos-PHAL-plugin-color-scheme-manager]: executing diffoscope
+[2023-05-16 19:00:10] INFO root fetch - processPackages [ovos-PHAL-plugin-color-scheme-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-color-scheme-manager-1.0.0a5.tar.gz tmp/ovos-PHAL-plugin-color-scheme-manager-1.0.1a1.tar.gz --markdown 20230516/o/ovos-PHAL-plugin-color-scheme-manager/1.0.0a5-1.0.1a1/diff.md --exclude *.pyd
+[2023-05-16 19:00:10] INFO root fetch - processPackages [ovos-PHAL-plugin-notification-widgets]: Start processing: hrin-msb
+[2023-05-16 19:00:10] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-notification-widgets]: success
+[2023-05-16 19:00:10] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-16 19:00:10] INFO root fetch - processPackages [configzen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-16 19:00:10] INFO root fetch - processPackages [ovos-PHAL-plugin-brightness-control-rpi]: New version: [1.0.1a3] Old Version: [1.0.1a2]
+[2023-05-16 19:00:10] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-05-16 19:00:10] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230516/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 19:00:10] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2023-05-16 19:00:10] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-configuration-provider]: success
+[2023-05-16 19:00:10] INFO root fetch - processPackages [ovos-PHAL-plugin-brightness-control-rpi]: Downloading https://files.pythonhosted.org/packages/26/a2/be674bb40a37c8cbfaeb2263f9c7fcdf94895a34c48a58a7a80a1ee2db19/ovos-PHAL-plugin-brightness-control-rpi-1.0.1a2.tar.gz
+[2023-05-16 19:00:10] INFO root fetch - processPackages [configzen]: executing diffoscope
+[2023-05-16 19:00:10] INFO root fetch - processPackages [configzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configzen-0.1.8.tar.gz tmp/configzen-0.1.9.tar.gz --markdown 20230516/c/configzen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 19:00:11] INFO root fetch - processPackages [ovos-PHAL-plugin-brightness-control-rpi]: Downloading https://files.pythonhosted.org/packages/6a/08/14d7e812393d5e137575c3e88cabaa04db0751a652eaa79c394896766734/ovos-PHAL-plugin-brightness-control-rpi-1.0.1a3.tar.gz
+[2023-05-16 19:00:11] INFO root fetch - processPackages [ovos-PHAL-plugin-brightness-control-rpi]: executing diffoscope
+[2023-05-16 19:00:11] INFO root fetch - processPackages [ovos-PHAL-plugin-brightness-control-rpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-brightness-control-rpi-1.0.1a2.tar.gz tmp/ovos-PHAL-plugin-brightness-control-rpi-1.0.1a3.tar.gz --markdown 20230516/o/ovos-PHAL-plugin-brightness-control-rpi/1.0.1a2-1.0.1a3/diff.md --exclude *.pyd
+[2023-05-16 19:00:11] INFO root fetch - main [MainThread]: End processing [napari-chatgpt]: success
+[2023-05-16 19:00:11] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-16 19:00:11] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-color-scheme-manager]: success
+[2023-05-16 19:00:12] INFO root fetch - main [MainThread]: End processing [causaltensor]: success
+[2023-05-16 19:00:12] INFO root fetch - main [MainThread]: End processing [configzen]: success
+[2023-05-16 19:00:12] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-brightness-control-rpi]: success
+[2023-05-16 19:00:12] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-05-16 19:00:19] INFO root fetch - main [MainThread]: End processing [fstd2nc-deps]: success
+[2023-05-16 19:00:19] INFO root fetch - main [MainThread]: Store serial: [18126700]
