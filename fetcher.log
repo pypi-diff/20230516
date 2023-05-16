@@ -21317,3 +21317,123 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 18:03:58] INFO root fetch - main [MainThread]: End processing [krptn]: success
 [2023-05-16 18:04:18] INFO root fetch - main [MainThread]: End processing [vl-convert-python]: success
 [2023-05-16 18:04:18] INFO root fetch - main [MainThread]: Store serial: [18125966]
+[2023-05-16 18:09:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18125966]
+[2023-05-16 18:09:39] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leap-model-parser
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-git-version-plugin
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: speedtab
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arelle-release
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyxform
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sampo
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vonage
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autumn8
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: postmaniac
+[2023-05-16 18:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: notification-service-nightly
+[2023-05-16 18:09:39] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [1.0.0a1] Old Version: [1.0.0]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [pyxform]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [speedtab]: New version: [0.1.3.0] Old Version: [0.1.2.4]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [postmaniac]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [autumn8]: New version: [1.0.5rc8] Old Version: [1.0.5rc7]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.97] Old Version: [0.1.96]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [postmaniac]: executing diffoscope
+[2023-05-16 18:09:39] INFO root fetch - processPackages [postmaniac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postmaniac-0.9.0.tar.gz tmp/postmaniac-0.9.2.tar.gz --markdown 20230516/p/postmaniac/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 18:09:39] INFO root fetch - processPackages [vonage]: New version: [4.0.0b0] Old Version: [3.5.0]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/f2/36/a9df37101582f1dd9fd67921a72e66474bf8d7cae90d192eecbe7cc3e7ea/speedtab-0.1.2.4.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-16 18:09:39] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/ce/55/99a10ea9a283d4174929d30daa23358bb853992b8315205c2da35e247b35/poetry_git_version_plugin-1.0.0.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/fd/2d/8dde65d51fcd087cca31c3abf6b9cb075c8cf674fcc3d15fd33cadcdff42/vonage-3.5.0.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [pyxform]: Downloading https://files.pythonhosted.org/packages/9c/e8/82f3ac922976e4abdd142959dad6bc647395060c2a014d6d1269eabeecfa/pyxform-1.8.0.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/3a/4b/7d929745b9e94f63ee6582d46f0d18ff3318ec5deba457705944be6e7d7b/autumn8-1.0.5rc8.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-16 18:09:39] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.8.tar.gz tmp/notification_service_nightly-2023.5.9.tar.gz --markdown 20230516/n/notification-service-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-16 18:09:39] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/f9/f0/34f995429f472b4e08c89c86773ed10fb850bd4f41dc7fdaee20d311a92f/leap_model_parser-0.1.97.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-16 18:09:39] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.5rc7.tar.gz tmp/autumn8-1.0.5rc8.tar.gz --markdown 20230516/a/autumn8/1.0.5rc7-1.0.5rc8/diff.md --exclude *.pyd
+[2023-05-16 18:09:39] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/02/06/2fedd721e784e03e43e344cad61312b3e8d48768ed17dd2fedc56edc2a2a/speedtab-0.1.3.0.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-05-16 18:09:39] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.96.tar.gz tmp/leap_model_parser-0.1.97.tar.gz --markdown 20230516/l/leap-model-parser/0.1.96-0.1.97/diff.md --exclude *.pyd
+[2023-05-16 18:09:39] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/7f/9e/aef75cf7d805203ce7bf49640c2247b20f58b284755df842fb1131ffbcda/poetry_git_version_plugin-1.0.0a1.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2023-05-16 18:09:39] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.1.2.4.tar.gz tmp/speedtab-0.1.3.0.tar.gz --markdown 20230516/s/speedtab/0.1.2.4-0.1.3.0/diff.md --exclude *.pyd
+[2023-05-16 18:09:39] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/e3/22/fa900e3527c8d1e4ad704ea9199bf1b28aa7f230b383fe6b80d3e2fa6ffc/vonage-4.0.0b0.tar.gz
+[2023-05-16 18:09:39] INFO root fetch - processPackages [pyxform]: Downloading https://files.pythonhosted.org/packages/e6/4c/36a7479807d11d6ae987a1b75b3adda55406912e4258e4de1f56d4c66878/pyxform-1.9.0.tar.gz
+[2023-05-16 18:09:40] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-05-16 18:09:40] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-1.0.0.tar.gz tmp/poetry_git_version_plugin-1.0.0a1.tar.gz --markdown 20230516/p/poetry-git-version-plugin/1.0.0-1.0.0a1/diff.md --exclude *.pyd
+[2023-05-16 18:09:40] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-05-16 18:09:40] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230516/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-05-16 18:09:40] INFO root fetch - processPackages [pyxform]: executing diffoscope
+[2023-05-16 18:09:40] INFO root fetch - processPackages [pyxform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxform-1.8.0.tar.gz tmp/pyxform-1.9.0.tar.gz --markdown 20230516/p/pyxform/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-16 18:09:40] INFO root fetch - processPackages [vonage]: executing diffoscope
+[2023-05-16 18:09:40] INFO root fetch - processPackages [vonage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage-3.5.0.tar.gz tmp/vonage-4.0.0b0.tar.gz --markdown 20230516/v/vonage/3.5.0-4.0.0b0/diff.md --exclude *.pyd
+[2023-05-16 18:09:40] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2023-05-16 18:09:41] INFO root fetch - processPackages [notification-service-nightly]: Start processing: ai-flow-nightly
+[2023-05-16 18:09:41] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-16 18:09:41] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-16 18:09:41] INFO root fetch - processPackages [poetry-git-version-plugin]: Start processing: shipyard-airbyte
+[2023-05-16 18:09:41] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-05-16 18:09:41] INFO root fetch - processPackages [shipyard-airbyte]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-16 18:09:41] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-16 18:09:41] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.8.tar.gz tmp/ai_flow_nightly-2023.5.9.tar.gz --markdown 20230516/a/ai-flow-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-16 18:09:41] INFO root fetch - processPackages [speedtab]: Start processing: tg-botting
+[2023-05-16 18:09:41] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2023-05-16 18:09:41] INFO root fetch - processPackages [shipyard-airbyte]: executing diffoscope
+[2023-05-16 18:09:41] INFO root fetch - processPackages [shipyard-airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_airbyte-0.1.1.tar.gz tmp/shipyard_airbyte-0.1.3.tar.gz --markdown 20230516/s/shipyard-airbyte/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-16 18:09:41] INFO root fetch - processPackages [tg-botting]: New version: [1.6.2.3] Old Version: [1.6.2.2]
+[2023-05-16 18:09:41] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/4e/59/158e25c1f4783761287b2f0deea47cc6fbe7cd843250366d9ac544faca21/tg-botting-1.6.2.3.tar.gz
+[2023-05-16 18:09:41] INFO root fetch - processPackages [pyxform]: Start processing: guidance
+[2023-05-16 18:09:41] INFO root fetch - main [MainThread]: End processing [pyxform]: success
+[2023-05-16 18:09:41] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 18:09:41] INFO root fetch - processPackages [sampo]: Start processing: poetry-git-version-plugin
+[2023-05-16 18:09:41] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-05-16 18:09:41] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-05-16 18:09:41] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-1.6.2.2.tar.gz tmp/tg-botting-1.6.2.3.tar.gz --markdown 20230516/t/tg-botting/1.6.2.2-1.6.2.3/diff.md --exclude *.pyd
+[2023-05-16 18:09:42] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [1.0.1] Old Version: [1.0.0a1]
+[2023-05-16 18:09:42] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-16 18:09:42] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230516/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 18:09:42] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-05-16 18:09:42] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20230516/a/arelle-release/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-16 18:09:42] INFO root fetch - processPackages [postmaniac]: Start processing: momento-wire-types
+[2023-05-16 18:09:42] INFO root fetch - main [MainThread]: End processing [postmaniac]: success
+[2023-05-16 18:09:42] INFO root fetch - processPackages [autumn8]: Start processing: dtale
+[2023-05-16 18:09:42] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-16 18:09:42] INFO root fetch - processPackages [dtale]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-16 18:09:42] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/7e/c4/edb714cddfd5ea0bc38d679e65cff7c2b0065f04c131facdd9a49dd498b5/poetry_git_version_plugin-1.0.1.tar.gz
+[2023-05-16 18:09:42] INFO root fetch - processPackages [momento-wire-types]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-16 18:09:42] INFO root fetch - processPackages [dtale]: Downloading https://files.pythonhosted.org/packages/c1/c6/ab5d1138d237eee2688e08ff5f5599aa2d13fed583836410991c5ce855bd/dtale-2.9.0.tar.gz
+[2023-05-16 18:09:42] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-05-16 18:09:42] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-1.0.0a1.tar.gz tmp/poetry_git_version_plugin-1.0.1.tar.gz --markdown 20230516/p/poetry-git-version-plugin/1.0.0a1-1.0.1/diff.md --exclude *.pyd
+[2023-05-16 18:09:42] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/18/54/ccd65bdf20002ba25a699332474568819f75c3de8212c94571f4a0146af7/momento-wire-types-0.9.1.tar.gz
+[2023-05-16 18:09:42] WARNING root fetch - processPackages [dtale]: Skipping package: exceeds size limit 12406657>=10485760
+[2023-05-16 18:09:42] INFO root fetch - processPackages [dtale]: Start processing: Econ-Windows
+[2023-05-16 18:09:42] INFO root fetch - main [MainThread]: End processing [dtale] error
+[2023-05-16 18:09:42] INFO root fetch - processPackages [Econ-Windows]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 18:09:42] INFO root fetch - processPackages [shipyard-airbyte]: Start processing: cloudboss-cloudlib
+[2023-05-16 18:09:42] INFO root fetch - main [MainThread]: End processing [shipyard-airbyte]: success
+[2023-05-16 18:09:42] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/75/15/7d75acb737fa02bd4cb50ec1a419edf9095d3a1dae489937169934768b51/momento-wire-types-0.9.2.tar.gz
+[2023-05-16 18:09:42] WARNING root fetch - processPackages [cloudboss-cloudlib]: Skipping, unable to determine old version
+[2023-05-16 18:09:42] INFO root fetch - processPackages [cloudboss-cloudlib]: Start processing: pepperize.cdk-vpc
+[2023-05-16 18:09:42] INFO root fetch - main [MainThread]: End processing [cloudboss-cloudlib] error
+[2023-05-16 18:09:42] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 18:09:42] INFO root fetch - processPackages [Econ-Windows]: Downloading https://files.pythonhosted.org/packages/22/2c/816fdde13c1dc9e6ea4ad6f00a212276fb9b05ac9a7d53ffb74385b2a982/Econ_Windows-0.0.3.tar.gz
+[2023-05-16 18:09:42] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2023-05-16 18:09:42] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-wire-types-0.9.1.tar.gz tmp/momento-wire-types-0.9.2.tar.gz --markdown 20230516/m/momento-wire-types/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-16 18:09:42] INFO root fetch - main [MainThread]: End processing [vonage]: success
+[2023-05-16 18:09:42] INFO root fetch - processPackages [Econ-Windows]: executing diffoscope
+[2023-05-16 18:09:42] INFO root fetch - processPackages [Econ-Windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Econ_Windows-0.0.2.tar.gz tmp/Econ_Windows-0.0.3.tar.gz --markdown 20230516/E/Econ-Windows/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 18:09:43] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-16 18:09:43] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 18:09:43] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-16 18:09:43] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-05-16 18:09:43] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-05-16 18:09:43] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2023-05-16 18:09:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-16 18:09:44] INFO root fetch - main [MainThread]: End processing [Econ-Windows]: success
+[2023-05-16 18:09:46] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-16 18:09:53] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-05-16 18:09:58] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-05-16 18:09:58] INFO root fetch - main [MainThread]: Store serial: [18126052]
