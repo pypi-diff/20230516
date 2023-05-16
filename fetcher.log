@@ -10418,3 +10418,62 @@
 [2023-05-16 08:53:43] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2023-05-16 08:53:46] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2023-05-16 08:53:46] INFO root fetch - main [MainThread]: Store serial: [18119485]
+[2023-05-16 08:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119485]
+[2023-05-16 08:58:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opendatacrawler
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jnt-django-admin-tools
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-pypi-package-loler
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-openstack
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lambdaprompt
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oneai
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: e2enetworks
+[2023-05-16 08:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bagbag
+[2023-05-16 08:58:55] WARNING root fetch - processPackages [example-pypi-package-loler]: Skipping, unable to determine old version
+[2023-05-16 08:58:55] INFO root fetch - main [MainThread]: End processing [example-pypi-package-loler] error
+[2023-05-16 08:58:55] INFO root fetch - processPackages [jnt-django-admin-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [lambdaprompt]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230516065720] Old Version: [2.0.3.dev20230515191021]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [e2enetworks]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [cg]: New version: [30.2.4] Old Version: [30.2.3]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [jnt-django-admin-tools]: executing diffoscope
+[2023-05-16 08:58:55] INFO root fetch - processPackages [jnt-django-admin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt-django-admin-tools-0.9.8.tar.gz tmp/jnt-django-admin-tools-0.9.9.tar.gz --markdown 20230516/j/jnt-django-admin-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 08:58:55] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 08:58:55] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2023-05-16 08:58:55] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/96/ab/9911ef8bac5fa6d32091b6fdae039b118d6bc7ab6fd92c712e9eeeaceb3b/localstack-core-2.0.3.dev20230516065720.tar.gz
+[2023-05-16 08:58:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/59/50/af3f787349a909bd05343d7a2e1cf2b1fc90abb6db2293fe5027945cb50d/cg-30.2.3.tar.gz
+[2023-05-16 08:58:55] INFO root fetch - processPackages [lambdaprompt]: Downloading https://files.pythonhosted.org/packages/be/16/8fa5fa98a6a41ddf9c8097ed6f30558c0f4da948e4729a3ca1eaaab858e5/lambdaprompt-0.5.3.tar.gz
+[2023-05-16 08:58:55] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-05-16 08:58:55] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.8.tar.gz tmp/opendatacrawler-1.0.9.tar.gz --markdown 20230516/o/opendatacrawler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 08:58:55] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/0d/5c/b4fc61d336d495a291c1f0284fb36cf9fe7b243b3ee6b6a4a8fa74450a67/e2enetworks-0.0.5.tar.gz
+[2023-05-16 08:58:55] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/28/de/70b70b16bf233f9cff93f1225089ad13609bb49101785bfcd03ea372f37f/bagbag-0.59.8.tar.gz
+[2023-05-16 08:58:56] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-05-16 08:58:56] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.8.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230516/o/oneai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 08:58:56] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2023-05-16 08:58:56] INFO root fetch - processPackages [lambdaprompt]: executing diffoscope
+[2023-05-16 08:58:56] INFO root fetch - processPackages [lambdaprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdaprompt-0.5.2.tar.gz tmp/lambdaprompt-0.5.3.tar.gz --markdown 20230516/l/lambdaprompt/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-16 08:58:56] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-16 08:58:56] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230516/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-16 08:58:56] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2023-05-16 08:58:56] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-0.0.4.tar.gz tmp/e2enetworks-0.0.5.tar.gz --markdown 20230516/e/e2enetworks/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 08:58:56] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/77/fe/0467296cd458699bde249b75a60b8b1df3a8b7727e6b8438b529483a5b1d/cg-30.2.4.tar.gz
+[2023-05-16 08:58:56] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2023-05-16 08:58:56] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20230516/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/diff.md --exclude *.pyd
+[2023-05-16 08:58:56] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-16 08:58:56] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.2.3.tar.gz tmp/cg-30.2.4.tar.gz --markdown 20230516/c/cg/30.2.3-30.2.4/diff.md --exclude *.pyd
+[2023-05-16 08:58:56] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-16 08:58:56] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230515191021.tar.gz tmp/localstack-core-2.0.3.dev20230516065720.tar.gz --markdown 20230516/l/localstack-core/2.0.3.dev20230515191021-2.0.3.dev20230516065720/diff.md --exclude *.pyd
+[2023-05-16 08:58:57] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-05-16 08:58:57] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2023-05-16 08:58:57] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-05-16 08:58:57] INFO root fetch - main [MainThread]: End processing [lambdaprompt]: success
+[2023-05-16 08:58:59] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-16 08:58:59] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
+[2023-05-16 08:59:01] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2023-05-16 08:59:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-16 08:59:06] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-16 08:59:06] INFO root fetch - main [MainThread]: Store serial: [18119521]
