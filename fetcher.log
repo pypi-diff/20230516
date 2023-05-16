@@ -1454,3 +1454,81 @@
 [2023-05-16 02:03:50] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
 [2023-05-16 02:03:51] INFO root fetch - main [MainThread]: End processing [ramanchada2]: success
 [2023-05-16 02:03:51] INFO root fetch - main [MainThread]: Store serial: [18114687]
+[2023-05-16 02:08:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18114687]
+[2023-05-16 02:09:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esphome
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecidacli
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acapy-patched-old
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: humanloop
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxutils-nightly
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchlayers-nightly
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-deckgl
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SportStatIQ-DataCollectors
+[2023-05-16 02:09:00] INFO root fetch - processPackages [esphome]: New version: [2023.5.0b4] Old Version: [2023.5.0b3]
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ecidacli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 02:09:00] WARNING root fetch - processPackages [acapy-patched-old]: Skipping, unable to determine old version
+[2023-05-16 02:09:00] INFO root fetch - processPackages [acapy-patched-old]: Start processing: tccli
+[2023-05-16 02:09:00] INFO root fetch - main [MainThread]: End processing [acapy-patched-old] error
+[2023-05-16 02:09:00] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-16 02:09:00] WARNING root fetch - processPackages [SportStatIQ-DataCollectors]: Skipping, unable to determine old version
+[2023-05-16 02:09:00] INFO root fetch - processPackages [humanloop]: New version: [0.4.0a4] Old Version: [0.3.3]
+[2023-05-16 02:09:00] INFO root fetch - processPackages [SportStatIQ-DataCollectors]: Start processing: vesselapi
+[2023-05-16 02:09:00] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-05-16 02:09:00] INFO root fetch - processPackages [streamlit-deckgl]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-16 02:09:00] INFO root fetch - main [MainThread]: End processing [SportStatIQ-DataCollectors] error
+[2023-05-16 02:09:00] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230515] Old Version: [0.0.8.dev20230514]
+[2023-05-16 02:09:00] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-16 02:09:00] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1684109252] Old Version: [1684022842]
+[2023-05-16 02:09:00] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230516/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.2.2]
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ecidacli]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [ecidacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecidacli-0.0.8.tar.gz tmp/ecidacli-0.0.9.tar.gz --markdown 20230516/e/ecidacli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230516/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/5e/7e/a43c224f4aa2b048197a34e353f8787bcc875ee85ae7fbeb4dd5a713d5f5/esphome-2023.5.0b4.tar.gz
+[2023-05-16 02:09:00] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230516/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/a6/6d/aeced653f6072b9828d7e7e0d0e60a6495d71d8ccbbd7f3c27900e8f774b/streamlit-deckgl-0.2.1.tar.gz
+[2023-05-16 02:09:00] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/d2/782c536b7cc40e38e64524abe29c357789a8233228c30154e5e2325e336f/humanloop-0.3.3-py3-none-any.whl
+[2023-05-16 02:09:00] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.5.0b3.tar.gz tmp/esphome-2023.5.0b4.tar.gz --markdown 20230516/e/esphome/2023.5.0b3-2023.5.0b4/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/02/a8/fbbcd4ad623a43f19dccfec40d431432b119a2f0b3e2939740162feda0d1/jaxutils-nightly-0.0.8.dev20230515.tar.gz
+[2023-05-16 02:09:00] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/a6/2f/3e38048f42e00e47f8535d2dede8fb35ec95abf9a10d8b7a3d153a3b8cc2/vesselapi-3.2.2.tar.gz
+[2023-05-16 02:09:00] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/fe/ca/ac529892d1c7adbae6f8c74bc76789054bcfe5b70fde73bde0b6b6140892/torchlayers-nightly-1684109252.tar.gz
+[2023-05-16 02:09:00] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1684022842.tar.gz tmp/torchlayers-nightly-1684109252.tar.gz --markdown 20230516/t/torchlayers-nightly/1684022842-1684109252/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/75/5b/6df87138ed024f46849c1e0ae0c6e40336ec23923d914f4bf76431ac062f/humanloop-0.4.0a4.tar.gz
+[2023-05-16 02:09:00] INFO root fetch - processPackages [streamlit-deckgl]: Downloading https://files.pythonhosted.org/packages/7d/e2/cfc68e52bd4777bdca7746b5019af5efe49d37ad22de99927ef323e331ac/streamlit-deckgl-0.3.0.tar.gz
+[2023-05-16 02:09:00] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230514.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230515.tar.gz --markdown 20230516/j/jaxutils-nightly/0.0.8.dev20230514-0.0.8.dev20230515/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.3.3-py3-none-any.whl.zip tmp/humanloop-0.4.0a4.tar.gz --markdown 20230516/h/humanloop/0.3.3-0.4.0a4/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-05-16 02:09:00] INFO root fetch - processPackages [streamlit-deckgl]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [streamlit-deckgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-deckgl-0.2.1.tar.gz tmp/streamlit-deckgl-0.3.0.tar.gz --markdown 20230516/s/streamlit-deckgl/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-16 02:09:00] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-05-16 02:09:00] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.2.2.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230516/v/vesselapi/3.2.2-3.5.2/diff.md --exclude *.pyd
+[2023-05-16 02:09:01] INFO root fetch - processPackages [ecidacli]: Start processing: cdk8s-redis
+[2023-05-16 02:09:01] INFO root fetch - main [MainThread]: End processing [ecidacli]: success
+[2023-05-16 02:09:01] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-16 02:09:01] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: ethraid
+[2023-05-16 02:09:01] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-16 02:09:02] INFO root fetch - processPackages [ethraid]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-16 02:09:02] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-05-16 02:09:02] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230516/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-16 02:09:02] INFO root fetch - processPackages [ethraid]: executing diffoscope
+[2023-05-16 02:09:02] INFO root fetch - processPackages [ethraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethraid-2.1.0.tar.gz tmp/ethraid-2.2.0.tar.gz --markdown 20230516/e/ethraid/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-16 02:09:02] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-16 02:09:02] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-05-16 02:09:02] INFO root fetch - main [MainThread]: End processing [streamlit-deckgl]: success
+[2023-05-16 02:09:02] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-05-16 02:09:03] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-05-16 02:09:03] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-05-16 02:09:05] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-05-16 02:09:11] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-16 02:09:13] INFO root fetch - main [MainThread]: End processing [ethraid]: success
+[2023-05-16 02:09:50] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-05-16 02:09:50] INFO root fetch - main [MainThread]: Store serial: [18114728]
