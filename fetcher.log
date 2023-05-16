@@ -7059,3 +7059,75 @@
 [2023-05-16 04:49:13] INFO root fetch - main [MainThread]: End processing [isoCycle]: success
 [2023-05-16 04:49:13] INFO root fetch - main [MainThread]: End processing [arcangelai]: success
 [2023-05-16 04:49:13] INFO root fetch - main [MainThread]: Store serial: [18117562]
+[2023-05-16 04:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18117562]
+[2023-05-16 04:54:23] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyunossdebug
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-fiscal-month
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isoCycle
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmsofttest
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wi1-bot
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vule-magics
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyRVCTest-1.7.0
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Alpha-Rabbit
+[2023-05-16 04:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: roboidai
+[2023-05-16 04:54:23] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-05-16 04:54:24] INFO root fetch - processPackages [gmsofttest]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 04:54:24] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 04:54:24] WARNING root fetch - processPackages [aliyunossdebug]: Skipping, unable to determine old version
+[2023-05-16 04:54:24] INFO root fetch - processPackages [aliyunossdebug]: Start processing: edman
+[2023-05-16 04:54:24] INFO root fetch - processPackages [isoCycle]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-16 04:54:24] INFO root fetch - main [MainThread]: End processing [aliyunossdebug] error
+[2023-05-16 04:54:24] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-16 04:54:24] INFO root fetch - processPackages [edman]: New version: [2023.5.8] Old Version: [2023.5.16]
+[2023-05-16 04:54:24] INFO root fetch - processPackages [wi1-bot]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-16 04:54:24] INFO root fetch - processPackages [vule-magics]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-16 04:54:24] INFO root fetch - processPackages [roboidai]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-16 04:54:24] WARNING root fetch - processPackages [PyRVCTest-1.7.0]: Skipping, unable to determine old version
+[2023-05-16 04:54:24] INFO root fetch - processPackages [PyRVCTest-1.7.0]: Start processing: pyattck
+[2023-05-16 04:54:24] INFO root fetch - main [MainThread]: End processing [PyRVCTest-1.7.0] error
+[2023-05-16 04:54:24] INFO root fetch - processPackages [edman]: executing diffoscope
+[2023-05-16 04:54:24] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2023.5.16.tar.gz tmp/edman-2023.5.8.tar.gz --markdown 20230516/e/edman/2023.5.16-2023.5.8/diff.md --exclude *.pyd
+[2023-05-16 04:54:24] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/56/c4/3959c3da1b2ec0aa8854daa72f74c5489ac3c0a94729f14402642f4d66f0/isoCycle-0.0.4.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: Downloading https://files.pythonhosted.org/packages/6f/b8/75744f79d14b75c7d465d801496af99fc216b63882d290a01e8184b4e542/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.8.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/a0/8e/53b75cd9040ec3e63913d486755018e85ac98fff5caf0b4bb3ca7f7bde48/gmsofttest-0.0.3.tar.gz
+[2023-05-16 04:54:24] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17393216>=10485760
+[2023-05-16 04:54:24] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-16 04:54:24] INFO root fetch - processPackages [pyattck]: New version: [7.1.2] Old Version: [7.1.1]
+[2023-05-16 04:54:24] INFO root fetch - processPackages [vule-magics]: Downloading https://files.pythonhosted.org/packages/27/d7/e4e8cd0c178934161ae8d888d467a663043728b3f945157b0f36e6557331/vule_magics-1.0.0.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [roboidai]: Downloading https://files.pythonhosted.org/packages/9d/a1/6738ee84c440dc9c519704066b65fc5dc138a77fe794236f2c06acf19594/roboidai-1.1.8.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-16 04:54:24] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230516/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-16 04:54:24] INFO root fetch - processPackages [wi1-bot]: Downloading https://files.pythonhosted.org/packages/4a/c9/c3ef7ddd5d20ff91fcdf9b42739734b6faec7f7b08f6e9149ab29ff56a76/wi1-bot-1.3.3.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: Downloading https://files.pythonhosted.org/packages/64/4d/26b33557179c90f1329e07743fdc2f035eb75ecdfeb5773ad745bbb798a2/odoo_addon_account_fiscal_month-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-16 04:54:24] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: executing diffoscope
+[2023-05-16 04:54:24] INFO root fetch - processPackages [odoo-addon-account-fiscal-month]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_fiscal_month-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_fiscal_month-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-account-fiscal-month/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-16 04:54:24] INFO root fetch - processPackages [pyattck]: Downloading https://files.pythonhosted.org/packages/5d/2a/b7d4132478693c9582af9d5abd9d1a2aa791200ba63a0351aeefc0d161d5/pyattck-7.1.1.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/41/c9/acaf04e02bebc50a7132d4de4b93435ac7cc8119cec832bfce109f247990/gmsofttest-0.0.4.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: Downloading https://files.pythonhosted.org/packages/fa/b8/2f794b1c80d3abf7f5a0926c195bf0af9bfe713832bad805fa77f1c40f80/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.9.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [gmsofttest]: executing diffoscope
+[2023-05-16 04:54:24] INFO root fetch - processPackages [gmsofttest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsofttest-0.0.3.tar.gz tmp/gmsofttest-0.0.4.tar.gz --markdown 20230516/g/gmsofttest/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-16 04:54:24] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: executing diffoscope
+[2023-05-16 04:54:24] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.8.tar.gz tmp/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.9.tar.gz --markdown 20230516/a/antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 04:54:24] INFO root fetch - processPackages [vule-magics]: Downloading https://files.pythonhosted.org/packages/18/39/f14fdbc5a9c795d767a59eb059baec42c1224234c49bed4162abaae5cda5/vule_magics-1.1.0.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [wi1-bot]: Downloading https://files.pythonhosted.org/packages/fd/14/d12534400702893a69a64a3f438ea7c83e103f108d82e1701d4e822ba5a2/wi1-bot-1.3.4.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [pyattck]: Downloading https://files.pythonhosted.org/packages/40/ed/f99679ce9c7608c24cb5651310185ea2a8bd554e5abd7122239de83f4d7a/pyattck-7.1.2.tar.gz
+[2023-05-16 04:54:24] INFO root fetch - processPackages [vule-magics]: executing diffoscope
+[2023-05-16 04:54:24] INFO root fetch - processPackages [vule-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vule_magics-1.0.0.tar.gz tmp/vule_magics-1.1.0.tar.gz --markdown 20230516/v/vule-magics/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-16 04:54:24] INFO root fetch - processPackages [wi1-bot]: executing diffoscope
+[2023-05-16 04:54:24] INFO root fetch - processPackages [wi1-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wi1-bot-1.3.3.tar.gz tmp/wi1-bot-1.3.4.tar.gz --markdown 20230516/w/wi1-bot/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-16 04:54:24] INFO root fetch - processPackages [pyattck]: executing diffoscope
+[2023-05-16 04:54:24] INFO root fetch - processPackages [pyattck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyattck-7.1.1.tar.gz tmp/pyattck-7.1.2.tar.gz --markdown 20230516/p/pyattck/7.1.1-7.1.2/diff.md --exclude *.pyd
+[2023-05-16 04:54:25] INFO root fetch - main [MainThread]: End processing [gmsofttest]: success
+[2023-05-16 04:54:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-fiscal-month]: success
+[2023-05-16 04:54:25] INFO root fetch - main [MainThread]: End processing [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: success
+[2023-05-16 04:54:26] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-16 04:54:26] INFO root fetch - main [MainThread]: End processing [wi1-bot]: success
+[2023-05-16 04:54:26] INFO root fetch - main [MainThread]: End processing [vule-magics]: success
+[2023-05-16 04:54:26] INFO root fetch - main [MainThread]: End processing [pyattck]: success
+[2023-05-16 04:54:27] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2023-05-16 04:54:27] INFO root fetch - processPackages [roboidai]: Downloading https://files.pythonhosted.org/packages/d9/ee/3d57721fd64c58bf2b032d4d4804c3dace0e83b3f70c7062b9aec8d160f1/roboidai-1.1.9.tar.gz
+[2023-05-16 04:54:27] INFO root fetch - processPackages [roboidai]: executing diffoscope
+[2023-05-16 04:54:27] INFO root fetch - processPackages [roboidai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboidai-1.1.8.tar.gz tmp/roboidai-1.1.9.tar.gz --markdown 20230516/r/roboidai/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-16 04:54:29] INFO root fetch - main [MainThread]: End processing [roboidai]: success
+[2023-05-16 04:54:29] INFO root fetch - main [MainThread]: Store serial: [18117599]
