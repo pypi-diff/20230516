@@ -8558,3 +8558,55 @@
 [2023-05-16 06:46:17] INFO root fetch - main [MainThread]: End processing [pip-RCE]: success
 [2023-05-16 06:46:18] INFO root fetch - main [MainThread]: End processing [drill-bits]: success
 [2023-05-16 06:46:18] INFO root fetch - main [MainThread]: Store serial: [18118415]
+[2023-05-16 06:51:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118415]
+[2023-05-16 06:51:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-16 06:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drill-bits
+[2023-05-16 06:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowclient
+[2023-05-16 06:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowmachine
+[2023-05-16 06:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmtune
+[2023-05-16 06:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowetl
+[2023-05-16 06:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbpoolpy
+[2023-05-16 06:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: landingai
+[2023-05-16 06:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: params-aws
+[2023-05-16 06:51:27] INFO root fetch - processPackages [params-aws]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 06:51:27] INFO root fetch - processPackages [drill-bits]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-16 06:51:27] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-16 06:51:27] INFO root fetch - processPackages [dbpoolpy]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-16 06:51:27] WARNING root fetch - processPackages [llmtune]: Skipping, unable to determine old version
+[2023-05-16 06:51:27] INFO root fetch - main [MainThread]: End processing [llmtune] error
+[2023-05-16 06:51:27] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-16 06:51:27] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-16 06:51:27] INFO root fetch - processPackages [params-aws]: Downloading https://files.pythonhosted.org/packages/30/8b/b2808914b6764d275cacf386e792a09a1368d961dc3320fa31841b5ca1a2/params_aws-0.1.0.tar.gz
+[2023-05-16 06:51:27] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-16 06:51:27] INFO root fetch - processPackages [dbpoolpy]: Downloading https://files.pythonhosted.org/packages/fa/83/349112595b1eeae9d13893a9c14c7cfa295f4cb4ff341dc8227acff9f2c6/dbpoolpy-0.6.5.tar.gz
+[2023-05-16 06:51:27] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2023-05-16 06:51:27] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2023-05-16 06:51:27] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-05-16 06:51:27] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2023-05-16 06:51:27] INFO root fetch - processPackages [drill-bits]: executing diffoscope
+[2023-05-16 06:51:27] INFO root fetch - processPackages [drill-bits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drill_bits-0.0.4.tar.gz tmp/drill_bits-0.0.5.tar.gz --markdown 20230516/d/drill-bits/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-16 06:51:27] INFO root fetch - processPackages [params-aws]: Downloading https://files.pythonhosted.org/packages/47/60/6546b265378e31248ec15de08482a6cd5bc7b46dbdccb8d3ac75b317be6e/params_aws-0.1.1.tar.gz
+[2023-05-16 06:51:27] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-05-16 06:51:27] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230516/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-16 06:51:28] INFO root fetch - processPackages [dbpoolpy]: Downloading https://files.pythonhosted.org/packages/64/48/dc523d93c2623ca00a88f7ea4cd22f633ed5144d5755f448c3f47ca1f6eb/dbpoolpy-0.6.6.tar.gz
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2023-05-16 06:51:28] INFO root fetch - processPackages [params-aws]: executing diffoscope
+[2023-05-16 06:51:28] INFO root fetch - processPackages [params-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/params_aws-0.1.0.tar.gz tmp/params_aws-0.1.1.tar.gz --markdown 20230516/p/params-aws/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 06:51:28] INFO root fetch - processPackages [dbpoolpy]: executing diffoscope
+[2023-05-16 06:51:28] INFO root fetch - processPackages [dbpoolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbpoolpy-0.6.5.tar.gz tmp/dbpoolpy-0.6.6.tar.gz --markdown 20230516/d/dbpoolpy/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230516/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230516/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-16 06:51:28] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230516/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-16 06:51:29] INFO root fetch - main [MainThread]: End processing [drill-bits]: success
+[2023-05-16 06:51:29] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-05-16 06:51:29] INFO root fetch - main [MainThread]: End processing [params-aws]: success
+[2023-05-16 06:51:29] INFO root fetch - main [MainThread]: End processing [dbpoolpy]: success
+[2023-05-16 06:51:29] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-16 06:51:29] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-16 06:51:31] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-16 06:51:31] INFO root fetch - main [MainThread]: Store serial: [18118437]
