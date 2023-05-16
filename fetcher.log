@@ -16149,3 +16149,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 14:02:16] INFO root fetch - main [MainThread]: End processing [swibots]: success
 [2023-05-16 14:02:17] INFO root fetch - main [MainThread]: End processing [scrapere]: success
 [2023-05-16 14:02:17] INFO root fetch - main [MainThread]: Store serial: [18122901]
+[2023-05-16 14:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18122901]
+[2023-05-16 14:07:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-agents-nightly
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyes-images
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eyes-playwright
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eyes-selenium
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: better-slack-logger
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: berserk
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickdraw
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MindsDB
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiosow
+[2023-05-16 14:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lezargus
+[2023-05-16 14:07:26] INFO root fetch - processPackages [MindsDB]: New version: [23.5.3.1] Old Version: [23.4.4.4]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [eyes-playwright]: New version: [5.18.1] Old Version: [5.18.0]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [berserk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [lezargus]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [quickdraw]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [eyes-images]: New version: [5.18.1] Old Version: [5.18.0]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [aiosow]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [better-slack-logger]: New version: [0.12.0] Old Version: [0.11.0.post1]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [eyes-selenium]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-16 14:07:26] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2023-05-16 14:07:26] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-23.4.4.4.tar.gz tmp/MindsDB-23.5.3.1.tar.gz --markdown 20230516/M/MindsDB/23.4.4.4-23.5.3.1/diff.md --exclude *.pyd
+[2023-05-16 14:07:26] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/8e/ec/4211ef96b4e1879c3ee955f0e01c703bff6cea080966258e082fbd6a24ba/eyes_playwright-5.18.0-py3-none-any.whl
+[2023-05-16 14:07:26] INFO root fetch - processPackages [quickdraw]: Downloading https://files.pythonhosted.org/packages/c3/79/65230d1fe1348b8ae9c71fd632aa8bbff8ed68347640165a8e50fff5b25a/quickdraw-0.2.0.tar.gz
+[2023-05-16 14:07:26] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/a7/d3/3f1b227b9d32c1818266a158f2ad5cadfa4a94860d61d2bff013ef31c220/eyes_images-5.18.0-py2.py3-none-any.whl
+[2023-05-16 14:07:26] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/ce/26/457d40e82171dcfe45eda1b142a903be4aeb73e0295cf4cfb05aa6987ce4/eyes_selenium-5.8.0.tar.gz
+[2023-05-16 14:07:26] INFO root fetch - processPackages [lezargus]: Downloading https://files.pythonhosted.org/packages/12/77/a9968bb0dd94f7533087e6e0de4e1b3d0a0fe3ea6fccc1a2ba0f61d1e4ac/lezargus-0.0.1.dev3.tar.gz
+[2023-05-16 14:07:26] INFO root fetch - processPackages [better-slack-logger]: Downloading https://files.pythonhosted.org/packages/c9/3f/b6b3bc79dcc45fadb85ca91626a4475691e892668abeaf40ac37f8014700/better-slack-logger-0.11.0.post1.tar.gz
+[2023-05-16 14:07:26] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-16 14:07:26] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230516/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-16 14:07:26] INFO root fetch - processPackages [aiosow]: Downloading https://files.pythonhosted.org/packages/29/48/f8611dd7ac82ea5c3d4fa449e482f161458bdfd1d56d5e8dd0bd915dea98/aiosow-0.1.6.tar.gz
+[2023-05-16 14:07:27] INFO root fetch - processPackages [berserk]: executing diffoscope
+[2023-05-16 14:07:27] INFO root fetch - processPackages [berserk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berserk-0.8.0.tar.gz tmp/berserk-0.9.0.tar.gz --markdown 20230516/b/berserk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/a6/e6/409aec79713d1c25ae5762039c7e6427b2318c631ce7af4b08ccf2aaecdb/eyes_playwright-5.18.1-py3-none-any.whl
+[2023-05-16 14:07:27] INFO root fetch - processPackages [aiosow]: executing diffoscope
+[2023-05-16 14:07:27] INFO root fetch - processPackages [aiosow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosow-0.1.5.tar.gz tmp/aiosow-0.1.6.tar.gz --markdown 20230516/a/aiosow/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-16 14:07:27] INFO root fetch - processPackages [better-slack-logger]: Downloading https://files.pythonhosted.org/packages/a4/e5/2eb4cfe9d4fa7200da837d8b16ad607081263ef9cb5aa915398801d65807/better_slack_logger-0.12.0.tar.gz
+[2023-05-16 14:07:27] INFO root fetch - processPackages [quickdraw]: Downloading https://files.pythonhosted.org/packages/b1/cc/ffd940f41b870ba0ae1af559bc2b99c6930f796f25d32dcef28615f79c9e/quickdraw-1.0.0.tar.gz
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-playwright]: executing diffoscope
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_playwright-5.18.0-py3-none-any.whl.zip tmp/eyes_playwright-5.18.1-py3-none-any.whl.zip --markdown 20230516/e/eyes-playwright/5.18.0-5.18.1/diff.md --exclude *.pyd
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/8f/e1/117cd9ad8a6a3d588ef40f8d9b626c4625795471c599db0bd179c3f2c089/eyes_images-5.18.1-py2.py3-none-any.whl
+[2023-05-16 14:07:27] INFO root fetch - processPackages [better-slack-logger]: executing diffoscope
+[2023-05-16 14:07:27] INFO root fetch - processPackages [better-slack-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better-slack-logger-0.11.0.post1.tar.gz tmp/better_slack_logger-0.12.0.tar.gz --markdown 20230516/b/better-slack-logger/0.11.0.post1-0.12.0/diff.md --exclude *.pyd
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/94/46/bdd8b2f661c4edefb5da178809217d15b736cfd984b3eca1afe213575308/eyes_selenium-5.9.0-py2.py3-none-any.whl
+[2023-05-16 14:07:27] INFO root fetch - processPackages [quickdraw]: executing diffoscope
+[2023-05-16 14:07:27] INFO root fetch - processPackages [quickdraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickdraw-0.2.0.tar.gz tmp/quickdraw-1.0.0.tar.gz --markdown 20230516/q/quickdraw/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-selenium]: executing diffoscope
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_selenium-5.8.0.tar.gz tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip --markdown 20230516/e/eyes-selenium/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-images]: executing diffoscope
+[2023-05-16 14:07:27] INFO root fetch - processPackages [eyes-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_images-5.18.0-py2.py3-none-any.whl.zip tmp/eyes_images-5.18.1-py2.py3-none-any.whl.zip --markdown 20230516/e/eyes-images/5.18.0-5.18.1/diff.md --exclude *.pyd
+[2023-05-16 14:07:28] INFO root fetch - processPackages [lezargus]: Downloading https://files.pythonhosted.org/packages/fa/c6/a21a3725d7370fe0f44bd090848da2e6f34c48d1d94a2aa41a94e442e45e/lezargus-0.0.1.dev4.tar.gz
+[2023-05-16 14:07:28] INFO root fetch - processPackages [eyes-playwright]: Start processing: rpi-ws281x
+[2023-05-16 14:07:28] INFO root fetch - main [MainThread]: End processing [eyes-playwright]: success
+[2023-05-16 14:07:28] INFO root fetch - processPackages [rpi-ws281x]: New version: [5.0.0] Old Version: [4.3.4]
+[2023-05-16 14:07:28] INFO root fetch - processPackages [lezargus]: executing diffoscope
+[2023-05-16 14:07:28] INFO root fetch - processPackages [lezargus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lezargus-0.0.1.dev3.tar.gz tmp/lezargus-0.0.1.dev4.tar.gz --markdown 20230516/l/lezargus/0.0.1.dev3-0.0.1.dev4/diff.md --exclude *.pyd
+[2023-05-16 14:07:28] INFO root fetch - processPackages [better-slack-logger]: Start processing: ecida
+[2023-05-16 14:07:28] INFO root fetch - main [MainThread]: End processing [better-slack-logger]: success
+[2023-05-16 14:07:28] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 14:07:28] INFO root fetch - processPackages [eyes-selenium]: Start processing: micro-trainer-transformers
+[2023-05-16 14:07:28] INFO root fetch - main [MainThread]: End processing [eyes-selenium]: success
+[2023-05-16 14:07:28] INFO root fetch - processPackages [berserk]: Start processing: recon-lw
+[2023-05-16 14:07:28] INFO root fetch - main [MainThread]: End processing [berserk]: success
+[2023-05-16 14:07:28] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4990931200] Old Version: [2.0.0.dev4989950411]
+[2023-05-16 14:07:28] INFO root fetch - processPackages [rpi-ws281x]: Downloading https://files.pythonhosted.org/packages/e2/d4/75fcc4f3412b9b16e39e6cd6156f2e171fe7b2e79057be17d1acf38fded4/rpi_ws281x-4.3.4.tar.gz
+[2023-05-16 14:07:28] INFO root fetch - processPackages [quickdraw]: Start processing: spyctl
+[2023-05-16 14:07:28] INFO root fetch - main [MainThread]: End processing [quickdraw]: success
+[2023-05-16 14:07:28] INFO root fetch - processPackages [micro-trainer-transformers]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-16 14:07:28] INFO root fetch - processPackages [spyctl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-16 14:07:28] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-16 14:07:28] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20230516/e/ecida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 14:07:28] INFO root fetch - processPackages [aiosow]: Start processing: sfft
+[2023-05-16 14:07:28] INFO root fetch - main [MainThread]: End processing [aiosow]: success
+[2023-05-16 14:07:29] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/a5/da/94f56c62966371faec369a47b63ab749b4c3ee5059bac4505d932d92927b/recon_lw-2.0.0.dev4990931200.tar.gz
+[2023-05-16 14:07:29] INFO root fetch - processPackages [micro-trainer-transformers]: Downloading https://files.pythonhosted.org/packages/6e/77/b07f7a9df885d68879c076a353d3d1d4b651648ae0b7408bf054ef6be45c/micro_trainer_transformers-0.0.1.tar.gz
+[2023-05-16 14:07:29] INFO root fetch - processPackages [rpi-ws281x]: Downloading https://files.pythonhosted.org/packages/c0/1e/642208a685c5e96d38323f42c75d9b24f95e2d1b8390dd104e04a712f29e/rpi_ws281x-5.0.0.tar.gz
+[2023-05-16 14:07:29] INFO root fetch - processPackages [sfft]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-05-16 14:07:29] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-16 14:07:29] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4989950411.tar.gz tmp/recon_lw-2.0.0.dev4990931200.tar.gz --markdown 20230516/r/recon-lw/2.0.0.dev4989950411-2.0.0.dev4990931200/diff.md --exclude *.pyd
+[2023-05-16 14:07:29] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/bb/4b/a59fb5994f1c8eeea8d7334ba6443b1b0932e7a4e48893d9354fc8d3f345/spyctl-0.9.8.tar.gz
+[2023-05-16 14:07:29] INFO root fetch - processPackages [rpi-ws281x]: executing diffoscope
+[2023-05-16 14:07:29] INFO root fetch - processPackages [rpi-ws281x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpi_ws281x-4.3.4.tar.gz tmp/rpi_ws281x-5.0.0.tar.gz --markdown 20230516/r/rpi-ws281x/4.3.4-5.0.0/diff.md --exclude *.pyd
+[2023-05-16 14:07:29] INFO root fetch - processPackages [micro-trainer-transformers]: Downloading https://files.pythonhosted.org/packages/59/91/7e6e132632bbadac1ca51b974d115dc3b03a15a4f8bb097be743d556f589/micro_trainer_transformers-0.0.2.tar.gz
+[2023-05-16 14:07:29] INFO root fetch - processPackages [sfft]: Downloading https://files.pythonhosted.org/packages/8a/c4/1d71287dab19554f7dd7da69987bf7eed5e4021214ffe207628bf72ff3f7/sfft-1.3.4.tar.gz
+[2023-05-16 14:07:29] INFO root fetch - processPackages [eyes-images]: Start processing: flask-httpx-request-converted-to-flask-test-client-request
+[2023-05-16 14:07:29] INFO root fetch - main [MainThread]: End processing [eyes-images]: success
+[2023-05-16 14:07:29] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/17/e2/55d6dccc2305d8b76d800790e1d7ff47b693a16756f7104d6b2119af9332/spyctl-0.9.9.tar.gz
+[2023-05-16 14:07:29] INFO root fetch - processPackages [micro-trainer-transformers]: executing diffoscope
+[2023-05-16 14:07:29] INFO root fetch - processPackages [micro-trainer-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micro_trainer_transformers-0.0.1.tar.gz tmp/micro_trainer_transformers-0.0.2.tar.gz --markdown 20230516/m/micro-trainer-transformers/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-16 14:07:29] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-16 14:07:29] INFO root fetch - processPackages [spyctl]: executing diffoscope
+[2023-05-16 14:07:29] INFO root fetch - processPackages [spyctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyctl-0.9.8.tar.gz tmp/spyctl-0.9.9.tar.gz --markdown 20230516/s/spyctl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-16 14:07:29] INFO root fetch - processPackages [sfft]: Downloading https://files.pythonhosted.org/packages/a3/4d/67de3091c2a4559c1688194f085c3b5bebeb1c052051b5a6eda3d2b2a48b/sfft-1.4.0.tar.gz
+[2023-05-16 14:07:29] INFO root fetch - processPackages [sfft]: executing diffoscope
+[2023-05-16 14:07:29] INFO root fetch - processPackages [sfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfft-1.3.4.tar.gz tmp/sfft-1.4.0.tar.gz --markdown 20230516/s/sfft/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-05-16 14:07:29] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: Downloading https://files.pythonhosted.org/packages/c9/90/b36861c47ac05c938c34f0dfc80be0f6f019c73df7c6e3eca467e1940f65/flask-httpx-request-converted-to-flask-test-client-request-0.1.4.tar.gz
+[2023-05-16 14:07:30] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: executing diffoscope
+[2023-05-16 14:07:30] INFO root fetch - processPackages [flask-httpx-request-converted-to-flask-test-client-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-httpx-request-converted-to-flask-test-client-request-0.1.2.tar.gz tmp/flask-httpx-request-converted-to-flask-test-client-request-0.1.4.tar.gz --markdown 20230516/f/flask-httpx-request-converted-to-flask-test-client-request/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-16 14:07:30] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-16 14:07:30] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-16 14:07:31] INFO root fetch - main [MainThread]: End processing [micro-trainer-transformers]: success
+[2023-05-16 14:07:31] INFO root fetch - main [MainThread]: End processing [flask-httpx-request-converted-to-flask-test-client-request]: success
+[2023-05-16 14:07:31] INFO root fetch - main [MainThread]: End processing [sfft]: success
+[2023-05-16 14:07:31] INFO root fetch - main [MainThread]: End processing [rpi-ws281x]: success
+[2023-05-16 14:07:32] INFO root fetch - main [MainThread]: End processing [spyctl]: success
+[2023-05-16 14:07:33] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-16 14:07:36] INFO root fetch - main [MainThread]: End processing [lezargus]: success
+[2023-05-16 14:07:38] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2023-05-16 14:07:38] INFO root fetch - main [MainThread]: Store serial: [18122945]
