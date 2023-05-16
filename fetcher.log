@@ -10752,3 +10752,140 @@
 [2023-05-16 09:20:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-16 09:20:41] INFO root fetch - main [MainThread]: End processing [SMUTHI]: success
 [2023-05-16 09:20:41] INFO root fetch - main [MainThread]: Store serial: [18119650]
+[2023-05-16 09:25:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18119650]
+[2023-05-16 09:25:51] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendatacrawler
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: annofabapi-3dpc-extensions
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: collective.easyform
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gcoreutils
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyscan-rs
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yang-vlp
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bingwallpaperpy
+[2023-05-16 09:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rsutil
+[2023-05-16 09:25:51] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 09:25:51] WARNING root fetch - processPackages [gcoreutils]: Skipping, unable to determine old version
+[2023-05-16 09:25:51] INFO root fetch - processPackages [gcoreutils]: Start processing: pydae
+[2023-05-16 09:25:51] INFO root fetch - processPackages [rsutil]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-16 09:25:51] INFO root fetch - main [MainThread]: End processing [gcoreutils] error
+[2023-05-16 09:25:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-16 09:25:51] WARNING root fetch - processPackages [pyscan-rs]: Skipping, unable to determine old version
+[2023-05-16 09:25:51] INFO root fetch - processPackages [annofabapi-3dpc-extensions]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-16 09:25:51] INFO root fetch - processPackages [pyscan-rs]: Start processing: k1lib
+[2023-05-16 09:25:51] INFO root fetch - main [MainThread]: End processing [pyscan-rs] error
+[2023-05-16 09:25:51] INFO root fetch - processPackages [rsutil]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [bingwallpaperpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-16 09:25:51] INFO root fetch - processPackages [rsutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsutil-0.1.0.tar.gz tmp/rsutil-0.2.0-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230516/r/rsutil/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-16 09:25:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [yang-vlp]: New version: [0.2.19] Old Version: [0.2.18]
+[2023-05-16 09:25:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230516/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-16 09:25:51] INFO root fetch - processPackages [collective.easyform]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-05-16 09:25:51] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-16 09:25:51] INFO root fetch - processPackages [k1lib]: New version: [1.3.8.1] Old Version: [1.3.8]
+[2023-05-16 09:25:51] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.82]
+[2023-05-16 09:25:51] INFO root fetch - processPackages [annofabapi-3dpc-extensions]: Downloading https://files.pythonhosted.org/packages/fd/c6/ce35693ad8816d7d10e144cbc558c0f47db71aac65e9eb5e0e7c8742e658/annofabapi-3dpc-extensions-0.2.0.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.8.tar.gz tmp/opendatacrawler-1.0.9.tar.gz --markdown 20230516/o/opendatacrawler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 09:25:51] INFO root fetch - processPackages [bingwallpaperpy]: Downloading https://files.pythonhosted.org/packages/2c/b4/ba1827805a1870a77c4583c3f1a45c16e0192c1c2ead7c1058d07bc1792b/bingwallpaperpy-0.1.4.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/9d/45/5680412623dd341820912ad8f4fd2938378be464a113f06d2cb500a2226d/akshare-1.9.82.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [yang-vlp]: Downloading https://files.pythonhosted.org/packages/57/16/87a81eb6613333eb25dca5631e2964c8cb055c7e9a03083eb62512bf7c75/yang-vlp-0.2.18.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [collective.easyform]: Downloading https://files.pythonhosted.org/packages/25/69/3d3206d7a37bd48c52725ea53e2f5bb64d10da9d7983e7d0076446e622c6/collective.easyform-4.1.2.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/cd/cc/b7a39b078d896c1e73c6aef2787fae2dac7060aedd84e28ea34db14a1fbc/k1lib-1.3.8.1-py3-none-any.whl
+[2023-05-16 09:25:51] INFO root fetch - processPackages [annofabapi-3dpc-extensions]: Downloading https://files.pythonhosted.org/packages/76/e2/5df3c6ccd1497b0fd29c2f1d8377c5cfd4d73b769a5e40ecac41e2ff111c/annofabapi_3dpc_extensions-0.2.1.tar.gz
+[2023-05-16 09:25:51] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-05-16 09:25:51] INFO root fetch - processPackages [pydae]: Start processing: streamlit-wordcloud-v2
+[2023-05-16 09:25:51] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-05-16 09:25:51] INFO root fetch - processPackages [bingwallpaperpy]: Downloading https://files.pythonhosted.org/packages/10/3e/313bbe03a5c3f831b5b889a00a362977b8d34d988c8cd5eabcbaa8cd9227/bingwallpaperpy-0.1.5.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [yang-vlp]: Downloading https://files.pythonhosted.org/packages/36/f5/883c2e18067bfc2e6f0ac8dd8a619f315f612275fdb5f82ca36d5e1b7246/yang-vlp-0.2.19.tar.gz
+[2023-05-16 09:25:51] WARNING root fetch - processPackages [streamlit-wordcloud-v2]: Skipping, unable to determine old version
+[2023-05-16 09:25:51] INFO root fetch - processPackages [streamlit-wordcloud-v2]: Start processing: geomulticorr
+[2023-05-16 09:25:51] INFO root fetch - main [MainThread]: End processing [streamlit-wordcloud-v2] error
+[2023-05-16 09:25:51] INFO root fetch - processPackages [annofabapi-3dpc-extensions]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [annofabapi-3dpc-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabapi-3dpc-extensions-0.2.0.tar.gz tmp/annofabapi_3dpc_extensions-0.2.1.tar.gz --markdown 20230516/a/annofabapi-3dpc-extensions/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-16 09:25:51] INFO root fetch - processPackages [geomulticorr]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-16 09:25:51] INFO root fetch - processPackages [bingwallpaperpy]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [bingwallpaperpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingwallpaperpy-0.1.4.tar.gz tmp/bingwallpaperpy-0.1.5.tar.gz --markdown 20230516/b/bingwallpaperpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-16 09:25:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/27/53/8689df1a9a49e3b8ac2951c57f49b57e27de41c067ec4709bdc8dbfebab1/akshare-1.9.9.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [yang-vlp]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [yang-vlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yang-vlp-0.2.18.tar.gz tmp/yang-vlp-0.2.19.tar.gz --markdown 20230516/y/yang-vlp/0.2.18-0.2.19/diff.md --exclude *.pyd
+[2023-05-16 09:25:51] INFO root fetch - processPackages [collective.easyform]: Downloading https://files.pythonhosted.org/packages/69/be/5d80480e7e8dcf3a7656d5c4f65aa34e9cd851794307fbb60d8edacfc3eb/collective.easyform-4.1.3.tar.gz
+[2023-05-16 09:25:51] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.82.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230516/a/akshare/1.9.82-1.9.9/diff.md --exclude *.pyd
+[2023-05-16 09:25:51] INFO root fetch - processPackages [geomulticorr]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [geomulticorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomulticorr-0.1.7.tar.gz tmp/geomulticorr-0.1.8.tar.gz --markdown 20230516/g/geomulticorr/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-16 09:25:51] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-16 09:25:51] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.8-py3-none-any.whl.zip tmp/k1lib-1.3.8.1-py3-none-any.whl.zip --markdown 20230516/k/k1lib/1.3.8-1.3.8.1/diff.md --exclude *.pyd
+[2023-05-16 09:25:52] INFO root fetch - processPackages [collective.easyform]: executing diffoscope
+[2023-05-16 09:25:52] INFO root fetch - processPackages [collective.easyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.easyform-4.1.2.tar.gz tmp/collective.easyform-4.1.3.tar.gz --markdown 20230516/c/collective.easyform/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-05-16 09:25:52] INFO root fetch - processPackages [rsutil]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-16 09:25:52] INFO root fetch - main [MainThread]: End processing [rsutil]: success
+[2023-05-16 09:25:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-16 09:25:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-16 09:25:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 09:25:53] INFO root fetch - processPackages [annofabapi-3dpc-extensions]: Start processing: chargebee
+[2023-05-16 09:25:53] INFO root fetch - main [MainThread]: End processing [annofabapi-3dpc-extensions]: success
+[2023-05-16 09:25:53] INFO root fetch - processPackages [bingwallpaperpy]: Start processing: autohooks-plugin-flake8
+[2023-05-16 09:25:53] INFO root fetch - main [MainThread]: End processing [bingwallpaperpy]: success
+[2023-05-16 09:25:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: pypipr
+[2023-05-16 09:25:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-16 09:25:53] INFO root fetch - processPackages [chargebee]: New version: [2.9.0] Old Version: [2.8.4]
+[2023-05-16 09:25:53] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.86]
+[2023-05-16 09:25:53] INFO root fetch - processPackages [autohooks-plugin-flake8]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-16 09:25:53] INFO root fetch - processPackages [opendatacrawler]: Start processing: odoo-addon-project-stock
+[2023-05-16 09:25:53] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-05-16 09:25:53] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/99/7c/ebaaca7d47a6de9353d082ff9eaca8d63b76e53a5ca5bf3f9c279642102c/chargebee-2.8.4.tar.gz
+[2023-05-16 09:25:53] INFO root fetch - processPackages [yang-vlp]: Start processing: odoo-addon-project-purchase-analytic-global
+[2023-05-16 09:25:53] INFO root fetch - main [MainThread]: End processing [yang-vlp]: success
+[2023-05-16 09:25:53] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/55/c9/aa2dd47c4627d1a8bd8a77f0d4023f86ad09cfeae7c64195168f576d51fd/pypipr-0.1.86.tar.gz
+[2023-05-16 09:25:53] INFO root fetch - processPackages [odoo-addon-project-stock]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-05-16 09:25:53] INFO root fetch - processPackages [odoo-addon-project-purchase-analytic-global]: New version: [15.0.1.0.1.2] Old Version: [15.0.1.0.1]
+[2023-05-16 09:25:53] INFO root fetch - processPackages [autohooks-plugin-flake8]: Downloading https://files.pythonhosted.org/packages/a0/41/83296fa2d9b908ee36d66781da4f615367bc4577f85dc58d18fbdc38f6c2/autohooks_plugin_flake8-23.4.0.tar.gz
+[2023-05-16 09:25:53] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-16 09:25:53] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.86.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230516/p/pypipr/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2023-05-16 09:25:53] INFO root fetch - processPackages [odoo-addon-project-purchase-analytic-global]: Downloading https://files.pythonhosted.org/packages/f9/90/ae751f7b5ba0031aac9de0f604c17565e406149ae8538eb85cdcdb8cc54d/odoo_addon_project_purchase_analytic_global-15.0.1.0.1-py3-none-any.whl
+[2023-05-16 09:25:53] INFO root fetch - processPackages [chargebee]: Downloading https://files.pythonhosted.org/packages/a6/9e/648a4d782f53ea14a4b6101e7cad249e6b53b97ada5f89bf1020b45db99f/chargebee-2.9.0.tar.gz
+[2023-05-16 09:25:53] INFO root fetch - processPackages [autohooks-plugin-flake8]: Downloading https://files.pythonhosted.org/packages/d4/3f/d2be20996cf7378921c0a91ac56215b277e43ade6d78ff6ff207978f5450/autohooks_plugin_flake8-23.5.0.tar.gz
+[2023-05-16 09:25:53] INFO root fetch - processPackages [autohooks-plugin-flake8]: executing diffoscope
+[2023-05-16 09:25:53] INFO root fetch - processPackages [autohooks-plugin-flake8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohooks_plugin_flake8-23.4.0.tar.gz tmp/autohooks_plugin_flake8-23.5.0.tar.gz --markdown 20230516/a/autohooks-plugin-flake8/23.4.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-16 09:25:53] INFO root fetch - processPackages [chargebee]: executing diffoscope
+[2023-05-16 09:25:53] INFO root fetch - processPackages [chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargebee-2.8.4.tar.gz tmp/chargebee-2.9.0.tar.gz --markdown 20230516/c/chargebee/2.8.4-2.9.0/diff.md --exclude *.pyd
+[2023-05-16 09:25:53] INFO root fetch - processPackages [odoo-addon-project-stock]: executing diffoscope
+[2023-05-16 09:25:53] INFO root fetch - processPackages [odoo-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-project-stock/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-16 09:25:53] INFO root fetch - processPackages [odoo-addon-project-purchase-analytic-global]: Downloading https://files.pythonhosted.org/packages/f6/c2/9bab2cd77f17da95f165d648ec0648de1c047288a9378f4973a6804e8885/odoo_addon_project_purchase_analytic_global-15.0.1.0.1.2-py3-none-any.whl
+[2023-05-16 09:25:54] INFO root fetch - processPackages [odoo-addon-project-purchase-analytic-global]: executing diffoscope
+[2023-05-16 09:25:54] INFO root fetch - processPackages [odoo-addon-project-purchase-analytic-global]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_purchase_analytic_global-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_project_purchase_analytic_global-15.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-project-purchase-analytic-global/15.0.1.0.1-15.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-05-16 09:25:54] INFO root fetch - processPackages [k1lib]: Start processing: mercury-toolkit
+[2023-05-16 09:25:54] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-16 09:25:54] INFO root fetch - processPackages [mercury-toolkit]: New version: [0.9.84.8] Old Version: [0.9.84.7]
+[2023-05-16 09:25:54] INFO root fetch - processPackages [mercury-toolkit]: executing diffoscope
+[2023-05-16 09:25:54] INFO root fetch - processPackages [mercury-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury_toolkit-0.9.84.7-py3-none-any.whl.zip tmp/mercury_toolkit-0.9.84.8-py3-none-any.whl.zip --markdown 20230516/m/mercury-toolkit/0.9.84.7-0.9.84.8/diff.md --exclude *.pyd
+[2023-05-16 09:25:54] INFO root fetch - processPackages [pypipr]: Start processing: odoo-addons-oca-project
+[2023-05-16 09:25:54] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-16 09:25:54] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230510.0] Old Version: [16.0.20230314.0]
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230314.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230510.0-py3-none-any.whl.zip --markdown 20230516/o/odoo-addons-oca-project/16.0.20230314.0-16.0.20230510.0/diff.md --exclude *.pyd
+[2023-05-16 09:25:55] INFO root fetch - processPackages [autohooks-plugin-flake8]: Start processing: odoo-addon-project-stock
+[2023-05-16 09:25:55] INFO root fetch - main [MainThread]: End processing [autohooks-plugin-flake8]: success
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addon-project-stock]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addon-project-stock]: Start processing: odoo-addon-project-parent-task-filter
+[2023-05-16 09:25:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addon-project-stock]: executing diffoscope
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-project-stock/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-05-16 09:25:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: Downloading https://files.pythonhosted.org/packages/75/c9/a97c91d1339b47a315d78d789c3f3884daf2fa2ef0b31793b375104c3390/odoo_addon_project_parent_task_filter-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-16 09:25:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-purchase-analytic-global]: success
+[2023-05-16 09:25:55] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: Downloading https://files.pythonhosted.org/packages/05/83/c1de5ecc6fc20378b5badedf067a3bb9e70cf994fabc581da8c98439c745/odoo_addon_project_parent_task_filter-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-16 09:25:56] INFO root fetch - main [MainThread]: End processing [geomulticorr]: success
+[2023-05-16 09:25:56] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: executing diffoscope
+[2023-05-16 09:25:56] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_parent_task_filter-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_parent_task_filter-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230516/o/odoo-addon-project-parent-task-filter/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-16 09:25:56] INFO root fetch - main [MainThread]: End processing [mercury-toolkit]: success
+[2023-05-16 09:25:56] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-05-16 09:25:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
+[2023-05-16 09:25:57] INFO root fetch - main [MainThread]: End processing [chargebee]: success
+[2023-05-16 09:25:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-parent-task-filter]: success
+[2023-05-16 09:25:57] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-16 09:26:35] INFO root fetch - main [MainThread]: End processing [collective.easyform]: success
+[2023-05-16 09:26:35] INFO root fetch - main [MainThread]: Store serial: [18119720]
