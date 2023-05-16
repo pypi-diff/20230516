@@ -9283,3 +9283,74 @@
 [2023-05-16 07:55:33] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
 [2023-05-16 07:55:34] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2023-05-16 07:55:34] INFO root fetch - main [MainThread]: Store serial: [18118835]
+[2023-05-16 08:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18118835]
+[2023-05-16 08:00:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-dnsimple
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-computenestsupplier
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k1lib
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kkpyutil
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-databricks
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-kafka
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-review
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bagbag
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4
+[2023-05-16 08:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: palp
+[2023-05-16 08:00:43] WARNING root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: Skipping, unable to determine old version
+[2023-05-16 08:00:43] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: Start processing: docpie
+[2023-05-16 08:00:43] INFO root fetch - main [MainThread]: End processing [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4] error
+[2023-05-16 08:00:43] INFO root fetch - processPackages [gpt-review]: New version: [0.9.1rc773.post1] Old Version: [0.9.1rc762.post1]
+[2023-05-16 08:00:43] INFO root fetch - processPackages [k1lib]: New version: [1.3.8] Old Version: [1.3.7.9]
+[2023-05-16 08:00:43] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1683784467] Old Version: [3.5.0a1683612894]
+[2023-05-16 08:00:44] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1684214792] Old Version: [3.5.0a1683783626]
+[2023-05-16 08:00:44] INFO root fetch - processPackages [bagbag]: New version: [0.59.7] Old Version: [0.59.6]
+[2023-05-16 08:00:44] INFO root fetch - processPackages [docpie]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-16 08:00:44] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-05-16 08:00:44] INFO root fetch - processPackages [palp]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 08:00:44] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.7.9-py3-none-any.whl.zip tmp/k1lib-1.3.8-py3-none-any.whl.zip --markdown 20230516/k/k1lib/1.3.7.9-1.3.8/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.1rc762.post1.tar.gz tmp/gpt_review-0.9.1rc773.post1.tar.gz --markdown 20230516/g/gpt-review/0.9.1rc762.post1-0.9.1rc773.post1/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/8f/63/4d81af23bd2a37c1bef919089cd0b48ed8762e46db340317523dca88fd88/pulumi_kafka-3.5.0a1683612894.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/65/f6/ef19ab3cab9151f97db1d06ffa3c9ddaa8c2e1f0b01c923ce80a8d1fc0c2/pulumi_dnsimple-3.5.0a1683783626.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: Downloading https://files.pythonhosted.org/packages/de/af/7857c4733d990eb8d5f8126ae8313ce535c3a22d7ac17813c91504f87323/aliyun-python-sdk-computenestsupplier-1.0.2.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [docpie]: Downloading https://files.pythonhosted.org/packages/20/38/40f23d564112ca6def818c94b17c6b623a0e89caa6f720235ff11d2b5686/docpie-0.4.3.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9d/32/b5bf8475495c8da5329b02d44b18d8acde2605bbbd6a347ca314223ff637/bagbag-0.59.6.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [palp]: Downloading https://files.pythonhosted.org/packages/1f/0e/44fbd321a93e5ab6d4a4ffe39aad4f441f45ce6244d15ae4564a8ec683d3/palp-0.0.98.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/90/23/3c5a6b96fd4b25b7f616800db4a16adcb3f4591ffa4acec3ada4cc5979a7/pulumi_dnsimple-3.5.0a1684214792.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/f2/fa/cd89fdd21bf60aab1d94c3f265d1822cc63243fbd93cb7e2bf9857ce686d/bagbag-0.59.7.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: Downloading https://files.pythonhosted.org/packages/17/a6/ce5bd2eb6f496087b619e1d837a39f1b393f6f5c5e7b1e43dc23cbd3f5e2/aliyun-python-sdk-computenestsupplier-1.0.3.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [docpie]: Downloading https://files.pythonhosted.org/packages/83/42/9b0b88affd76778b2dd88a15d930c8d84e45e20fe843c5305ec5b35bc443/docpie-0.4.4.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1683783626.tar.gz tmp/pulumi_dnsimple-3.5.0a1684214792.tar.gz --markdown 20230516/p/pulumi-dnsimple/3.5.0a1683783626-3.5.0a1684214792/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-computenestsupplier-1.0.2.tar.gz tmp/aliyun-python-sdk-computenestsupplier-1.0.3.tar.gz --markdown 20230516/a/aliyun-python-sdk-computenestsupplier/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230516/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.6.tar.gz tmp/bagbag-0.59.7.tar.gz --markdown 20230516/b/bagbag/0.59.6-0.59.7/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230516/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1683612894.tar.gz tmp/pulumi_kafka-3.5.0a1683784467.tar.gz --markdown 20230516/p/pulumi-kafka/3.5.0a1683612894-3.5.0a1683784467/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [palp]: Downloading https://files.pythonhosted.org/packages/90/7d/189f6fc2049c1cb7a0fed0c0aa80bf2361876fcca1d5cfe5d82cfb2d5c9c/palp-0.0.99.tar.gz
+[2023-05-16 08:00:44] INFO root fetch - processPackages [docpie]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [docpie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docpie-0.4.3.tar.gz tmp/docpie-0.4.4.tar.gz --markdown 20230516/d/docpie/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-16 08:00:44] INFO root fetch - processPackages [palp]: executing diffoscope
+[2023-05-16 08:00:44] INFO root fetch - processPackages [palp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palp-0.0.98.tar.gz tmp/palp-0.0.99.tar.gz --markdown 20230516/p/palp/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 08:00:45] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-16 08:00:46] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2023-05-16 08:00:46] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-16 08:00:46] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-05-16 08:00:46] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-05-16 08:00:46] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-computenestsupplier]: success
+[2023-05-16 08:00:46] INFO root fetch - main [MainThread]: End processing [palp]: success
+[2023-05-16 08:00:48] INFO root fetch - main [MainThread]: End processing [docpie]: success
+[2023-05-16 08:00:48] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-16 08:00:51] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-05-16 08:00:51] INFO root fetch - main [MainThread]: Store serial: [18118880]
