@@ -17314,3 +17314,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 15:08:40] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.nmr]: success
 [2023-05-16 15:08:44] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-05-16 15:08:44] INFO root fetch - main [MainThread]: Store serial: [18123623]
+[2023-05-16 15:13:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18123623]
+[2023-05-16 15:13:58] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remotemanager
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-preview
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-numpy
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchninja
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rframe
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grocropclient
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybritive
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-antti-learned-lemma-passing-cvl2
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pandas
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ewah
+[2023-05-16 15:13:58] INFO root fetch - processPackages [remotemanager]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-16 15:13:58] WARNING root fetch - processPackages [certora-cli-alpha-antti-learned-lemma-passing-cvl2]: Skipping, unable to determine old version
+[2023-05-16 15:13:58] INFO root fetch - processPackages [certora-cli-alpha-antti-learned-lemma-passing-cvl2]: Start processing: hoppr-security-commons
+[2023-05-16 15:13:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-learned-lemma-passing-cvl2] error
+[2023-05-16 15:13:58] INFO root fetch - processPackages [torchninja]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-05-16 15:13:58] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.5.8.tar.gz tmp/remotemanager-0.5.9.tar.gz --markdown 20230516/r/remotemanager/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-16 15:13:58] INFO root fetch - processPackages [grocropclient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [rframe]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [pybritive]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ewah]: New version: [0.8.9] Old Version: [0.8.83]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:13:58] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2023-05-16 15:13:58] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.8.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20230516/h/hoppr-security-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 15:13:58] INFO root fetch - processPackages [torchninja]: Downloading https://files.pythonhosted.org/packages/17/89/9259a54302b80471c0aecca6b1a1885277fa1098ec59f48cf8f6e3209fb4/torchninja-0.1.2.tar.gz
+[2023-05-16 15:13:58] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-16 15:13:58] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230516/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:13:58] INFO root fetch - processPackages [pybritive]: Downloading https://files.pythonhosted.org/packages/28/ec/66f4b3187a5d2b655645baed2408f1b3559c7db28a7386ffdd655c41cf2a/pybritive-1.4.0rc2.tar.gz
+[2023-05-16 15:13:58] INFO root fetch - processPackages [ewah]: Downloading https://files.pythonhosted.org/packages/28/66/e95f1b5ed4b3cc6e43fcecb874d59217f790027fe70dc7b6a640583a09e8/ewah-0.8.83.tar.gz
+[2023-05-16 15:13:58] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-05-16 15:13:58] INFO root fetch - processPackages [grocropclient]: Downloading https://files.pythonhosted.org/packages/c6/66/bcb7465d4c97b660f2e3859058fae878e9e3f22653366998580f8a59428b/grocropclient-1.0.8.tar.gz
+[2023-05-16 15:13:59] INFO root fetch - processPackages [rframe]: Downloading https://files.pythonhosted.org/packages/98/1f/38af59f58070b5c5de33307f7ecf3016d0a02f5ab3722ae0a7d6b788da94/rframe-0.2.8.tar.gz
+[2023-05-16 15:13:59] INFO root fetch - processPackages [torchninja]: executing diffoscope
+[2023-05-16 15:13:59] INFO root fetch - processPackages [torchninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchninja-0.1.1.tar.gz tmp/torchninja-0.1.2.tar.gz --markdown 20230516/t/torchninja/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-16 15:13:59] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-16 15:13:59] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230516/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:13:59] INFO root fetch - processPackages [pybritive]: Downloading https://files.pythonhosted.org/packages/0d/90/9b38220be2f0c7468baaf5702b34ae32ac3b5a42a16bb0925dfb9cdc4f74/pybritive-1.4.0rc3.tar.gz
+[2023-05-16 15:13:59] INFO root fetch - processPackages [rframe]: Downloading https://files.pythonhosted.org/packages/d5/91/10550acc2d5408b47858fa5f5e925b351b0429be2e00178b2a1e61fffa84/rframe-0.2.9.tar.gz
+[2023-05-16 15:13:59] INFO root fetch - processPackages [grocropclient]: Downloading https://files.pythonhosted.org/packages/f2/1a/bebf2afbb74ca453ef7aa9c824969b2e1c5ed80134f0f48c6cfdd09aa52e/grocropclient-1.0.9.tar.gz
+[2023-05-16 15:13:59] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-05-16 15:13:59] INFO root fetch - processPackages [ewah]: Downloading https://files.pythonhosted.org/packages/d0/88/16c75881fe6562c22e0840c01ed24d61bf84884f3fdb38c92e4ee3d41176/ewah-0.8.9.tar.gz
+[2023-05-16 15:13:59] INFO root fetch - processPackages [pybritive]: executing diffoscope
+[2023-05-16 15:13:59] INFO root fetch - processPackages [pybritive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybritive-1.4.0rc2.tar.gz tmp/pybritive-1.4.0rc3.tar.gz --markdown 20230516/p/pybritive/1.4.0rc2-1.4.0rc3/diff.md --exclude *.pyd
+[2023-05-16 15:13:59] INFO root fetch - processPackages [grocropclient]: executing diffoscope
+[2023-05-16 15:13:59] INFO root fetch - processPackages [grocropclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grocropclient-1.0.8.tar.gz tmp/grocropclient-1.0.9.tar.gz --markdown 20230516/g/grocropclient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 15:13:59] INFO root fetch - processPackages [rframe]: executing diffoscope
+[2023-05-16 15:13:59] INFO root fetch - processPackages [rframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rframe-0.2.8.tar.gz tmp/rframe-0.2.9.tar.gz --markdown 20230516/r/rframe/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-16 15:13:59] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-05-16 15:13:59] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230516/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-16 15:13:59] INFO root fetch - processPackages [ewah]: executing diffoscope
+[2023-05-16 15:13:59] INFO root fetch - processPackages [ewah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewah-0.8.83.tar.gz tmp/ewah-0.8.9.tar.gz --markdown 20230516/e/ewah/0.8.83-0.8.9/diff.md --exclude *.pyd
+[2023-05-16 15:14:00] INFO root fetch - processPackages [hoppr-security-commons]: Start processing: certora-cli-alpha-antti-symbol-counter
+[2023-05-16 15:14:00] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2023-05-16 15:14:00] WARNING root fetch - processPackages [certora-cli-alpha-antti-symbol-counter]: Skipping, unable to determine old version
+[2023-05-16 15:14:00] INFO root fetch - processPackages [certora-cli-alpha-antti-symbol-counter]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-16 15:14:00] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-symbol-counter] error
+[2023-05-16 15:14:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:14:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-16 15:14:00] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230516/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:14:00] INFO root fetch - processPackages [torchninja]: Start processing: nbdev-pytorch
+[2023-05-16 15:14:00] INFO root fetch - main [MainThread]: End processing [torchninja]: success
+[2023-05-16 15:14:00] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:14:00] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-16 15:14:00] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230516/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:14:00] INFO root fetch - processPackages [nbdev-numpy]: Start processing: nbdev-scipy
+[2023-05-16 15:14:00] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-16 15:14:00] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-16 15:14:00] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-16 15:14:00] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230516/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-16 15:14:00] INFO root fetch - processPackages [remotemanager]: Start processing: django-utilitas
+[2023-05-16 15:14:00] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-05-16 15:14:01] INFO root fetch - processPackages [django-utilitas]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-16 15:14:01] INFO root fetch - processPackages [nbdev-pandas]: Start processing: bool-to-int8-ray
+[2023-05-16 15:14:01] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-16 15:14:01] INFO root fetch - processPackages [rframe]: Start processing: coinglass-api
+[2023-05-16 15:14:01] INFO root fetch - main [MainThread]: End processing [rframe]: success
+[2023-05-16 15:14:01] INFO root fetch - processPackages [bool-to-int8-ray]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-16 15:14:01] INFO root fetch - processPackages [coinglass-api]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-16 15:14:01] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/9a/b9/f73466a6af42a11f7c33460cedd681e412d1dc32337a281b4a466791a3a4/django-utilitas-1.3.5.tar.gz
+[2023-05-16 15:14:01] INFO root fetch - processPackages [grocropclient]: Start processing: gwops-client
+[2023-05-16 15:14:01] INFO root fetch - main [MainThread]: End processing [grocropclient]: success
+[2023-05-16 15:14:01] INFO root fetch - processPackages [bool-to-int8-ray]: Downloading https://files.pythonhosted.org/packages/9c/79/4f48b79f85ba7af7f19e59bbbbcbc213e91d69c0d8a883504604b2d57d45/bool-to-int8-ray-0.1.0.tar.gz
+[2023-05-16 15:14:01] INFO root fetch - processPackages [coinglass-api]: Downloading https://files.pythonhosted.org/packages/cd/f0/7bb0668bfe6ba2bcae977a0f8ff98e976869798dd8decf407669c02793eb/coinglass_api-0.3.4.tar.gz
+[2023-05-16 15:14:01] WARNING root fetch - processPackages [gwops-client]: Skipping, unable to determine old version
+[2023-05-16 15:14:01] INFO root fetch - processPackages [gwops-client]: Start processing: shbin
+[2023-05-16 15:14:01] INFO root fetch - main [MainThread]: End processing [gwops-client] error
+[2023-05-16 15:14:01] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/c5/53/f85eea1a731996f353f99275c6401196dd22ce9b674d1269d9a9d290674b/django-utilitas-1.3.6.tar.gz
+[2023-05-16 15:14:01] WARNING root fetch - processPackages [shbin]: Skipping, unable to determine old version
+[2023-05-16 15:14:01] INFO root fetch - processPackages [shbin]: Start processing: artistools
+[2023-05-16 15:14:01] INFO root fetch - main [MainThread]: End processing [shbin] error
+[2023-05-16 15:14:01] INFO root fetch - processPackages [bool-to-int8-ray]: Downloading https://files.pythonhosted.org/packages/0c/e8/5e836c229494ffcbad12a05a6626a0df09f2b327e0df0eccaaae313d7200/bool-to-int8-ray-0.1.1.tar.gz
+[2023-05-16 15:14:01] INFO root fetch - processPackages [coinglass-api]: Downloading https://files.pythonhosted.org/packages/59/c1/d89de748261d4e7d580636eb86fff8222c9aae88b2f6047a6f37f536ad94/coinglass_api-0.3.5.tar.gz
+[2023-05-16 15:14:01] INFO root fetch - processPackages [artistools]: New version: [2023.5.16] Old Version: [2023.4.19.2]
+[2023-05-16 15:14:01] INFO root fetch - processPackages [django-utilitas]: executing diffoscope
+[2023-05-16 15:14:01] INFO root fetch - processPackages [django-utilitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-utilitas-1.3.5.tar.gz tmp/django-utilitas-1.3.6.tar.gz --markdown 20230516/d/django-utilitas/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-16 15:14:01] INFO root fetch - processPackages [pybritive]: Start processing: dynamic-yaml
+[2023-05-16 15:14:01] INFO root fetch - main [MainThread]: End processing [pybritive]: success
+[2023-05-16 15:14:01] INFO root fetch - processPackages [bool-to-int8-ray]: executing diffoscope
+[2023-05-16 15:14:01] INFO root fetch - processPackages [bool-to-int8-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bool-to-int8-ray-0.1.0.tar.gz tmp/bool-to-int8-ray-0.1.1.tar.gz --markdown 20230516/b/bool-to-int8-ray/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-16 15:14:01] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-16 15:14:01] INFO root fetch - processPackages [coinglass-api]: executing diffoscope
+[2023-05-16 15:14:01] INFO root fetch - processPackages [coinglass-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinglass_api-0.3.4.tar.gz tmp/coinglass_api-0.3.5.tar.gz --markdown 20230516/c/coinglass-api/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-16 15:14:01] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/1a/87/35b8c0469518d28f56d0699395e0f6c20b9757fe6a27da5779e246890e25/artistools-2023.4.19.2.tar.gz
+[2023-05-16 15:14:01] INFO root fetch - main [MainThread]: End processing [ewah]: success
+[2023-05-16 15:14:02] INFO root fetch - processPackages [dynamic-yaml]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-16 15:14:02] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-05-16 15:14:02] INFO root fetch - processPackages [dynamic-yaml]: Downloading https://files.pythonhosted.org/packages/e5/04/504031311a115e3f39795f448f092965f364b866968fb0cbe4a43e69073d/dynamic-yaml-1.3.3.tar.gz
+[2023-05-16 15:14:02] INFO root fetch - processPackages [dynamic-yaml]: Downloading https://files.pythonhosted.org/packages/53/ef/e11ba9aa37b54703427e38a2eb184f9756cea06ca79dd60c6d09b8d564fd/dynamic-yaml-1.3.4.tar.gz
+[2023-05-16 15:14:02] INFO root fetch - processPackages [dynamic-yaml]: executing diffoscope
+[2023-05-16 15:14:02] INFO root fetch - processPackages [dynamic-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-yaml-1.3.3.tar.gz tmp/dynamic-yaml-1.3.4.tar.gz --markdown 20230516/d/dynamic-yaml/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-16 15:14:02] INFO root fetch - main [MainThread]: End processing [bool-to-int8-ray]: success
+[2023-05-16 15:14:03] INFO root fetch - main [MainThread]: End processing [coinglass-api]: success
+[2023-05-16 15:14:03] INFO root fetch - main [MainThread]: End processing [django-utilitas]: success
+[2023-05-16 15:14:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-16 15:14:03] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-16 15:14:03] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/4a/f7/fda514e3bf051b41526c9f4cc2a10431a8efd735d53fa554ee4ee425bb09/artistools-2023.5.16.tar.gz
+[2023-05-16 15:14:03] INFO root fetch - main [MainThread]: End processing [dynamic-yaml]: success
+[2023-05-16 15:14:04] INFO root fetch - processPackages [artistools]: executing diffoscope
+[2023-05-16 15:14:04] INFO root fetch - processPackages [artistools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artistools-2023.4.19.2.tar.gz tmp/artistools-2023.5.16.tar.gz --markdown 20230516/a/artistools/2023.4.19.2-2023.5.16/diff.md --exclude *.pyd
+[2023-05-16 15:14:10] INFO root fetch - main [MainThread]: End processing [artistools]: success
+[2023-05-16 15:14:10] INFO root fetch - main [MainThread]: Store serial: [18123691]
