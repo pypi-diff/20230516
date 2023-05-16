@@ -22513,3 +22513,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-16 18:44:27] INFO root fetch - main [MainThread]: End processing [Faker]: success
 [2023-05-16 18:44:28] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
 [2023-05-16 18:44:28] INFO root fetch - main [MainThread]: Store serial: [18126554]
+[2023-05-16 18:49:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18126554]
+[2023-05-16 18:49:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raspisump
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ledger
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twirl
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beatlesalbuns
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal-client
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-multincm
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multicast-expert
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: file-system-py
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alcli
+[2023-05-16 18:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tg-botting
+[2023-05-16 18:49:38] INFO root fetch - processPackages [alcli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [multicast-expert]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [modal-client]: New version: [0.49.2194] Old Version: [0.49.2193]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [django-ledger]: New version: [0.5.3.1] Old Version: [0.5.3.0]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [raspisump]: New version: [1.6] Old Version: [1.5]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [beatlesalbuns]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [twirl]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [nonebot-plugin-multincm]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [alcli]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [alcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcli-1.0.8.tar.gz tmp/alcli-1.0.9.tar.gz --markdown 20230516/a/alcli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-16 18:49:38] INFO root fetch - processPackages [file-system-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [tg-botting]: New version: [1.6.2.4] Old Version: [1.6.2.3]
+[2023-05-16 18:49:38] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/0d/81/9ca6ff079766f4fb1e62766d658ef6e2685856bb54069f1df47848139be4/modal_client-0.49.2194-py3-none-any.whl
+[2023-05-16 18:49:38] INFO root fetch - processPackages [multicast-expert]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [multicast-expert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicast_expert-1.1.0.tar.gz tmp/multicast_expert-1.1.1.tar.gz --markdown 20230516/m/multicast-expert/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-16 18:49:38] INFO root fetch - processPackages [beatlesalbuns]: Downloading https://files.pythonhosted.org/packages/73/0f/cdbb4ba77c8e0437a3528d06025eea6b2ea4a0aa230ffb7d1f3ff4342edd/beatlesalbuns-0.0.2.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/2f/50/5b59880a5b4cb1b5896345e22dc98d14fb0e92b2d60f15edc80e3d9d5085/django_ledger-0.5.3.0-py3-none-any.whl
+[2023-05-16 18:49:38] INFO root fetch - processPackages [raspisump]: Downloading https://files.pythonhosted.org/packages/c6/ca/fbb2acfddab93adc19a01149a8b3a6defc0add953ad398c014580060d29e/raspisump-1.5.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/1d/fa/de7e9852c9d6c947f8c22f9367a4cff07ad785ba9771549889ba6a842beb/tg-botting-1.6.2.4.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [file-system-py]: Downloading https://files.pythonhosted.org/packages/97/26/e17f50bde663bc59acbfcf2e892c267dba2cddefcda5c4178ed616430179/file_system_py-0.0.8.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [twirl]: Downloading https://files.pythonhosted.org/packages/a1/3f/5993fc7efb7c87db867b34fe8ccbb7a0f05ca3eee4bb7377dda901f2be13/twirl-0.3.0.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2193-py3-none-any.whl.zip tmp/modal_client-0.49.2194-py3-none-any.whl.zip --markdown 20230516/m/modal-client/0.49.2193-0.49.2194/diff.md --exclude *.pyd
+[2023-05-16 18:49:38] INFO root fetch - processPackages [nonebot-plugin-multincm]: Downloading https://files.pythonhosted.org/packages/ac/0e/3bfb6f76eb47f44b4011aef607cdaf41a91753cf750d896b8b8557857212/nonebot_plugin_multincm-0.2.3.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-1.6.2.3.tar.gz tmp/tg-botting-1.6.2.4.tar.gz --markdown 20230516/t/tg-botting/1.6.2.3-1.6.2.4/diff.md --exclude *.pyd
+[2023-05-16 18:49:38] INFO root fetch - processPackages [nonebot-plugin-multincm]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [nonebot-plugin-multincm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_multincm-0.2.2.tar.gz tmp/nonebot_plugin_multincm-0.2.3.tar.gz --markdown 20230516/n/nonebot-plugin-multincm/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-16 18:49:38] INFO root fetch - processPackages [twirl]: Downloading https://files.pythonhosted.org/packages/e3/2d/c7b1d3527d55c369baa85d1e70e76c29bbc8b69ac02aca75d51ae9343256/twirl-0.3.1.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [raspisump]: Downloading https://files.pythonhosted.org/packages/76/7e/bf4124cde5a10a1c2d4c7288e1c8f41b2d00dd70c79d66992b774b466787/raspisump-1.6.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [django-ledger]: Downloading https://files.pythonhosted.org/packages/7d/da/5ec24ca22b20ec4f01e3b485b0a3791be981d5cd2c00e090ebeea8d782ad/django_ledger-0.5.3.1-py3-none-any.whl
+[2023-05-16 18:49:38] INFO root fetch - processPackages [file-system-py]: Downloading https://files.pythonhosted.org/packages/75/63/a41f2611c0c7e35d085e08f0d75d85811e23989763e99ed659d37588c5be/file_system_py-0.0.9.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [beatlesalbuns]: Downloading https://files.pythonhosted.org/packages/f2/be/46d7005108295011ab8c5f9bc09f07596fdcbc0b72c1668e2589358ed7d7/beatlesalbuns-0.0.3.tar.gz
+[2023-05-16 18:49:38] INFO root fetch - processPackages [file-system-py]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [file-system-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_system_py-0.0.8.tar.gz tmp/file_system_py-0.0.9.tar.gz --markdown 20230516/f/file-system-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-16 18:49:38] INFO root fetch - processPackages [django-ledger]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [django-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ledger-0.5.3.0-py3-none-any.whl.zip tmp/django_ledger-0.5.3.1-py3-none-any.whl.zip --markdown 20230516/d/django-ledger/0.5.3.0-0.5.3.1/diff.md --exclude *.pyd
+[2023-05-16 18:49:38] INFO root fetch - processPackages [twirl]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [twirl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twirl-0.3.0.tar.gz tmp/twirl-0.3.1.tar.gz --markdown 20230516/t/twirl/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-16 18:49:38] INFO root fetch - processPackages [beatlesalbuns]: executing diffoscope
+[2023-05-16 18:49:38] INFO root fetch - processPackages [beatlesalbuns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beatlesalbuns-0.0.2.tar.gz tmp/beatlesalbuns-0.0.3.tar.gz --markdown 20230516/b/beatlesalbuns/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-16 18:49:39] INFO root fetch - processPackages [raspisump]: executing diffoscope
+[2023-05-16 18:49:39] INFO root fetch - processPackages [raspisump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspisump-1.5.tar.gz tmp/raspisump-1.6.tar.gz --markdown 20230516/r/raspisump/1.5-1.6/diff.md --exclude *.pyd
+[2023-05-16 18:49:39] INFO root fetch - processPackages [alcli]: Start processing: pydustry.py
+[2023-05-16 18:49:39] INFO root fetch - main [MainThread]: End processing [alcli]: success
+[2023-05-16 18:49:39] WARNING root fetch - processPackages [pydustry.py]: Skipping, unable to determine old version
+[2023-05-16 18:49:39] INFO root fetch - processPackages [pydustry.py]: Start processing: recon-lw
+[2023-05-16 18:49:39] INFO root fetch - main [MainThread]: End processing [pydustry.py] error
+[2023-05-16 18:49:39] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4994252175] Old Version: [2.0.0.dev4992886443]
+[2023-05-16 18:49:40] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/ac/d4/82d82b9f030439b9acedc10290a687eabb695a969e27ccf6b062b82a0322/recon_lw-2.0.0.dev4994252175.tar.gz
+[2023-05-16 18:49:40] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-05-16 18:49:40] INFO root fetch - main [MainThread]: End processing [multicast-expert]: success
+[2023-05-16 18:49:40] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-16 18:49:40] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230516:/home/abi/fetcher/20230516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4992886443.tar.gz tmp/recon_lw-2.0.0.dev4994252175.tar.gz --markdown 20230516/r/recon-lw/2.0.0.dev4992886443-2.0.0.dev4994252175/diff.md --exclude *.pyd
+[2023-05-16 18:49:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-multincm]: success
+[2023-05-16 18:49:40] INFO root fetch - main [MainThread]: End processing [file-system-py]: success
+[2023-05-16 18:49:40] INFO root fetch - main [MainThread]: End processing [beatlesalbuns]: success
+[2023-05-16 18:49:40] INFO root fetch - main [MainThread]: End processing [twirl]: success
+[2023-05-16 18:49:41] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-16 18:49:41] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-16 18:49:41] INFO root fetch - main [MainThread]: End processing [raspisump]: success
+[2023-05-16 18:49:44] INFO root fetch - main [MainThread]: End processing [django-ledger]: success
+[2023-05-16 18:49:44] INFO root fetch - main [MainThread]: Store serial: [18126589]
